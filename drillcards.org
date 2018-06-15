@@ -1,0 +1,2024 @@
+# -*- eval: (activate-input-method 'TeX); -*-
+#+STARTUP: nolatexpreview
+* Installing org-drill: 
+1. Add http://orgmode.org/elpa to the package-archives list
+2. Use M-x list-packages to install org-plus-... packages
+3. require cl and org-drill in init file AFTER org is loaded, otherwise
+   M-x org-drill will be a bo match. cl is needed for copy-list function
+* Development
+** emacs
+*** org-mode							      :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       9a994bce-9e78-4b2e-8946-bbf23a422aab
+    :DRILL_LAST_INTERVAL: 5.1415
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.867
+    :DRILL_EASE: 1.24
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:50]
+    :END:
+How to edit a source block?
+**** Answer
+Start a temporary buffer
+in the native mode of the language with
+ctrl-c ', edit and return to the org buffer
+with ctrl-c '.
+*** org-mode							      :drill:
+    SCHEDULED: <2018-09-26 Wed>
+    :PROPERTIES:
+    :ID:       82776f42-ac4c-47ac-b03c-6cb5b1aca29e
+    :DRILL_LAST_INTERVAL: 120.6349
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:01]
+    :END:
+How to insert a source block?
+**** Answer:
+Type *<s+TAB*, on a line by itself.
+This will insert an empty source code 
+block
+#+BEGIN_EXAMPLE
+#+BEGIN_SRC js
+
+#+END_SRC
+#+END_EXAMPLE
+*** elisp							      :drill:
+    SCHEDULED: <2018-07-11 Wed>
+    :PROPERTIES:
+    :ID:       bd0866b9-d814-42f9-8f37-d5352e36c314
+    :DRILL_LAST_INTERVAL: 29.16
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.7
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:19]
+    :END:
+What is the difference between setting 
+a variable with =set= vs =setq=?
+**** Answer:
+In =setq= there is no attempt to evaluate
+the first argument, it is assumed quoted.
+*** elisp							      :drill:
+    SCHEDULED: <2018-06-30 Sat>
+    :PROPERTIES:
+    :ID:       85d6aa60-e332-4b78-8237-f498b08c5748
+    :DRILL_LAST_INTERVAL: 21.4949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:38]
+    :END:
+What is the difference between 
+setting a variable with /set/ vs /let/?
+**** Answer:
+Variables set with =let varlist body=
+are only visible within /body/.
+*** elisp							      :drill:
+    SCHEDULED: <2018-07-24 Tue>
+    :PROPERTIES:
+    :ID:       454a9228-a12f-4b0a-95b8-bdb511d7c400
+    :DRILL_LAST_INTERVAL: 58.2434
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-27 Sun 09:25]
+    :END:
+What is the problem when variables
+in the /varlist/ of a =let= have value
+/nil/ even though values were assigned to them?
+**** Answer:
+Check for proper parenthesing: the /varlist/ 
+can contain variablenames and =(variable value)=
+pairs, only in the latter case is the =variable=
+asigned a value. A list of the form 
+=(symbol1 symbol2)= creates two variables names 
+=symbol1= and =symbol2= with values =nil=, 
+not a variable name =symbol1= with value 
+=symbol2=.
+*** elisp							      :drill:
+    SCHEDULED: <2018-08-02 Thu>
+    :PROPERTIES:
+    :ID:       a274fee8-a3cf-4332-a890-abb36b312e6c
+    :DRILL_LAST_INTERVAL: 64.9329
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:45]
+    :END:
+What is the difference between =funcall= 
+and =apply=?
+**** Answer:
+They are both used to call functions, the
+only difference is how arguments are handled.
+Whilst =funcall= treats the arguments after the 
+function as arguments of the function, =apply=
+inserts them into the list given by the last 
+argument.
+*** elisp							      :drill:
+    SCHEDULED: <2018-07-10 Tue>
+    :PROPERTIES:
+    :ID:       ea6336b3-1a9a-41c1-8bc8-0243842e4b9c
+    :DRILL_LAST_INTERVAL: 28.1604
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 4.143
+    :DRILL_EASE: 2.76
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:18]
+    :END:
+What is the problem when a call to =apply= 
+results in a lisp error: /wrong-type-argument 
+listp argname/?
+**** Answer:
+The last argument of =apply= must be a list.
+** version control
+*** git 							      :drill:
+    SCHEDULED: <2019-01-11 Fri>
+    :PROPERTIES:
+    :ID:       d4a5db39-5c21-4995-bffc-4651b109e447
+    :DRILL_LAST_INTERVAL: 224.5541
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.6
+    :DRILL_EASE: 2.8
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:44]
+    :END:
+What is the first thing to do
+when entering a directory managed with /git/?
+**** Answer
+Run /git-status/ to see if there are any
+changes that need to be added for a commit
+and if things are in sync with remote
+repositories.
+** javascript
+*** javascript var declaration 					      :drill:
+    SCHEDULED: <2018-10-15 Mon>
+    :PROPERTIES:
+    :ID:       52e458c1-db4a-4ad4-a6ba-8be27a7c5733
+    :DRILL_LAST_INTERVAL: 140.2528
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:01]
+    :END:
+What turns javascript variables declared
+ with /var/ into a minefield for the normal
+programmer?
+**** Answer
+The fact that they are not block-scoped but
+function scoped. Thus, a variable declared in
+a loop will be visible even before the loop
+in its ambient function. This leads to 
+unexpected behaviour. In addition, it is 
+possible to make a /var/ declaration
+several times with the same variable.
+*** javascript var declaration					      :drill:
+    SCHEDULED: <2018-11-22 Thu>
+    :PROPERTIES:
+    :ID:       5fa57496-c309-4ccb-8b53-0f62c54db15f
+    :DRILL_LAST_INTERVAL: 175.2073
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:52]
+    :END:
+What needs to be observed when 
+declaring variables?
+**** Answer
+Prefer the /let/ keyword over /var/ when 
+declaring or defining variables. 
+
+*** javascript for loops					      :drill:
+    SCHEDULED: <2018-07-28 Sat>
+    :PROPERTIES:
+    :ID:       577eb5cf-4831-4bd4-822e-326de1bbbfd8
+    :DRILL_LAST_INTERVAL: 62.2806
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.42
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-27 Sun 09:29]
+    :END:
+What to do about the /for .. in/ problems
+when looping over arrays?
+**** Answer
+Use a /for ... of/ loop instead of 
+/for ... in/, ie 
+#+BEGIN_SRC js
+for(var item of arr){
+//do something with array arr here
+}
+#+END_SRC
+*** javascript for loops					      :drill:
+    SCHEDULED: <2018-07-05 Thu>
+    :PROPERTIES:
+    :ID:       3326e9e1-54ea-4d61-aee7-8b0e6c3feafe
+    :DRILL_LAST_INTERVAL: 24.3666
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.875
+    :DRILL_EASE: 2.52
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:50]
+    :END:
+What is the problem with /for .. in/
+loops over arrays?
+**** Answer
+A /for .. in/ loop loops over
+the property keys of the array object,
+not just the indices.
+*** javascript for loops					      :drill:
+    SCHEDULED: <2018-10-25 Thu>
+    :PROPERTIES:
+    :ID:       83079dcd-f141-4d6e-ab90-8571ac5b23c7
+    :DRILL_LAST_INTERVAL: 147.1248
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:52]
+    :END:
+Can the /for .. of/ loop be used to
+iterate over objects?
+**** Answer
+If the specification is ES6
+or higher. For TypeScript generating
+javascript for ES5 or lower, the object 
+needs to have a /length/ property for this 
+to work because the generated code
+is a classical for loop with an index
+variable.
+*** typescript typing						      :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       0c8ffb27-599d-4e13-bca2-59fcdb8b5e34
+    :DRILL_LAST_INTERVAL: 193.956
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.6
+    :DRILL_EASE: 2.8
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:25]
+    :END:
+What does it mean to say that typescript is
+structurally typed?
+**** Answer
+This means that typescript considers types with
+the same internal structure the same, even though
+they may have different names.
+*** typescript enum						      :drill:
+    SCHEDULED: <2018-12-04 Tue>
+    :PROPERTIES:
+    :ID:       06796314-185f-48ae-8c9a-8a35d8d0ef46
+    :DRILL_LAST_INTERVAL: 186.8053
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.42
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:44]
+    :END:
+Why is there no string based enum type?
+**** Answer
+Because typescript has string literal types and
+string based enums can be easily constructed
+as union of these.
+*** typescript typing 						      :drill:
+    SCHEDULED: <2018-09-20 Thu>
+    :PROPERTIES:
+    :ID:       72c84d1b-63f7-4833-93ee-0e39499fb6f3
+    :DRILL_LAST_INTERVAL: 115.0975
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:11]
+    :END:
+Is there a way to achieve nominal typing in
+typescript?
+**** Answer:
+Since /enum/s are nominally typed, define a
+dedicated /enum/ for a type and form the 
+intersection of the two. Note that this does
+not work if the type is a /number/ because 
+/enum/'s are compatible with /number/.
+*** typescript functions					      :drill:
+    SCHEDULED: <2018-10-27 Sat>
+    :PROPERTIES:
+    :ID:       6da9a381-4c72-4937-a8ff-87e11e841e61
+    :DRILL_LAST_INTERVAL: 150.75
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:56]
+    :END:
+Why is using /bind(...)/ on functions a bad 
+idea?
+**** Answer:
+Because all type information is lost due to 
+/bind/ returning /any/.
+*** typescript functions					      :drill:
+    SCHEDULED: <2018-09-03 Mon>
+    :PROPERTIES:
+    :ID:       adbea4df-d86b-4855-9529-79c9867975c6
+    :DRILL_LAST_INTERVAL: 97.8775
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:04]
+    :END:
+Why is /bind/ not necessary for binding 
+variables to a function?
+**** Answer:
+Because arguments can be bound with Currying or 
+a simple arrow function:
+=let bound = (x:type) = > fctn(x,...);=
+*** typescript functions					      :drill:
+    SCHEDULED: <2018-10-27 Sat>
+    :PROPERTIES:
+    :ID:       50983de0-fc32-4b5a-bdec-12502b96b70a
+    :DRILL_LAST_INTERVAL: 151.1924
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.42
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:55]
+    :END:
+How to replace /bind/ for /this/ binding?
+**** Answer:
+For methods that are expected to be passed
+around, use an arrow function when defining
+its class instead of a normal method definition.
+*** typescript functions 					      :drill:
+    SCHEDULED: <2018-09-03 Mon>
+    :PROPERTIES:
+    :ID:       e154baa2-a70c-4038-ac1e-6b0c588022f8
+    :DRILL_LAST_INTERVAL: 97.8775
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:04]
+    :END:
+How to use Currying?
+**** Answer:
+Just use a chain of arrow functions:
+=let fctn2=(x1:type1)=>(x2:type2)=>do something;=
+defines a 2-parameter function which can be
+partially applied:
+=let fctn1=fctn2(value1);=
+*** typescript typing 						      :drill:
+    SCHEDULED: <2018-11-15 Thu>
+    :PROPERTIES:
+    :ID:       450a3901-2083-4209-8264-05ad4cb4dd58
+    :DRILL_LAST_INTERVAL: 168.8256
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:25]
+    :END:
+What is a union of types?
+**** Answer:
+A type =type1|type2= which can be assigned
+an object of /type1/ or an object of /type2/.
+*** typescript typing 						      :drill:
+    SCHEDULED: <2018-11-14 Wed>
+    :PROPERTIES:
+    :ID:       3986e32d-3b56-4c6c-9de3-c6e6c7796beb
+    :DRILL_LAST_INTERVAL: 168.8256
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:57]
+    :END:
+What is an /intersection/ of types?
+**** Answer:
+A type =type1&type2= which has a member of
+/type1/ as well as a member of /type2/.
+*** typescript types						      :drill:
+    SCHEDULED: <2018-11-26 Mon>
+    :PROPERTIES:
+    :ID:       5d7e94f4-bebd-4ee4-833c-48e0b495beb4
+    :DRILL_LAST_INTERVAL: 181.072
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.4
+    :DRILL_EASE: 2.7
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:57]
+    :END:
+What is the point of =!!varname= for a variable
+with name /varname/?
+**** Answer:
+This turns a variable of any type into a
+/boolean/ with its proper truth value. Note
+that a single =!= negates the /truthy/ value 
+of the variable into a /boolean truth/ value
+and a second one negates it back in the 
+opposite /boolean truth/ value.
+*** typescript types						      :drill:
+    SCHEDULED: <2018-11-15 Thu>
+    :PROPERTIES:
+    :ID:       a1b4769e-3dc5-4eaa-ae99-165d4ef03cfb
+    :DRILL_LAST_INTERVAL: 168.8256
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:25]
+    :END:
+Why should an /interface/ be preferred over a
+/class/ whenever possible?
+**** Answer:
+Because an /interface/ has zero runtime 
+impact.
+*** typescript types 						      :drill:
+    SCHEDULED: <2018-09-20 Thu>
+    :PROPERTIES:
+    :ID:       734b414c-e936-4b9d-baac-966a4d4b89a3
+    :DRILL_LAST_INTERVAL: 115.0975
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:09]
+    :END:
+How can types be defined recursively?
+**** Answer:
+With a type alias using generics:
+=type tname<T> = T & {// use tname<T> here}=.
+*** typescript classes						      :drill:
+    SCHEDULED: <2018-10-11 Thu>
+    :PROPERTIES:
+    :ID:       cec6ef43-99a3-4cd0-8840-586a56c6c3e6
+    :DRILL_LAST_INTERVAL: 135.4782
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:54]
+    :END:
+How are member initializations from constructor
+parameters made more convenient?
+**** Answer:
+By allowing access modifiers in constructor
+parameters where
+=constructor(public x:type){}=
+is equivalent to
+=constructor(x:type){ this.x = x}=
+*** typescript classes						      :drill:
+    SCHEDULED: <2019-01-26 Sat>
+    :PROPERTIES:
+    :ID:       c4129116-f90e-4ad5-9fbb-7843da2ac577
+    :DRILL_LAST_INTERVAL: 239.8124
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.8
+    :DRILL_EASE: 2.9
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:50]
+    :END:
+In which way differs constructor naming in
+typescript from languages like C++ or Java?
+**** Answer:
+The name of the constructor is always 
+=constructor= rather than the class name 
+as in C++ or Java.
+*** typescript classes 						      :drill:
+    SCHEDULED: <2018-11-14 Wed>
+    :PROPERTIES:
+    :ID:       99a03428-f963-4df5-9b07-becd245926e5
+    :DRILL_LAST_INTERVAL: 168.4282
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.2
+    :DRILL_EASE: 2.56
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:24]
+    :END:
+Do all members of a class have to be initialised
+through the class constructor?
+**** Answer:
+No, any member can be initialised outside
+the constructor, which is often used for
+defaults. In fact, a constructor isn't even
+necessary.
+*** typescript classes 	 				      :drill:
+    SCHEDULED: <2018-11-12 Mon>
+    :PROPERTIES:
+    :ID:       e3dad0aa-0eca-4817-b407-66a488214183
+    :DRILL_LAST_INTERVAL: 165.5656
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.66
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:24]
+    :END:
+What needs to be observed in constructors of
+derived classes?
+**** Answer:
+In general, the constructor of the superclass 
+has to be called. Use =super= to do that.
+*** typescript classes 	 				      :drill:
+    SCHEDULED: <2018-06-24 Sun>
+    :PROPERTIES:
+    :ID:       67da1017-12ef-4f7d-a700-3e054125fbb3
+    :DRILL_LAST_INTERVAL: 14.7047
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:38]
+    :END:
+What is the problem with defining functions not
+as methods but as members, for example by
+assigning an arrow function to a member?
+**** Answer:
+They cannot be overridden in a derived class 
+with the same name because they are not part
+of the prototype chain.
+*** typescript classes 	 				      :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       3601bed3-0b17-45ab-a681-e6dd6ef083ed
+    :DRILL_LAST_INTERVAL: 200.7835
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.6
+    :DRILL_EASE: 2.8
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:27]
+    :END:
+How to call a function defined in a super class
+as a member rather than a method?
+**** Answer:
+With =this.functioname(...)= rather than 
+=super.functioname(...)= as would be the case
+with methods.
+*** typescript classes 	 				      :drill:
+    SCHEDULED: <2018-10-06 Sat>
+    :PROPERTIES:
+    :ID:       3a763f6b-3a94-4c02-b537-8bad51f1b0da
+    :DRILL_LAST_INTERVAL: 129.6141
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:54]
+    :END:
+Why can functions defined as members rather
+than methods not have the same name in a 
+derived class and its base class?
+**** Answer:
+Because they must be accessed through /this/.
+Since the /this/ of the derived class contains
+the members of the derived class and those of
+the base class, having the same name would 
+lead to conflicts.
+*** typescript classes 	 				      :drill:
+    SCHEDULED: <2018-11-21 Wed>
+    :PROPERTIES:
+    :ID:       f3d26521-acee-48b1-9b49-dd9a2890187b
+    :DRILL_LAST_INTERVAL: 174.7684
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:27]
+    :END:
+What is the rationale behind the mutable /this/
+pointer of functions defined as members in 
+javascript objects?
+**** Answer:
+The fact that functions used as callbacks 
+sometimes need the context of the caller 
+combined with the ease of obtaining the 
+context of the defining object through the
+use of closures, ie. the =that = this= method.
+*** typescript classes 	 				      :drill:
+    SCHEDULED: <2018-10-13 Sat>
+    :PROPERTIES:
+    :ID:       1bd2988b-09f6-405d-a0fb-3089561857b7
+    :DRILL_LAST_INTERVAL: 137.3031
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:56]
+    :END:
+What is the difference between defining a 
+function as a member of a class via the 
+/function/ keyword and the fat arrow lambda
+notation?
+**** Answer:
+The value of /this/ is different. Defining
+=this.funcname = function(...){...}= sets /this/
+to the calling context of whoever calls 
+=objname.funcname()=. On the other hand, with
+=this.funcname = (...) => {...}=, =this= always
+refers to the =this= of the defining context, 
+no matter who calls =objname.funcname=.
+* Documents
+** Conversions
+*** How to convert latex to svg? 				      :drill:
+    :PROPERTIES:
+    :ID:       59330d5e-20ac-4fec-b116-9eae36b3979e
+    :END:
+**** Answer
+The most direct method would be
+to install mathjax-node using
+/npm install -g mathjax-node/ and
+then to use its /tex2svg/ command. 
+Alternatively, use /dvisvgm/ to convert
+dvi to svg because this is part of a
+tex-installation.
+* Gnosis
+** Meditation
+*** Self-Knowledge                                                    :drill:
+    SCHEDULED: <2018-06-19 Tue>
+    :PROPERTIES:
+    :ID:       7a201c84-df05-4c49-9fbb-335c09f48090
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-15 Fri 09:44]
+    :END:
+How could Astrology be used
+to obtain knowledge of
+oneself?
+**** Answer:
+By developing the true 
+horoscope of oneself. Derive
+planetary positions according
+to your own character traits
+as perceived by yourself.
+*** Zen                                                               :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       fc716a71-2964-4afd-8909-47bab460da0a
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:17]
+    :END:
+Why the obsession of Zen with
+breaking away from words?
+**** Answer:
+This is meant to get rid of
+the confusion of language 
+with reality. Reality is more 
+varied than language, the Tao
+that can be named is not the 
+eternal Tao.
+** Alchemy
+*** mercury                                                           :drill:
+    SCHEDULED: <2018-06-20 Wed>
+    :PROPERTIES:
+    :ID:       9b8af379-0c48-4978-b7e6-c7be48cb0cfc
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:49]
+    :END:
+What is the principle
+of Mercury?
+**** Answer:
+Probing and extension. It probes
+its environment and extends into
+favourable conditions thus causing
+dispersion.
+*** mercury                                                           :drill:
+    SCHEDULED: <2018-06-20 Wed>
+    :PROPERTIES:
+    :ID:       bfb1ad04-e7f7-4cf6-8403-0f96ea1e5c8f
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:49]
+    :END:
+What is the /monkey/ from an alchemistic
+point of view?
+**** Answer:
+The aspect of Mercury in the mind. A
+constantly probing and chattering 
+agent.
+* Mathematics
+** Algebra
+*** p-adic numbers						      :drill:
+    SCHEDULED: <2018-06-19 Tue>
+    :PROPERTIES:
+    :ID:       6b76eb5b-5272-43cc-bc15-ca08c97ca9a5
+    :DRILL_LAST_INTERVAL: 11.1679
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.779
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-08 Fri 12:52]
+    :END:
+What is the ring of /p/-adic integers?
+**** Answer:
+The /inverse/ limit of the rings /ℤ/pⁿℤ/, 
+ie all integer sequences /(aₙ)/ 
+such that /aₙ ∈ ℤ/pⁿℤ/ and 
+/aₙ≡ aₘ mod pⁿ/ if /n ≤ m/.
+*** p-adic numbers						      :drill:
+    SCHEDULED: <2018-11-15 Thu>
+    :PROPERTIES:
+    :ID:       175b7088-8e94-4a76-a02e-28d0862befc3
+    :DRILL_LAST_INTERVAL: 168.2268
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.42
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:50]
+    :END:
+In which sense can numbers /m∈ℕ/ be considered
+p-adic?
+**** Answer:
+By forming the sequence /(aₙ)/ as 
+/aₙ≡m mod pⁿ/.
+*** p-adic numbers						      :drill:
+    SCHEDULED: <2018-12-11 Tue>
+    :PROPERTIES:
+    :ID:       7a74d5b4-5299-46ad-a4d4-015704c152d0
+    :DRILL_LAST_INTERVAL: 193.956
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.6
+    :DRILL_EASE: 2.8
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:51]
+    :END:
+How are the ring operations defined on the 
+/p/-adic integers?
+**** Answer:
+By componentwise addition and multiplication 
+of the sequences.
+*** p-adic numbers						      :drill:
+    SCHEDULED: <2018-08-20 Mon>
+    :PROPERTIES:
+    :ID:       0021bc5b-d1d1-484c-baa0-dc550d0a6674
+    :DRILL_LAST_INTERVAL: 82.7478
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:53]
+    :END:
+How are the sequences /(aₙ)/ 
+representing /p/-adic integers related to 
+their usual series representation 
+/∑ₙ bₙpⁿ/?
+**** Answer:
+By the partial sums of the series, which yield 
+the elements of the sequence as 
+/aₙ=∑ⁿbₘpᵐ/.
+** Geometry
+*** Differential						      :drill:
+    SCHEDULED: <2018-07-06 Fri>
+    :PROPERTIES:
+    :ID:       e05ccbee-8415-4796-a494-64f2c880e243
+    :DRILL_LAST_INTERVAL: 25.88
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:34]
+    :END:
+What does the vector field /∂ₓ/
+look like in two dimensions?
+**** Answer:
+These are the unit arrows pointing
+in the direction of constant /y/, ie
+to the right in the normal /x,y/ plane.
+*** Differential						      :drill:
+    SCHEDULED: <2018-06-22 Fri>
+    :PROPERTIES:
+    :ID:       9e335c5e-2c9a-4089-af6c-ff02c2211346
+    :DRILL_LAST_INTERVAL: 11.1679
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:52]
+    :END:
+Why are the partial differential 
+operators in the unit directions 
+considered a basis for vector-fields?
+**** Answer:
+Because vector fields are linear operators
+assigning to each scalar field a field 
+of directional derivatives given by the
+directions of the vectors in the vector field. 
+*** Differential						      :drill:
+    SCHEDULED: <2018-07-15 Sun>
+    :PROPERTIES:
+    :ID:       f34ab62f-12a9-4edb-a4fb-2500c8359cee
+    :DRILL_LAST_INTERVAL: 48.1104
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:07]
+    :END:
+What is the problem when trying to define a 
+derivative of vector fields on a manifold?
+**** Answer:
+In most cases the difference /v(x+hw)-v(x)/
+doesn't make sense because the vectors
+involved are not in the same tangent space.
+Using coordinate-wise differences doesn't 
+help because it makes the
+result dependent on the choice of 
+coordimate system.
+*** Differential						      :drill:
+    SCHEDULED: <2018-07-20 Fri>
+    :PROPERTIES:
+    :ID:       e72d3169-660c-409c-8b65-1b87edc11af5
+    :DRILL_LAST_INTERVAL: 52.9881
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:08]
+    :END:
+Why is it a problem that the ordinary
+derivative of vector fields is not 
+tensorial?
+**** Answer:
+Because this means that this derivative
+depends on the choice of coordinate system.
+*** Differential						      :drill:
+    SCHEDULED: <2018-07-20 Fri>
+    :PROPERTIES:
+    :ID:       63934d3f-1f6a-4e4d-b1e5-0d1ddcb7e024
+    :DRILL_LAST_INTERVAL: 52.9971
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:08]
+    :END:
+What is the geometric idea of calculating
+the covariant derivative of a vector field?
+**** Answer:
+To calculate the derivative of the vector
+field at /x/, the vector /v(x+tw)/ undergoes
+a parallel transport into the tangent
+space at /x/ and is compared to /v(x)/. 
+*** Differential						      :drill:
+    SCHEDULED: <2018-07-01 Sun>
+    :PROPERTIES:
+    :ID:       29efe539-ce68-4447-a25d-8d5f21b06a52
+    :DRILL_LAST_INTERVAL: 21.4987
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.571
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:32]
+    :END:
+What is the idea of parallel transport
+of tangent vectors on a manifold as used
+in the calculation of the covariant
+derivative?
+**** Answer:
+The embedding of the manifold in an Euclidean
+space is used, where parallel transport is 
+well defined. The vectors are transported in
+the ambient space and projected onto the tangent
+spaces of the manifold.
+*** Differential						      :drill:
+    SCHEDULED: <2018-07-22 Sun>
+    :PROPERTIES:
+    :ID:       a61437ca-4da8-4081-833f-bed25acc53ea
+    :DRILL_LAST_INTERVAL: 54.9212
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:09]
+    :END:
+What is the advantage of the Lie derivative
+over covariant derivatives on a manifold? 
+**** Answer:
+Covariant derivatives depend on the metric of
+the manifold whereas Lie-type derivatives don't.
+** Logic
+*** Linear                                                            :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       be051ebc-472a-4588-9a64-2ace8cbce06c
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:17]
+    :END:
+What is the difference between
+the two conjunctions ⊗ and &
+in linear logic?
+**** Answer:
+Values of /A⊗B/ are strict, both
+components are necessary. 
+Values of /A&B/ are lazy.
+*** Linear                                                            :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       023f42b9-fe61-4afb-870d-fbc821eddb82
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:19]
+    :END:
+Why is /A&B/ in linear logic more
+similar to classical conjunction
+than /A⊗B/?
+**** Answer:
+Because there is no projection,
+ie no rules /A⊗B→A/ nor /A⊗B→B/.
+*** Linear                                                            :drill:
+    SCHEDULED: <2018-06-18 Mon>
+    :PROPERTIES:
+    :ID:       707c1469-4d69-4e34-87ab-c2fe6d2b9b29
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:26]
+    :END:
+Why is linear logic suitable
+for both quantum mechanics and
+functional programming?
+**** Answer:
+Because of its distinction 
+between strict and lazy 
+evaluation, which occurs in
+quantum mechanics in the form
+of unitary evolution.
+*** Linear                                                            :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       ce923632-2b4b-49f8-8f78-b8ee22bb711f
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:20]
+    :END:
+What is the bang operator
+good for in linear logic?
+**** Answer:
+It is used to consume resources,
+ie evaluate a lazy expression
+in functional programming or
+make a measurement in a
+quantum system.
+*** Linear Logic                                                      :drill:
+    SCHEDULED: <2018-06-18 Mon>
+    :PROPERTIES:
+    :ID:       0eb08fe5-6743-4e72-8a50-fe05c4ba46d0
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:25]
+    :END:
+What is the meaning of
+/A₁, A₂,…, Aₙ ⊦ B/ in 
+linear logic?
+**** Answer:
+This means /B/ is a 
+consequent of
+/A₁⊗A₂⊗…⊗Aₙ/, ie.
+/A₁⊗…⊗Aₙ ⊦ B/.
+*** Linear Logic                                                      :drill:
+    SCHEDULED: <2018-06-18 Mon>
+    :PROPERTIES:
+    :ID:       f85d5687-848c-4475-bdc3-7367277727f2
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:21]
+    :END:
+What is the /linear constraint/
+imposed by linear logic?
+**** Answer:
+The constraint that proofs 
+can use neither /weakening/ nor
+/contraction/.
+*** Linear Logic                                                      :drill:
+    SCHEDULED: <2018-06-18 Mon>
+    :PROPERTIES:
+    :ID:       fa0ddc86-9cc4-4d00-8f59-827489d0a404
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:21]
+    :END:
+In which sense is the use of
+the tensor symbol ⊗ for the
+second conjunction in linear
+logic appropriate?
+**** Answer:
+In a quantum sense because
+/A⊗B/ seems to aptly describe
+the behaviour of entangled
+quantum systems. Measuring
+/A⊗B/ allows no conclusions
+regarding the respective states 
+of the components /A,B/.
+*** Linear Logic                                                      :drill:
+    SCHEDULED: <2018-06-18 Mon>
+    :PROPERTIES:
+    :ID:       329ca527-1a7e-44a2-bdf8-4cd413d047bb
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:22]
+    :END:
+Why is it impossible to
+prove /A,B ⊦ A/ in linear logic?
+**** Answer:
+Since this means /A⊗B⊦A/, this 
+would lead to /⊦A⊗B⊸A/ which is
+known not to hold.
+*** Linear Logic                                                      :drill:
+    SCHEDULED: <2018-06-18 Mon>
+    :PROPERTIES:
+    :ID:       1c0e49f3-9259-454f-bc57-070b37fe7c99
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:21]
+    :END:
+How is a proof of sequent
+/A₁,…,Aₙ⊦A/ of linear logic 
+translated to a combinator?
+**** Answer:
+As /φ:A₁⊗…⊗Aₙ→A/.
+*** Logic                                                             :drill:
+    SCHEDULED: <2018-06-18 Mon>
+    :PROPERTIES:
+    :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:20]
+    :END:
+What is a /combinator/?
+**** Answer:
+A name /φ:A→B/ for a proof of
+sequent /A⊦B/.
+
+* Physics
+** Quantum
+*** Fields                                                            :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       4e7f4388-7dde-408d-8359-9802db92d21e
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:20]
+    :END:
+Why are the field particles of
+quantum fields arising from
+classical fields bosons?
+**** Answer:
+Because these fields have a notion
+of /field strength/ which requires
+that arbitrary many field particles
+can be in the same state. 
+*** Fields                                                            :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       c65bb428-6bf6-4c41-93a5-d5a57389be52
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:16]
+    :END:
+Why is an electron gas not related
+to a classical field?
+**** Answer:
+Because the field particles are 
+electrons, which are fermions. Thus,
+there is no classical field strength
+associated with an electron gas.
+*** Fields                                                            :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       218177bd-75a8-404d-a805-df581fa5da4c
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:18]
+    :END:
+Why is consciousness probably
+related to a field of Fermions?
+**** Answer:
+Because quantum computations occur in
+fields composed of Fermions or in 
+fields with Parastatistics when 
+using /qudits/.
+*** Fields                                                            :drill:
+    SCHEDULED: <2018-07-02 Mon>
+    :PROPERTIES:
+    :ID:       8b5816c6-cc54-443a-8a17-eb4ad722daa8
+    :DRILL_LAST_INTERVAL: 18.8265
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-13 Wed 12:00]
+    :END:
+How does a (proper) Lorentz 
+transformation /Λ/
+affect field operators /Φ(x)/?
+**** Answer:
+/Φ(x) → U(Λ)Φ(x)U(Λ⁻¹)/ where 
+/U(Λ)/ is the unitary operator
+representing /Λ/ on the 
+Hilbert space on which /Φ(x)/ 
+is defined.
+*** Fields                                                            :drill:
+    SCHEDULED: <2018-07-02 Mon>
+    :PROPERTIES:
+    :ID:       ec3c4a08-bc01-4d7e-9571-a3cb41ee717d
+    :DRILL_LAST_INTERVAL: 18.8265
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-13 Wed 12:00]
+    :END:
+How does a proper Lorentz
+transformation /Λ/ affect
+field operator components
+/Φᵐ(x)/ of a multi-component
+field operator?
+**** Answer:
+Componentwise as
+/Φᵐ(x)→U(Λ)Φᵐ(x)U(Λ⁻¹)/
+which can be written
+/D(Λ⁻¹)ᵐₙΦⁿ(Λx)/ using
+sum convention and Dirac
+matrices /D/.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-08-21 Tue>
+    :PROPERTIES:
+    :ID:       61fa2d3d-1af9-4cd9-a9c1-2f957ed3599b
+    :DRILL_LAST_INTERVAL: 82.7478
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:24]
+    :END:
+How are vectors of a Hilbert space
+connected to physical reality?
+**** Answer:
+Via measuring devices, for example Geiger 
+counters with certain readings are assigned a 
+normalized vector in the Hilbert space.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-07-06 Fri>
+    :PROPERTIES:
+    :ID:       e48fb236-bfc7-4494-8515-ad43e06fda1f
+    :DRILL_LAST_INTERVAL: 39.3235
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 16:57]
+    :END:
+What is measured with 
+/w=|⟨φ₁|φ₂⟩|²/?
+**** Answer:
+The probability to observe state $\phi_1$ when 
+the system is known to be in state $\phi_2$.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-06-23 Sat>
+    :PROPERTIES:
+    :ID:       1bf83dce-80be-4ae5-83d7-2e3d86cfaa2b
+    :DRILL_LAST_INTERVAL: 12.5936
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:33]
+    :END:
+What are /one-particle/ states?
+**** Answer:
+These are states whose corresponding effects
+in physical reality are localized. That means
+that coincidence measurements with 2 measuring
+devices separated by a distance $d>d_\mbox{min}$
+and resolving time $\delta t<<d/c$ are negative
+for all $d$ and all observables measured.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-09-21 Fri>
+    :PROPERTIES:
+    :ID:       d6c1074a-27ba-46ca-a959-96a0791aa4a3
+    :DRILL_LAST_INTERVAL: 114.1097
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:31]
+    :END:
+What are relativistically invariant
+subspaces of a Hilbert space?
+**** Answer:
+Subspaces that are invariant under the 
+representation of the Lorentz group on the 
+Hilbert space.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-06-23 Sat>
+    :PROPERTIES:
+    :ID:       fba25cb9-6fc1-40bb-a9ef-12d581e5e229
+    :DRILL_LAST_INTERVAL: 12.5936
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:34]
+    :END:
+How is a representation of the Lorentz
+group induced on a Hilbert space?
+**** Answer:
+By transforming states in the Hilbert
+space corresponding to observations
+in one Lorentz frame to states correponding
+to observations in another Lorentz frame.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-06-21 Thu>
+    :PROPERTIES:
+    :ID:       87776680-f933-40e7-8a92-ef8a77311e57
+    :DRILL_LAST_INTERVAL: 13.528
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-07 Thu 10:43]
+    :END:
+What is a particle?
+**** Answer:
+A subspace of the one-particle states
+which is invariant under the representation
+of the Lorentz-group on the space and 
+minimal, ie the space of an irreducible
+representation of the Lorentz-group.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-06-20 Wed>
+    :PROPERTIES:
+    :ID:       0992cf10-9d6b-420b-98fd-4e3215682379
+    :DRILL_LAST_INTERVAL: 12.5514
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.667
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-07 Thu 10:43]
+    :END:
+How can particles be classified?
+**** Answer:
+Since they relate to the irreducible representations
+of the proper Lorentz group on the Hilbert
+space, they can be classified by two parameters
+/m/ and /s/ commonly related to mass and spin. 
+However, representations related to imaginary 
+masses and continuous spin are discarded as
+unphysical.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-06-25 Mon>
+    :PROPERTIES:
+    :ID:       10c6d4f6-b14e-4570-87a6-89addb1a4dfb
+    :DRILL_LAST_INTERVAL: 14.0194
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:50]
+    :END:
+What is the problem with zero-mass particles?
+**** Answer:
+The theory allows for continuous spin, ie 
+there are irreducible representations of the 
+Lorentz group for /m=0/ and /s/ continuous.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-06-27 Wed>
+    :PROPERTIES:
+    :ID:       4a8c4bfb-6660-4bf3-a0aa-1926584b34a9
+    :DRILL_LAST_INTERVAL: 18.7487
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.571
+    :DRILL_EASE: 2.28
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-08 Fri 12:53]
+    :END:
+Why is it possible to describe particles by 
+wave equations ?
+**** Answer:
+Because the irreducible representations of the 
+(proper) Lorentz group on the Hilbert space 
+corresponding to /m>0/ can have only spins of 
+integer and half-integer values. Thus, for 
+positive mass the representations can be 
+described in terms of wave-equations.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-07-09 Mon>
+    :PROPERTIES:
+    :ID:       a248fe7a-8ead-465c-9c2a-10b778d3e827
+    :DRILL_LAST_INTERVAL: 44.287
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 16:23]
+    :END:
+What are the prototypical creation and 
+annihilation operators?
+**** Answer:
+The multiplication operator and 
+differentiation. For Hilbert spaces with 
+finitely many particles, every representation 
+is unitarily equivalent.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-07-06 Fri>
+    :PROPERTIES:
+    :ID:       2dd0492c-381b-45d2-b787-11660b52c69f
+    :DRILL_LAST_INTERVAL: 41.4414
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 16:23]
+    :END:
+What are the ingredients of a quantum field 
+theory?
+**** Answer:
+A Hilbert space with designated one-particle
+vectors from which the n-particle vectors are 
+obtained by tensoring. A Lorentz representation 
+defining particles. In addition, there are 
+creation and annihilation operators describing
+the creation and annihilation of the particles 
+in certain states.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-07-01 Sun>
+    :PROPERTIES:
+    :ID:       0bbfc22d-d26d-46a8-9f97-35161fefa05c
+    :DRILL_LAST_INTERVAL: 22.2784
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.571
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:39]
+    :END:
+Why are the creation and annihilation operators
+fundamental in a quantum field theory?
+**** Answer:
+Because they form a complete set of operators
+in the sense that every (hermitian?) operator
+on the Hilbert space can be approximated by
+a polynomial in these operators.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-08-14 Tue>
+    :PROPERTIES:
+    :ID:       6e7c45d3-1279-4e7a-bee4-431ccb72b5ac
+    :DRILL_LAST_INTERVAL: 77.1848
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:57]
+    :END:
+What distinguishes one quantum field theory
+from another on a given Hilbert space?
+**** Answer:
+The Hamiltonian, which is a hermitian 
+operator describing the energy of the
+field.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-07-08 Sun>
+    :PROPERTIES:
+    :ID:       7a2336fa-924a-4c00-8f53-47ef7ba49f22
+    :DRILL_LAST_INTERVAL: 42.731
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 16:45]
+    :END:
+Why is the description of a quantum field
+theory in terms of creation and annihilation
+operators on a Hilbert space the natural 
+thing to do?
+**** Answer:
+Because of its relationship with measurements
+which consist of counting particles, be it
+with Geiger counters or in particle accelerators.
+The composition /vₖ=uₖ⁺uₖ/ of a creation
+with an annihilation operator results in a counting
+operator which counts the number of particles of
+a given type in a given state.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-06-29 Fri>
+    :PROPERTIES:
+    :ID:       b088e6b3-916c-443b-837a-23db646df091
+    :DRILL_LAST_INTERVAL: 16.5955
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:15]
+    :END:
+What is the problem with allowing infinitely
+many particles in a field theory?
+**** Answer:
+The Hilbert space required becomes too big, as a
+result there will be unitarily inequivalent 
+representations of the creation and annihilation
+operators on the space. As a consequence, 
+counting particles with the density operator
+will give different results in different
+representations.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-07-19 Thu>
+    :PROPERTIES:
+    :ID:       e72964a8-7a57-4802-8c43-b6c739b20b33
+    :DRILL_LAST_INTERVAL: 52.9881
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-27 Sun 09:23]
+    :END:
+How does the unitary inequivalence of different
+representations on an infinite-particle Hilbert
+space manifest itself mathematically?
+**** Answer:
+When trying to calculate a unitary operator 
+connecting the representations, infinities will
+occur.
+*** Hilbert space						      :drill:
+    SCHEDULED: <2018-07-03 Tue>
+    :PROPERTIES:
+    :ID:       62cd80e6-0ecd-482d-a31d-73328f96de7f
+    :DRILL_LAST_INTERVAL: 23.3592
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.715
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:34]
+    :END:
+
+What is he S-matrix?
+**** Answer:
+The matrix that transforms the basis constructed
+from one-particle states at time /t=-∞/ to 
+that constructed at /t=∞/.
+*** Path Integral						      :drill:
+    SCHEDULED: <2018-06-23 Sat>
+    :PROPERTIES:
+    :ID:       94342910-30cb-4f2e-a362-6f9660a95aff
+    :DRILL_LAST_INTERVAL: 13.5269
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:37]
+    :END:
+What does the path-integral describe?
+**** Answer:
+The transition amplitude 
+$\langle q_f|e^{-iHT}|q_i\rangle$
+to propagate from initial state /qᵢ/
+to final state /q_f/ during time /T/
+in a quantum system governed by Hamiltonian
+/H/.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-08-12 Sun>
+    :PROPERTIES:
+    :ID:       00b6b68c-f19e-4775-90e9-f7252ddd9c5c
+    :DRILL_LAST_INTERVAL: 74.4794
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:20]
+    :END:
+What is the idea of using the path-integral
+to describe 
+$I=\langle q_F|e^{-iHT}|q_I\rangle$?
+**** Answer:
+To split the $T$ into shorter intervals
+$\delta t$ and then write 
+$e^{-iHT}=\prod e^{-iH\delta t}$. This
+then allows to split up $I$ into a sum
+of products of intermediate state changes
+$\langle q_{j+1}|e^{-iH\delta t}|q_j\rangle$
+using the fact that the $q_j$ form an 
+orthonormal system. The hope is that the
+intermediate state changes are easier to
+obtain and make sense in the limit as
+$\delta t\rightarrow 0$.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-08-12 Sun>
+    :PROPERTIES:
+    :ID:       7fbf5261-549c-4c71-8210-ab0071578bdc
+    :DRILL_LAST_INTERVAL: 74.4794
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:24]
+    :END:
+Why is the path-integral formulation 
+commonly accepted despite its computational
+difficulty?
+**** Answer:
+Because, for many frequently occuring 
+Hamiltonians /H/ it can be expressed in
+terms of the corresponding Lagrangian /L/,
+more precisely as time-integral of /L/, 
+also called the action. In addition, for
+/ℏ → 0/ the classical path
+is obtained.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-06-22 Fri>
+    :PROPERTIES:
+    :ID:       5e8df1a4-a546-4dd1-90b0-c290a98bcd6e
+    :DRILL_LAST_INTERVAL: 11.1679
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.701
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:49]
+    :END:
+How does the propagator arise?
+**** Answer:
+For a disturbance /J(x)/ in the field, 
+the path integral is /Z=Ceⁱᵂ⁽ᴶ⁾/ with a
+constant /C/ and a quadratic form
+/W(J)=-1/2∫∫ dx dy J(x)D(x-y)J(y)/
+where /D/ is the propagator.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-06-16 Sat>
+    :PROPERTIES:
+    :ID:       76ca26cb-267e-4178-8ced-2a3adfe330fa
+    :DRILL_LAST_INTERVAL: 12.1124
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-04 Mon 09:44]
+    :END:
+What is the physical meaning of the 
+propagator?
+**** Answer:
+The value /D(x)/ describes the amplitude
+for a disturbance of the field to travel
+from the origin to /x/.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-06-22 Fri>
+    :PROPERTIES:
+    :ID:       10cb71f9-2ccc-4e5e-90a7-c8a8a4dcead4
+    :DRILL_LAST_INTERVAL: 11.1679
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:48]
+    :END:
+How is the propagator related to its
+field?
+**** Answer:
+The propagator /D/ must satisfy 
+/-OD(x-y)=δ(x-y)/ where /O/
+is the differential operator resulting
+from the equations of motion of the 
+Lagrangian of the field, ie it is the 
+inverse of that operator.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-06-23 Sat>
+    :PROPERTIES:
+    :ID:       1a50e2b9-5168-4c0c-979d-107e409a4e7f
+    :DRILL_LAST_INTERVAL: 15.0544
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-08 Fri 12:53]
+    :END:
+How are particles introduced to a
+(scalar) field mathematically?
+**** Answer:
+By adding a function that is essentially
+a sum of Dirac functions to the 
+Lagrangian.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-08-11 Sat>
+    :PROPERTIES:
+    :ID:       077cb5fe-32e5-4c0b-ae85-9966741d4a14
+    :DRILL_LAST_INTERVAL: 74.4794
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:59]
+    :END:
+How are charged particles added to
+an electromagnetic field?
+**** Answer:
+As a charge vector /Jᵐ/ where 
+/J⁰/ represents charge density.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-07-08 Sun>
+    :PROPERTIES:
+    :ID:       8f700412-45a2-4037-9c2b-9ccf02706a6d
+    :DRILL_LAST_INTERVAL: 42.731
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 16:24]
+    :END:
+How do the propagators for the Gordon-Klein
+field differ from those of the electromagnetic
+field?
+**** Answer:
+The propagator in the Gordon-Klein field is
+a scalar because this field is a scalar field.
+The propagator in the electromagnetic field
+is a matrix because the electromagnetic
+field is a vector field resulting from
+its vector potential.
+*** Path integral						      :drill:
+    SCHEDULED: <2018-07-08 Sun>
+    :PROPERTIES:
+    :ID:       735e603d-bc9f-4205-a495-d8cd9fae5759
+    :DRILL_LAST_INTERVAL: 42.731
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 16:39]
+    :END:
+How are positive and negative charges 
+accomodated when introducing them into
+the electromagnetic field?
+**** Answer:
+By splitting the current /Jᵐ/ into a
+positive and a negative part:
+/Jᵐ=Jₚᵐ-Jₙᵐ/.
+*** Philosophy                                                        :drill:
+    SCHEDULED: <2018-07-02 Mon>
+    :PROPERTIES:
+    :ID:       e82d63ed-8a66-4200-bb70-194ea8b2ee6f
+    :DRILL_LAST_INTERVAL: 18.8265
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-13 Wed 11:59]
+    :END:
+Why is /lack of reality/
+not a strong argument
+against Wigner's subjective
+theory of wave-function
+collapse?
+**** Answer:
+Because even if different
+observers have their own
+reality (=phenomenology),
+these realities need not
+be arbitrary. It takes
+only one perception they
+agree on to translate between
+the phenomenologies, as
+happens with observers in
+relativity who all perceive
+the same speed of light.
+* Sound
+** Alsa
+*** Fact							      :drill:
+    SCHEDULED: <2018-06-25 Mon>
+  :Properties:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       856d669e-831e-4bc1-b828-7289fc8bbace
+  :DRILL_LAST_INTERVAL: 15.7935
+  :DRILL_REPEATS_SINCE_FAIL: 4
+  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.249
+  :DRILL_EASE: 1.9
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:39]
+  :END:      
+#just testing italic and bold markup
+Alsa's [dsnoop||interface] /allows/ *to* 
+[loop microphone input to playback] and 
+[record with arecord] at the same time.
+*** Fact							      :drill:
+    SCHEDULED: <2018-06-25 Mon>
+  :Properties:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       198fc05f-47ff-476b-b287-629743279c9f
+  :DRILL_LAST_INTERVAL: 15.7935
+  :DRILL_REPEATS_SINCE_FAIL: 4
+  :DRILL_TOTAL_REPEATS: 9
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 3.111
+  :DRILL_EASE: 1.9
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:38]
+  :END:      
+In order to send microphone input to playback 
+and record it at the same time, run 
+[alsaloop with capture device dsnoop] 
+and [arecord with the default device].
+* Unix
+*** Fact							      :drill:
+    SCHEDULED: <2018-07-02 Mon>
+  :Properties:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       98803899-cb7e-47ff-8a49-f779380cf58d
+  :DRILL_LAST_INTERVAL: 22.404
+  :DRILL_REPEATS_SINCE_FAIL: 4
+  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.875
+  :DRILL_EASE: 2.52
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:34]
+  :END:      
+ACL is an abbreviation for 
+[Access Control Lists], it allows to 
+[specify file access in a more fine-grained 
+way than users and groups].
+*** Fact							      :drill:
+    SCHEDULED: <2018-06-29 Fri>
+  :Properties:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       515f3873-fe47-4fc3-8889-dacbfa24c71b
+  :DRILL_LAST_INTERVAL: 18.9202
+  :DRILL_REPEATS_SINCE_FAIL: 4
+  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.14
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:33]
+  :END:      
+A [+ sign at the end of the permissions list of a file obtained from ls -l] 
+indicates [the presence of an Access Control List] for that file.
+*** Fact							      :drill:
+    SCHEDULED: <2018-12-16 Sun>
+  :Properties:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       62434f12-63db-42db-8da1-e6dd4059fe50
+  :DRILL_LAST_INTERVAL: 200.6738
+  :DRILL_REPEATS_SINCE_FAIL: 6
+  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.2
+  :DRILL_EASE: 2.56
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:55]
+  :END:      
+An [Access Control List] for a file can be 
+created with [setfacl||the command].
+*** Fact							      :drill:
+    SCHEDULED: <2018-12-16 Sun>
+  :Properties:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       719f81ef-0428-47fe-bd36-130e5b808b5c
+  :DRILL_LAST_INTERVAL: 200.6738
+  :DRILL_REPEATS_SINCE_FAIL: 6
+  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.2
+  :DRILL_EASE: 2.56
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:55]
+  :END:      
+The [Access Control List entries] for a file 
+can be checked with [getfacl||the command].

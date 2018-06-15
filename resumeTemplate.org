@@ -1,0 +1,60 @@
+#+TITLE: Your Name Here 
+#+MACRO: PHONE (XXX)-XXX-XXXX
+#+MACRO: EMAIL xxxxx@xxxxxx.xxx
+#+MACRO: STREET Number Streetname
+#+MACRO: TOWN Calgary, AB, XXX XXX
+
+#+OPTIONS: toc:nil H:10 tex:t
+#+STARTUP: odd hidestars indent showall
+
+#+LaTeX_CLASS: article
+#+LaTeX_HEADER: \usepackage{mycv}
+#+LaTeX_HEADER: \hypersetup{hidelinks}
+#+LaTeX_HEADER: \usepackage{enumitem}
+#+LaTeX_HEADER: \setlist{nolistsep}
+#+LaTeX_HEADER: \pagenumbering{gobble}
+#+LaTeX_CLASS_OPTIONS: [letterpaper]
+
+#+ATTR_LATEX: :width \textwidth :align lp{0.67\textwidth}r
+| <l>         | <c20>                |          <r> |
+|-------------+----------------------+--------------|
+| {{{PHONE}}} |                      | {{{STREET}}} |
+| {{{EMAIL}}} |                      |   {{{TOWN}}} |
+|-------------+----------------------+--------------|
+* Summary
+
+High School Student, eager to join the world of work.
+* Skills
+
+  - Handling difficult customers in the person of my Mom
+  - Whatever they teach at school up to and including 9th grade
+  - Some more ????
+* Education
+
+  - 2017--2018: ??? School in Calgary 
+  - 20??--2017: Lewisville Middle School, Moncton, NB
+  - 20??--20??: Lou MacNaren Elementary School, Dieppe, NB
+* Work Experience
+
+- 2017.5--Present: Your current job
+  - Task 1 in current job
+  - Task 2 in current job
+  - etc
+- 2016.5--2017.5: Previous Job
+  - Task 1
+  - Task 2
+
+- 2013.9--2016.4: Etc
+  - Etc
+  - Etc
+  - Etc
+
+* Honors and Awards
+
+- YYYY: Student of the Month
+- YYYY: Some other prize
+- YYYY: etc
+
+* Community and Social Activities
+- 2017--2018: That Basketball thing
+- Some other stuff that you can think of
