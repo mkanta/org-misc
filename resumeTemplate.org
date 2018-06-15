@@ -8,7 +8,7 @@
 #+STARTUP: odd hidestars indent showall
 
 #+LaTeX_CLASS: article
-#+LaTeX_HEADER: \usepackage{mycv}
+#+LaTeX_HEADER: \usepackage{resumeTemplate}
 #+LaTeX_HEADER: \hypersetup{hidelinks}
 #+LaTeX_HEADER: \usepackage{enumitem}
 #+LaTeX_HEADER: \setlist{nolistsep}
@@ -36,15 +36,15 @@ High School Student, eager to join the world of work.
   - 20??--20??: Lou MacNaren Elementary School, Dieppe, NB
 * Work Experience
 
-- 2017.5--Present: Your current job
+- 2017-05--Present: Your current job
   - Task 1 in current job
   - Task 2 in current job
   - etc
-- 2016.5--2017.5: Previous Job
+- 2016-05--2017-05: Previous Job
   - Task 1
   - Task 2
 
-- 2013.9--2016.4: Etc
+- 2013-09--2016-04: Etc
   - Etc
   - Etc
   - Etc

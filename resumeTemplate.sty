@@ -1,0 +1,88 @@
+% This work is licensed under the Creative Commons
+% Attribution-NonCommercial-ShareAlike License. To view a copy of this license,
+% visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to
+% Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+% This file is adapted from Jesse Luehrs resume at
+% https://github.com/doy/resume/blob/master/resume.tex
+% And further adapted by Joseph Edwards from https://github.com/punchagan/resume
+
+% <<< packages
+\RequirePackage{latexsym,amsmath,amssymb,charter,color,calc,hyperref,titlesec}
+\RequirePackage[empty]{fullpage}
+% >>>
+
+% <<< dimensions/margins
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.25in}
+\addtolength{\textheight}{0.5in}
+% >>>
+
+% <<< other definitions
+\definecolor{mygrey}{gray}{0.70}
+% >>>
+
+%% Maketitle redefinition (just the @title - works better with org-mode)
+\def\@maketitle{
+  \begin{center}
+    \huge \textsc{\@title} \par
+  \end{center}
+}
+
+%% Subtitle definition
+\newcommand{\subtitlerows}[2]{
+  \begin{center}
+    \large \textbf{#1} \\
+    \normalsize \textit{#2}
+  \end{center}
+}
+
+%% Document header
+\newcommand{\resheader}[6]{
+  \hrulefill
+  \vspace{0.05in}
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cr}
+    #1 & #2 & #3 \\
+    #4 & #5 & #6 \\
+  \end{tabular*}
+  \vspace{0.05in}
+  \hrulefill
+}
+
+%% Section Headings, etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\section}[1]{
+  \@startsection{section}{1}{0pt}{0pt}{0pt}{\normalfont}*{}
+  {
+    \vspace{0.2in}
+    \large \textbf{\textsc{#1}} \\
+    \vspace{-0.05in}
+    \color{mygrey}{\hrulefill}
+    \vspace{0.05in}
+  }
+}
+
+\titleformat{\subsection} %command
+            [block] %shape
+            {\bfseries} %format
+            {} %label
+            {0pt} %sep
+            {} %before-code
+            [] %after-code
+
+\titlespacing{\subsection}{0pt}{5pt}{0pt}[{0pt}]
+
+\titleformat{\subsubsection} %command
+            [block] %shape
+            {\vspace{-2.4ex}\small\it\raggedleft} %format
+            {} %label
+            {0pt} %sep
+            {} %before-code
+            [] %after-code
+
+\titlespacing{\subsubsection}{0pt}{0pt}{0pt}[{0pt}]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
