@@ -8,17 +8,17 @@
 * Development
 ** emacs
 *** org-mode							      :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-06-22 Fri>
     :PROPERTIES:
     :ID:       9a994bce-9e78-4b2e-8946-bbf23a422aab
-    :DRILL_LAST_INTERVAL: 5.1415
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 6.1544
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.867
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-11 Mon 11:50]
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:34]
     :END:
 How to edit a source block?
 **** Answer
@@ -729,17 +729,17 @@ planetary positions according
 to your own character traits
 as perceived by yourself.
 *** Zen                                                               :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-06-25 Mon>
     :PROPERTIES:
     :ID:       fc716a71-2964-4afd-8909-47bab460da0a
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:17]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:31]
     :END:
 Why the obsession of Zen with
 breaking away from words?
@@ -1014,17 +1014,17 @@ Covariant derivatives depend on the metric of
 the manifold whereas Lie-type derivatives don't.
 ** Logic
 *** Linear                                                            :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-06-25 Mon>
     :PROPERTIES:
     :ID:       be051ebc-472a-4588-9a64-2ace8cbce06c
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:17]
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:31]
     :END:
 What is the difference between
 the two conjunctions ⊗ and &
@@ -1034,24 +1034,25 @@ Values of /A⊗B/ are strict, both
 components are necessary. 
 Values of /A&B/ are lazy.
 *** Linear                                                            :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-06-26 Tue>
     :PROPERTIES:
     :ID:       023f42b9-fe61-4afb-870d-fbc821eddb82
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:19]
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:33]
     :END:
 Why is /A&B/ in linear logic more
 similar to classical conjunction
 than /A⊗B/?
 **** Answer:
-Because there is no projection,
-ie no rules /A⊗B→A/ nor /A⊗B→B/.
+Because there is no projection
+for ⊗, ie no rules /A⊗B→A/ 
+nor /A⊗B→B/.
 *** Linear                                                            :drill:
     SCHEDULED: <2018-06-18 Mon>
     :PROPERTIES:
@@ -1075,17 +1076,17 @@ evaluation, which occurs in
 quantum mechanics in the form
 of unitary evolution.
 *** Linear                                                            :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-06-25 Mon>
     :PROPERTIES:
     :ID:       ce923632-2b4b-49f8-8f78-b8ee22bb711f
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:20]
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:32]
     :END:
 What is the bang operator
 good for in linear logic?
@@ -1218,17 +1219,17 @@ sequent /A⊦B/.
 * Physics
 ** Quantum
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-06-25 Mon>
     :PROPERTIES:
     :ID:       4e7f4388-7dde-408d-8359-9802db92d21e
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:20]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:30]
     :END:
 Why are the field particles of
 quantum fields arising from
@@ -1239,17 +1240,17 @@ of /field strength/ which requires
 that arbitrary many field particles
 can be in the same state. 
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-06-26 Tue>
     :PROPERTIES:
     :ID:       c65bb428-6bf6-4c41-93a5-d5a57389be52
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:16]
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:34]
     :END:
 Why is an electron gas not related
 to a classical field?
@@ -1259,17 +1260,17 @@ electrons, which are fermions. Thus,
 there is no classical field strength
 associated with an electron gas.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-06-25 Mon>
     :PROPERTIES:
     :ID:       218177bd-75a8-404d-a805-df581fa5da4c
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.43
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:18]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:30]
     :END:
 Why is consciousness probably
 related to a field of Fermions?
@@ -1767,17 +1768,17 @@ constant /C/ and a quadratic form
 /W(J)=-1/2∫∫ dx dy J(x)D(x-y)J(y)/
 where /D/ is the propagator.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-06-16 Sat>
+    SCHEDULED: <2018-07-05 Thu>
     :PROPERTIES:
     :ID:       76ca26cb-267e-4178-8ced-2a3adfe330fa
-    :DRILL_LAST_INTERVAL: 12.1124
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 19.4041
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.857
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-04 Mon 09:44]
+    :DRILL_LAST_REVIEWED: [2018-06-16 Sat 13:34]
     :END:
 What is the physical meaning of the 
 propagator?
