@@ -150,27 +150,6 @@ results in a lisp error: /wrong-type-argument
 listp argname/?
 **** Answer:
 The last argument of =apply= must be a list.
-** version control
-*** git 							      :drill:
-    SCHEDULED: <2019-01-11 Fri>
-    :PROPERTIES:
-    :ID:       d4a5db39-5c21-4995-bffc-4651b109e447
-    :DRILL_LAST_INTERVAL: 224.5541
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.6
-    :DRILL_EASE: 2.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:44]
-    :END:
-What is the first thing to do
-when entering a directory managed with /git/?
-**** Answer
-Run /git-status/ to see if there are any
-changes that need to be added for a commit
-and if things are in sync with remote
-repositories.
 ** javascript
 *** javascript var declaration 					      :drill:
     SCHEDULED: <2018-10-15 Mon>
@@ -690,6 +669,79 @@ to the calling context of whoever calls
 =this.funcname = (...) => {...}=, =this= always
 refers to the =this= of the defining context, 
 no matter who calls =objname.funcname=.
+** ubuntu
+*** user interface                                                      :git:
+How to switch to a terminal
+and back from the graphical 
+interface?
+**** Answer:
+With ~ctrl-alt-F1~ to get to
+a terminal and ~ctrl-alt-F7~
+to get back to graphics.
+*** user interface                                                    :drill:
+    SCHEDULED: <2018-06-22 Fri>
+    :PROPERTIES:
+    :ID:       0665f3b1-a732-486c-af24-f858ff9a521c
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:34]
+    :END:
+What to do if the graphical
+user interface has become
+irresponsive?
+**** Answer:
+Switch to a terminal with 
+~ctrl-alt-F1~, log in and stop
+the display manager, ie
+~sudo service lightdm stop~
+or restart it.
+*** user interface                                                    :drill:
+    SCHEDULED: <2018-06-22 Fri>
+    :PROPERTIES:
+    :ID:       f79fd0a7-7f5c-472d-93dd-0ee0fe476973
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:34]
+    :END:
+What is the proper way to 
+shut down the X-server in
+an emergency?
+**** Answer:
+Switch to a terminal with
+~ctrl-alt-F1~ and run
+~sudo service lightdm stop~
+
+** version control
+*** git 							      :drill:
+    SCHEDULED: <2019-01-11 Fri>
+    :PROPERTIES:
+    :ID:       d4a5db39-5c21-4995-bffc-4651b109e447
+    :DRILL_LAST_INTERVAL: 224.5541
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.6
+    :DRILL_EASE: 2.8
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:44]
+    :END:
+What is the first thing to do
+when entering a directory managed with /git/?
+**** Answer
+Run /git-status/ to see if there are any
+changes that need to be added for a commit
+and if things are in sync with remote
+repositories.
 * Documents
 ** Conversions
 *** How to convert latex to svg? 				      :drill:
@@ -1054,17 +1106,17 @@ Because there is no projection
 for ⊗, ie no rules /A⊗B→A/ 
 nor /A⊗B→B/.
 *** Linear                                                            :drill:
-    SCHEDULED: <2018-06-18 Mon>
+    SCHEDULED: <2018-06-27 Wed>
     :PROPERTIES:
     :ID:       707c1469-4d69-4e34-87ab-c2fe6d2b9b29
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:26]
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:33]
     :END:
 Why is linear logic suitable
 for both quantum mechanics and
@@ -1097,17 +1149,17 @@ in functional programming or
 make a measurement in a
 quantum system.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-06-18 Mon>
+    SCHEDULED: <2018-06-28 Thu>
     :PROPERTIES:
     :ID:       0eb08fe5-6743-4e72-8a50-fe05c4ba46d0
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:25]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:33]
     :END:
 What is the meaning of
 /A₁, A₂,…, Aₙ ⊦ B/ in 
@@ -1118,17 +1170,17 @@ consequent of
 /A₁⊗A₂⊗…⊗Aₙ/, ie.
 /A₁⊗…⊗Aₙ ⊦ B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-06-18 Mon>
+    SCHEDULED: <2018-06-27 Wed>
     :PROPERTIES:
     :ID:       f85d5687-848c-4475-bdc3-7367277727f2
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:21]
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:32]
     :END:
 What is the /linear constraint/
 imposed by linear logic?
@@ -1137,17 +1189,17 @@ The constraint that proofs
 can use neither /weakening/ nor
 /contraction/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-06-18 Mon>
+    SCHEDULED: <2018-06-27 Wed>
     :PROPERTIES:
     :ID:       fa0ddc86-9cc4-4d00-8f59-827489d0a404
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:21]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:31]
     :END:
 In which sense is the use of
 the tensor symbol ⊗ for the
@@ -1162,17 +1214,17 @@ quantum systems. Measuring
 regarding the respective states 
 of the components /A,B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-06-18 Mon>
+    SCHEDULED: <2018-06-28 Thu>
     :PROPERTIES:
     :ID:       329ca527-1a7e-44a2-bdf8-4cd413d047bb
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:22]
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:30]
     :END:
 Why is it impossible to
 prove /A,B ⊦ A/ in linear logic?
@@ -1181,17 +1233,17 @@ Since this means /A⊗B⊦A/, this
 would lead to /⊦A⊗B⊸A/ which is
 known not to hold.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-06-18 Mon>
+    SCHEDULED: <2018-06-28 Thu>
     :PROPERTIES:
     :ID:       1c0e49f3-9259-454f-bc57-070b37fe7c99
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:21]
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:33]
     :END:
 How is a proof of sequent
 /A₁,…,Aₙ⊦A/ of linear logic 
@@ -1199,17 +1251,17 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-06-18 Mon>
+    SCHEDULED: <2018-06-27 Wed>
     :PROPERTIES:
     :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-14 Thu 11:20]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:31]
     :END:
 What is a /combinator/?
 **** Answer:
