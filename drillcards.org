@@ -722,6 +722,50 @@ Switch to a terminal with
 ~sudo service lightdm stop~
 
 ** version control
+*** git in emacs                                                      :drill:
+    SCHEDULED: <2018-06-23 Sat>
+    :PROPERTIES:
+    :ID:       ffe7aafc-2116-4e83-8a15-66372e666112
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-19 Tue 13:36]
+    :END:
+What happens if answering /yes/
+to the checkout question when
+saving a file under git control
+in emacs?
+**** Answer:
+The buffer of the file switches
+to /readonly/ after saving the 
+content. The only way to edit
+it afterwards is to check it 
+back in.
+*** git in emacs                                                      :drill:
+    SCHEDULED: <2018-06-23 Sat>
+    :PROPERTIES:
+    :ID:       7d88dd8a-b454-4a64-86f5-2dcf28a9f428
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-19 Tue 13:40]
+    :END:
+What happens when checking in
+a file under git control in
+emacs?
+**** Answer:
+A buffer for a commit message
+pops up. After writing it,
+hit ~C-c C-c~ and the file will
+be added and committed.
 *** git 							      :drill:
     SCHEDULED: <2019-01-11 Fri>
     :PROPERTIES:
@@ -759,17 +803,17 @@ tex-installation.
 * Gnosis
 ** Meditation
 *** Self-Knowledge                                                    :drill:
-    SCHEDULED: <2018-06-19 Tue>
+    SCHEDULED: <2018-06-29 Fri>
     :PROPERTIES:
     :ID:       7a201c84-df05-4c49-9fbb-335c09f48090
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-15 Fri 09:44]
+    :DRILL_LAST_REVIEWED: [2018-06-19 Tue 13:36]
     :END:
 How could Astrology be used
 to obtain knowledge of
@@ -845,17 +889,17 @@ agent.
 * Mathematics
 ** Algebra
 *** p-adic numbers						      :drill:
-    SCHEDULED: <2018-06-19 Tue>
+    SCHEDULED: <2018-07-07 Sat>
     :PROPERTIES:
     :ID:       6b76eb5b-5272-43cc-bc15-ca08c97ca9a5
-    :DRILL_LAST_INTERVAL: 11.1679
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 17.891
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.779
+    :DRILL_AVERAGE_QUALITY: 2.901
     :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-08 Fri 12:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-19 Tue 13:38]
     :END:
 What is the ring of /p/-adic integers?
 **** Answer:
@@ -2075,3 +2119,44 @@ created with [setfacl||the command].
   :END:      
 The [Access Control List entries] for a file 
 can be checked with [getfacl||the command].
+*** X Server                                                          :drill:
+    SCHEDULED: <2018-06-23 Sat>
+    :PROPERTIES:
+    :ID:       d2aadf4a-8bde-47c5-a6e9-2e69b69e99c9
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-19 Tue 13:40]
+    :END:
+How to find out what 
+a key does in X?
+**** Answer:
+Run ~xev~ in an xterminal
+and hit keys. It will 
+list events thusly
+generated on the server.
+*** Gnu Root Debian                                                   :drill:
+    SCHEDULED: <2018-06-23 Sat>
+    :PROPERTIES:
+    :ID:       512e04cc-f3fc-4bc3-ab38-e760325fe873
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-19 Tue 13:37]
+    :END:
+What to do if the ALT key
+doesn't work in an emacs
+run in the GUI?
+**** Answer:
+Add ~-compatiblekbd~ to the
+options for the Xvnc server
+by editing ~tightvncserver~ in
+~/usr/bin~.
