@@ -562,17 +562,17 @@ derived classes?
 In general, the constructor of the superclass 
 has to be called. Use =super= to do that.
 *** typescript classes 	 				      :drill:
-    SCHEDULED: <2018-06-24 Sun>
+    SCHEDULED: <2018-07-23 Mon>
     :PROPERTIES:
     :ID:       67da1017-12ef-4f7d-a700-3e054125fbb3
-    :DRILL_LAST_INTERVAL: 14.7047
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 28.9094
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 1.9
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:38]
+    :DRILL_AVERAGE_QUALITY: 3.444
+    :DRILL_EASE: 2.0
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-24 Sun 08:16]
     :END:
 What is the problem with defining functions not
 as methods but as members, for example by
@@ -2167,6 +2167,12 @@ created with [setfacl||the command].
   :END:      
 The [Access Control List entries] for a file 
 can be checked with [getfacl||the command].
+*** Network                                                           :drill:
+How to connect to wifi
+from the command line?
+**** Answer:
+With ~nmcli~. Check its
+manpage for details.
 *** X Server                                                          :drill:
     SCHEDULED: <2018-07-03 Tue>
     :PROPERTIES:
