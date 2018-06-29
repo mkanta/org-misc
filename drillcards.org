@@ -907,17 +907,17 @@ sentence just like a state
 vector collapses to give a
 measurement.
 *** Self-Knowledge                                                    :drill:
-    SCHEDULED: <2018-06-29 Fri>
+    SCHEDULED: <2018-07-23 Mon>
     :PROPERTIES:
     :ID:       7a201c84-df05-4c49-9fbb-335c09f48090
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.12
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-19 Tue 13:36]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:01]
     :END:
 How could Astrology be used
 to obtain knowledge of
@@ -1282,17 +1282,17 @@ in functional programming or
 make a measurement in a
 quantum system.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-06-28 Thu>
+    SCHEDULED: <2018-07-22 Sun>
     :PROPERTIES:
     :ID:       0eb08fe5-6743-4e72-8a50-fe05c4ba46d0
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.271
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:33]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:02]
     :END:
 What is the meaning of
 /A₁, A₂,…, Aₙ ⊦ B/ in 
@@ -1347,17 +1347,17 @@ quantum systems. Measuring
 regarding the respective states 
 of the components /A,B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-06-28 Thu>
+    SCHEDULED: <2018-07-24 Tue>
     :PROPERTIES:
     :ID:       329ca527-1a7e-44a2-bdf8-4cd413d047bb
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:30]
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:04]
     :END:
 Why is it impossible to
 prove /A,B ⊦ A/ in linear logic?
@@ -1365,18 +1365,30 @@ prove /A,B ⊦ A/ in linear logic?
 Since this means /A⊗B⊦A/, this 
 would lead to /⊦A⊗B⊸A/ which is
 known not to hold.
+*** Logic                                                             :drill:
+Why is /A ⊢ B/ not the same
+as /⊢ A → B/?
+**** Answer:
+Because it means /B/ can be 
+deduced from /A/ independently
+of the logic used. The implication
+arrow is tied to the logic used
+and may not even be available in
+a given logic. For example, in
+linear logic /A ⊢ B/ means 
+/⊢ A ⊸ B/, there is no /→/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-06-28 Thu>
+    SCHEDULED: <2018-07-24 Tue>
     :PROPERTIES:
     :ID:       1c0e49f3-9259-454f-bc57-070b37fe7c99
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 09:33]
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:01]
     :END:
 How is a proof of sequent
 /A₁,…,Aₙ⊦A/ of linear logic 
@@ -1486,6 +1498,96 @@ affect field operators /Φ(x)/?
 representing /Λ/ on the 
 Hilbert space on which /Φ(x)/ 
 is defined.
+*** Particles                                                         :drill:
+    SCHEDULED: <2018-07-03 Tue>
+    :PROPERTIES:
+    :ID:       4de4a63c-4287-42c1-a424-b2a6d28b1603
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:06]
+    :END:
+Why does beta decay
+/n → p+e+v̄ₑ/ involve an
+anti-neutrino instead
+of a neutrino?
+**** Answer:
+Because lepton number has
+to be preserved. Neutron
+/n/ and proton /p/ both have 
+lepton number 0 as
+non-leptons whereas the 
+electron has lepton number 1.
+Thus, the neutrino part needs
+to have lepton number -1 requiring
+it to be an anti-neutrino.
+*** Particles                                                         :drill:
+    SCHEDULED: <2018-07-03 Tue>
+    :PROPERTIES:
+    :ID:       951dd9d8-ced6-4a1a-8163-c699bd834639
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:07]
+    :END:
+What are the possible values
+for lepton numbers?
+**** Answer:
+Particles that are not leptons
+have lepton number 0. All 
+leptons that are particles have
+lepton number +1 whereas leptons
+that are anti-particles have
+lepton number -1.
+*** Particles                                                         :drill:
+    SCHEDULED: <2018-07-03 Tue>
+    :PROPERTIES:
+    :ID:       e99decab-17da-42de-acba-609651e64c8d
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:07]
+    :END:
+What are leptons?
+**** Answer:
+Particles that interact via
+the electromagnetic and weak
+force but are not subject to
+the strong force.
+*** Particles                                                         :drill:
+    SCHEDULED: <2018-07-03 Tue>
+    :PROPERTIES:
+    :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:07]
+    :END:
+Why can a neutral particle
+like the neutrino have an 
+anti-particle?
+**** Answer:
+Because these particles can
+have a lepton number, thus 
+despite being electrically 
+neutral they can have opposite
+lepton numbers.
 *** Fields                                                            :drill:
     SCHEDULED: <2018-07-02 Mon>
     :PROPERTIES:
@@ -1799,17 +1901,17 @@ with an annihilation operator results in a counting
 operator which counts the number of particles of
 a given type in a given state.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-06-29 Fri>
+    SCHEDULED: <2018-07-30 Mon>
     :PROPERTIES:
     :ID:       b088e6b3-916c-443b-837a-23db646df091
-    :DRILL_LAST_INTERVAL: 16.5955
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 31.0668
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.111
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-12 Tue 12:15]
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:08]
     :END:
 What is the problem with allowing infinitely
 many particles in a field theory?
@@ -2162,18 +2264,18 @@ ACL is an abbreviation for
 [specify file access in a more fine-grained 
 way than users and groups].
 *** Fact							      :drill:
-    SCHEDULED: <2018-06-29 Fri>
+    SCHEDULED: <2018-08-08 Wed>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       515f3873-fe47-4fc3-8889-dacbfa24c71b
-  :DRILL_LAST_INTERVAL: 18.9202
-  :DRILL_REPEATS_SINCE_FAIL: 4
-  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_LAST_INTERVAL: 40.4892
+  :DRILL_REPEATS_SINCE_FAIL: 5
+  :DRILL_TOTAL_REPEATS: 9
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_AVERAGE_QUALITY: 3.556
   :DRILL_EASE: 2.14
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:33]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:08]
   :END:      
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
@@ -2210,17 +2312,17 @@ created with [setfacl||the command].
 The [Access Control List entries] for a file 
 can be checked with [getfacl||the command].
 *** Network                                                           :drill:
-    SCHEDULED: <2018-06-29 Fri>
+    SCHEDULED: <2018-07-09 Mon>
     :PROPERTIES:
     :ID:       25c51af7-4bd8-4e59-93c1-cff3b4e61b90
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-25 Mon 10:09]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:02]
     :END:
 How to connect to wifi
 from the command line?
@@ -2228,17 +2330,17 @@ from the command line?
 With ~nmcli~. Check its
 manpage for details.
 *** X Server                                                          :drill:
-    SCHEDULED: <2018-06-29 Fri>
+    SCHEDULED: <2018-07-09 Mon>
     :PROPERTIES:
     :ID:       efa47740-6a94-4d3f-9741-01a1982014dc
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-25 Mon 10:08]
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:03]
     :END:
 How to configure GUI behaviour
 on Lubuntu?
@@ -2246,23 +2348,23 @@ on Lubuntu?
 In the files located in
 ~ ~/.config/lxsession/$DESKTOP_SESSION~
 *** X Server                                                          :drill:
-    SCHEDULED: <2018-06-29 Fri>
+    SCHEDULED: <2018-07-09 Mon>
     :PROPERTIES:
     :ID:       94e89ecb-39a3-4f6d-aa4c-e077f0abb8a2
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-25 Mon 10:08]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:05]
     :END:
 How to run applications at
 start-up ~xinit~ style in lubuntu?
 **** Answer:
 Just add the application in
-~ ~/.config/lxsession/$DESKTOP_SESSION~
+~ ~/.config/lxsession/$DESKTOP_SESSION/autostart~
 *** X Server                                                          :drill:
     SCHEDULED: <2018-07-03 Tue>
     :PROPERTIES:
