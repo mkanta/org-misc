@@ -8,17 +8,17 @@
 * Development
 ** emacs
 *** org-mode							      :drill:
-    SCHEDULED: <2018-06-30 Sat>
+    SCHEDULED: <2018-07-09 Mon>
     :PROPERTIES:
     :ID:       9a994bce-9e78-4b2e-8946-bbf23a422aab
-    :DRILL_LAST_INTERVAL: 7.7176
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 8.9524
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.882
-    :DRILL_EASE: 1.16
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-22 Fri 08:48]
+    :DRILL_AVERAGE_QUALITY: 2.944
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-30 Sat 18:16]
     :END:
 How to edit a source block?
 **** Answer
@@ -68,17 +68,17 @@ a variable with =set= vs =setq=?
 In =setq= there is no attempt to evaluate
 the first argument, it is assumed quoted.
 *** elisp							      :drill:
-    SCHEDULED: <2018-06-30 Sat>
+    SCHEDULED: <2018-08-17 Fri>
     :PROPERTIES:
     :ID:       85d6aa60-e332-4b78-8237-f498b08c5748
-    :DRILL_LAST_INTERVAL: 21.4949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 47.7187
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:38]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-30 Sat 18:16]
     :END:
 What is the difference between 
 setting a variable with /set/ vs /let/?
@@ -150,6 +150,67 @@ results in a lisp error: /wrong-type-argument
 listp argname/?
 **** Answer:
 The last argument of =apply= must be a list.
+*** maxima and emacs                                                  :drill:
+How to interact from a
+file buffer with Maxima?
+**** Answer:
+In the simplest case by
+enabling maxima minor mode
+with /M-x maxima-minor-mode/
+and then using the /C-c = .../
+shortcuts to communicate with
+the Maxima process.
+*** maxima and emacs                                                  :drill:
+How useful is Maxima mode in
+interacting with a maxima 
+process from a file?
+**** Answer:
+Minor maxima mode is sufficient 
+for the interaction. Major maxima
+mode just adds some conveniences
+like syntax highlighting, identation,
+access to the help system etc.
+*** maxima and emacs                                                  :drill:
+    SCHEDULED: <2018-07-07 Sat>
+    :PROPERTIES:
+    :ID:       589df8d5-0af8-4526-ac3c-8a026c814a6a
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 11:00]
+    :END:
+How to send maxima output
+to other buffers?
+**** Answer:
+With /M-x maxima-insert-last-output-tex/
+from the recipient buffer or with one
+of the functions from the In/Out menu
+in the maxima buffer itself.
+*** system                                                            :drill:
+    SCHEDULED: <2018-07-07 Sat>
+    :PROPERTIES:
+    :ID:       059a372a-cee6-4261-a4a7-f42144348b69
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 11:00]
+    :END:
+How to pipe stdin
+into emacs?
+**** Answer:
+Normally not at all, use
+/eshell/ or /M-!/ from within
+emacs. The closest to piping
+/echo string|emacs/ would be
+/emacs –insert <(echo string)/
 ** javascript
 *** javascript var declaration 					      :drill:
     SCHEDULED: <2018-10-15 Mon>
@@ -679,17 +740,17 @@ With ~ctrl-alt-F1~ to get to
 a terminal and ~ctrl-alt-F7~
 to get back to graphics.
 *** user interface                                                    :drill:
-    SCHEDULED: <2018-07-01 Sun>
+    SCHEDULED: <2018-07-23 Mon>
     :PROPERTIES:
     :ID:       0665f3b1-a732-486c-af24-f858ff9a521c
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-22 Fri 08:47]
+    :DRILL_LAST_REVIEWED: [2018-07-01 Sun 06:15]
     :END:
 What to do if the graphical
 user interface has become
@@ -701,17 +762,17 @@ the display manager, ie
 ~sudo service lightdm stop~
 or restart it.
 *** user interface                                                    :drill:
-    SCHEDULED: <2018-07-02 Mon>
+    SCHEDULED: <2018-07-27 Fri>
     :PROPERTIES:
     :ID:       f79fd0a7-7f5c-472d-93dd-0ee0fe476973
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-22 Fri 08:47]
+    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:57]
     :END:
 What is the proper way to 
 shut down the X-server in
@@ -723,17 +784,17 @@ Switch to a terminal with
 
 ** version control
 *** git in emacs                                                      :drill:
-    SCHEDULED: <2018-07-03 Tue>
+    SCHEDULED: <2018-07-28 Sat>
     :PROPERTIES:
     :ID:       ffe7aafc-2116-4e83-8a15-66372e666112
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-23 Sat 10:06]
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 10:59]
     :END:
 What happens if answering /yes/
 to the checkout question when
@@ -746,17 +807,17 @@ content. The only way to edit
 it afterwards is to check it 
 back in.
 *** git in emacs                                                      :drill:
-    SCHEDULED: <2018-07-03 Tue>
+    SCHEDULED: <2018-07-28 Sat>
     :PROPERTIES:
     :ID:       7d88dd8a-b454-4a64-86f5-2dcf28a9f428
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-23 Sat 10:05]
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 10:57]
     :END:
 What happens when checking in
 a file under git control in
@@ -865,17 +926,17 @@ constantly probing and chattering
 agent.
 ** Meditation
 *** Language and Reality                                              :drill:
-    SCHEDULED: <2018-07-01 Sun>
+    SCHEDULED: <2018-07-11 Wed>
     :PROPERTIES:
     :ID:       ee8310e0-3362-4937-a8fb-15055f706a95
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-27 Wed 10:34]
+    :DRILL_LAST_REVIEWED: [2018-07-01 Sun 06:15]
     :END:
 What would reality look
 like without language?
@@ -886,17 +947,17 @@ collapses into a state
 that can be named or 
 otherwise pinpointed.
 *** Language and Reality                                              :drill:
-    SCHEDULED: <2018-07-01 Sun>
+    SCHEDULED: <2018-07-10 Tue>
     :PROPERTIES:
     :ID:       da3a1808-ba6d-4ff5-be7c-176bf38a455b
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-27 Wed 10:35]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-01 Sun 06:16]
     :END:
 In which sense is language
 like a quantum measurement?
@@ -1157,17 +1218,17 @@ field at /x/, the vector /v(x+tw)/ undergoes
 a parallel transport into the tangent
 space at /x/ and is compared to /v(x)/. 
 *** Differential						      :drill:
-    SCHEDULED: <2018-07-01 Sun>
+    SCHEDULED: <2018-08-21 Tue>
     :PROPERTIES:
     :ID:       29efe539-ce68-4447-a25d-8d5f21b06a52
-    :DRILL_LAST_INTERVAL: 21.4987
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 50.7369
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.571
+    :DRILL_AVERAGE_QUALITY: 3.625
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:32]
+    :DRILL_LAST_REVIEWED: [2018-07-01 Sun 06:21]
     :END:
 What is the idea of parallel transport
 of tangent vectors on a manifold as used
@@ -1366,6 +1427,18 @@ Since this means /A⊗B⊦A/, this
 would lead to /⊦A⊗B⊸A/ which is
 known not to hold.
 *** Logic                                                             :drill:
+    SCHEDULED: <2018-07-14 Sat>
+    :PROPERTIES:
+    :ID:       dab9155b-c5f1-4313-95c0-8be841ff24f2
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-04 Wed 07:10]
+    :END:
 Why is /A ⊢ B/ not the same
 as /⊢ A → B/?
 **** Answer:
@@ -1477,17 +1550,17 @@ fields composed of Fermions or in
 fields with Parastatistics when 
 using /qudits/.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-07-02 Mon>
+    SCHEDULED: <2018-08-10 Fri>
     :PROPERTIES:
     :ID:       8b5816c6-cc54-443a-8a17-eb4ad722daa8
-    :DRILL_LAST_INTERVAL: 18.8265
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 38.9144
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-13 Wed 12:00]
+    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:58]
     :END:
 How does a (proper) Lorentz 
 transformation /Λ/
@@ -1498,108 +1571,18 @@ affect field operators /Φ(x)/?
 representing /Λ/ on the 
 Hilbert space on which /Φ(x)/ 
 is defined.
-*** Particles                                                         :drill:
-    SCHEDULED: <2018-07-03 Tue>
-    :PROPERTIES:
-    :ID:       4de4a63c-4287-42c1-a424-b2a6d28b1603
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:06]
-    :END:
-Why does beta decay
-/n → p+e+v̄ₑ/ involve an
-anti-neutrino instead
-of a neutrino?
-**** Answer:
-Because lepton number has
-to be preserved. Neutron
-/n/ and proton /p/ both have 
-lepton number 0 as
-non-leptons whereas the 
-electron has lepton number 1.
-Thus, the neutrino part needs
-to have lepton number -1 requiring
-it to be an anti-neutrino.
-*** Particles                                                         :drill:
-    SCHEDULED: <2018-07-03 Tue>
-    :PROPERTIES:
-    :ID:       951dd9d8-ced6-4a1a-8163-c699bd834639
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:07]
-    :END:
-What are the possible values
-for lepton numbers?
-**** Answer:
-Particles that are not leptons
-have lepton number 0. All 
-leptons that are particles have
-lepton number +1 whereas leptons
-that are anti-particles have
-lepton number -1.
-*** Particles                                                         :drill:
-    SCHEDULED: <2018-07-03 Tue>
-    :PROPERTIES:
-    :ID:       e99decab-17da-42de-acba-609651e64c8d
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:07]
-    :END:
-What are leptons?
-**** Answer:
-Particles that interact via
-the electromagnetic and weak
-force but are not subject to
-the strong force.
-*** Particles                                                         :drill:
-    SCHEDULED: <2018-07-03 Tue>
-    :PROPERTIES:
-    :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:07]
-    :END:
-Why can a neutral particle
-like the neutrino have an 
-anti-particle?
-**** Answer:
-Because these particles can
-have a lepton number, thus 
-despite being electrically 
-neutral they can have opposite
-lepton numbers.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-07-02 Mon>
+    SCHEDULED: <2018-08-10 Fri>
     :PROPERTIES:
     :ID:       ec3c4a08-bc01-4d7e-9571-a3cb41ee717d
-    :DRILL_LAST_INTERVAL: 18.8265
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 38.9144
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-13 Wed 12:00]
+    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:59]
     :END:
 How does a proper Lorentz
 transformation /Λ/ affect
@@ -1837,17 +1820,17 @@ creation and annihilation operators describing
 the creation and annihilation of the particles 
 in certain states.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-07-01 Sun>
+    SCHEDULED: <2018-08-23 Thu>
     :PROPERTIES:
     :ID:       0bbfc22d-d26d-46a8-9f97-35161fefa05c
-    :DRILL_LAST_INTERVAL: 22.2784
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 52.577
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.571
+    :DRILL_AVERAGE_QUALITY: 3.625
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-09 Sat 11:39]
+    :DRILL_LAST_REVIEWED: [2018-07-01 Sun 06:22]
     :END:
 Why are the creation and annihilation operators
 fundamental in a quantum field theory?
@@ -1944,17 +1927,17 @@ When trying to calculate a unitary operator
 connecting the representations, infinities will
 occur.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-07-03 Tue>
+    SCHEDULED: <2018-08-31 Fri>
     :PROPERTIES:
     :ID:       62cd80e6-0ecd-482d-a31d-73328f96de7f
-    :DRILL_LAST_INTERVAL: 23.3592
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 58.6082
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.715
+    :DRILL_AVERAGE_QUALITY: 3.751
     :DRILL_EASE: 2.46
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:34]
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 11:01]
     :END:
 
 What is he S-matrix?
@@ -1962,6 +1945,170 @@ What is he S-matrix?
 The matrix that transforms the basis constructed
 from one-particle states at time /t=-∞/ to 
 that constructed at /t=∞/.
+*** Measurement                                                       :drill:
+    SCHEDULED: <2018-07-06 Fri>
+    :PROPERTIES:
+    :ID:       fa8b6c14-e9bd-425f-ab15-987940ee233f
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 04:00]
+    :END:
+In which sense is parallel
+displacement like quantum
+decoherence?
+**** Answer:
+In a sense that a vector is
+lifted out of its tangent
+space and then moved through
+an ambient space introducing
+ambiguity, before being
+projected back into another
+tangent space resulting in
+a collapse of the ambiguity.
+*** Particles                                                         :drill:
+What is parity?
+**** Answer:
+A quantum property measured
+by the parity operator /P/, which
+acts on a wavefunction /φ/ as
+/Pφ(x)=φ(-x)/.
+*** Particles                                                         :drill:
+How to determine parity for
+multiple particle states?
+**** Answer:
+From the fact that parity is
+a multiplicative quantum number,
+ie. /P|a,b⟩=(P|a⟩)P(|b⟩)/.
+*** Particles                                                         :drill:
+How is parity different in bosons
+vs fermions?
+**** Answer:
+For bosons, particles and anti-
+particles have the same parity.
+For fermions, particle and anti-
+particle have opposite parity.
+*** Particles                                                         :drill:
+What is parity violation?
+**** Answer:
+The fact that parity is only
+preserved in electromagenetic
+and in strong interactions but
+not in weak interactions.
+*** Particles                                                         :drill:
+How can particles change their
+parity?
+**** Answer:
+Only through interactions. Parity
+eigenstates are also energy eigen-
+states, hence preserved during
+time-evolution.
+*** Particles                                                         :drill:
+How does the identity of particle
+types come about?
+**** Answer:
+Through observables whose eigenstates
+are energy eigenstates but with few
+eigenvalues, such as electric charge,
+parity etc. This way, these properties
+won't change in time, thus conveying
+individuality through durability. The
+low number of eigenvalues avoids 
+the confusion of multitudes.
+*** Particles                                                         :drill:
+    SCHEDULED: <2018-07-13 Fri>
+    :PROPERTIES:
+    :ID:       4de4a63c-4287-42c1-a424-b2a6d28b1603
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 10:58]
+    :END:
+Why does beta decay
+/n → p+e+v̄ₑ/ involve an
+anti-neutrino instead
+of a neutrino?
+**** Answer:
+Because lepton number has
+to be preserved. Neutron
+/n/ and proton /p/ both have 
+lepton number 0 as
+non-leptons whereas the 
+electron has lepton number 1.
+Thus, the neutrino part needs
+to have lepton number -1 requiring
+it to be an anti-neutrino.
+*** Particles                                                         :drill:
+    SCHEDULED: <2018-07-12 Thu>
+    :PROPERTIES:
+    :ID:       951dd9d8-ced6-4a1a-8163-c699bd834639
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 11:00]
+    :END:
+What are the possible values
+for lepton numbers?
+**** Answer:
+Particles that are not leptons
+have lepton number 0. All 
+leptons that are particles have
+lepton number +1 whereas leptons
+that are anti-particles have
+lepton number -1.
+*** Particles                                                         :drill:
+    SCHEDULED: <2018-07-12 Thu>
+    :PROPERTIES:
+    :ID:       e99decab-17da-42de-acba-609651e64c8d
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 10:58]
+    :END:
+What are leptons?
+**** Answer:
+Particles that interact via
+the electromagnetic and weak
+force but are not subject to
+the strong force.
+*** Particles                                                         :drill:
+    SCHEDULED: <2018-07-12 Thu>
+    :PROPERTIES:
+    :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 10:59]
+    :END:
+Why can a neutral particle
+like the neutrino have an 
+anti-particle?
+**** Answer:
+Because these particles can
+have a lepton number, thus 
+despite being electrically 
+neutral they can have opposite
+lepton numbers.
 *** Path Integral						      :drill:
     SCHEDULED: <2018-07-16 Mon>
     :PROPERTIES:
@@ -2177,17 +2324,17 @@ By splitting the current /Jᵐ/ into a
 positive and a negative part:
 /Jᵐ=Jₚᵐ-Jₙᵐ/.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2018-07-02 Mon>
+    SCHEDULED: <2018-08-10 Fri>
     :PROPERTIES:
     :ID:       e82d63ed-8a66-4200-bb70-194ea8b2ee6f
-    :DRILL_LAST_INTERVAL: 18.8265
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 38.9144
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-13 Wed 11:59]
+    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:58]
     :END:
 Why is /lack of reality/
 not a strong argument
@@ -2246,18 +2393,18 @@ and record it at the same time, run
 and [arecord with the default device].
 * Unix
 *** Fact							      :drill:
-    SCHEDULED: <2018-07-02 Mon>
+    SCHEDULED: <2018-08-25 Sat>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       98803899-cb7e-47ff-8a49-f779380cf58d
-  :DRILL_LAST_INTERVAL: 22.404
-  :DRILL_REPEATS_SINCE_FAIL: 4
-  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_LAST_INTERVAL: 54.4865
+  :DRILL_REPEATS_SINCE_FAIL: 5
+  :DRILL_TOTAL_REPEATS: 9
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 3.875
-  :DRILL_EASE: 2.52
-  :DRILL_LAST_QUALITY: 5
-  :DRILL_LAST_REVIEWED: [2018-06-10 Sun 12:34]
+  :DRILL_AVERAGE_QUALITY: 3.778
+  :DRILL_EASE: 2.38
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:59]
   :END:      
 ACL is an abbreviation for 
 [Access Control Lists], it allows to 
@@ -2366,17 +2513,17 @@ start-up ~xinit~ style in lubuntu?
 Just add the application in
 ~ ~/.config/lxsession/$DESKTOP_SESSION/autostart~
 *** X Server                                                          :drill:
-    SCHEDULED: <2018-07-03 Tue>
+    SCHEDULED: <2018-07-28 Sat>
     :PROPERTIES:
     :ID:       d2aadf4a-8bde-47c5-a6e9-2e69b69e99c9
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-23 Sat 10:05]
+    :DRILL_LAST_REVIEWED: [2018-07-03 Tue 10:57]
     :END:
 How to find out what 
 a key does in X?
@@ -2386,17 +2533,17 @@ and hit keys. It will
 list events thusly
 generated on the server.
 *** Gnu Root Debian                                                   :drill:
-    SCHEDULED: <2018-07-02 Mon>
+    SCHEDULED: <2018-07-24 Tue>
     :PROPERTIES:
     :ID:       512e04cc-f3fc-4bc3-ab38-e760325fe873
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-23 Sat 10:06]
+    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:56]
     :END:
 What to do if the ALT key
 doesn't work in an emacs
