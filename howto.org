@@ -1,0 +1,37 @@
+* Tensor Flow                                                    :tensorflow:
+** Installing:                                                 :installation:
+*** Haskell Bindings                                                :haskell:
+ - get library: 
+   ~curl https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-cpu-linux-x86_64-1.9.0.tar.gz >libtensorflow-1.9.0.tar.gz~
+   and unpack into /usr/local:
+   ~sudo tar zxf libtensorflow-1.9.0.tar.gz -C /usr/local~ then run 
+   ~sudo ldconfig~
+   Same thing re AVX instructions applies here, may have to compile from
+   source code or use lower version binaries.
+ - There is a way to just compile the binaries needed without all the python:
+   https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/lib_package/README.md
+*** Source                                                           :source:
+- install bazel using the bazel installer, prerequisites are already
+  there in ubuntu 16.04, at least on systems where development is the
+  norm
+- get the bazel developpers key and verify the signature with gpg
+- run the installer, use the --user flag for an install into ~/bin
+- get the source from github
+- run ./configure, make sure to use the local architecture
+- run bazel, mind the note about a local gcc5
+*** Python                                                           :python:
+ - pip install -U --no-cache-dir tensorflow
+   This may result in an  ~Illegal instruction (core dumped)~ message when
+   running ~import tensorflow~ in the python environment. The problem are  
+   AVX instructions in precompiled newer binaries. There are two solutions:
+   1) Install versions beyond 1.5 from source since this is where the AVX
+      instructions occur in the precompiled binaries.
+   2) Downgrade: ~pip uninstall tensorflow~ followed by 
+      ~pip install -U --no-cache-dir tensorflow==1.5~
+ - This doesn't seem to install a termflow.so binary anywhere, it seems the
+   libtensorflow_framework.so is the only binary needed when using python.
+   libtensorflow.so is the compiled C-API, only required for other language
+   bindings. Note there is also a Java library.
+
+
+

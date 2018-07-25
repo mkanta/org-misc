@@ -8,17 +8,17 @@
 * Development
 ** ai
 *** Intelligence                                                      :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-04 Sat>
     :PROPERTIES:
     :ID:       22e5e48c-d70c-4f2d-a1ef-4c1f1b83f1fc
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:27]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:43]
     :END:
 What is intelligence?
 **** Answer:
@@ -27,6 +27,100 @@ translate reality into a
 language and to efficiently
 manipulate the inherent logic
 of a language.
+*** Tensor Flow                                                       :drill:
+    SCHEDULED: <2018-07-29 Sun>
+    :PROPERTIES:
+    :ID:       9bf3a859-c623-4594-bb79-bbbe12fce048
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:54]
+    :END:
+What is the concept of tensors
+in /Tensor Flow/?
+**** Answer:
+A tensor in this context is simply
+a multidimensional array.
+*** Tensor Flow                                                       :drill:
+    SCHEDULED: <2018-07-29 Sun>
+    :PROPERTIES:
+    :ID:       d1ba0d80-c2c2-4902-aabe-791b3ab307b8
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:56]
+    :END:
+What is a /placeholder/?
+**** Answer:
+A tensor that is changed at
+each session run, usually used
+as tensor of input values.
+*** Tensor Flow                                                       :drill:
+    SCHEDULED: <2018-07-29 Sun>
+    :PROPERTIES:
+    :ID:       4f139b4f-7812-4159-9282-9ec2aa012cf8
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:57]
+    :END:
+What is a /variable/?
+**** Answer:
+A tensor used as an output
+variable, usually containing
+estimates for a model.
+*** Tensor Flow                                                       :drill:
+    SCHEDULED: <2018-07-29 Sun>
+    :PROPERTIES:
+    :ID:       ffbe5a2d-a068-4a2f-8f09-7008602becbd
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:55]
+    :END:
+In which sense is Tensor Flow
+monadic?
+**** Answer:
+ In the sense that there is
+ the description of a computation
+ that is then activated.
+*** Tensor Flow                                                       :drill:
+    SCHEDULED: <2018-07-29 Sun>
+    :PROPERTIES:
+    :ID:       7778b738-a78c-402f-a83a-d6d9b3e91a88
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:57]
+    :END:
+What is the computational
+model of /Tensor Flow/?
+**** Answer:
+The construction of an expression
+involving tensors and operations
+on them as a graph that describes
+a computation and the subsequent
+execution of the description.
 ** emacs
 *** org-mode							      :drill:
     SCHEDULED: <2018-08-05 Sun>
@@ -107,17 +201,17 @@ setting a variable with /set/ vs /let/?
 Variables set with =let varlist body=
 are only visible within /body/.
 *** elisp							      :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-12-04 Tue>
     :PROPERTIES:
     :ID:       454a9228-a12f-4b0a-95b8-bdb511d7c400
-    :DRILL_LAST_INTERVAL: 58.2434
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 133.4356
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.32
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.18
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-27 Sun 09:25]
+    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:37]
     :END:
 What is the problem when variables
 in the /varlist/ of a =let= have value
@@ -668,17 +762,17 @@ derived classes?
 In general, the constructor of the superclass 
 has to be called. Use =super= to do that.
 *** typescript classes 	 				      :drill:
-    SCHEDULED: <2018-07-23 Mon>
+    SCHEDULED: <2018-09-17 Mon>
     :PROPERTIES:
     :ID:       67da1017-12ef-4f7d-a700-3e054125fbb3
-    :DRILL_LAST_INTERVAL: 28.9094
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 55.7951
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.444
-    :DRILL_EASE: 2.0
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-24 Sun 08:16]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 1.86
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-23 Mon 04:09]
     :END:
 What is the problem with defining functions not
 as methods but as members, for example by
@@ -785,17 +879,17 @@ With ~ctrl-alt-F1~ to get to
 a terminal and ~ctrl-alt-F7~
 to get back to graphics.
 *** user interface                                                    :drill:
-    SCHEDULED: <2018-07-23 Mon>
+    SCHEDULED: <2018-09-14 Fri>
     :PROPERTIES:
     :ID:       0665f3b1-a732-486c-af24-f858ff9a521c
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.9971
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-01 Sun 06:15]
+    :DRILL_LAST_REVIEWED: [2018-07-23 Mon 04:10]
     :END:
 What to do if the graphical
 user interface has become
@@ -1041,17 +1135,17 @@ watery due to the lack of direction
 towards a centre of gravity.
 ** Astrology
 *** Cycles                                                            :drill:
-    SCHEDULED: <2018-07-22 Sun>
+    SCHEDULED: <2018-08-16 Thu>
     :PROPERTIES:
     :ID:       ffdeeaa9-0bc4-4c9f-a93d-ee2becb7c031
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-12 Thu 05:47]
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:09]
     :END:
  What seems to be the most
  prominent seven year cycle?
@@ -1103,17 +1197,17 @@ sentence just like a state
 vector collapses to give a
 measurement.
 *** Self-Knowledge                                                    :drill:
-    SCHEDULED: <2018-07-23 Mon>
+    SCHEDULED: <2018-09-16 Sun>
     :PROPERTIES:
     :ID:       7a201c84-df05-4c49-9fbb-335c09f48090
-    :DRILL_LAST_INTERVAL: 24.12
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.9212
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:01]
+    :DRILL_LAST_REVIEWED: [2018-07-23 Mon 04:09]
     :END:
 How could Astrology be used
 to obtain knowledge of
@@ -1148,10 +1242,68 @@ that can be named is not the
 eternal Tao.
 * Mathematics
 ** Algebra
-*** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-07-25 Wed>
+*** Relativity                                                        :drill:
+    SCHEDULED: <2018-07-26 Thu>
     :PROPERTIES:
-    :ID:       46ad0d7a-2654-4e47-a6fa-0945e2d7c6a0
+    :ID:       434f9b4f-17e7-475c-9088-db39a07b4449
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:13]
+    :END:
+What is the Lorentz group?
+**** Answer:
+In its full generality it
+is the matrix Lie group
+preserving the quadratic form
+/t²-x²-y²-z²/ also called /O(1,3)/.
+*** Relativity                                                        :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       3a955d9b-ffa7-439e-978c-a24fb7c02d72
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:11]
+    :END:
+What is the topological structure
+of the Lorentz group?
+**** Answer:
+It is a non-compact non-abelian
+Lie-group consisting of four
+connected components that are
+doubly connected.
+*** Relativity                                                        :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       6eb0da88-c77d-4253-8386-70fe55e2805a
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:10]
+    :END:
+What is the orthochronous
+subgroup of the Lorentz group?
+**** Answer:
+These are the elements of the
+Lorentz group that preserve the
+direction of time.
+*** Relativity                                                        :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
     :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
     :DRILL_TOTAL_REPEATS: 1
@@ -1159,7 +1311,105 @@ eternal Tao.
     :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:22]
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:11]
+    :END:
+What are proper Lorentz transformations?
+**** Answer:
+Lorentz transformations of determinant 1,
+they preserve orientation and form the 
+subgroup /SO(1,3)/.
+*** Relativity                                                        :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       6e6c8903-3cda-4c5c-a6ae-21c0bcafee0b
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:16]
+    :END:
+What is the group /SO⁺(1,3)/?
+**** Answer:
+This is the subgroup of proper,
+orthochronous Lorentz transformations,
+also called the /restricted/ Lorentz
+group.
+*** Relativity                                                        :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       0475cd80-546c-499a-a746-13812b44a37c
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:15]
+    :END:
+What is the topological characteristic
+of the restricted Lorentz group?
+**** Answer:
+It is the connected component of the
+Lorentz group that contains the 
+identity.
+*** Relativity                                                        :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       bd3d567e-b144-4327-a636-4933015ef2b0
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:17]
+    :END:
+What is the algebraic structure of
+/O(1,3)/ in terms of the restricted
+Lorentz group?
+**** Answer:
+The quotient O(1,3)/SO⁺(1,3) is isomorphic
+the the group spanned by time-reversal and
+space-inversion. Thus, any arbitrary
+Lorentz transformation is a semi-direct
+product of an element of /SO⁺(1,3)/ and
+a space-time inversion. 
+*** Relativity                                                        :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       a46646d7-9068-4eea-8e20-a42747f2b4ba
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:13]
+    :END:
+How are elements of /SO⁺(1,3)/ usually
+written?
+**** Answer:
+Since /SO⁺(1,3)/ is generated by spatial
+rotations and Lorentz boosts, it can
+be written as a product of those.
+*** Quantum Algebras                                                  :drill:
+    SCHEDULED: <2018-08-03 Fri>
+    :PROPERTIES:
+    :ID:       46ad0d7a-2654-4e47-a6fa-0945e2d7c6a0
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:44]
     :END:
 How are Heisenberg groups
 related to symplectic vector
@@ -1172,17 +1422,17 @@ any symplectic vector space
 /(v,t)(v',t')=(v+v',t+t'+½ω(v,v')/
 on the set /V×ℝ/.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-04 Sat>
     :PROPERTIES:
     :ID:       b75eb632-c84b-4a38-a203-433a5b5ff764
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:31]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:47]
     :END:
 What is the point of constructing
 Heisenberg groups from symplectic
@@ -1195,17 +1445,17 @@ variables and with the Heisenberg
 group on them they obtain
 quantum-mechanical meaning.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-04 Sat>
     :PROPERTIES:
     :ID:       3b67b442-fee1-4123-84f1-d3d18e493b7c
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:26]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:51]
     :END:
 What is the connection of
 the Heisenberg group to
@@ -1446,17 +1696,17 @@ well defined. The vectors are transported in
 the ambient space and projected onto the tangent
 spaces of the manifold.
 *** Differential						      :drill:
-    SCHEDULED: <2018-07-22 Sun>
+    SCHEDULED: <2018-11-17 Sat>
     :PROPERTIES:
     :ID:       a61437ca-4da8-4081-833f-bed25acc53ea
-    :DRILL_LAST_INTERVAL: 54.9212
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 117.6412
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:09]
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:10]
     :END:
 What is the advantage of the Lie derivative
 over covariant derivatives on a manifold? 
@@ -1485,17 +1735,17 @@ Values of /A⊗B/ are strict, both
 components are necessary. 
 Values of /A&B/ are lazy.
 *** Linear                                                            :drill:
-    SCHEDULED: <2018-07-22 Sun>
+    SCHEDULED: <2018-09-22 Sat>
     :PROPERTIES:
     :ID:       023f42b9-fe61-4afb-870d-fbc821eddb82
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-27 Wed 10:30]
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:15]
     :END:
 Why is /A&B/ in linear logic more
 similar to classical conjunction
@@ -1548,17 +1798,17 @@ in functional programming or
 make a measurement in a
 quantum system.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-07-22 Sun>
+    SCHEDULED: <2018-09-13 Thu>
     :PROPERTIES:
     :ID:       0eb08fe5-6743-4e72-8a50-fe05c4ba46d0
-    :DRILL_LAST_INTERVAL: 23.271
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.9881
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:02]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:15]
     :END:
 What is the meaning of
 /A₁, A₂,…, Aₙ ⊦ B/ in 
@@ -1613,17 +1863,17 @@ quantum systems. Measuring
 regarding the respective states 
 of the components /A,B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-09-24 Mon>
     :PROPERTIES:
     :ID:       329ca527-1a7e-44a2-bdf8-4cd413d047bb
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:04]
+    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:38]
     :END:
 Why is it impossible to
 prove /A,B ⊦ A/ in linear logic?
@@ -1656,17 +1906,17 @@ a given logic. For example, in
 linear logic /A ⊢ B/ means 
 /⊢ A ⊸ B/, there is no /→/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-09-22 Sat>
     :PROPERTIES:
     :ID:       1c0e49f3-9259-454f-bc57-070b37fe7c99
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:01]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:35]
     :END:
 How is a proof of sequent
 /A₁,…,Aₙ⊦A/ of linear logic 
@@ -1692,11 +1942,33 @@ A name /φ:A→B/ for a proof of
 sequent /A⊦B/.
 
 * Physics
-** Quantum
-*** Algebra                                                           :drill:
-    SCHEDULED: <2018-07-25 Wed>
+** Relativity
+*** Lorentz                                                           :drill:
+    SCHEDULED: <2018-07-26 Thu>
     :PROPERTIES:
-    :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
+    :ID:       60b0d0e0-2f42-4e27-aa94-3b82de76b8a5
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:17]
+    :END:
+Why are events with 
+/Δs²>0/ called /space-like/?
+**** Answer:
+Because this means that the
+spatial separation exceeds the
+distance light travels, thus
+different space-like events must
+occur at different places, ie they
+are separated by space.
+*** Lorentz                                                           :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       9142e183-36b3-4630-95c7-a54e5025200f
     :DRILL_LAST_INTERVAL: 4.0
     :DRILL_REPEATS_SINCE_FAIL: 2
     :DRILL_TOTAL_REPEATS: 1
@@ -1704,7 +1976,30 @@ sequent /A⊦B/.
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:29]
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:19]
+    :END:
+Why are events with
+/Δs²<0/ called time-like?
+**** Answer:
+Because the spatial separation
+is less than the light travels.
+As a consequence, different
+time-like events cannot occur
+at the same time, ie they are
+separated by time.
+** Quantum
+*** Algebra                                                           :drill:
+    SCHEDULED: <2018-07-29 Sun>
+    :PROPERTIES:
+    :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:58]
     :END:
 How to handle particles
 in a relativistic context?
@@ -1723,17 +2018,17 @@ if they turn out to be the
 same as those of the Lorentz
 group.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-03 Fri>
     :PROPERTIES:
     :ID:       bec4a332-838d-4eec-a133-6be7200e5593
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:24]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:49]
     :END:
 Could particles be defined as
 eigenstates of some space-time
@@ -1749,17 +2044,17 @@ that, such as the Casimir operator,
 possibly also employing the relevant
 Lorentz group.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-04 Sat>
     :PROPERTIES:
     :ID:       5401b059-307d-4458-9d13-4e1800b3bfad
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:30]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:45]
     :END:
 What is the relationship
 of the Heisenberg group to
@@ -1772,6 +2067,30 @@ has the same commutation
 relations as the position-
 momentum operators in 
 quantum physics.
+*** Fields                                                            :drill:
+    SCHEDULED: <2018-07-26 Thu>
+    :PROPERTIES:
+    :ID:       a9ff65aa-867b-43f4-b973-c05db3067c9c
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:14]
+    :END:
+Why are the parity and
+time reversal operators
+of interest in quantum
+fields?
+**** Answer:
+Because they are members
+of the Lorentz group and
+generate a discrete subgroup
+of the full Lorentz group
+isomorphic to the Klein
+four-group.
 *** Fields                                                            :drill:
     SCHEDULED: <2018-07-28 Sat>
     :PROPERTIES:
@@ -1794,17 +2113,17 @@ of /field strength/ which requires
 that arbitrary many field particles
 can be in the same state. 
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-07-22 Sun>
+    SCHEDULED: <2018-09-22 Sat>
     :PROPERTIES:
     :ID:       c65bb428-6bf6-4c41-93a5-d5a57389be52
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-27 Wed 10:34]
+    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:12]
     :END:
 Why is an electron gas not related
 to a classical field?
@@ -1881,17 +2200,17 @@ quantized versions take
 care of that by introducing
 antiparticles.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-16 Thu>
     :PROPERTIES:
     :ID:       b265bc89-65e8-47cc-a4b8-40180ebbed36
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 16:03]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:54]
     :END:
 Why are negative energy solutions
 not a problem in the quantized
@@ -1904,17 +2223,17 @@ annihilation operators as no
 particle states can be created 
 from the null-vector.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-04 Sat>
     :PROPERTIES:
     :ID:       228e937f-bf69-4b0c-b614-294f563d1f25
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:22]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:52]
     :END:
 In which sense are fermion
 fields less uncertain than
@@ -1931,17 +2250,17 @@ than superpositions of an
 infinite number of particle
 states /|n⟩, n∈ℕ/.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-03 Fri>
     :PROPERTIES:
     :ID:       75275769-f6c1-418c-a88d-11fbdc18bf9e
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:20]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:48]
     :END:
 What does the coherent state
 /|α⟩/ look like?
@@ -1949,17 +2268,17 @@ What does the coherent state
 /|α⟩=exp(-|α|²/2)exp(αa⁺)|0⟩/ where
 /a⁺/ is a creation operator.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-03 Fri>
     :PROPERTIES:
     :ID:       ea7e9015-840f-467a-b380-cbeb470b93c9
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:33]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:47]
     :END:
 What does the parameter /α/ in
 coherent state /|α⟩/ describe?
@@ -1969,17 +2288,17 @@ average particle number /⟨n⟩/
 via /⟨n⟩=⟨a⁺a⟩=|α|²/. Note that
 /α/ is a complex number in general.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-03 Fri>
     :PROPERTIES:
     :ID:       08003345-1979-4c1d-b18e-3814c045eec0
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:35]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:42]
     :END:
 How many particles are there in a
 coherent state /|α⟩, α∈ℂ/?
@@ -2435,17 +2754,17 @@ two components representing spin-up
 and spin-down states thus leading to
 four components overall.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-13 Mon>
     :PROPERTIES:
     :ID:       ae00a4b7-5242-41c6-8510-4e4b468795bb
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 16:00]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:43]
     :END:
 What does the Dirac spinor have to
 do with the Dirac equation?
@@ -2481,17 +2800,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-13 Mon>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 16:00]
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:46]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -2680,17 +2999,17 @@ charge operator. But this means
 their electrical charge must
 be 0.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-08-14 Tue>
     :PROPERTIES:
     :ID:       45cc9ccf-4da5-4927-86f8-10390c222521
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 15:58]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:51]
     :END:
 What is /charge/?
 **** Answer:
@@ -2699,17 +3018,17 @@ by the charge operator /C/
 which sends a particle state
 |ψ⟩ to its anti-particle |ψ̄⟩.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-08-02 Thu>
     :PROPERTIES:
     :ID:       bd25de33-b524-4b5e-9bec-d801a244fb17
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:13]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:33]
     :END:
 What is parity?
 **** Answer:
@@ -2737,17 +3056,17 @@ From the fact that parity is
 a multiplicative quantum number,
 ie. /P|a,b⟩=(P|a⟩)P(|b⟩)/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-08-01 Wed>
     :PROPERTIES:
     :ID:       3ea55019-0da2-455a-bc8b-e1b360962bbc
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 7.979
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:12]
+    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:33]
     :END:
 How is parity different in bosons
 vs fermions?
@@ -2869,17 +3188,17 @@ lepton number +1 whereas leptons
 that are anti-particles have
 lepton number -1.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-08-10 Fri>
     :PROPERTIES:
     :ID:       e99decab-17da-42de-acba-609651e64c8d
-    :DRILL_LAST_INTERVAL: 8.0288
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 16.5955
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 16:05]
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:34]
     :END:
 What are leptons?
 **** Answer:
@@ -2888,17 +3207,17 @@ the electromagnetic and weak
 force but are not subject to
 the strong force.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-08-11 Sat>
     :PROPERTIES:
     :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
-    :DRILL_LAST_INTERVAL: 8.2695
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 17.7133
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 16:04]
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:34]
     :END:
 Why can a neutral particle
 like the neutrino have an 
@@ -3212,36 +3531,36 @@ of /H/ is the classical energy.
 * Sound
 ** Alsa
 *** Fact							      :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-09-16 Sun>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       856d669e-831e-4bc1-b828-7289fc8bbace
-  :DRILL_LAST_INTERVAL: 28.9653
-  :DRILL_REPEATS_SINCE_FAIL: 5
-  :DRILL_TOTAL_REPEATS: 9
+  :DRILL_LAST_INTERVAL: 54.0492
+  :DRILL_REPEATS_SINCE_FAIL: 6
+  :DRILL_TOTAL_REPEATS: 10
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 3.221
-  :DRILL_EASE: 1.76
+  :DRILL_AVERAGE_QUALITY: 3.199
+  :DRILL_EASE: 1.62
   :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-06-25 Mon 10:09]
+  :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:37]
   :END:      
 #just testing italic and bold markup
 Alsa's [dsnoop||interface] /allows/ *to* 
 [loop microphone input to playback] and 
 [record with arecord] at the same time.
 *** Fact							      :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-09-16 Sun>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       198fc05f-47ff-476b-b287-629743279c9f
-  :DRILL_LAST_INTERVAL: 28.9653
-  :DRILL_REPEATS_SINCE_FAIL: 5
-  :DRILL_TOTAL_REPEATS: 10
+  :DRILL_LAST_INTERVAL: 54.0492
+  :DRILL_REPEATS_SINCE_FAIL: 6
+  :DRILL_TOTAL_REPEATS: 11
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 3.1
-  :DRILL_EASE: 1.76
+  :DRILL_AVERAGE_QUALITY: 3.091
+  :DRILL_EASE: 1.62
   :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-06-25 Mon 10:08]
+  :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:35]
   :END:      
 In order to send microphone input to playback 
 and record it at the same time, run 
@@ -3389,17 +3708,17 @@ and hit keys. It will
 list events thusly
 generated on the server.
 *** Gnu Root Debian                                                   :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-09-14 Fri>
     :PROPERTIES:
     :ID:       512e04cc-f3fc-4bc3-ab38-e760325fe873
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.2785
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:56]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:36]
     :END:
 What to do if the ALT key
 doesn't work in an emacs
