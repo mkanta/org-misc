@@ -10,6 +10,16 @@
    source code or use lower version binaries.
  - There is a way to just compile the binaries needed without all the python:
    https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/lib_package/README.md
+ - Need to install snappy: ~apt-get install libsnappy-dev~ and protobuf-compiler
+   version 3. As of 16.04 this has to be compiled from source.
+ - clone tensor-flow haskell from git-hub: 
+   ~git clone --recursive https://github.com/tensorflow/haskell.git tensorflow-haskell~
+   then ~stack build~
+ - There may be problems in tensorflow-core-ops:
+    /parseAttrType: unrecognized type func for .../
+   The operator mentioned in the error message has to be added to the
+   /blackList/ in tensorflow-haskell/tensorflow-core-ops/Setup.hs in order
+   to make the compilation succeed.
 *** Source                                                           :source:
 - install bazel using the bazel installer, prerequisites are already
   there in ubuntu 16.04, at least on systems where development is the
