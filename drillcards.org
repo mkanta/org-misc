@@ -8,17 +8,17 @@
 * Development
 ** ai
 *** Intelligence                                                      :drill:
-    SCHEDULED: <2018-08-04 Sat>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       22e5e48c-d70c-4f2d-a1ef-4c1f1b83f1fc
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:43]
+    :DRILL_LAST_REVIEWED: [2018-08-04 Sat 05:56]
     :END:
 What is intelligence?
 **** Answer:
@@ -28,17 +28,17 @@ language and to efficiently
 manipulate the inherent logic
 of a language.
 *** Tensor Flow                                                       :drill:
-    SCHEDULED: <2018-08-08 Wed>
+    SCHEDULED: <2018-09-03 Mon>
     :PROPERTIES:
     :ID:       9bf3a859-c623-4594-bb79-bbbe12fce048
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-29 Sun 07:08]
+    :DRILL_LAST_REVIEWED: [2018-08-09 Thu 11:11]
     :END:
 What is the concept of tensors
 in /Tensor Flow/?
@@ -46,17 +46,17 @@ in /Tensor Flow/?
 A tensor in this context is simply
 a multidimensional array.
 *** Tensor Flow                                                       :drill:
-    SCHEDULED: <2018-08-08 Wed>
+    SCHEDULED: <2018-09-03 Mon>
     :PROPERTIES:
     :ID:       d1ba0d80-c2c2-4902-aabe-791b3ab307b8
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-29 Sun 07:05]
+    :DRILL_LAST_REVIEWED: [2018-08-09 Thu 11:15]
     :END:
 What is a /placeholder/?
 **** Answer:
@@ -64,17 +64,17 @@ A tensor that is changed at
 each session run, usually used
 as tensor of input values.
 *** Tensor Flow                                                       :drill:
-    SCHEDULED: <2018-08-07 Tue>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       4f139b4f-7812-4159-9282-9ec2aa012cf8
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-29 Sun 07:07]
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 05:59]
     :END:
 What is a /variable/?
 **** Answer:
@@ -82,17 +82,17 @@ A tensor used as an output
 variable, usually containing
 estimates for a model.
 *** Tensor Flow                                                       :drill:
-    SCHEDULED: <2018-08-08 Wed>
+    SCHEDULED: <2018-09-03 Mon>
     :PROPERTIES:
     :ID:       ffbe5a2d-a068-4a2f-8f09-7008602becbd
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-29 Sun 07:08]
+    :DRILL_LAST_REVIEWED: [2018-08-09 Thu 11:12]
     :END:
 In which sense is Tensor Flow
 monadic?
@@ -101,17 +101,17 @@ monadic?
  the description of a computation
  that is then activated.
 *** Tensor Flow                                                       :drill:
-    SCHEDULED: <2018-08-08 Wed>
+    SCHEDULED: <2018-09-02 Sun>
     :PROPERTIES:
     :ID:       7778b738-a78c-402f-a83a-d6d9b3e91a88
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.12
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-29 Sun 07:05]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-09 Thu 11:12]
     :END:
 What is the computational
 model of /Tensor Flow/?
@@ -122,18 +122,100 @@ on them as a graph that describes
 a computation and the subsequent
 execution of the description.
 ** emacs
+*** dired                                                             :drill:
+How to make hidden files
+disappear automatically in
+a dired buffer?
+**** Answer:
+Write a function to do the
+~%m <regexp>~ selection and
+~k~ line-kill using
+~dired-mark-files-regexp "^\\."~
+and
+~dired-do-kill-lines~ and add
+it to one of the dired hooks run
+when entering a directory.
+*** dired                                                             :drill:
+What is ~dired-after-readin-hook~
+for?
+**** Answer:
+This is for functions to be run
+whenever a ~revert-buffer~ event
+occurs. Note that these functions
+should not cause a ~revert-buffer~,
+otherwise an infinite recursion
+would occur.
+*** dired                                                             :drill:
+    SCHEDULED: <2018-08-19 Sun>
+    :PROPERTIES:
+    :ID:       7cde257f-313c-46ca-8ed9-12ac3efdfa3c
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-15 Wed 09:47]
+    :END:
+How to prevent dot-files
+from being displayed in a 
+dired window?
+**** Answer:
+Select them with ~%m ^\.~ and
+press ~k~ to suppress their
+display.
+*** dired                                                             :drill:
+    SCHEDULED: <2018-08-19 Sun>
+    :PROPERTIES:
+    :ID:       7ff99fbd-58a8-440c-a75d-8cf0aaa0a0dc
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-15 Wed 09:46]
+    :END:
+How to suppress the display
+of certain files in a dired
+window?
+**** Answer:
+If they can be described by
+a regular expression, select
+them with ~%m <regex>~ and press
+~k~ to remove them from display.
+*** dired                                                             :drill:
+    SCHEDULED: <2018-08-19 Sun>
+    :PROPERTIES:
+    :ID:       75dbb131-db54-40bd-b6eb-0d7934228689
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-15 Wed 09:46]
+    :END:
+How to make suppressed files
+reappear in a dired window?
+**** Answer:
+With ~revert-buffer~, which is
+bound to ~g~ in a dired buffer.
 *** org-mode							      :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-25 Sat>
     :PROPERTIES:
     :ID:       9a994bce-9e78-4b2e-8946-bbf23a422aab
-    :DRILL_LAST_INTERVAL: 15.1295
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 20
+    :DRILL_LAST_INTERVAL: 19.6684
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 21
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 3.05
+    :DRILL_AVERAGE_QUALITY: 3.095
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:28]
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:30]
     :END:
 How to edit a source block?
 **** Answer
@@ -266,17 +348,17 @@ listp argname/?
 **** Answer:
 The last argument of =apply= must be a list.
 *** maxima and emacs                                                  :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-10-13 Sat>
     :PROPERTIES:
     :ID:       b157fc2f-31fa-4511-a941-1d831df508d7
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:06]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:48]
     :END:
 How to interact from a
 file buffer with Maxima?
@@ -288,17 +370,17 @@ and then using the /C-c = .../
 shortcuts to communicate with
 the Maxima process.
 *** maxima and emacs                                                  :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-08-18 Sat>
     :PROPERTIES:
     :ID:       9225504c-7004-4d0a-bcf0-5420e12ac056
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:12]
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:48]
     :END:
 How useful is Maxima mode in
 interacting with a maxima 
@@ -310,17 +392,17 @@ mode just adds some conveniences
 like syntax highlighting, identation,
 access to the help system etc.
 *** maxima and emacs                                                  :drill:
-    SCHEDULED: <2018-08-08 Wed>
+    SCHEDULED: <2018-09-24 Mon>
     :PROPERTIES:
     :ID:       589df8d5-0af8-4526-ac3c-8a026c814a6a
-    :DRILL_LAST_INTERVAL: 21.6744
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 46.4266
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-17 Tue 08:54]
+    :DRILL_LAST_REVIEWED: [2018-08-09 Thu 11:17]
     :END:
 How to send maxima output
 to other buffers?
@@ -330,17 +412,17 @@ from the recipient buffer or with one
 of the functions from the In/Out menu
 in the maxima buffer itself.
 *** system                                                            :drill:
-    SCHEDULED: <2018-08-11 Sat>
+    SCHEDULED: <2018-10-06 Sat>
     :PROPERTIES:
     :ID:       059a372a-cee6-4261-a4a7-f42144348b69
-    :DRILL_LAST_INTERVAL: 24.12
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.1514
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-18 Wed 06:44]
+    :DRILL_LAST_REVIEWED: [2018-08-11 Sat 12:03]
     :END:
 How to pipe stdin
 into emacs?
@@ -1035,17 +1117,17 @@ certain file or with
 ~git reset~ to unstage
 all due changes.
 *** git                                                               :drill:
-    SCHEDULED: <2018-08-09 Thu>
+    SCHEDULED: <2018-08-28 Tue>
     :PROPERTIES:
     :ID:       cc9ebcad-a727-4d9e-bcdb-a19685dac067
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-31 Tue 05:24]
+    :DRILL_LAST_REVIEWED: [2018-08-09 Thu 11:16]
     :END:
 How to get versioning information
 for commits?
@@ -1155,17 +1237,17 @@ watery due to the lack of direction
 towards a centre of gravity.
 ** Astrology
 *** Eclipses                                                          :drill:
-    SCHEDULED: <2018-08-10 Fri>
+    SCHEDULED: <2018-08-30 Thu>
     :PROPERTIES:
     :ID:       9c0b5123-0645-4d86-a37c-2253907aa2c3
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-01 Wed 04:19]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-10 Fri 10:47]
     :END:
 What is the constellation
 for a lunar eclipse?
@@ -1197,17 +1279,17 @@ aspects of saturn, most notably
 with the native sun.
 ** Meditation
 *** Language and Reality                                              :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-10-04 Thu>
     :PROPERTIES:
     :ID:       ee8310e0-3362-4937-a8fb-15055f706a95
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-11 Wed 06:38]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:29]
     :END:
 What would reality look
 like without language?
@@ -1285,17 +1367,17 @@ eternal Tao.
 * Mathematics
 ** Algebra
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-30 Thu>
     :PROPERTIES:
     :ID:       434f9b4f-17e7-475c-9088-db39a07b4449
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:54]
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:26]
     :END:
 What is the Lorentz group?
 **** Answer:
@@ -1304,17 +1386,17 @@ is the matrix Lie group
 preserving the quadratic form
 /t²-x²-y²-z²/ also called /O(1,3)/.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       3a955d9b-ffa7-439e-978c-a24fb7c02d72
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.12
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:57]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:23]
     :END:
 What is the topological structure
 of the Lorentz group?
@@ -1324,17 +1406,17 @@ Lie-group consisting of four
 connected components that are
 doubly connected.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-30 Thu>
     :PROPERTIES:
     :ID:       6eb0da88-c77d-4253-8386-70fe55e2805a
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:51]
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:26]
     :END:
 What is the orthochronous
 subgroup of the Lorentz group?
@@ -1343,17 +1425,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-08-04 Sat>
+    SCHEDULED: <2018-08-23 Thu>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:52]
+    :DRILL_LAST_REVIEWED: [2018-08-04 Sat 05:57]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -1361,17 +1443,17 @@ Lorentz transformations of determinant 1,
 they preserve orientation and form the 
 subgroup /SO(1,3)/.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-27 Mon>
     :PROPERTIES:
     :ID:       6e6c8903-3cda-4c5c-a6ae-21c0bcafee0b
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4605
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:57]
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:23]
     :END:
 What is the group /SO⁺(1,3)/?
 **** Answer:
@@ -1380,17 +1462,17 @@ orthochronous Lorentz transformations,
 also called the /restricted/ Lorentz
 group.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-30 Thu>
     :PROPERTIES:
     :ID:       0475cd80-546c-499a-a746-13812b44a37c
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:57]
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:29]
     :END:
 What is the topological characteristic
 of the restricted Lorentz group?
@@ -1399,17 +1481,17 @@ It is the connected component of the
 Lorentz group that contains the 
 identity.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       bd3d567e-b144-4327-a636-4933015ef2b0
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.12
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:52]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:28]
     :END:
 What is the algebraic structure of
 /O(1,3)/ in terms of the restricted
@@ -1422,17 +1504,17 @@ Lorentz transformation is a semi-direct
 product of an element of /SO⁺(1,3)/ and
 a space-time inversion. 
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       a46646d7-9068-4eea-8e20-a42747f2b4ba
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.12
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:57]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:27]
     :END:
 How are elements of /SO⁺(1,3)/ usually
 written?
@@ -1441,17 +1523,17 @@ Since /SO⁺(1,3)/ is generated by spatial
 rotations and Lorentz boosts, it can
 be written as a product of those.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-08-16 Thu>
     :PROPERTIES:
     :ID:       09a1eb47-7c07-4543-893c-c77430442c2f
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-02 Thu 16:58]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:08]
     :END:
 With bounded operators
 resembling the complex
@@ -1461,23 +1543,23 @@ like the polar representation?
 Yes, it is called the
 /Polar Decomposition/ of a
 bounded operator. Every bounded
-operator /T/ can be ritten as
+operator /T/ can be written as
 /T=UA/ where /U/ is a partial
 isometry and /A/ is a positive
 operator such that 
 /ker T=ker A=ker U/.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-08-16 Thu>
     :PROPERTIES:
     :ID:       03c6cdba-9412-4ecc-84e8-ca4e032669c4
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-02 Thu 16:58]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 05:57]
     :END:
 Is the polar decomposition
 of a bounded operator unique?
@@ -1487,17 +1569,17 @@ If /T=UA=VB/ with partial isometries
 with /ker U=ker A/ and /ker V=ker B/
 then /U=V/ and /A=B/.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-08-16 Thu>
     :PROPERTIES:
     :ID:       71612fc3-65a0-4dc2-b7de-b6bf73ebb4cc
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-02 Thu 16:57]
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:04]
     :END:
 In which sense does the positive
 operator /A/ in the polar decomposition
@@ -1510,17 +1592,17 @@ are self adjoint, they behave in a
 sense like positive real numbers, so
 /|T|/ is a bit like a length.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-08-16 Thu>
     :PROPERTIES:
     :ID:       7468d8bb-a84d-4e9f-8d79-2691a9c754ae
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-02 Thu 16:56]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 05:58]
     :END:
 What is a partial isometry?
 **** Answer:
@@ -1528,17 +1610,17 @@ A bounded operator /U/ that is an
 isometry on the orthogonal complement
 of its kernel.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-08-16 Thu>
     :PROPERTIES:
     :ID:       fe7e44f5-356b-4040-ac38-4aa80d0ffe4c
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-02 Thu 03:46]
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:00]
     :END:
 How is the norm of /Z/
 related to the norms of
@@ -1551,17 +1633,17 @@ triangle equality. In addition,
 /‖Zx‖²=‖Xx‖²+‖Yx‖² ∀x∈ℍ/ is
 equivalent to /Z/ being normal.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-08-17 Fri>
     :PROPERTIES:
     :ID:       138ead87-8967-44d6-b7ae-4915f86db453
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-02 Thu 03:46]
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 05:57]
     :END:
 Do the /X, Y/ in the cartesian
 decomposition /Z=X+iY/ of a
@@ -1572,17 +1654,17 @@ No, that is a feature of /normal/
 operators, ie 
 /XY=YX ⇔ Z is normal/.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-09-05 Wed>
     :PROPERTIES:
     :ID:       230b8cca-164b-43d3-aa37-652243f0c2a1
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 21.6744
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-01 Wed 04:25]
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:43]
     :END:
 In which sense do bounded operators
 on a Hilbert space resemble complex
@@ -1596,17 +1678,17 @@ like complex numbers with self adjoint
 operators playing the role of real
 numbers.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-09-10 Mon>
     :PROPERTIES:
     :ID:       3672fd79-e972-48f4-8a42-39e5d9f40748
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 25.88
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-01 Wed 04:25]
+    :DRILL_AVERAGE_QUALITY: 4.333
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-08-15 Wed 09:45]
     :END:
 Are bounded operators on a Hilbert
 space always compact?
@@ -1615,17 +1697,17 @@ No, that's actually a misnomer,
 bounded operators are /continuous/
 rather than compact.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-09-09 Sun>
     :PROPERTIES:
     :ID:       226978c1-231d-42e1-ba0e-093f6ff1d2c1
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-01 Wed 04:20]
+    :DRILL_LAST_REVIEWED: [2018-08-15 Wed 09:45]
     :END:
 What is a continuous operator on
 a Hilbert space?
@@ -1633,17 +1715,17 @@ a Hilbert space?
 An operator such that
 /xₙ→x/ implies /Txₙ→Tx/.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-09-05 Wed>
     :PROPERTIES:
     :ID:       8622b9c0-8f9c-4fbe-906e-c507c1aa0b4c
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-01 Wed 04:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:44]
     :END:
 How are isometric operators related
 to unitary ones?
@@ -1675,17 +1757,17 @@ any symplectic vector space
 /(v,t)(v',t')=(v+v',t+t'+½ω(v,v')/
 on the set /V×ℝ/.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-04 Sat>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       b75eb632-c84b-4a38-a203-433a5b5ff764
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:47]
+    :DRILL_LAST_REVIEWED: [2018-08-04 Sat 05:55]
     :END:
 What is the point of constructing
 Heisenberg groups from symplectic
@@ -1698,17 +1780,17 @@ variables and with the Heisenberg
 group on them they obtain
 quantum-mechanical meaning.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-04 Sat>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       3b67b442-fee1-4123-84f1-d3d18e493b7c
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:51]
+    :DRILL_LAST_REVIEWED: [2018-08-04 Sat 05:58]
     :END:
 What is the connection of
 the Heisenberg group to
@@ -1722,17 +1804,17 @@ mapping the canonical variables
 to the differential operators and
 coordinates.
 *** p-adic numbers						      :drill:
-    SCHEDULED: <2018-08-04 Sat>
+    SCHEDULED: <2018-09-13 Thu>
     :PROPERTIES:
     :ID:       6b76eb5b-5272-43cc-bc15-ca08c97ca9a5
-    :DRILL_LAST_INTERVAL: 27.1943
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 39.894
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 3.001
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-08 Sun 07:03]
+    :DRILL_EASE: 1.38
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-04 Sat 05:59]
     :END:
 What is the ring of /p/-adic integers?
 **** Answer:
@@ -2135,17 +2217,17 @@ Since this means /A⊗B⊦A/, this
 would lead to /⊦A⊗B⊸A/ which is
 known not to hold.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-08-10 Fri>
+    SCHEDULED: <2018-10-09 Tue>
     :PROPERTIES:
     :ID:       dab9155b-c5f1-4313-95c0-8be841ff24f2
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 15:58]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-10 Fri 10:53]
     :END:
 Why is /A ⊢ B/ not the same
 as /⊢ A → B/?
@@ -2197,17 +2279,17 @@ sequent /A⊦B/.
 * Physics
 ** Relativity
 *** Lorentz                                                           :drill:
-    SCHEDULED: <2018-08-04 Sat>
+    SCHEDULED: <2018-08-23 Thu>
     :PROPERTIES:
     :ID:       60b0d0e0-2f42-4e27-aa94-3b82de76b8a5
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:53]
+    :DRILL_LAST_REVIEWED: [2018-08-04 Sat 05:54]
     :END:
 Why are events with 
 /Δs²>0/ called /space-like/?
@@ -2219,17 +2301,17 @@ different space-like events must
 occur at different places, ie they
 are separated by space.
 *** Lorentz                                                           :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-28 Tue>
     :PROPERTIES:
     :ID:       9142e183-36b3-4630-95c7-a54e5025200f
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.271
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:51]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:29]
     :END:
 Why are events with
 /Δs²<0/ called time-like?
@@ -2242,17 +2324,17 @@ at the same time, ie they are
 separated by time.
 ** Quantum
 *** Algebra                                                           :drill:
-    SCHEDULED: <2018-08-07 Tue>
+    SCHEDULED: <2018-08-26 Sun>
     :PROPERTIES:
     :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-29 Sun 07:06]
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:02]
     :END:
 How to handle particles
 in a relativistic context?
@@ -2297,17 +2379,17 @@ that, such as the Casimir operator,
 possibly also employing the relevant
 Lorentz group.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2018-08-04 Sat>
+    SCHEDULED: <2018-08-26 Sun>
     :PROPERTIES:
     :ID:       5401b059-307d-4458-9d13-4e1800b3bfad
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4605
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:45]
+    :DRILL_LAST_REVIEWED: [2018-08-04 Sat 05:56]
     :END:
 What is the relationship
 of the Heisenberg group to
@@ -2321,17 +2403,17 @@ relations as the position-
 momentum operators in 
 quantum physics.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-28 Tue>
     :PROPERTIES:
     :ID:       a9ff65aa-867b-43f4-b973-c05db3067c9c
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.271
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:50]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-05 Sun 04:24]
     :END:
 Why are the parity and
 time reversal operators
@@ -2345,17 +2427,17 @@ of the full Lorentz group
 isomorphic to the Klein
 four-group.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-08-15 Wed>
+    SCHEDULED: <2018-09-23 Sun>
     :PROPERTIES:
     :ID:       4e7f4388-7dde-408d-8359-9802db92d21e
-    :DRILL_LAST_INTERVAL: 18.3583
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 39.3235
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.428
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-28 Sat 06:03]
+    :DRILL_AVERAGE_QUALITY: 3.374
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-15 Wed 09:46]
     :END:
 Why are the field particles of
 quantum fields arising from
@@ -2406,17 +2488,17 @@ fields composed of Fermions or in
 fields with Parastatistics when 
 using /qudits/.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-08-10 Fri>
+    SCHEDULED: <2018-10-22 Mon>
     :PROPERTIES:
     :ID:       8b5816c6-cc54-443a-8a17-eb4ad722daa8
-    :DRILL_LAST_INTERVAL: 38.9144
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 72.8478
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:58]
+    :DRILL_LAST_REVIEWED: [2018-08-10 Fri 10:51]
     :END:
 How does a (proper) Lorentz 
 transformation /Λ/
@@ -2476,17 +2558,17 @@ annihilation operators as no
 particle states can be created 
 from the null-vector.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-08-04 Sat>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       228e937f-bf69-4b0c-b614-294f563d1f25
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:52]
+    :DRILL_LAST_REVIEWED: [2018-08-04 Sat 05:55]
     :END:
 In which sense are fermion
 fields less uncertain than
@@ -2562,17 +2644,17 @@ distribution with parameter /|α|²/, ie
 the probability to measure /n/ particles
 is exp(-|α|²)(|α|²)ⁿ/n!.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-08-10 Fri>
+    SCHEDULED: <2018-10-22 Mon>
     :PROPERTIES:
     :ID:       ec3c4a08-bc01-4d7e-9571-a3cb41ee717d
-    :DRILL_LAST_INTERVAL: 38.9144
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 72.8478
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:59]
+    :DRILL_LAST_REVIEWED: [2018-08-10 Fri 10:54]
     :END:
 How does a proper Lorentz
 transformation /Λ/ affect
@@ -2705,17 +2787,17 @@ of the Lorentz-group on the space and
 minimal, ie the space of an irreducible
 representation of the Lorentz-group.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-08-17 Fri>
     :PROPERTIES:
     :ID:       0992cf10-9d6b-420b-98fd-4e3215682379
-    :DRILL_LAST_INTERVAL: 8.7982
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 10.2059
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.867
+    :DRILL_AVERAGE_QUALITY: 2.938
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-28 Sat 06:04]
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:00]
     :END:
 How can particles be classified?
 **** Answer:
@@ -2745,17 +2827,17 @@ The theory allows for continuous spin, ie
 there are irreducible representations of the 
 Lorentz group for /m=0/ and /s/ continuous.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-08-07 Tue>
+    SCHEDULED: <2018-10-31 Wed>
     :PROPERTIES:
     :ID:       4a8c4bfb-6660-4bf3-a0aa-1926584b34a9
-    :DRILL_LAST_INTERVAL: 41.2471
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 85.1753
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.14
+    :DRILL_AVERAGE_QUALITY: 3.444
+    :DRILL_EASE: 2.0
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-27 Wed 10:36]
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:10]
     :END:
 Why is it possible to describe particles by 
 wave equations ?
@@ -2830,17 +2912,17 @@ in the sense that every (hermitian?) operator
 on the Hilbert space can be approximated by
 a polynomial in these operators.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2019-01-05 Sat>
     :PROPERTIES:
     :ID:       6e7c45d3-1279-4e7a-bee4-431ccb72b5ac
-    :DRILL_LAST_INTERVAL: 77.1848
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 144.4899
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:57]
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:46]
     :END:
 What distinguishes one quantum field theory
 from another on a given Hilbert space?
@@ -2936,17 +3018,17 @@ The matrix that transforms the basis constructed
 from one-particle states at time /t=-∞/ to 
 that constructed at /t=∞/.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2018-08-07 Tue>
+    SCHEDULED: <2018-09-24 Mon>
     :PROPERTIES:
     :ID:       fa8b6c14-e9bd-425f-ab15-987940ee233f
-    :DRILL_LAST_INTERVAL: 21.6744
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.1172
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 16:04]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:10]
     :END:
 In which sense is parallel
 displacement like quantum
@@ -3007,17 +3089,17 @@ two components representing spin-up
 and spin-down states thus leading to
 four components overall.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-13 Mon>
+    SCHEDULED: <2018-09-22 Sat>
     :PROPERTIES:
     :ID:       ae00a4b7-5242-41c6-8510-4e4b468795bb
-    :DRILL_LAST_INTERVAL: 19.2482
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 39.786
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:43]
+    :DRILL_LAST_REVIEWED: [2018-08-13 Mon 08:50]
     :END:
 What does the Dirac spinor have to
 do with the Dirac equation?
@@ -3053,17 +3135,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-13 Mon>
+    SCHEDULED: <2018-08-17 Fri>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 19.2482
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:46]
+    :DRILL_LAST_REVIEWED: [2018-08-13 Mon 08:51]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -3123,17 +3205,17 @@ seems that for free energy solutions
 the distributions /ρ=i(ψ̄∂ₜψ-ψ∂ₜψ̄)=2E/
 are uniform. (Same as Schrödinger?)
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-10-13 Sat>
     :PROPERTIES:
     :ID:       06d9b26c-418f-43a6-9321-f29044f27f9b
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:05]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:44]
     :END:
 What is CP violation?
 **** Answer:
@@ -3143,17 +3225,17 @@ preserved in weak interactions,
 even though less often than
 charge or parity by themselves.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-10-13 Sat>
     :PROPERTIES:
     :ID:       7f91616b-f7d9-40b3-8adb-dff77cc85a45
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 04:52]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:46]
     :END:
 How does charge behave
 under particle interaction?
@@ -3164,17 +3246,17 @@ strong and electromagnetic
 interactions but is not preserved
 in weak interactions.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-12 Sun>
+    SCHEDULED: <2018-09-29 Sat>
     :PROPERTIES:
     :ID:       e737b08d-6195-4ff6-9aad-48c893933eec
-    :DRILL_LAST_INTERVAL: 22.4605
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.1104
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:18]
+    :DRILL_LAST_REVIEWED: [2018-08-12 Sun 16:07]
     :END:
 What seems to be the
 standard way to classify
@@ -3188,17 +3270,17 @@ multiplicative quantum numbers
 with respect to certain 
 interactions.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-11 Sat>
+    SCHEDULED: <2018-10-04 Thu>
     :PROPERTIES:
     :ID:       6c2d0f1c-128c-4f81-bd0b-40c87af7d363
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.1648
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:04]
+    :DRILL_LAST_REVIEWED: [2018-08-11 Sat 12:03]
     :END:
 What is a multiplicative 
 quantum number?
@@ -3209,17 +3291,17 @@ product of this property
 is preserved in multi-particle
 interactions.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-10-13 Sat>
     :PROPERTIES:
     :ID:       8e84725f-bea7-48af-b8ce-55e378c11d28
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:01]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:47]
     :END:
 What is an additive
 quantum number?
@@ -3230,17 +3312,17 @@ of this property is preserved
 in multi-particle interactions, 
 for example momentum.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-11 Sat>
+    SCHEDULED: <2018-10-04 Thu>
     :PROPERTIES:
     :ID:       f3cd2218-1527-43ff-b58b-de0806662ab5
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.1648
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:10]
+    :DRILL_LAST_REVIEWED: [2018-08-11 Sat 12:05]
     :END:
 Why is the definition of
 /charge/ confusing?
@@ -3252,17 +3334,17 @@ charge operator. But this means
 their electrical charge must
 be 0.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-09-27 Thu>
     :PROPERTIES:
     :ID:       45cc9ccf-4da5-4927-86f8-10390c222521
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 44.287
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:51]
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:45]
     :END:
 What is /charge/?
 **** Answer:
@@ -3290,17 +3372,17 @@ by the parity operator /P/, which
 acts on a wavefunction /φ/ as
 /Pφ(x)=φ(-x)/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-10-13 Sat>
     :PROPERTIES:
     :ID:       0bc9a6a2-a0fa-4752-acee-1c2211142839
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:05]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:47]
     :END:
 How to determine parity for
 multiple particle states?
@@ -3329,17 +3411,17 @@ particles have the same parity.
 For fermions, particle and anti-
 particle have opposite parity.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-10-13 Sat>
     :PROPERTIES:
     :ID:       b18be8dd-1991-434f-876e-330fc5f1bf76
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:08]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:44]
     :END:
 What is parity violation?
 **** Answer:
@@ -3348,17 +3430,17 @@ preserved in electromagenetic
 and in strong interactions but
 not in weak interactions.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-14 Tue>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       d2e6b77c-ac33-4f26-b3ac-61d472a84907
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:03]
+    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:45]
     :END:
 How can particles change their
 parity?
@@ -3368,17 +3450,17 @@ eigenstates are also energy eigen-
 states, hence preserved during
 time-evolution.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-12 Sun>
+    SCHEDULED: <2018-10-07 Sun>
     :PROPERTIES:
     :ID:       0b87069c-50fd-4078-b7cb-e1d6aa911c1f
-    :DRILL_LAST_INTERVAL: 23.271
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.1297
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-20 Fri 05:11]
+    :DRILL_LAST_REVIEWED: [2018-08-12 Sun 16:06]
     :END:
 How does the identity of particle
 types come about?
@@ -3392,17 +3474,17 @@ individuality through durability. The
 low number of eigenvalues avoids 
 the confusion of multitudes.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-09 Thu>
+    SCHEDULED: <2018-10-04 Thu>
     :PROPERTIES:
     :ID:       4de4a63c-4287-42c1-a424-b2a6d28b1603
-    :DRILL_LAST_INTERVAL: 24.12
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.1514
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 15:57]
+    :DRILL_LAST_REVIEWED: [2018-08-09 Thu 11:18]
     :END:
 Why does beta decay
 /n → p+e+v̄ₑ/ involve an
@@ -3441,17 +3523,17 @@ lepton number +1 whereas leptons
 that are anti-particles have
 lepton number -1.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-10 Fri>
+    SCHEDULED: <2018-09-11 Tue>
     :PROPERTIES:
     :ID:       e99decab-17da-42de-acba-609651e64c8d
-    :DRILL_LAST_INTERVAL: 16.5955
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 32.1953
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.143
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:34]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-10 Fri 10:48]
     :END:
 What are leptons?
 **** Answer:
@@ -3460,17 +3542,17 @@ the electromagnetic and weak
 force but are not subject to
 the strong force.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-11 Sat>
+    SCHEDULED: <2018-09-18 Tue>
     :PROPERTIES:
     :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
-    :DRILL_LAST_INTERVAL: 17.7133
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 37.9419
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:34]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-11 Sat 12:05]
     :END:
 Why can a neutral particle
 like the neutrino have an 
@@ -3503,17 +3585,17 @@ to final state /q_f/ during time /T/
 in a quantum system governed by Hamiltonian
 /H/.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-08-12 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       00b6b68c-f19e-4775-90e9-f7252ddd9c5c
-    :DRILL_LAST_INTERVAL: 74.4794
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 134.5098
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:20]
+    :DRILL_LAST_REVIEWED: [2018-08-12 Sun 16:11]
     :END:
 What is the idea of using the path-integral
 to describe 
@@ -3531,17 +3613,17 @@ intermediate state changes are easier to
 obtain and make sense in the limit as
 $\delta t\rightarrow 0$.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-08-12 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       7fbf5261-549c-4c71-8210-ab0071578bdc
-    :DRILL_LAST_INTERVAL: 74.4794
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 134.5098
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:24]
+    :DRILL_LAST_REVIEWED: [2018-08-12 Sun 16:12]
     :END:
 Why is the path-integral formulation 
 commonly accepted despite its computational
@@ -3635,17 +3717,17 @@ By adding a function that is essentially
 a sum of Dirac functions to the 
 Lagrangian.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-08-11 Sat>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       077cb5fe-32e5-4c0b-ae85-9966741d4a14
-    :DRILL_LAST_INTERVAL: 74.4794
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 134.5098
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:59]
+    :DRILL_LAST_REVIEWED: [2018-08-11 Sat 12:06]
     :END:
 How are charged particles added to
 an electromagnetic field?
@@ -3696,17 +3778,17 @@ By splitting the current /Jᵐ/ into a
 positive and a negative part:
 /Jᵐ=Jₚᵐ-Jₙᵐ/.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2018-08-10 Fri>
+    SCHEDULED: <2018-10-24 Wed>
     :PROPERTIES:
     :ID:       e82d63ed-8a66-4200-bb70-194ea8b2ee6f
-    :DRILL_LAST_INTERVAL: 38.9144
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 75.4939
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-02 Mon 03:58]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-10 Fri 10:50]
     :END:
 Why is /lack of reality/
 not a strong argument
@@ -3839,18 +3921,18 @@ ACL is an abbreviation for
 [specify file access in a more fine-grained 
 way than users and groups].
 *** Fact							      :drill:
-    SCHEDULED: <2018-08-08 Wed>
+    SCHEDULED: <2018-11-04 Sun>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       515f3873-fe47-4fc3-8889-dacbfa24c71b
-  :DRILL_LAST_INTERVAL: 40.4892
-  :DRILL_REPEATS_SINCE_FAIL: 5
-  :DRILL_TOTAL_REPEATS: 9
+  :DRILL_LAST_INTERVAL: 86.6469
+  :DRILL_REPEATS_SINCE_FAIL: 6
+  :DRILL_TOTAL_REPEATS: 10
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 3.556
+  :DRILL_AVERAGE_QUALITY: 3.6
   :DRILL_EASE: 2.14
   :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-06-29 Fri 14:08]
+  :DRILL_LAST_REVIEWED: [2018-08-09 Thu 11:18]
   :END:      
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
@@ -3923,17 +4005,17 @@ on Lubuntu?
 In the files located in
 ~ ~/.config/lxsession/$DESKTOP_SESSION~
 *** X Server                                                          :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-08-30 Thu>
     :PROPERTIES:
     :ID:       94e89ecb-39a3-4f6d-aa4c-e077f0abb8a2
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 17.091
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-01 Wed 04:27]
+    :DRILL_AVERAGE_QUALITY: 3.286
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-13 Mon 08:49]
     :END:
 How to run applications at
 start-up ~xinit~ style in lubuntu?
