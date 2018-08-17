@@ -5,6 +5,100 @@
 2. Use M-x list-packages to install org-plus-... packages
 3. require cl and org-drill in init file AFTER org is loaded, otherwise
    M-x org-drill will be a bo match. cl is needed for copy-list function
+* Android
+** Devices
+*** memory                                                            :drill:
+    SCHEDULED: <2018-08-20 Mon>
+    :PROPERTIES:
+    :ID:       4620a751-46d0-44bc-bfb2-6b7635268d17
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:16]
+    :END:
+What's the main problem
+with formatting SD-cards
+as internal?
+**** Answer:
+Speed, because SD-cards 
+are slower than internal
+memory. If buying an
+SD-card to boost internal
+memory, make sure it is
+high-speed, ie UHS-1 type
+or better.
+*** memory                                                            :drill:
+    SCHEDULED: <2018-08-20 Mon>
+    :PROPERTIES:
+    :ID:       174f6457-edb9-4443-a938-6ce218abc7aa
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:14]
+    :END:
+How to deal with low
+internal memory situations
+on Android 6.0 and later
+devices?
+**** Answer:
+Add a high speed SD-card and 
+format it as internal. Then 
+migrate the data.
+*** memory                                                            :drill:
+    SCHEDULED: <2018-08-20 Mon>
+    :PROPERTIES:
+    :ID:       f5c7a634-6827-4091-9d23-49004114af03
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:15]
+    :END:
+How to migrate data to an
+SD-card formatted as 
+internal?
+**** Answer:
+Go to ~Storage & USB~ and
+click on the ~SD Card~ entry.
+Open the ~...~ menu and select
+~Migrate data~.
+*** memory                                                            :drill:
+    SCHEDULED: <2018-08-20 Mon>
+    :PROPERTIES:
+    :ID:       a03db9dd-3806-4a3c-8a37-9093e6172558
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:17]
+    :END:
+What are the consequences of
+formatting an SD-card as 
+internal on Android 6.0+?
+**** Answer:
+After migrating data, the
+removal of the SD-card will
+break applications that moved
+their data to the SD-card
+unless the data are moved back.
+Thus, SD-cards formatted in
+this way aren't meant to be
+swapping in and out of the 
+device.
 * Development
 ** ai
 *** Intelligence                                                      :drill:
@@ -122,7 +216,47 @@ on them as a graph that describes
 a computation and the subsequent
 execution of the description.
 ** emacs
+*** modes                                                             :drill:
+    SCHEDULED: <2018-08-20 Mon>
+    :PROPERTIES:
+    :ID:       1bb3c212-2f7f-421f-9862-3618be826c8f
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:14]
+    :END:
+How are minor modes
+disabled interactively?
+**** Answer:
+Normally by calling the
+minor mode function:
+~M-x some-mode-function-mode~
+because minor mode functions
+should be written to toggle
+the mode if called interactively
+without a prefix argument. 
+Alternatively, call the minor 
+mode function with a negative 
+prefix argument to disable it, 
+with a positive one to enable 
+it.
 *** dired                                                             :drill:
+    SCHEDULED: <2018-08-20 Mon>
+    :PROPERTIES:
+    :ID:       8bac2d7a-f499-4ce9-b01c-d5fe2567f23a
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:14]
+    :END:
 How to make hidden files
 disappear automatically in
 a dired buffer?
@@ -136,6 +270,18 @@ and
 it to one of the dired hooks run
 when entering a directory.
 *** dired                                                             :drill:
+    SCHEDULED: <2018-08-20 Mon>
+    :PROPERTIES:
+    :ID:       00704dd6-826f-4674-a526-75a989c5dcb5
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:18]
+    :END:
 What is ~dired-after-readin-hook~
 for?
 **** Answer:
@@ -265,17 +411,17 @@ a variable with =set= vs =setq=?
 In =setq= there is no attempt to evaluate
 the first argument, it is assumed quoted.
 *** elisp							      :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-11-27 Tue>
     :PROPERTIES:
     :ID:       85d6aa60-e332-4b78-8237-f498b08c5748
-    :DRILL_LAST_INTERVAL: 47.7187
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 102.2135
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-30 Sat 18:16]
+    :DRILL_AVERAGE_QUALITY: 3.444
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:07]
     :END:
 What is the difference between 
 setting a variable with /set/ vs /let/?
@@ -1049,17 +1195,17 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git                                                               :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-08-21 Tue>
     :PROPERTIES:
     :ID:       9c2a4598-06de-4ed8-995c-7911333ef557
-    :DRILL_LAST_INTERVAL: 22.4605
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:55]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:10]
     :END:
 What to do with a file
 that was accidentally
@@ -1193,17 +1339,17 @@ water flows downward, air
 probes and disperses in all
 directions equally.
 *** mercury                                                           :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-10-29 Mon>
     :PROPERTIES:
     :ID:       9b8af379-0c48-4978-b7e6-c7be48cb0cfc
-    :DRILL_LAST_INTERVAL: 38.9144
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 72.8478
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-09 Mon 05:38]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:08]
     :END:
 What is the principle
 of Mercury?
@@ -1259,17 +1405,17 @@ is in conjunction with the sun.
 the true node in opposition to the
 sun?)
 *** Cycles                                                            :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       ffdeeaa9-0bc4-4c9f-a93d-ee2becb7c031
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:09]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:15]
     :END:
  What seems to be the most
  prominent seven year cycle?
@@ -1523,17 +1669,17 @@ Since /SO⁺(1,3)/ is generated by spatial
 rotations and Lorentz boosts, it can
 be written as a product of those.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-09-07 Fri>
     :PROPERTIES:
     :ID:       09a1eb47-7c07-4543-893c-c77430442c2f
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.6744
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:08]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:11]
     :END:
 With bounded operators
 resembling the complex
@@ -1549,17 +1695,17 @@ isometry and /A/ is a positive
 operator such that 
 /ker T=ker A=ker U/.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-09-07 Fri>
     :PROPERTIES:
     :ID:       03c6cdba-9412-4ecc-84e8-ca4e032669c4
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 05:57]
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:12]
     :END:
 Is the polar decomposition
 of a bounded operator unique?
@@ -1569,17 +1715,17 @@ If /T=UA=VB/ with partial isometries
 with /ker U=ker A/ and /ker V=ker B/
 then /U=V/ and /A=B/.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-09-04 Tue>
     :PROPERTIES:
     :ID:       71612fc3-65a0-4dc2-b7de-b6bf73ebb4cc
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:04]
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:12]
     :END:
 In which sense does the positive
 operator /A/ in the polar decomposition
@@ -1592,17 +1738,17 @@ are self adjoint, they behave in a
 sense like positive real numbers, so
 /|T|/ is a bit like a length.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-09-07 Fri>
     :PROPERTIES:
     :ID:       7468d8bb-a84d-4e9f-8d79-2691a9c754ae
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.6744
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 05:58]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:10]
     :END:
 What is a partial isometry?
 **** Answer:
@@ -1610,17 +1756,17 @@ A bounded operator /U/ that is an
 isometry on the orthogonal complement
 of its kernel.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-09-04 Tue>
     :PROPERTIES:
     :ID:       fe7e44f5-356b-4040-ac38-4aa80d0ffe4c
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:00]
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:12]
     :END:
 How is the norm of /Z/
 related to the norms of
@@ -1633,17 +1779,17 @@ triangle equality. In addition,
 /‖Zx‖²=‖Xx‖²+‖Yx‖² ∀x∈ℍ/ is
 equivalent to /Z/ being normal.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-09-11 Tue>
     :PROPERTIES:
     :ID:       138ead87-8967-44d6-b7ae-4915f86db453
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 05:57]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:05]
     :END:
 Do the /X, Y/ in the cartesian
 decomposition /Z=X+iY/ of a
@@ -2510,17 +2656,17 @@ representing /Λ/ on the
 Hilbert space on which /Φ(x)/ 
 is defined.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-10-04 Thu>
     :PROPERTIES:
     :ID:       c1e79410-385d-4a39-bd21-f2409a5f31cb
-    :DRILL_LAST_INTERVAL: 22.4605
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.1104
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:50]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:06]
     :END:
 Why do PDE's like the
 Gordon-Klein equation
@@ -2535,17 +2681,17 @@ quantized versions take
 care of that by introducing
 antiparticles.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-10-09 Tue>
     :PROPERTIES:
     :ID:       b265bc89-65e8-47cc-a4b8-40180ebbed36
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.1648
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-25 Wed 04:54]
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:17]
     :END:
 Why are negative energy solutions
 not a problem in the quantized
@@ -2706,17 +2852,17 @@ What is measured with
 The probability to observe state /φ₁/ when 
 the system is known to be in state /φ₂/.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-08-20 Mon>
     :PROPERTIES:
     :ID:       1bf83dce-80be-4ae5-83d7-2e3d86cfaa2b
-    :DRILL_LAST_INTERVAL: 31.1904
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 10
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.38
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.917
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 16:13]
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:18]
     :END:
 What are /one-particle/ states?
 **** Answer:
@@ -2747,17 +2893,17 @@ Subspaces that are invariant under the
 representation of the Lorentz group on the 
 Hilbert space.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-08-16 Thu>
+    SCHEDULED: <2018-09-27 Thu>
     :PROPERTIES:
     :ID:       fba25cb9-6fc1-40bb-a9ef-12d581e5e229
-    :DRILL_LAST_INTERVAL: 31.1904
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 41.5456
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.38
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-16 Mon 16:12]
+    :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:17]
     :END:
 How is a representation of the Lorentz
 group induced on a Hilbert space?
@@ -2787,17 +2933,17 @@ of the Lorentz-group on the space and
 minimal, ie the space of an irreducible
 representation of the Lorentz-group.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-08-29 Wed>
     :PROPERTIES:
     :ID:       0992cf10-9d6b-420b-98fd-4e3215682379
-    :DRILL_LAST_INTERVAL: 10.2059
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 11.7878
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.938
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-07 Tue 06:00]
+    :DRILL_AVERAGE_QUALITY: 2.942
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:08]
     :END:
 How can particles be classified?
 **** Answer:
@@ -3108,17 +3254,17 @@ The Dirac spinor /ψ=(u,v)ᵀ/ is a solution
 of the Dirac equation
 /iγ⁰∂ₜψ-mψ=0/ for a particle at rest.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-10-04 Thu>
     :PROPERTIES:
     :ID:       8259c42b-c147-4324-ba5a-dc4858187f27
-    :DRILL_LAST_INTERVAL: 22.4605
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.1104
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:48]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:06]
     :END:
 How come the usual interpretation
 of /|ψ|²/ as probability density
@@ -3135,17 +3281,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-08-24 Fri>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 6.9732
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-13 Mon 08:51]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:05]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -3181,17 +3327,17 @@ is only valid for free spin-0 particles.
 It has to be adjusted for field and 
 spin interactions in other cases.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-10-04 Thu>
     :PROPERTIES:
     :ID:       44fb7892-7c80-4fce-be6c-da79b474a80e
-    :DRILL_LAST_INTERVAL: 22.4605
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.1104
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-26 Thu 04:56]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:09]
     :END:
 Why is the appearance of negative
 probability distributions not the
@@ -3808,17 +3954,17 @@ happens with observers in
 relativity who all perceive
 the same speed of light.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-09-26 Wed>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 19.2482
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 39.786
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-29 Sun 07:06]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:09]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
@@ -3834,17 +3980,17 @@ However, due to the uncertainty principle, the
 form of the hamiltonian /H/ is not completetely
 determined by the correspondence principle. 
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2018-08-17 Fri>
+    SCHEDULED: <2018-09-26 Wed>
     :PROPERTIES:
     :ID:       fff93c00-cf83-4ffd-8326-b93ed27af3df
-    :DRILL_LAST_INTERVAL: 19.2482
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 39.786
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-29 Sun 07:08]
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:07]
     :END:
 Is there a way to derive the
 Schrödinger equation without
@@ -3902,6 +4048,50 @@ and record it at the same time, run
 [alsaloop with capture device dsnoop] 
 and [arecord with the default device].
 * Unix
+*** configuration                                                     :drill:
+    SCHEDULED: <2018-08-21 Tue>
+    :PROPERTIES:
+    :ID:       e051314d-8e9b-4aac-8150-aecee71ff65c
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:10]
+    :END:
+What are common values for
+swapiness?
+**** Answer:
+The default is 60, systems
+with enough memory should make
+do with a value of 1, ie use
+swap only in emergencies, to
+10 in order to prevent excessive
+swapping.
+*** configuration                                                     :drill:
+    SCHEDULED: <2018-08-21 Tue>
+    :PROPERTIES:
+    :ID:       099becc5-eb71-4df0-b9cb-12b00d45dbd1
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:10]
+    :END:
+What is swappiness?
+**** Answer:
+A parameter that defines how
+swap-space is used. It can
+be configured in ~/etc/sysctl.conf~
+by setting ~vm.swappiness~ to a
+natural number, 0 indicating
+a desire not to use swap space
+at all.
 *** Fact							      :drill:
     SCHEDULED: <2018-08-25 Sat>
   :Properties:
