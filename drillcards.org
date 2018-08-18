@@ -516,17 +516,17 @@ and then using the /C-c = .../
 shortcuts to communicate with
 the Maxima process.
 *** maxima and emacs                                                  :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-08-27 Mon>
     :PROPERTIES:
     :ID:       9225504c-7004-4d0a-bcf0-5420e12ac056
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 11:48]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:07]
     :END:
 How useful is Maxima mode in
 interacting with a maxima 
@@ -3537,17 +3537,17 @@ From the fact that parity is
 a multiplicative quantum number,
 ie. /P|a,b⟩=(P|a⟩)P(|b⟩)/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-09-24 Mon>
     :PROPERTIES:
     :ID:       3ea55019-0da2-455a-bc8b-e1b360962bbc
-    :DRILL_LAST_INTERVAL: 17.091
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 36.6089
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-01 Wed 04:20]
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:08]
     :END:
 How is parity different in bosons
 vs fermions?
@@ -4048,6 +4048,124 @@ and record it at the same time, run
 [alsaloop with capture device dsnoop] 
 and [arecord with the default device].
 * Unix
+*** applications                                                      :drill:
+    SCHEDULED: <2018-08-22 Wed>
+    :PROPERTIES:
+    :ID:       ee2f9b28-2cc4-45e9-80bd-e99f0f8bb99b
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:13]
+    :END:
+What is the problem when
+Mnemosyne stops working
+after an upgrade?
+**** Answer:
+This is usually related to
+a change in configuration
+handling. Removing 
+~.config/mnemosyne~ helps in
+this situation.
+*** applications                                                      :drill:
+    SCHEDULED: <2018-08-22 Wed>
+    :PROPERTIES:
+    :ID:       ade31ce5-3d57-46ee-9569-4ced06835210
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:17]
+    :END:
+What is the problem when
+Python based applications
+complain about
+~name "file" not defined~?
+**** Answer:
+This is common in python
+code modified for version 3.
+Here, a ~file~ object is
+now obtained from the ~Open~ 
+function rather than from
+calling ~file~.
+*** configuration                                                     :drill:
+    SCHEDULED: <2018-08-22 Wed>
+    :PROPERTIES:
+    :ID:       7d25333b-1ed2-412e-ab7d-9133e8ea1ed3
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:08]
+    :END:
+Why is it not a good
+idea to copy system directories
+from one partition to another,
+such as when using a new, bigger
+partition of /var?
+**** Answer:
+Because copying doesn't keep file
+ownership intact. This may break
+applications requiring write access
+to certain areas of ie /var.
+*** configuration                                                     :drill:
+    SCHEDULED: <2018-08-22 Wed>
+    :PROPERTIES:
+    :ID:       d0e6e77d-f655-490c-9f2e-198df739ce7b
+    :DRILL_LAST_INTERVAL: 3.874
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:17]
+    :END:
+What is the problem if
+the desktop doesn't show
+the usual icons from the 
+~Desktop~ directory?
+**** Answer:
+This happens after system
+upgrades or changes in the
+desktop files. Run
+~update-mime-database /usr/share/mime~
+and see if that helps.
+*** configuration                                                     :drill:
+    SCHEDULED: <2018-08-22 Wed>
+    :PROPERTIES:
+    :ID:       fb6be726-fbd6-4810-9bac-def0b4251700
+    :DRILL_LAST_INTERVAL: 3.874
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:14]
+    :END:
+What is the problem with
+the systemd-shim configuration
+in ubuntu?
+**** Answer:
+That was removed in the transition
+to version 18.04. The problem was
+its dbus-service configuration, the 
+old org.freedesktop.systemd1.service
+had to be removed by hand to make
+room for the new one, which has
+~Exec=/bin/false~ to reflect the fact
+that the original systemd-shim
+executable is not available anymore.
 *** configuration                                                     :drill:
     SCHEDULED: <2018-08-21 Tue>
     :PROPERTIES:
@@ -4176,6 +4294,74 @@ from the command line?
 **** Answer:
 With ~nmcli~. Check its
 manpage for details.
+*** package management                                                :drill:
+    SCHEDULED: <2018-08-22 Wed>
+    :PROPERTIES:
+    :ID:       d78972d1-c7dc-4c59-9968-1a614e05d142
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:13]
+    :END:
+What needs to be done after
+a release upgrade?
+**** Answer:
+The new system should be
+upgraded. Run ~apt-get update~
+first to get the newest
+packages from the new system.
+*** package management                                                :drill:
+    SCHEDULED: <2018-08-22 Wed>
+    :PROPERTIES:
+    :ID:       f9f24c11-dce7-4b02-93a7-45bb4c0e945b
+    :DRILL_LAST_INTERVAL: 3.874
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:18]
+    :END:
+What to do if ~apt~ indicates
+broken packages?
+**** Answer:
+Run ~sudo apt-get update --fix-missing~
+followed by
+~sudo apt-get install -f~
+*** services                                                          :drill:
+    SCHEDULED: <2018-08-22 Wed>
+    :PROPERTIES:
+    :ID:       41205474-5e9a-44df-915d-6189c62a785f
+    :DRILL_LAST_INTERVAL: 3.874
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-08-18 Sat 15:12]
+    :END:
+How to fool a package
+such as android-tools-adb
+to think it stopped its
+init.d service?
+**** Answer:
+Put a symbolic link from
+~/lib/systemd/system/android-tools-adbd.service~
+to ~/dev/null~. The pre-removal
+script for android-tools-adb calls 
+~invoke-rc.d android-tools-adbd stop~
+which will now succeed with this link.
+Note this has been an issue with systems
+changing their init procedures, such as 
+ubuntu between 16 and 18, where it was
+hard to update this package because the 
+old version couldn't be removed.
 *** X Server                                                          :drill:
     SCHEDULED: <2018-09-29 Sat>
     :PROPERTIES:
