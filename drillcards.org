@@ -245,6 +245,14 @@ prefix argument to disable it,
 with a positive one to enable 
 it.
 *** dired                                                             :drill:
+How to open a file with
+the default application
+without any further 
+configuration?
+**** Answer:
+Run ~!~ and type ~xdg-open~
+at the prompt.
+*** dired                                                             :drill:
     SCHEDULED: <2018-08-20 Mon>
     :PROPERTIES:
     :ID:       8bac2d7a-f499-4ce9-b01c-d5fe2567f23a
