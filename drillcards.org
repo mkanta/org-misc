@@ -1450,17 +1450,17 @@ different. ~stack exec~ will then arrange
 for the executables to end up in the 
 correct path.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-10-26 Fri>
+    SCHEDULED: <2018-12-19 Wed>
     :PROPERTIES:
     :ID:       b5a661db-a1ad-441d-8dd1-b06d98981479
-    :DRILL_LAST_INTERVAL: 22.9582
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.2273
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:08]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:55]
     :END:
 Is there a way to
 set language extensions
@@ -1472,17 +1472,17 @@ extensions listed under
 /.cabal/ file will be applied
 project-wide.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-10-26 Fri>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       e9208320-472c-45d6-ae43-44bba8efdfe1
-    :DRILL_LAST_INTERVAL: 22.9582
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.7884
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:16]
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:54]
     :END:
 What are the use cases
 for ~stack install~?
@@ -1790,17 +1790,17 @@ A /for .. in/ loop loops over
 the property keys of the array object,
 not just the indices.
 *** javascript for loops					      :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2019-07-09 Tue>
     :PROPERTIES:
     :ID:       83079dcd-f141-4d6e-ab90-8571ac5b23c7
-    :DRILL_LAST_INTERVAL: 147.1248
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 257.4684
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:52]
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:42]
     :END:
 Can the /for .. of/ loop be used to
 iterate over objects?
@@ -2224,17 +2224,17 @@ refers to the =this= of the defining context,
 no matter who calls =objname.funcname=.
 ** ubuntu
 *** packaging                                                         :drill:
-    SCHEDULED: <2018-10-26 Fri>
+    SCHEDULED: <2018-11-05 Mon>
     :PROPERTIES:
     :ID:       d65f8c52-6344-411b-93a6-144792165dbb
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:05]
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:42]
     :END:
 What is a good way
 to package applications
@@ -2247,17 +2247,17 @@ It seems like ~AppImage~
 is the way to go, see
 https://appimage.org/.
 *** user interface                                                    :drill:
-    SCHEDULED: <2018-10-26 Fri>
+    SCHEDULED: <2018-11-04 Sun>
     :PROPERTIES:
     :ID:       367911e5-2556-4fab-9e73-6796ddde7398
-    :DRILL_LAST_INTERVAL: 3.888
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1835
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:04]
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:43]
     :END:
 How to switch to a terminal
 and back from the graphical 
@@ -2726,6 +2726,70 @@ changes that need to be added for a commit
 and if things are in sync with remote
 repositories.
 * Documents
+** Pdf
+*** Analysis                                                          :drill:
+    SCHEDULED: <2018-10-30 Tue>
+    :PROPERTIES:
+    :ID:       04b15be7-3b88-4610-aecc-b04d42b3c9d7
+    :DRILL_LAST_INTERVAL: 3.888
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:52]
+    :END:
+How to analyse pdf files on
+the command line?
+**** Answer:
+Convert them to =qdf= format
+with ~qpdf –qdf <infile.pdf> <outfile.pdf>~
+and read them into a text-editor.
+*** Analysis                                                          :drill:
+    SCHEDULED: <2018-10-30 Tue>
+    :PROPERTIES:
+    :ID:       fed97cf2-a901-46e6-9b3b-4b98c11d5e15
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:53]
+    :END:
+What to do if a pdf-qfd file
+becomes unreadable after bringing
+it up in an editor?
+**** Answer:
+This happens in editors like ~vim~
+which do conversions. Bring it up
+as a binary file to prevent them,
+ie. ~gvim -b <filename>~.
+*** Analysis                                                          :drill:
+    SCHEDULED: <2018-10-30 Tue>
+    :PROPERTIES:
+    :ID:       759e488a-ca77-4630-8f85-4a889838d633
+    :DRILL_LAST_INTERVAL: 3.888
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:53]
+    :END:
+What to do if a pdf-qfd file
+becomes unreadable after making
+changes in it?
+**** Answer:
+Try to run 
+~fix-qfd <infile.pdf >outfile.pdf~
+and see if that fixes the problem.
+Otherwise read the documentation
+of ~qpdf~ re ~qfd~ to see if the edit
+was a legal one.
 ** Conversions
 *** How to convert latex to svg? 				      :drill:
     :PROPERTIES:
@@ -2897,17 +2961,17 @@ aspects of saturn, most notably
 with the native sun.
 ** Naq Hammadi
 *** The Mustard Seed                                                  :drill:
-    SCHEDULED: <2018-10-26 Fri>
+    SCHEDULED: <2018-11-05 Mon>
     :PROPERTIES:
     :ID:       b8b21574-6eea-4433-8832-1a02ce79213b
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.72
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:05]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:42]
     :END:
 What is it that grows
 from the mustard seed
@@ -3377,17 +3441,17 @@ are self adjoint, they behave in a
 sense like positive real numbers, so
 /|T|/ is a bit like a length.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       7468d8bb-a84d-4e9f-8d79-2691a9c754ae
-    :DRILL_LAST_INTERVAL: 48.1172
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.8369
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-07 Fri 13:31]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:41]
     :END:
 What is a partial isometry?
 **** Answer:
@@ -3799,17 +3863,17 @@ assigning to each scalar field a field
 of directional derivatives given by the
 directions of the vectors in the vector field. 
 *** Differential						      :drill:
-    SCHEDULED: <2018-10-26 Fri>
+    SCHEDULED: <2018-11-02 Fri>
     :PROPERTIES:
     :ID:       f34ab62f-12a9-4edb-a4fb-2500c8359cee
-    :DRILL_LAST_INTERVAL: 3.888
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 7.1267
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:07]
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:43]
     :END:
 What is the problem when trying to define a 
 derivative of vector fields on a manifold?
@@ -4174,17 +4238,17 @@ A name /φ:A→B/ for a proof of
 sequent /A⊦B/.
 ** Probability
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       6d3c54b4-eb0c-4b06-8f0f-ff0add0f1c58
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5782
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-05 Fri 14:43]
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:40]
     :END:
 What are the functions of
 ~μ, ν~ in a Hawkes process
@@ -4199,17 +4263,17 @@ influence of past events
 ~Tᵢ~ on the current value
 of the intensity process ~λ(t)~.
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2018-10-29 Mon>
     :PROPERTIES:
     :ID:       0801d690-1eea-4409-a568-27a10f11dbf9
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.779
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-05 Fri 14:42]
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:42]
     :END:
 What is a Hawkes process?
 **** Answer:
@@ -4219,17 +4283,17 @@ expressable as
 ~λ(t)=μ(t)+∫ᵗν(t-s)dNₛ~
 with ~ν:ℝ⁺→ℝ⁺~.
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       908b6ef8-55b8-430c-8fcd-17e59d4c5bf4
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5782
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-05 Fri 14:43]
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:40]
     :END:
 What is the /intensity/ of
 a point-process?
@@ -4244,17 +4308,17 @@ on ~ℝᵈ~. The factor ~λ~ is called
 the intensity of the point
 process.
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       7770e41f-2ba1-41de-9484-992ed962726c
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5782
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-05 Fri 14:41]
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:38]
     :END:
 What is the σ-Algebra on
 the set of counting measures
@@ -4267,17 +4331,17 @@ on ~N~ for which all
 ~B~ a Borel set of the under-
 lying space become measurable.
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       d85e0e70-e2b5-4949-a398-bd2124cebe16
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5782
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-05 Fri 14:38]
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:41]
     :END:
 What is a point process?
 **** Answer:
@@ -4335,17 +4399,17 @@ dependency on previous events
 and causes a nonlocality in
 time.
 *** Random Fields                                                     :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       b7d9a6a9-b043-47a3-b80d-0c7ec17db8fa
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5782
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-05 Fri 14:40]
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:38]
     :END:
  What is a /random element/?
 **** Answer:
@@ -4623,17 +4687,17 @@ occur at different places for
 all observers, ie they are 
 separated by space.
 *** Lorentz                                                           :drill:
-    SCHEDULED: <2018-10-25 Thu>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       9142e183-36b3-4630-95c7-a54e5025200f
-    :DRILL_LAST_INTERVAL: 54.5705
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 117.7631
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-31 Fri 12:32]
+    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:39]
     :END:
 Why are events with
 /Δs²<0/ called time-like?
@@ -4725,17 +4789,17 @@ relations as the position-
 momentum operators in 
 quantum physics.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-10-26 Fri>
+    SCHEDULED: <2019-03-08 Fri>
     :PROPERTIES:
     :ID:       a9ff65aa-867b-43f4-b973-c05db3067c9c
-    :DRILL_LAST_INTERVAL: 56.3391
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 133.073
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-31 Fri 12:21]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:52]
     :END:
 Why are the parity and
 time reversal operators
@@ -6002,17 +6066,17 @@ constant /C/ and a quadratic form
 /W(J)=-1/2∫∫ dx dy J(x)D(x-y)J(y)/
 where /D/ is the propagator.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-10-26 Fri>
+    SCHEDULED: <2018-12-15 Sat>
     :PROPERTIES:
     :ID:       76ca26cb-267e-4178-8ced-2a3adfe330fa
-    :DRILL_LAST_INTERVAL: 45.6893
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 50.0755
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.909
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.917
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-10 Mon 15:04]
+    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:44]
     :END:
 What is the physical meaning of the 
 propagator?
