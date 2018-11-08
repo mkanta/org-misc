@@ -377,17 +377,17 @@ Type ~!~ or ~&~ (for asynchronous
 operations) and type ~xdg-open~
 at the prompt.
 *** dired                                                             :drill:
-    SCHEDULED: <2018-11-07 Wed>
+    SCHEDULED: <2019-02-14 Thu>
     :PROPERTIES:
     :ID:       8bac2d7a-f499-4ce9-b01c-d5fe2567f23a
-    :DRILL_LAST_INTERVAL: 47.1096
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 98.8359
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-21 Fri 16:02]
+    :DRILL_LAST_REVIEWED: [2018-11-07 Wed 12:14]
     :END:
 How to make hidden files
 disappear automatically in
@@ -996,6 +996,61 @@ Matter of taste, but
 ~f x = g x~ has the same
 effect on the type of
 ~f~ and seems shorter.
+*** Megaparsec Parsing                                                :drill:
+    SCHEDULED: <2018-11-12 Mon>
+    :PROPERTIES:
+    :ID:       4ec40236-383b-4b61-95d5-ce8c7f3a0e7f
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-08 Thu 12:11]
+    :END:
+Why is the description
+of the second argument in
+~parse::Parsec e s a -> String -> s-> ...~
+as /source file/ a bit of a
+misnomer?
+**** Answer:
+The second argument is a ~String~
+describing a source to be used
+as a description in error messages.
+As such it is more general than
+a source file.
+*** Megaparsec Parsing                                                :drill:
+    SCHEDULED: <2018-11-12 Mon>
+    :PROPERTIES:
+    :ID:       bc50b4e1-6941-4793-9b94-3d0c4e00a1d3
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-08 Thu 12:10]
+    :END:
+How to define a ~noSpace~ parser
+to disallow spaces between a numeral
+and its sign?
+**** Answer:
+Use 
+~noSpace=space empty empty empty~
+with ~space~ from the Char.Lexer
+submodule. Then
+~signed noSpace <numberParser>~
+will not allow any spaces.
+*** Megaparsec Parsing
+What is the difference between
+parsing a /decimal/ and an /integer/?
+**** Answer:
+Parsing an /integer/ is more
+general in that white-space
+is handled in addition to
+the /decimal/.
 *** Mutable References                                                :drill:
     SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
@@ -1221,17 +1276,17 @@ particular fields are
 changed in the curly 
 brackets.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-11-08 Thu>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       cdffe517-05cc-4c0f-aaec-ade7fe6e06b8
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.1573
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-17 Wed 13:09]
+    :DRILL_LAST_REVIEWED: [2018-11-08 Thu 12:12]
     :END:
 How to download sources
 of a package?
@@ -1593,17 +1648,17 @@ be the same?
 With named wildcards of the form
 ~@ _name~, as in ~@ ( _a -> _a)~.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-11-08 Thu>
+    SCHEDULED: <2018-12-20 Thu>
     :PROPERTIES:
     :ID:       929a2445-3753-43b7-bf79-ad41ff269bc3
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5782
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-19 Fri 12:23]
+    :DRILL_LAST_REVIEWED: [2018-11-08 Thu 12:12]
     :END:
 What to do if using type
 applications on a function
@@ -4215,17 +4270,17 @@ These are the unit arrows pointing
 in the direction of constant /y/, ie
 to the right in the normal /x,y/ plane.
 *** Differential						      :drill:
-    SCHEDULED: <2018-11-07 Wed>
+    SCHEDULED: <2019-01-27 Sun>
     :PROPERTIES:
     :ID:       9e335c5e-2c9a-4089-af6c-ff02c2211346
-    :DRILL_LAST_INTERVAL: 58.0176
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 81.2246
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 1.44
+    :DRILL_AVERAGE_QUALITY: 3.231
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-10 Mon 15:06]
+    :DRILL_LAST_REVIEWED: [2018-11-07 Wed 12:14]
     :END:
 Why are the partial differential 
 operators in the unit directions 
@@ -4380,17 +4435,17 @@ Because there is no projection
 for ⊗, ie no rules /A⊗B→A/ 
 nor /A⊗B→B/.
 *** Linear                                                            :drill:
-    SCHEDULED: <2018-11-08 Thu>
+    SCHEDULED: <2019-03-25 Mon>
     :PROPERTIES:
     :ID:       707c1469-4d69-4e34-87ab-c2fe6d2b9b29
-    :DRILL_LAST_INTERVAL: 74.7579
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 137.0312
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-25 Sat 10:12]
+    :DRILL_LAST_REVIEWED: [2018-11-08 Thu 12:10]
     :END:
 Why is linear logic suitable
 for both quantum mechanics and
@@ -7136,18 +7191,18 @@ ACL is an abbreviation for
 [specify file access in a more fine-grained 
 way than users and groups].
 *** Fact							      :drill:
-    SCHEDULED: <2018-11-08 Thu>
+    SCHEDULED: <2018-11-16 Fri>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       515f3873-fe47-4fc3-8889-dacbfa24c71b
-  :DRILL_LAST_INTERVAL: 3.888
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 12
+  :DRILL_LAST_INTERVAL: 7.5583
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 13
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 3.417
-  :DRILL_EASE: 2.0
+  :DRILL_AVERAGE_QUALITY: 3.385
+  :DRILL_EASE: 1.86
   :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-11-04 Sun 12:40]
+  :DRILL_LAST_REVIEWED: [2018-11-08 Thu 12:09]
   :END:      
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
