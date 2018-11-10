@@ -829,17 +829,17 @@ merely used to extract
 widgets from the builder.
 ** haskell
 *** Language Extensions                                               :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2018-11-20 Tue>
     :PROPERTIES:
     :ID:       ec725448-fcca-4827-87aa-973ed7bf1ae6
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.72
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-06 Tue 19:04]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:56]
     :END:
 What does
 ~Typename{..}~
@@ -850,17 +850,17 @@ of record ~Typename~ and
 part of language extension
 =RecordWildcards=.
 *** Graphical UI                                                      :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2018-11-20 Tue>
     :PROPERTIES:
     :ID:       52279f62-f8ff-4b0b-9277-27f1c2b219d6
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.72
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-06 Tue 19:01]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:58]
     :END:
 Is there a better way to
 turn off overloaded labels
@@ -976,17 +976,17 @@ right context, the type
 annotations aren't even
 necessary.
 *** Equivalencies                                                     :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2019-01-10 Thu>
     :PROPERTIES:
     :ID:       6cbdd105-1720-4c0d-b90b-f706b4659f05
-    :DRILL_LAST_INTERVAL: 23.6006
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.5827
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 4.25
+    :DRILL_EASE: 2.56
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-10-17 Wed 13:15]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:01]
     :END:
 Why are lambdas of the 
 sort ~f=\x -> g x~ normally
@@ -996,6 +996,50 @@ Matter of taste, but
 ~f x = g x~ has the same
 effect on the type of
 ~f~ and seems shorter.
+*** Megaparsec Parsing                                                :drill:
+    SCHEDULED: <2018-11-13 Tue>
+    :PROPERTIES:
+    :ID:       718f72d5-a181-425a-8adc-c8b3d2dee3f2
+    :DRILL_LAST_INTERVAL: 3.888
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:51]
+    :END:
+Why should megaparsec 
+parsers not be built with
+~many~ and ~satisfy~?
+**** Answer:
+Because Megaparsec has the
+more efficient ~takeWhileP~
+and ~takeWhile1P~ combinators.
+If possible, these should be
+used first.
+*** Megaparsec Parsing                                                :drill:
+    SCHEDULED: <2018-11-13 Tue>
+    :PROPERTIES:
+    :ID:       c0bad81a-fa4c-435a-87b9-158e5ee1228e
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:53]
+    :END:
+Why is ~parse~ not ideal
+for testing Megaparsec
+parsers in ghci?
+**** Answer:
+Because its output in case
+of an error leaves to be 
+desired. Use 
+~parseTest <parser> <stringput>~
+instead.
 *** Megaparsec Parsing                                                :drill:
     SCHEDULED: <2018-11-12 Mon>
     :PROPERTIES:
@@ -1043,7 +1087,19 @@ with ~space~ from the Char.Lexer
 submodule. Then
 ~signed noSpace <numberParser>~
 will not allow any spaces.
-*** Megaparsec Parsing
+*** Megaparsec Parsing                                                :drill:
+    SCHEDULED: <2018-11-13 Tue>
+    :PROPERTIES:
+    :ID:       4ba27761-77b1-4434-a2e3-daf10b27dd08
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:53]
+    :END:
 What is the difference between
 parsing a /decimal/ and an /integer/?
 **** Answer:
@@ -1184,17 +1240,17 @@ Not at all, this contravenes
 POSIX conventions where an option
 has either none or one argument.
 *** Patterns                                                          :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2018-11-19 Mon>
     :PROPERTIES:
     :ID:       5d646004-d20a-42d3-ba37-7f00357a7608
-    :DRILL_LAST_INTERVAL: 3.888
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1835
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-06 Tue 19:02]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:56]
     :END:
 What is the point of
 record wildcards?
@@ -1206,17 +1262,17 @@ record ~R~ can be used
 directly on the right
 hand side.
 *** Patterns                                                          :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2018-11-20 Tue>
     :PROPERTIES:
     :ID:       80e7675c-fe8e-455f-9fbf-851824110e18
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-06 Tue 19:04]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:58]
     :END:
 What is the effect
 of @ in a pattern
@@ -1298,17 +1354,17 @@ the source of <package> in it. Note the
 the usual ~stack init~, ~stack build~
 sequence.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-11-09 Fri>
+    SCHEDULED: <2019-01-04 Fri>
     :PROPERTIES:
     :ID:       fe3f6605-3b40-4ae4-a983-8f0cf6c3c8bf
-    :DRILL_LAST_INTERVAL: 22.9582
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.7884
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-17 Wed 13:15]
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:52]
     :END:
 How to prevent heavy
 downloads in a new stack project?
@@ -1345,17 +1401,17 @@ available upstream. Aborting
 files used later by ~stack init~
 and is discouraged.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-11-09 Fri>
+    SCHEDULED: <2019-01-04 Fri>
     :PROPERTIES:
     :ID:       72bf6038-1fad-4b37-bd4a-dc5f3bc01c9b
-    :DRILL_LAST_INTERVAL: 22.9582
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.7884
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-17 Wed 13:10]
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:53]
     :END:
 When to set the 
 resolver for a new 
@@ -1458,17 +1514,17 @@ run
 inside the created project-
 directory.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-11-09 Fri>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       89f22ca5-c479-4e9a-b7b7-89548e7c4558
-    :DRILL_LAST_INTERVAL: 22.9586
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.5447
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-17 Wed 13:08]
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:54]
     :END:
 What to do if 
 ~stack new projname~ complains
@@ -1670,17 +1726,17 @@ Use wildcards of the form
 Note this also works with 
 things like ~@ (Maybe _)~.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       c97c549d-bae6-4ac3-ba4b-813375090ae2
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.1573
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-19 Fri 12:26]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:00]
     :END:
 How are ambiguities in the 
 use of ~@~ as type-application
@@ -2987,17 +3043,17 @@ a form field go?
 **** Answer:
 To key =/V= in a dictionary.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       8b5c316e-7d92-4e39-bda2-6e3b488ceb23
-    :DRILL_LAST_INTERVAL: 9.4478
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.9582
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-01 Thu 13:05]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:57]
     :END:
 What do the double pointy
 brackets =<< .. >>= in a 
@@ -3107,17 +3163,17 @@ That is the alternate field
 name for a form field, the
 name presented to users.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-11-09 Fri>
+    SCHEDULED: <2018-12-02 Sun>
     :PROPERTIES:
     :ID:       04b15be7-3b88-4610-aecc-b04d42b3c9d7
-    :DRILL_LAST_INTERVAL: 9.4478
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.9582
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-31 Wed 13:08]
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:49]
     :END:
 How to analyse pdf files on
 the command line?
@@ -3126,17 +3182,17 @@ Convert them to =qdf= format
 with ~qpdf –qdf <infile.pdf> <outfile.pdf>~
 and read them into a text-editor.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2018-12-05 Wed>
     :PROPERTIES:
     :ID:       fed97cf2-a901-46e6-9b3b-4b98c11d5e15
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-31 Wed 13:08]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:59]
     :END:
 What to do if a pdf-qfd file
 becomes unreadable after bringing
@@ -3147,17 +3203,17 @@ which do conversions. Bring it up
 as a binary file to prevent them,
 ie. ~gvim -b <filename>~.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-11-09 Fri>
+    SCHEDULED: <2018-11-29 Thu>
     :PROPERTIES:
     :ID:       759e488a-ca77-4630-8f85-4a889838d633
-    :DRILL_LAST_INTERVAL: 9.1835
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.818
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-31 Wed 13:09]
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:49]
     :END:
 What to do if a pdf-qfd file
 becomes unreadable after making
@@ -3523,17 +3579,17 @@ possessive, adjectival suffix
 **** Answer:
 my
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2019-01-08 Tue>
     :PROPERTIES:
     :ID:       b91e6fb5-326b-45d1-9e3d-921d80c2da9d
-    :DRILL_LAST_INTERVAL: 32.2683
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 59.1478
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 5
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.545
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-09 Tue 17:11]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:02]
     :END:
 我
 **** Answer:
@@ -3974,17 +4030,17 @@ No, that's actually a misnomer,
 bounded operators are /continuous/
 rather than compact.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2019-04-02 Tue>
     :PROPERTIES:
     :ID:       226978c1-231d-42e1-ba0e-093f6ff1d2c1
-    :DRILL_LAST_INTERVAL: 60.75
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 143.4915
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-10 Mon 15:07]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:59]
     :END:
 What is a continuous operator on
 a Hilbert space?
@@ -4156,6 +4212,60 @@ their usual series representation
 By the partial sums of the series, which yield 
 the elements of the sequence as 
 /aₙ=∑ⁿbₘpᵐ/.
+*** Permutations                                                      :drill:
+What is the main interest
+when considering containment
+of permutations?
+**** Answer:
+The interest actually lies
+with /avoidance/. A permutation
+/π/ avoids /σ/ if /π/ doesn't contain
+/σ/. Of interest is the number
+/Sₙ(π)/, which is the number of
+/n/-permutations avoiding /π/. For
+every /π/ there is a constant
+/c(π)/ such that /Sₙ(π)≤c(π)ⁿ/.
+
+*** Permutations                                                      :drill:
+How is containment of
+permutations expressed
+in terms of permutation
+matrices?
+**** Answer:
+In terms of matrix \
+containment. An /nxn/ 
+matrix /A/ contains a
+/kxl/ matrix /P/ if /A/ has
+a submatrix /D/, possibly
+obtained by deleting rows
+and columns, such that
+/P=D/. Note that this is
+usually only defined for
+binary matrices.
+*** Permutations                                                      :drill:
+How is containment of
+permutations /σ/ on /[k]/
+in /π/ on /[n]/ with /k<n/
+defined in functional 
+terms?
+**** Answer:
+The permutation /σ/ is
+contained in /π/ if there
+exists a strictly increasing
+/τ: [k]→[n]/ such that 
+/π∘τ(i) < π∘τ(j) ⇔ σ(i) < σ(j)/.
+*** Permutations                                                      :drill:
+What does it mean for
+a permutation to contain
+another (shorter) 
+permutation?
+**** Answer:
+A permutation /π/ on /[n]/ is
+said to contain /σ/ on /[k]/
+if there exist integers
+/1≤x₁<x₂…<xₖ≤n/ such that
+/π(xᵢ)<π(xⱼ) ⇔ σ(i)<σ(j)/
+for /1≤i,j≤k/.
 ** Geometry
 *** Fractional Calculus                                               :drill:
     SCHEDULED: <2019-01-02 Wed>
@@ -4499,17 +4609,17 @@ consequent of
 /A₁⊗A₂⊗…⊗Aₙ/, ie.
 /A₁⊗…⊗Aₙ ⊦ B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-11-09 Fri>
+    SCHEDULED: <2018-11-15 Thu>
     :PROPERTIES:
     :ID:       f85d5687-848c-4475-bdc3-7367277727f2
-    :DRILL_LAST_INTERVAL: 3.779
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 6.0993
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.857
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-05 Mon 16:50]
+    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:49]
     :END:
 What is the /linear constraint/
 imposed by linear logic?
@@ -4850,6 +4960,24 @@ for every ~B∈ε~. Thus, it is
 essentially a random variable
 with values in ~E~ and not just
 in ~ℝ~.
+** R&D
+*** Matrices                                                          :drill:
+If permutation matrices
+permute the indices of
+vectors, how do more general
+0-1 matrices act on indices?
+**** Answer:
+There would be a superposition
+of indices which could collapse
+to a certain index. On the 
+other hand, the superposition
+could relate to the pre-images
+of an index. So if /xₙ↦xᵢ+xⱼ/ this
+would mean that /i/ and /j/ are 
+preimages of /n/.
+Also compare to the interpretation
+of 0-1 matrices as paths connecting
+nodes.
 * Music
 ** Scales
 *** Blues                                                             :drill:
@@ -5399,17 +5527,17 @@ than superpositions of an
 infinite number of particle
 states /|n⟩, n∈ℕ/.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2018-12-04 Tue>
     :PROPERTIES:
     :ID:       75275769-f6c1-418c-a88d-11fbdc18bf9e
-    :DRILL_LAST_INTERVAL: 17.851
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 23.9382
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.9
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-23 Tue 16:20]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:02]
     :END:
 What does the coherent state
 /|α⟩/ look like?
@@ -5581,17 +5709,17 @@ space corresponding to observations
 in one Lorentz frame to states correponding
 to observations in another Lorentz frame.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-11-10 Sat>
+    SCHEDULED: <2019-02-22 Fri>
     :PROPERTIES:
     :ID:       87776680-f933-40e7-8a92-ef8a77311e57
-    :DRILL_LAST_INTERVAL: 70.7147
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 104.4456
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.083
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 3.077
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-31 Fri 12:23]
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:01]
     :END:
 What is a particle?
 **** Answer:
