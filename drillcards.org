@@ -55,17 +55,17 @@ and it should be uninstallable in
 the usual way.
 ** Devices
 *** memory                                                            :drill:
-    SCHEDULED: <2018-11-14 Wed>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       4620a751-46d0-44bc-bfb2-6b7635268d17
-    :DRILL_LAST_INTERVAL: 53.2404
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 115.3187
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:21]
+    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:52]
     :END:
 What's the main problem
 with formatting SD-cards
@@ -1708,17 +1708,17 @@ constraints can also
 occur in class and 
 instance contexts.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-11-14 Wed>
+    SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
     :ID:       97802e59-e281-415e-8f25-7a7f15cbda10
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-20 Sat 15:33]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:52]
     :END:
 How to use type applications
 to indicate that types should
@@ -1798,17 +1798,17 @@ applications for the next rank of
 variables then follow these values
 followed by their own values etc.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-11-14 Wed>
+    SCHEDULED: <2019-01-15 Tue>
     :PROPERTIES:
     :ID:       10fe8bfe-8316-4d6c-bd47-653e9e3012d7
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-20 Sat 15:34]
+    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:56]
     :END:
 Is it possible to evaluate
 ~Λ~ expressions explicitly in
@@ -2175,17 +2175,17 @@ What is a union of types?
 A type =type1|type2= which can be assigned
 an object of /type1/ or an object of /type2/.
 *** typescript typing 						      :drill:
-    SCHEDULED: <2018-11-14 Wed>
+    SCHEDULED: <2020-01-03 Fri>
     :PROPERTIES:
     :ID:       3986e32d-3b56-4c6c-9de3-c6e6c7796beb
-    :DRILL_LAST_INTERVAL: 168.8256
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 415.311
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:57]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:56]
     :END:
 What is an /intersection/ of types?
 **** Answer:
@@ -2289,17 +2289,17 @@ The name of the constructor is always
 =constructor= rather than the class name 
 as in C++ or Java.
 *** typescript classes 						      :drill:
-    SCHEDULED: <2018-11-14 Wed>
+    SCHEDULED: <2020-01-19 Sun>
     :PROPERTIES:
     :ID:       99a03428-f963-4df5-9b07-becd245926e5
-    :DRILL_LAST_INTERVAL: 168.4282
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 431.1762
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.2
+    :DRILL_AVERAGE_QUALITY: 4.167
     :DRILL_EASE: 2.56
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:24]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:51]
     :END:
 Do all members of a class have to be initialised
 through the class constructor?
@@ -2716,6 +2716,54 @@ the date, either in the filename, ie
 ~2018-09-05-example.org~ or as
 metadata under the ~published:~ 
 field.
+*** Phoenix                                                           :drill:
+What to do if 
+~mix ecto.create~ comes
+up with an error
+~could not load <name>.Repo, error: :nofile~?
+**** Answer:
+The repository may have to
+be created first:
+~mix ecto.gen.repo -r <name>.Repo~.
+*** Phoenix                                                           :drill:
+What is the path of
+an sqlite database
+in =config/dev.exs=
+relative to?
+**** Answer:
+The path in 
+=adapter: Sqlite.Ecto=
+=database: "<path2sqlite>.sqlite"=
+is relative to the project
+directory.
+*** Phoenix                                                           :drill:
+How to use Phoenix
+with sqlite instead of
+postgres or mysql?
+**** Answer:
+After generating the project
+replace all postgres and ecto
+dependencies by
+={:sqlite_ecto, "~> 1.0.0"},=
+in the =defp deps do=  
+dependency section in /mix.exs/ 
+and reconfigure the database
+connection in config/dev.exs
+to use
+=adapter: Sqlite.Ecto= and
+=database: "<pathtodatabase>.sqlite"=.
+*** Phoenix                                                           :drill:
+What to do if
+running ~mix deps.get~
+fails to fetch records
+due to a timeout?
+**** Answer:
+Decrease http concurrency
+by running
+~HEX_HTTP_CONCURRENCY=1 mix deps.get~
+or increase timeouts with
+~HEX_HTTP_TIMEOUT=120 mix deps.get~,
+or possibly both.
 ** version control
 *** git and hakyll                                                    :drill:
     SCHEDULED: <2018-12-20 Thu>
@@ -4473,17 +4521,17 @@ assigning to each scalar field a field
 of directional derivatives given by the
 directions of the vectors in the vector field. 
 *** Differential						      :drill:
-    SCHEDULED: <2018-11-14 Wed>
+    SCHEDULED: <2018-12-04 Tue>
     :PROPERTIES:
     :ID:       f34ab62f-12a9-4edb-a4fb-2500c8359cee
-    :DRILL_LAST_INTERVAL: 11.8303
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 19.6383
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-02 Fri 12:18]
+    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:57]
     :END:
 What is the problem when trying to define a 
 derivative of vector fields on a manifold?
@@ -7605,17 +7653,17 @@ the network icon. Otherwise
 spawn nm-applet as well, 
 presumably before stalonetray.
 *** X Server                                                          :drill:
-    SCHEDULED: <2018-11-14 Wed>
+    SCHEDULED: <2019-01-11 Fri>
     :PROPERTIES:
     :ID:       5243ec7c-ecd4-4559-b427-cc5121b6a0e5
-    :DRILL_LAST_INTERVAL: 24.3
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 57.591
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-21 Sun 19:21]
+    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:51]
     :END:
 What is the difference
 between using an /autostart/
