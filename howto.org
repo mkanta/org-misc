@@ -1,3 +1,13 @@
+* Phoenix                                                   :phoenixwebframe:
+** sqlite                                                            :sqlite:
+Use sqlite with phoenix as per the descriptions in
+https://github.com/Sqlite-Ecto/sqlite_ecto2/blob/master/docs/tutorial.md
+and 
+https://github.com/Sqlite-Ecto/sqlite_ecto2
+if using sqlite_ecto2. For sqlite_ecto see
+http://twentyeighttwelve.com/creating-a-phoenix-framework-application-with-sqlite/,
+note that the path to the database is relative to the project-directory,
+seems to be the pwd of ~mix~, but can be made any path on the system apparently.
 * Tensor Flow                                                    :tensorflow:
 ** Installing:                                                 :installation:
 *** Haskell Bindings                                                :haskell:
