@@ -1,0 +1,10 @@
+#ignore everything
+*
+#except *.org files
+!*.org
+#and README.md which is generated from README.org
+!README.md
+!resumeTemplate.sty
+#and subdirectories (what about non-org files in subdirectories?)
+!*/
+!.gitignore
