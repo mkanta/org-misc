@@ -2435,6 +2435,15 @@ to the calling context of whoever calls
 refers to the =this= of the defining context, 
 no matter who calls =objname.funcname=.
 ** ubuntu
+*** terminal                                                          :drill:
+    :PROPERTIES:
+    :ID:       08fa9fdc-2ff0-49d5-8bc5-520f485382c0
+    :END:
+How to put a unicode
+character into an lxterminal?
+**** Answer:
+Use something like
+=echo -e '\u<unicode>'=.
 *** packaging                                                         :drill:
     SCHEDULED: <2018-11-30 Fri>
     :PROPERTIES:
@@ -2717,6 +2726,9 @@ the date, either in the filename, ie
 metadata under the ~published:~ 
 field.
 *** Phoenix                                                           :drill:
+    :PROPERTIES:
+    :ID:       11b1b245-5ec1-484f-b93c-86204fff1d26
+    :END:
 What to do if 
 ~mix ecto.create~ comes
 up with an error
@@ -2726,6 +2738,9 @@ The repository may have to
 be created first:
 ~mix ecto.gen.repo -r <name>.Repo~.
 *** Phoenix                                                           :drill:
+    :PROPERTIES:
+    :ID:       339a8de7-f61f-433c-88a5-4312242c55a6
+    :END:
 What is the path of
 an sqlite database
 in =config/dev.exs=
@@ -2737,6 +2752,9 @@ The path in
 is relative to the project
 directory.
 *** Phoenix                                                           :drill:
+    :PROPERTIES:
+    :ID:       2451beaf-aa9a-4f1b-ad21-2f828c9fe01e
+    :END:
 How to use Phoenix
 with sqlite instead of
 postgres or mysql?
@@ -2753,6 +2771,9 @@ to use
 =adapter: Sqlite.Ecto= and
 =database: "<pathtodatabase>.sqlite"=.
 *** Phoenix                                                           :drill:
+    :PROPERTIES:
+    :ID:       a3ed2c99-c03c-4a34-83b3-7cb2e2d5eaf7
+    :END:
 What to do if
 running ~mix deps.get~
 fails to fetch records
@@ -3723,17 +3744,17 @@ eye; look, see; division, topic
 * Mathematics
 ** Algebra
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       b46a3f0a-f3d1-4722-a424-9ed5672a520e
-    :DRILL_LAST_INTERVAL: 9.1835
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.8915
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-06 Tue 18:59]
+    :DRILL_LAST_REVIEWED: [2018-11-16 Fri 15:01]
     :END:
 What distinguishes natural
 from unnatural transformations
@@ -3741,15 +3762,15 @@ between functors /F, G/?
 **** Answer:
 In a natural transformation,
 the commutativity in
-/ηₙ∘F(f)=G(f)∘ηₘ/ only
+/η(Y)∘F(f)=G(f)∘η(X)/ only
 depends on objects 
-/n, m/ of the source
+/X, Y/ of the source
 category but not on
 the morphism /f/. In an
 unnatural transformation
 there are morphisms where
 this commutativity with
-/ηₙ, ηₘ/ is violated.
+/η(X), η(Y)/ is violated.
 *** Categories                                                        :drill:
     SCHEDULED: <2018-11-16 Fri>
     :PROPERTIES:
@@ -4285,17 +4306,17 @@ By the partial sums of the series, which yield
 the elements of the sequence as 
 /aₙ=∑ⁿbₘpᵐ/.
 *** Permutations                                                      :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-11-25 Sun>
     :PROPERTIES:
     :ID:       246283cb-8d0e-49e4-9234-ca98cc53273f
-    :DRILL_LAST_INTERVAL: 3.888
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4478
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:40]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-16 Fri 14:53]
     :END:
 What is the main interest
 when considering containment
@@ -4363,17 +4384,17 @@ exists a strictly increasing
 /τ: [k]→[n]/ such that 
 /π∘τ(i) < π∘τ(j) ⇔ σ(i) < σ(j)/.
 *** Permutations                                                      :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-11-25 Sun>
     :PROPERTIES:
     :ID:       ec453812-83e7-4f47-bc7a-92c7b2d4007e
-    :DRILL_LAST_INTERVAL: 3.888
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2146
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:40]
+    :DRILL_LAST_REVIEWED: [2018-11-16 Fri 14:55]
     :END:
 What does it mean for
 a permutation to contain
@@ -4729,17 +4750,17 @@ consequent of
 /A₁⊗A₂⊗…⊗Aₙ/, ie.
 /A₁⊗…⊗Aₙ ⊦ B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-11-26 Mon>
     :PROPERTIES:
     :ID:       f85d5687-848c-4475-bdc3-7367277727f2
-    :DRILL_LAST_INTERVAL: 6.0993
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 9.6003
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:49]
+    :DRILL_LAST_REVIEWED: [2018-11-16 Fri 14:54]
     :END:
 What is the /linear constraint/
 imposed by linear logic?
@@ -5082,17 +5103,29 @@ with values in ~E~ and not just
 in ~ℝ~.
 ** R&D
 *** Matrices                                                          :drill:
-    SCHEDULED: <2018-11-15 Thu>
+How to define a
+relation /R(M)/ for 
+a binary matrix that
+is compatible with
+permutation matrices?
+**** Answer:
+Define /R(M)={(i,j)|xⱼᵢ=1}/ 
+which is interpretable as
+preimage relation because
+for a permutation matrix
+/xⱼᵢ=1/ means that /xᵢ↦xⱼ/.
+*** Matrices                                                          :drill:
+    SCHEDULED: <2018-11-25 Sun>
     :PROPERTIES:
     :ID:       2fd846d2-e2c2-4341-99d2-4d839550708f
-    :DRILL_LAST_INTERVAL: 3.888
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2146
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:42]
+    :DRILL_LAST_REVIEWED: [2018-11-16 Fri 15:12]
     :END:
 If permutation matrices
 permute the indices of
@@ -7201,6 +7234,18 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** configuration                                                     :drill:
+    :PROPERTIES:
+    :ID:       d851807b-c2ec-41c5-b3b2-8c93075d73a7
+    :END:
+How to configure
+input methods in
+lubuntu?
+**** Answer:
+In =Preferences -> Language Support=.
+Select the keyboard input method
+system, then log out and back
+in.
+*** configuration                                                     :drill:
     SCHEDULED: <2018-11-28 Wed>
     :PROPERTIES:
     :ID:       7d25333b-1ed2-412e-ab7d-9133e8ea1ed3
@@ -7575,6 +7620,25 @@ access to /cups/?
 **** Answer:
 That's an interface name,
 such as ~eth0~ or ~wlan0~.
+*** terminal                                                          :drill:
+    :PROPERTIES:
+    :ID:       77fa807f-8907-43f9-b683-673825d0e1ca
+    :END:
+How to enter unicode in
+an lxterminal?
+**** Answer:
+With =shift ctrl u=
+followed by the codepoint
+in hex.
+*** terminal
+What to do if the
+=ctrl shift u= method
+doesn't work to put
+unicode characters
+in an lxterminal?
+**** Answer:
+This method requires
+the /IBus/ input method.
 *** services                                                          :drill:
     SCHEDULED: <2019-01-16 Wed>
     :PROPERTIES:
