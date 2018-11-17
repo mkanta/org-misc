@@ -483,17 +483,17 @@ reappear in a dired window?
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
 *** org-mode                                                          :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2019-01-17 Thu>
     :PROPERTIES:
     :ID:       c91ef50b-eb39-46f5-bb7e-f5964fe104ec
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-21 Sun 19:21]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:29]
     :END:
 How to escape slashes
 and tildes when writing
@@ -1684,17 +1684,17 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-11-17 Sat>
+    SCHEDULED: <2018-11-26 Mon>
     :PROPERTIES:
     :ID:       0dacd1bb-8d05-479e-acd4-b5839addf7eb
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-13 Tue 18:31]
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:27]
     :END:
 What does =t1~t2= in the
 context of a function
@@ -3704,17 +3704,17 @@ Personal Pronoun first person: I, me, we, us
 **** Answer:
 one, a little
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-11-21 Wed>
     :PROPERTIES:
     :ID:       8fbf1c2f-dd1a-4f24-9dc7-eab876b9f928
-    :DRILL_LAST_INTERVAL: 3.888
+    :DRILL_LAST_INTERVAL: 3.902
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 22
-    :DRILL_FAILURE_COUNT: 9
-    :DRILL_AVERAGE_QUALITY: 2.59
-    :DRILL_EASE: 1.16
+    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_FAILURE_COUNT: 10
+    :DRILL_AVERAGE_QUALITY: 2.582
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:43]
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:34]
     :END:
 是
 **** Answers:
@@ -3772,24 +3772,24 @@ there are morphisms where
 this commutativity with
 /η(X), η(Y)/ is violated.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2018-12-11 Tue>
     :PROPERTIES:
     :ID:       a87e7b23-ac56-4703-a3cc-8236a806bbee
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-06 Tue 18:58]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:28]
     :END:
 What is a transformation
 between functors 
 /F, G:C→D/?
 **** Answer:
 A collection of arrows
-/ηₓ:F(X)→G(X)/ in category
+/η(X):F(X)→G(X)/ in category
 /D/ indexed by objects /X/
 from category /C/.
 *** Relativity                                                        :drill:
@@ -4332,24 +4332,24 @@ every /π/ there is a constant
 /c(π)/ such that /Sₙ(π)≤c(π)ⁿ/.
 
 *** Permutations                                                      :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-11-26 Mon>
     :PROPERTIES:
     :ID:       3a9f2ded-95cf-4d48-a678-bc52e8baccc1
-    :DRILL_LAST_INTERVAL: 3.888
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4478
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:39]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:14]
     :END:
 How is containment of
 permutations expressed
 in terms of permutation
 matrices?
 **** Answer:
-In terms of matrix \
+In terms of matrix
 containment. An /nxn/ 
 matrix /A/ contains a
 /kxl/ matrix /P/ if /A/ has
@@ -4360,17 +4360,17 @@ and columns, such that
 usually only defined for
 binary matrices.
 *** Permutations                                                      :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-11-26 Mon>
     :PROPERTIES:
     :ID:       406e45b3-19b0-4c9e-bf5f-2ad40947cc04
-    :DRILL_LAST_INTERVAL: 3.888
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4478
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:39]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:12]
     :END:
 How is containment of
 permutations /σ/ on /[k]/
@@ -4627,17 +4627,17 @@ well defined. The vectors are transported in
 the ambient space and projected onto the tangent
 spaces of the manifold.
 *** Differential						      :drill:
-    SCHEDULED: <2018-11-17 Sat>
+    SCHEDULED: <2019-07-23 Tue>
     :PROPERTIES:
     :ID:       a61437ca-4da8-4081-833f-bed25acc53ea
-    :DRILL_LAST_INTERVAL: 117.6412
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 247.6347
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-22 Sun 07:10]
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:29]
     :END:
 What is the advantage of the Lie derivative
 over covariant derivatives on a manifold? 
@@ -5103,6 +5103,9 @@ with values in ~E~ and not just
 in ~ℝ~.
 ** R&D
 *** Matrices                                                          :drill:
+    :PROPERTIES:
+    :ID:       83e90127-e424-468d-8820-f6609ff96765
+    :END:
 How to define a
 relation /R(M)/ for 
 a binary matrix that
@@ -6086,17 +6089,17 @@ counting particles with the density operator
 will give different results in different
 representations.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2018-11-24 Sat>
     :PROPERTIES:
     :ID:       e72964a8-7a57-4802-8c43-b6c739b20b33
-    :DRILL_LAST_INTERVAL: 3.779
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 7.1499
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-12 Mon 15:45]
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:15]
     :END:
 How does the unitary inequivalence of different
 representations on an infinite-particle Hilbert
@@ -6265,17 +6268,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 10.3196
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 14.0966
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.882
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-05 Mon 16:43]
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:14]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -7339,17 +7342,17 @@ desktop files. Run
 ~update-mime-database /usr/share/mime~
 and see if that helps.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-11-17 Sat>
+    SCHEDULED: <2019-03-31 Sun>
     :PROPERTIES:
     :ID:       fb6be726-fbd6-4810-9bac-def0b4251700
-    :DRILL_LAST_INTERVAL: 54.9717
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 133.5812
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-23 Sun 12:24]
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:34]
     :END:
 What is the problem with
 the systemd-shim configuration
@@ -7496,18 +7499,18 @@ ACL is an abbreviation for
 [specify file access in a more fine-grained 
 way than users and groups].
 *** Fact							      :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2018-12-01 Sat>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       515f3873-fe47-4fc3-8889-dacbfa24c71b
-  :DRILL_LAST_INTERVAL: 7.5583
-  :DRILL_REPEATS_SINCE_FAIL: 3
-  :DRILL_TOTAL_REPEATS: 13
+  :DRILL_LAST_INTERVAL: 14.0584
+  :DRILL_REPEATS_SINCE_FAIL: 4
+  :DRILL_TOTAL_REPEATS: 14
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 3.385
+  :DRILL_AVERAGE_QUALITY: 3.429
   :DRILL_EASE: 1.86
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-11-08 Thu 12:09]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:14]
   :END:      
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
@@ -7621,8 +7624,17 @@ access to /cups/?
 That's an interface name,
 such as ~eth0~ or ~wlan0~.
 *** terminal                                                          :drill:
+    SCHEDULED: <2018-11-21 Wed>
     :PROPERTIES:
     :ID:       77fa807f-8907-43f9-b683-673825d0e1ca
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:29]
     :END:
 How to enter unicode in
 an lxterminal?
@@ -7669,17 +7681,17 @@ ubuntu between 16 and 18, where it was
 hard to update this package because the 
 old version couldn't be removed.
 *** xmonad                                                            :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2018-11-24 Sat>
     :PROPERTIES:
     :ID:       d427d0b3-2784-4a83-bad5-83255d6dc001
-    :DRILL_LAST_INTERVAL: 3.779
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 7.1499
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-12 Mon 15:45]
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:15]
     :END:
 Where should applications
 be auto-started xsession
