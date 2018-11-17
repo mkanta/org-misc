@@ -482,6 +482,21 @@ reappear in a dired window?
 **** Answer:
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
+*** help							      :drill:
+How to check if a
+key-sequence is bound
+to a function?
+**** Answer:
+With
+=f1 k <key-sequence>=.
+*** help							      :drill:
+How to find the 
+key-binding for a
+function?
+**** Answer:
+With the where-is
+feature:
+=f1 w <funcname>=.
 *** org-mode                                                          :drill:
     SCHEDULED: <2019-01-17 Thu>
     :PROPERTIES:
