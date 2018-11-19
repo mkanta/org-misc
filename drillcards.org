@@ -304,19 +304,49 @@ involving tensors and operations
 on them as a graph that describes
 a computation and the subsequent
 execution of the description.
+** elixir 
+*** expressions                                                       :drill:
+    SCHEDULED: <2018-11-22 Thu>
+    :PROPERTIES:
+    :ID:       40bee627-16e1-4bd6-a018-5389091ce1e9
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:12]
+    :END:
+What is the rap on
+the =do:...=
+expressions in elixir?
+**** Answer:
+These are actually 
+keyword lists
+and equivalent to
+=[{:do,...}]=, which can
+be rewritten as
+=[do: ...]= due to some
+syntactic sugar. If the 
+keyword list is the last
+argument of a function, the
+square brackets can be
+dropped and =do:...=
+is the result.
 ** emacs
 *** modes                                                             :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2019-03-31 Sun>
     :PROPERTIES:
     :ID:       1bb3c212-2f7f-421f-9862-3618be826c8f
-    :DRILL_LAST_INTERVAL: 54.7732
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 133.0989
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:23]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:19]
     :END:
 How are minor modes
 disabled interactively?
@@ -356,17 +386,17 @@ file-name at point,
 complete path of the file
 at point.
 *** dired                                                             :drill:
-    SCHEDULED: <2018-11-19 Mon>
+    SCHEDULED: <2019-03-15 Fri>
     :PROPERTIES:
     :ID:       00cd7121-5f6d-4114-8949-1668d32c535b
-    :DRILL_LAST_INTERVAL: 53.633
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 116.1691
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-26 Wed 14:48]
+    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:50]
     :END:
 How to open a file with
 the default application
@@ -444,17 +474,17 @@ Select them with ~%m ^\.~ and
 press ~k~ to suppress their
 display.
 *** dired                                                             :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2019-03-28 Thu>
     :PROPERTIES:
     :ID:       7ff99fbd-58a8-440c-a75d-8cf0aaa0a0dc
-    :DRILL_LAST_INTERVAL: 54.7732
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 129.8125
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:26]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:16]
     :END:
 How to suppress the display
 of certain files in a dired
@@ -465,17 +495,17 @@ a regular expression, select
 them with ~%m <regex>~ and press
 ~k~ to remove them from display.
 *** dired                                                             :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2019-03-28 Thu>
     :PROPERTIES:
     :ID:       75dbb131-db54-40bd-b6eb-0d7934228689
-    :DRILL_LAST_INTERVAL: 54.7732
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 129.8125
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:27]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:18]
     :END:
 How to make suppressed files
 reappear in a dired window?
@@ -483,6 +513,18 @@ reappear in a dired window?
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
 *** help							      :drill:
+    SCHEDULED: <2018-11-22 Thu>
+    :PROPERTIES:
+    :ID:       476f8fe2-1d65-47d5-a264-1535c569ea9d
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:08]
+    :END:
 How to check if a
 key-sequence is bound
 to a function?
@@ -490,6 +532,18 @@ to a function?
 With
 =f1 k <key-sequence>=.
 *** help							      :drill:
+    SCHEDULED: <2018-11-22 Thu>
+    :PROPERTIES:
+    :ID:       c610f330-fb43-4e28-846f-b19118ec4fc8
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:17]
+    :END:
 How to find the 
 key-binding for a
 function?
@@ -683,17 +737,17 @@ and then using the /C-c = .../
 shortcuts to communicate with
 the Maxima process.
 *** maxima and emacs                                                  :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2019-03-27 Wed>
     :PROPERTIES:
     :ID:       9225504c-7004-4d0a-bcf0-5420e12ac056
-    :DRILL_LAST_INTERVAL: 54.5691
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 129.3288
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.625
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-21 Fri 16:04]
+    :DRILL_AVERAGE_QUALITY: 3.556
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:17]
     :END:
 How useful is Maxima mode in
 interacting with a maxima 
@@ -890,17 +944,17 @@ haskell-gi-0.21. Just list
 under ~extra-deps~ in the
 stack.yaml file.
 *** Graphical UI                                                      :drill:
-    SCHEDULED: <2018-11-18 Sun>
+    SCHEDULED: <2019-01-19 Sat>
     :PROPERTIES:
     :ID:       c10805dc-b69c-417b-956c-a1f3edba53f4
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-24 Wed 12:49]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:10]
     :END:
 Should the /OverloadedLabels/
 extension be turned off when
@@ -963,17 +1017,17 @@ compile time like database
 content, as well as the
 types of new widgets.
 *** Equivalencies                                                     :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2019-01-12 Sat>
     :PROPERTIES:
     :ID:       06a650ba-4265-4cb1-81cf-34b6ce73855f
-    :DRILL_LAST_INTERVAL: 22.9582
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.6176
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-23 Tue 16:19]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:15]
     :END:
 Why is packing values
 into a list with
@@ -1212,17 +1266,17 @@ By combining parsers
 with ~many~ or ~some~ from
 typeclass ~Applicative~.
 *** Option Parsing                                                    :drill:
-    SCHEDULED: <2018-11-19 Mon>
+    SCHEDULED: <2018-12-13 Thu>
     :PROPERTIES:
     :ID:       b1ae3e7d-166d-4569-99ba-9f1f59151783
-    :DRILL_LAST_INTERVAL: 17.9784
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 24.1989
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.801
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.819
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-01 Thu 13:07]
+    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:51]
     :END:
 How to set up Options.Applicative
 to parse a multiple use of a string 
@@ -1255,17 +1309,17 @@ Not at all, this contravenes
 POSIX conventions where an option
 has either none or one argument.
 *** Patterns                                                          :drill:
-    SCHEDULED: <2018-11-19 Mon>
+    SCHEDULED: <2018-12-09 Sun>
     :PROPERTIES:
     :ID:       5d646004-d20a-42d3-ba37-7f00357a7608
-    :DRILL_LAST_INTERVAL: 9.1835
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.8915
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:56]
+    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:49]
     :END:
 What is the point of
 record wildcards?
@@ -2173,17 +2227,17 @@ defines a 2-parameter function which can be
 partially applied:
 =let fctn1=fctn2(value1);=
 *** typescript typing 						      :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       450a3901-2083-4209-8264-05ad4cb4dd58
-    :DRILL_LAST_INTERVAL: 168.8256
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
+    :DRILL_LAST_INTERVAL: 3.765
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.32
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:25]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:19]
     :END:
 What is a union of types?
 **** Answer:
@@ -2229,17 +2283,17 @@ of the variable into a /boolean truth/ value
 and a second one negates it back in the 
 opposite /boolean truth/ value.
 *** typescript types						      :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2019-12-28 Sat>
     :PROPERTIES:
     :ID:       a1b4769e-3dc5-4eaa-ae99-165d4ef03cfb
-    :DRILL_LAST_INTERVAL: 168.8256
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 405.1814
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.32
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:25]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:11]
     :END:
 Why should an /interface/ be preferred over a
 /class/ whenever possible?
@@ -2451,8 +2505,17 @@ refers to the =this= of the defining context,
 no matter who calls =objname.funcname=.
 ** ubuntu
 *** terminal                                                          :drill:
+    SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       08fa9fdc-2ff0-49d5-8bc5-520f485382c0
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:09]
     :END:
 How to put a unicode
 character into an lxterminal?
@@ -2719,17 +2782,17 @@ Use ~pandocCompilerWith~ with
 the location of /MathJax.js/ or
 the empty string.
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2018-11-19 Mon>
+    SCHEDULED: <2019-02-05 Tue>
     :PROPERTIES:
     :ID:       f41d7373-8d25-4dae-b3bc-dba1c6ab1f19
-    :DRILL_LAST_INTERVAL: 41.2702
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.0832
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-09 Tue 17:13]
+    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:51]
     :END:
 What's the problem if
 hakyll complains about
@@ -2741,8 +2804,17 @@ the date, either in the filename, ie
 metadata under the ~published:~ 
 field.
 *** Phoenix                                                           :drill:
+    SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       11b1b245-5ec1-484f-b93c-86204fff1d26
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:11]
     :END:
 What to do if 
 ~mix ecto.create~ comes
@@ -2753,8 +2825,17 @@ The repository may have to
 be created first:
 ~mix ecto.gen.repo -r <name>.Repo~.
 *** Phoenix                                                           :drill:
+    SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       339a8de7-f61f-433c-88a5-4312242c55a6
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:11]
     :END:
 What is the path of
 an sqlite database
@@ -2767,8 +2848,17 @@ The path in
 is relative to the project
 directory.
 *** Phoenix                                                           :drill:
+    SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       2451beaf-aa9a-4f1b-ad21-2f828c9fe01e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:06]
     :END:
 How to use Phoenix
 with sqlite instead of
@@ -2786,8 +2876,17 @@ to use
 =adapter: Sqlite.Ecto= and
 =database: "<pathtodatabase>.sqlite"=.
 *** Phoenix                                                           :drill:
+    SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       a3ed2c99-c03c-4a34-83b3-7cb2e2d5eaf7
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:18]
     :END:
 What to do if
 running ~mix deps.get~
@@ -3545,17 +3644,17 @@ to the teachings of Jesus
 residing in a corrupt body,
 the Church.
 *** Adam & Eve                                                        :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2019-01-18 Fri>
     :PROPERTIES:
     :ID:       31dd4770-cf89-4bf6-a6a6-0aff486446d5
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:02]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:08]
     :END:
 Why did Adam die?
 **** Answer:
@@ -3671,17 +3770,17 @@ eternal Tao.
 **** Answer:
 possessive, adjectival suffix
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-19 Mon>
+    SCHEDULED: <2018-11-23 Fri>
     :PROPERTIES:
     :ID:       731e55ab-070b-4fd0-846a-69feeae964f8
-    :DRILL_LAST_INTERVAL: 41.2702
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-09 Tue 17:12]
+    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:52]
     :END:
 我的
 **** Answer:
@@ -3703,17 +3802,17 @@ my
 **** Answer:
 Personal Pronoun first person: I, me, we, us
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-19 Mon>
+    SCHEDULED: <2019-02-05 Tue>
     :PROPERTIES:
     :ID:       6c12b2b5-554d-4572-82b3-52c0f8c410b7
-    :DRILL_LAST_INTERVAL: 41.2702
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.0832
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-09 Tue 17:11]
+    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:49]
     :END:
 一
 **** Answer:
@@ -3735,17 +3834,17 @@ one, a little
 **** Answers:
 to be; indeed, yes, right; demonstrative pronoun
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-19 Mon>
+    SCHEDULED: <2018-11-23 Fri>
     :PROPERTIES:
     :ID:       813e8718-8c89-46fc-bb21-bec2f9401647
-    :DRILL_LAST_INTERVAL: 41.2702
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.715
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-09 Tue 17:12]
+    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:52]
     :END:
 不
 **** Answer:
@@ -4119,17 +4218,17 @@ like complex numbers with self adjoint
 operators playing the role of real
 numbers.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2019-05-12 Sun>
     :PROPERTIES:
     :ID:       3672fd79-e972-48f4-8a42-39e5d9f40748
-    :DRILL_LAST_INTERVAL: 67.288
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 174.9488
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.25
+    :DRILL_AVERAGE_QUALITY: 4.2
     :DRILL_EASE: 2.6
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-10 Mon 15:06]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:09]
     :END:
 Are bounded operators on a Hilbert
 space always compact?
@@ -4264,17 +4363,17 @@ ie all integer sequences /(aₙ)/
 such that /aₙ ∈ ℤ/pⁿℤ/ and 
 /aₙ≡ aₘ mod pⁿ/ if /n ≤ m/.
 *** p-adic numbers						      :drill:
-    SCHEDULED: <2018-11-15 Thu>
+    SCHEDULED: <2019-12-20 Fri>
     :PROPERTIES:
     :ID:       175b7088-8e94-4a76-a02e-28d0862befc3
-    :DRILL_LAST_INTERVAL: 168.2268
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 397.1835
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.42
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.28
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:50]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:05]
     :END:
 In which sense can numbers /m∈ℕ/ be considered
 p-adic?
@@ -4580,17 +4679,17 @@ help because it makes the
 result dependent on the choice of 
 coordimate system.
 *** Differential						      :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
     :ID:       e72d3169-660c-409c-8b65-1b87edc11af5
-    :DRILL_LAST_INTERVAL: 117.6336
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 254.7944
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:21]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:14]
     :END:
 Why is it a problem that the ordinary
 derivative of vector fields is not 
@@ -4957,17 +5056,17 @@ influence of past events
 ~Tᵢ~ on the current value
 of the intensity process ~λ(t)~.
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-11-18 Sun>
+    SCHEDULED: <2018-12-09 Sun>
     :PROPERTIES:
     :ID:       0801d690-1eea-4409-a568-27a10f11dbf9
-    :DRILL_LAST_INTERVAL: 13.0642
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 21.1509
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.857
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-05 Mon 16:41]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:07]
     :END:
 What is a Hawkes process?
 **** Answer:
@@ -5118,8 +5217,17 @@ with values in ~E~ and not just
 in ~ℝ~.
 ** R&D
 *** Matrices                                                          :drill:
+    SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       83e90127-e424-468d-8820-f6609ff96765
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:15]
     :END:
 How to define a
 relation /R(M)/ for 
@@ -5268,17 +5376,17 @@ even though the regular blues
 hexatonic scale is based on mode 5
 or pentatonic minor.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2018-11-19 Mon>
+    SCHEDULED: <2019-02-05 Tue>
     :PROPERTIES:
     :ID:       1caf2020-a791-49a4-8552-95c084773af1
-    :DRILL_LAST_INTERVAL: 41.2702
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.0832
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-09 Tue 17:12]
+    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:50]
     :END:
 How is the blues hexatonic
 scale related to pentatonic
@@ -5831,17 +5939,17 @@ What is measured with
 The probability to observe state /φ₁/ when 
 the system is known to be in state /φ₂/.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2018-12-08 Sat>
     :PROPERTIES:
     :ID:       1bf83dce-80be-4ae5-83d7-2e3d86cfaa2b
-    :DRILL_LAST_INTERVAL: 17.8982
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_LAST_INTERVAL: 20.2608
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 22
     :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-29 Mon 14:53]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:06]
     :END:
 What are /one-particle/ states?
 **** Answer:
@@ -6785,17 +6893,17 @@ also called the action. In addition, for
 /ℏ → 0/ the classical path
 is obtained.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-11-18 Sun>
+    SCHEDULED: <2018-12-04 Tue>
     :PROPERTIES:
     :ID:       5e8df1a4-a546-4dd1-90b0-c290a98bcd6e
-    :DRILL_LAST_INTERVAL: 14.7973
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 16.3362
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.834
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.841
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-03 Sat 15:35]
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:17]
     :END:
 How does the propagator arise?
 **** Answer:
@@ -7252,8 +7360,17 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** configuration                                                     :drill:
+    SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       d851807b-c2ec-41c5-b3b2-8c93075d73a7
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:16]
     :END:
 How to configure
 input methods in
@@ -7383,17 +7500,17 @@ room for the new one, which has
 that the original systemd-shim
 executable is not available anymore.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-11-16 Fri>
+    SCHEDULED: <2019-03-28 Thu>
     :PROPERTIES:
     :ID:       e051314d-8e9b-4aac-8150-aecee71ff65c
-    :DRILL_LAST_INTERVAL: 54.7732
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 129.8125
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:24]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:16]
     :END:
 What are common values for
 swapiness?
