@@ -334,6 +334,98 @@ argument of a function, the
 square brackets can be
 dropped and =do:...=
 is the result.
+*** functions                                                         :drill:
+Why is argument permutation
+important in Elixir?
+**** Answer:
+Because of piping, where
+the result of a computation 
+is sent to the first argument
+of the function call that is
+next in the pipe.
+*** functions                                                         :drill:
+Why is the fudge with
+the =.()= notation for
+anonymous functions
+needed in elixir?
+**** Answer:
+Probably because arguments
+can be permuted in anonymous
+functions defined by a capture,
+which needs to sort out the
+=&1, &2,...= etc.
+*** functions                                                         :drill:
+What's the problem
+with the elixir
+expression
+=(&(&1 * 2).(5))=?
+**** Answer:
+According to /iex/, 
+this is a function of
+arity =1=, but applying
+an anonymous arguments 
+to it as in
+=(&(&1 * 2).(5)).(2)=
+is accepted by the
+compiler but results
+in a run-time error
+/BadFunctionError/, complaining
+about expecting a function
+but getting =4=.
+*** functions                                                         :drill:
+What's wrong with
+the elixir pipe
+=1 |> &(&1 * 2).()=?
+**** Answer:
+Elixir syntax quirks:
+need extra parentheses:
+=1 |> (&(&1 * 2)).().
+to make this work. 
+According to /iex/,
+=&(&1 * 2).(1)= is 
+still a function.
+*** functions                                                         :drill:
+What happens in
+the elixir expression
+=(&(&1 * 2).(5)).(2)=?
+**** Answer:
+This evaluates the product
+to =4= and then complains
+that it can't apply =5=
+to that result.
+*** piping                                                            :drill:
+Why is piping actually
+not such a great idea
+for Elixir?
+**** Answer:
+Because Elixir aims to
+be functional but piping
+is imperative and should
+be restricted to something
+like monads.
+In addition, it causes a 
+lot of bad design decisions, 
+such as function capturing 
+and =.()=.
+*** piping                                                            :drill:
+How to pipe something into
+the second argument of a
+function =Foo.bar/2=?
+**** Answer:
+With a capture 
+=val |> (&Foo.bar(arg1,&1)).()=
+where =arg1= is a constant for
+the first argument. So
+=Foo.bar= is called as
+=Foo.bar(arg1,val)=.
+*** piping                                                            :drill:
+What is the mechanism
+of piping in elixir?
+**** Answer:
+It pipes a value into 
+the first argument of
+a function /call/ to the
+right.
 ** emacs
 *** modes                                                             :drill:
     SCHEDULED: <2019-03-31 Sun>
