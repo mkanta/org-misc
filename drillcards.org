@@ -601,6 +601,16 @@ where =arg1= is a constant for
 the first argument. So
 =Foo.bar= is called as
 =Foo.bar(arg1,val)=.
+*** processes							      :drill:
+What is a /GenServer/?
+**** Answer:
+A normal process with
+some predefined behaviour
+that allows error tracking
+and makes it fit in a
+supervision tree. In addition
+it has a standard set of
+interface functions.
 *** piping                                                            :drill:
     SCHEDULED: <2018-11-24 Sat>
     :PROPERTIES:
