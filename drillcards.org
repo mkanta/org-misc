@@ -306,6 +306,41 @@ a computation and the subsequent
 execution of the description.
 ** elixir 
 *** expressions                                                       :drill:
+Why would implementing
+a typed language like
+Haskell for the Erlang
+VM be difficult?
+**** Answer:
+It would probably work
+if one forgoes the 
+function overloading
+in the Erlang VM in 
+favour of type 
+polymorphism.
+*** expressions                                                       :drill:
+What is the main
+reason for the =.()=
+kludge?
+**** Answer:
+The Erlang VM, which
+essentially requires
+Lisp 2 type implementations 
+where variables and 
+functions live in different
+namespaces, hence the
+different calling conventions
+for names and functions.
+*** expressions                                                       :drill:
+Why does the Erlang VM
+require different namespaces
+for variables and functions?
+**** Answer:
+Because (named) functions are 
+identified by both name and 
+arity in the Erlang VM, which 
+makes Lisp 1 implementations 
+awkward.
+*** expressions                                                       :drill:
     SCHEDULED: <2018-11-22 Thu>
     :PROPERTIES:
     :ID:       40bee627-16e1-4bd6-a018-5389091ce1e9
@@ -334,6 +369,18 @@ argument of a function, the
 square brackets can be
 dropped and =do:...=
 is the result.
+*** functions                                                         :drill:
+In how far do named
+functions behave
+differently from
+anonymous ones?
+**** Answer:
+Anonymous functions
+are closures, ie they
+access values in their
+environment. In contrast,
+a =def= introduces a clean
+name scope.
 *** functions                                                         :drill:
 Why is argument permutation
 important in Elixir?
