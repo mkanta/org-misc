@@ -602,6 +602,18 @@ the first argument. So
 =Foo.bar= is called as
 =Foo.bar(arg1,val)=.
 *** processes							      :drill:
+    SCHEDULED: <2018-11-25 Sun>
+    :PROPERTIES:
+    :ID:       3fb4f52e-25a2-4a2f-bbda-74edb157da01
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:37]
+    :END:
 What is a /GenServer/?
 **** Answer:
 A normal process with
@@ -2754,17 +2766,17 @@ the members of the derived class and those of
 the base class, having the same name would 
 lead to conflicts.
 *** typescript classes 	 				      :drill:
-    SCHEDULED: <2018-11-21 Wed>
+    SCHEDULED: <2020-01-14 Tue>
     :PROPERTIES:
     :ID:       f3d26521-acee-48b1-9b49-dd9a2890187b
-    :DRILL_LAST_INTERVAL: 174.7684
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 419.4442
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.32
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:27]
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:36]
     :END:
 What is the rationale behind the mutable /this/
 pointer of functions defined as members in 
@@ -3005,17 +3017,17 @@ title or in a separate meta-
 data file in the case of
 binary files.
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2018-11-21 Wed>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       4fbd7c76-7726-4db9-8575-baa24d7ccefb
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-10 Wed 14:20]
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:37]
     :END:
 Is it possible to make
 hakyll use images to 
@@ -3294,6 +3306,159 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git                                                               :drill:
+    SCHEDULED: <2018-11-25 Sun>
+    :PROPERTIES:
+    :ID:       80d00555-53c8-45bb-97e1-b0f89ae75089
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:38]
+    :END:
+What is a 
+/lightweight/ tag?
+**** Answer:
+A tag with no other information,
+such as a tag message, attached
+to it. Create it with
+=git -tag <version> [commit]=
+with no -a, -m or -s option.
+*** git                                                               :drill:
+    SCHEDULED: <2018-11-25 Sun>
+    :PROPERTIES:
+    :ID:       1911d00c-406f-46b9-96b7-4e5670cdaaff
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:38]
+    :END:
+How to give a commit
+a name?
+**** Answer:
+By tagging it  with
+=git tag -a <version> [commit]=
+where the current commit is assumed
+if no commit number is given.
+*** git                                                               :drill:
+    SCHEDULED: <2018-11-25 Sun>
+    :PROPERTIES:
+    :ID:       6b5f1721-7099-4b22-8902-88e9800706ed
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:38]
+    :END:
+What is a tag?
+**** Answer:
+A name for a commit that
+makes it easier to reference
+it, for example in 
+=git show <tag>=.
+It usually is some kind
+of version name.
+*** git                                                               :drill:
+    SCHEDULED: <2018-11-25 Sun>
+    :PROPERTIES:
+    :ID:       3da77a82-6168-4e08-be79-901c241c0be9
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:36]
+    :END:
+Is it possible to
+check out a particular
+commit?
+**** Answer:
+Yes, both commits and tags
+can be checked out but they 
+put the repo in the /detached 
+head/ state where all commits 
+made will be lost upon 
+leaving (ie another checkout) 
+unless a new branch is created.
+*** git                                                               :drill:
+    SCHEDULED: <2018-11-25 Sun>
+    :PROPERTIES:
+    :ID:       5be67af8-56dd-4691-9a3f-6cf36950a906
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:38]
+    :END:
+How to fetch a
+specific tag from 
+a remote?
+**** Answer:
+With a /refspec/ of
+the form =refs/tags/<tagid>=
+for the remote /rrefspec/ in
+=git fetch origin <rrefspec>:<lrefspec>=
+which fetches the remote to
+the local /lrefspec/.
+*** git                                                               :drill:
+    SCHEDULED: <2018-11-25 Sun>
+    :PROPERTIES:
+    :ID:       0dfb93d4-cbb9-459c-96d5-3557c429f68d
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:36]
+    :END:
+How to fetch a remote
+tag and put it in a
+new local branch?
+**** Answer:
+Use =refs/head/<name>= in
+=git fetch refs/tags/<tagid>:refs/head/<name>=
+to put it in a new branch /name/.
+*** git                                                               :drill:
+    SCHEDULED: <2018-11-25 Sun>
+    :PROPERTIES:
+    :ID:       829023a3-edf5-464e-966f-fc837053311c
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:37]
+    :END:
+What is the problem
+if after a =git pull=
+=git status= reports
+changed files?
+**** Answer:
+The project may have
+submodules. Run
+=git submodule sync=
+followed by
+=git submodule update —recursive=
+and see if that helps.
+*** git                                                               :drill:
     SCHEDULED: <2018-12-07 Fri>
     :PROPERTIES:
     :ID:       9c2a4598-06de-4ed8-995c-7911333ef557
@@ -3329,6 +3494,7 @@ directory as untracked file.
     :DRILL_LAST_QUALITY: 4
     :DRILL_LAST_REVIEWED: [2018-10-16 Tue 15:36]
     :END:
+
 What does it mean to 
 /stage the removal/ of
 a file as in
@@ -4115,17 +4281,17 @@ Personal Pronoun first person: I, me, we, us
 **** Answer:
 one, a little
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-21 Wed>
+    SCHEDULED: <2018-11-25 Sun>
     :PROPERTIES:
     :ID:       8fbf1c2f-dd1a-4f24-9dc7-eab876b9f928
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 4.1986
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 10
-    :DRILL_AVERAGE_QUALITY: 2.582
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.599
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:34]
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:35]
     :END:
 是
 **** Answers:
@@ -4146,10 +4312,7 @@ to be; indeed, yes, right; demonstrative pronoun
 不
 **** Answer:
 negative prefix; no, not; un-;
-*** 目                                                                :drill:
-    :PROPERTIES:
-    :ID:       bd52a6da-90da-47cd-997d-eadf0144f33e
-    :END:
+目 
 **** Answer:
 eye; look, see; division, topic
 * Mathematics
@@ -4995,17 +5158,17 @@ tensorial?
 Because this means that this derivative
 depends on the choice of coordinate system.
 *** Differential						      :drill:
-    SCHEDULED: <2018-11-21 Wed>
+    SCHEDULED: <2019-08-15 Thu>
     :PROPERTIES:
     :ID:       63934d3f-1f6a-4e4d-b1e5-0d1ddcb7e024
-    :DRILL_LAST_INTERVAL: 123.3772
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 267.235
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-21 Sat 07:31]
+    :DRILL_LAST_REVIEWED: [2018-11-21 Wed 13:38]
     :END:
 What is the geometric idea of calculating
 the covariant derivative of a vector field?
@@ -8045,6 +8208,7 @@ followed by
     :DRILL_LAST_QUALITY: 4
     :DRILL_LAST_REVIEWED: [2018-10-24 Wed 12:50]
     :END:
+
 What is the ~name~ in
 the ~@IF(name)~ construct
 for allowing or denying
@@ -8065,13 +8229,14 @@ such as ~eth0~ or ~wlan0~.
     :DRILL_LAST_QUALITY: 3
     :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:29]
     :END:
+
 How to enter unicode in
 an lxterminal?
 **** Answer:
 With =shift ctrl u=
 followed by the codepoint
 in hex.
-*** terminal
+*** terminal                                                          :drill:
 What to do if the
 =ctrl shift u= method
 doesn't work to put
