@@ -378,17 +378,17 @@ arity in the Erlang VM, which
 makes Lisp 1 implementations 
 awkward.
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       40bee627-16e1-4bd6-a018-5389091ce1e9
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:12]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:24]
     :END:
 What is the rap on
 the =do:...=
@@ -644,34 +644,6 @@ the first argument of
 a function /call/ to the
 right.
 ** emacs
-*** modes                                                             :drill:
-    SCHEDULED: <2019-03-31 Sun>
-    :PROPERTIES:
-    :ID:       1bb3c212-2f7f-421f-9862-3618be826c8f
-    :DRILL_LAST_INTERVAL: 133.0989
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:19]
-    :END:
-How are minor modes
-disabled interactively?
-**** Answer:
-Normally by calling the
-minor mode function:
-~M-x some-mode-function-mode~
-because minor mode functions
-should be written to toggle
-the mode if called interactively
-without a prefix argument. 
-Alternatively, call the minor 
-mode function with a negative 
-prefix argument to disable it, 
-with a positive one to enable 
-it.
 *** dired                                                             :drill:
     SCHEDULED: <2018-11-24 Sat>
     :PROPERTIES:
@@ -821,18 +793,44 @@ reappear in a dired window?
 **** Answer:
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
-*** help							      :drill:
-    SCHEDULED: <2018-11-22 Thu>
+*** ess                                                               :drill:
+    SCHEDULED: <2018-11-26 Mon>
     :PROPERTIES:
-    :ID:       476f8fe2-1d65-47d5-a264-1535c569ea9d
-    :DRILL_LAST_INTERVAL: 4.0
+    :ID:       5c29e5fb-166f-4719-b7dc-227e792a87fb
+    :DRILL_LAST_INTERVAL: 3.902
     :DRILL_REPEATS_SINCE_FAIL: 2
     :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:28]
+    :END:
+How to prevent the
+underscore to =<-=
+conversion when using
+R in ess?
+**** Answer:
+Typing underscore
+twice will convert it back.
+Alternatively, run
+=(ess-toggle-S-assign nil)=
+in the scratch pad or .emacs
+or configure
+=ess-smart-S-assign= to use
+something else.
+*** help							      :drill:
+    SCHEDULED: <2018-12-02 Sun>
+    :PROPERTIES:
+    :ID:       476f8fe2-1d65-47d5-a264-1535c569ea9d
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:08]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:18]
     :END:
 How to check if a
 key-sequence is bound
@@ -841,17 +839,17 @@ to a function?
 With
 =f1 k <key-sequence>=.
 *** help							      :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       c610f330-fb43-4e28-846f-b19118ec4fc8
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:17]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:23]
     :END:
 How to find the 
 key-binding for a
@@ -860,6 +858,34 @@ function?
 With the where-is
 feature:
 =f1 w <funcname>=.
+*** modes                                                             :drill:
+    SCHEDULED: <2019-03-31 Sun>
+    :PROPERTIES:
+    :ID:       1bb3c212-2f7f-421f-9862-3618be826c8f
+    :DRILL_LAST_INTERVAL: 133.0989
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:19]
+    :END:
+How are minor modes
+disabled interactively?
+**** Answer:
+Normally by calling the
+minor mode function:
+~M-x some-mode-function-mode~
+because minor mode functions
+should be written to toggle
+the mode if called interactively
+without a prefix argument. 
+Alternatively, call the minor 
+mode function with a negative 
+prefix argument to disable it, 
+with a positive one to enable 
+it.
 *** org-mode                                                          :drill:
     SCHEDULED: <2019-01-17 Thu>
     :PROPERTIES:
@@ -1206,27 +1232,55 @@ The window id is
 merely used to extract
 widgets from the builder.
 ** haskell
-*** Language Extensions                                               :drill:
-    SCHEDULED: <2018-12-14 Fri>
+*** Equivalencies                                                     :drill:
+    SCHEDULED: <2019-01-12 Sat>
     :PROPERTIES:
-    :ID:       ec725448-fcca-4827-87aa-973ed7bf1ae6
-    :DRILL_LAST_INTERVAL: 23.7071
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :ID:       06a650ba-4265-4cb1-81cf-34b6ce73855f
+    :DRILL_LAST_INTERVAL: 54.6176
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:48]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:15]
     :END:
-What does
-~Typename{..}~
-signify?
+Why is packing values
+into a list with
+something like
+=flip (:) [] :: a -> [a]=
+not such a superb idea?
 **** Answer:
-This is a pattern match
-of record ~Typename~ and
-part of language extension
-=RecordWildcards=.
+Because something like
+~pure :: a->[] a~ or
+~return :: a-> [] a~ seems
+more appropriate since
+list are both applicative
+and monads. Called in the
+right context, the type
+annotations aren't even
+necessary.
+*** Equivalencies                                                     :drill:
+    SCHEDULED: <2019-01-10 Thu>
+    :PROPERTIES:
+    :ID:       6cbdd105-1720-4c0d-b90b-f706b4659f05
+    :DRILL_LAST_INTERVAL: 60.5827
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.25
+    :DRILL_EASE: 2.56
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:01]
+    :END:
+Why are lambdas of the 
+sort ~f=\x -> g x~ normally
+not used?
+**** Answer:
+Matter of taste, but
+~f x = g x~ has the same
+effect on the type of
+~f~ and seems shorter.
 *** Graphical UI                                                      :drill:
     SCHEDULED: <2018-12-13 Thu>
     :PROPERTIES:
@@ -1325,67 +1379,39 @@ persistent database where
 compile time like database
 content, as well as the
 types of new widgets.
-*** Equivalencies                                                     :drill:
-    SCHEDULED: <2019-01-12 Sat>
+*** Language Extensions                                               :drill:
+    SCHEDULED: <2018-12-14 Fri>
     :PROPERTIES:
-    :ID:       06a650ba-4265-4cb1-81cf-34b6ce73855f
-    :DRILL_LAST_INTERVAL: 54.6176
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :ID:       ec725448-fcca-4827-87aa-973ed7bf1ae6
+    :DRILL_LAST_INTERVAL: 23.7071
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:15]
-    :END:
-Why is packing values
-into a list with
-something like
-=flip (:) [] :: a -> [a]=
-not such a superb idea?
-**** Answer:
-Because something like
-~pure :: a->[] a~ or
-~return :: a-> [] a~ seems
-more appropriate since
-list are both applicative
-and monads. Called in the
-right context, the type
-annotations aren't even
-necessary.
-*** Equivalencies                                                     :drill:
-    SCHEDULED: <2019-01-10 Thu>
-    :PROPERTIES:
-    :ID:       6cbdd105-1720-4c0d-b90b-f706b4659f05
-    :DRILL_LAST_INTERVAL: 60.5827
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.25
-    :DRILL_EASE: 2.56
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:01]
-    :END:
-Why are lambdas of the 
-sort ~f=\x -> g x~ normally
-not used?
-**** Answer:
-Matter of taste, but
-~f x = g x~ has the same
-effect on the type of
-~f~ and seems shorter.
-*** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-11-22 Thu>
-    :PROPERTIES:
-    :ID:       718f72d5-a181-425a-8adc-c8b3d2dee3f2
-    :DRILL_LAST_INTERVAL: 9.4478
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-13 Tue 18:30]
+    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:48]
+    :END:
+What does
+~Typename{..}~
+signify?
+**** Answer:
+This is a pattern match
+of record ~Typename~ and
+part of language extension
+=RecordWildcards=.
+*** Megaparsec Parsing                                                :drill:
+    SCHEDULED: <2018-12-14 Fri>
+    :PROPERTIES:
+    :ID:       718f72d5-a181-425a-8adc-c8b3d2dee3f2
+    :DRILL_LAST_INTERVAL: 22.4763
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:24]
     :END:
 Why should megaparsec 
 parsers not be built with
@@ -1419,17 +1445,17 @@ desired. Use
 ~parseTest <parser> <stringput>~
 instead.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-17 Mon>
     :PROPERTIES:
     :ID:       4ec40236-383b-4b61-95d5-ce8c7f3a0e7f
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-12 Mon 15:42]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:19]
     :END:
 Why is the description
 of the second argument in
@@ -1443,17 +1469,17 @@ as a description in error messages.
 As such it is more general than
 a source file.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-16 Sun>
     :PROPERTIES:
     :ID:       bc50b4e1-6941-4793-9b94-3d0c4e00a1d3
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-12 Mon 15:41]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:23]
     :END:
 How to define a ~noSpace~ parser
 to disallow spaces between a numeral
@@ -1661,6 +1687,30 @@ for a pattern, eg
 ~s@(x:xs)~ introduces
 the name ~s~ for the
 pattern ~(x:xs)~.
+*** Projects                                                          :drill:
+    SCHEDULED: <2018-11-26 Mon>
+    :PROPERTIES:
+    :ID:       49051250-a767-47b4-b547-48bb1620ae85
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:31]
+    :END:
+What is the /Setup.hs/
+file for in the project
+directory?
+**** Answer:
+This is for package 
+installation done
+with the
+=runhaskell configure=
+=runhaskell build=
+=runhaskell install=
+sequence.
 *** Records                                                           :drill:
     SCHEDULED: <2018-12-08 Sat>
     :PROPERTIES:
@@ -2319,17 +2369,17 @@ unexpected behaviour. In addition, it is
 possible to make a /var/ declaration
 several times with the same variable.
 *** javascript var declaration					      :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2019-10-19 Sat>
     :PROPERTIES:
     :ID:       5fa57496-c309-4ccb-8b53-0f62c54db15f
-    :DRILL_LAST_INTERVAL: 175.2073
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 331.4922
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.111
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:52]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:29]
     :END:
 What needs to be observed when 
 declaring variables?
@@ -2536,17 +2586,17 @@ defines a 2-parameter function which can be
 partially applied:
 =let fctn1=fctn2(value1);=
 *** typescript typing 						      :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-11-26 Mon>
     :PROPERTIES:
     :ID:       450a3901-2083-4209-8264-05ad4cb4dd58
-    :DRILL_LAST_INTERVAL: 3.765
+    :DRILL_LAST_INTERVAL: 3.673
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.572
-    :DRILL_EASE: 2.32
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 3.334
+    :DRILL_EASE: 2.18
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:19]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:34]
     :END:
 What is a union of types?
 **** Answer:
@@ -2814,17 +2864,17 @@ refers to the =this= of the defining context,
 no matter who calls =objname.funcname=.
 ** ubuntu
 *** terminal                                                          :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       08fa9fdc-2ff0-49d5-8bc5-520f485382c0
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:09]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:26]
     :END:
 How to put a unicode
 character into an lxterminal?
@@ -3113,17 +3163,17 @@ the date, either in the filename, ie
 metadata under the ~published:~ 
 field.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       11b1b245-5ec1-484f-b93c-86204fff1d26
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:11]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:28]
     :END:
 What to do if 
 ~mix ecto.create~ comes
@@ -3134,17 +3184,17 @@ The repository may have to
 be created first:
 ~mix ecto.gen.repo -r <name>.Repo~.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       339a8de7-f61f-433c-88a5-4312242c55a6
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:11]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:18]
     :END:
 What is the path of
 an sqlite database
@@ -3157,24 +3207,24 @@ The path in
 is relative to the project
 directory.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       2451beaf-aa9a-4f1b-ad21-2f828c9fe01e
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:06]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:22]
     :END:
 How to use Phoenix
 with sqlite instead of
 postgres or mysql?
 **** Answer:
 After generating the project
-replace all postgres and ecto
+replace all postgres 
 dependencies by
 ={:sqlite_ecto, "~> 1.0.0"},=
 in the =defp deps do=  
@@ -3185,17 +3235,17 @@ to use
 =adapter: Sqlite.Ecto= and
 =database: "<pathtodatabase>.sqlite"=.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       a3ed2c99-c03c-4a34-83b3-7cb2e2d5eaf7
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:18]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:20]
     :END:
 What to do if
 running ~mix deps.get~
@@ -3911,17 +3961,17 @@ tex-installation.
 * Gnosis
 ** Alchemy
 *** hermes                                                            :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2019-01-03 Thu>
     :PROPERTIES:
     :ID:       4c21095d-4073-42f9-a149-ede18945d795
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.8754
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-02 Fri 12:23]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:30]
     :END:
 In which sense conforms
 Condensed Matter Physics
@@ -4217,17 +4267,17 @@ eternal Tao.
 * Language
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-02 Sun>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 8.9244
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 20
+    :DRILL_LAST_INTERVAL: 10.1024
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 21
     :DRILL_FAILURE_COUNT: 7
-    :DRILL_AVERAGE_QUALITY: 2.649
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.666
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-13 Tue 18:30]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:20]
     :END:
 的
 **** Answer:
@@ -5677,17 +5727,17 @@ with values in ~E~ and not just
 in ~ℝ~.
 ** R&D
 *** Matrices                                                          :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       83e90127-e424-468d-8820-f6609ff96765
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:15]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:26]
     :END:
 How to define a
 relation /R(M)/ for 
@@ -5796,17 +5846,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-11-26 Mon>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 43.6702
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.793
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-09 Tue 17:13]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:34]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -5905,17 +5955,17 @@ a fourth and a seventh.
 * Physics
 ** Emergence
 *** Emergent Phenomena                                                :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2019-01-05 Sat>
     :PROPERTIES:
     :ID:       1618c008-22b8-47a6-9ffd-89e253caf008
-    :DRILL_LAST_INTERVAL: 20.3874
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.1591
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-02 Fri 12:18]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:29]
     :END:
 What is the reason for
 an emergent phenomenon?
@@ -5947,17 +5997,17 @@ transitions are transitions
 between configurations causing
 an emergent property.
 *** Emergent Phenomena                                                :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2019-01-05 Sat>
     :PROPERTIES:
     :ID:       70e08799-5d8c-448a-a28e-d699bb8c909d
-    :DRILL_LAST_INTERVAL: 20.3874
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.1591
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-02 Fri 12:24]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:33]
     :END:
 What is an emergent
 phenomenon?
@@ -6480,17 +6530,17 @@ of the Lorentz-group on the space and
 minimal, ie the space of an irreducible
 representation of the Lorentz-group.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       0992cf10-9d6b-420b-98fd-4e3215682379
-    :DRILL_LAST_INTERVAL: 29.2094
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_LAST_INTERVAL: 33.065
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 22
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 3.096
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.092
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-24 Wed 12:51]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:33]
     :END:
 How can particles be classified?
 **** Answer:
@@ -7392,17 +7442,17 @@ The value /D(x)/ describes the amplitude
 for a disturbance of the field to travel
 from the origin to /x/.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2019-01-08 Tue>
     :PROPERTIES:
     :ID:       10cb71f9-2ccc-4e5e-90a7-c8a8a4dcead4
-    :DRILL_LAST_INTERVAL: 41.7751
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 47.2894
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 10:50]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:32]
     :END:
 How is the propagator related to its
 field?
@@ -7820,17 +7870,17 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       d851807b-c2ec-41c5-b3b2-8c93075d73a7
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:16]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:26]
     :END:
 How to configure
 input methods in
@@ -8047,17 +8097,17 @@ the arguments to the input
 field and hit enter to execute
 the whole thing.
 *** dmenu                                                             :drill:
-    SCHEDULED: <2018-11-22 Thu>
+    SCHEDULED: <2019-03-06 Wed>
     :PROPERTIES:
     :ID:       ec6a5d6f-f43c-41ac-9deb-c5b6c9d8f220
-    :DRILL_LAST_INTERVAL: 49.3612
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 104.3002
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-04 Thu 14:33]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:34]
     :END:
 Is it possible to transfer
 file-names from a filemanager
@@ -8217,19 +8267,18 @@ access to /cups/?
 That's an interface name,
 such as ~eth0~ or ~wlan0~.
 *** terminal                                                          :drill:
-    SCHEDULED: <2018-11-21 Wed>
+    SCHEDULED: <2018-12-01 Sat>
     :PROPERTIES:
     :ID:       77fa807f-8907-43f9-b683-673825d0e1ca
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:29]
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:27]
     :END:
-
 How to enter unicode in
 an lxterminal?
 **** Answer:
@@ -8237,6 +8286,18 @@ With =shift ctrl u=
 followed by the codepoint
 in hex.
 *** terminal                                                          :drill:
+    SCHEDULED: <2018-11-26 Mon>
+    :PROPERTIES:
+    :ID:       d8958e2a-bfcd-430f-b532-4b251e37c6f3
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:31]
+    :END:
 What to do if the
 =ctrl shift u= method
 doesn't work to put
