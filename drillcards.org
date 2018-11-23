@@ -1423,17 +1423,17 @@ and ~takeWhile1P~ combinators.
 If possible, these should be
 used first.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-11-23 Fri>
+    SCHEDULED: <2018-12-17 Mon>
     :PROPERTIES:
     :ID:       c0bad81a-fa4c-435a-87b9-158e5ee1228e
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-13 Tue 18:29]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 14:58]
     :END:
 Why is ~parse~ not ideal
 for testing Megaparsec
@@ -1492,17 +1492,17 @@ submodule. Then
 ~signed noSpace <numberParser>~
 will not allow any spaces.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-11-23 Fri>
+    SCHEDULED: <2018-12-19 Wed>
     :PROPERTIES:
     :ID:       4ba27761-77b1-4434-a2e3-daf10b27dd08
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.61
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-13 Tue 18:30]
+    :DRILL_AVERAGE_QUALITY: 4.333
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 14:58]
     :END:
 What is the difference between
 parsing a /decimal/ and an /integer/?
@@ -4283,17 +4283,17 @@ eternal Tao.
 **** Answer:
 possessive, adjectival suffix
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-23 Fri>
+    SCHEDULED: <2018-11-30 Fri>
     :PROPERTIES:
     :ID:       731e55ab-070b-4fd0-846a-69feeae964f8
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 7.2031
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:52]
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 14:56]
     :END:
 我的
 **** Answer:
@@ -4347,21 +4347,22 @@ one, a little
 **** Answers:
 to be; indeed, yes, right; demonstrative pronoun
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-11-23 Fri>
+    SCHEDULED: <2018-11-30 Fri>
     :PROPERTIES:
     :ID:       813e8718-8c89-46fc-bb21-bec2f9401647
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 7.2031
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.715
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.751
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:52]
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 14:58]
     :END:
 不
 **** Answer:
 negative prefix; no, not; un-;
+*** Characters                                                        :drill:
 目 
 **** Answer:
 eye; look, see; division, topic
@@ -5268,6 +5269,163 @@ over covariant derivatives on a manifold?
 **** Answer:
 Covariant derivatives depend on the metric of
 the manifold whereas Lie-type derivatives don't.
+*** Tensors                                                           :drill:
+    SCHEDULED: <2018-11-27 Tue>
+    :PROPERTIES:
+    :ID:       430cf2d5-9fe9-4146-8906-9729b5db6616
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:04]
+    :END:
+Why can tensors always
+be represented in two
+dimensions?
+**** Answer:
+Because there are only
+two types of indices, namely
+upper and lower. These
+can be assigned to columns and 
+rows, respectively, so any 
+tensor can be represented 
+recursively as a 
+combination of rows or 
+columns of rows or
+columns.
+*** Tensors                                                           :drill:
+    SCHEDULED: <2018-11-27 Tue>
+    :PROPERTIES:
+    :ID:       9e2a7e79-2ef5-4bd7-88f4-8f27e0940e60
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 14:59]
+    :END:
+Where does the name
+/contravariant/ for
+coefficients of basis
+vectors come from?
+**** Answer:
+If a vector is to be
+basis independent, its 
+coefficients have to
+/contra-vary/ with a change
+of basis in order to
+compensate for the change
+in basis.
+*** Tensors                                                           :drill:
+    SCHEDULED: <2018-11-27 Tue>
+    :PROPERTIES:
+    :ID:       51379d18-165a-4cc6-b65f-b099ee1f8410
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:00]
+    :END:
+What is the tensor
+/aᵢʲ/ in terms of rows
+and columns?
+**** Answer:
+It is a column vector
+of row vectors, in other
+words a matrix.
+*** Tensors                                                           :drill:
+    SCHEDULED: <2018-11-27 Tue>
+    :PROPERTIES:
+    :ID:       d82607ec-9d03-4bb3-ba8a-5bb87b7c78f2
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:05]
+    :END:
+Why is /(aᵢⱼ)/ not a
+matrix in tensor terms?
+**** Answer:
+Because it is a row vector
+of row vectors and doesn't
+have columns, like a matrix
+would.
+*** Tensors                                                           :drill:
+    SCHEDULED: <2018-11-27 Tue>
+    :PROPERTIES:
+    :ID:       f6f54257-424c-4e8a-a81d-e16ef804ba70
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:00]
+    :END:
+What does /aᵢʲₖ/ describe in
+terms of rows and columns?
+**** Answer:
+It is a row of columns 
+containing rows, in other
+words a row of matrices.
+*** Tensors                                                           :drill:
+    SCHEDULED: <2018-11-27 Tue>
+    :PROPERTIES:
+    :ID:       9464c4fd-3e96-4728-853e-c2cb8829d548
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:05]
+    :END:
+How to describe a column
+of matrices in tensor
+notation?
+**** Answer:
+As /aᵢʲᵏ/.
+*** Tensors                                                           :drill:
+    SCHEDULED: <2018-11-27 Tue>
+    :PROPERTIES:
+    :ID:       3e7b1bfc-50c1-485e-ad8c-9364d6310634
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:04]
+    :END:
+How can tensor indices
+be related to rows and
+columns?
+**** Answer:
+In the usual notation
+with vectors as columns, 
+contravariant vectors
+/(aⁱ)/ correspond to
+column vectors and covariant
+tensors /(aᵢ)/ to rows. The rest
+follows from considering
+higher order tensors as row
+or columns of lower order
+tensors according to the position
+of the last index.
 ** Logic
 *** Linear                                                            :drill:
     SCHEDULED: <2019-03-19 Tue>
@@ -8227,17 +8385,17 @@ upgraded. Run ~apt-get update~
 first to get the newest
 packages from the new system.
 *** package management                                                :drill:
-    SCHEDULED: <2018-11-23 Fri>
+    SCHEDULED: <2018-12-11 Tue>
     :PROPERTIES:
     :ID:       f9f24c11-dce7-4b02-93a7-45bb4c0e945b
-    :DRILL_LAST_INTERVAL: 11.5025
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 18.1624
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:36]
+    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:01]
     :END:
 What to do if ~apt~ indicates
 broken packages?
