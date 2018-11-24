@@ -306,17 +306,17 @@ a computation and the subsequent
 execution of the description.
 ** elixir 
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-04 Tue>
     :PROPERTIES:
     :ID:       ff63e6a6-71ff-4a92-81ca-59b9df263613
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.716
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:57]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:24]
     :END:
 Why would implementing
 a typed language like
@@ -330,17 +330,17 @@ in the Erlang VM in
 favour of type 
 polymorphism.
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       843da46f-cb5e-41eb-b891-141d6051cfac
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:55]
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:17]
     :END:
 What is the main
 reason for the =.()=
@@ -356,19 +356,19 @@ different calling conventions
 for variables referring to
 functions and proper functions.
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       68a77f35-01a7-4e43-8059-565cf9fe5570
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:53]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:26]
     :END:
-Why does the Erlang VM
+Why do Erlang and Elixir
 require different namespaces
 for variables and functions?
 **** Answer:
@@ -407,17 +407,17 @@ square brackets can be
 dropped and =do:...=
 is the result.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       17411eea-ec02-4f93-a8e2-f3ac5c4a3d68
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 10:01]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:10]
     :END:
 In how far do named
 functions behave
@@ -431,17 +431,17 @@ environment. In contrast,
 a =def= introduces a clean
 name scope.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       e7f1857b-c908-4031-aeea-1e2d95d452ea
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 10:02]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:15]
     :END:
 Why is argument permutation
 important in Elixir?
@@ -452,17 +452,17 @@ is sent to the first argument
 of the function call that is
 next in the pipe.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       6bf7c911-9a5c-4986-8fa1-69a7382a7f9a
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 10:00]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:18]
     :END:
 Why is the fudge with
 the =.()= notation for
@@ -478,17 +478,17 @@ functions defined by a capture,
 which needs to sort out the
 =&1, &2,...= etc.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       01525ba3-ec3d-4a5b-a61b-b4d2e1d407b1
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:16]
     :END:
 What's the problem
 with the elixir
@@ -508,17 +508,17 @@ in a run-time error
 about expecting a function
 but getting =4=.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       910326aa-d24f-4a76-a11d-495f4c986f06
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:17]
     :END:
 What's wrong with
 the elixir pipe
@@ -532,17 +532,17 @@ According to /iex/,
 =&(&1 * 2).(1)= is 
 still a function.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       91acb2bf-a498-4293-a90e-abfdf10065c4
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:57]
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:15]
     :END:
 What happens in
 the elixir expression
@@ -553,17 +553,17 @@ to =4= and then complains
 that it can't apply =5=
 to that result.
 *** piping                                                            :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       cabba64b-4d57-4e31-b1d9-6637fe788401
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:56]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:11]
     :END:
 Why is piping actually
 not such a great idea
@@ -579,17 +579,17 @@ lot of bad design decisions,
 such as function capturing 
 and =.()=.
 *** piping                                                            :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       061a7832-7aa3-4360-935c-c4ee33239ca5
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 10:00]
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:12]
     :END:
 How to pipe something into
 the second argument of a
@@ -624,17 +624,17 @@ supervision tree. In addition
 it has a standard set of
 interface functions.
 *** piping                                                            :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-03 Mon>
     :PROPERTIES:
     :ID:       b5c94bd0-24dc-43fb-b267-69391b1b74ee
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:53]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:13]
     :END:
 What is the mechanism
 of piping in elixir?
@@ -645,17 +645,17 @@ a function /call/ to the
 right.
 ** emacs
 *** dired                                                             :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2019-03-14 Thu>
     :PROPERTIES:
     :ID:       96f0638e-83e2-4767-9281-29941dbd7f39
-    :DRILL_LAST_INTERVAL: 50.586
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 109.5693
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-04 Thu 14:41]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:28]
     :END:
 How to copy a file name
 from a dired window to the
@@ -1379,6 +1379,53 @@ persistent database where
 compile time like database
 content, as well as the
 types of new widgets.
+*** Eta-JVM                                                           :drill:
+    SCHEDULED: <2018-11-28 Wed>
+    :PROPERTIES:
+    :ID:       642f8607-14f4-466b-95e7-7c219f8bc85a
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:31]
+    :END:
+How to configure a haskell
+stack project to be compatible 
+with eta?
+**** Answer:
+As of [2018-11-23], eta
+needs ghc-7.10.3, whose
+last lts is 6.35, so
+stack has to be configured
+to use that and all internal
+library dependencies have 
+to be from that lts.
+*** Eta-JVM                                                           :drill:
+    SCHEDULED: <2018-11-28 Wed>
+    :PROPERTIES:
+    :ID:       cde34e59-1e2f-4fbc-8d40-c5547c98a769
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:26]
+    :END:
+How to turn a stack project
+into an /etlas/ project?
+**** Answer:
+Just move the .cabal file
+over and put the sources
+from /app/ and /src/ into the
+/src/ directory of the /etlas/
+project. These projects
+just seem to be regular
+/cabal/ projects.
 *** Language Extensions                                               :drill:
     SCHEDULED: <2018-12-14 Fri>
     :PROPERTIES:
@@ -2905,17 +2952,17 @@ It seems like ~AppImage~
 is the way to go, see
 https://appimage.org/.
 *** user interface                                                    :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2019-01-06 Sun>
     :PROPERTIES:
     :ID:       367911e5-2556-4fab-9e73-6796ddde7398
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.9258
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-04 Sun 12:39]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:27]
     :END:
 How to switch to a terminal
 and back from the graphical 
@@ -4028,17 +4075,17 @@ environment and extends into
 favourable conditions thus 
 causing dispersion.
 *** mercury                                                           :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2019-05-17 Fri>
     :PROPERTIES:
     :ID:       bfb1ad04-e7f7-4cf6-8403-0f96ea1e5c8f
-    :DRILL_LAST_INTERVAL: 92.1935
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 174.4301
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 1.94
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 1.8
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2018-08-24 Fri 08:46]
+:DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:27]
     :END:
 What is the /monkey/ from an alchemistic
 point of view?
@@ -4363,6 +4410,9 @@ to be; indeed, yes, right; demonstrative pronoun
 **** Answer:
 negative prefix; no, not; un-;
 *** Characters                                                        :drill:
+    :PROPERTIES:
+    :ID:       b8d57f8a-79a4-4257-9333-9365db72d541
+    :END:
 目 
 **** Answer:
 eye; look, see; division, topic
@@ -4476,17 +4526,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2019-01-26 Sat>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 40.3117
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 63.4506
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:22]
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:27]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -6880,17 +6930,17 @@ counting particles with the density operator
 will give different results in different
 representations.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-07 Fri>
     :PROPERTIES:
     :ID:       e72964a8-7a57-4802-8c43-b6c739b20b33
-    :DRILL_LAST_INTERVAL: 7.1499
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 13.4847
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_AVERAGE_QUALITY: 3.222
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:15]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:14]
     :END:
 How does the unitary inequivalence of different
 representations on an infinite-particle Hilbert
@@ -8494,17 +8544,17 @@ ubuntu between 16 and 18, where it was
 hard to update this package because the 
 old version couldn't be removed.
 *** xmonad                                                            :drill:
-    SCHEDULED: <2018-11-24 Sat>
+    SCHEDULED: <2018-12-07 Fri>
     :PROPERTIES:
     :ID:       d427d0b3-2784-4a83-bad5-83255d6dc001
-    :DRILL_LAST_INTERVAL: 7.1499
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 13.1558
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:15]
+    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:12]
     :END:
 Where should applications
 be auto-started xsession
