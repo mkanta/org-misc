@@ -967,17 +967,17 @@ a variable with =set= vs =setq=?
 In =setq= there is no attempt to evaluate
 the first argument, it is assumed quoted.
 *** elisp							      :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2019-07-01 Mon>
     :PROPERTIES:
     :ID:       85d6aa60-e332-4b78-8237-f498b08c5748
-    :DRILL_LAST_INTERVAL: 102.2135
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 215.9771
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.444
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-17 Fri 16:07]
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:31]
     :END:
 What is the difference between 
 setting a variable with /set/ vs /let/?
@@ -1734,6 +1734,45 @@ for a pattern, eg
 ~s@(x:xs)~ introduces
 the name ~s~ for the
 pattern ~(x:xs)~.
+*** Persistent Database                                               :drill:
+How to do a /LIKE/
+query with 
+=Database.Persist=?
+**** Answer:
+Implement a Filter
+#+BEGIN_SRC haskell
+Filter Tablename 
+       (Left $ T.concat ["%",value,"%"])
+       (BackendSpecificFilter "like")
+#+END_SRC
+and use it in a =selectList=
+query. For postgres,
+use "ILIKE" instead of "like".
+*** Projects                                                          :drill:
+How to install =H= for
+global access?
+**** Answer:
+Install /inline-r/ with
+=stack install inline-r=,
+put the /inline-r/ as
+dependency into
+=extra-deps= in the
+global /stack.yaml/ and
+=stack install H=. Then
+run =stack exec H= outside
+of a project directory.
+*** Projects                                                          :drill:
+Why does the =H= executable
+in the global path not work?
+**** Answer:
+Because it is a /ghci/-wrapper
+which tries to load modules
+from the /inline-r/ library, which
+would need to be installed with 
+/cabal/. Try to run it as
+=stack exec H=, which should work
+if /inline-r/ is installed in the 
+global /stack/ project.
 *** Projects                                                          :drill:
     SCHEDULED: <2018-12-05 Wed>
     :PROPERTIES:
@@ -5329,17 +5368,17 @@ over covariant derivatives on a manifold?
 Covariant derivatives depend on the metric of
 the manifold whereas Lie-type derivatives don't.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       430cf2d5-9fe9-4146-8906-9729b5db6616
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:04]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:29]
     :END:
 Why can tensors always
 be represented in two
@@ -5356,17 +5395,17 @@ combination of rows or
 columns of rows or
 columns.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       9e2a7e79-2ef5-4bd7-88f4-8f27e0940e60
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 14:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:28]
     :END:
 Where does the name
 /contravariant/ for
@@ -5381,17 +5420,17 @@ of basis in order to
 compensate for the change
 in basis.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       51379d18-165a-4cc6-b65f-b099ee1f8410
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:00]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:25]
     :END:
 What is the tensor
 /aᵢʲ/ in terms of rows
@@ -5401,17 +5440,17 @@ It is a column vector
 of row vectors, in other
 words a matrix.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       d82607ec-9d03-4bb3-ba8a-5bb87b7c78f2
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:05]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:27]
     :END:
 Why is /(aᵢⱼ)/ not a
 matrix in tensor terms?
@@ -5421,17 +5460,17 @@ of row vectors and doesn't
 have columns, like a matrix
 would.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       f6f54257-424c-4e8a-a81d-e16ef804ba70
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:00]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:27]
     :END:
 What does /aᵢʲₖ/ describe in
 terms of rows and columns?
@@ -5440,17 +5479,17 @@ It is a row of columns
 containing rows, in other
 words a row of matrices.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       9464c4fd-3e96-4728-853e-c2cb8829d548
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.4819
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:05]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:28]
     :END:
 How to describe a column
 of matrices in tensor
@@ -5458,17 +5497,17 @@ notation?
 **** Answer:
 As /aᵢʲᵏ/.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       3e7b1bfc-50c1-485e-ad8c-9364d6310634
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:04]
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:31]
     :END:
 How can tensor indices
 be related to rows and
@@ -8012,17 +8051,17 @@ at the end of ~cat~ output.
 Use ~tac~ instead which lists
 files in reverse line-order.
 *** applications                                                      :drill:
-    SCHEDULED: <2018-11-27 Tue>
+    SCHEDULED: <2019-04-20 Sat>
     :PROPERTIES:
     :ID:       ee2f9b28-2cc4-45e9-80bd-e99f0f8bb99b
-    :DRILL_LAST_INTERVAL: 60.75
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 143.9775
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-27 Thu 16:24]
+    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:31]
     :END:
 What is the problem when
 Mnemosyne stops working
