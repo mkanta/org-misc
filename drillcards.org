@@ -1738,6 +1738,31 @@ for a pattern, eg
 ~s@(x:xs)~ introduces
 the name ~s~ for the
 pattern ~(x:xs)~.
+*** Persistent Database						      :drill:
+What is the problem when
+running a query without a
+migration?
+**** Answer:
+This may result in runtime
+errors if the database doesn't
+exist or its schemata have 
+changed from what Haskell
+thinks they should be.
+*** Persistent Database						      :drill:
+Is it possible to do a
+=runSqlite= without a
+migration?
+**** Answer:
+Only if it is given a type:
+#+BEGIN_SRC haskell
+runSqlite' :: (MonadUnliftIO m) => Text 
+    -> ReaderT SqlBackend (NoLoggingT (ResourceT m)) a 
+    -> m a
+runSqlite' = runSqlite
+#+END_SRC
+because the compiler can not
+infer the sql backend type
+without a migration.
 *** Persistent Database                                               :drill:
     SCHEDULED: <2018-12-02 Sun>
     :PROPERTIES:
