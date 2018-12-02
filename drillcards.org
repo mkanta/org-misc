@@ -378,17 +378,17 @@ arity in the Erlang VM, which
 makes Lisp 1 implementations 
 awkward.
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-22 Sat>
     :PROPERTIES:
     :ID:       40bee627-16e1-4bd6-a018-5389091ce1e9
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:24]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:08]
     :END:
 What is the rap on
 the =do:...=
@@ -820,17 +820,17 @@ or configure
 =ess-smart-S-assign= to use
 something else.
 *** help							      :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       476f8fe2-1d65-47d5-a264-1535c569ea9d
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:18]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:40]
     :END:
 How to check if a
 key-sequence is bound
@@ -839,17 +839,17 @@ to a function?
 With
 =f1 k <key-sequence>=.
 *** help							      :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       c610f330-fb43-4e28-846f-b19118ec4fc8
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.5574
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:23]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:06]
     :END:
 How to find the 
 key-binding for a
@@ -1739,6 +1739,18 @@ for a pattern, eg
 the name ~s~ for the
 pattern ~(x:xs)~.
 *** Persistent Database						      :drill:
+    SCHEDULED: <2018-12-05 Wed>
+    :PROPERTIES:
+    :ID:       95bbedc2-6598-4497-a9ab-2d0ef5010141
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:13]
+    :END:
 What is the problem when
 running a query without a
 migration?
@@ -1749,6 +1761,18 @@ exist or its schemata have
 changed from what Haskell
 thinks they should be.
 *** Persistent Database						      :drill:
+    SCHEDULED: <2018-12-05 Wed>
+    :PROPERTIES:
+    :ID:       76b97043-e5b8-466c-9dc8-5ac7ad1adb38
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:14]
+    :END:
 Is it possible to do a
 =runSqlite= without a
 migration?
@@ -1764,17 +1788,17 @@ because the compiler can not
 infer the sql backend type
 without a migration.
 *** Persistent Database                                               :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2018-12-11 Tue>
     :PROPERTIES:
     :ID:       24ce2105-3e0a-4d09-9eab-4fb1a8483583
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-28 Wed 13:04]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:39]
     :END:
 How to do a /LIKE/
 query with 
@@ -1788,19 +1812,21 @@ Filter Tablename
 #+END_SRC
 and use it in a =selectList=
 query. For postgres,
-use "ILIKE" instead of "like".
+use "ILIKE" instead of "like"
+if case insensitive matching
+is desired.
 *** Projects                                                          :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2018-12-12 Wed>
     :PROPERTIES:
     :ID:       5bf75dbb-5154-4d5f-aeca-cbb895a30c51
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-28 Wed 13:06]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:38]
     :END:
 How to install =H= for
 global access?
@@ -1815,17 +1841,17 @@ global /stack.yaml/ and
 run =stack exec H= outside
 of a project directory.
 *** Projects                                                          :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2018-12-11 Tue>
     :PROPERTIES:
     :ID:       e8dc219a-6c86-4af1-84f9-ab36fb540ac6
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2477
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-28 Wed 13:07]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:40]
     :END:
 Why does the =H= executable
 in the global path not work?
@@ -3015,17 +3041,17 @@ refers to the =this= of the defining context,
 no matter who calls =objname.funcname=.
 ** ubuntu
 *** terminal                                                          :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       08fa9fdc-2ff0-49d5-8bc5-520f485382c0
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:26]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:06]
     :END:
 How to put a unicode
 character into an lxterminal?
@@ -3314,17 +3340,17 @@ the date, either in the filename, ie
 metadata under the ~published:~ 
 field.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       11b1b245-5ec1-484f-b93c-86204fff1d26
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:28]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:11]
     :END:
 What to do if 
 ~mix ecto.create~ comes
@@ -3335,17 +3361,17 @@ The repository may have to
 be created first:
 ~mix ecto.gen.repo -r <name>.Repo~.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-22 Sat>
     :PROPERTIES:
     :ID:       339a8de7-f61f-433c-88a5-4312242c55a6
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:18]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:11]
     :END:
 What is the path of
 an sqlite database
@@ -3358,17 +3384,17 @@ The path in
 is relative to the project
 directory.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       2451beaf-aa9a-4f1b-ad21-2f828c9fe01e
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:22]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:05]
     :END:
 How to use Phoenix
 with sqlite instead of
@@ -3386,17 +3412,17 @@ to use
 =adapter: Sqlite.Ecto= and
 =database: "<pathtodatabase>.sqlite"=.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       a3ed2c99-c03c-4a34-83b3-7cb2e2d5eaf7
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:20]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:07]
     :END:
 What to do if
 running ~mix deps.get~
@@ -3955,17 +3981,17 @@ names that mean something to
 a pdf-reader. They are often used
 as keys in a dictionary.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2019-01-12 Sat>
     :PROPERTIES:
     :ID:       da2722e1-acf1-429e-8b49-d78b6258987f
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.8754
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:35]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:13]
     :END:
 Where does text go in a pdf
 file?
@@ -3995,17 +4021,17 @@ It is an instruction that
 determines the text position
 as in =175 720 Td=.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2019-01-13 Sun>
     :PROPERTIES:
     :ID:       fe46303f-18c3-4df4-91f0-d90ccba4b526
-    :DRILL_LAST_INTERVAL: 19.818
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.9258
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:36]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:15]
     :END:
 Why does a pdf-stream always come
 with a dictionary?
@@ -4034,17 +4060,17 @@ That is the alternate field
 name for a form field, the
 name presented to users.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2019-01-26 Sat>
     :PROPERTIES:
     :ID:       04b15be7-3b88-4610-aecc-b04d42b3c9d7
-    :DRILL_LAST_INTERVAL: 22.9582
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.6176
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-09 Fri 12:49]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:42]
     :END:
 How to analyse pdf files on
 the command line?
@@ -4418,17 +4444,17 @@ eternal Tao.
 * Language
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2018-12-16 Sun>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 10.1024
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_LAST_INTERVAL: 13.7999
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 22
     :DRILL_FAILURE_COUNT: 7
-    :DRILL_AVERAGE_QUALITY: 2.666
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.681
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:20]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:43]
     :END:
 的
 **** Answer:
@@ -5844,17 +5870,37 @@ ie with a type argument
 and an argument of that
 type.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-06 Thu>
+    :PROPERTIES:
+    :ID:       85181995-f4ac-4ded-9e96-27da446e58a8
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:42]
+    :END:
+What is the redeeming
+quality of Presburger
+Arithmetic?
+**** Answer:
+It is decidable, even 
+though the proofs may
+be exponentially long.
+*** Logic                                                             :drill:
+    SCHEDULED: <2018-12-05 Wed>
     :PROPERTIES:
     :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 92.1935
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-31 Fri 12:26]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:16]
     :END:
 What is a /combinator/?
 **** Answer:
@@ -6104,17 +6150,17 @@ would model the flow of
 quantities /xₖ/ through
 a graph.
 *** Matrices                                                          :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-22 Sat>
     :PROPERTIES:
     :ID:       83e90127-e424-468d-8820-f6609ff96765
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:10]
     :END:
 How to define a
 relation /R(M)/ for 
@@ -6201,17 +6247,17 @@ notes of the scale. The
 minors only have a minor
 3rd in this place.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       05bb0e28-ac0d-440f-879d-fca38ed44284
-    :DRILL_LAST_INTERVAL: 49.5447
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 104.688
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:19]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:41]
     :END:
 What is the distinctive
 harmonic feature when
@@ -6241,17 +6287,17 @@ of a pentatonic major scale?
 It is 2 2 3 2 3 in terms of
 semi-tones.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       c65b92dc-a49c-4195-a6cc-5416c1096202
-    :DRILL_LAST_INTERVAL: 49.5447
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 104.688
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:23]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:43]
     :END:
 What is the relationship
 of pentatonic modes 3 and 4
@@ -6310,17 +6356,17 @@ minor, ie the A-minor
 pentatonic is the minor
 mode of C major pentatonic.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       b5ae545b-a571-4530-87dc-b66d6260aaaf
-    :DRILL_LAST_INTERVAL: 49.5447
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 104.688
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:20]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:43]
     :END:
 How is a major pentatonic
 scale related to a regular
@@ -7278,17 +7324,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-17 Mon>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 14.0966
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 15.9574
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.882
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:14]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:12]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -7878,17 +7924,17 @@ an electromagnetic field?
 As a charge vector /Jᵐ/ where 
 /J⁰/ represents charge density.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       8f700412-45a2-4037-9c2b-9ccf02706a6d
-    :DRILL_LAST_INTERVAL: 59.4791
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 80.0589
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.091
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 3.083
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:21]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:12]
     :END:
 How do the propagators for the Gordon-Klein
 field differ from those of the electromagnetic
@@ -8093,17 +8139,17 @@ a different resolution. Log
 in and out and the defaults
 should be restored.
 *** applications                                                      :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2019-04-24 Wed>
     :PROPERTIES:
     :ID:       f09ced51-e4e8-4e04-b2ea-90f38304df01
-    :DRILL_LAST_INTERVAL: 59.049
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 143.4891
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-04 Thu 14:34]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:41]
     :END:
 Why is ~cat~ not ideal for
 viewing log-files?
@@ -8184,17 +8230,17 @@ of 100-200MB that needs to
 be formatted as FAT32 and
 preferably on /sda1
 *** booting                                                           :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       ba04ffb7-25cf-4919-9cc8-af00b4acab76
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-21 Sun 19:24]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:41]
     :END:
 How to remove the windows
 entry from the boot-menu
@@ -8209,17 +8255,17 @@ Note that the corresponding entry
 should also be removed from the
 boot-manager using efibootmgr.
 *** boot                                                              :drill:
-    SCHEDULED: <2018-12-02 Sun>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       ad4aee98-d7f0-4352-b05e-c45a14a03ea5
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-21 Sun 19:27]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:44]
     :END:
 How to remove an entry from
 the computer's boot manager?
@@ -8247,17 +8293,17 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       d851807b-c2ec-41c5-b3b2-8c93075d73a7
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:26]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:06]
     :END:
 How to configure
 input methods in
@@ -8518,18 +8564,18 @@ ACL is an abbreviation for
 [specify file access in a more fine-grained 
 way than users and groups].
 *** Fact							      :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-27 Thu>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       515f3873-fe47-4fc3-8889-dacbfa24c71b
-  :DRILL_LAST_INTERVAL: 14.0584
-  :DRILL_REPEATS_SINCE_FAIL: 4
-  :DRILL_TOTAL_REPEATS: 14
+  :DRILL_LAST_INTERVAL: 26.1486
+  :DRILL_REPEATS_SINCE_FAIL: 5
+  :DRILL_TOTAL_REPEATS: 15
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 3.429
+  :DRILL_AVERAGE_QUALITY: 3.467
   :DRILL_EASE: 1.86
   :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:14]
+  :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:11]
   :END:      
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
@@ -8644,17 +8690,17 @@ access to /cups/?
 That's an interface name,
 such as ~eth0~ or ~wlan0~.
 *** terminal                                                          :drill:
-    SCHEDULED: <2018-12-01 Sat>
+    SCHEDULED: <2018-12-22 Sat>
     :PROPERTIES:
     :ID:       77fa807f-8907-43f9-b683-673825d0e1ca
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:05]
     :END:
 How to enter unicode in
 an lxterminal?
