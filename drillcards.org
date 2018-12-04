@@ -306,17 +306,17 @@ a computation and the subsequent
 execution of the description.
 ** elixir 
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       ff63e6a6-71ff-4a92-81ca-59b9df263613
-    :DRILL_LAST_INTERVAL: 9.716
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.2706
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:24]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:09]
     :END:
 Why would implementing
 a typed language like
@@ -330,17 +330,17 @@ in the Erlang VM in
 favour of type 
 polymorphism.
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       843da46f-cb5e-41eb-b891-141d6051cfac
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:17]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:19]
     :END:
 What is the main
 reason for the =.()=
@@ -356,17 +356,17 @@ different calling conventions
 for variables referring to
 functions and proper functions.
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       68a77f35-01a7-4e43-8059-565cf9fe5570
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.5574
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:26]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:22]
     :END:
 Why do Erlang and Elixir
 require different namespaces
@@ -407,17 +407,17 @@ square brackets can be
 dropped and =do:...=
 is the result.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       17411eea-ec02-4f93-a8e2-f3ac5c4a3d68
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:10]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:21]
     :END:
 In how far do named
 functions behave
@@ -431,17 +431,17 @@ environment. In contrast,
 a =def= introduces a clean
 name scope.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       e7f1857b-c908-4031-aeea-1e2d95d452ea
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:15]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:22]
     :END:
 Why is argument permutation
 important in Elixir?
@@ -452,17 +452,17 @@ is sent to the first argument
 of the function call that is
 next in the pipe.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       6bf7c911-9a5c-4986-8fa1-69a7382a7f9a
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:18]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:22]
     :END:
 Why is the fudge with
 the =.()= notation for
@@ -478,17 +478,17 @@ functions defined by a capture,
 which needs to sort out the
 =&1, &2,...= etc.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       01525ba3-ec3d-4a5b-a61b-b4d2e1d407b1
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:16]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:25]
     :END:
 What's the problem
 with the elixir
@@ -498,8 +498,7 @@ expression
 According to /iex/, 
 this is a function of
 arity =1=, but applying
-an anonymous arguments 
-to it as in
+an argument to it as in
 =(&(&1 * 2).(5)).(2)=
 is accepted by the
 compiler but results
@@ -508,17 +507,17 @@ in a run-time error
 about expecting a function
 but getting =4=.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       910326aa-d24f-4a76-a11d-495f4c986f06
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.5574
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:17]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:20]
     :END:
 What's wrong with
 the elixir pipe
@@ -532,17 +531,17 @@ According to /iex/,
 =&(&1 * 2).(1)= is 
 still a function.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       91acb2bf-a498-4293-a90e-abfdf10065c4
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:15]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:23]
     :END:
 What happens in
 the elixir expression
@@ -553,17 +552,17 @@ to =4= and then complains
 that it can't apply =5=
 to that result.
 *** piping                                                            :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       cabba64b-4d57-4e31-b1d9-6637fe788401
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:11]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:22]
     :END:
 Why is piping actually
 not such a great idea
@@ -579,17 +578,17 @@ lot of bad design decisions,
 such as function capturing 
 and =.()=.
 *** piping                                                            :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       061a7832-7aa3-4360-935c-c4ee33239ca5
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:12]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:21]
     :END:
 How to pipe something into
 the second argument of a
@@ -602,17 +601,17 @@ the first argument. So
 =Foo.bar= is called as
 =Foo.bar(arg1,val)=.
 *** processes							      :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       3fb4f52e-25a2-4a2f-bbda-74edb157da01
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:06]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:10]
     :END:
 What is a /GenServer/?
 **** Answer:
@@ -624,17 +623,17 @@ supervision tree. In addition
 it has a standard set of
 interface functions.
 *** piping                                                            :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       b5c94bd0-24dc-43fb-b267-69391b1b74ee
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:13]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:20]
     :END:
 What is the mechanism
 of piping in elixir?
@@ -985,17 +984,17 @@ setting a variable with /set/ vs /let/?
 Variables set with =let varlist body=
 are only visible within /body/.
 *** elisp							      :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2019-09-14 Sat>
     :PROPERTIES:
     :ID:       454a9228-a12f-4b0a-95b8-bdb511d7c400
-    :DRILL_LAST_INTERVAL: 133.4356
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 283.8175
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.18
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.04
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-24 Tue 04:37]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:14]
     :END:
 What is the problem when variables
 in the /varlist/ of a =let= have value
@@ -1205,17 +1204,17 @@ Check if there is
 a trailing newline
 and remove it.
 *** Glade                                                             :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2019-02-21 Thu>
     :PROPERTIES:
     :ID:       81aeee3a-8d0b-4e6b-a777-316f1cc22d42
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-23 Tue 16:24]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:14]
     :END:
 What is the point
 to have a widget
@@ -1563,17 +1562,17 @@ general in that white-space
 is handled in addition to
 the /decimal/.
 *** Mutable References                                                :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-03-06 Wed>
     :PROPERTIES:
     :ID:       9b5be327-b385-4703-bcb1-7088c114c007
-    :DRILL_LAST_INTERVAL: 42.7672
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.6338
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-21 Sun 19:22]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:28]
     :END:
 Is it better to use STRef
 or IORef for mutable
@@ -2144,17 +2143,17 @@ in the indices, remove
 ~--force~ in the project
 directory.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       f2ea2f06-02c2-4b79-82fa-415349c15d66
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.6617
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-23 Tue 16:24]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:13]
     :END:
 What is the best way
 to access documentation
@@ -2217,17 +2216,17 @@ a local hoogle search page via
 which can be accessed at
 http://localhost:8080.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2019-02-21 Thu>
     :PROPERTIES:
     :ID:       d41f5b91-7f65-4a8e-8128-74e742e1b5f4
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-23 Tue 16:20]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:16]
     :END:
 How should tools like ghc-mod,
 hlint, hoogle or intero be
@@ -2288,6 +2287,78 @@ development, such as
 like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
+*** Types                                                             :drill:
+Why is the GADT designation
+a bit of a misnomer?
+**** Answer:
+Because it /generalises/
+union types rather than
+algebraic datatypes.
+*** Types                                                             :drill:
+What is the difference
+between /Algebraic/ and
+/Generalised Algebraic/
+datatypes in terms of
+the sets of their values?
+**** Answer:
+For /Algebraic/ datatypes
+the sets of values are 
+constructed as combinations
+of disjoint unions and
+cartesian products. For
+/Generalised Algebraic/ 
+datatypes, the sets of
+values include fixed
+points of operators on
+sets as well.
+https://cstheory.stackexchange.com/questions/10594/whats-the-difference-between-adts-gadts-and-inductive-types
+*** Types                                                             :drill:
+What is the difference
+of /Algebraic/ and
+/Generalised Algebraic/
+datatypes in terms of
+constructors?
+**** Answer:
+In an /Algebraic/ datatype,
+every constructor for the
+datatype returns a value
+of the same type, ie in
+union types. With 
+/Generalised Algebraic/ types,
+different constructors can
+return values of different
+types.
+*** Types                                                             :drill:
+What is the difference
+between /Algebraic/ and
+/Generalised Algebraic/
+datatypes?
+**** Answer:
+/Generalised Algebraic/ 
+datatypes are obtained
+when type /operators/ are
+defined recursively, ie
+operators F of kind * -> *.
+In contrast, merely algebraic
+datatypes are obtained as
+sums, products and recursively
+defined /types/ but not 
+/type operators/.
+*** Types                                                             :drill:
+What are inductive types?
+**** Answer:
+These are /Generalised Algebraic/
+data-types where the type variables
+can assume not only types but also
+values of the underlying types.
+*** Types                                                             :drill:
+What is the advantage of having
+inductive types over just having
+GADTs?
+**** Answer:
+With inductive types the length
+of lists can become part of the
+type of the list.
 *** Type manipulations                                                :drill:
     SCHEDULED: <2018-12-16 Sun>
     :PROPERTIES:
@@ -2497,17 +2568,17 @@ a function of type ~T~ to
 which arguments of type 
 ~T~ can be applied.
 *** Type Rank                                                         :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-03-03 Sun>
     :PROPERTIES:
     :ID:       8b8d671b-fdbf-4402-87fa-577db5dfd90f
-    :DRILL_LAST_INTERVAL: 42.7672
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 90.3671
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-21 Sun 19:25]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:27]
     :END:
 How does type selection
 for rank 2 typed functions
@@ -2649,17 +2720,17 @@ This means that typescript considers types with
 the same internal structure the same, even though
 they may have different names.
 *** typescript enum						      :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2020-03-11 Wed>
     :PROPERTIES:
     :ID:       06796314-185f-48ae-8c9a-8a35d8d0ef46
-    :DRILL_LAST_INTERVAL: 186.8053
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 463.0903
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.42
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:44]
+    :DRILL_AVERAGE_QUALITY: 4.167
+    :DRILL_EASE: 2.52
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:14]
     :END:
 Why is there no string based enum type?
 **** Answer
@@ -2763,17 +2834,17 @@ defines a 2-parameter function which can be
 partially applied:
 =let fctn1=fctn2(value1);=
 *** typescript typing 						      :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       450a3901-2083-4209-8264-05ad4cb4dd58
-    :DRILL_LAST_INTERVAL: 7.7133
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 16.8767
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.301
-    :DRILL_EASE: 2.04
+    :DRILL_AVERAGE_QUALITY: 3.274
+    :DRILL_EASE: 1.9
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-26 Mon 12:00]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:09]
     :END:
 What is a union of types?
 **** Answer:
@@ -3533,17 +3604,17 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       80d00555-53c8-45bb-97e1-b0f89ae75089
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:03]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:08]
     :END:
 What is a 
 /lightweight/ tag?
@@ -3554,17 +3625,17 @@ to it. Create it with
 =git -tag <version> [commit]=
 with no -a, -m or -s option.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       1911d00c-406f-46b9-96b7-4e5670cdaaff
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:06]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:12]
     :END:
 How to give a commit
 a name?
@@ -3574,17 +3645,17 @@ By tagging it  with
 where the current commit is assumed
 if no commit number is given.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       6b5f1721-7099-4b22-8902-88e9800706ed
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:05]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:11]
     :END:
 What is a tag?
 **** Answer:
@@ -3595,17 +3666,17 @@ it, for example in
 It usually is some kind
 of version name.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       3da77a82-6168-4e08-be79-901c241c0be9
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:07]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:08]
     :END:
 Is it possible to
 check out a particular
@@ -3619,17 +3690,17 @@ made will be lost upon
 leaving (ie another checkout) 
 unless a new branch is created.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       5be67af8-56dd-4691-9a3f-6cf36950a906
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:06]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:07]
     :END:
 How to fetch a
 specific tag from 
@@ -3642,17 +3713,17 @@ for the remote /rrefspec/ in
 which fetches the remote to
 the local /lrefspec/.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       0dfb93d4-cbb9-459c-96d5-3557c429f68d
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:01]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:11]
     :END:
 How to fetch a remote
 tag and put it in a
@@ -3662,17 +3733,17 @@ Use =refs/head/<name>= in
 =git fetch refs/tags/<tagid>:refs/head/<name>=
 to put it in a new branch /name/.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       829023a3-edf5-464e-966f-fc837053311c
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:05]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:10]
     :END:
 What is the problem
 if after a =git pull=
@@ -3813,17 +3884,17 @@ repositories.
 * Documents
 ** Pdf
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-07 Fri>
     :PROPERTIES:
     :ID:       6cd39566-3b13-46f1-be9c-285b21059372
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:34]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:29]
     :END:
 How are indirect objects
 defined?
@@ -3854,17 +3925,17 @@ number =gn= can be refered to
 as =on gn R= with keyword
 =R= denoting a reference.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-01-20 Sun>
     :PROPERTIES:
     :ID:       61d277e3-8cd9-4dbf-9cfb-4da52d398230
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.3358
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:36]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:29]
     :END:
 What does =10 0 obj=
 in a decompressed pdf
@@ -3906,51 +3977,51 @@ represent strings:
   brackets
   <hexstring>
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-01-22 Tue>
     :PROPERTIES:
     :ID:       aed6dfef-2511-47ba-b550-7e31cee29a7c
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.5409
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:33]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:27]
     :END:
 What does =/T= stand for in
 a (decompressed) Pdf-file?
 **** Answer:
 The =xref zero offset=.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-01-20 Sun>
     :PROPERTIES:
     :ID:       8814cc63-2ec7-40cd-9975-c020feb4cad1
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.3358
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:35]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:26]
     :END:
 Where does the value for
 a form field go?
 **** Answer:
 To key =/V= in a dictionary.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-01-28 Mon>
     :PROPERTIES:
     :ID:       8b5c316e-7d92-4e39-bda2-6e3b488ceb23
-    :DRILL_LAST_INTERVAL: 22.9582
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.995
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 11:57]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:28]
     :END:
 What do the double pointy
 brackets =<< .. >>= in a 
@@ -3960,17 +4031,17 @@ They enclose a =dictionary=, which
 is an object type containing 
 a list of key-value pairs.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-01-20 Sun>
     :PROPERTIES:
     :ID:       6e7352bd-360a-4c4d-8a52-4e0ee9765806
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.3358
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:34]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:28]
     :END:
 What are the entities starting
 with =/=, such as =/V=, =/TU=, in a 
@@ -4002,17 +4073,17 @@ markers as prefix argument to a
 =Tj= instruction, as in
 =(Hello World!)Tj=.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-01-22 Tue>
     :PROPERTIES:
     :ID:       b0a9059e-d4b4-4ff2-9aac-388784c2a775
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.5409
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:34]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:28]
     :END:
 What does =Td= between begin and 
 end text markers signify?
@@ -4041,17 +4112,17 @@ least an indication of its
 length, described by a 
 =/Length= mapping in a dictionary.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2019-01-20 Sun>
     :PROPERTIES:
     :ID:       81ce7e36-129e-43ac-8ad5-525b07ed705b
-    :DRILL_LAST_INTERVAL: 22.3157
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.3358
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-11 Sun 20:36]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:26]
     :END:
 What does =/TU= stand for
 in a (decompressed) Pdf-file?
@@ -4508,17 +4579,17 @@ Personal Pronoun first person: I, me, we, us
 **** Answer:
 one, a little
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-07 Fri>
     :PROPERTIES:
     :ID:       8fbf1c2f-dd1a-4f24-9dc7-eab876b9f928
-    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_LAST_INTERVAL: 3.902
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 29
-    :DRILL_FAILURE_COUNT: 12
-    :DRILL_AVERAGE_QUALITY: 2.586
-    :DRILL_EASE: 1.16
+    :DRILL_TOTAL_REPEATS: 31
+    :DRILL_FAILURE_COUNT: 13
+    :DRILL_AVERAGE_QUALITY: 2.58
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-29 Thu 11:33]
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:29]
     :END:
 是
 **** Answers:
@@ -5020,17 +5091,17 @@ variables and with the Heisenberg
 group on them they obtain
 quantum-mechanical meaning.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2019-04-19 Fri>
     :PROPERTIES:
     :ID:       3b67b442-fee1-4123-84f1-d3d18e493b7c
-    :DRILL_LAST_INTERVAL: 57.183
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 135.5237
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.625
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-08 Mon 14:55]
+    :DRILL_AVERAGE_QUALITY: 3.556
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:16]
     :END:
 What is the connection of
 the Heisenberg group to
@@ -5356,17 +5427,17 @@ assigning to each scalar field a field
 of directional derivatives given by the
 directions of the vectors in the vector field. 
 *** Differential						      :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2019-01-05 Sat>
     :PROPERTIES:
     :ID:       f34ab62f-12a9-4edb-a4fb-2500c8359cee
-    :DRILL_LAST_INTERVAL: 19.6383
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 31.7944
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:57]
+    :DRILL_AVERAGE_QUALITY: 3.182
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:17]
     :END:
 What is the problem when trying to define a 
 derivative of vector fields on a manifold?
@@ -5377,7 +5448,7 @@ involved are not in the same tangent space.
 Using coordinate-wise differences doesn't 
 help because it makes the
 result dependent on the choice of 
-coordimate system.
+coordinate system.
 *** Differential						      :drill:
     SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
@@ -5783,6 +5854,24 @@ prove /A,B ⊦ A/ in linear logic?
 Since this means /A⊗B⊦A/, this 
 would lead to /⊦A⊗B⊸A/ which is
 known not to hold.
+*** Linear Logic                                                      :drill:
+    SCHEDULED: <2019-02-16 Sat>
+    :PROPERTIES:
+    :ID:       1c0e49f3-9259-454f-bc57-070b37fe7c99
+    :DRILL_LAST_INTERVAL: 146.529
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:24]
+    :END:
+How is a proof of sequent
+/A₁,…,Aₙ⊦A/ of linear logic 
+translated to a combinator?
+**** Answer:
+As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
     SCHEDULED: <2019-02-28 Thu>
     :PROPERTIES:
@@ -5807,24 +5896,43 @@ and may not even be available in
 a given logic. For example, in
 linear logic /A ⊢ B/ means 
 /⊢ A ⊸ B/, there is no /→/.
-*** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-02-16 Sat>
+*** Logic                                                             :drill:
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
-    :ID:       1c0e49f3-9259-454f-bc57-070b37fe7c99
-    :DRILL_LAST_INTERVAL: 146.529
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :ID:       85181995-f4ac-4ded-9e96-27da446e58a8
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:24]
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:42]
     :END:
-How is a proof of sequent
-/A₁,…,Aₙ⊦A/ of linear logic 
-translated to a combinator?
+What is the redeeming
+quality of Presburger
+Arithmetic?
 **** Answer:
-As /φ:A₁⊗…⊗Aₙ→A/.
+It is decidable, even 
+though the proofs may
+be exponentially long.
+*** Logic                                                             :drill:
+    SCHEDULED: <2018-12-05 Wed>
+    :PROPERTIES:
+    :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:16]
+    :END:
+What is a /combinator/?
+**** Answer:
+A name /φ:A→B/ for a proof of
+sequent /A⊦B/.
 *** System F                                                          :drill:
     SCHEDULED: <2018-12-19 Wed>
     :PROPERTIES:
@@ -5869,43 +5977,6 @@ As, for example
 ie with a type argument
 and an argument of that
 type.
-*** Logic                                                             :drill:
-    SCHEDULED: <2018-12-06 Thu>
-    :PROPERTIES:
-    :ID:       85181995-f4ac-4ded-9e96-27da446e58a8
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:42]
-    :END:
-What is the redeeming
-quality of Presburger
-Arithmetic?
-**** Answer:
-It is decidable, even 
-though the proofs may
-be exponentially long.
-*** Logic                                                             :drill:
-    SCHEDULED: <2018-12-05 Wed>
-    :PROPERTIES:
-    :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:16]
-    :END:
-What is a /combinator/?
-**** Answer:
-A name /φ:A→B/ for a proof of
-sequent /A⊦B/.
 ** Probability
 *** Processes                                                         :drill:
     SCHEDULED: <2018-12-06 Thu>
@@ -6173,6 +6244,16 @@ which is interpretable as
 preimage relation because
 for a permutation matrix
 /xⱼᵢ=1/ means that /xᵢ↦xⱼ/.
+*** Tensors                                                           :drill:
+How to use tensors
+as algebraic types?
+**** Answer:
+Represent record types
+as rows and union types
+as columns. This allows
+to represent finite
+algebraic datatypes in
+tensor notation.
 *** Matrices                                                          :drill:
     SCHEDULED: <2018-12-15 Sat>
     :PROPERTIES:
@@ -6269,17 +6350,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2018-12-03 Mon>
+    SCHEDULED: <2018-12-17 Mon>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 7.1764
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 13.5347
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.125
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-26 Mon 11:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:20]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -6751,17 +6832,17 @@ than superpositions of an
 infinite number of particle
 states /|n⟩, n∈ℕ/.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2019-01-04 Fri>
     :PROPERTIES:
     :ID:       75275769-f6c1-418c-a88d-11fbdc18bf9e
-    :DRILL_LAST_INTERVAL: 23.9382
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 31.0957
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.9
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 2.909
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:02]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:15]
     :END:
 What does the coherent state
 /|α⟩/ look like?
@@ -7826,17 +7907,17 @@ also called the action. In addition, for
 /ℏ → 0/ the classical path
 is obtained.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-12-04 Tue>
+    SCHEDULED: <2018-12-22 Sat>
     :PROPERTIES:
     :ID:       5e8df1a4-a546-4dd1-90b0-c290a98bcd6e
-    :DRILL_LAST_INTERVAL: 16.3362
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 25
+    :DRILL_LAST_INTERVAL: 18.4926
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 26
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.841
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.847
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:17]
+    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:15]
     :END:
 How does the propagator arise?
 **** Answer:
