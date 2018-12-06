@@ -1912,17 +1912,17 @@ defined. Define an
 of that type-class and use
 it.
 *** Records                                                           :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-04-02 Tue>
     :PROPERTIES:
     :ID:       e3d0bdac-2ae6-41b4-9e79-8a1afc750123
-    :DRILL_LAST_INTERVAL: 54.2273
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 117.4563
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:20]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 13:01]
     :END:
 How to use the default of
 a record type that is an
@@ -2168,17 +2168,17 @@ local documentation and run
 which will open it in
 a web-browser.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-03-11 Mon>
     :PROPERTIES:
     :ID:       50a3cb7d-d17d-4fa7-8ce3-08f77f224700
-    :DRILL_LAST_INTERVAL: 43.996
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 95.2953
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-23 Tue 16:21]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:54]
     :END:
 Why is the ~--haddock~
 flag not recommended
@@ -2287,6 +2287,200 @@ development, such as
 like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       e95c7998-d3a3-4471-bdfe-77028d9a709a
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:54]
+    :END:
+What is the 
+=LambdaCase= extension
+in Haskell?
+**** Answer:
+Syntactic sugar that
+allows to write
+#+BEGIN_SRC haskell
+\case
+   First -> ...
+   Second -> ...
+#+END_SRC
+instead of 
+=\x -> case x of ...=.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       a2c85833-6883-45cc-9ce4-0a495fb9b074
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 13:00]
+    :END:
+What is a /singleton/
+in Haskell?
+**** Answer:
+A type with exactly one 
+inhabitant, usually a
+parametrized type with
+a type with one inhabitant
+for each parameter value.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       86001f28-5ea1-40d2-ac0a-c6c53f29a587
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:56]
+    :END:
+What is the point of
+getting a /kind/ in addition
+to a /type/ in a declaration like
+=data DoorState = Open|Closed|Locked=?
+**** Answer:
+It is now possible to restrict
+type variables to be of kind
+=DoorState= as in
+~Door (s::DoorState) = MkDoor ...~
+where (phantom) type =s= now
+only can assume values
+='Open=, ='Closed= and ='Locked=.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       343b73ab-a01b-4662-a953-7b0d00c12833
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 13:00]
+    :END:
+How to obtain a singleton door state
+from
+=data DoorState = Open|Closed|Locked=?
+**** Answer:
+Using the =DataKinds= extension, it
+is possible to write
+#+BEGIN_SRC haskell
+data SingDS::DoorState->* where
+   SOpen::SingDS 'Open
+   SClosed :: SingDS 'Closed
+   SLocked :: SingDS 'Locked
+
+#+END_SRC
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       2fd5a316-b8ab-4334-90eb-2ea74835d0ce
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 13:02]
+    :END:
+What is the effect of
+the Haskell =DataKinds=
+extension on a definition
+like
+~data DoorState = Open | Closed | Locked~?
+**** Answer:
+In addition to a /type/ =DoorState=,
+there is now also a /kind/ =DoorState=
+with type constructors ='Open=,
+='Closed= and ='Locked=.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       26f439b1-8084-41d0-b7f1-7489d979269e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:58]
+    :END:
+Why does the
+=ScopedTypeVariables=
+extension become a necessity
+when using /Type Literals/?
+**** Answer:
+Because the value of a type
+literal is often needed in
+a function, which can be
+obtained from the type
+variable, but only if it
+is in scope.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       55571d9e-d579-4afe-a8a0-780c28bc02ca
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:57]
+    :END:
+What is the effect of the
+=ScopedTypeVariables=
+extension in Haskell?
+**** Answer:
+Free type variables can
+be reused in the scope of 
+a function, for example
+to type subexpressions in
+a =where= clause.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-10 Mon>
+    :PROPERTIES:
+    :ID:       c80ade29-4f7a-4a1a-aacb-3bc0d1802403
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:53]
+    :END:
+How to check if a
+type-level natural number
+is positive with the
+GHC.TypeLits library?
+**** Answer:
+With a constraint of the 
+form
+#+BEGIN_SRC haskell
+(KnownNat n, CmpNat n 0 ~ GT) => 
+ List n a...
+#+END_SRC
+which would make sure that
+the list argument is not
+empty.
 *** Types                                                             :drill:
     SCHEDULED: <2018-12-09 Sun>
     :PROPERTIES:
@@ -4701,17 +4895,17 @@ eye; look, see; division, topic
 * Mathematics
 ** Algebra
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-01-17 Thu>
     :PROPERTIES:
     :ID:       b46a3f0a-f3d1-4722-a424-9ed5672a520e
-    :DRILL_LAST_INTERVAL: 19.8915
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.0307
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-16 Fri 15:01]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 13:02]
     :END:
 What distinguishes natural
 from unnatural transformations
@@ -5602,17 +5796,17 @@ over covariant derivatives on a manifold?
 Covariant derivatives depend on the metric of
 the manifold whereas Lie-type derivatives don't.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       430cf2d5-9fe9-4146-8906-9729b5db6616
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:29]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:50]
     :END:
 Why can tensors always
 be represented in two
@@ -5629,17 +5823,17 @@ combination of rows or
 columns of rows or
 columns.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       9e2a7e79-2ef5-4bd7-88f4-8f27e0940e60
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:28]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:46]
     :END:
 Where does the name
 /contravariant/ for
@@ -5654,17 +5848,17 @@ of basis in order to
 compensate for the change
 in basis.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       51379d18-165a-4cc6-b65f-b099ee1f8410
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:25]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:48]
     :END:
 What is the tensor
 /aᵢʲ/ in terms of rows
@@ -5674,17 +5868,17 @@ It is a column vector
 of row vectors, in other
 words a matrix.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       d82607ec-9d03-4bb3-ba8a-5bb87b7c78f2
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:27]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:46]
     :END:
 Why is /(aᵢⱼ)/ not a
 matrix in tensor terms?
@@ -5694,17 +5888,17 @@ of row vectors and doesn't
 have columns, like a matrix
 would.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       f6f54257-424c-4e8a-a81d-e16ef804ba70
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:27]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:47]
     :END:
 What does /aᵢʲₖ/ describe in
 terms of rows and columns?
@@ -5713,17 +5907,17 @@ It is a row of columns
 containing rows, in other
 words a row of matrices.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       9464c4fd-3e96-4728-853e-c2cb8829d548
-    :DRILL_LAST_INTERVAL: 9.4819
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 23.1264
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:28]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:49]
     :END:
 How to describe a column
 of matrices in tensor
@@ -5731,17 +5925,17 @@ notation?
 **** Answer:
 As /aᵢʲᵏ/.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       3e7b1bfc-50c1-485e-ad8c-9364d6310634
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.5299
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-27 Tue 11:31]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:48]
     :END:
 How can tensor indices
 be related to rows and
@@ -5969,17 +6163,17 @@ a given logic. For example, in
 linear logic /A ⊢ B/ means 
 /⊢ A ⊸ B/, there is no /→/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2018-12-16 Sun>
     :PROPERTIES:
     :ID:       85181995-f4ac-4ded-9e96-27da446e58a8
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:42]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:45]
     :END:
 What is the redeeming
 quality of Presburger
@@ -6051,17 +6245,17 @@ and an argument of that
 type.
 ** Probability
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       6d3c54b4-eb0c-4b06-8f0f-ff0add0f1c58
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:40]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 13:00]
     :END:
 What are the functions of
 ~μ, ν~ in a Hawkes process
@@ -6096,17 +6290,17 @@ expressable as
 ~λ(t)=μ(t)+∫ᵗν(t-s)dNₛ~
 with ~ν:ℝ⁺→ℝ⁺~.
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       908b6ef8-55b8-430c-8fcd-17e59d4c5bf4
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:40]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:56]
     :END:
 What is the /intensity/ of
 a point-process?
@@ -6121,17 +6315,17 @@ on ~ℝᵈ~. The factor ~λ~ is called
 the intensity of the point
 process.
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       7770e41f-2ba1-41de-9484-992ed962726c
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:38]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:55]
     :END:
 What is the σ-Algebra on
 the set of counting measures
@@ -6144,17 +6338,17 @@ on ~N~ for which all
 ~B~ a Borel set of the under-
 lying space become measurable.
 *** Processes                                                         :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       d85e0e70-e2b5-4949-a398-bd2124cebe16
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.666
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:41]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:53]
     :END:
 What is a point process?
 **** Answer:
@@ -6212,17 +6406,17 @@ dependency on previous events
 and causes a nonlocality in
 time.
 *** Random Fields                                                     :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-02-25 Mon>
     :PROPERTIES:
     :ID:       b7d9a6a9-b043-47a3-b80d-0c7ec17db8fa
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.6617
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:38]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:51]
     :END:
  What is a /random element/?
 **** Answer:
@@ -7443,17 +7637,17 @@ two components representing spin-up
 and spin-down states thus leading to
 four components overall.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-12-06 Thu>
+    SCHEDULED: <2019-04-24 Wed>
     :PROPERTIES:
     :ID:       ae00a4b7-5242-41c6-8510-4e4b468795bb
-    :DRILL_LAST_INTERVAL: 75.0364
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 138.5172
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:26]
+    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 13:03]
     :END:
 What does the Dirac spinor have to
 do with the Dirac equation?
