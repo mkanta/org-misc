@@ -1450,6 +1450,13 @@ Yes, in the first case names from
 =ModuleName= are available both as
 =name= and =MN.name=, in the second case
 only =MN.name= would be in scope.
+*** Libraries                                                         :drill:
+What to use for
+differentiation
+in Haskell?
+**** Answer:
+Library =ad= from
+http://hackage.haskell.org/package/ad.
 *** Language Extensions                                               :drill:
     SCHEDULED: <2018-12-14 Fri>
     :PROPERTIES:
@@ -1808,17 +1815,17 @@ because the compiler can not
 infer the sql backend type
 without a migration.
 *** Persistent Database                                               :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2018-12-31 Mon>
     :PROPERTIES:
     :ID:       24ce2105-3e0a-4d09-9eab-4fb1a8483583
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:39]
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:41]
     :END:
 How to do a /LIKE/
 query with 
@@ -1861,17 +1868,17 @@ global /stack.yaml/ and
 run =stack exec H= outside
 of a project directory.
 *** Projects                                                          :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2018-12-31 Mon>
     :PROPERTIES:
     :ID:       e8dc219a-6c86-4af1-84f9-ab36fb540ac6
-    :DRILL_LAST_INTERVAL: 9.2477
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:40]
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:43]
     :END:
 Why does the =H= executable
 in the global path not work?
@@ -2309,17 +2316,29 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-11 Tue>
+What does it mean to
+say that an existential
+datatype is the collection
+of its observations?
+**** Answer:
+Observations are the access 
+functions provided by the
+constraints. For example
+=Integral= provides observation
+=toInteger= whereas =Num= provides
+no observations at all.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       7334cd5b-a50d-4ac4-95d2-1b8068923185
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-07 Fri 13:08]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:43]
     :END:
 Why is =a -> b= not always
 the same as
@@ -2669,17 +2688,17 @@ With inductive types the length
 of lists can become part of the
 type of the list.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       4a184073-3ba7-4da3-abe5-112634907061
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-07 Fri 13:06]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:41]
     :END:
 How to evaluate type
 level functions for
@@ -2688,17 +2707,17 @@ experimenting?
 In /ghci/ with 
 =kind! <expression>=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       792dbc9f-2036-493e-82d6-b592d8aeff09
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-07 Fri 12:58]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:40]
     :END:
 How to define a type
 level =IF=?
@@ -2713,17 +2732,17 @@ Note that this requires
 extensions =DataKinds=
 and =TypeLevels=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2018-12-20 Thu>
     :PROPERTIES:
     :ID:       387eef7a-4728-4b2f-8f58-d5bed992c965
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-07 Fri 13:06]
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:42]
     :END:
 How to define type
 level functions?
@@ -5055,17 +5074,17 @@ Personal Pronoun first person: I, me, we, us
 **** Answer:
 one, a little
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2018-12-15 Sat>
     :PROPERTIES:
     :ID:       8fbf1c2f-dd1a-4f24-9dc7-eab876b9f928
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 33
+    :DRILL_LAST_INTERVAL: 4.3084
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 34
     :DRILL_FAILURE_COUNT: 14
-    :DRILL_AVERAGE_QUALITY: 2.575
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.588
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-07 Fri 13:08]
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:38]
     :END:
 是
 **** Answers:
@@ -5133,17 +5152,17 @@ there are morphisms where
 this commutativity with
 /η(X), η(Y)/ is violated.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2019-02-07 Thu>
     :PROPERTIES:
     :ID:       a87e7b23-ac56-4703-a3cc-8236a806bbee
-    :DRILL_LAST_INTERVAL: 24.39
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 58.0238
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:28]
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:44]
     :END:
 What is a transformation
 between functors 
@@ -5628,17 +5647,17 @@ p-adic?
 By forming the sequence /(aₙ)/ as 
 /aₙ≡m mod pⁿ/.
 *** p-adic numbers						      :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2020-06-06 Sat>
     :PROPERTIES:
     :ID:       7a74d5b4-5299-46ad-a4d4-015704c152d0
-    :DRILL_LAST_INTERVAL: 193.956
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 543.0768
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.6
+    :DRILL_AVERAGE_QUALITY: 4.5
     :DRILL_EASE: 2.8
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:51]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:44]
     :END:
 How are the ring operations defined on the 
 /p/-adic integers?
@@ -6747,28 +6766,6 @@ which is interpretable as
 preimage relation because
 for a permutation matrix
 /xⱼᵢ=1/ means that /xᵢ↦xⱼ/.
-*** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-19 Wed>
-    :PROPERTIES:
-    :ID:       bbb37512-6d33-44d1-a020-e72bc54d0859
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:26]
-    :END:
-How to use tensors
-as algebraic types?
-**** Answer:
-Represent record types
-as rows and union types
-as columns. This allows
-to represent finite
-algebraic datatypes in
-tensor notation.
 *** Matrices                                                          :drill:
     SCHEDULED: <2018-12-15 Sat>
     :PROPERTIES:
@@ -6798,6 +6795,28 @@ preimages of /n/.
 Also compare to the interpretation
 of 0-1 matrices as paths connecting
 nodes.
+*** Tensors                                                           :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       bbb37512-6d33-44d1-a020-e72bc54d0859
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:26]
+    :END:
+How to use tensors
+as algebraic types?
+**** Answer:
+Represent record types
+as rows and union types
+as columns. This allows
+to represent finite
+algebraic datatypes in
+tensor notation.
 * Music
 ** Scales
 *** Blues                                                             :drill:
@@ -7038,6 +7057,89 @@ consequence of the
 agglomeration rather
 than inherent in the
 subunits.
+** Mechanics
+*** Hamiltonians                                                       :drill:
+What is the geometrical
+intuition behind the 
+Hamiltonian in classical
+mechanics?
+**** Answer:
+Since /H:ℝ²ⁿ → ℝ/, it
+describes a mountain
+on /ℝ²ⁿ/ and the possible
+paths allowed by /H/ in
+/ℝ²ⁿ/ are the projections
+of the contour lines of 
+that mountain onto /ℝ²ⁿ/.
+*** Hamiltonians                                                       :drill:
+What is the general 
+procedure to work with
+Hamiltonian mechanics?
+**** Answer:
+Parametrize positions
+/x₁(θ₁,…,θₖ),…,xₙ(θ₁,…,θₖ)/
+by some /generalized/ position
+coordinates /θ₁,…,θₖ/ suitable
+for the problem at hand. Find
+a suitable Hamiltonian /H/ for
+the system and calculate the 
+conjugate momenta /τ₁,…,τₖ/ and
+the Hamiltonian in the /θᵢ, τᵢ/
+will yield the paths as contour-
+lines of the Hamiltonian.
+*** Hamiltonians                                                      :drill:
+What is the conjugate momentum
+to the angle /θ/ in polar coordinates?
+**** Answer:
+Angular momentum /L=mr²θ̇̇/.
+*** Hamiltonians                                                      :drill:
+How do the equations
+/ṗ=-∂ᵣH(p,r), q̇=∂ₚH(p,r)/
+for the contours for a
+2-dimensional Hamiltonian
+follow from the mountain
+picture?
+**** Answer:
+The gradient of /H/ is
+/∇H=(∂ₚH(p,r),∂ᵣH(p,r))/
+which is the direction
+of steepest descent. Contour
+lines are perpendicular to
+that, so /(-∂ᵣH(p,r),∂ₚH(p,r)/)
+must coincide with the tangent
+vectors (ṗ,q̇).
+*** Hamiltonians                                                      :drill:
+What is the difficulty
+in using Hamiltonians?
+**** Answer: 
+Finding the Hamiltonian
+and the proper conjugate
+momenta. If the system
+has a Langrangian then
+the Hamiltonian is its 
+Poisson bracket.
+*** Hamiltonians                                                      :drill:
+Can the Hamiltonian
+of a system always be
+interpreted as total
+(mechanical) energy?
+**** Answer:
+Only if the system has
+a Lagrangian and its
+Hamiltonian is the 
+Poisson bracket of it.
+** R&D
+*** Hamiltonians                                                      :drill:
+In which sense can the
+contours of a Hamiltonian
+be considered eigenstates?
+**** Answer:
+On the contours, the value
+of the Hamiltonian stays
+constant. So if the Hamiltonian 
+operator were operating
+on paths to measure a value,
+the contours would be eigenstates.
 ** Relativity
 *** Lorentz                                                           :drill:
     SCHEDULED: <2018-12-19 Wed>
@@ -8327,17 +8429,17 @@ the electromagnetic and weak
 force but are not subject to
 the strong force.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2018-12-18 Tue>
     :PROPERTIES:
     :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 7.2031
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.1
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.091
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-07 Fri 13:08]
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:43]
     :END:
 Why can a neutral particle
 like the neutrino have an 
@@ -9246,17 +9348,17 @@ upgraded. Run ~apt-get update~
 first to get the newest
 packages from the new system.
 *** package management                                                :drill:
-    SCHEDULED: <2018-12-11 Tue>
+    SCHEDULED: <2019-01-04 Fri>
     :PROPERTIES:
     :ID:       f9f24c11-dce7-4b02-93a7-45bb4c0e945b
-    :DRILL_LAST_INTERVAL: 18.1624
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 24.4466
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.9
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 15:01]
+    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:45]
     :END:
 What to do if ~apt~ indicates
 broken packages?
