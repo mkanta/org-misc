@@ -792,161 +792,6 @@ reappear in a dired window?
 **** Answer:
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
-*** ess                                                               :drill:
-    SCHEDULED: <2018-12-25 Tue>
-    :PROPERTIES:
-    :ID:       5c29e5fb-166f-4719-b7dc-227e792a87fb
-    :DRILL_LAST_INTERVAL: 20.0305
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-05 Wed 12:53]
-    :END:
-How to prevent the
-underscore to =<-=
-conversion when using
-R in ess?
-**** Answer:
-Typing underscore
-twice will convert it back.
-Alternatively, run
-=(ess-toggle-S-assign nil)=
-in the scratch pad or .emacs
-or configure
-=ess-smart-S-assign= to use
-something else.
-*** help							      :drill:
-    SCHEDULED: <2018-12-27 Thu>
-    :PROPERTIES:
-    :ID:       476f8fe2-1d65-47d5-a264-1535c569ea9d
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:40]
-    :END:
-How to check if a
-key-sequence is bound
-to a function?
-**** Answer:
-With
-=f1 k <key-sequence>=.
-*** help							      :drill:
-    SCHEDULED: <2018-12-24 Mon>
-    :PROPERTIES:
-    :ID:       c610f330-fb43-4e28-846f-b19118ec4fc8
-    :DRILL_LAST_INTERVAL: 22.5574
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:06]
-    :END:
-How to find the 
-key-binding for a
-function?
-**** Answer:
-With the where-is
-feature:
-=f1 w <funcname>=.
-*** modes                                                             :drill:
-    SCHEDULED: <2019-03-31 Sun>
-    :PROPERTIES:
-    :ID:       1bb3c212-2f7f-421f-9862-3618be826c8f
-    :DRILL_LAST_INTERVAL: 133.0989
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:19]
-    :END:
-How are minor modes
-disabled interactively?
-**** Answer:
-Normally by calling the
-minor mode function:
-~M-x some-mode-function-mode~
-because minor mode functions
-should be written to toggle
-the mode if called interactively
-without a prefix argument. 
-Alternatively, call the minor 
-mode function with a negative 
-prefix argument to disable it, 
-with a positive one to enable 
-it.
-*** org-mode                                                          :drill:
-    SCHEDULED: <2019-01-17 Thu>
-    :PROPERTIES:
-    :ID:       c91ef50b-eb39-46f5-bb7e-f5964fe104ec
-    :DRILL_LAST_INTERVAL: 60.975
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:29]
-    :END:
-How to escape slashes
-and tildes when writing
-file-paths?
-**** Answer:
-Put them in a =verbatim=
-environment delimited
-by =.
-*** org-mode							      :drill:
-    SCHEDULED: <2019-01-16 Wed>
-    :PROPERTIES:
-    :ID:       9a994bce-9e78-4b2e-8946-bbf23a422aab
-    :DRILL_LAST_INTERVAL: 48.7373
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 25
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 3.199
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-28 Wed 13:07]
-    :END:
-How to edit a source block?
-**** Answer
-Start a temporary buffer
-in the native mode of the language with
-ctrl-c ', edit and return to the org buffer
-with ctrl-c '.
-*** org-mode							      :drill:
-    SCHEDULED: <2018-12-14 Fri>
-    :PROPERTIES:
-    :ID:       82776f42-ac4c-47ac-b03c-6cb5b1aca29e
-    :DRILL_LAST_INTERVAL: 45.7125
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.04
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-29 Mon 14:54]
-    :END:
-How to insert a source block?
-**** Answer:
-Type *<s+TAB*, on a line by itself.
-This will insert an empty source code 
-block
-#+BEGIN_EXAMPLE
-#+BEGIN_SRC js
-
-#+END_SRC
-#+END_EXAMPLE
 *** elisp							      :drill:
     SCHEDULED: <2019-04-28 Sun>
     :PROPERTIES:
@@ -1048,28 +893,71 @@ results in a lisp error: /wrong-type-argument
 listp argname/?
 **** Answer:
 The last argument of =apply= must be a list.
-*** maxima and emacs                                                  :drill:
-    SCHEDULED: <2019-03-04 Mon>
+*** ess                                                               :drill:
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
-    :ID:       b157fc2f-31fa-4511-a941-1d831df508d7
-    :DRILL_LAST_INTERVAL: 142.4286
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :ID:       5c29e5fb-166f-4719-b7dc-227e792a87fb
+    :DRILL_LAST_INTERVAL: 20.0305
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-05 Wed 12:53]
+    :END:
+How to prevent the
+underscore to =<-=
+conversion when using
+R in ess?
+**** Answer:
+Typing underscore
+twice will convert it back.
+Alternatively, run
+=(ess-toggle-S-assign nil)=
+in the scratch pad or .emacs
+or configure
+=ess-smart-S-assign= to use
+something else.
+*** help							      :drill:
+    SCHEDULED: <2018-12-27 Thu>
+    :PROPERTIES:
+    :ID:       476f8fe2-1d65-47d5-a264-1535c569ea9d
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:40]
+    :END:
+How to check if a
+key-sequence is bound
+to a function?
+**** Answer:
+With
+=f1 k <key-sequence>=.
+*** help							      :drill:
+    SCHEDULED: <2018-12-24 Mon>
+    :PROPERTIES:
+    :ID:       c610f330-fb43-4e28-846f-b19118ec4fc8
+    :DRILL_LAST_INTERVAL: 22.5574
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:17]
+    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:06]
     :END:
-How to interact from a
-file buffer with Maxima?
+How to find the 
+key-binding for a
+function?
 **** Answer:
-In the simplest case by
-enabling maxima minor mode
-with /M-x maxima-minor-mode/
-and then using the /C-c = .../
-shortcuts to communicate with
-the Maxima process.
+With the where-is
+feature:
+=f1 w <funcname>=.
 *** maxima and emacs                                                  :drill:
     SCHEDULED: <2019-03-27 Wed>
     :PROPERTIES:
@@ -1112,6 +1000,147 @@ With /M-x maxima-insert-last-output-tex/
 from the recipient buffer or with one
 of the functions from the In/Out menu
 in the maxima buffer itself.
+*** maxima and emacs                                                  :drill:
+    SCHEDULED: <2019-03-04 Mon>
+    :PROPERTIES:
+    :ID:       b157fc2f-31fa-4511-a941-1d831df508d7
+    :DRILL_LAST_INTERVAL: 142.4286
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:17]
+    :END:
+How to interact from a
+file buffer with Maxima?
+**** Answer:
+In the simplest case by
+enabling maxima minor mode
+with /M-x maxima-minor-mode/
+and then using the /C-c = .../
+shortcuts to communicate with
+the Maxima process.
+*** modes                                                             :drill:
+    SCHEDULED: <2019-03-31 Sun>
+    :PROPERTIES:
+    :ID:       1bb3c212-2f7f-421f-9862-3618be826c8f
+    :DRILL_LAST_INTERVAL: 133.0989
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:19]
+    :END:
+How are minor modes
+disabled interactively?
+**** Answer:
+Normally by calling the
+minor mode function:
+~M-x some-mode-function-mode~
+because minor mode functions
+should be written to toggle
+the mode if called interactively
+without a prefix argument. 
+Alternatively, call the minor 
+mode function with a negative 
+prefix argument to disable it, 
+with a positive one to enable 
+it.
+*** packages                                                          :drill:
+How to uninstall packages
+installed with /elpa/?
+**** Answer:
+Simply delete the
+corresponding directory
+in ~/.emacs/elpa. Note
+that restarting emacs
+will clean the =load-path=.
+*** packages                                                          :drill:
+What to do if there 
+is no package 
+/org-plus-contrib/ in
+the package list?
+**** Answer:
+Add https://orgmode.org/elpa/
+to the =package-archives=
+list in the configuration
+file for emacs.
+*** packages                                                          :drill:
+What to do if there is
+no =org-drill= command
+available in an org file?
+**** Answer:
+Install /org-plus-contrib/.
+Note that this requires
+https://orgmode.org/elpa/
+in the =package-archives=
+list.
+*** org-mode                                                          :drill:
+    SCHEDULED: <2019-01-17 Thu>
+    :PROPERTIES:
+    :ID:       c91ef50b-eb39-46f5-bb7e-f5964fe104ec
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-17 Sat 14:29]
+    :END:
+How to escape slashes
+and tildes when writing
+file-paths?
+**** Answer:
+Put them in a =verbatim=
+environment delimited
+by =.
+*** org-mode							      :drill:
+    SCHEDULED: <2019-01-16 Wed>
+    :PROPERTIES:
+    :ID:       9a994bce-9e78-4b2e-8946-bbf23a422aab
+    :DRILL_LAST_INTERVAL: 48.7373
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 25
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 3.199
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-11-28 Wed 13:07]
+    :END:
+How to edit a source block?
+**** Answer
+Start a temporary buffer
+in the native mode of the language with
+ctrl-c ', edit and return to the org buffer
+with ctrl-c '.
+*** org-mode							      :drill:
+    SCHEDULED: <2018-12-14 Fri>
+    :PROPERTIES:
+    :ID:       82776f42-ac4c-47ac-b03c-6cb5b1aca29e
+    :DRILL_LAST_INTERVAL: 45.7125
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.04
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-10-29 Mon 14:54]
+    :END:
+How to insert a source block?
+**** Answer:
+Type *<s+TAB*, on a line by itself.
+This will insert an empty source code 
+block
+#+BEGIN_EXAMPLE
+#+BEGIN_SRC js
+
+#+END_SRC
+#+END_EXAMPLE
 *** system                                                            :drill:
     SCHEDULED: <2019-02-04 Mon>
     :PROPERTIES:
@@ -1430,17 +1459,17 @@ project. These projects
 just seem to be regular
 /cabal/ projects.
 *** Importing                                                         :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2018-12-22 Sat>
     :PROPERTIES:
     :ID:       2a1a6494-8fa1-42b9-9ede-aded843d9cd8
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-08 Sat 15:41]
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:16]
     :END:
 Is there a difference
 between =import ModuleName as MN=
@@ -1451,6 +1480,18 @@ Yes, in the first case names from
 =name= and =MN.name=, in the second case
 only =MN.name= would be in scope.
 *** Libraries                                                         :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       52f7cbf3-854d-463a-8e87-c94fb8cb96f0
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:18]
+    :END:
 What to use for
 differentiation
 in Haskell?
@@ -1843,17 +1884,17 @@ use "ILIKE" instead of "like"
 if case insensitive matching
 is desired.
 *** Projects                                                          :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2019-01-05 Sat>
     :PROPERTIES:
     :ID:       5bf75dbb-5154-4d5f-aeca-cbb895a30c51
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.12
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:38]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:17]
     :END:
 How to install =H= for
 global access?
@@ -2316,6 +2357,18 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       958d7ce6-8ca9-4606-9716-5f3a037e80a6
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:19]
+    :END:
 What does it mean to
 say that an existential
 datatype is the collection
@@ -2780,17 +2833,17 @@ example the kind =Bool= can
 only have types ='True= and
 ='False=.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       0b9f2944-7f8a-4334-ac07-daf4ad41dcbd
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.8849
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-08 Sat 15:36]
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:15]
     :END:
 What is the difference
 between the kinds produced
@@ -2803,17 +2856,17 @@ activating =PolyKinds= will
 result in them both being
 matched by kind variables ~k~.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       66073c9c-db7d-418c-98dd-4af932fba365
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.8849
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-08 Sat 15:39]
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:18]
     :END:
 What is the difference
 in kind annotations 
@@ -5026,17 +5079,17 @@ eternal Tao.
 **** Answer:
 possessive, adjectival suffix
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       731e55ab-070b-4fd0-846a-69feeae964f8
-    :DRILL_LAST_INTERVAL: 11.6618
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 17.1079
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-30 Fri 12:23]
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:21]
     :END:
 我的
 **** Answer:
@@ -5090,33 +5143,33 @@ one, a little
 **** Answers:
 to be; indeed, yes, right; demonstrative pronoun
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       813e8718-8c89-46fc-bb21-bec2f9401647
-    :DRILL_LAST_INTERVAL: 11.6618
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 17.1079
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.779
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.801
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-30 Fri 12:23]
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:18]
     :END:
 不
 **** Answer:
 negative prefix; no, not; un-;
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2018-12-20 Thu>
     :PROPERTIES:
     :ID:       b8d57f8a-79a4-4257-9333-9365db72d541
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 7.8313
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.6
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 2.667
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-08 Sat 15:42]
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:18]
     :END:
 目 
 **** Answer:
@@ -6368,17 +6421,17 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       93392f52-8d6d-4eed-a127-2b057e29f77d
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2087
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-08 Sat 15:42]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:17]
     :END:
 Why the emphasis on
 the fact that there 
@@ -6439,17 +6492,17 @@ It is decidable, even
 though the proofs may
 be exponentially long.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2018-12-24 Mon>
     :PROPERTIES:
     :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 7.2031
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 11.5394
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-05 Wed 12:52]
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:16]
     :END:
 What is a /combinator/?
 **** Answer:
@@ -7059,6 +7112,18 @@ than inherent in the
 subunits.
 ** Mechanics
 *** Hamiltonians                                                       :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       38c34d09-4752-4d4f-9fe0-eb49003bbec9
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:24]
+    :END:
 What is the geometrical
 intuition behind the 
 Hamiltonian in classical
@@ -7072,6 +7137,18 @@ paths allowed by /H/ in
 of the contour lines of 
 that mountain onto /ℝ²ⁿ/.
 *** Hamiltonians                                                       :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       481bf25f-b056-4419-955a-040201db3205
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:22]
+    :END:
 What is the general 
 procedure to work with
 Hamiltonian mechanics?
@@ -7088,11 +7165,35 @@ the Hamiltonian in the /θᵢ, τᵢ/
 will yield the paths as contour-
 lines of the Hamiltonian.
 *** Hamiltonians                                                      :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       238795d9-aa1c-4a39-a95d-5cbcbafc6dbc
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:23]
+    :END:
 What is the conjugate momentum
 to the angle /θ/ in polar coordinates?
 **** Answer:
 Angular momentum /L=mr²θ̇̇/.
 *** Hamiltonians                                                      :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       ed7bbe54-7ba4-4a2d-b374-ed65a1ecb837
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:23]
+    :END:
 How do the equations
 /ṗ=-∂ᵣH(p,r), q̇=∂ₚH(p,r)/
 for the contours for a
@@ -7109,6 +7210,18 @@ that, so /(-∂ᵣH(p,r),∂ₚH(p,r)/)
 must coincide with the tangent
 vectors (ṗ,q̇).
 *** Hamiltonians                                                      :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       ea961c15-a770-431c-9584-8385252e3c84
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:22]
+    :END:
 What is the difficulty
 in using Hamiltonians?
 **** Answer: 
@@ -7119,6 +7232,18 @@ has a Langrangian then
 the Hamiltonian is its 
 Poisson bracket.
 *** Hamiltonians                                                      :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       011d475c-c184-494e-83df-f46f52adedba
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:21]
+    :END:
 Can the Hamiltonian
 of a system always be
 interpreted as total
@@ -7130,6 +7255,18 @@ Hamiltonian is the
 Poisson bracket of it.
 ** R&D
 *** Hamiltonians                                                      :drill:
+    SCHEDULED: <2018-12-16 Sun>
+    :PROPERTIES:
+    :ID:       d64fd1af-487f-42d2-9aff-9595d83f84c1
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:20]
+    :END:
 In which sense can the
 contours of a Hamiltonian
 be considered eigenstates?
@@ -8778,36 +8915,36 @@ of /H/ is the classical energy.
 * Sound
 ** Alsa
 *** Fact							      :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2019-04-13 Sat>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       856d669e-831e-4bc1-b828-7289fc8bbace
-  :DRILL_LAST_INTERVAL: 85.1275
-  :DRILL_REPEATS_SINCE_FAIL: 7
-  :DRILL_TOTAL_REPEATS: 11
+  :DRILL_LAST_INTERVAL: 121.5621
+  :DRILL_REPEATS_SINCE_FAIL: 8
+  :DRILL_TOTAL_REPEATS: 12
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 3.181
-  :DRILL_EASE: 1.48
+  :DRILL_AVERAGE_QUALITY: 3.166
+  :DRILL_EASE: 1.34
   :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-09-18 Tue 14:00]
+  :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:22]
   :END:      
 #just testing italic and bold markup
 Alsa's [dsnoop||interface] /allows/ *to* 
 [loop microphone input to playback] and 
 [record with arecord] at the same time.
 *** Fact							      :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2019-04-13 Sat>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       198fc05f-47ff-476b-b287-629743279c9f
-  :DRILL_LAST_INTERVAL: 85.1275
-  :DRILL_REPEATS_SINCE_FAIL: 7
-  :DRILL_TOTAL_REPEATS: 12
+  :DRILL_LAST_INTERVAL: 121.5621
+  :DRILL_REPEATS_SINCE_FAIL: 8
+  :DRILL_TOTAL_REPEATS: 13
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 3.083
-  :DRILL_EASE: 1.48
+  :DRILL_AVERAGE_QUALITY: 3.077
+  :DRILL_EASE: 1.34
   :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-09-18 Tue 13:59]
+  :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:18]
   :END:      
 In order to send microphone input to playback 
 and record it at the same time, run 
@@ -8972,17 +9109,17 @@ With
 ~efibootmgr -b 0001 -B~ to remove 
 boot entry ~Boot0001~.
 *** boot                                                              :drill:
-    SCHEDULED: <2018-12-12 Wed>
+    SCHEDULED: <2019-03-28 Thu>
     :PROPERTIES:
     :ID:       5dc88cf5-f72b-46c7-968f-37ec2be99bdc
-    :DRILL_LAST_INTERVAL: 49.5409
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 106.1166
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-23 Tue 16:22]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:21]
     :END:
 What does
 ~efibootmgr -v~ actually check?
