@@ -2357,6 +2357,32 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
+Why are existential data-types
+with singleton types =Sing s=
+useful?
+**** Answer:
+Because for something like
+=data Something = forall s. MkSth (Sing s)=
+it is possible to match against
+=MkSth a= checking for all the values,
+=check (MkSth arg) = case arg of value1 ->;...=
+*** Types                                                             :drill:
+Why is something like
+~Data Eq a => Set a = MkSet [a]~
+better declared using Gadt syntax?
+**** Answer:
+Because for
+#+BEGIN_SRC haskell
+data Set a where
+  MkSet::Eq a => [a] -> Set a
+#+END_SRC
+a pattern match with =MkSet=
+provides an implicit dictionary
+for =Eq= whereas in the non-Gadt
+version such a pattern match
+would require an explicit
+=Eq a= constraint.
+*** Types                                                             :drill:
     SCHEDULED: <2018-12-16 Sun>
     :PROPERTIES:
     :ID:       958d7ce6-8ca9-4606-9716-5f3a037e80a6
@@ -2740,6 +2766,63 @@ GADTs?
 With inductive types the length
 of lists can become part of the
 type of the list.
+*** Type arithmetic                                                   :drill:
+What is the point of =Nat=
+in GHC.TyeLits if it is not
+recursively defined?
+**** Answer:
+It is meant to be used more
+as a documentation type than
+a recursive one. Thus, vectors
+or lists with length in their
+type should be constructed
+from their normal counterparts
+using reification and reflection
+to get the length types right.
+The tools for that are all in
+the library.
+*** Type arithmetic                                                   :drill:
+How to check two =Nat= types
+for equality?
+**** Answer:
+With =sameNat (Proxy::Proxy n) (Proxy::Proxy m)=,
+which returns a =Maybe (n :~: m)=, which can be
+pattern matched against the constructor 
+=Refl= of =n :~: m=.
+*** Type arithmetic                                                   :drill:
+What is /reification/?
+**** Answer:
+The process of transforming
+a value-level run-time property
+to the type-level.
+*** Type arithmetic                                                   :drill:
+How to reify a natural
+number to a type-level =Nat=?
+**** Answer:
+With =someNatVal n=, which
+returns a proxy value of
+type =Proxy m= packed in a
+=SomeNat a=, so case matching
+=SomeNat (Proxy::Proxy m)-> SomeConstr @m ...=
+allows to construct something with
+type =m= (using extension 
+=TypeApplications=). 
+*** Type arithmetic                                                   :drill:
+What is reflection?
+**** Answer:
+The process of transforming
+a type to a value-level 
+run-time property, the inverse
+to reification.
+*** Type arithmetic                                                   :drill:
+How to reflect a type
+level =Nat=?
+**** Answer:
+With =natVal=, which takes
+a proxy of type =Proxy n=
+and returns the corresponding
+=n= as a natural number:
+=natVal (Proxy::Proxy n)=.
 *** Type arithmetic                                                   :drill:
     SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
