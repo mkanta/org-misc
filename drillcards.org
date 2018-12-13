@@ -1051,6 +1051,9 @@ prefix argument to disable it,
 with a positive one to enable 
 it.
 *** packages                                                          :drill:
+    :PROPERTIES:
+    :ID:       342171b0-e1da-4aaf-8973-2278d7cbe964
+    :END:
 How to uninstall packages
 installed with /elpa/?
 **** Answer:
@@ -1060,6 +1063,18 @@ in ~/.emacs/elpa. Note
 that restarting emacs
 will clean the =load-path=.
 *** packages                                                          :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       572cfadf-eabd-4894-adf6-4882fb06f99a
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:14]
+    :END:
 What to do if there 
 is no package 
 /org-plus-contrib/ in
@@ -1070,6 +1085,18 @@ to the =package-archives=
 list in the configuration
 file for emacs.
 *** packages                                                          :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       e4d4e6ba-4f18-4f2e-8f8c-1a4dcb1770f0
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:27]
+    :END:
 What to do if there is
 no =org-drill= command
 available in an org file?
@@ -1310,17 +1337,17 @@ Matter of taste, but
 effect on the type of
 ~f~ and seems shorter.
 *** Graphical UI                                                      :drill:
-    SCHEDULED: <2018-12-13 Thu>
+    SCHEDULED: <2019-02-01 Fri>
     :PROPERTIES:
     :ID:       52279f62-f8ff-4b0b-9277-27f1c2b219d6
-    :DRILL_LAST_INTERVAL: 23.1239
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.0864
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:47]
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:16]
     :END:
 Is there a better way to
 turn off overloaded labels
@@ -2357,6 +2384,42 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
+Why is something like 
+~data Type = forall a.Const a~
+called an existential data-type?
+**** Answer:
+Since constructors prove the
+existence of something, one like
+above proves the existence of an
+=a= that leads to a value of =Type=.
+Compare this to
+~data Type a = Const a~
+where =a= is universally
+quantified, ie there is
+a value of =Type= for every
+=a=.
+*** Types                                                             :drill:
+What is the logical
+meaning of the arguments
+in a type like
+=Knockable s -> Door s ->…=?
+**** Answer:
+It means that the function
+requires a proof that =s= is
+/Knockable/ and a /Door/.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       7e581857-0446-4108-b094-a32242863369
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:21]
+    :END:
 Why are existential data-types
 with singleton types =Sing s=
 useful?
@@ -2367,8 +2430,22 @@ it is possible to match against
 =MkSth a= checking for all the values,
 =check (MkSth arg) = case arg of value1 ->;...=
 *** Types                                                             :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       e04af4fc-d70a-42e6-8888-2ae3d346c250
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:34]
+    :END:
 Why is something like
-~Data Eq a => Set a = MkSet [a]~
+#+BEGIN_SRC haskell
+  Data Eq a => Set a = MkSet [a]
+#+END_SRC
 better declared using Gadt syntax?
 **** Answer:
 Because for
@@ -2767,6 +2844,9 @@ With inductive types the length
 of lists can become part of the
 type of the list.
 *** Type arithmetic                                                   :drill:
+    :PROPERTIES:
+    :ID:       03d23de7-95f5-44fa-86b3-5bbbd8fd8ab9
+    :END:
 What is the point of =Nat=
 in GHC.TyeLits if it is not
 recursively defined?
@@ -2782,20 +2862,56 @@ to get the length types right.
 The tools for that are all in
 the library.
 *** Type arithmetic                                                   :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       ade9ce49-60fa-4151-9b47-444ff1e2a238
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:26]
+    :END:
 How to check two =Nat= types
 for equality?
 **** Answer:
 With =sameNat (Proxy::Proxy n) (Proxy::Proxy m)=,
 which returns a =Maybe (n :~: m)=, which can be
 pattern matched against the constructor 
-=Refl= of =n :~: m=.
+=Refl= of =n :~: m=, ie as =Just Refl=.
 *** Type arithmetic                                                   :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       973089b8-b37d-40d4-a04c-be120cad0beb
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:16]
+    :END:
 What is /reification/?
 **** Answer:
 The process of transforming
 a value-level run-time property
 to the type-level.
 *** Type arithmetic                                                   :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       9d9eaf69-5c02-4676-95bf-474eec8ba33e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:20]
+    :END:
 How to reify a natural
 number to a type-level =Nat=?
 **** Answer:
@@ -2806,8 +2922,21 @@ type =Proxy m= packed in a
 =SomeNat (Proxy::Proxy m)-> SomeConstr @m ...=
 allows to construct something with
 type =m= (using extension 
-=TypeApplications=). 
+=TypeApplications= for the =@m=
+syntax). 
 *** Type arithmetic                                                   :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       48279d09-8b9d-4c24-8c28-945529b2fc2b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:15]
+    :END:
 What is reflection?
 **** Answer:
 The process of transforming
@@ -2815,6 +2944,18 @@ a type to a value-level
 run-time property, the inverse
 to reification.
 *** Type arithmetic                                                   :drill:
+    SCHEDULED: <2018-12-17 Mon>
+    :PROPERTIES:
+    :ID:       6d4a160d-9aa4-40da-a41d-b6913646e5dd
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:23]
+    :END:
 How to reflect a type
 level =Nat=?
 **** Answer:
@@ -2822,7 +2963,9 @@ With =natVal=, which takes
 a proxy of type =Proxy n=
 and returns the corresponding
 =n= as a natural number:
-=natVal (Proxy::Proxy n)=.
+=natVal (Proxy::Proxy n)= or
+=natVal (Proxy @n)= when using
+=TypeApplications=.
 *** Type arithmetic                                                   :drill:
     SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
@@ -2892,19 +3035,24 @@ defines a type level
 function with name
 =F= of two type variables.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-12-13 Thu>
+What does =:kind!= in
+/ghci/ do?
+**** Answer:
+It evaluates type families.
+*** Type manipulations                                                :drill:
+    SCHEDULED: <2018-12-23 Sun>
     :PROPERTIES:
     :ID:       62940337-e9e7-437b-98fe-b1e5a415df36
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.756
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:33]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:14]
     :END:
-Why are kinds derived
+Why are data-kinds derived
 from types and =*= treated
 differently?
 **** Answer:
@@ -6504,6 +6652,14 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
+What is Gödelization
+all about?
+**** Answer:
+The construction of a
+theorem that has no proof
+and is not false by indexing
+theorems and their proofs.
+*** Logic                                                             :drill:
     SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       93392f52-8d6d-4eed-a127-2b057e29f77d
@@ -9211,6 +9367,45 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** configuration                                                     :drill:
+How to set up monitors
+from the command line?
+**** Answer:
+With =xrandr= for configurations
+totally on the command-line or,
+if available, =lxrandr= which
+provides a gui.
+*** configuration                                                     :drill:
+How to manipulate monitor
+brightness from the command
+line?
+**** Answer:
+There is a =–brightness= option
+to =xrandr= which can be used. 
+Alternatively, =xfce4-power-settings=
+may work if available.
+*** configuration                                                     :drill:
+Why does the 
+=xbacklight= command not
+always work to adjust
+screen brightness?
+**** Answer:
+It requires hardware support
+expressed by the presence of
+entries in =/sys/class/backlight=.
+It attempts to write a value into
+=/sys/class/backlight/<monitor>/brightness=.
+*** configuration                                                     :drill:
+What to do if there is nothing
+in =/sys/class/backlight= to adjust
+the brightness?
+**** Answer:
+Check if there is a brightness
+entry somewhere in =/sys/devices
+~sudo find /sys -type f -iname '*brightness*'.~
+If so, link an entry in =/sys/class/backlight=
+to it, if not then there is not hardware
+support for brightness changes.
+*** configuration                                                     :drill:
     SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       d851807b-c2ec-41c5-b3b2-8c93075d73a7
@@ -9372,6 +9567,12 @@ do with a value of 1, ie use
 swap only in emergencies, to
 10 in order to prevent excessive
 swapping.
+*** configuration                                                     :drill:
+How to configure 
+key-bindings in =lxde=?
+**** Answer:
+With a ~<keybind key="<keyid>">~
+entry in ~/.config/openbox/lxde-rc.xml.
 *** configuration                                                     :drill:
     SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
