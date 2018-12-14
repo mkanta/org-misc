@@ -1051,8 +1051,17 @@ prefix argument to disable it,
 with a positive one to enable 
 it.
 *** packages                                                          :drill:
+    SCHEDULED: <2018-12-18 Tue>
     :PROPERTIES:
     :ID:       342171b0-e1da-4aaf-8973-2278d7cbe964
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:55]
     :END:
 How to uninstall packages
 installed with /elpa/?
@@ -1146,17 +1155,17 @@ in the native mode of the language with
 ctrl-c ', edit and return to the org buffer
 with ctrl-c '.
 *** org-mode							      :drill:
-    SCHEDULED: <2018-12-14 Fri>
+    SCHEDULED: <2019-03-18 Mon>
     :PROPERTIES:
     :ID:       82776f42-ac4c-47ac-b03c-6cb5b1aca29e
-    :DRILL_LAST_INTERVAL: 45.7125
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 94.4877
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.04
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-29 Mon 14:54]
+    :DRILL_AVERAGE_QUALITY: 3.455
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:55]
     :END:
 How to insert a source block?
 **** Answer:
@@ -1333,9 +1342,10 @@ sort ~f=\x -> g x~ normally
 not used?
 **** Answer:
 Matter of taste, but
-~f x = g x~ has the same
+=f = g= or
+~f x = g x~ have the same
 effect on the type of
-~f~ and seems shorter.
+~f~ and seem shorter.
 *** Graphical UI                                                      :drill:
     SCHEDULED: <2019-02-01 Fri>
     :PROPERTIES:
@@ -1526,17 +1536,17 @@ in Haskell?
 Library =ad= from
 http://hackage.haskell.org/package/ad.
 *** Language Extensions                                               :drill:
-    SCHEDULED: <2018-12-14 Fri>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       ec725448-fcca-4827-87aa-973ed7bf1ae6
-    :DRILL_LAST_INTERVAL: 23.7071
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.3992
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:48]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:53]
     :END:
 What does
 ~Typename{..}~
@@ -1547,17 +1557,17 @@ of record ~Typename~ and
 part of language extension
 =RecordWildcards=.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-12-14 Fri>
+    SCHEDULED: <2019-02-01 Fri>
     :PROPERTIES:
     :ID:       718f72d5-a181-425a-8adc-c8b3d2dee3f2
-    :DRILL_LAST_INTERVAL: 22.4763
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.6837
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:24]
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:57]
     :END:
 Why should megaparsec 
 parsers not be built with
@@ -1747,17 +1757,17 @@ By combining parsers
 with ~many~ or ~some~ from
 typeclass ~Applicative~.
 *** Option Parsing                                                    :drill:
-    SCHEDULED: <2018-12-13 Thu>
+    SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
     :ID:       b1ae3e7d-166d-4569-99ba-9f1f59151783
-    :DRILL_LAST_INTERVAL: 24.1989
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 31.4344
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.819
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 2.834
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-19 Mon 16:51]
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:59]
     :END:
 How to set up Options.Applicative
 to parse a multiple use of a string 
@@ -2384,6 +2394,49 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
+Why is the monad 
+=((->) r :: * ->  * )=
+considered a reader?
+**** Answer:
+Because =Reader= is essentially
+a =newtype= around =(r -> a)=,
+=newtype Reader e a = Reader { runReader :: e -> a}=
+even though it is now defined as the
+identity version of =ReaderT=.
+*** Types                                                             :drill:
+Why is =fmap . fmap= the same as
+=fmap fmap fmap=?
+**** Answer:
+Because this brings in the 
+=fmap= of =((->) e)=, which is
+composition.
+*** Types                                                             :drill:
+What is the significance
+of the =((->) e)= monad
+regarding λ-calculus?
+**** Answer:
+It implements the =K = λxy.x=
+combinator as
+=pure :: a -> e -> a=
+and the =S = λxyz. xz(yz)= 
+combinator as 
+=<*> :: (e -> a -> b) -> (e -> a) -> e -> b=
+in its =Applicative= instance. 
+Every λ=calculus expression can be 
+written using these two combinators.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       0b6c5c60-7949-4624-9bfc-bc888c233d1d
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:57]
+    :END:
 Why is something like 
 ~data Type = forall a.Const a~
 called an existential data-type?
@@ -2399,6 +2452,18 @@ quantified, ie there is
 a value of =Type= for every
 =a=.
 *** Types                                                             :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       f8d7d6c7-bf04-4d14-954c-4fb46c395ec1
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:59]
+    :END:
 What is the logical
 meaning of the arguments
 in a type like
@@ -2579,17 +2644,17 @@ where (phantom) type =s= now
 only can assume values
 ='Open=, ='Closed= and ='Locked=.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-14 Fri>
+    SCHEDULED: <2018-12-22 Sat>
     :PROPERTIES:
     :ID:       343b73ab-a01b-4662-a953-7b0d00c12833
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 8.2438
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:52]
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:48]
     :END:
 How to obtain a singleton door state
 from
@@ -2844,8 +2909,17 @@ With inductive types the length
 of lists can become part of the
 type of the list.
 *** Type arithmetic                                                   :drill:
+    SCHEDULED: <2018-12-18 Tue>
     :PROPERTIES:
     :ID:       03d23de7-95f5-44fa-86b3-5bbbd8fd8ab9
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:54]
     :END:
 What is the point of =Nat=
 in GHC.TyeLits if it is not
@@ -3035,6 +3109,29 @@ defines a type level
 function with name
 =F= of two type variables.
 *** Type manipulations                                                :drill:
+Why is the logic corresponding
+to the Haskell type system richer
+than traditional λ-calculus?
+**** Answer:
+Because it can prove =Not (Not a)=
+by way of the =throw= and =catch=
+mechanism with
+=catch :: ((a -> Void) -> Void) -> a=
+with 
+=throw :: a -> Void=.
+*** Type manipulations                                                :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       3cbfb6c4-ba13-49cc-aed7-ce2cea210b85
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:54]
+    :END:
 What does =:kind!= in
 /ghci/ do?
 **** Answer:
@@ -5158,17 +5255,17 @@ to the teachings of Jesus
 residing in a corrupt body,
 the Church.
 *** Adam & Eve                                                        :drill:
-    SCHEDULED: <2018-12-14 Fri>
+    SCHEDULED: <2018-12-23 Sun>
     :PROPERTIES:
     :ID:       a09c24da-6487-4c2c-935e-5f622f69fe3d
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:49]
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:48]
     :END:
 In which sense did the
 expulsion from paradise
@@ -6466,6 +6563,74 @@ or columns of lower order
 tensors according to the position
 of the last index.
 ** Logic
+*** Curry Howard                                                      :drill:
+How to prove theorems
+using the /Curry Howard/
+correspondence?
+**** Answer:
+Construct the type corresponding
+to the theorem and find a value
+that has that type.
+*** Curry Howard                                                      :drill:
+Why is there no function
+=f::a->b= in Haskell?
+**** Answer:
+Because there is no way
+to turn a general type
+=a= into another general
+type =b=, something has
+to be known about these
+types.
+*** Curry Howard                                                      :drill:
+When is the proposition
+=a→b= true according to
+the /Curry Howard/
+correspondence?
+**** Answer:
+Whenever the corresponding
+type =a → b= is inhabited,
+ie there is a function
+=f::a → b=.
+*** Curry Howard                                                      :drill:
+What is the problem with
+the /bottom type/ =⊥= from
+a logical perspective?
+**** Answer:
+Since every type contains
+the bottom type =⊥=, every
+theorem in the corresponding
+logic would be true, thus
+making it inconsistent.
+*** Curry Howard                                                      :drill:
+How is negation expressed 
+in the Curry Howard
+correspondence?
+**** Answer:
+As =type Not a = =a -> Void= in 
+Haskell syntax where =Void= is an 
+empty data-type, ie. one 
+without a constructor.
+*** Curry Howard                                                      :drill:
+Why is the logic corresponding 
+to the standard /λ/ calculus
+intuitionistic?
+**** Answer:
+Because in its type system
+=Not Not a= can not be proven.
+It would correspond to type
+=((a -> Void) -> Void) -> a=,
+for which there is no standard
+/λ/-expression.
+*** Curry Howard                                                      :drill:
+What does a constructor
+prove in the Curry-Howard
+correpondence?
+**** Answer:
+That depends on its exact
+function signature but 
+essentially it proves that
+a type is populated, possibly
+depending on other types.
 *** Linear                                                            :drill:
     SCHEDULED: <2019-03-19 Tue>
     :PROPERTIES:
@@ -6652,6 +6817,18 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       cb6fc0af-77da-4e91-98ef-90d1aed3c686
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:52]
+    :END:
 What is Gödelization
 all about?
 **** Answer:
@@ -8654,17 +8831,17 @@ From the fact that parity is
 a multiplicative quantum number,
 ie. /P|a,b⟩=(P|a⟩)P(|b⟩)/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-12-14 Fri>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       3ea55019-0da2-455a-bc8b-e1b360962bbc
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 7.2031
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.1
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.091
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:52]
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:47]
     :END:
 How is parity different in bosons
 vs fermions?
@@ -9096,17 +9273,17 @@ happens with observers in
 relativity who all perceive
 the same speed of light.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2018-12-14 Fri>
+    SCHEDULED: <2018-12-20 Thu>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 6.1619
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.857
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:51]
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:49]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
@@ -9367,6 +9544,18 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** configuration                                                     :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       4524fef6-d8fc-4611-b2d6-be87f3eaf07d
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:52]
+    :END:
 How to set up monitors
 from the command line?
 **** Answer:
@@ -9375,6 +9564,18 @@ totally on the command-line or,
 if available, =lxrandr= which
 provides a gui.
 *** configuration                                                     :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       afa293a0-9c3c-4a22-a15c-4aec79770d7c
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:52]
+    :END:
 How to manipulate monitor
 brightness from the command
 line?
@@ -9384,6 +9585,18 @@ to =xrandr= which can be used.
 Alternatively, =xfce4-power-settings=
 may work if available.
 *** configuration                                                     :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       b094041f-dc0f-4e36-a5e1-d380f20cd11e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:58]
+    :END:
 Why does the 
 =xbacklight= command not
 always work to adjust
@@ -9395,6 +9608,18 @@ entries in =/sys/class/backlight=.
 It attempts to write a value into
 =/sys/class/backlight/<monitor>/brightness=.
 *** configuration                                                     :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       cacaa2dc-9f11-4419-b0dd-f1a88be188bb
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:56]
+    :END:
 What to do if there is nothing
 in =/sys/class/backlight= to adjust
 the brightness?
@@ -9568,6 +9793,18 @@ swap only in emergencies, to
 10 in order to prevent excessive
 swapping.
 *** configuration                                                     :drill:
+    SCHEDULED: <2018-12-18 Tue>
+    :PROPERTIES:
+    :ID:       f8d6dca9-f308-49e6-9563-989f84336620
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:58]
+    :END:
 How to configure 
 key-bindings in =lxde=?
 **** Answer:
@@ -9971,17 +10208,17 @@ on Lubuntu?
 In the files located in
 ~ ~/.config/lxsession/$DESKTOP_SESSION~
 *** X Server                                                          :drill:
-    SCHEDULED: <2018-12-14 Fri>
+    SCHEDULED: <2019-04-24 Wed>
     :PROPERTIES:
     :ID:       94e89ecb-39a3-4f6d-aa4c-e077f0abb8a2
-    :DRILL_LAST_INTERVAL: 69.032
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 130.6085
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-06 Sat 14:56]
+    :DRILL_AVERAGE_QUALITY: 3.3
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:53]
     :END:
 How to run applications at
 start-up ~xinit~ style in lubuntu?
