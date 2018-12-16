@@ -1517,17 +1517,17 @@ Yes, in the first case names from
 =name= and =MN.name=, in the second case
 only =MN.name= would be in scope.
 *** Libraries                                                         :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       52f7cbf3-854d-463a-8e87-c94fb8cb96f0
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:18]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:34]
     :END:
 What to use for
 differentiation
@@ -1625,17 +1625,17 @@ as a description in error messages.
 As such it is more general than
 a source file.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2019-02-12 Tue>
     :PROPERTIES:
     :ID:       bc50b4e1-6941-4793-9b94-3d0c4e00a1d3
-    :DRILL_LAST_INTERVAL: 24.39
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 58.0238
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:23]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:49]
     :END:
 How to define a ~noSpace~ parser
 to disallow spaces between a numeral
@@ -1822,17 +1822,17 @@ record ~R~ can be used
 directly on the right
 hand side.
 *** Patterns                                                          :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-02-14 Thu>
     :PROPERTIES:
     :ID:       80e7675c-fe8e-455f-9fbf-851824110e18
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:48]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:23]
     :END:
 What is the effect
 of @ in a pattern
@@ -1844,17 +1844,17 @@ for a pattern, eg
 the name ~s~ for the
 pattern ~(x:xs)~.
 *** Persistent Database						      :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-01-07 Mon>
     :PROPERTIES:
     :ID:       95bbedc2-6598-4497-a9ab-2d0ef5010141
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.2095
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-05 Wed 12:55]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:16]
     :END:
 What is the problem when
 running a query without a
@@ -1866,17 +1866,17 @@ exist or its schemata have
 changed from what Haskell
 thinks they should be.
 *** Persistent Database						      :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-01-07 Mon>
     :PROPERTIES:
     :ID:       76b97043-e5b8-466c-9dc8-5ac7ad1adb38
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.2095
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-05 Wed 12:54]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:15]
     :END:
 Is it possible to do a
 =runSqlite= without a
@@ -2394,16 +2394,77 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
+    :PROPERTIES:
+    :ID:       ada8ad27-b160-44f2-a34e-f915af3b44b5
+    :END:
+How to use row
+polymorphism
+in Haskell?
+**** Answer:
+This would have to
+be implemented by a
+type-class requiring
+certain access functions
+which implement access to
+certain fields.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       9dd69844-db40-4302-97c5-ef6292bf953a
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:46]
+    :END:
+What is row 
+polymorphism?
+**** Answer:
+A way to have a
+product type in
+record notation
+having certain
+fields with every
+record type having 
+these fields matching.
+*** Types                                                             :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       82b78de8-4e30-401e-9245-d694f7405a61
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:20]
+    :END:
 Why is the monad 
 =((->) r :: * ->  * )=
 considered a reader?
 **** Answer:
 Because =Reader= is essentially
 a =newtype= around =(r -> a)=,
-=newtype Reader e a = Reader { runReader :: e -> a}=
-even though it is now defined as the
+=newtype Reader r a = Reader { runReader :: r -> a}=
+even though it is nowadays defined as the
 identity version of =ReaderT=.
 *** Types                                                             :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       fd6f0979-7aaa-4f1a-9d13-19e908461cc5
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:25]
+    :END:
 Why is =fmap . fmap= the same as
 =fmap fmap fmap=?
 **** Answer:
@@ -2411,6 +2472,18 @@ Because this brings in the
 =fmap= of =((->) e)=, which is
 composition.
 *** Types                                                             :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       8e719c1e-ee1f-4195-8a16-0e5ef82002f1
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:23]
+    :END:
 What is the significance
 of the =((->) e)= monad
 regarding λ-calculus?
@@ -2422,7 +2495,7 @@ and the =S = λxyz. xz(yz)=
 combinator as 
 =<*> :: (e -> a -> b) -> (e -> a) -> e -> b=
 in its =Applicative= instance. 
-Every λ=calculus expression can be 
+Every λ-calculus expression can be 
 written using these two combinators.
 *** Types                                                             :drill:
     SCHEDULED: <2018-12-18 Tue>
@@ -2525,17 +2598,17 @@ version such a pattern match
 would require an explicit
 =Eq a= constraint.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       958d7ce6-8ca9-4606-9716-5f3a037e80a6
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:19]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:34]
     :END:
 What does it mean to
 say that an existential
@@ -3109,6 +3182,18 @@ defines a type level
 function with name
 =F= of two type variables.
 *** Type manipulations                                                :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       82ebc257-597d-4642-ad72-6b13593947d0
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:28]
+    :END:
 Why is the logic corresponding
 to the Haskell type system richer
 than traditional λ-calculus?
@@ -3210,17 +3295,17 @@ extension =PolyKinds= is active
 because in that case =k= is 
 considered a kind variable.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2019-01-27 Sun>
     :PROPERTIES:
     :ID:       0dacd1bb-8d05-479e-acd4-b5839addf7eb
-    :DRILL_LAST_INTERVAL: 20.0305
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.3244
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-26 Mon 11:53]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:47]
     :END:
 What does =t1~t2= in the
 context of a function
@@ -4066,6 +4151,20 @@ Switch to a terminal with
 ~sudo service lightdm stop~
 
 ** web
+*** Development                                                       :drill:
+    :PROPERTIES:
+    :ID:       553f5de5-0a53-4877-afe2-32b2ce8a7bfd
+    :END:
+What to use for functional
+javascript development
+as a Haskell programmer?
+**** Answer:
+It seems that /Purescript/
+is a language that has
+almost Haskell syntax and
+compiles to javascript.
+See
+https://arow.info/blog/posts/2015-12-17-purescript-intro.html
 *** Hakyll                                                            :drill:
     SCHEDULED: <2018-12-18 Tue>
     :PROPERTIES:
@@ -4140,17 +4239,17 @@ calls. They will be applied
 to the template file indicated
 in the first argument.
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-05-08 Wed>
     :PROPERTIES:
     :ID:       7634049d-859c-4504-bf02-3762da3da527
-    :DRILL_LAST_INTERVAL: 60.75
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 143.9775
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:23]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:30]
     :END:
 Is it absolutely necessary
 to include the date in the
@@ -4190,17 +4289,17 @@ script running dvipng or
 dvisvgm on the input
 (like in Mnemosyne).
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2019-05-09 Thu>
     :PROPERTIES:
     :ID:       4760ec29-df5d-4e67-8ff7-7a63941b835c
-    :DRILL_LAST_INTERVAL: 60.75
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 143.9775
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-16 Tue 15:36]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:51]
     :END:
 How to get the ~ReaderOptions~ and
 ~WriterOptions~ when using 
@@ -4734,17 +4833,17 @@ repositories.
 * Documents
 ** Pdf
 *** Analysis                                                          :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2018-12-31 Mon>
     :PROPERTIES:
     :ID:       6cd39566-3b13-46f1-be9c-285b21059372
-    :DRILL_LAST_INTERVAL: 8.2137
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 15.5403
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-07 Fri 12:57]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:17]
     :END:
 How are indirect objects
 defined?
@@ -5148,17 +5247,17 @@ agent. Although more airy than
 watery due to the lack of direction
 towards a centre of gravity.
 *** the stone                                                         :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2019-03-28 Thu>
     :PROPERTIES:
     :ID:       91e1efa3-6381-4fc0-8157-9c4617e55f64
-    :DRILL_LAST_INTERVAL: 48.1573
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 101.7564
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-29 Mon 14:54]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:48]
     :END:
 In which sense is
 /the kingdom/ of the
@@ -5391,17 +5490,17 @@ eternal Tao.
 * Language
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2019-01-01 Tue>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 13.7999
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 15.6215
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 7
-    :DRILL_AVERAGE_QUALITY: 2.681
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.695
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:43]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:41]
     :END:
 的
 **** Answer:
@@ -5455,17 +5554,17 @@ Personal Pronoun first person: I, me, we, us
 **** Answer:
 one, a little
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2018-12-20 Thu>
     :PROPERTIES:
     :ID:       8fbf1c2f-dd1a-4f24-9dc7-eab876b9f928
-    :DRILL_LAST_INTERVAL: 4.3084
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 34
+    :DRILL_LAST_INTERVAL: 4.6358
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 35
     :DRILL_FAILURE_COUNT: 14
-    :DRILL_AVERAGE_QUALITY: 2.588
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.6
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:38]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:16]
     :END:
 是
 **** Answers:
@@ -5553,6 +5652,251 @@ A collection of arrows
 /η(X):F(X)→G(X)/ in category
 /D/ indexed by objects /X/
 from category /C/.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       ebdb23af-95a6-4cdf-b483-73bcc1efdcb1
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:49]
+    :END:
+What is a topos?
+**** Answer:
+A certain type of category
+abstracting the notion of
+/position/.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       ca76b2af-e2f1-4040-bdcb-3926278e9319
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:50]
+    :END:
+What is a finite limit
+in set-theoretic terms?
+**** Answer:
+A finite cartesian product of sets.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       7c5e9b07-cf55-4d5a-b4ce-3d96e23c896b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:46]
+    :END:
+What is a finite colimit
+in set-theoretic terms?
+**** Answer:
+A finite disjoint union
+of sets.
+*** Categories                                                        :drill:
+    :PROPERTIES:
+    :ID:       b0314792-8af2-4037-920e-c4210128880a
+    :END:
+What are the consequences
+of a category having
+finite limits and colimits?
+**** Answer:
+The presence of initial and
+terminal objects as well as
+equalizers and coequalizer.
+*** Categories                                                        :drill:
+    :PROPERTIES:
+    :ID:       e11fc233-0bd1-4065-9f8e-4c096bd4e01e
+    :END:
+Why is the presence of
+an initial object
+in a category with
+finite limits and colimits not
+surprising?
+**** Answer:
+Because a finite limit of
+no object would correpond 
+to a disjoint union of no
+sets, hence the empty set
+which is a special case of
+an initial object.
+*** Categories                                                        :drill:
+    :PROPERTIES:
+    :ID:       821e8936-b5a9-4774-a1a5-e1092df32e2c
+    :END:
+Why is the presence of
+terminal objects in a 
+category with finite limits
+and colimits not surprising?
+**** Answer:
+Terminal objects are like
+one element sets, since 
+there is an initial set
+a terminal object should
+be constructible by packing
+the initial object.
+*** Categories                                                        :drill:
+    :PROPERTIES:
+    :ID:       ca810609-4bec-48f9-a667-914678224c87
+    :END:
+What is an equalizer
+in a category?
+**** Answer:
+The equivalent of the subset
+consisting of all /x ∈ X/ such that
+/f(x)=g(x)/ for morpisms /X→Y/.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       9d3ae010-5d67-485e-99ea-4fa9669686e3
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:46]
+    :END:
+What is a coequalizer in
+a category?
+**** Answer:
+The equivalent of a quotient
+set of /X/ by the relation /(a,b)∈ R/
+iff /a=f(y), b=g(y)/ (or vice versa)
+for morphisms /f,g:Y→X/.
+*** Categories                                                        :drill:
+    :PROPERTIES:
+    :ID:       4542132e-192b-488a-b6f1-1c3253798523
+    :END:
+What does it mean for
+a category to have
+exponentials?
+**** Answer:
+It means there is an object
+/X^Y/ for every pair of objects
+which acts like the set of
+functions from X to Y.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       a743d327-d62c-4252-98e7-4e7144cbd547
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:44]
+    :END:
+What is a subobject
+classifier?
+**** Answer:
+A subobject classifier /Ω/ is
+an object that behaves like
+/{0,1}/ for sets where functions
+/f:X→Ω/ correspond to subsets
+of /X/. In general, morphisms
+/f:X→Ω/ correspond to subobjects
+of /X/.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       14a52f96-0d50-446e-b79f-21ddf33f27c3
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:48]
+    :END:
+How to construct a topos
+from finite sets?
+**** Answer:
+For the category of finite, ordered
+sets Δ, a presheaf is a
+simplicial set and the category
+of these presheaves is a topos.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       f90d67ec-c9f2-4dfd-8b33-3cd44bfb9bd0
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:51]
+    :END:
+What is the simplex
+category /Δ/?
+**** Answer:
+The category of finite,
+(linearly) ordered sets whose
+morphisms are (nonstrictly)
+order preserving maps.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       329ce0e8-4f7b-409f-9e83-a6d3d8d4a154
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:50]
+    :END:
+What is a simplicial
+set in the categorical
+sense?
+**** Answer:
+A contravariant functor
+from the simplex category
+to the category of sets:
+/σ:Δ->Set/, or equivalently,
+a covariant functor
+/σ:Δ→Set/.
+*** Categories                                                        :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       50d70dcb-b8fb-45b2-968b-571734bf2d04
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:44]
+    :END:
+How to construct a category
+from simplicial sets?
+**** Answer:
+Since a simplicial set is
+a contravariant functor /σ:Δ→Set/,
+a category can be constructed
+using these functors as objects
+and natural transformations
+between them as morphisms.
 *** Relativity                                                        :drill:
     SCHEDULED: <2019-03-23 Sat>
     :PROPERTIES:
@@ -5921,17 +6265,17 @@ Isometric operators are like unitary
 operators except that they may not be
 surjective.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2018-12-19 Wed>
     :PROPERTIES:
     :ID:       46ad0d7a-2654-4e47-a6fa-0945e2d7c6a0
-    :DRILL_LAST_INTERVAL: 75.3268
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-01 Mon 22:46]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:33]
     :END:
 How are Heisenberg groups
 related to symplectic vector
@@ -6145,17 +6489,17 @@ exists a strictly increasing
 /τ: [k]→[n]/ such that 
 /π∘τ(i) < π∘τ(j) ⇔ σ(i) < σ(j)/.
 *** Permutations                                                      :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-01-26 Sat>
     :PROPERTIES:
     :ID:       ec453812-83e7-4f47-bc7a-92c7b2d4007e
-    :DRILL_LAST_INTERVAL: 19.9588
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.1729
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:04]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:32]
     :END:
 What does it mean for
 a permutation to contain
@@ -6169,6 +6513,26 @@ if there exist integers
 /π(xᵢ)<π(xⱼ) ⇔ σ(i)<σ(j)/
 for /1≤i,j≤k/.
 ** Geometry
+*** Finite                                                            :drill:
+    SCHEDULED: <2018-12-20 Thu>
+    :PROPERTIES:
+    :ID:       8946f43b-ab5f-4a98-9191-86a8a82b44ff
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:45]
+    :END:
+What is a 
+Simplicial Set?
+**** Answer:
+A generalization of directed
+multigraphs to higher dimensions,
+containing, amongst other things,
+simplexes and their faces.
 *** Fractional Calculus                                               :drill:
     SCHEDULED: <2019-01-02 Wed>
     :PROPERTIES:
@@ -6216,17 +6580,17 @@ for /0<p≤1/, ie the tangent
 approximation is replaced
 by a power law.
 *** Fractional Calculus                                               :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2019-03-24 Sun>
     :PROPERTIES:
     :ID:       0102aa47-f1bb-4a4f-988e-3f9f78617127
-    :DRILL_LAST_INTERVAL: 45.26
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 98.0332
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-01 Thu 13:08]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:47]
     :END:
 How do fractional derivatives
 occur naturally?
@@ -6564,6 +6928,18 @@ tensors according to the position
 of the last index.
 ** Logic
 *** Curry Howard                                                      :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       d03c26c3-aab0-4698-b521-e29e6fc4749d
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:24]
+    :END:
 How to prove theorems
 using the /Curry Howard/
 correspondence?
@@ -6572,6 +6948,18 @@ Construct the type corresponding
 to the theorem and find a value
 that has that type.
 *** Curry Howard                                                      :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       7c3adb87-fa54-4399-aff1-23f35aca4797
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:32]
+    :END:
 Why is there no function
 =f::a->b= in Haskell?
 **** Answer:
@@ -6582,16 +6970,40 @@ type =b=, something has
 to be known about these
 types.
 *** Curry Howard                                                      :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       c9bea7ad-208e-421c-bfde-b674a9a61baa
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:26]
+    :END:
 When is the proposition
 =a→b= true according to
 the /Curry Howard/
 correspondence?
 **** Answer:
 Whenever the corresponding
-type =a → b= is inhabited,
+type =a -> b= is inhabited,
 ie there is a function
-=f::a → b=.
+=f::a -> b=.
 *** Curry Howard                                                      :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       fe7ec71f-4892-47e9-a3d1-2526ca9174b5
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:31]
+    :END:
 What is the problem with
 the /bottom type/ =⊥= from
 a logical perspective?
@@ -6602,6 +7014,18 @@ theorem in the corresponding
 logic would be true, thus
 making it inconsistent.
 *** Curry Howard                                                      :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       b9a0ed46-415a-49cc-bcb6-74c6347a5164
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:20]
+    :END:
 How is negation expressed 
 in the Curry Howard
 correspondence?
@@ -6611,6 +7035,18 @@ Haskell syntax where =Void= is an
 empty data-type, ie. one 
 without a constructor.
 *** Curry Howard                                                      :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       beaeb7c9-f556-49dc-9d26-e9f2844b032b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:31]
+    :END:
 Why is the logic corresponding 
 to the standard /λ/ calculus
 intuitionistic?
@@ -6622,6 +7058,18 @@ It would correspond to type
 for which there is no standard
 /λ/-expression.
 *** Curry Howard                                                      :drill:
+    SCHEDULED: <2018-12-19 Wed>
+    :PROPERTIES:
+    :ID:       77f0fd8e-bb8f-4d05-b6c0-3290dae05e45
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:17]
+    :END:
 What does a constructor
 prove in the Curry-Howard
 correpondence?
@@ -6888,17 +7336,17 @@ a given logic. For example, in
 linear logic /A ⊢ B/ means 
 /⊢ A ⊸ B/, there is no /→/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2019-01-09 Wed>
     :PROPERTIES:
     :ID:       85181995-f4ac-4ded-9e96-27da446e58a8
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-06 Thu 12:45]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:31]
     :END:
 What is the redeeming
 quality of Presburger
@@ -7084,17 +7532,17 @@ separable, second countable
 Hausdorff space with its
 usual ~σ~ algebra.
 *** Nonlocal Fields                                                   :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-03-18 Mon>
     :PROPERTIES:
     :ID:       96e3df09-a54e-4d90-b463-830e7bc2bcd4
-    :DRILL_LAST_INTERVAL: 43.996
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.9635
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-01 Thu 13:06]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:24]
     :END:
 What is a non-local field?
 **** Answer:
@@ -7236,17 +7684,17 @@ preimage relation because
 for a permutation matrix
 /xⱼᵢ=1/ means that /xᵢ↦xⱼ/.
 *** Matrices                                                          :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-01-27 Sun>
     :PROPERTIES:
     :ID:       2fd846d2-e2c2-4341-99d2-4d839550708f
-    :DRILL_LAST_INTERVAL: 19.9588
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.2308
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:03]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:27]
     :END:
 If permutation matrices
 permute the indices of
@@ -7528,17 +7976,17 @@ than inherent in the
 subunits.
 ** Mechanics
 *** Hamiltonians                                                       :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       38c34d09-4752-4d4f-9fe0-eb49003bbec9
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:24]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:38]
     :END:
 What is the geometrical
 intuition behind the 
@@ -7553,17 +8001,17 @@ paths allowed by /H/ in
 of the contour lines of 
 that mountain onto /ℝ²ⁿ/.
 *** Hamiltonians                                                       :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       481bf25f-b056-4419-955a-040201db3205
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:22]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:32]
     :END:
 What is the general 
 procedure to work with
@@ -7581,34 +8029,34 @@ the Hamiltonian in the /θᵢ, τᵢ/
 will yield the paths as contour-
 lines of the Hamiltonian.
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       238795d9-aa1c-4a39-a95d-5cbcbafc6dbc
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:23]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:35]
     :END:
 What is the conjugate momentum
 to the angle /θ/ in polar coordinates?
 **** Answer:
 Angular momentum /L=mr²θ̇̇/.
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       ed7bbe54-7ba4-4a2d-b374-ed65a1ecb837
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:23]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:39]
     :END:
 How do the equations
 /ṗ=-∂ᵣH(p,r), q̇=∂ₚH(p,r)/
@@ -7626,17 +8074,17 @@ that, so /(-∂ᵣH(p,r),∂ₚH(p,r)/)
 must coincide with the tangent
 vectors (ṗ,q̇).
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       ea961c15-a770-431c-9584-8385252e3c84
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:22]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:41]
     :END:
 What is the difficulty
 in using Hamiltonians?
@@ -7648,17 +8096,17 @@ has a Langrangian then
 the Hamiltonian is its 
 Poisson bracket.
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       011d475c-c184-494e-83df-f46f52adedba
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:21]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:38]
     :END:
 Can the Hamiltonian
 of a system always be
@@ -7671,17 +8119,17 @@ Hamiltonian is the
 Poisson bracket of it.
 ** R&D
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       d64fd1af-487f-42d2-9aff-9595d83f84c1
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:20]
+    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:38]
     :END:
 In which sense can the
 contours of a Hamiltonian
@@ -7770,17 +8218,17 @@ if they turn out to be the
 same as those of the Lorentz
 group.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-05-03 Fri>
     :PROPERTIES:
     :ID:       bec4a332-838d-4eec-a133-6be7200e5593
-    :DRILL_LAST_INTERVAL: 75.3268
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 139.0533
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-01 Mon 22:48]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:29]
     :END:
 Could particles be defined as
 eigenstates of some space-time
@@ -8040,17 +8488,17 @@ average particle number /⟨n⟩/
 via /⟨n⟩=⟨a⁺a⟩=|α|²/. Note that
 /α/ is a complex number in general.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-05-03 Fri>
     :PROPERTIES:
     :ID:       08003345-1979-4c1d-b18e-3814c045eec0
-    :DRILL_LAST_INTERVAL: 75.3268
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 139.0533
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-01 Mon 22:46]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:32]
     :END:
 How many particles are there in a
 coherent state /|α⟩, α∈ℂ/?
@@ -9097,17 +9545,17 @@ constant /C/ and a quadratic form
 /W(J)=-1/2∫∫ dx dy J(x)D(x-y)J(y)/
 where /D/ is the propagator.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-12-15 Sat>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       76ca26cb-267e-4178-8ced-2a3adfe330fa
-    :DRILL_LAST_INTERVAL: 50.0755
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 56.6855
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.917
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.923
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:44]
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:30]
     :END:
 What is the physical meaning of the 
 propagator?
@@ -9936,34 +10384,34 @@ way than users and groups].
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
 *** Fact							      :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2020-04-30 Thu>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       62434f12-63db-42db-8da1-e6dd4059fe50
-  :DRILL_LAST_INTERVAL: 200.6738
-  :DRILL_REPEATS_SINCE_FAIL: 6
-  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_LAST_INTERVAL: 501.0825
+  :DRILL_REPEATS_SINCE_FAIL: 7
+  :DRILL_TOTAL_REPEATS: 6
   :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 4.2
-  :DRILL_EASE: 2.56
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:55]
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.42
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:49]
   :END:      
 An [Access Control List] for a file can be 
 created with [setfacl||the command].
 *** Fact							      :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2020-04-30 Thu>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       719f81ef-0428-47fe-bd36-130e5b808b5c
-  :DRILL_LAST_INTERVAL: 200.6738
-  :DRILL_REPEATS_SINCE_FAIL: 6
-  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_LAST_INTERVAL: 501.0825
+  :DRILL_REPEATS_SINCE_FAIL: 7
+  :DRILL_TOTAL_REPEATS: 6
   :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 4.2
-  :DRILL_EASE: 2.56
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-05-29 Tue 09:55]
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.42
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:47]
   :END:      
 The [Access Control List entries] for a file 
 can be checked with [getfacl||the command].
