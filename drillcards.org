@@ -1072,17 +1072,17 @@ in ~/.emacs/elpa. Note
 that restarting emacs
 will clean the =load-path=.
 *** packages                                                          :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       572cfadf-eabd-4894-adf6-4882fb06f99a
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:14]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:44]
     :END:
 What to do if there 
 is no package 
@@ -1094,17 +1094,17 @@ to the =package-archives=
 list in the configuration
 file for emacs.
 *** packages                                                          :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       e4d4e6ba-4f18-4f2e-8f8c-1a4dcb1770f0
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:27]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:46]
     :END:
 What to do if there is
 no =org-drill= command
@@ -1579,17 +1579,17 @@ and ~takeWhile1P~ combinators.
 If possible, these should be
 used first.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2019-02-13 Wed>
     :PROPERTIES:
     :ID:       c0bad81a-fa4c-435a-87b9-158e5ee1228e
-    :DRILL_LAST_INTERVAL: 24.39
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 58.0238
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 14:58]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:50]
     :END:
 Why is ~parse~ not ideal
 for testing Megaparsec
@@ -1601,17 +1601,17 @@ desired. Use
 ~parseTest <parser> <stringput>~
 instead.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2019-02-17 Sun>
     :PROPERTIES:
     :ID:       4ec40236-383b-4b61-95d5-ce8c7f3a0e7f
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:19]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:54]
     :END:
 Why is the description
 of the second argument in
@@ -2201,17 +2201,17 @@ listed in /package.yaml/ that
 couldn't be found in the 
 resolver.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2019-03-08 Fri>
     :PROPERTIES:
     :ID:       8b02051c-fc96-4886-b8ab-b3d5fe413c81
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.6617
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-05 Mon 16:46]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:52]
     :END:
 What to do if the
 ~stack new projname~ 
@@ -2394,8 +2394,17 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       ada8ad27-b160-44f2-a34e-f915af3b44b5
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:54]
     :END:
 How to use row
 polymorphism
@@ -2546,17 +2555,17 @@ It means that the function
 requires a proof that =s= is
 /Knockable/ and a /Door/.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       7e581857-0446-4108-b094-a32242863369
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:21]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:47]
     :END:
 Why are existential data-types
 with singleton types =Sing s=
@@ -2568,17 +2577,17 @@ it is possible to match against
 =MkSth a= checking for all the values,
 =check (MkSth arg) = case arg of value1 ->;...=
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       e04af4fc-d70a-42e6-8888-2ae3d346c250
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:34]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:44]
     :END:
 Why is something like
 #+BEGIN_SRC haskell
@@ -3009,17 +3018,17 @@ to get the length types right.
 The tools for that are all in
 the library.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       ade9ce49-60fa-4151-9b47-444ff1e2a238
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:26]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:46]
     :END:
 How to check two =Nat= types
 for equality?
@@ -3029,17 +3038,17 @@ which returns a =Maybe (n :~: m)=, which can be
 pattern matched against the constructor 
 =Refl= of =n :~: m=, ie as =Just Refl=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       973089b8-b37d-40d4-a04c-be120cad0beb
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:16]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:45]
     :END:
 What is /reification/?
 **** Answer:
@@ -3047,17 +3056,17 @@ The process of transforming
 a value-level run-time property
 to the type-level.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       9d9eaf69-5c02-4676-95bf-474eec8ba33e
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:20]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:43]
     :END:
 How to reify a natural
 number to a type-level =Nat=?
@@ -3072,17 +3081,17 @@ type =m= (using extension
 =TypeApplications= for the =@m=
 syntax). 
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       48279d09-8b9d-4c24-8c28-945529b2fc2b
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:15]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:45]
     :END:
 What is reflection?
 **** Answer:
@@ -3091,17 +3100,17 @@ a type to a value-level
 run-time property, the inverse
 to reification.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2018-12-26 Wed>
     :PROPERTIES:
     :ID:       6d4a160d-9aa4-40da-a41d-b6913646e5dd
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:23]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:42]
     :END:
 How to reflect a type
 level =Nat=?
@@ -3479,17 +3488,17 @@ resulting type is applied to
 another ~Λ~ of the appropriate
 type to obtain a ~λ~.
 *** Type Rank                                                         :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2019-04-13 Sat>
     :PROPERTIES:
     :ID:       b419272c-90d0-4910-82fc-00b537f5d206
-    :DRILL_LAST_INTERVAL: 54.2273
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 117.4563
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-24 Wed 12:50]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:48]
     :END:
 What is the underlying
 calling mechanism for
@@ -3958,17 +3967,17 @@ They cannot be overridden in a derived class
 with the same name because they are not part
 of the prototype chain.
 *** typescript classes 	 				      :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2020-07-15 Wed>
     :PROPERTIES:
     :ID:       3601bed3-0b17-45ab-a681-e6dd6ef083ed
-    :DRILL_LAST_INTERVAL: 200.7835
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 576.0479
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.6
-    :DRILL_EASE: 2.8
+    :DRILL_AVERAGE_QUALITY: 4.667
+    :DRILL_EASE: 2.9
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-05-30 Wed 10:27]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:53]
     :END:
 How to call a function defined in a super class
 as a member rather than a method?
@@ -4152,8 +4161,17 @@ Switch to a terminal with
 
 ** web
 *** Development                                                       :drill:
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       553f5de5-0a53-4877-afe2-32b2ce8a7bfd
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:51]
     :END:
 What to use for functional
 javascript development
@@ -5706,8 +5724,17 @@ in set-theoretic terms?
 A finite disjoint union
 of sets.
 *** Categories                                                        :drill:
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       b0314792-8af2-4037-920e-c4210128880a
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:51]
     :END:
 What are the consequences
 of a category having
@@ -5717,8 +5744,17 @@ The presence of initial and
 terminal objects as well as
 equalizers and coequalizer.
 *** Categories                                                        :drill:
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       e11fc233-0bd1-4065-9f8e-4c096bd4e01e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:48]
     :END:
 Why is the presence of
 an initial object
@@ -5733,8 +5769,17 @@ sets, hence the empty set
 which is a special case of
 an initial object.
 *** Categories                                                        :drill:
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       821e8936-b5a9-4774-a1a5-e1092df32e2c
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:52]
     :END:
 Why is the presence of
 terminal objects in a 
@@ -5748,8 +5793,17 @@ a terminal object should
 be constructible by packing
 the initial object.
 *** Categories                                                        :drill:
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       ca810609-4bec-48f9-a667-914678224c87
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:53]
     :END:
 What is an equalizer
 in a category?
@@ -5778,8 +5832,17 @@ set of /X/ by the relation /(a,b)∈ R/
 iff /a=f(y), b=g(y)/ (or vice versa)
 for morphisms /f,g:Y→X/.
 *** Categories                                                        :drill:
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       4542132e-192b-488a-b6f1-1c3253798523
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:50]
     :END:
 What does it mean for
 a category to have
@@ -6411,17 +6474,17 @@ By the partial sums of the series, which yield
 the elements of the sequence as 
 /aₙ=∑ⁿbₘpᵐ/.
 *** Permutations                                                      :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2019-02-04 Mon>
     :PROPERTIES:
     :ID:       246283cb-8d0e-49e4-9234-ca98cc53273f
-    :DRILL_LAST_INTERVAL: 22.4763
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.6837
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-25 Sun 13:01]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:52]
     :END:
 What is the main interest
 when considering containment
@@ -7265,6 +7328,31 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
+What is the difference
+between a /Proposition/
+/A/ and a judgement /⊢ A/?
+**** Answer:
+A proposition /A/ is an 
+internal statement of a 
+theory whereas the 
+judgement /⊢ A/ is a 
+meta-statement. For
+example in first order
+logic where the only
+judgement is the possession
+of a proof, /⊢ A/ means
+"A has a proof".
+*** Logic                                                             :drill:
+What is the difference 
+between a /Proposition/
+and a /Theorem/?
+**** Answer:
+/Propositions/ are statements
+that can be assumed, proved,
+disproved, negated etc whereas
+/Theorems/ are /Propositions/
+which have been proven.
+*** Logic                                                             :drill:
     SCHEDULED: <2018-12-18 Tue>
     :PROPERTIES:
     :ID:       cb6fc0af-77da-4e91-98ef-90d1aed3c686
@@ -7416,6 +7504,56 @@ As, for example
 ie with a type argument
 and an argument of that
 type.
+*** Type Theory                                                       :drill:
+What is /judgemental/
+equality?
+**** Answer:
+This is about equality
+of terms of the same
+type by definition.
+*** Type Theory                                                       :drill:
+How is (internal) equality 
+handled with types?
+**** Answer:
+For types /a,b:A/ a type
+/a=b/ exists. If there is
+a term /t:a=b/ then terms
+/a,b/ are said to be 
+/propositionally/ equal.
+*** Type Theory                                                       :drill:
+What is a /witness/?
+**** Answer:
+A term /a/ of type /A/
+is called a witness
+of type /A/ because
+/a:A/ has meanings
+"a has type A" and
+"A has a proof", 
+which is witnessed 
+by term /a/.
+*** Type Theory                                                       :drill:
+In which sense is the
+interpretation of /a:A/
+as /a∈A/ misleading?
+**** Answer:
+In the sense that
+/a:A/ is the judgement
+"A has a proof"
+whereas /a∈A/ is a
+proposition.
+*** Type Theory                                                       :drill:
+In which sense is type
+theory simpler than 
+set theory?
+**** Answer:
+Set theory is not only
+about sets but about the
+interplay of sets and
+propositions of first-order
+logic. Type theory only has
+/types/ and Propositions are
+identified with particular 
+types.
 ** Probability
 *** Processes                                                         :drill:
     SCHEDULED: <2019-02-23 Sat>
@@ -7801,17 +7939,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2019-01-11 Fri>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 13.5347
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 24.9038
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:20]
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:49]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -7866,17 +8004,17 @@ hexatonic obtained by adding
 a semitone to get
 3 2 1 1 3 2.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2018-12-16 Sun>
+    SCHEDULED: <2019-05-18 Sat>
     :PROPERTIES:
     :ID:       676300a7-4e5a-4129-b813-0fc4e465bc91
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 152.4375
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:24]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:48]
     :END:
 How is the pentatonic
 major scale related to
@@ -8292,17 +8430,17 @@ of the full Lorentz group
 isomorphic to the Klein
 four-group.
 *** Fields                                                            :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2019-06-14 Fri>
     :PROPERTIES:
     :ID:       4e7f4388-7dde-408d-8359-9802db92d21e
-    :DRILL_LAST_INTERVAL: 84.8601
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 179.3094
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.444
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-23 Sun 12:23]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:49]
     :END:
 Why are the field particles of
 quantum fields arising from
@@ -9023,17 +9161,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-12-17 Mon>
+    SCHEDULED: <2019-01-04 Fri>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 15.9574
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 17.5531
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.895
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:12]
+    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:53]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -10433,6 +10571,17 @@ from the command line?
 **** Answer:
 With ~nmcli~. Check its
 manpage for details.
+*** package management                                                :drill:
+Why does =apt-get upgrade=
+often not upgrade the kernel?
+**** Answer:
+Kernel upgrades usually come
+as a new package which is a new
+dependency of the kernel
+meta-package. As such, it will not
+be installed by =apt-get upgrade=,
+it needs =apt-get dist-upgrade=
+to be run.
 *** package management                                                :drill:
     SCHEDULED: <2019-05-03 Fri>
     :PROPERTIES:
