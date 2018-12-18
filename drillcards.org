@@ -7529,6 +7529,21 @@ ie with a type argument
 and an argument of that
 type.
 *** Type Theory                                                       :drill:
+In which sense differs
+type theory from first
+order logic as deductive 
+system?
+**** Answer:
+In contrast to first
+order logic, type theory
+has two judgements
+ - /a:A/ "a is an objec of type A"
+ - /a≡b:A/ "a and b are definitionally
+          equal objects of type A"
+as compared to the one of
+first order logic
+/⊢ A/ "A has a proof".
+*** Type Theory                                                       :drill:
     SCHEDULED: <2018-12-22 Sat>
     :PROPERTIES:
     :ID:       492e384d-9355-491d-812c-b50a75dac1ea
