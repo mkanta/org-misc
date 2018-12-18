@@ -1051,17 +1051,17 @@ prefix argument to disable it,
 with a positive one to enable 
 it.
 *** packages                                                          :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       342171b0-e1da-4aaf-8973-2278d7cbe964
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:55]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:59]
     :END:
 How to uninstall packages
 installed with /elpa/?
@@ -1737,17 +1737,17 @@ used multiple times in
 accordance with getopt
 behaviour.
 *** Option Parsing                                                    :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-04-21 Sun>
     :PROPERTIES:
     :ID:       0944ddfc-d04d-40d3-b55a-c3b9d0b56f0c
-    :DRILL_LAST_INTERVAL: 57.3966
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 124.321
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:06]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:07]
     :END:
 How to enable multiple
 options when parsing
@@ -2507,17 +2507,17 @@ in its =Applicative= instance.
 Every λ-calculus expression can be 
 written using these two combinators.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       0b6c5c60-7949-4624-9bfc-bc888c233d1d
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:57]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:59]
     :END:
 Why is something like 
 ~data Type = forall a.Const a~
@@ -2534,17 +2534,17 @@ quantified, ie there is
 a value of =Type= for every
 =a=.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       f8d7d6c7-bf04-4d14-954c-4fb46c395ec1
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:59]
     :END:
 What is the logical
 meaning of the arguments
@@ -2847,17 +2847,17 @@ which would make sure that
 the list argument is not
 empty.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-01-07 Mon>
     :PROPERTIES:
     :ID:       f89b5d1b-c91d-4d88-8f14-fa4036730aac
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:25]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:55]
     :END:
 Why is the GADT designation
 a bit of a misnomer?
@@ -2866,17 +2866,17 @@ Because it /generalises/
 union types rather than
 algebraic datatypes.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-01-07 Mon>
     :PROPERTIES:
     :ID:       ce889601-5b44-478e-83a7-65f80cde3eb7
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:28]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:55]
     :END:
 What is the difference
 between /Algebraic/ and
@@ -2896,17 +2896,17 @@ points of operators on
 sets as well.
 https://cstheory.stackexchange.com/questions/10594/whats-the-difference-between-adts-gadts-and-inductive-types
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-01-07 Mon>
     :PROPERTIES:
     :ID:       814a9a18-1398-4132-aa17-d6f799b20bfe
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:23]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:55]
     :END:
 What is the difference
 of /Algebraic/ and
@@ -2924,17 +2924,17 @@ different constructors can
 return values of different
 types.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-01-07 Mon>
     :PROPERTIES:
     :ID:       a0496078-9d22-4ded-a6d1-eb72a7c3be49
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:27]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:53]
     :END:
 What is the difference
 between /Algebraic/ and
@@ -2952,17 +2952,17 @@ sums, products and recursively
 defined /types/ but not 
 /type operators/.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-01-07 Mon>
     :PROPERTIES:
     :ID:       98452516-45e9-49f6-97ab-cfe2e552b818
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:24]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:52]
     :END:
 What are inductive types?
 **** Answer:
@@ -2991,17 +2991,17 @@ With inductive types the length
 of lists can become part of the
 type of the list.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       03d23de7-95f5-44fa-86b3-5bbbd8fd8ab9
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:54]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:00]
     :END:
 What is the point of =Nat=
 in GHC.TyeLits if it is not
@@ -3214,17 +3214,17 @@ mechanism with
 with 
 =throw :: a -> Void=.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       3cbfb6c4-ba13-49cc-aed7-ce2cea210b85
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:54]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:59]
     :END:
 What does =:kind!= in
 /ghci/ do?
@@ -4184,17 +4184,17 @@ compiles to javascript.
 See
 https://arow.info/blog/posts/2015-12-17-purescript-intro.html
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-05-19 Sun>
     :PROPERTIES:
     :ID:       fc0796ab-ac69-4533-9260-57da97327e08
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 152.4375
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-17 Wed 13:23]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:04]
     :END:
 What's the rap on
 the url string for
@@ -4501,17 +4501,17 @@ files to the main directory
 and then deleted after pushing
 the changes.
 *** github                                                            :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       9e7899d6-b0d9-4f09-a29d-830cfcbba1c4
-    :DRILL_LAST_INTERVAL: 41.5782
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.6617
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-06 Tue 18:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:04]
     :END:
 Is it always necessary
 to push a private development
@@ -6528,17 +6528,17 @@ and columns, such that
 usually only defined for
 binary matrices.
 *** Permutations                                                      :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       406e45b3-19b0-4c9e-bf5f-2ad40947cc04
-    :DRILL_LAST_INTERVAL: 22.4763
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.8974
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-26 Mon 11:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:02]
     :END:
 How is containment of
 permutations /σ/ on /[k]/
@@ -7328,6 +7328,18 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
+    SCHEDULED: <2018-12-22 Sat>
+    :PROPERTIES:
+    :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:05]
+    :END:
 What is the difference
 between a /Proposition/
 /A/ and a judgement /⊢ A/?
@@ -7343,6 +7355,18 @@ judgement is the possession
 of a proof, /⊢ A/ means
 "A has a proof".
 *** Logic                                                             :drill:
+    SCHEDULED: <2018-12-22 Sat>
+    :PROPERTIES:
+    :ID:       c1b224ec-841a-4b58-a5a6-5e8a204ffb4b
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:01]
+    :END:
 What is the difference 
 between a /Proposition/
 and a /Theorem/?
@@ -7353,17 +7377,17 @@ disproved, negated etc whereas
 /Theorems/ are /Propositions/
 which have been proven.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       cb6fc0af-77da-4e91-98ef-90d1aed3c686
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:52]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:53]
     :END:
 What is Gödelization
 all about?
@@ -7505,6 +7529,18 @@ ie with a type argument
 and an argument of that
 type.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2018-12-22 Sat>
+    :PROPERTIES:
+    :ID:       492e384d-9355-491d-812c-b50a75dac1ea
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:07]
+    :END:
 What is /judgemental/
 equality?
 **** Answer:
@@ -7512,6 +7548,18 @@ This is about equality
 of terms of the same
 type by definition.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2018-12-22 Sat>
+    :PROPERTIES:
+    :ID:       261b5fdc-ba59-462a-80b7-229f04edcd49
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:06]
+    :END:
 How is (internal) equality 
 handled with types?
 **** Answer:
@@ -7521,6 +7569,18 @@ a term /t:a=b/ then terms
 /a,b/ are said to be 
 /propositionally/ equal.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2018-12-22 Sat>
+    :PROPERTIES:
+    :ID:       f3a4772d-0985-45b2-a83b-cf090019441b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:04]
+    :END:
 What is a /witness/?
 **** Answer:
 A term /a/ of type /A/
@@ -7532,6 +7592,18 @@ of type /A/ because
 which is witnessed 
 by term /a/.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2018-12-22 Sat>
+    :PROPERTIES:
+    :ID:       62377aa7-2e68-4d86-8796-4d41f0f507c0
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:02]
+    :END:
 In which sense is the
 interpretation of /a:A/
 as /a∈A/ misleading?
@@ -7542,6 +7614,18 @@ In the sense that
 whereas /a∈A/ is a
 proposition.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2018-12-22 Sat>
+    :PROPERTIES:
+    :ID:       a63bdac4-a23a-4586-a90b-b436485f1b77
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:03]
+    :END:
 In which sense is type
 theory simpler than 
 set theory?
@@ -9568,17 +9652,17 @@ the electromagnetic and weak
 force but are not subject to
 the strong force.
 *** Particles                                                         :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-30 Sun>
     :PROPERTIES:
     :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
-    :DRILL_LAST_INTERVAL: 7.2031
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 11.6618
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.091
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.083
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:43]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:52]
     :END:
 Why can a neutral particle
 like the neutrino have an 
@@ -10130,17 +10214,17 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       4524fef6-d8fc-4611-b2d6-be87f3eaf07d
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:52]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:54]
     :END:
 How to set up monitors
 from the command line?
@@ -10150,17 +10234,17 @@ totally on the command-line or,
 if available, =lxrandr= which
 provides a gui.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       afa293a0-9c3c-4a22-a15c-4aec79770d7c
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:52]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:52]
     :END:
 How to manipulate monitor
 brightness from the command
@@ -10171,17 +10255,17 @@ to =xrandr= which can be used.
 Alternatively, =xfce4-power-settings=
 may work if available.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       b094041f-dc0f-4e36-a5e1-d380f20cd11e
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:58]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:56]
     :END:
 Why does the 
 =xbacklight= command not
@@ -10194,17 +10278,17 @@ entries in =/sys/class/backlight=.
 It attempts to write a value into
 =/sys/class/backlight/<monitor>/brightness=.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       cacaa2dc-9f11-4419-b0dd-f1a88be188bb
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:56]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:00]
     :END:
 What to do if there is nothing
 in =/sys/class/backlight= to adjust
@@ -10285,17 +10369,17 @@ either with
 or using
 /Preferences -> Default applications for LXSessions/
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-04-07 Sun>
     :PROPERTIES:
     :ID:       2fbe518e-c6dc-40a8-87f0-a8fa2ea6b07e
-    :DRILL_LAST_INTERVAL: 49.5447
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 109.9397
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-29 Mon 14:52]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:02]
     :END:
 What to do if /pcmanfm/
 crashes?
@@ -10379,17 +10463,17 @@ swap only in emergencies, to
 10 in order to prevent excessive
 swapping.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2018-12-27 Thu>
     :PROPERTIES:
     :ID:       f8d6dca9-f308-49e6-9563-989f84336620
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:58]
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:57]
     :END:
 How to configure 
 key-bindings in =lxde=?
@@ -10572,6 +10656,18 @@ from the command line?
 With ~nmcli~. Check its
 manpage for details.
 *** package management                                                :drill:
+    SCHEDULED: <2018-12-22 Sat>
+    :PROPERTIES:
+    :ID:       95cce95b-3889-4747-aa1b-5fceaf748c8c
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 12:06]
+    :END:
 Why does =apt-get upgrade=
 often not upgrade the kernel?
 **** Answer:
