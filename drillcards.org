@@ -1648,17 +1648,17 @@ submodule. Then
 ~signed noSpace <numberParser>~
 will not allow any spaces.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-02-24 Sun>
     :PROPERTIES:
     :ID:       4ba27761-77b1-4434-a2e3-daf10b27dd08
-    :DRILL_LAST_INTERVAL: 25.61
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 66.586
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.333
+    :DRILL_AVERAGE_QUALITY: 4.25
     :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-11-23 Fri 14:58]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:03]
     :END:
 What is the difference between
 parsing a /decimal/ and an /integer/?
@@ -2131,17 +2131,17 @@ In ~stack init --resolver <resolver>~
 in the project directory created
 by ~stack new~.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-03-22 Fri>
     :PROPERTIES:
     :ID:       38c86c4b-b664-4b90-b4fe-3ea267527e72
-    :DRILL_LAST_INTERVAL: 43.996
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.9635
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-05 Mon 16:45]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:03]
     :END:
 Is it possible to run
 an executable from a
@@ -2348,17 +2348,17 @@ different. ~stack exec~ will then arrange
 for the executables to end up in the 
 correct path.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-04-15 Mon>
     :PROPERTIES:
     :ID:       b5a661db-a1ad-441d-8dd1-b06d98981479
-    :DRILL_LAST_INTERVAL: 54.2273
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 117.4563
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-26 Fri 15:55]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:02]
     :END:
 Is there a way to
 set language extensions
@@ -2417,17 +2417,17 @@ certain access functions
 which implement access to
 certain fields.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-30 Sun>
     :PROPERTIES:
     :ID:       9dd69844-db40-4302-97c5-ef6292bf953a
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:46]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:00]
     :END:
 What is row 
 polymorphism?
@@ -2440,17 +2440,17 @@ fields with every
 record type having 
 these fields matching.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       82b78de8-4e30-401e-9245-d694f7405a61
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:20]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:58]
     :END:
 Why is the monad 
 =((->) r :: * ->  * )=
@@ -2462,17 +2462,17 @@ a =newtype= around =(r -> a)=,
 even though it is nowadays defined as the
 identity version of =ReaderT=.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       fd6f0979-7aaa-4f1a-9d13-19e908461cc5
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:25]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:57]
     :END:
 Why is =fmap . fmap= the same as
 =fmap fmap fmap=?
@@ -2481,17 +2481,17 @@ Because this brings in the
 =fmap= of =((->) e)=, which is
 composition.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       8e719c1e-ee1f-4195-8a16-0e5ef82002f1
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:23]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:56]
     :END:
 What is the significance
 of the =((->) e)= monad
@@ -2654,17 +2654,17 @@ language extension
 =ScopedTypeVariables= is in
 effect.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2019-01-12 Sat>
     :PROPERTIES:
     :ID:       e95c7998-d3a3-4471-bdfe-77028d9a709a
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.2095
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:46]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:16]
     :END:
 What is the 
 =LambdaCase= extension
@@ -2680,17 +2680,17 @@ allows to write
 instead of 
 =\x -> case x of ...=.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-01-08 Tue>
     :PROPERTIES:
     :ID:       a2c85833-6883-45cc-9ce4-0a495fb9b074
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:40]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:58]
     :END:
 What is a /singleton/
 in Haskell?
@@ -2701,17 +2701,17 @@ parametrized type with
 a type with one inhabitant
 for each parameter value.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-01-08 Tue>
     :PROPERTIES:
     :ID:       86001f28-5ea1-40d2-ac0a-c6c53f29a587
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:45]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:52]
     :END:
 What is the point of
 getting a /kind/ in addition
@@ -2751,17 +2751,17 @@ data SingDS::DoorState->* where
    SLocked :: SingDS 'Locked
 #+END_SRC
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-01-08 Tue>
     :PROPERTIES:
     :ID:       2fd5a316-b8ab-4334-90eb-2ea74835d0ce
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:40]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:50]
     :END:
 What is the effect of
 the Haskell =DataKinds=
@@ -2774,17 +2774,17 @@ there is now also a /kind/ =DoorState=
 with type constructors ='Open=,
 ='Closed= and ='Locked=.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-01-08 Tue>
     :PROPERTIES:
     :ID:       26f439b1-8084-41d0-b7f1-7489d979269e
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:39]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:51]
     :END:
 Why does the
 =ScopedTypeVariables=
@@ -2798,17 +2798,17 @@ obtained from the type
 variable, but only if it
 is in scope.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-01-08 Tue>
     :PROPERTIES:
     :ID:       55571d9e-d579-4afe-a8a0-780c28bc02ca
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:45]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:55]
     :END:
 What is the effect of the
 =ScopedTypeVariables=
@@ -2820,17 +2820,17 @@ a function, for example
 to type subexpressions in
 a =where= clause.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2019-01-12 Sat>
     :PROPERTIES:
     :ID:       c80ade29-4f7a-4a1a-aacb-3bc0d1802403
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.6409
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:46]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:18]
     :END:
 How to check if a
 type-level natural number
@@ -2971,17 +2971,17 @@ data-types where the type variables
 can assume not only types but also
 values of the underlying types.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-01-11 Fri>
     :PROPERTIES:
     :ID:       5de325cc-735f-4373-90ec-bd6c7f8ade8a
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.6409
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:32]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:53]
     :END:
 What is the advantage of having
 inductive types over just having
@@ -3167,17 +3167,17 @@ Note that this requires
 extensions =DataKinds=
 and =TypeLevels=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2019-01-09 Wed>
     :PROPERTIES:
     :ID:       387eef7a-4728-4b2f-8f58-d5bed992c965
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-11 Tue 11:42]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:02]
     :END:
 How to define type
 level functions?
@@ -3191,17 +3191,17 @@ defines a type level
 function with name
 =F= of two type variables.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       82ebc257-597d-4642-ad72-6b13593947d0
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:28]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:54]
     :END:
 Why is the logic corresponding
 to the Haskell type system richer
@@ -3535,7 +3535,60 @@ functions, the higher type
 variables are determined
 by the implementation of 
 the function, not its caller.
+** purescript
+*** Purescript installation                                           :drill:
+How should /purescript/ be
+installed?
+**** Answer:
+Ideally with /stack install/
+from either the github clone
+or the source unpacked via
+/stack unpack purescript/.
+*** Purescript and Bower                                              :drill:
+What to do about Bower's
+becoming obsolete?
+**** Answer:
+Use /psc-package/ as much
+as possible, it is meant
+as a stack-like replacement
+to manage package dependencies.
+*** Pulp and Psc-Package                                              :drill:
+How to make sure =pulp= uses
+the dependencies from
+=psc-package= instead of
+=bower=?
+**** Answer:
+Whilst there is a 
+=–psc-package= option
+for =pulp= that can be used
+in its commands, the easiest
+way is to remove the =bower.json=
+file, it will fall back
+to the =psc-package= files.
+*** Psc-package installation                                          :drill:
+How should =psc-package= be 
+installed?
+**** Answer:
+Ideally with =stack install=
+run from inside a repository
+clone. Source unpacking with
+=stack unpack= doesn't seem
+to work, it's probably not
+on Hackage.
 ** javascript
+*** npm installation                                                  :drill:
+What's the problem if the
+installation script of a
+package fails due to 
+permissions, even if run
+as =sudo npm install...=?
+**** Answer:
+Installation scripts usually
+are not safe since =npm= packages
+are not checked. Therefore they
+are never run as root unless 
+=–unsafe-perm=true= is given as
+an option to the npm install command.
 *** javascript var declaration 					      :drill:
     SCHEDULED: <2019-08-27 Tue>
     :PROPERTIES:
@@ -4233,17 +4286,17 @@ well as template names
 defined in meta-data in
 associated template files.
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2018-12-18 Tue>
+    SCHEDULED: <2019-05-20 Mon>
     :PROPERTIES:
     :ID:       67c31465-fdc2-4fd5-b0d8-d7e83b476b57
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 152.4375
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-17 Wed 13:21]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:01]
     :END:
 How are the variables
 enclosed in ~$<varname>$~
@@ -5572,17 +5625,17 @@ Personal Pronoun first person: I, me, we, us
 **** Answer:
 one, a little
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       8fbf1c2f-dd1a-4f24-9dc7-eab876b9f928
-    :DRILL_LAST_INTERVAL: 4.6358
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 35
+    :DRILL_LAST_INTERVAL: 5.2477
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 36
     :DRILL_FAILURE_COUNT: 14
-    :DRILL_AVERAGE_QUALITY: 2.6
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.611
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:16]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:01]
     :END:
 是
 **** Answers:
@@ -5604,17 +5657,17 @@ to be; indeed, yes, right; demonstrative pronoun
 **** Answer:
 negative prefix; no, not; un-;
 *** Characters                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2019-01-04 Fri>
     :PROPERTIES:
     :ID:       b8d57f8a-79a4-4257-9333-9365db72d541
-    :DRILL_LAST_INTERVAL: 7.8313
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 14.8168
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.667
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.715
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:18]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:00]
     :END:
 目 
 **** Answer:
@@ -5671,17 +5724,17 @@ A collection of arrows
 /D/ indexed by objects /X/
 from category /C/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       ebdb23af-95a6-4cdf-b483-73bcc1efdcb1
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:49]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:17]
     :END:
 What is a topos?
 **** Answer:
@@ -5689,17 +5742,17 @@ A certain type of category
 abstracting the notion of
 /position/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       ca76b2af-e2f1-4040-bdcb-3926278e9319
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:50]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:18]
     :END:
 What is a finite limit
 in set-theoretic terms?
@@ -5812,17 +5865,17 @@ The equivalent of the subset
 consisting of all /x ∈ X/ such that
 /f(x)=g(x)/ for morpisms /X→Y/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-30 Sun>
     :PROPERTIES:
     :ID:       9d3ae010-5d67-485e-99ea-4fa9669686e3
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:46]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 12:59]
     :END:
 What is a coequalizer in
 a category?
@@ -5853,17 +5906,17 @@ It means there is an object
 which acts like the set of
 functions from X to Y.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       a743d327-d62c-4252-98e7-4e7144cbd547
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:44]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:19]
     :END:
 What is a subobject
 classifier?
@@ -5876,17 +5929,17 @@ of /X/. In general, morphisms
 /f:X→Ω/ correspond to subobjects
 of /X/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       14a52f96-0d50-446e-b79f-21ddf33f27c3
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:48]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:01]
     :END:
 How to construct a topos
 from finite sets?
@@ -5896,17 +5949,17 @@ sets Δ, a presheaf is a
 simplicial set and the category
 of these presheaves is a topos.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       f90d67ec-c9f2-4dfd-8b33-3cd44bfb9bd0
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:51]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:17]
     :END:
 What is the simplex
 category /Δ/?
@@ -5916,17 +5969,17 @@ The category of finite,
 morphisms are (nonstrictly)
 order preserving maps.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       329ce0e8-4f7b-409f-9e83-a6d3d8d4a154
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:50]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:07]
     :END:
 What is a simplicial
 set in the categorical
@@ -5937,7 +5990,7 @@ from the simplex category
 to the category of sets:
 /σ:Δ->Set/, or equivalently,
 a covariant functor
-/σ:Δ→Set/.
+/σ:Δᵒᵖ→Set/.
 *** Categories                                                        :drill:
     SCHEDULED: <2018-12-20 Thu>
     :PROPERTIES:
@@ -6328,17 +6381,17 @@ Isometric operators are like unitary
 operators except that they may not be
 surjective.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-25 Tue>
     :PROPERTIES:
     :ID:       46ad0d7a-2654-4e47-a6fa-0945e2d7c6a0
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 6.1619
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.857
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:33]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:57]
     :END:
 How are Heisenberg groups
 related to symplectic vector
@@ -6500,17 +6553,17 @@ every /π/ there is a constant
 /c(π)/ such that /Sₙ(π)≤c(π)ⁿ/.
 
 *** Permutations                                                      :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-02-12 Tue>
     :PROPERTIES:
     :ID:       3a9f2ded-95cf-4d48-a678-bc52e8baccc1
-    :DRILL_LAST_INTERVAL: 23.0432
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.8198
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-26 Mon 11:52]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:01]
     :END:
 How is containment of
 permutations expressed
@@ -6577,17 +6630,17 @@ if there exist integers
 for /1≤i,j≤k/.
 ** Geometry
 *** Finite                                                            :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-29 Sat>
     :PROPERTIES:
     :ID:       8946f43b-ab5f-4a98-9191-86a8a82b44ff
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:45]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:01]
     :END:
 What is a 
 Simplicial Set?
@@ -6991,17 +7044,17 @@ tensors according to the position
 of the last index.
 ** Logic
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       d03c26c3-aab0-4698-b521-e29e6fc4749d
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:24]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:53]
     :END:
 How to prove theorems
 using the /Curry Howard/
@@ -7011,17 +7064,17 @@ Construct the type corresponding
 to the theorem and find a value
 that has that type.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       7c3adb87-fa54-4399-aff1-23f35aca4797
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:32]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:59]
     :END:
 Why is there no function
 =f::a->b= in Haskell?
@@ -7033,17 +7086,17 @@ type =b=, something has
 to be known about these
 types.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       c9bea7ad-208e-421c-bfde-b674a9a61baa
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:26]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:55]
     :END:
 When is the proposition
 =a→b= true according to
@@ -7055,17 +7108,17 @@ type =a -> b= is inhabited,
 ie there is a function
 =f::a -> b=.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       fe7ec71f-4892-47e9-a3d1-2526ca9174b5
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:31]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:53]
     :END:
 What is the problem with
 the /bottom type/ =⊥= from
@@ -7077,17 +7130,17 @@ theorem in the corresponding
 logic would be true, thus
 making it inconsistent.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       b9a0ed46-415a-49cc-bcb6-74c6347a5164
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:20]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:59]
     :END:
 How is negation expressed 
 in the Curry Howard
@@ -7098,17 +7151,17 @@ Haskell syntax where =Void= is an
 empty data-type, ie. one 
 without a constructor.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       beaeb7c9-f556-49dc-9d26-e9f2844b032b
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:31]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:55]
     :END:
 Why is the logic corresponding 
 to the standard /λ/ calculus
@@ -7121,17 +7174,17 @@ It would correspond to type
 for which there is no standard
 /λ/-expression.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2018-12-28 Fri>
     :PROPERTIES:
     :ID:       77f0fd8e-bb8f-4d05-b6c0-3290dae05e45
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:17]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:50]
     :END:
 What does a constructor
 prove in the Curry-Howard
@@ -7485,17 +7538,17 @@ What is a /combinator/?
 A name /φ:A→B/ for a proof of
 sequent /A⊦B/.
 *** System F                                                          :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-05-01 Wed>
     :PROPERTIES:
     :ID:       fe468ff3-b8f5-44c2-8fdc-2fd0411d0980
-    :DRILL_LAST_INTERVAL: 55.7884
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 132.7206
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-24 Wed 12:55]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:00]
     :END:
 What does something
 like ~Λt.λx:t.x~ mean?
@@ -7507,17 +7560,17 @@ as argument and returns a
 function ~t → t~, ie the
 identity.
 *** System F                                                          :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-05-01 Wed>
     :PROPERTIES:
     :ID:       8fc7702f-6082-4871-9f3f-52905332fe7e
-    :DRILL_LAST_INTERVAL: 55.7884
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 132.7206
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-24 Wed 12:51]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:59]
     :END:
 How to use an expression
 like ~Λt.λx:t.x~?
@@ -7529,6 +7582,18 @@ ie with a type argument
 and an argument of that
 type.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2018-12-23 Sun>
+    :PROPERTIES:
+    :ID:       e9f9f77c-cebd-4e3b-8f87-014f40f426b7
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:01]
+    :END:
 In which sense differs
 type theory from first
 order logic as deductive 
@@ -7950,17 +8015,17 @@ Also compare to the interpretation
 of 0-1 matrices as paths connecting
 nodes.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-01-11 Fri>
     :PROPERTIES:
     :ID:       bbb37512-6d33-44d1-a020-e72bc54d0859
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.6409
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:26]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:54]
     :END:
 How to use tensors
 as algebraic types?
@@ -8380,17 +8445,17 @@ on paths to measure a value,
 the contours would be eigenstates.
 ** Relativity
 *** Lorentz                                                           :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-05-15 Wed>
     :PROPERTIES:
     :ID:       60b0d0e0-2f42-4e27-aa94-3b82de76b8a5
-    :DRILL_LAST_INTERVAL: 77.4836
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 146.599
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:20]
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:02]
     :END:
 Why are events with 
 /Δs²>0/ called /space-like/?
@@ -9958,17 +10023,17 @@ happens with observers in
 relativity who all perceive
 the same speed of light.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2018-12-20 Thu>
+    SCHEDULED: <2018-12-30 Sun>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 6.1619
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 9.7296
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:49]
+    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:03]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
@@ -10360,17 +10425,17 @@ ownership intact. This may break
 applications requiring write access
 to certain areas of ie /var.
 *** configuration                                                     :drill:
-    SCHEDULED: <2018-12-19 Wed>
+    SCHEDULED: <2019-04-11 Thu>
     :PROPERTIES:
     :ID:       5135386c-e425-4857-8207-32f38f0e3bcb
-    :DRILL_LAST_INTERVAL: 50.9681
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 113.1492
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-29 Mon 14:52]
+    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:00]
     :END:
 What to do if the
 desktop icons suddenly 
