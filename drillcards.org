@@ -3536,6 +3536,62 @@ variables are determined
 by the implementation of 
 the function, not its caller.
 ** purescript
+*** Psc-package                                                       :drill:
+How to create a project
+meant to work with 
+/psc-package/ rather than
+bower?
+**** Answer:
+Run 
+=pulp --psc-package init=
+in the project directory.
+*** Psc-package                                                       :drill:
+Why is it better to use
+=pulp --psc-package init=
+rather than just
+=pulp init= and then removing
+/bower.json/ followed by
+=psc-package init=?
+**** Answer:
+Because =pulp init= installs
+some dependencies in addition
+to /Prelude/ for running the
+repl and in- and output. On
+the other hand, =psc-package=
+only installs /Prelude/
+and some of the functionality
+would be missing.
+*** Psc-package                                                       :drill:
+What is the problem with
+=psc-package repl=?
+**** Answer:
+It requires the /psci-support/
+package as a dependency. Install
+with 
+=psc-package install psci-support=
+*** Psc-package installation                                          :drill:
+How should =psc-package= be 
+installed?
+**** Answer:
+Ideally with =stack install=
+run from inside a repository
+clone. Source unpacking with
+=stack unpack= doesn't seem
+to work, it's probably not
+on Hackage.
+*** Pulp and Psc-Package                                              :drill:
+How to make sure =pulp= uses
+the dependencies from
+=psc-package= instead of
+=bower=?
+**** Answer:
+Whilst there is a 
+=–psc-package= option
+for =pulp= that can be used
+in its commands, the easiest
+way is to remove the =bower.json=
+file, it will fall back
+to the =psc-package= files.
 *** Purescript installation                                           :drill:
 How should /purescript/ be
 installed?
@@ -3552,29 +3608,18 @@ Use /psc-package/ as much
 as possible, it is meant
 as a stack-like replacement
 to manage package dependencies.
-*** Pulp and Psc-Package                                              :drill:
-How to make sure =pulp= uses
-the dependencies from
-=psc-package= instead of
-=bower=?
+*** Syntax                                                            :drill:
+What does the =~>= arrow
+signify in purescript?
 **** Answer:
-Whilst there is a 
-=–psc-package= option
-for =pulp= that can be used
-in its commands, the easiest
-way is to remove the =bower.json=
-file, it will fall back
-to the =psc-package= files.
-*** Psc-package installation                                          :drill:
-How should =psc-package= be 
-installed?
-**** Answer:
-Ideally with =stack install=
-run from inside a repository
-clone. Source unpacking with
-=stack unpack= doesn't seem
-to work, it's probably not
-on Hackage.
+It indicates a natural
+transformation between
+functors =F₁:: * -> *= and
+=F₂:: * -> *= where
+=f :: F₁ ~> F₂= means
+=f :: F₁ a -> F₂ a=,
+ie the type variable can be 
+omitted.
 ** javascript
 *** npm installation                                                  :drill:
 What's the problem if the
