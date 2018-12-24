@@ -330,17 +330,17 @@ in the Erlang VM in
 favour of type 
 polymorphism.
 *** expressions                                                       :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       843da46f-cb5e-41eb-b891-141d6051cfac
-    :DRILL_LAST_INTERVAL: 20.5299
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.5764
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:19]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:55]
     :END:
 What is the main
 reason for the =.()=
@@ -531,17 +531,17 @@ According to /iex/,
 =&(&1 * 2).(1)= is 
 still a function.
 *** functions                                                         :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       91acb2bf-a498-4293-a90e-abfdf10065c4
-    :DRILL_LAST_INTERVAL: 20.5299
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.5764
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:23]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:53]
     :END:
 What happens in
 the elixir expression
@@ -578,17 +578,17 @@ lot of bad design decisions,
 such as function capturing 
 and =.()=.
 *** piping                                                            :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       061a7832-7aa3-4360-935c-c4ee33239ca5
-    :DRILL_LAST_INTERVAL: 20.5299
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:21]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:52]
     :END:
 How to pipe something into
 the second argument of a
@@ -601,17 +601,17 @@ the first argument. So
 =Foo.bar= is called as
 =Foo.bar(arg1,val)=.
 *** processes							      :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-03 Sun>
     :PROPERTIES:
     :ID:       3fb4f52e-25a2-4a2f-bbda-74edb157da01
-    :DRILL_LAST_INTERVAL: 20.0305
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.403
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:10]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:54]
     :END:
 What is a /GenServer/?
 **** Answer:
@@ -939,17 +939,17 @@ to a function?
 With
 =f1 k <key-sequence>=.
 *** help							      :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       c610f330-fb43-4e28-846f-b19118ec4fc8
-    :DRILL_LAST_INTERVAL: 22.5574
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.318
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-01 Sat 16:06]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:55]
     :END:
 How to find the 
 key-binding for a
@@ -3231,17 +3231,17 @@ What does =:kind!= in
 **** Answer:
 It evaluates type families.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2018-12-23 Sun>
+    SCHEDULED: <2019-01-17 Thu>
     :PROPERTIES:
     :ID:       62940337-e9e7-437b-98fe-b1e5a415df36
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.5315
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-13 Thu 16:14]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:50]
     :END:
 Why are data-kinds derived
 from types and =*= treated
@@ -4777,17 +4777,17 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-03 Sun>
     :PROPERTIES:
     :ID:       80d00555-53c8-45bb-97e1-b0f89ae75089
-    :DRILL_LAST_INTERVAL: 20.0305
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.403
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:08]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:52]
     :END:
 What is a 
 /lightweight/ tag?
@@ -4798,17 +4798,17 @@ to it. Create it with
 =git -tag <version> [commit]=
 with no -a, -m or -s option.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-03 Sun>
     :PROPERTIES:
     :ID:       1911d00c-406f-46b9-96b7-4e5670cdaaff
-    :DRILL_LAST_INTERVAL: 20.0305
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.403
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:12]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:55]
     :END:
 How to give a commit
 a name?
@@ -4863,17 +4863,17 @@ made will be lost upon
 leaving (ie another checkout) 
 unless a new branch is created.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-03 Sun>
     :PROPERTIES:
     :ID:       5be67af8-56dd-4691-9a3f-6cf36950a906
-    :DRILL_LAST_INTERVAL: 20.0305
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.403
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:07]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:52]
     :END:
 How to fetch a
 specific tag from 
@@ -4886,17 +4886,17 @@ for the remote /rrefspec/ in
 which fetches the remote to
 the local /lrefspec/.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-02 Sat>
     :PROPERTIES:
     :ID:       0dfb93d4-cbb9-459c-96d5-3557c429f68d
-    :DRILL_LAST_INTERVAL: 20.0305
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 40.2012
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:11]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:50]
     :END:
 How to fetch a remote
 tag and put it in a
@@ -4906,17 +4906,17 @@ Use =refs/head/<name>= in
 =git fetch refs/tags/<tagid>:refs/head/<name>=
 to put it in a new branch /name/.
 *** git                                                               :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-02-02 Sat>
     :PROPERTIES:
     :ID:       829023a3-edf5-464e-966f-fc837053311c
-    :DRILL_LAST_INTERVAL: 20.0305
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 40.2012
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:10]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:51]
     :END:
 What is the problem
 if after a =git pull=
@@ -5578,17 +5578,17 @@ to the teachings of Jesus
 residing in a corrupt body,
 the Church.
 *** Adam & Eve                                                        :drill:
-    SCHEDULED: <2018-12-23 Sun>
+    SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
     :ID:       a09c24da-6487-4c2c-935e-5f622f69fe3d
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:48]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:49]
     :END:
 In which sense did the
 expulsion from paradise
@@ -5670,17 +5670,17 @@ collapses into a state
 that can be named or 
 otherwise pinpointed.
 *** Language and Reality                                              :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       da3a1808-ba6d-4ff5-be7c-176bf38a455b
-    :DRILL_LAST_INTERVAL: 97.403
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 182.3384
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-18 Tue 13:59]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:54]
     :END:
 In which sense is language
 like a quantum measurement?
@@ -7697,17 +7697,17 @@ It is decidable, even
 though the proofs may
 be exponentially long.
 *** Logic                                                             :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-01-10 Thu>
     :PROPERTIES:
     :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 11.5394
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 16.9283
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-12 Wed 15:16]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:50]
     :END:
 What is a /combinator/?
 **** Answer:
@@ -7758,17 +7758,17 @@ ie with a type argument
 and an argument of that
 type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2018-12-23 Sun>
+    SCHEDULED: <2019-01-02 Wed>
     :PROPERTIES:
     :ID:       e9f9f77c-cebd-4e3b-8f87-014f40f426b7
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2087
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 15:01]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:48]
     :END:
 In which sense differs
 type theory from first
@@ -9361,17 +9361,17 @@ The matrix that transforms the basis constructed
 from one-particle states at time /t=-∞/ to 
 that constructed at /t=∞/.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-05-24 Fri>
     :PROPERTIES:
     :ID:       a41161ff-6859-4ae0-8e14-8691bfd55b31
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 150.75
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-10-23 Tue 16:22]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:51]
     :END:
 In which sense is
 measurement a special
@@ -10083,17 +10083,17 @@ By adding a function that is essentially
 a sum of Dirac functions to the 
 Lagrangian.
 *** Path integral						      :drill:
-    SCHEDULED: <2018-12-24 Mon>
+    SCHEDULED: <2019-07-27 Sat>
     :PROPERTIES:
     :ID:       077cb5fe-32e5-4c0b-ae85-9966741d4a14
-    :DRILL_LAST_INTERVAL: 134.5098
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 215.4847
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-11 Sat 12:06]
+    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 15:56]
     :END:
 How are charged particles added to
 an electromagnetic field?
