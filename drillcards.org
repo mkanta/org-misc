@@ -2394,6 +2394,18 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
+    :PROPERTIES:
+    :ID:       8e91b202-18cc-4812-8941-4cb68fed97ee
+    :END:
+Are there any datatypes
+that are not algebraic
+in Haskell?
+**** Answer:
+Yes, in-built datatypes like
+=Int=, =Float= are not algebraic 
+because they don't have 
+constructors.
+*** Types                                                             :drill:
     SCHEDULED: <2018-12-30 Sun>
     :PROPERTIES:
     :ID:       ada8ad27-b160-44f2-a34e-f915af3b44b5
@@ -2417,17 +2429,17 @@ certain access functions
 which implement access to
 certain fields.
 *** Types                                                             :drill:
-    SCHEDULED: <2018-12-30 Sun>
+    SCHEDULED: <2019-01-22 Tue>
     :PROPERTIES:
     :ID:       9dd69844-db40-4302-97c5-ef6292bf953a
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:00]
+    :DRILL_LAST_REVIEWED: [2018-12-30 Sun 15:44]
     :END:
 What is row 
 polymorphism?
@@ -6041,17 +6053,17 @@ The equivalent of the subset
 consisting of all /x ∈ X/ such that
 /f(x)=g(x)/ for morpisms /X→Y/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2018-12-30 Sun>
+    SCHEDULED: <2019-01-22 Tue>
     :PROPERTIES:
     :ID:       9d3ae010-5d67-485e-99ea-4fa9669686e3
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.6409
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 12:59]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-30 Sun 15:44]
     :END:
 What is a coequalizer in
 a category?
@@ -7758,6 +7770,9 @@ ie with a type argument
 and an argument of that
 type.
 *** Type Theory                                                       :drill:
+    :PROPERTIES:
+    :ID:       27ee6471-e73d-45e1-8bc7-2dd01a959da2
+    :END:
 Why is a dependent function
 type for /A:𝒰/ and /B:A→𝒰/ 
 written as a product
@@ -7769,6 +7784,9 @@ the sequences consist of
 function values indexed by
 the corresponding arguments.
 *** Type Theory                                                       :drill:
+    :PROPERTIES:
+    :ID:       a87dc826-c122-4c02-a398-323e88e4fbbd
+    :END:
 Why is a dependent pair
 type for /A:𝒰/ and
 /B:A→𝒰/ written as a sum
@@ -7782,6 +7800,9 @@ where /a/ can be interpreted
 as an index and /b/ as value 
 correponding to index /a/.
 *** Type Theory                                                       :drill:
+    :PROPERTIES:
+    :ID:       59c45430-c18b-44c9-8634-97330af6f80b
+    :END:
 What's the point of defining
 the recursor
 /rec(A×B,C) g (a,b):≡g a b/
@@ -7971,17 +7992,17 @@ A rule that describes how
 an eliminator acts on a
 constructor.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2018-12-30 Sun>
+    SCHEDULED: <2019-01-09 Wed>
     :PROPERTIES:
     :ID:       f91ca1ea-7334-49ea-8ef4-36c2b9193db8
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-26 Wed 13:57]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-30 Sun 15:45]
     :END:
 What are /introduction/
 rules for a type?
@@ -10551,18 +10572,70 @@ the phenomenologies, as
 happens with observers in
 relativity who all perceive
 the same speed of light.
+*** Quantization                                                      :drill:
+How to construct a phase-space
+function from an operator?
+**** Answer:
+Via the Wigner transform
+/f(p,q)=∫dy exp(-2ipy/ℏ)⟨q+y|Φ|q-y⟩/.
+*** Quantization                                                      :drill:
+How are operators representing
+an observable related to their
+phase-space representation?
+**** Answer:
+That depends on the exact 
+representation of these distributions
+but most commonly the operator is
+mapped to phase-space via the
+Wigner transform.
+*** Quantization                                                      :drill:
+What is the essence of the
+phase-space formulation of
+quantum mechanics?
+**** Answer:
+Here, quantum systems are
+described by quasiprobability
+distributions /f(x,p)/ on 
+phase space and operator 
+products are replaced by
+a non-commutative star 
+multiplication.
+*** Quantization                                                      :drill:
+Why is the Poisson bracket
+difficult to accomodate in
+quantization procedures?
+**** Answer:
+Because the requirements
+that /n↦Qₙ/ be linear and
+/[Qₙ,Qₘ]=iℏ Q_{n,m}/ with
+Poisson bracket /{n,m}/ are
+inconsistent with the usual
+quantization where position
+is the multiplication 
+operator and momentum is
+/-iℏ∂ₓ/.
+*** Quantization                                                      :drill:
+What is it that is
+actually quantized
+in quantum mechanics?
+**** Answer:
+Functions on classical /phase space/,
+ie functions in generalized
+position and momentum variables are
+quantized by assigning an operator
+/Qₐ/ to function /a/.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2018-12-30 Sun>
+    SCHEDULED: <2019-01-12 Sat>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 9.7296
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 13.096
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.9
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:03]
+    :DRILL_LAST_REVIEWED: [2018-12-30 Sun 16:51]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
