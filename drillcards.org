@@ -2394,15 +2394,39 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
+    SCHEDULED: <2019-01-07 Mon>
+    :PROPERTIES:
+    :ID:       637f3d43-d8d1-4cc7-9c3c-7c12a4d0ebef
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:21]
+    :END:
 What is the main point
 when constructing Gadts?
 **** Answer:
 That the constructors can
-have any datatype as long
+have any signature as long
 as they return a =T a= for
 some =a= when constructing
 a =data T a=.
 *** Types                                                             :drill:
+    SCHEDULED: <2019-01-07 Mon>
+    :PROPERTIES:
+    :ID:       c43161d2-52e1-4b6c-b601-0ee1dceea559
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:22]
+    :END:
 What is the real clincher
 for using Gadts?
 **** Answer:
@@ -3582,17 +3606,17 @@ by the implementation of
 the function, not its caller.
 ** purescript
 *** Psc-package                                                       :drill:
-    SCHEDULED: <2019-01-03 Thu>
+    SCHEDULED: <2019-01-23 Wed>
     :PROPERTIES:
     :ID:       598e21d3-4f68-46ce-8562-552f2ae17994
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.884
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-25 Tue 17:22]
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:19]
     :END:
 How to create a purescript
 project meant to work with 
@@ -3603,17 +3627,17 @@ Run
 =pulp --psc-package init=
 in the project directory.
 *** Psc-package                                                       :drill:
-    SCHEDULED: <2019-01-03 Thu>
+    SCHEDULED: <2019-01-24 Thu>
     :PROPERTIES:
     :ID:       5b06663a-eb99-473c-b545-1793213c643d
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-25 Tue 17:21]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:16]
     :END:
 Why is it better to use
 =pulp --psc-package init=
@@ -3631,17 +3655,17 @@ only installs /Prelude/
 and some of the functionality
 would be missing.
 *** Psc-package                                                       :drill:
-    SCHEDULED: <2019-01-03 Thu>
+    SCHEDULED: <2019-01-23 Wed>
     :PROPERTIES:
     :ID:       424913d1-9741-46ad-8bff-f526e6b243fe
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.884
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-25 Tue 17:20]
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:17]
     :END:
 What is the problem with
 =psc-package repl=?
@@ -5427,17 +5451,17 @@ tex-installation.
 * Gnosis
 ** Alchemy
 *** hermes                                                            :drill:
-    SCHEDULED: <2019-01-03 Thu>
+    SCHEDULED: <2019-03-22 Fri>
     :PROPERTIES:
     :ID:       4c21095d-4073-42f9-a149-ede18945d795
-    :DRILL_LAST_INTERVAL: 41.8754
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 78.3907
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-22 Thu 12:30]
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:22]
     :END:
 In which sense conforms
 Condensed Matter Physics
@@ -9733,17 +9757,17 @@ with an annihilation operator results in a counting
 operator which counts the number of particles of
 a given type in a given state.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-01-03 Thu>
+    SCHEDULED: <2019-01-09 Wed>
     :PROPERTIES:
     :ID:       b088e6b3-916c-443b-837a-23db646df091
-    :DRILL_LAST_INTERVAL: 5.1054
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 6.1112
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 3
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.24
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 14:54]
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:18]
     :END:
 What is the problem with allowing infinitely
 many particles in a field theory?
