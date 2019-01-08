@@ -1844,17 +1844,17 @@ for a pattern, eg
 the name ~s~ for the
 pattern ~(x:xs)~.
 *** Persistent Database						      :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-02-28 Thu>
     :PROPERTIES:
     :ID:       95bbedc2-6598-4497-a9ab-2d0ef5010141
-    :DRILL_LAST_INTERVAL: 23.2095
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 51.5251
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:16]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 14:58]
     :END:
 What is the problem when
 running a query without a
@@ -1866,17 +1866,17 @@ exist or its schemata have
 changed from what Haskell
 thinks they should be.
 *** Persistent Database						      :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-02-26 Tue>
     :PROPERTIES:
     :ID:       76b97043-e5b8-466c-9dc8-5ac7ad1adb38
-    :DRILL_LAST_INTERVAL: 23.2095
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.2718
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:15]
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 14:56]
     :END:
 Is it possible to do a
 =runSqlite= without a
@@ -2394,17 +2394,17 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-01-16 Wed>
     :PROPERTIES:
     :ID:       637f3d43-d8d1-4cc7-9c3c-7c12a4d0ebef
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.4145
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:21]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 14:54]
     :END:
 What is the main point
 when constructing Gadts?
@@ -2415,17 +2415,17 @@ as they return a =T a= for
 some =a= when constructing
 a =data T a=.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-01-16 Wed>
     :PROPERTIES:
     :ID:       c43161d2-52e1-4b6c-b601-0ee1dceea559
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:22]
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 14:55]
     :END:
 What is the real clincher
 for using Gadts?
@@ -2916,17 +2916,17 @@ which would make sure that
 the list argument is not
 empty.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       f89b5d1b-c91d-4d88-8f14-fa4036730aac
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.5513
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 14:55]
     :END:
 Why is the GADT designation
 a bit of a misnomer?
@@ -2935,17 +2935,17 @@ Because it /generalises/
 union types rather than
 algebraic datatypes.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       ce889601-5b44-478e-83a7-65f80cde3eb7
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.5513
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 14:58]
     :END:
 What is the difference
 between /Algebraic/ and
@@ -2965,17 +2965,17 @@ points of operators on
 sets as well.
 https://cstheory.stackexchange.com/questions/10594/whats-the-difference-between-adts-gadts-and-inductive-types
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       814a9a18-1398-4132-aa17-d6f799b20bfe
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.5513
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 15:01]
     :END:
 What is the difference
 of /Algebraic/ and
@@ -2993,17 +2993,17 @@ different constructors can
 return values of different
 types.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       a0496078-9d22-4ded-a6d1-eb72a7c3be49
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.5513
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:53]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 15:00]
     :END:
 What is the difference
 between /Algebraic/ and
@@ -3021,17 +3021,17 @@ sums, products and recursively
 defined /types/ but not 
 /type operators/.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-02-18 Mon>
     :PROPERTIES:
     :ID:       98452516-45e9-49f6-97ab-cfe2e552b818
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-18 Tue 11:52]
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 14:59]
     :END:
 What are inductive types?
 **** Answer:
@@ -7564,17 +7564,17 @@ The constraint that proofs
 can use neither /weakening/ nor
 /contraction/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-01-07 Mon>
+    SCHEDULED: <2019-10-16 Wed>
     :PROPERTIES:
     :ID:       fa0ddc86-9cc4-4d00-8f59-827489d0a404
-    :DRILL_LAST_INTERVAL: 122.3774
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 281.7128
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-07 Fri 13:29]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-07 Mon 14:59]
     :END:
 In which sense is the use of
 the tensor symbol ⊗ for the
@@ -8353,6 +8353,72 @@ logic. Type theory only has
 identified with particular 
 types.
 ** Probability
+*** Distributions                                                     :drill:
+What is the point of
+/quasi-probability distributions/?
+**** Answer:
+That they yield /expectations/ like
+normal probability distributions
+even though some of the other Axioms
+of Kolmogorov may not be satisfied.
+This makes them useful in quantum theory
+where expectations are required but
+amplitudes can be negative.
+*** Distributions                                                     :drill:
+What is the feature that distinguishes
+quasi-probability distributions from
+ordinary probability distributions?
+**** Answer:
+Their lack of /σ-additivity/. Quasi
+probabilities in quantum theory
+also have negative regions.
+*** Nonlocal Fields                                                   :drill:
+    SCHEDULED: <2019-04-15 Mon>
+    :PROPERTIES:
+    :ID:       b7fa847e-c76a-4b6e-9450-e455fa646d3c
+    :DRILL_LAST_INTERVAL: 110.3969
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-26 Wed 13:54]
+    :END:
+How are non-locality
+and boundary conditions
+related?
+**** Answer:
+Boundaries may induce 
+non-locality, for example
+if a gas is constrained by
+a boundary causing reflection
+of particles back into
+the gas. This creates a
+dependency on previous events
+and causes a nonlocality in
+time.
+*** Nonlocal Fields                                                   :drill:
+    SCHEDULED: <2019-03-18 Mon>
+    :PROPERTIES:
+    :ID:       96e3df09-a54e-4d90-b463-830e7bc2bcd4
+    :DRILL_LAST_INTERVAL: 92.9635
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:24]
+    :END:
+What is a non-local field?
+**** Answer:
+A field /φ(p)+ρ∫φ(p+π)dπ/
+where the value at
+point /p/ doesn't depend
+only on the value at /p/
+but also on values at
+other points /p+π/.
 *** Processes                                                         :drill:
     SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
@@ -8467,53 +8533,6 @@ counting measures on a
 separable, second countable
 Hausdorff space with its
 usual ~σ~ algebra.
-*** Nonlocal Fields                                                   :drill:
-    SCHEDULED: <2019-03-18 Mon>
-    :PROPERTIES:
-    :ID:       96e3df09-a54e-4d90-b463-830e7bc2bcd4
-    :DRILL_LAST_INTERVAL: 92.9635
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:24]
-    :END:
-What is a non-local field?
-**** Answer:
-A field /φ(p)+ρ∫φ(p+π)dπ/
-where the value at
-point /p/ doesn't depend
-only on the value at /p/
-but also on values at
-other points /p+π/.
-*** Nonlocal Fields                                                   :drill:
-    SCHEDULED: <2019-04-15 Mon>
-    :PROPERTIES:
-    :ID:       b7fa847e-c76a-4b6e-9450-e455fa646d3c
-    :DRILL_LAST_INTERVAL: 110.3969
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-26 Wed 13:54]
-    :END:
-How are non-locality
-and boundary conditions
-related?
-**** Answer:
-Boundaries may induce 
-non-locality, for example
-if a gas is constrained by
-a boundary causing reflection
-of particles back into
-the gas. This creates a
-dependency on previous events
-and causes a nonlocality in
-time.
 *** Random Fields                                                     :drill:
     SCHEDULED: <2019-02-25 Mon>
     :PROPERTIES:
@@ -9054,6 +9073,19 @@ a Lagrangian and its
 Hamiltonian is the 
 Poisson bracket of it.
 ** R&D
+*** Overcomplete Bases                                                :drill:
+In which sense could the 
+set /{Hⁿv|n∈ℕ}/ for Hamiltonian
+/H/ be useful as a basis for a
+Hilbert space?
+**** Answer:
+Like the set of coherent
+states, it could be an overcomplete
+basis for the Hilbert space and
+still yield useful values for
+operator expectations, as long
+as their density matrix is
+diagonalisable.
 *** Hamiltonians                                                      :drill:
     SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
@@ -9469,6 +9501,45 @@ which can be written
 /D(Λ⁻¹)ᵐₙΦⁿ(Λx)/ using
 sum convention and Dirac
 matrices /D/.
+*** Hilbert Space                                                     :drill:
+Why are coherent states
+still useful, despite
+their non-orthogonality?
+**** Answer:
+Because their density 
+operator /ρ̂/ can be diagonalised,
+ie. /ρ̂=∫f(α,α*)|α⟩⟨α|d²α/ with
+a quasiprobability /f(α,α*)/.
+*** Hilbert Space
+What makes the use of coherent
+spaces so attractive in quantum
+optics?
+**** Answer:
+The /optical equivalence theorem/, which
+states that the expectation of an operator
+/g(Ω,â,â⁺)/ expressible as power series in
+/â, â⁺/ with respect to order /Ω/ is
+/⟨g(Ω,â,â⁺)⟩=∫f(Ω,α,α*)g(Ω,α,α*)dα dα*/
+with a quasiprobability /f/ that depends
+on the ordering /Ω/ of the operators.
+*** Hilbert Space                                                     :drill:
+How does the /Wigner/ quasiprobability 
+arise in quantum optics?
+**** Answer:
+It the trace function /f/ for which
+/⟨g(Ω,â,â⁺)⟩=∫f(Ω,α,α*)g(Ω,α,α*)dα dα*/
+according to the optical equivalence
+theorem, with symmetrized operator 
+ordering /Ω/.
+
+*** Hilbert Space                                                     :drill:
+Can coherent states
+be used as a basis for
+Fock spaces?
+**** Answer:
+No, they are overcomplete
+and no two coherent states
+/|α⟩, |β⟩/ are orthogonal.
 *** Hilbert space						      :drill:
     SCHEDULED: <2019-01-23 Wed>
     :PROPERTIES:
@@ -9818,6 +9889,53 @@ What is he S-matrix?
 The matrix that transforms the basis constructed
 from one-particle states at time /t=-∞/ to 
 that constructed at /t=∞/.
+*** Measurement                                                       :drill:
+What is the meaning
+of non-diagonal, non-
+zero elements in a
+density matrix?
+**** Answer:
+These are variables 
+containing information
+about /quantum coherence/
+between the states of 
+the system.
+(See Lindblad equation)
+*** Measurement                                                       :drill:
+What is the difference
+between /⟨A⟩/ and /⟨φ|A|φ⟩/
+for operator /A/?
+**** Answer:
+They are the same if the
+system is known to be in
+state /φ/, otherwise
+/⟨A⟩=∑pⱼ⟨φⱼ|A|φⱼ⟩=tr(ρA)/
+where /ρ=∑pⱼ|φⱼ⟩⟨φⱼ|/ is
+the density matrix.
+*** Measurement                                                       :drill:
+How is the density
+matrix used in a 
+measurement?
+**** Answer:
+To obtain the total
+expectation of an operator
+from the expectations of
+the pure states as
+/⟨A⟩=∑pⱼ⟨φⱼ|A|φⱼ⟩/, which
+can be written as
+/tr(ρA)/ with density matrix
+/ρ=∑pⱼ|φⱼ⟩⟨φⱼ|/.
+*** Measurement                                                       :drill:
+Are trace functions
+/f/ from density operators
+/ρ=∫dx f(x)|φₓ⟩⟨φₓ|/ always
+probability distributions?
+**** Answer:
+Not if the system /|φₓ⟩/ is
+overcomplete, in that case,
+/f/ may be only a quasi-probability
+distribution. The only guarantee
+is /tr(ρ)=∫dx f(x)=1/.
 *** Measurement                                                       :drill:
     SCHEDULED: <2019-05-29 Wed>
     :PROPERTIES:
