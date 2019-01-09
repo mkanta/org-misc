@@ -304,6 +304,31 @@ involving tensors and operations
 on them as a graph that describes
 a computation and the subsequent
 execution of the description.
+** build tools
+*** cmake                                                             :drill:
+    SCHEDULED: <2019-01-13 Sun>
+    :PROPERTIES:
+    :ID:       5a477795-a274-43a0-ad71-f632de5c466b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:40]
+    :END:
+How does /cmake/ compare
+to /make/?
+**** Answer:
+Not at all, /cmake/ is 
+a generalisation of /autotools/
+to more systems than just
+unix, generating buildfiles
+for different systems. Thus
+when used on unix-like
+systems it is more comparable
+to /automake/ than /make/.
 ** elixir 
 *** expressions                                                       :drill:
     SCHEDULED: <2019-02-25 Mon>
@@ -2550,17 +2575,17 @@ Because this brings in the
 =fmap= of =((->) e)=, which is
 composition.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-25 Fri>
     :PROPERTIES:
     :ID:       8e719c1e-ee1f-4195-8a16-0e5ef82002f1
-    :DRILL_LAST_INTERVAL: 8.2449
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 15.5994
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-01 Tue 17:44]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:31]
     :END:
 What is the significance
 of the =((->) e)= monad
@@ -3236,17 +3261,17 @@ Note that this requires
 extensions =DataKinds=
 and =TypeLevels=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       387eef7a-4728-4b2f-8f58-d5bed992c965
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-20 Thu 13:02]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:36]
     :END:
 How to define type
 level functions?
@@ -3324,17 +3349,17 @@ example the kind =Bool= can
 only have types ='True= and
 ='False=.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       0b9f2944-7f8a-4334-ac07-daf4ad41dcbd
-    :DRILL_LAST_INTERVAL: 19.2447
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 40.6641
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-21 Fri 11:15]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:38]
     :END:
 What is the difference
 between the kinds produced
@@ -3347,17 +3372,17 @@ activating =PolyKinds= will
 result in them both being
 matched by kind variables ~k~.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       66073c9c-db7d-418c-98dd-4af932fba365
-    :DRILL_LAST_INTERVAL: 19.2447
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 40.6641
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-21 Fri 11:22]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:39]
     :END:
 What is the difference
 in kind annotations 
@@ -3510,17 +3535,17 @@ operator before the type-name.
 For example, ~read @Int~ returns
 ~read @Int :: String -> Int~.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-05-26 Sun>
     :PROPERTIES:
     :ID:       6ab89465-7b29-4090-892e-b6a9bf7dc96e
-    :DRILL_LAST_INTERVAL: 57.3956
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 136.5441
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-13 Tue 18:31]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:35]
     :END:
 What is type application
 with ~@~ all about?
@@ -4845,6 +4870,21 @@ A buffer for a commit message
 pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
+*** git and versions                                                  :drill:
+    :PROPERTIES:
+    :ID:       36c234e2-b4d7-4f8e-a16c-0e01eace0119
+    :END:
+What to do when installing
+software from a git-repository
+with respect to versions?
+**** Answer:
+Clone the master branch and
+run =git tag -l= to see what
+version numbers are available.
+Then check out the desired
+version with 
+=git checkout -b <local_branch_name> <tagname>=
+and compile in =<local_branch_name>=.
 *** git                                                               :drill:
     SCHEDULED: <2019-02-04 Mon>
     :PROPERTIES:
@@ -5870,17 +5910,17 @@ Personal Pronoun first person: I, me, we, us
 **** Answer:
 one, a little
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-17 Thu>
     :PROPERTIES:
     :ID:       8fbf1c2f-dd1a-4f24-9dc7-eab876b9f928
-    :DRILL_LAST_INTERVAL: 7.6096
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 38
+    :DRILL_LAST_INTERVAL: 8.401
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 39
     :DRILL_FAILURE_COUNT: 14
-    :DRILL_AVERAGE_QUALITY: 2.632
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.641
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-01 Tue 17:43]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:33]
     :END:
 是
 **** Answers:
@@ -7626,6 +7666,38 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
+    :PROPERTIES:
+    :ID:       4316a603-18d6-4b53-8ace-fd27cfa1dd7e
+    :END:
+What is an extensional
+definition?
+**** Answer:
+A definition which defines
+by listing everything that
+falls under that definition.
+*** Logic                                                             :drill:
+    SCHEDULED: <2019-01-13 Sun>
+    :PROPERTIES:
+    :ID:       6849db16-390c-45fd-92fe-cac3ff6abd81
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:41]
+    :END:
+What is an intensional 
+definition?
+**** Answer:
+A definition using logic
+to describe necessary and
+sufficient conditions for
+the use of a term, for example
+by listing the properties a 
+noun should have.
+*** Logic                                                             :drill:
     SCHEDULED: <2019-01-20 Sun>
     :PROPERTIES:
     :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
@@ -7746,17 +7818,17 @@ a given logic. For example, in
 linear logic /A ⊢ B/ means 
 /⊢ A ⊸ B/, there is no /→/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-03-08 Fri>
     :PROPERTIES:
     :ID:       85181995-f4ac-4ded-9e96-27da446e58a8
-    :DRILL_LAST_INTERVAL: 24.39
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 58.0238
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:31]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:42]
     :END:
 What is the redeeming
 quality of Presburger
@@ -7826,6 +7898,119 @@ As, for example
 ie with a type argument
 and an argument of that
 type.
+*** Type Theory                                                       :drill:
+    SCHEDULED: <2019-01-13 Sun>
+    :PROPERTIES:
+    :ID:       d4949e57-98c3-4f1b-badd-4ab83523069e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:41]
+    :END:
+What is the point of Homotopy
+Type Theory?
+**** Answer:
+It aims to be an intensional
+type theory that avoids the
+usual difficulties in representing
+and handling common mathematical 
+objects inherent in such theories.
+*** Type Theory                                                       :drill:
+    SCHEDULED: <2019-01-13 Sun>
+    :PROPERTIES:
+    :ID:       45a17d44-54b1-4d8e-abf7-054297a79573
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:40]
+    :END:
+How does Homotopy Type Theory
+avoid the difficulties in
+representing common mathematical
+objects inherent in an intensional
+type theory?
+**** Answer:
+By allowing higher order
+constructors constructing
+elements of equality datatypes
+and equality datatypes of
+equality datatypes ad
+infinitum.
+*** Type Theory                                                       :drill:
+    SCHEDULED: <2019-01-13 Sun>
+    :PROPERTIES:
+    :ID:       824bb053-8130-47ed-a712-c09abef4c409
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:34]
+    :END:
+Why is an intensional type
+theory desirable as underpinning
+for a programming language?
+**** Answer:
+Because type checking is decidable
+in an intensional theory as
+definitional and propositional
+equality are distinguished.
+*** Type Theory                                                       :drill:
+    SCHEDULED: <2019-01-13 Sun>
+    :PROPERTIES:
+    :ID:       4dad8346-9d81-495d-8d70-8c85d3e3cb64
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:39]
+    :END:
+What is the determining
+feature of /extensional/
+type theory?
+**** Answer:
+The fact that there is no
+distinction between definitional
+and propositional equality, 
+presumably due to the fact that
+entities are defined extensionally,
+ie. by listing all inhabitants of
+a type.
+*** Type Theory                                                       :drill:
+    SCHEDULED: <2019-01-13 Sun>
+    :PROPERTIES:
+    :ID:       283f3d0e-c06f-458d-8c8a-62e81be59bcd
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:37]
+    :END:
+What is the problem
+with /intensional/ type
+theory?
+**** Answer:
+The representation of
+standard mathematical
+concepts, such as numbers
+is more cumbersome than
+in /extensional/ type theory
 *** Type Theory                                                       :drill:
     SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
@@ -7916,17 +8101,17 @@ theoretically?
 As a family of types
 /P:ℕ→𝒰/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-13 Sun>
     :PROPERTIES:
     :ID:       628fe854-e0ef-4657-853c-b9dc7d05f346
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:35]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:43]
     :END:
 What are the elimination
 rules for the product
@@ -7936,17 +8121,17 @@ Functions /f:A×B→C/
 out of the product 
 type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-13 Sun>
     :PROPERTIES:
     :ID:       747e5dee-673e-42e9-9ade-c4d02b68a49e
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:38]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:43]
     :END:
 What are the computation
 rules of the product type
@@ -7958,17 +8143,17 @@ to a function application
 of /g:A→B→C/ via
 /f((a,b)):≡ g(a)(b)./
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       6063aab4-098a-460a-a2c5-b80171f99513
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:46]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:30]
     :END:
 What are the introduction
 rules for a product type
@@ -7978,35 +8163,35 @@ Elements of /A×B/ are constructed
 from /a:A/ and /b:B/ as tuples
 /(a,b):A×B/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-30 Wed>
     :PROPERTIES:
     :ID:       9aa3075b-6b04-44f9-903a-8b4eb95ee655
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:45]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:29]
     :END:
-What are the constructor
+What are the constructors
 of function types?
 **** Answer:
 Lambda expressions
 /λx.Φ/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       f9817a42-8b33-4c24-aa80-181f63bacb1c
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:40]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:27]
     :END:
 What is a /computation rule/
 for a type?
@@ -8015,17 +8200,17 @@ It expresses how an
 eliminator acts on a
 constructor.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       5c576202-e425-4fb2-a036-b4ef5349f747
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:42]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:28]
     :END:
 What is the computation 
 rule for a function type?
@@ -8034,17 +8219,17 @@ That /(λx.Φ)(a)/ is judgementally
 equal to substitution of /a/ for
 /x/ in /Φ/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       e3971e4b-8952-4776-bc44-fe98cc2e9769
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:39]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:32]
     :END:
 What is an /inductive/
 type?
@@ -8057,17 +8242,17 @@ no elements beyond those
 constructed by the 
 constructors.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       960e1e54-a7bf-4996-84b5-cbbb178a8e35
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:35]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:26]
     :END:
 What is a computation
 rule for a type?
@@ -8076,17 +8261,17 @@ A rule that describes how
 an eliminator acts on a
 constructor.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-02-01 Fri>
     :PROPERTIES:
     :ID:       f91ca1ea-7334-49ea-8ef4-36c2b9193db8
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.6409
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-30 Sun 15:45]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:30]
     :END:
 What are /introduction/
 rules for a type?
@@ -8094,17 +8279,17 @@ rules for a type?
 These are the constructors
 of a type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       27ccbe6d-3929-49de-9335-f64a8e5258af
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:43]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:30]
     :END:
 What are the eliminators
 of a type?
@@ -8112,17 +8297,17 @@ of a type?
 These are rules on how to
 use the elements of a type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-13 Sun>
     :PROPERTIES:
     :ID:       46b0c6b6-592b-4201-aa85-ea4f6416a7fb
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:44]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:42]
     :END:
 What are the eliminators of
 the function type?
@@ -8131,17 +8316,17 @@ The function type only has
 one eliminator,
 /function application/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       9c9c5c2f-9777-46c6-9066-5f1e7582f484
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:37]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:26]
     :END:
 What is a dependent function
 type?
@@ -8153,17 +8338,17 @@ as functions whose return type
 /B(x)/ depends on its argument 
 type /x/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       7ff87fff-3fca-45ac-9c07-b4772c148665
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:34]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:27]
     :END:
 How is the dependent function
 type /∏(x:A),B(x):𝒰/ related to
@@ -8173,17 +8358,17 @@ If /B(x)≡B/ is the constant
 family then
 /∏(x:A),B(x)≡(A→B)/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       4f522476-5489-4ecf-b30d-f450793a8ca4
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:45]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:31]
     :END:
 How are predicates
 constructed in type theory?
@@ -8354,8 +8539,17 @@ identified with particular
 types.
 ** Probability
 *** Distributions                                                     :drill:
+    SCHEDULED: <2019-01-13 Sun>
     :PROPERTIES:
     :ID:       2b190a37-9bc7-4f7a-be59-498a92580b42
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:35]
     :END:
 What is the point of
 /quasi-probability distributions/?
@@ -9590,8 +9784,17 @@ states that the expectation of an operator
 with a quasiprobability /f/ that depends
 on the ordering /Ω/ of the operators.
 *** Hilbert Space                                                     :drill:
+    SCHEDULED: <2019-01-13 Sun>
     :PROPERTIES:
     :ID:       99779ac6-f329-4e0d-849a-8cb89c37d998
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:37]
     :END:
 How does the /Wigner/ quasiprobability 
 arise in quantum optics?
@@ -9910,17 +10113,17 @@ with an annihilation operator results in a counting
 operator which counts the number of particles of
 a given type in a given state.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-01-16 Wed>
     :PROPERTIES:
     :ID:       b088e6b3-916c-443b-837a-23db646df091
-    :DRILL_LAST_INTERVAL: 6.1112
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 6.7468
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 3
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:18]
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:34]
     :END:
 What is the problem with allowing infinitely
 many particles in a field theory?
@@ -10044,8 +10247,17 @@ can be written as
 /tr(ρA)/ with density matrix
 /ρ=∑pⱼ|φⱼ⟩⟨φⱼ|/.
 *** Measurement                                                       :drill:
+    SCHEDULED: <2019-01-13 Sun>
     :PROPERTIES:
     :ID:       a977f58a-e875-48e8-bbb8-442fc372f8d2
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:42]
     :END:
 Are trace functions
 /f/ from density operators
@@ -10081,17 +10293,17 @@ It is a special case
 of /Interaction/ which
 doesn't imply perception.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-01-09 Wed>
+    SCHEDULED: <2019-08-28 Wed>
     :PROPERTIES:
     :ID:       fa8b6c14-e9bd-425f-ab15-987940ee233f
-    :DRILL_LAST_INTERVAL: 106.8202
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 231.3726
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-24 Mon 18:55]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:41]
     :END:
 In which sense is parallel
 displacement like quantum
