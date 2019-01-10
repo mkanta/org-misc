@@ -1350,17 +1350,17 @@ right context, the type
 annotations aren't even
 necessary.
 *** Equivalencies                                                     :drill:
-    SCHEDULED: <2019-01-10 Thu>
+    SCHEDULED: <2019-06-16 Sun>
     :PROPERTIES:
     :ID:       6cbdd105-1720-4c0d-b90b-f706b4659f05
-    :DRILL_LAST_INTERVAL: 60.5827
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 157.3333
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.25
+    :DRILL_AVERAGE_QUALITY: 4.2
     :DRILL_EASE: 2.56
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-11-10 Sat 12:01]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:26]
     :END:
 Why are lambdas of the 
 sort ~f=\x -> g x~ normally
@@ -2795,17 +2795,17 @@ parametrized type with
 a type with one inhabitant
 for each parameter value.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-08 Tue>
+    SCHEDULED: <2019-02-21 Thu>
     :PROPERTIES:
     :ID:       86001f28-5ea1-40d2-ac0a-c6c53f29a587
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:52]
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:24]
     :END:
 What is the point of
 getting a /kind/ in addition
@@ -2845,17 +2845,17 @@ data SingDS::DoorState->* where
    SLocked :: SingDS 'Locked
 #+END_SRC
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-08 Tue>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       2fd5a316-b8ab-4334-90eb-2ea74835d0ce
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.5513
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:50]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:23]
     :END:
 What is the effect of
 the Haskell =DataKinds=
@@ -3629,187 +3629,6 @@ functions, the higher type
 variables are determined
 by the implementation of 
 the function, not its caller.
-** purescript
-*** Psc-package                                                       :drill:
-    SCHEDULED: <2019-01-23 Wed>
-    :PROPERTIES:
-    :ID:       598e21d3-4f68-46ce-8562-552f2ae17994
-    :DRILL_LAST_INTERVAL: 19.884
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:19]
-    :END:
-How to create a purescript
-project meant to work with 
-/psc-package/ rather than
-bower?
-**** Answer:
-Run 
-=pulp --psc-package init=
-in the project directory.
-*** Psc-package                                                       :drill:
-    SCHEDULED: <2019-01-24 Thu>
-    :PROPERTIES:
-    :ID:       5b06663a-eb99-473c-b545-1793213c643d
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:16]
-    :END:
-Why is it better to use
-=pulp --psc-package init=
-rather than just
-=pulp init= and then removing
-/bower.json/ followed by
-=psc-package init=?
-**** Answer:
-Because =pulp init= installs
-some dependencies in addition
-to /Prelude/ for running the
-repl and in- and output. On
-the other hand, =psc-package=
-only installs /Prelude/
-and some of the functionality
-would be missing.
-*** Psc-package                                                       :drill:
-    SCHEDULED: <2019-01-23 Wed>
-    :PROPERTIES:
-    :ID:       424913d1-9741-46ad-8bff-f526e6b243fe
-    :DRILL_LAST_INTERVAL: 19.884
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:17]
-    :END:
-What is the problem with
-=psc-package repl=?
-**** Answer:
-It requires the /psci-support/
-package as a dependency. Install
-with 
-=psc-package install psci-support=
-*** Psc-package installation                                          :drill:
-    SCHEDULED: <2019-01-29 Tue>
-    :PROPERTIES:
-    :ID:       ae992127-3693-4e49-af52-038b38d60360
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 13:55]
-    :END:
-How should =psc-package= be 
-installed?
-**** Answer:
-Ideally with =stack install=
-run from inside a repository
-clone. Source unpacking with
-=stack unpack= doesn't seem
-to work, it's probably not
-on Hackage.
-*** Pulp and Psc-Package                                              :drill:
-    SCHEDULED: <2019-01-31 Thu>
-    :PROPERTIES:
-    :ID:       1b0b167c-48b2-4dbc-8ea7-66ae62787f84
-    :DRILL_LAST_INTERVAL: 26.8803
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.667
-    :DRILL_EASE: 2.7
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-01-04 Fri 13:41]
-    :END:
-How to make sure =pulp= uses
-the dependencies from
-=psc-package= instead of
-=bower=?
-**** Answer:
-Whilst there is a 
-=–psc-package= option
-for =pulp= that can be used
-in its commands, the easiest
-way is to remove the =bower.json=
-file, it will fall back
-to the =psc-package= files.
-*** Purescript installation                                           :drill:
-    SCHEDULED: <2019-01-29 Tue>
-    :PROPERTIES:
-    :ID:       4e0772f9-83d8-44a4-b1d8-afa5af66acef
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 13:58]
-    :END:
-How should /purescript/ be
-installed?
-**** Answer:
-Ideally with /stack install/
-from either the github clone
-or the source unpacked via
-/stack unpack purescript/.
-*** Purescript and Bower                                              :drill:
-    SCHEDULED: <2019-01-28 Mon>
-    :PROPERTIES:
-    :ID:       43de4267-190e-4f32-abbf-f0b49cc51d5a
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 14:00]
-    :END:
-What to do about Bower's
-becoming obsolete?
-**** Answer:
-Use /psc-package/ as much
-as possible, it is meant
-as a stack-like replacement
-to manage package dependencies.
-*** Syntax                                                            :drill:
-    SCHEDULED: <2019-01-24 Thu>
-    :PROPERTIES:
-    :ID:       db6192ec-fcf8-42b5-a7ea-b8f22c7319b9
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-04 Fri 13:36]
-    :END:
-What does the =~>= arrow
-signify in purescript?
-**** Answer:
-It indicates a natural
-transformation between
-functors =F₁:: * -> *= and
-=F₂:: * -> *= where
-=f :: F₁ ~> F₂= means
-=f :: F₁ a -> F₂ a=,
-ie the type variable can be 
-omitted.
 ** javascript
 *** npm installation                                                  :drill:
     SCHEDULED: <2019-01-27 Sun>
@@ -4354,25 +4173,327 @@ to the calling context of whoever calls
 =this.funcname = (...) => {...}=, =this= always
 refers to the =this= of the defining context, 
 no matter who calls =objname.funcname=.
-** ubuntu
-*** terminal                                                          :drill:
-    SCHEDULED: <2019-02-03 Sun>
-    :PROPERTIES:
-    :ID:       08fa9fdc-2ff0-49d5-8bc5-520f485382c0
-    :DRILL_LAST_INTERVAL: 43.3861
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-22 Sat 16:56]
-    :END:
-How to put a unicode
-character into an lxterminal?
+** root cern
+*** installation                                                      :drill:
+How to build and install
+/cern-root/?
 **** Answer:
-Use something like
-=echo -e '\u<unicode>'=.
+Run =cmake <options> <path-to-source>=
+from an empty directory outside of
+the source, then =cmake –build .=
+from the same directory. On debian
+like systems install with
+=checkinstall -D make install= to
+get a debian package.
+*** installation                                                      :drill:
+How to install root
+so that the binaries end
+up in the normal system
+binaries?
+**** Answer:
+By setting variable ~gnuinstall~
+to ~ON~, ie by including
+~-Dgnuinstall=ON~ in the /cmake/
+command line.
+*** installation                                                      :drill:
+Is it possible to change the
+install location for /root/?
+**** Answer:
+Yes, set =CMAKE_INSTALL_PREFIX=
+to the desired install directory,
+ie with ~-DCMAKE_INSTALL_PREFIX=<directory>~
+in the /cmake/ command line.
+*** installation                                                      :drill:
+Can /root/ be installed in
+~/usr/local~?
+**** Answer:
+Yes, but this may need some
+extra configuration, in particular
+=/usr/local/lib/root= needs to be
+added to =/etc/ld.so.conf= and
+a postinstall =sudo ldconfig=
+is required.
+*** installation                                                      :drill:
+Can /root/ be made to use /python3/
+even if it is not the default
+python on the system?
+**** Answer:
+Yes, use ~-Dpython_version=3~
+in the =cmake= command line.
+*** installation                                                      :drill:
+What to do if =cmake= complains
+about not being able to find
+a suitable version of the python
+libraries?
+**** Answer:
+Set ~-DPYTHON_LIBRARY~ and
+~-DPYTHON_INCLUDE~ on the 
+=cmake= command line.
+*** installation                                                      :drill:
+What needs to be observed
+when installing /root/ with
+python3 on a system where this
+is not the default?
+**** Answer:
+Make sure the correct python
+libraries are installed, ie for
+/NumPy/ the correct =NUMPY_INCLUDE=
+directory may have to be configured
+on the =cmake= command line with the
+=-D= option.
+** purescript
+*** Psc-package                                                       :drill:
+    SCHEDULED: <2019-01-23 Wed>
+    :PROPERTIES:
+    :ID:       598e21d3-4f68-46ce-8562-552f2ae17994
+    :DRILL_LAST_INTERVAL: 19.884
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:19]
+    :END:
+How to create a purescript
+project meant to work with 
+/psc-package/ rather than
+bower?
+**** Answer:
+Run 
+=pulp --psc-package init=
+in the project directory.
+*** Psc-package                                                       :drill:
+    SCHEDULED: <2019-01-24 Thu>
+    :PROPERTIES:
+    :ID:       5b06663a-eb99-473c-b545-1793213c643d
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:16]
+    :END:
+Why is it better to use
+=pulp --psc-package init=
+rather than just
+=pulp init= and then removing
+/bower.json/ followed by
+=psc-package init=?
+**** Answer:
+Because =pulp init= installs
+some dependencies in addition
+to /Prelude/ for running the
+repl and in- and output. On
+the other hand, =psc-package=
+only installs /Prelude/
+and some of the functionality
+would be missing.
+*** Psc-package                                                       :drill:
+    SCHEDULED: <2019-01-23 Wed>
+    :PROPERTIES:
+    :ID:       424913d1-9741-46ad-8bff-f526e6b243fe
+    :DRILL_LAST_INTERVAL: 19.884
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-03 Thu 14:17]
+    :END:
+What is the problem with
+=psc-package repl=?
+**** Answer:
+It requires the /psci-support/
+package as a dependency. Install
+with 
+=psc-package install psci-support=
+*** Psc-package installation                                          :drill:
+    SCHEDULED: <2019-01-29 Tue>
+    :PROPERTIES:
+    :ID:       ae992127-3693-4e49-af52-038b38d60360
+    :DRILL_LAST_INTERVAL: 23.7949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 13:55]
+    :END:
+How should =psc-package= be 
+installed?
+**** Answer:
+Ideally with =stack install=
+run from inside a repository
+clone. Source unpacking with
+=stack unpack= doesn't seem
+to work, it's probably not
+on Hackage.
+*** Pulp and Psc-Package                                              :drill:
+    SCHEDULED: <2019-01-31 Thu>
+    :PROPERTIES:
+    :ID:       1b0b167c-48b2-4dbc-8ea7-66ae62787f84
+    :DRILL_LAST_INTERVAL: 26.8803
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.667
+    :DRILL_EASE: 2.7
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-01-04 Fri 13:41]
+    :END:
+How to make sure =pulp= uses
+the dependencies from
+=psc-package= instead of
+=bower=?
+**** Answer:
+Whilst there is a 
+=–psc-package= option
+for =pulp= that can be used
+in its commands, the easiest
+way is to remove the =bower.json=
+file, it will fall back
+to the =psc-package= files.
+*** Purescript installation                                           :drill:
+    SCHEDULED: <2019-01-29 Tue>
+    :PROPERTIES:
+    :ID:       4e0772f9-83d8-44a4-b1d8-afa5af66acef
+    :DRILL_LAST_INTERVAL: 23.7949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 13:58]
+    :END:
+How should /purescript/ be
+installed?
+**** Answer:
+Ideally with /stack install/
+from either the github clone
+or the source unpacked via
+/stack unpack purescript/.
+*** Purescript and Bower                                              :drill:
+    SCHEDULED: <2019-01-28 Mon>
+    :PROPERTIES:
+    :ID:       43de4267-190e-4f32-abbf-f0b49cc51d5a
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 14:00]
+    :END:
+What to do about Bower's
+becoming obsolete?
+**** Answer:
+Use /psc-package/ as much
+as possible, it is meant
+as a stack-like replacement
+to manage package dependencies.
+*** Syntax                                                            :drill:
+    SCHEDULED: <2019-01-24 Thu>
+    :PROPERTIES:
+    :ID:       db6192ec-fcf8-42b5-a7ea-b8f22c7319b9
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-04 Fri 13:36]
+    :END:
+What does the =~>= arrow
+signify in purescript?
+**** Answer:
+It indicates a natural
+transformation between
+functors =F₁:: * -> *= and
+=F₂:: * -> *= where
+=f :: F₁ ~> F₂= means
+=f :: F₁ a -> F₂ a=,
+ie the type variable can be 
+omitted.
+** ubuntu
+*** installing                                                        :drill:
+What is the problem
+with packages created
+by =checkinstall=?
+**** Answer:
+There are no pre- and
+postinstall activities,
+dependencies are usually
+lacking or incomplete. 
+This is mostly for easy
+removal and installation
+of identical systems.
+*** installing                                                        :drill:
+    SCHEDULED: <2019-01-14 Mon>
+    :PROPERTIES:
+    :ID:       5ac0ad42-e055-40d5-a188-aff37a3e71d9
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:25]
+    :END:
+What is the problem
+if a shared library
+can not be found even
+after running =ldconfig=
+with the =-n= option?
+**** Answer:
+This often happens when
+installing into a subdirectory
+of =/usr/local/lib=. Put the
+directory into =/etc/ld.so.conf=
+or in a /*.conf/ file in
+=/etc/ld.so.conf.d= and run
+=sudo ldconfig=. Check if
+the library is listed in 
+=ldconfig -p=.
+*** installing                                                        :drill:
+    SCHEDULED: <2019-01-14 Mon>
+    :PROPERTIES:
+    :ID:       82bc7440-8d23-4ef8-8abb-08d60bf9e795
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:25]
+    :END:
+How to install a 
+desktop file as a
+user so that
+it shows up in the 
+appropriate menus?
+**** Answer:
+With /desktop-file-install/
+using options
+–dir=~/.local/share/applications
+and –update-mime-database.
+*** packaging                                                         :drill:
+Is there a way to
+get dependencies
+useable with =checkinstall=?
+**** Answer:
+Possibly by using =auto-apt=
+as in
+=auto-apt run ./configure=.
 *** packaging                                                         :drill:
     SCHEDULED: <2019-01-31 Thu>
     :PROPERTIES:
@@ -4396,6 +4517,24 @@ distributions?
 It seems like ~AppImage~
 is the way to go, see
 https://appimage.org/.
+*** terminal                                                          :drill:
+    SCHEDULED: <2019-02-03 Sun>
+    :PROPERTIES:
+    :ID:       08fa9fdc-2ff0-49d5-8bc5-520f485382c0
+    :DRILL_LAST_INTERVAL: 43.3861
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-12-22 Sat 16:56]
+    :END:
+How to put a unicode
+character into an lxterminal?
+**** Answer:
+Use something like
+=echo -e '\u<unicode>'=.
 *** user interface                                                    :drill:
     SCHEDULED: <2019-04-07 Sun>
     :PROPERTIES:
@@ -4871,8 +5010,17 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git and versions                                                  :drill:
+    SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
     :ID:       36c234e2-b4d7-4f8e-a16c-0e01eace0119
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:26]
     :END:
 What to do when installing
 software from a git-repository
@@ -5453,17 +5601,17 @@ which do conversions. Bring it up
 as a binary file to prevent them,
 ie. ~gvim -b <filename>~.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-10 Thu>
+    SCHEDULED: <2019-03-30 Sat>
     :PROPERTIES:
     :ID:       759e488a-ca77-4630-8f85-4a889838d633
-    :DRILL_LAST_INTERVAL: 41.8754
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 79.2283
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-29 Thu 11:31]
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:27]
     :END:
 What to do if a pdf-qfd file
 becomes unreadable after making
@@ -6254,17 +6402,17 @@ The category of finite,
 morphisms are (nonstrictly)
 order preserving maps.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-10 Thu>
+    SCHEDULED: <2019-01-26 Sat>
     :PROPERTIES:
     :ID:       329ce0e8-4f7b-409f-9e83-a6d3d8d4a154
-    :DRILL_LAST_INTERVAL: 8.2449
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 15.5994
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-02 Wed 12:50]
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:20]
     :END:
 What is a simplicial
 set in the categorical
@@ -7666,8 +7814,17 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
+    SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
     :ID:       4316a603-18d6-4b53-8ace-fd27cfa1dd7e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:27]
     :END:
 What is an extensional
 definition?
@@ -8381,17 +8538,17 @@ to the proposition that /P/ holds
 for /a/.
 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-10 Thu>
+    SCHEDULED: <2019-02-03 Sun>
     :PROPERTIES:
     :ID:       ad6bf50d-6fd3-4d7a-a1c1-9f636cfd6d4b
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.7949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:44]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:21]
     :END:
 Why can the *0* type not
 be populated in a
@@ -9406,17 +9563,17 @@ it is negative somewhere or
 more singular than the /δ/
 function.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-01-10 Thu>
+    SCHEDULED: <2019-01-23 Wed>
     :PROPERTIES:
     :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
-    :DRILL_LAST_INTERVAL: 9.7296
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 13.096
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.909
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.917
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:42]
+    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:23]
     :END:
 How to handle particles
 in a relativistic context?
