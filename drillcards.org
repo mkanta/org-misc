@@ -3065,17 +3065,17 @@ data-types where the type variables
 can assume not only types but also
 values of the underlying types.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-11 Fri>
+    SCHEDULED: <2019-03-02 Sat>
     :PROPERTIES:
     :ID:       5de325cc-735f-4373-90ec-bd6c7f8ade8a
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.2628
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:53]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:29]
     :END:
 What is the advantage of having
 inductive types over just having
@@ -4175,6 +4175,18 @@ refers to the =this= of the defining context,
 no matter who calls =objname.funcname=.
 ** root cern
 *** installation                                                      :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       d9d24aba-edf5-44b2-b7f9-f77fbb9ab97d
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:29]
+    :END:
 How to build and install
 /cern-root/?
 **** Answer:
@@ -4186,16 +4198,40 @@ like systems install with
 =checkinstall -D make install= to
 get a debian package.
 *** installation                                                      :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       5c1d5b93-f4d4-45b1-8d09-d17e7512b435
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:31]
+    :END:
 How to install root
 so that the binaries end
 up in the normal system
-binaries?
+directories for binaries?
 **** Answer:
 By setting variable ~gnuinstall~
 to ~ON~, ie by including
 ~-Dgnuinstall=ON~ in the /cmake/
 command line.
 *** installation                                                      :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       3c21ffcf-c5f7-4aa3-922e-e279ebb68758
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:36]
+    :END:
 Is it possible to change the
 install location for /root/?
 **** Answer:
@@ -4204,6 +4240,18 @@ to the desired install directory,
 ie with ~-DCMAKE_INSTALL_PREFIX=<directory>~
 in the /cmake/ command line.
 *** installation                                                      :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       bf9a3eae-8527-44ae-8e1f-e219c1f047b0
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:37]
+    :END:
 Can /root/ be installed in
 ~/usr/local~?
 **** Answer:
@@ -4214,6 +4262,18 @@ added to =/etc/ld.so.conf= and
 a postinstall =sudo ldconfig=
 is required.
 *** installation                                                      :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       013150c4-e17f-4817-a52e-02459079f7e3
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:42]
+    :END:
 Can /root/ be made to use /python3/
 even if it is not the default
 python on the system?
@@ -4221,6 +4281,18 @@ python on the system?
 Yes, use ~-Dpython_version=3~
 in the =cmake= command line.
 *** installation                                                      :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       9449105f-e00c-4dce-af40-4e98519a5c53
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:37]
+    :END:
 What to do if =cmake= complains
 about not being able to find
 a suitable version of the python
@@ -4230,6 +4302,18 @@ Set ~-DPYTHON_LIBRARY~ and
 ~-DPYTHON_INCLUDE~ on the 
 =cmake= command line.
 *** installation                                                      :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       ff44f597-be3b-4189-b333-1079c0ae3d83
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:26]
+    :END:
 What needs to be observed
 when installing /root/ with
 python3 on a system where this
@@ -4424,6 +4508,18 @@ ie the type variable can be
 omitted.
 ** ubuntu
 *** installing                                                        :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       a7bd5708-ade6-4397-8c6a-3f1aeffbb9c8
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:41]
+    :END:
 What is the problem
 with packages created
 by =checkinstall=?
@@ -4434,7 +4530,7 @@ dependencies are usually
 lacking or incomplete. 
 This is mostly for easy
 removal and installation
-of identical systems.
+on identical systems.
 *** installing                                                        :drill:
     SCHEDULED: <2019-01-14 Mon>
     :PROPERTIES:
@@ -4487,6 +4583,18 @@ using options
 –dir=~/.local/share/applications
 and –update-mime-database.
 *** packaging                                                         :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       2bb49554-4787-4e2a-a9cd-a22c590bd98d
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:27]
+    :END:
 Is there a way to
 get dependencies
 useable with =checkinstall=?
@@ -5292,17 +5400,17 @@ remote was updated?
 **** Answer:
 With ~git remote show origin~.
 *** git 							      :drill:
-    SCHEDULED: <2019-01-11 Fri>
+    SCHEDULED: <2020-10-01 Thu>
     :PROPERTIES:
     :ID:       d4a5db39-5c21-4995-bffc-4651b109e447
-    :DRILL_LAST_INTERVAL: 224.5541
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 628.7515
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.6
+    :DRILL_AVERAGE_QUALITY: 4.5
     :DRILL_EASE: 2.8
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:44]
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:36]
     :END:
 What is the first thing to do
 when entering a directory managed with /git/?
@@ -5792,96 +5900,29 @@ sun?)
 The occurence of consecutive
 aspects of saturn, most notably
 with the native sun.
-** Naq Hammadi
-*** The Mustard Seed                                                  :drill:
-    SCHEDULED: <2019-01-24 Thu>
-    :PROPERTIES:
-    :ID:       b8b21574-6eea-4433-8832-1a02ce79213b
-    :DRILL_LAST_INTERVAL: 56.191
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-29 Thu 11:33]
-    :END:
-What is it that grows
-from the mustard seed
-in Christian terms?
-**** Answer:
-It is called ~faith~
-and needs to grow into
-a living being.
-*** The Word                                                          :drill:
-    SCHEDULED: <2019-01-17 Thu>
-    :PROPERTIES:
-    :ID:       6fc02f7a-dea4-4668-907e-43f1bb76cbf2
-    :DRILL_LAST_INTERVAL: 57.8097
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:50]
-    :END:
-What is the /Word/?
-**** Answer:
-The inherent purity that
-is corrupted by its 
-environment, an analogy
-to the teachings of Jesus
-residing in a corrupt body,
-the Church.
-*** Adam & Eve                                                        :drill:
-    SCHEDULED: <2019-01-12 Sat>
-    :PROPERTIES:
-    :ID:       a09c24da-6487-4c2c-935e-5f622f69fe3d
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-23 Sun 16:06]
-    :END:
-In which sense did the
-expulsion from paradise
-bar access to the tree
-of life?
-**** Answer:
-The resulting life of
-toil results in distraction
-by worldly affairs and 
-prevents devotion to the 
-/Holy Spirit/.
-(The Hypostasis of
-the Archeons, The
-Reality of the Rulers)
-*** Adam & Eve                                                        :drill:
-    SCHEDULED: <2019-01-18 Fri>
-    :PROPERTIES:
-    :ID:       31dd4770-cf89-4bf6-a6a6-0aff486446d5
-    :DRILL_LAST_INTERVAL: 60.975
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:08]
-    :END:
-Why did Adam die?
-**** Answer:
-Because he only had
-a soul but not the
-spirit.
-(The Hypostasis of
-the Archeons, The
-Reality of the Rulers)
 ** Meditation
+*** Consciousness                                                     :drill:
+    SCHEDULED: <2019-01-15 Tue>
+    :PROPERTIES:
+    :ID:       cefcab6e-ac6a-417f-ba01-3a3aef7526f3
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:35]
+    :END:
+What is the idea behind
+consciousness creation
+by microtubuli?
+**** Answer:
+That the creation occurs
+as a quantum effect in
+the microtubuli and that
+they interact with the 
+neurons.
 *** Language and Reality                                              :drill:
     SCHEDULED: <2019-01-24 Thu>
     :PROPERTIES:
@@ -5991,6 +6032,95 @@ with reality. Reality is more
 varied than language, the Tao
 that can be named is not the 
 eternal Tao.
+** Naq Hammadi
+*** The Mustard Seed                                                  :drill:
+    SCHEDULED: <2019-01-24 Thu>
+    :PROPERTIES:
+    :ID:       b8b21574-6eea-4433-8832-1a02ce79213b
+    :DRILL_LAST_INTERVAL: 56.191
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-29 Thu 11:33]
+    :END:
+What is it that grows
+from the mustard seed
+in Christian terms?
+**** Answer:
+It is called ~faith~
+and needs to grow into
+a living being.
+*** The Word                                                          :drill:
+    SCHEDULED: <2019-01-17 Thu>
+    :PROPERTIES:
+    :ID:       6fc02f7a-dea4-4668-907e-43f1bb76cbf2
+    :DRILL_LAST_INTERVAL: 57.8097
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:50]
+    :END:
+What is the /Word/?
+**** Answer:
+The inherent purity that
+is corrupted by its 
+environment, an analogy
+to the teachings of Jesus
+residing in a corrupt body,
+the Church.
+*** Adam & Eve                                                        :drill:
+    SCHEDULED: <2019-01-12 Sat>
+    :PROPERTIES:
+    :ID:       a09c24da-6487-4c2c-935e-5f622f69fe3d
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-12-23 Sun 16:06]
+    :END:
+In which sense did the
+expulsion from paradise
+bar access to the tree
+of life?
+**** Answer:
+The resulting life of
+toil results in distraction
+by worldly affairs and 
+prevents devotion to the 
+/Holy Spirit/.
+(The Hypostasis of
+the Archeons, The
+Reality of the Rulers)
+*** Adam & Eve                                                        :drill:
+    SCHEDULED: <2019-01-18 Fri>
+    :PROPERTIES:
+    :ID:       31dd4770-cf89-4bf6-a6a6-0aff486446d5
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:08]
+    :END:
+Why did Adam die?
+**** Answer:
+Because he only had
+a soul but not the
+spirit.
+(The Hypostasis of
+the Archeons, The
+Reality of the Rulers)
 * Language
 ** Chinese
 *** Characters                                                        :drill:
@@ -7995,17 +8125,17 @@ It is decidable, even
 though the proofs may
 be exponentially long.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-01-11 Fri>
+    SCHEDULED: <2019-02-05 Tue>
     :PROPERTIES:
     :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 18.2207
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 24.5251
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.38
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-24 Mon 16:15]
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:41]
     :END:
 What is a /combinator/?
 **** Answer:
@@ -8239,17 +8369,17 @@ function /f:A×B→C/ via currying
 /f:≡rec(A×B,C) g/ with a
 /g:A→B→C/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-11 Fri>
+    SCHEDULED: <2019-01-31 Thu>
     :PROPERTIES:
     :ID:       fa29f301-2d77-4313-b38a-af89653769cc
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-02 Wed 12:49]
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:26]
     :END:
 How to express a property
 of natural numbers type
@@ -8811,17 +8941,17 @@ influence of past events
 ~Tᵢ~ on the current value
 of the intensity process ~λ(t)~.
 *** Processes                                                         :drill:
-    SCHEDULED: <2019-01-11 Fri>
+    SCHEDULED: <2019-02-25 Mon>
     :PROPERTIES:
     :ID:       0801d690-1eea-4409-a568-27a10f11dbf9
-    :DRILL_LAST_INTERVAL: 33.3973
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 44.9528
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.9
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:36]
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:38]
     :END:
 What is a Hawkes process?
 **** Answer:
@@ -9034,17 +9164,17 @@ Also compare to the interpretation
 of 0-1 matrices as paths connecting
 nodes.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-01-11 Fri>
+    SCHEDULED: <2019-03-01 Fri>
     :PROPERTIES:
     :ID:       bbb37512-6d33-44d1-a020-e72bc54d0859
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-19 Wed 14:54]
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:27]
     :END:
 How to use tensors
 as algebraic types?
@@ -9122,17 +9252,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2019-01-11 Fri>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 24.9038
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 40.3193
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.111
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:49]
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:40]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -12336,17 +12466,17 @@ the network icon. Otherwise
 spawn nm-applet as well, 
 presumably before stalonetray.
 *** X Server                                                          :drill:
-    SCHEDULED: <2019-01-11 Fri>
+    SCHEDULED: <2019-05-16 Thu>
     :PROPERTIES:
     :ID:       5243ec7c-ecd4-4559-b427-cc5121b6a0e5
-    :DRILL_LAST_INTERVAL: 57.591
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 124.7421
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-14 Wed 14:51]
+    :DRILL_LAST_REVIEWED: [2019-01-11 Fri 19:36]
     :END:
 What is the difference
 between using an /autostart/
