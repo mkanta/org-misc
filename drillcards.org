@@ -1097,17 +1097,17 @@ in ~/.emacs/elpa. Note
 that restarting emacs
 will clean the =load-path=.
 *** packages                                                          :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       572cfadf-eabd-4894-adf6-4882fb06f99a
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-27 Thu 18:01]
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:37]
     :END:
 What to do if there 
 is no package 
@@ -1397,17 +1397,17 @@ haskell-gi-0.21. Just list
 under ~extra-deps~ in the
 stack.yaml file.
 *** Graphical UI                                                      :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-06-20 Thu>
     :PROPERTIES:
     :ID:       c10805dc-b69c-417b-956c-a1f3edba53f4
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 152.4375
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:10]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:37]
     :END:
 Should the /OverloadedLabels/
 extension be turned off when
@@ -1825,17 +1825,17 @@ Not at all, this contravenes
 POSIX conventions where an option
 has either none or one argument.
 *** Patterns                                                          :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-04-22 Mon>
     :PROPERTIES:
     :ID:       5d646004-d20a-42d3-ba37-7f00357a7608
-    :DRILL_LAST_INTERVAL: 43.085
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 91.0386
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-09 Sun 14:36]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:42]
     :END:
 What is the point of
 record wildcards?
@@ -2488,17 +2488,17 @@ Yes, in-built datatypes like
 because they don't have 
 constructors.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-03 Sun>
     :PROPERTIES:
     :ID:       ada8ad27-b160-44f2-a34e-f915af3b44b5
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:41]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:23]
     :END:
 How to use row
 polymorphism
@@ -2511,17 +2511,17 @@ certain access functions
 which implement access to
 certain fields.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-03-18 Mon>
     :PROPERTIES:
     :ID:       9dd69844-db40-4302-97c5-ef6292bf953a
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-30 Sun 15:44]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:31]
     :END:
 What is row 
 polymorphism?
@@ -2534,17 +2534,17 @@ fields with every
 record type having 
 these fields matching.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-01-28 Mon>
     :PROPERTIES:
     :ID:       82b78de8-4e30-401e-9245-d694f7405a61
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 7.201
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:18]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:34]
     :END:
 Why is the monad 
 =((->) r :: * ->  * )=
@@ -2628,17 +2628,17 @@ quantified, ie there is
 a value of =Type= for every
 =a=.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-16 Sat>
     :PROPERTIES:
     :ID:       f8d7d6c7-bf04-4d14-954c-4fb46c395ec1
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-28 Fri 19:52]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:25]
     :END:
 What is the logical
 meaning of the arguments
@@ -3088,6 +3088,25 @@ With inductive types the length
 of lists can become part of the
 type of the list.
 *** Type arithmetic                                                   :drill:
+    SCHEDULED: <2019-01-24 Thu>
+    :PROPERTIES:
+    :ID:       a6c2d272-4877-4ca0-be22-91abdd84c689
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:20]
+    :END:
+What is =Proxy= used for
+in type arithmetic?
+**** Answer:
+It is used like a
+variable that stores 
+a type.
+*** Type arithmetic                                                   :drill:
     SCHEDULED: <2019-02-28 Thu>
     :PROPERTIES:
     :ID:       03d23de7-95f5-44fa-86b3-5bbbd8fd8ab9
@@ -3153,17 +3172,17 @@ The process of transforming
 a value-level run-time property
 to the type-level.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-01-26 Sat>
     :PROPERTIES:
     :ID:       9d9eaf69-5c02-4676-95bf-474eec8ba33e
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 7.201
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-15 Tue 16:34]
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:35]
     :END:
 How to reify a natural
 number to a type-level =Nat=?
@@ -3286,19 +3305,90 @@ type family F a b where
 #+END_SRC
 defines a type level
 function with name
-=F= of two type variables.
+=F= of two type variables.RankNTypes
+*** Type manipulations
+What's happening if there
+is a =type= field in a class
+declaration?
+**** Answer:
+That an open type-family
+is part of the type class.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-01-25 Fri>
+    :PROPERTIES:
+    :ID:       f956250d-a06a-439c-851f-aff0ed9d6504
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:41]
+    :END:
+What is the difference
+between a closed and
+an open type family?
+**** Answer:
+A closed type family is
+defined as
+=type family <Name> <variables> where=
+and all definitions have to
+follow the =where=. An open
+type family lacks the 
+=where= keyword and definitions
+are provided as instances:
+~type instance <Name> <variables>=...~
+wherever the type family is in scope.
+*** Type manipulations                                                :drill:
+    SCHEDULED: <2019-01-24 Thu>
+    :PROPERTIES:
+    :ID:       c91c31c6-a4f6-4b7b-8c45-665df12f3239
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:22]
+    :END:
+How to express =∃ a.f a=
+in Haskell?
+**** Answer:
+As  =(forall a.f a -> r) -> r=,
+which is Skolemization, in essence.
+*** Type manipulations                                                :drill:
+    SCHEDULED: <2019-01-24 Thu>
+    :PROPERTIES:
+    :ID:       266e1ddb-1273-4ab0-b02e-41902620a296
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:24]
+    :END:
+How to return an existential
+datatype in Haskell?
+**** Answer:
+By writing a type-level
+function and using it
+like in skolemization.
+*** Type manipulations                                                :drill:
+    SCHEDULED: <2019-01-28 Mon>
     :PROPERTIES:
     :ID:       82ebc257-597d-4642-ad72-6b13593947d0
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 7.201
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:18]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:37]
     :END:
 Why is the logic corresponding
 to the Haskell type system richer
@@ -3311,17 +3401,17 @@ mechanism with
 with 
 =throw :: a -> Void=.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-10 Sun>
     :PROPERTIES:
     :ID:       3cbfb6c4-ba13-49cc-aed7-ce2cea210b85
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-28 Fri 19:51]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:24]
     :END:
 What does =:kind!= in
 /ghci/ do?
@@ -4305,6 +4395,27 @@ Set ~-DPYTHON_LIBRARY~ and
 ~-DPYTHON_INCLUDE~ on the 
 =cmake= command line to the
 appropriate directories.
+*** running                                                           :drill:
+    SCHEDULED: <2019-01-31 Thu>
+    :PROPERTIES:
+    :ID:       b9b837dc-2ad3-4914-9160-31782cb1ca0e
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:28]
+    :END:
+Is there an emacs
+mode for cern-root?
+**** Answer:
+Seems not. To run the
+REPL just start it
+aynchronuously from
+emacs with
+=M-& root=.
 *** installation                                                      :drill:
     SCHEDULED: <2019-01-24 Thu>
     :PROPERTIES:
@@ -5467,17 +5578,17 @@ number =gn= can be refered to
 as =on gn R= with keyword
 =R= denoting a reference.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-05-05 Sun>
     :PROPERTIES:
     :ID:       61d277e3-8cd9-4dbf-9cfb-4da52d398230
-    :DRILL_LAST_INTERVAL: 48.3358
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 104.6953
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:29]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:25]
     :END:
 What does =10 0 obj=
 in a decompressed pdf
@@ -5519,34 +5630,34 @@ represent strings:
   brackets
   <hexstring>
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-05-09 Thu>
     :PROPERTIES:
     :ID:       aed6dfef-2511-47ba-b550-7e31cee29a7c
-    :DRILL_LAST_INTERVAL: 49.5409
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 107.3056
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:27]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:29]
     :END:
 What does =/T= stand for in
 a (decompressed) Pdf-file?
 **** Answer:
 The =xref zero offset=.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-05-02 Thu>
     :PROPERTIES:
     :ID:       8814cc63-2ec7-40cd-9975-c020feb4cad1
-    :DRILL_LAST_INTERVAL: 48.3358
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 102.1335
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:26]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:23]
     :END:
 Where does the value for
 a form field go?
@@ -5573,17 +5684,17 @@ They enclose a =dictionary=, which
 is an object type containing 
 a list of key-value pairs.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-05-02 Thu>
     :PROPERTIES:
     :ID:       6e7352bd-360a-4c4d-8a52-4e0ee9765806
-    :DRILL_LAST_INTERVAL: 48.3358
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 102.1335
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:28]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:25]
     :END:
 What are the entities starting
 with =/=, such as =/V=, =/TU=, in a 
@@ -5615,17 +5726,17 @@ markers as prefix argument to a
 =Tj= instruction, as in
 =(Hello World!)Tj=.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-05-09 Thu>
     :PROPERTIES:
     :ID:       b0a9059e-d4b4-4ff2-9aac-388784c2a775
-    :DRILL_LAST_INTERVAL: 49.5409
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 107.3056
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:28]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:29]
     :END:
 What does =Td= between begin and 
 end text markers signify?
@@ -5654,17 +5765,17 @@ least an indication of its
 length, described by a 
 =/Length= mapping in a dictionary.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-05-02 Thu>
     :PROPERTIES:
     :ID:       81ce7e36-129e-43ac-8ad5-525b07ed705b
-    :DRILL_LAST_INTERVAL: 48.3358
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 102.1335
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:26]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:24]
     :END:
 What does =/TU= stand for
 in a (decompressed) Pdf-file?
@@ -6038,17 +6149,17 @@ that can be named is not the
 eternal Tao.
 ** Naq Hammadi
 *** Thomas                                                            :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-01-30 Wed>
     :PROPERTIES:
     :ID:       636f3bcb-45e4-4905-9998-f65829a4e53d
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:11]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:36]
     :END:
 Why the emphasis on
 hating one's relatives?
@@ -6128,17 +6239,17 @@ prevents devotion to the
 the Archeons, The
 Reality of the Rulers)
 *** Adam & Eve                                                        :drill:
-    SCHEDULED: <2019-01-18 Fri>
+    SCHEDULED: <2019-06-12 Wed>
     :PROPERTIES:
     :ID:       31dd4770-cf89-4bf6-a6a6-0aff486446d5
-    :DRILL_LAST_INTERVAL: 60.975
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 145.0595
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-18 Sun 19:08]
+    :DRILL_LAST_REVIEWED: [2019-01-18 Fri 17:40]
     :END:
 Why did Adam die?
 **** Answer:
@@ -6151,33 +6262,33 @@ Reality of the Rulers)
 * Language
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-01-18 Fri>
+    SCHEDULED: <2019-01-26 Sat>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 17.1836
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 24
-    :DRILL_FAILURE_COUNT: 7
-    :DRILL_AVERAGE_QUALITY: 2.708
+    :DRILL_LAST_INTERVAL: 4.1986
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 27
+    :DRILL_FAILURE_COUNT: 8
+    :DRILL_AVERAGE_QUALITY: 2.703
     :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-01 Tue 17:50]
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:24]
     :END:
 的
 **** Answer:
 possessive, adjectival suffix
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-21 Thu>
     :PROPERTIES:
     :ID:       731e55ab-070b-4fd0-846a-69feeae964f8
-    :DRILL_LAST_INTERVAL: 23.0272
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 30.9946
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.9
-    :DRILL_EASE: 1.24
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 15:03]
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:41]
     :END:
 我的
 **** Answer:
@@ -6231,17 +6342,17 @@ one, a little
 **** Answers:
 to be; indeed, yes, right; demonstrative pronoun
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       813e8718-8c89-46fc-bb21-bec2f9401647
-    :DRILL_LAST_INTERVAL: 23.0272
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 30.2347
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.819
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 2.834
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 15:03]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:42]
     :END:
 不
 **** Answer:
@@ -6314,17 +6425,17 @@ A collection of arrows
 /D/ indexed by objects /X/
 from category /C/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-03-05 Tue>
     :PROPERTIES:
     :ID:       ebdb23af-95a6-4cdf-b483-73bcc1efdcb1
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.6369
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 14:52]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:38]
     :END:
 What is a topos?
 **** Answer:
@@ -6332,17 +6443,17 @@ A certain type of category
 abstracting the notion of
 /position/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-03-05 Tue>
     :PROPERTIES:
     :ID:       ca76b2af-e2f1-4040-bdcb-3926278e9319
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.6369
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 14:53]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:39]
     :END:
 What is a finite limit
 in set-theoretic terms?
@@ -6367,17 +6478,17 @@ in set-theoretic terms?
 A finite disjoint union
 of sets.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-03 Sun>
     :PROPERTIES:
     :ID:       b0314792-8af2-4037-920e-c4210128880a
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:45]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:23]
     :END:
 What are the consequences
 of a category having
@@ -6387,17 +6498,17 @@ The presence of initial and
 terminal objects as well as
 equalizers and coequalizer.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-03 Sun>
     :PROPERTIES:
     :ID:       e11fc233-0bd1-4065-9f8e-4c096bd4e01e
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:43]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:26]
     :END:
 Why is the presence of
 an initial object
@@ -6455,17 +6566,17 @@ The equivalent of the subset
 consisting of all /x ∈ X/ such that
 /f(x)=g(x)/ for morpisms /X→Y/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       9d3ae010-5d67-485e-99ea-4fa9669686e3
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-30 Sun 15:44]
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:31]
     :END:
 What is a coequalizer in
 a category?
@@ -6496,17 +6607,17 @@ It means there is an object
 which acts like the set of
 functions from X to Y.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-18 Fri>
+    SCHEDULED: <2019-03-01 Fri>
     :PROPERTIES:
     :ID:       a743d327-d62c-4252-98e7-4e7144cbd547
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 14:57]
+    :DRILL_LAST_REVIEWED: [2019-01-18 Fri 17:38]
     :END:
 What is a subobject
 classifier?
@@ -6519,17 +6630,17 @@ of /X/. In general, morphisms
 /f:X→Ω/ correspond to subobjects
 of /X/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-18 Fri>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       14a52f96-0d50-446e-b79f-21ddf33f27c3
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 7.201
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 14:55]
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:28]
     :END:
 How to construct a topos
 from finite sets?
@@ -6539,17 +6650,17 @@ sets Δ, a presheaf is a
 simplicial set and the category
 of these presheaves is a topos.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-18 Fri>
+    SCHEDULED: <2019-01-29 Tue>
     :PROPERTIES:
     :ID:       f90d67ec-c9f2-4dfd-8b33-3cd44bfb9bd0
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 7.201
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 14:56]
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:24]
     :END:
 What is the simplex
 category /Δ/?
@@ -6582,17 +6693,17 @@ to the category of sets:
 a covariant functor
 /σ:Δᵒᵖ→Set/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-03 Sun>
     :PROPERTIES:
     :ID:       50d70dcb-b8fb-45b2-968b-571734bf2d04
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:41]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:26]
     :END:
 How to construct a category
 from simplicial sets?
@@ -7220,17 +7331,17 @@ if there exist integers
 for /1≤i,j≤k/.
 ** Geometry
 *** Finite                                                            :drill:
-    SCHEDULED: <2019-01-18 Fri>
+    SCHEDULED: <2019-03-01 Fri>
     :PROPERTIES:
     :ID:       8946f43b-ab5f-4a98-9191-86a8a82b44ff
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 14:53]
+    :DRILL_LAST_REVIEWED: [2019-01-18 Fri 17:42]
     :END:
 What is a 
 Simplicial Set?
@@ -7698,17 +7809,17 @@ type =a -> b= is inhabited,
 ie there is a function
 =f::a -> b=.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2019-01-18 Fri>
+    SCHEDULED: <2019-03-05 Tue>
     :PROPERTIES:
     :ID:       fe7ec71f-4892-47e9-a3d1-2526ca9174b5
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.7498
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-28 Fri 19:49]
+    :DRILL_LAST_REVIEWED: [2019-01-18 Fri 17:42]
     :END:
 What is the problem with
 the /bottom type/ =⊥= from
@@ -7890,17 +8001,17 @@ consequent of
 /A₁⊗A₂⊗…⊗Aₙ/, ie.
 /A₁⊗…⊗Aₙ ⊦ B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-01-18 Fri>
+    SCHEDULED: <2019-01-24 Thu>
     :PROPERTIES:
     :ID:       f85d5687-848c-4475-bdc3-7367277727f2
-    :DRILL_LAST_INTERVAL: 5.2471
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 5.9397
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.791
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.801
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:33]
+    :DRILL_LAST_REVIEWED: [2019-01-18 Fri 17:36]
     :END:
 What is the /linear constraint/
 imposed by linear logic?
@@ -8012,17 +8123,17 @@ the use of a term, for example
 by listing the properties a 
 noun should have.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-03 Sun>
     :PROPERTIES:
     :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:40]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:24]
     :END:
 What is the difference
 between a /Proposition/
@@ -8213,6 +8324,18 @@ ie with a type argument
 and an argument of that
 type.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2019-02-01 Fri>
+    :PROPERTIES:
+    :ID:       4d394956-2e80-4a0a-a535-36b4fd122a65
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:23]
+    :END:
 Why is the recursion
 principle for a type
 /W/ also called the 
@@ -8228,6 +8351,18 @@ constructing dependent functions
 out of a type and therefore more
 general eliminators.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2019-01-31 Thu>
+    :PROPERTIES:
+    :ID:       bdf42f31-2408-41d1-8d54-d54b52c1d2fb
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:25]
+    :END:
 How is the induction
 principle of a type
 /W/ related to its
@@ -8242,6 +8377,18 @@ from constructors where
 principle is the special case
 where /P/ is constant.
 *** Type Theory                                                       :drill:
+    SCHEDULED: <2019-01-31 Thu>
+    :PROPERTIES:
+    :ID:       e2baf4f2-7cea-4a63-80ed-813ff1d554d3
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:25]
+    :END:
 What is the recursion
 principle for a type
 /W/ all about?
@@ -8258,17 +8405,17 @@ the inputs to that
 constructor.
 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-01-28 Mon>
     :PROPERTIES:
     :ID:       888ceb62-0e29-493d-9619-53d921f3e250
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-15 Tue 16:28]
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:36]
     :END:
 Why are inductive types
 /I/ popular?
@@ -8280,17 +8427,17 @@ it for its constructors /Cᵢ/
 using an induction principle
 /ind(I,E,{eᵢ})/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-01-28 Mon>
     :PROPERTIES:
     :ID:       5936e13c-af2f-424b-a404-58ca712958d4
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-15 Tue 16:33]
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:32]
     :END:
 What is an inductive
 type?
@@ -8304,17 +8451,17 @@ applying these constructors
 repeatedly in a nested
 fashion. 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-01-28 Mon>
     :PROPERTIES:
     :ID:       76f78ccd-a000-4f1a-9c0b-a8f7e47acb32
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-15 Tue 16:26]
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:31]
     :END:
 What is an /induction/
 principle /ind(T,E,{eᵢ})/
@@ -8328,17 +8475,17 @@ every constructor /Cᵢ/
 of T, ie
 /ind(T,E,{eᵢ},Cₖ)=eₖ(…)/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-02-12 Tue>
     :PROPERTIES:
     :ID:       d4949e57-98c3-4f1b-badd-4ab83523069e
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:33]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:22]
     :END:
 What is the point of Homotopy
 Type Theory?
@@ -8349,17 +8496,17 @@ usual difficulties in representing
 and handling common mathematical 
 objects inherent in such theories.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-02-12 Tue>
     :PROPERTIES:
     :ID:       45a17d44-54b1-4d8e-abf7-054297a79573
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:32]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:22]
     :END:
 How does Homotopy Type Theory
 avoid the difficulties in
@@ -8374,17 +8521,17 @@ and equality datatypes of
 equality datatypes ad
 infinitum.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-01-26 Sat>
     :PROPERTIES:
     :ID:       824bb053-8130-47ed-a712-c09abef4c409
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:30]
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:32]
     :END:
 Why is an intensional type
 theory desirable as underpinning
@@ -8550,17 +8697,17 @@ Functions /f:A×B→C/
 out of the product 
 type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       747e5dee-673e-42e9-9ade-c4d02b68a49e
-    :DRILL_LAST_INTERVAL: 8.2449
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 15.5994
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:27]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:33]
     :END:
 What are the computation
 rules of the product type
@@ -8726,17 +8873,17 @@ of a type?
 These are rules on how to
 use the elements of a type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       46b0c6b6-592b-4201-aa85-ea4f6416a7fb
-    :DRILL_LAST_INTERVAL: 8.2449
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 15.5994
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:31]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:39]
     :END:
 What are the eliminators of
 the function type?
@@ -8830,17 +8977,17 @@ Because its negation
 ¬ *0*: *0* → *0* is inhabited
 by the identity function.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-03-04 Mon>
     :PROPERTIES:
     :ID:       e9f9f77c-cebd-4e3b-8f87-014f40f426b7
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-01 Tue 17:42]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:43]
     :END:
 In which sense differs
 type theory from first
@@ -8857,17 +9004,17 @@ as compared to the one of
 first order logic
 /⊢ A/ "A has a proof".
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-03 Sun>
     :PROPERTIES:
     :ID:       492e384d-9355-491d-812c-b50a75dac1ea
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:43]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:23]
     :END:
 What is /judgemental/
 equality?
@@ -8897,17 +9044,17 @@ a term /t:a=b/ then terms
 /a,b/ are said to be 
 /propositionally/ equal.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-03-03 Sun>
     :PROPERTIES:
     :ID:       f3a4772d-0985-45b2-a83b-cf090019441b
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:39]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:26]
     :END:
 What is a /witness/?
 **** Answer:
@@ -8968,17 +9115,17 @@ identified with particular
 types.
 ** Probability
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-02-11 Mon>
     :PROPERTIES:
     :ID:       2b190a37-9bc7-4f7a-be59-498a92580b42
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:30]
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:21]
     :END:
 What is the point of
 /quasi-probability distributions/?
@@ -8991,17 +9138,17 @@ This makes them useful in quantum theory
 where expectations are required but
 amplitudes can be negative.
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       4bd38616-73fe-4dd2-818f-7d4787a70f86
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:23]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:37]
     :END:
 What is the feature that distinguishes
 quasi-probability distributions from
@@ -9712,17 +9859,17 @@ Hamiltonian is the
 Poisson bracket of it.
 ** R&D
 *** Overcomplete Bases                                                :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       edf92b0e-4054-4e04-8335-9418b6d5baa6
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:29]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:35]
     :END:
 In which sense could the 
 set /{Hⁿv|n∈ℕ}/ for Hamiltonian
@@ -9810,17 +9957,17 @@ at the same time, ie they are
 separated by time.
 ** Quantum
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       e6b06345-f05c-48cf-b681-f05dd6dbd83e
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:29]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:39]
     :END:
 Why is normal ordering
 of creation and annihilation
@@ -9893,17 +10040,17 @@ that, such as the Casimir operator,
 possibly also employing the relevant
 Lorentz group.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-01-26 Sat>
     :PROPERTIES:
     :ID:       5401b059-307d-4458-9d13-4e1800b3bfad
-    :DRILL_LAST_INTERVAL: 101.3126
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:24]
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:32]
     :END:
 What is the relationship
 of the Heisenberg group to
@@ -10183,17 +10330,17 @@ which can be written
 sum convention and Dirac
 matrices /D/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       3e5b26a2-8302-41cc-9e32-4d9025e91127
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:24]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:40]
     :END:
 Why are coherent states
 still useful, despite
@@ -10216,39 +10363,39 @@ states that the expectation of an operator
 with a quasiprobability /f/ that depends
 on the ordering /Ω/ of the operators.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-02-11 Mon>
     :PROPERTIES:
     :ID:       99779ac6-f329-4e0d-849a-8cb89c37d998
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:29]
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:27]
     :END:
 How does the /Wigner/ quasiprobability 
 arise in quantum optics?
 **** Answer:
-It the trace function /f/ for which
+It is the trace function /f/ for which
 /⟨g(Ω,â,â⁺)⟩=∫f(Ω,α,α*)g(Ω,α,α*)dα dα*/
 according to the optical equivalence
 theorem, with symmetrized operator 
 ordering /Ω/.
 
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       3634f529-b9f2-459a-9fbb-ed4ef6610da4
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:20]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:38]
     :END:
 Can coherent states
 be used as a basis for
@@ -10607,17 +10754,17 @@ The matrix that transforms the basis constructed
 from one-particle states at time /t=-∞/ to 
 that constructed at /t=∞/.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       2a901102-cd1f-473c-ad6e-ffa82c1cce70
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:21]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:38]
     :END:
 What is the meaning
 of non-diagonal, non-
@@ -10631,17 +10778,17 @@ between the states of
 the system.
 (See Lindblad equation)
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       b18ebe60-18b0-44a6-b6c2-215c66f14fa7
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:26]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:36]
     :END:
 What is the difference
 between /⟨A⟩/ and /⟨φ|A|φ⟩/
@@ -10654,17 +10801,17 @@ state /φ/, otherwise
 where /ρ=∑pⱼ|φⱼ⟩⟨φⱼ|/ is
 the density matrix.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       dce0811d-0dc5-4c99-b79c-5d9365f423c3
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:22]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:38]
     :END:
 How is the density
 matrix used in a 
@@ -10679,17 +10826,17 @@ can be written as
 /tr(ρA)/ with density matrix
 /ρ=∑pⱼ|φⱼ⟩⟨φⱼ|/.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-01-22 Tue>
+    SCHEDULED: <2019-02-12 Tue>
     :PROPERTIES:
     :ID:       a977f58a-e875-48e8-bbb8-442fc372f8d2
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:29]
     :END:
 Are trace functions
 /f/ from density operators
@@ -11098,17 +11245,17 @@ From the fact that parity is
 a multiplicative quantum number,
 ie. /P|a,b⟩=(P|a⟩)P(|b⟩)/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-01-20 Sun>
+    SCHEDULED: <2019-02-14 Thu>
     :PROPERTIES:
     :ID:       3ea55019-0da2-455a-bc8b-e1b360962bbc
-    :DRILL_LAST_INTERVAL: 18.414
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 24.7852
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.077
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 3.072
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-02 Wed 12:51]
+    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:26]
     :END:
 How is parity different in bosons
 vs fermions?
@@ -11249,17 +11396,17 @@ the electromagnetic and weak
 force but are not subject to
 the strong force.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-01-19 Sat>
+    SCHEDULED: <2019-02-13 Wed>
     :PROPERTIES:
     :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
-    :DRILL_LAST_INTERVAL: 18.414
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 25.4113
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.077
+    :DRILL_AVERAGE_QUALITY: 3.143
     :DRILL_EASE: 1.38
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-01 Tue 17:41]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:38]
     :END:
 Why can a neutral particle
 like the neutrino have an 
@@ -11968,17 +12115,17 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** configuration                                                     :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-03-20 Wed>
     :PROPERTIES:
     :ID:       4524fef6-d8fc-4611-b2d6-be87f3eaf07d
-    :DRILL_LAST_INTERVAL: 24.39
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 58.0238
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-28 Fri 19:50]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:40]
     :END:
 How to set up monitors
 from the command line?
@@ -12410,17 +12557,17 @@ from the command line?
 With ~nmcli~. Check its
 manpage for details.
 *** package management                                                :drill:
-    SCHEDULED: <2019-01-21 Mon>
+    SCHEDULED: <2019-03-08 Fri>
     :PROPERTIES:
     :ID:       95cce95b-3889-4747-aa1b-5fceaf748c8c
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.7498
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-31 Mon 13:36]
+    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:41]
     :END:
 Why does =apt-get upgrade=
 often not upgrade the kernel?
