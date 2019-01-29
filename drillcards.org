@@ -149,17 +149,17 @@ device.
 * Astronomy
 ** Coordinates
 *** Hour Angle                                                        :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       611fbc04-2520-457b-9a8f-d76b6fc9fcf8
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:29]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:01]
     :END:
 Why is the /hour angle/
 of an object of interest?
@@ -175,17 +175,17 @@ meridian. A value of zero
 means the object has reached
 its highest point the sky.
 *** Hour Angle                                                        :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-07 Thu>
     :PROPERTIES:
     :ID:       7580b457-3882-48f0-b8bc-8c94eacc1cf2
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:28]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:01]
     :END:
 What is the /hour angle/
 of an object?
@@ -194,17 +194,17 @@ The difference between
 local /sidereal time/ and 
 /right ascension/.
 *** Right Ascension                                                   :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       d2048447-d3e1-4919-ab5d-eb0cd8f6e2d8
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:27]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 12:56]
     :END:
 Why the choice of
 time as unit instead 
@@ -1591,6 +1591,35 @@ from /app/ and /src/ into the
 project. These projects
 just seem to be regular
 /cabal/ projects.
+*** Homotopy Types                                                    :drill:
+    SCHEDULED: <2019-01-31 Thu>
+    :PROPERTIES:
+    :ID:       f7dff1a2-5494-4775-aae2-75514484a800
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:57]
+    :END:
+Why is GADT syntax
+necessary for homotopy
+types?
+**** Answer:
+Because for a Homotopy
+type, not only the type
+needs to be constructed
+but also equality types
+over the type. Thus, control
+over the return type of
+constructors is needed, which
+may construct elements of
+equality types over the 
+base type in addition to elements
+of the base type. This control
+is provided by GADT syntax.
 *** Importing                                                         :drill:
     SCHEDULED: <2019-03-20 Wed>
     :PROPERTIES:
@@ -2626,17 +2655,17 @@ fields with every
 record type having 
 these fields matching.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       82b78de8-4e30-401e-9245-d694f7405a61
-    :DRILL_LAST_INTERVAL: 7.201
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 13.293
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:34]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 12:59]
     :END:
 Why is the monad 
 =((->) r :: * ->  * )=
@@ -3264,17 +3293,17 @@ The process of transforming
 a value-level run-time property
 to the type-level.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       9d9eaf69-5c02-4676-95bf-474eec8ba33e
-    :DRILL_LAST_INTERVAL: 7.201
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 13.293
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:35]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:18]
     :END:
 How to reify a natural
 number to a type-level =Nat=?
@@ -3470,17 +3499,17 @@ By writing a type-level
 function and using it
 like in skolemization.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       82ebc257-597d-4642-ad72-6b13593947d0
-    :DRILL_LAST_INTERVAL: 7.201
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 13.293
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:37]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:02]
     :END:
 Why is the logic corresponding
 to the Haskell type system richer
@@ -3583,17 +3612,17 @@ extension =PolyKinds= is active
 because in that case =k= is 
 considered a kind variable.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-01-27 Sun>
+    SCHEDULED: <2019-04-17 Wed>
     :PROPERTIES:
     :ID:       0dacd1bb-8d05-479e-acd4-b5839addf7eb
-    :DRILL_LAST_INTERVAL: 42.3244
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.0778
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:47]
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:58]
     :END:
 What does =t1~t2= in the
 context of a function
@@ -3816,17 +3845,17 @@ by the implementation of
 the function, not its caller.
 ** javascript
 *** npm installation                                                  :drill:
-    SCHEDULED: <2019-01-27 Sun>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       c746e0a9-cf5c-47d6-abf9-32328ff92cef
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-04 Fri 13:37]
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:54]
     :END:
 What's the problem if the
 installation script of a
@@ -4194,17 +4223,17 @@ parameters where
 is equivalent to
 =constructor(x:type){ this.x = x}=
 *** typescript classes						      :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2020-12-14 Mon>
     :PROPERTIES:
     :ID:       c4129116-f90e-4ad5-9fbb-7843da2ac577
-    :DRILL_LAST_INTERVAL: 239.8124
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 688.0218
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.8
+    :DRILL_AVERAGE_QUALITY: 4.667
     :DRILL_EASE: 2.9
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-05-31 Thu 10:50]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:24]
     :END:
 In which way differs constructor naming in
 typescript from languages like C++ or Java?
@@ -4670,17 +4699,17 @@ from either the github clone
 or the source unpacked via
 /stack unpack purescript/.
 *** Purescript and Bower                                              :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-03-26 Tue>
     :PROPERTIES:
     :ID:       43de4267-190e-4f32-abbf-f0b49cc51d5a
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6141
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 14:00]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:06]
     :END:
 What to do about Bower's
 becoming obsolete?
@@ -5756,17 +5785,17 @@ a form field go?
 **** Answer:
 To key =/V= in a dictionary.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-06-14 Fri>
     :PROPERTIES:
     :ID:       8b5c316e-7d92-4e39-bda2-6e3b488ceb23
-    :DRILL_LAST_INTERVAL: 55.995
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 136.5718
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:28]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:06]
     :END:
 What do the double pointy
 brackets =<< .. >>= in a 
@@ -5876,17 +5905,17 @@ That is the alternate field
 name for a form field, the
 name presented to users.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-05-24 Fri>
     :PROPERTIES:
     :ID:       04b15be7-3b88-4610-aecc-b04d42b3c9d7
-    :DRILL_LAST_INTERVAL: 54.6176
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 118.3017
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-02 Sun 15:42]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:27]
     :END:
 How to analyse pdf files on
 the command line?
@@ -6354,17 +6383,17 @@ Reality of the Rulers)
 * Language
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-01-31 Thu>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 4.1986
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 27
+    :DRILL_LAST_INTERVAL: 4.7528
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 28
     :DRILL_FAILURE_COUNT: 8
-    :DRILL_AVERAGE_QUALITY: 2.703
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.714
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:24]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:20]
     :END:
 的
 **** Answer:
@@ -6418,17 +6447,17 @@ Personal Pronoun first person: I, me, we, us
 **** Answer:
 one, a little
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-01-27 Sun>
+    SCHEDULED: <2019-01-31 Thu>
     :PROPERTIES:
     :ID:       8fbf1c2f-dd1a-4f24-9dc7-eab876b9f928
-    :DRILL_LAST_INTERVAL: 9.5099
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 40
-    :DRILL_FAILURE_COUNT: 14
-    :DRILL_AVERAGE_QUALITY: 2.65
-    :DRILL_EASE: 1.3
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 42
+    :DRILL_FAILURE_COUNT: 15
+    :DRILL_AVERAGE_QUALITY: 2.643
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 12:59]
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 16:00]
     :END:
 是
 **** Answers:
@@ -6762,17 +6791,17 @@ The category of finite,
 morphisms are (nonstrictly)
 order preserving maps.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-02-24 Sun>
     :PROPERTIES:
     :ID:       329ce0e8-4f7b-409f-9e83-a6d3d8d4a154
-    :DRILL_LAST_INTERVAL: 15.5994
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 28.7029
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:20]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:26]
     :END:
 What is a simplicial
 set in the categorical
@@ -6890,17 +6919,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-01-30 Wed>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 63.4506
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 10
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.38
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.917
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:27]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:30]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -6908,17 +6937,17 @@ Lorentz transformations of determinant 1,
 they preserve orientation and form the 
 subgroup /SO(1,3)/.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-01-27 Sun>
+    SCHEDULED: <2019-08-07 Wed>
     :PROPERTIES:
     :ID:       6e6c8903-3cda-4c5c-a6ae-21c0bcafee0b
-    :DRILL_LAST_INTERVAL: 101.3126
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 191.6834
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-18 Thu 14:27]
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 16:00]
     :END:
 What is the group /SO⁺(1,3)/?
 **** Answer:
@@ -7119,17 +7148,17 @@ No, that is a feature of /normal/
 operators, ie 
 /XY=YX ⇔ Z is normal/.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-08-01 Thu>
     :PROPERTIES:
     :ID:       230b8cca-164b-43d3-aa37-652243f0c2a1
-    :DRILL_LAST_INTERVAL: 97.7668
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 184.9748
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:07]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:06]
     :END:
 In which sense do bounded operators
 on a Hilbert space resemble complex
@@ -7423,17 +7452,17 @@ exists a strictly increasing
 /τ: [k]→[n]/ such that 
 /π∘τ(i) < π∘τ(j) ⇔ σ(i) < σ(j)/.
 *** Permutations                                                      :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-04-16 Tue>
     :PROPERTIES:
     :ID:       ec453812-83e7-4f47-bc7a-92c7b2d4007e
-    :DRILL_LAST_INTERVAL: 42.1729
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 79.7911
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:32]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:27]
     :END:
 What does it mean for
 a permutation to contain
@@ -7580,17 +7609,17 @@ These are the unit arrows pointing
 in the direction of constant /y/, ie
 to the right in the normal /x,y/ plane.
 *** Differential						      :drill:
-    SCHEDULED: <2019-01-27 Sun>
+    SCHEDULED: <2019-04-27 Sat>
     :PROPERTIES:
     :ID:       9e335c5e-2c9a-4089-af6c-ff02c2211346
-    :DRILL_LAST_INTERVAL: 81.2246
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 89.672
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.231
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.214
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-07 Wed 12:14]
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:57]
     :END:
 Why are the partial differential 
 operators in the unit directions 
@@ -8013,6 +8042,25 @@ function signature but
 essentially it proves that
 a type is populated, possibly
 depending on other types.
+*** Homotopic Types                                                   :drill:
+    SCHEDULED: <2019-01-31 Thu>
+    :PROPERTIES:
+    :ID:       db4a5604-8b0b-47ea-8419-cbdce8f1af2b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:56]
+    :END:
+What is special in
+a homotopic type?
+**** Answer:
+Not only the type itself
+is of importance but also
+its equality types.
 *** Linear                                                            :drill:
     SCHEDULED: <2019-03-19 Tue>
     :PROPERTIES:
@@ -8522,17 +8570,17 @@ the inputs to that
 constructor.
 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-17 Sun>
     :PROPERTIES:
     :ID:       888ceb62-0e29-493d-9619-53d921f3e250
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:36]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:05]
     :END:
 Why are inductive types
 /I/ popular?
@@ -8544,17 +8592,17 @@ it for its constructors /Cᵢ/
 using an induction principle
 /ind(I,E,{eᵢ})/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-17 Sun>
     :PROPERTIES:
     :ID:       5936e13c-af2f-424b-a404-58ca712958d4
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:32]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 12:57]
     :END:
 What is an inductive
 type?
@@ -8568,17 +8616,17 @@ applying these constructors
 repeatedly in a nested
 fashion. 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-17 Sun>
     :PROPERTIES:
     :ID:       76f78ccd-a000-4f1a-9c0b-a8f7e47acb32
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:31]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 12:57]
     :END:
 What is an /induction/
 principle /ind(T,E,{eᵢ})/
@@ -8638,17 +8686,17 @@ and equality datatypes of
 equality datatypes ad
 infinitum.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-02-03 Sun>
     :PROPERTIES:
     :ID:       824bb053-8130-47ed-a712-c09abef4c409
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 8.2449
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.75
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:32]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:19]
     :END:
 Why is an intensional type
 theory desirable as underpinning
@@ -9541,17 +9589,17 @@ preimage relation because
 for a permutation matrix
 /xⱼᵢ=1/ means that /xᵢ↦xⱼ/.
 *** Matrices                                                          :drill:
-    SCHEDULED: <2019-01-27 Sun>
+    SCHEDULED: <2019-04-28 Sun>
     :PROPERTIES:
     :ID:       2fd846d2-e2c2-4341-99d2-4d839550708f
-    :DRILL_LAST_INTERVAL: 43.2308
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 91.3467
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-15 Sat 13:27]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:59]
     :END:
 If permutation matrices
 permute the indices of
@@ -9976,17 +10024,17 @@ Hamiltonian is the
 Poisson bracket of it.
 ** R&D
 *** Commutation                                                       :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       6f296e19-212f-4d37-aac7-6d884f892859
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:32]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 12:58]
     :END:
 Why should the space-like
 components of a four vector
@@ -10000,17 +10048,17 @@ on it. Thus, a time-like
 operator should change position
 eigenstates.
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       4e8ac432-5f69-4bb7-91fa-bbb749a57d15
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:26]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 12:55]
     :END:
 How does /E²-p²/ give
 rise to creation and 
@@ -10048,17 +10096,17 @@ operator were operating
 on paths to measure a value,
 the contours would be eigenstates.
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       5de4cfe4-dcef-4863-9fb3-b52b3b66a78c
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:25]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:04]
     :END:
 What could be the 
 interpretation of
@@ -10079,17 +10127,17 @@ observers differ about energy
 but not particle number, the
 latter makes the most sense.
 *** Quantum Internals                                                 :drill:
-    SCHEDULED: <2019-01-28 Mon>
+    SCHEDULED: <2019-02-06 Wed>
     :PROPERTIES:
     :ID:       613adc3f-3cdb-402d-bf87-2bc6055d2552
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:33]
+    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:00]
     :END:
 How to explain superluminal
 effects within quantum systems?
@@ -10174,6 +10222,32 @@ As a consequence, different
 time-like events cannot occur
 at the same time, ie they are
 separated by time.
+** Quantum Relativity
+*** Klein Gordon                                                      :drill:
+    SCHEDULED: <2019-01-31 Thu>
+    :PROPERTIES:
+    :ID:       9cc465db-c8a9-43f0-8257-fbc96c839abd
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:55]
+    :END:
+How is Klein-Gordon related
+to the quantum harmonic
+oscillator?
+**** Answer:
+In /Ê²-p̂²/ the view point
+shifts between energy
+and momentum according
+to the observer, in the 
+Harmonic oscillator it
+shifts between kinetic and
+potential energy according
+to time.
 ** Quantum
 *** Algebra                                                           :drill:
     SCHEDULED: <2019-02-10 Sun>
@@ -10259,17 +10333,17 @@ that, such as the Casimir operator,
 possibly also employing the relevant
 Lorentz group.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-02-02 Sat>
     :PROPERTIES:
     :ID:       5401b059-307d-4458-9d13-4e1800b3bfad
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 7.2031
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:32]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:20]
     :END:
 What is the relationship
 of the Heisenberg group to
@@ -10661,17 +10735,17 @@ What is measured with
 The probability to observe state /φ₁/ when 
 the system is known to be in state /φ₂/.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       1bf83dce-80be-4ae5-83d7-2e3d86cfaa2b
-    :DRILL_LAST_INTERVAL: 25.3205
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 27.9538
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-01 Tue 17:51]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:25]
     :END:
 What are /one-particle/ states?
 **** Answer:
@@ -11116,6 +11190,18 @@ projected back into another
 tangent space resulting in
 a collapse of the ambiguity.
 *** Operators                                                         :drill:
+    SCHEDULED: <2019-01-30 Wed>
+    :PROPERTIES:
+    :ID:       96f1d6cf-46da-419e-8d14-936a1253ee07
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:27]
+    :END:
 How to derive the 
 velocity operator?
 **** Answer:
@@ -11131,18 +11217,17 @@ v̂=1/(iℏ)[x̂,H] as velocity
 operator.
 (Relation to group velocity?)
 *** Particles                                                         :drill:
-
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2019-01-30 Wed>
     :PROPERTIES:
-    :ID:       1acce815-680e-4b4e-807c-ce4f4b58e990
-    :DRILL_LAST_INTERVAL: 137.415
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :ID:       0ee4cffd-d2a5-4db3-b96c-611e40974a60
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-18 Thu 14:26]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:24]
     :END:
 How can a two component wave
 function /ψ=(α,β)ᵀ/ be interpreted
@@ -11154,7 +11239,7 @@ component /α/ is the probability amplitude
 for the particle in the spin-up state
 whereas component /β/ is the probability
 amplitude for the particle in the 
-spin-down state. o
+spin-down state.
 *** Particles                                                         :drill:
     SCHEDULED: <2019-03-04 Mon>
     :PROPERTIES:
@@ -12113,17 +12198,17 @@ of energy eigenstates
 /φ(t)=∑cₖexp(-iλₖt)|λₖ>/
 with ℏ=1.
 *** Time Evolution                                                    :drill:
-    SCHEDULED: <2019-01-26 Sat>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       b2ec5172-fcff-410f-9db3-69310dca0029
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-06 Sun 18:03]
+    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:30]
     :END:
 How do probabilities
 /|⟨ψ|φ(t)⟩|²/ evolve?
