@@ -8,17 +8,17 @@
 * Android
 ** Apps
 *** Browser                                                           :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-06-23 Sun>
     :PROPERTIES:
     :ID:       007aa5b0-99ab-4510-b87d-518d6e5b130e
-    :DRILL_LAST_INTERVAL: 77.818
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 143.652
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-13 Tue 18:32]
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:10]
     :END:
 What to do when unwanted
 pop-ups appear, ie re
@@ -30,17 +30,17 @@ the browser. Tap ~Force Stop~
 to shut it down then tap
 ~Storage~ and then ~Clear Cache~.
 *** Uninstalling                                                      :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-06-23 Sun>
     :PROPERTIES:
     :ID:       15f27d02-a0da-4324-99f4-9e24972e99f1
-    :DRILL_LAST_INTERVAL: 77.818
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 143.652
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-13 Tue 18:30]
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:12]
     :END:
 What to do when an application
 has a greyed out uninstall
@@ -2519,17 +2519,17 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       ed85579d-3e83-4f48-8241-f1f689acc369
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-25 Fri 16:57]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:55]
     :END:
 Is it possible to
 use phantoms in
@@ -4632,17 +4632,17 @@ package as a dependency. Install
 with 
 =psc-package install psci-support=
 *** Psc-package installation                                          :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-27 Wed>
     :PROPERTIES:
     :ID:       ae992127-3693-4e49-af52-038b38d60360
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6081
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 13:55]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:58]
     :END:
 How should =psc-package= be 
 installed?
@@ -4679,17 +4679,17 @@ way is to remove the =bower.json=
 file, it will fall back
 to the =psc-package= files.
 *** Purescript installation                                           :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-27 Wed>
     :PROPERTIES:
     :ID:       4e0772f9-83d8-44a4-b1d8-afa5af66acef
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6081
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 13:58]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:58]
     :END:
 How should /purescript/ be
 installed?
@@ -5353,6 +5353,40 @@ A buffer for a commit message
 pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
+*** git and branches                                                  :drill:
+Is it possible to add
+comments or descriptions
+to a branch?
+**** Answer:
+Yes, use ~git branch --edit-description~,
+which will add a description to
+configuration ~branch.<branchname>.description~.
+*** git and branches
+How to retrieve a branch
+description?
+**** Answer:
+With 
+~git config branch.<branchname>.description~.
+*** git and branches                                                  :drill:
+For what kind of branches is
+~git branch --edit-description~
+most useful?
+**** Answer:
+For private branches because
+it will not be pushed and
+the description will be
+deleted with the branch.
+*** git and branches                                                  :drill:
+Is it possible to keep a
+branch description after
+a merge?
+**** Answer:
+Yes, set
+~git config --global merge.branchdesc true~
+and merge with 
+~git merge --log <branch>~, the
+branch description will be part
+of the stock merge message.
 *** git and versions                                                  :drill:
     SCHEDULED: <2019-02-13 Wed>
     :PROPERTIES:
@@ -5658,17 +5692,17 @@ repositories.
 * Documents
 ** Pdf
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-03-18 Mon>
     :PROPERTIES:
     :ID:       6cd39566-3b13-46f1-be9c-285b21059372
-    :DRILL_LAST_INTERVAL: 28.5942
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 47.4664
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.111
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-01 Tue 17:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:10]
     :END:
 How are indirect objects
 defined?
@@ -6270,17 +6304,17 @@ that can be named is not the
 eternal Tao.
 ** Naq Hammadi
 *** Thomas                                                            :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       636f3bcb-45e4-4905-9998-f65829a4e53d
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:36]
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:09]
     :END:
 Why the emphasis on
 hating one's relatives?
@@ -6751,17 +6785,17 @@ of /X/. In general, morphisms
 /f:X→Ω/ correspond to subobjects
 of /X/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-02-11 Mon>
     :PROPERTIES:
     :ID:       14a52f96-0d50-446e-b79f-21ddf33f27c3
-    :DRILL_LAST_INTERVAL: 7.201
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 13.293
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:28]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:55]
     :END:
 How to construct a topos
 from finite sets?
@@ -6771,17 +6805,17 @@ sets Δ, a presheaf is a
 simplicial set and the category
 of these presheaves is a topos.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-02-11 Mon>
     :PROPERTIES:
     :ID:       f90d67ec-c9f2-4dfd-8b33-3cd44bfb9bd0
-    :DRILL_LAST_INTERVAL: 7.201
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 13.293
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-22 Tue 12:24]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:54]
     :END:
 What is the simplex
 category /Δ/?
@@ -6836,17 +6870,17 @@ using these functors as objects
 and natural transformations
 between them as morphisms.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       d8071346-525c-4870-ae2a-6a5fb0410ba2
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-25 Fri 17:03]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:53]
     :END:
 Why does /P²/ generally
 have more eigenvectors
@@ -6919,17 +6953,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-02-04 Mon>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 5.1233
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.917
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 2.923
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:30]
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:04]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -7017,17 +7051,17 @@ Since /SO⁺(1,3)/ is generated by spatial
 rotations and Lorentz boosts, it can
 be written as a product of those.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-08-04 Sun>
     :PROPERTIES:
     :ID:       09a1eb47-7c07-4543-893c-c77430442c2f
-    :DRILL_LAST_INTERVAL: 98.1306
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 185.6631
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-24 Wed 12:56]
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:11]
     :END:
 With bounded operators
 resembling the complex
@@ -7565,17 +7599,17 @@ solution of the heat
 equation according to
 Heaviside.
 *** Differential                                                      :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-02-02 Sat>
     :PROPERTIES:
     :ID:       1e427a6d-45a3-4405-ba22-ed0226d9f680
-    :DRILL_LAST_INTERVAL: 130.6455
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-20 Thu 16:17]
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 19:03]
     :END:
 Why can a vector field
 be considered a differential
@@ -8884,17 +8918,17 @@ to a function application
 of /g:A→B→C/ via
 /f((a,b)):≡ g(a)(b)./
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       6063aab4-098a-460a-a2c5-b80171f99513
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:30]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 19:00]
     :END:
 What are the introduction
 rules for a product type
@@ -8904,17 +8938,17 @@ Elements of /A×B/ are constructed
 from /a:A/ and /b:B/ as tuples
 /(a,b):A×B/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       9aa3075b-6b04-44f9-903a-8b4eb95ee655
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.7498
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:29]
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:10]
     :END:
 What are the constructors
 of function types?
@@ -8922,17 +8956,17 @@ of function types?
 Lambda expressions
 /λx.Φ/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       f9817a42-8b33-4c24-aa80-181f63bacb1c
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:27]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:55]
     :END:
 What is a /computation rule/
 for a type?
@@ -8941,17 +8975,17 @@ It expresses how an
 eliminator acts on a
 constructor.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-02-02 Sat>
     :PROPERTIES:
     :ID:       5c576202-e425-4fb2-a036-b4ef5349f747
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:28]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 19:02]
     :END:
 What is the computation 
 rule for a function type?
@@ -8960,17 +8994,17 @@ That /(λx.Φ)(a)/ is judgementally
 equal to substitution of /a/ for
 /x/ in /Φ/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       e3971e4b-8952-4776-bc44-fe98cc2e9769
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:32]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 19:01]
     :END:
 What is an /inductive/
 type?
@@ -8983,17 +9017,17 @@ no elements beyond those
 constructed by the 
 constructors.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-14 Thu>
     :PROPERTIES:
     :ID:       960e1e54-a7bf-4996-84b5-cbbb178a8e35
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.5513
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:57]
     :END:
 What is a computation
 rule for a type?
@@ -9020,17 +9054,17 @@ rules for a type?
 These are the constructors
 of a type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       27ccbe6d-3929-49de-9335-f64a8e5258af
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:30]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:58]
     :END:
 What are the eliminators
 of a type?
@@ -9057,17 +9091,17 @@ The function type only has
 one eliminator,
 /function application/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       9c9c5c2f-9777-46c6-9066-5f1e7582f484
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:26]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:57]
     :END:
 What is a dependent function
 type?
@@ -9079,17 +9113,17 @@ as functions whose return type
 /B(x)/ depends on its argument 
 type /x/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       7ff87fff-3fca-45ac-9c07-b4772c148665
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:27]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 19:00]
     :END:
 How is the dependent function
 type /∏(x:A),B(x):𝒰/ related to
@@ -9099,17 +9133,17 @@ If /B(x)≡B/ is the constant
 family then
 /∏(x:A),B(x)≡(A→B)/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       4f522476-5489-4ecf-b30d-f450793a8ca4
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-09 Wed 13:31]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:59]
     :END:
 How are predicates
 constructed in type theory?
@@ -11190,17 +11224,17 @@ projected back into another
 tangent space resulting in
 a collapse of the ambiguity.
 *** Operators                                                         :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       96f1d6cf-46da-419e-8d14-936a1253ee07
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:27]
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:05]
     :END:
 How to derive the 
 velocity operator?
@@ -11217,17 +11251,17 @@ v̂=1/(iℏ)[x̂,H] as velocity
 operator.
 (Relation to group velocity?)
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-01-30 Wed>
+    SCHEDULED: <2019-02-08 Fri>
     :PROPERTIES:
     :ID:       0ee4cffd-d2a5-4db3-b96c-611e40974a60
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:24]
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:09]
     :END:
 How can a two component wave
 function /ψ=(α,β)ᵀ/ be interpreted
@@ -12120,17 +12154,17 @@ position and momentum variables are
 quantized by assigning an operator
 /Qₐ/ to function /a/.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-02-20 Wed>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 17.195
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 22.0268
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.909
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.917
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:35]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 19:01]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
@@ -12176,17 +12210,17 @@ values for /H/ and using the correspondence
 principle shows that the expectation
 of /H/ is the classical energy. 
 *** Time Evolution                                                    :drill:
-    SCHEDULED: <2019-01-29 Tue>
+    SCHEDULED: <2019-02-05 Tue>
     :PROPERTIES:
     :ID:       f5b1e43f-f5c7-4b6b-9d78-afc2b4d3eda2
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 7.201
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-25 Fri 17:04]
+    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:54]
     :END:
 How does a state evolve
 with respect to an energy
