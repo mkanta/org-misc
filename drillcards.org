@@ -1681,7 +1681,42 @@ This is a pattern match
 of record ~Typename~ and
 part of language extension
 =RecordWildcards=.
+*** MagaParsec Parsing                                                :drill:
+    SCHEDULED: <2019-02-07 Thu>
+    :PROPERTIES:
+    :ID:       2576b425-e70c-4cbb-9f5a-646dcfc47d19
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:41]
+    :END:
+Why is the second argument
+to =failure= a set of error
+items rather than just an
+error item?
+**** Answer:
+Because the set can be
+built up from alternative
+parsers and is reported
+as expecting alternatives
+connected with /or/.
 *** MegaParsec Parsing                                                :drill:
+    SCHEDULED: <2019-02-06 Wed>
+    :PROPERTIES:
+    :ID:       194322b1-9060-47dd-bc69-343e43145d29
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:06]
+    :END:
 Where is error reporting
 with =failure= superior to
 error reporting with =fail=?
@@ -1697,6 +1732,42 @@ a generated value is illegal,
 perhaps out of bounds or
 some such.
 *** MegaParsec Parsing                                                :drill:
+    SCHEDULED: <2019-02-07 Thu>
+    :PROPERTIES:
+    :ID:       fc293f00-c324-4d45-9a51-bf4858df18be
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:39]
+    :END:
+Is there a more natural
+method than 
+=Tokens (head msg :| tail msg)=
+to construct an =ErrorItem= for
+reporting =msg=?
+**** Answer:
+Yes, note that =NonEmpty a=
+is an instance of =IsList l=,
+hence its =fromList= method 
+can be used as in
+=Tokens $ fromList msg=.
+*** MegaParsec Parsing                                                :drill:
+    SCHEDULED: <2019-02-06 Wed>
+    :PROPERTIES:
+    :ID:       42680ba8-c25e-4617-8ba5-9008c9ef5120
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:30]
+    :END:
 How to construct the
 =ErrorItem (Token s)=
 value needed to post
@@ -1704,19 +1775,65 @@ an error message with
 =failure=?
 **** Answer:
 Use =Tokens (head msg :| tail msg)=.
+(or =Tokens $ fromList msg= because
+=NonEmpty Char= is an instance of
+=IsList=!)
 *** MegaParsec Parsing                                                :drill:
+    SCHEDULED: <2019-02-06 Wed>
+    :PROPERTIES:
+    :ID:       5fe137b3-a074-4b25-ad9d-e1f70feb815a
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:07]
+    :END:
 What is the =Label= constructor
 for =ErrorItem= for?
 **** Answer:
-It constructs an =ErrorItem=
-with just a character as label,
-as in
-=Label $ return 'c'=.
-Note the =return= (or some 
-equivalent, ie =pure=)
-is necessary to turn the 
-=Char= into a =NonEmpty Char=.
+For cases where the stream
+=Token s= is not character
+based. It allows to create
+ErrorItems with stringy
+error messages via
+=Label $ fromList msg=.
+*** Megaparsec Parsing                                                :drill:
+    SCHEDULED: <2019-02-07 Thu>
+    :PROPERTIES:
+    :ID:       159b5435-4be7-40bd-a941-acf48cd1a67b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:37]
+    :END:
+What's the difference 
+between using an =ErrorItem=
+constructed with =Tokens= and
+one constructed with =Label=?
+**** Answer:
+Printed error messages are quoted
+when using =Tokens= and unquoted
+when using Label.
 *** MegaParsec Parsing                                                :drill:
+    SCHEDULED: <2019-02-07 Thu>
+    :PROPERTIES:
+    :ID:       2c186b24-f23d-42ce-a0b6-7fb6c4414fb7
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:38]
+    :END:
 How to us =failure= to
 report an error message?
 **** Answer:
@@ -3273,17 +3390,17 @@ With inductive types the length
 of lists can become part of the
 type of the list.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-02-22 Fri>
     :PROPERTIES:
     :ID:       a6c2d272-4877-4ca0-be22-91abdd84c689
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:23]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:02]
     :END:
 What is =Proxy= used for
 in type arithmetic?
@@ -3499,17 +3616,17 @@ declaration?
 That an open type-family
 is part of the type class.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       f956250d-a06a-439c-851f-aff0ed9d6504
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-25 Fri 16:50]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:33]
     :END:
 What is the difference
 between a closed and
@@ -3526,17 +3643,17 @@ are provided as instances:
 ~type instance <Name> <variables>=...~
 wherever the type family is in scope.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-02-22 Fri>
     :PROPERTIES:
     :ID:       c91c31c6-a4f6-4b7b-8c45-665df12f3239
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:16]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 14:58]
     :END:
 How to express =∃ a.f a=
 in Haskell?
@@ -3544,17 +3661,17 @@ in Haskell?
 As  =(forall a.f a -> r) -> r=,
 which is Skolemization, in essence.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-02-22 Fri>
     :PROPERTIES:
     :ID:       266e1ddb-1273-4ab0-b02e-41902620a296
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:20]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:00]
     :END:
 How to return an existential
 datatype in Haskell?
@@ -4452,6 +4569,101 @@ to the calling context of whoever calls
 refers to the =this= of the defining context, 
 no matter who calls =objname.funcname=.
 ** root cern
+*** macros                                                            :drill:
+Does the macro function
+in a root macro have to be
+of signature =void -> void=?
+**** Answer:
+No, it can have arguments and
+return something. Arguments can
+be passed as in
+=.x filename(arg1,arg2,...)=
+when running it from a root
+shell.
+*** macros                                                            :drill:
+Is it possible to turn
+root macros into stand-alone
+GUI-applications?
+**** Answer:
+Yes, the main function has
+to run the macro function
+via root class =TApplication= as in
+#+BEGIN_SRC C++
+int main(int argc, char** argv) {
+TApplication app("ROOT Application", &argc, argv);
+StandaloneApplication(app.Argc(), app.Argv());
+app.Run();
+return 0;
+}
+#+END_SRC
+where =StandaloneApplication= calls
+the macro.
+*** macros                                                            :drill:
+How to turn a root macro
+into a stand-alone executable?
+**** Answer:
+Add a =main= function and compile with
+=g++ -o ExampleMacro ExampleMacro.C `root-config --cflags --libs`=
+*** macros                                                            :drill:
+Should macros normally be 
+compiled when loading them
+into a root shell?
+**** Answer:
+Probably not, because a macro
+normally lacks the includes
+of header files since they are
+not required by the C-interpreter.
+Only if the macro needs to become
+part of a standalone package is
+the required effort justifiable.
+*** macros                                                            :drill:
+What is the point of compiling
+a macro with =.L filename+=
+in the root shell?
+**** Answer:
+Execution speed, compilation
+results in a dynamic library
+=filenamebase.so= which is
+dynamically linked into
+the interpreter.
+*** macros                                                            :drill:
+How to access functions
+in a macro from the root
+shell?
+**** Answer:
+Load the macro with
+=.L filename= then all 
+functions in the file
+can be accessed in the 
+usual way.
+*** macros                                                            :drill:
+Is the presence of a
+function with the same name
+as the file mandatory in
+a root macro?
+**** Answer:
+No, but in that case the 
+filename can not be executed
+either on the command line
+or with =.x filename= in the root
+shell. 
+*** macros                                                            :drill:
+What can be done with
+a root macro from inside
+the root terminal?
+**** Answer:
+The macro function can be
+executed with =.x filename=,
+the macro can be loaded
+with =.L filename= or compiled
+with =.L filename+=.
+*** macros                                                            :drill:
+What is a macro in root?
+**** Answer:
+A =<name>.C= file of C++
+code containing normally
+a function going by the 
+same =name= as the file. 
 *** installation                                                      :drill:
     SCHEDULED: <2019-02-13 Wed>
     :PROPERTIES:
@@ -4580,27 +4792,6 @@ Set ~-DPYTHON_LIBRARY~ and
 ~-DPYTHON_INCLUDE~ on the 
 =cmake= command line to the
 appropriate directories.
-*** running                                                           :drill:
-    SCHEDULED: <2019-02-20 Wed>
-    :PROPERTIES:
-    :ID:       b9b837dc-2ad3-4914-9160-31782cb1ca0e
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-31 Thu 13:39]
-    :END:
-Is there an emacs
-mode for cern-root?
-**** Answer:
-Seems not. To run the
-REPL just start it
-aynchronuously from
-emacs with
-=M-& root=.
 *** installation                                                      :drill:
     SCHEDULED: <2019-02-13 Wed>
     :PROPERTIES:
@@ -4625,6 +4816,27 @@ libraries are installed, ie for
 directory may have to be configured
 on the =cmake= command line with the
 =-D= option.
+*** running                                                           :drill:
+    SCHEDULED: <2019-02-20 Wed>
+    :PROPERTIES:
+    :ID:       b9b837dc-2ad3-4914-9160-31782cb1ca0e
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-31 Thu 13:39]
+    :END:
+Is there an emacs
+mode for cern-root?
+**** Answer:
+Seems not. To run the
+REPL just start it
+aynchronuously from
+emacs with
+=M-& root=.
 ** purescript
 *** Psc-package                                                       :drill:
     SCHEDULED: <2019-03-06 Wed>
@@ -4926,17 +5138,17 @@ It seems like ~AppImage~
 is the way to go, see
 https://appimage.org/.
 *** terminal                                                          :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-05-06 Mon>
     :PROPERTIES:
     :ID:       08fa9fdc-2ff0-49d5-8bc5-520f485382c0
-    :DRILL_LAST_INTERVAL: 43.3861
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 91.6748
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-22 Sat 16:56]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:39]
     :END:
 How to put a unicode
 character into an lxterminal?
@@ -5297,17 +5509,17 @@ to use
 =adapter: Sqlite.Ecto= and
 =database: "<pathtodatabase>.sqlite"=.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-04-24 Wed>
     :PROPERTIES:
     :ID:       a3ed2c99-c03c-4a34-83b3-7cb2e2d5eaf7
-    :DRILL_LAST_INTERVAL: 42.3244
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.0778
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-22 Sat 17:02]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:40]
     :END:
 What to do if
 running ~mix deps.get~
@@ -5418,6 +5630,57 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git and branches                                                  :drill:
+    SCHEDULED: <2019-02-07 Thu>
+    :PROPERTIES:
+    :ID:       da162903-41d2-4089-bd99-3b3be8f05a08
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:36]
+    :END:
+What's the problem if
+=git rebase -X theirs master=
+does nothing, reporting
+/Current branch <name> is up to date/?
+**** Answer:
+That means there was no
+activity on the master
+branch since the current
+branch branched off from
+it, ie the current branch
+is already based at HEAD
+of master.
+*** git and branches                                                  :drill:
+    SCHEDULED: <2019-02-06 Wed>
+    :PROPERTIES:
+    :ID:       0a09a9d5-3e9c-46ab-b2a5-7926e9c4ace0
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:03]
+    :END:
+What's the problem if after
+=git rebase master= the master
+branch is still the same?
+**** Answer:
+That is to be expected,
+=rebase= just changes the
+topic branch to now start
+at the HEAD of master. To
+change /master/ a merge request
+has to be issued from master.
+If the =rebase= was successful, 
+there will be no merge
+conflicts.
+*** git and branches                                                  :drill:
     SCHEDULED: <2019-02-04 Mon>
     :PROPERTIES:
     :ID:       a25a0fb6-6572-4841-8788-daa341c81cd6
@@ -5437,7 +5700,19 @@ to a branch?
 Yes, use ~git branch --edit-description~,
 which will add a description to
 configuration ~branch.<branchname>.description~.
-*** git and branches
+*** git and branches                                                  :drill:
+    SCHEDULED: <2019-02-06 Wed>
+    :PROPERTIES:
+    :ID:       d6d9a830-6743-4f8d-b35b-e8a1228aba63
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:07]
+    :END:
 How to retrieve a branch
 description?
 **** Answer:
@@ -7362,17 +7637,17 @@ Isometric operators are like unitary
 operators except that they may not be
 surjective.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-02-25 Mon>
     :PROPERTIES:
     :ID:       46ad0d7a-2654-4e47-a6fa-0945e2d7c6a0
-    :DRILL_LAST_INTERVAL: 17.195
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 22.0268
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.909
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.917
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:12]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:35]
     :END:
 How are Heisenberg groups
 related to symplectic vector
@@ -7699,17 +7974,17 @@ solution of the heat
 equation according to
 Heaviside.
 *** Differential                                                      :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-02-10 Sun>
     :PROPERTIES:
     :ID:       1e427a6d-45a3-4405-ba22-ed0226d9f680
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 8.2438
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.429
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.375
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 19:03]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:00]
     :END:
 Why can a vector field
 be considered a differential
@@ -8820,17 +9095,17 @@ and equality datatypes of
 equality datatypes ad
 infinitum.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       824bb053-8130-47ed-a712-c09abef4c409
-    :DRILL_LAST_INTERVAL: 8.2449
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 15.5994
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:19]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:32]
     :END:
 Why is an intensional type
 theory desirable as underpinning
@@ -8887,17 +9162,17 @@ concepts, such as numbers
 is more cumbersome than
 in /extensional/ type theory
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       27ee6471-e73d-45e1-8bc7-2dd01a959da2
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-14 Mon 12:41]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:36]
     :END:
 Why is a dependent function
 type for /A:𝒰/ and /B:A→𝒰/ 
@@ -8910,17 +9185,17 @@ the sequences consist of
 function values indexed by
 the corresponding arguments.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       a87dc826-c122-4c02-a398-323e88e4fbbd
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-14 Mon 12:36]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:40]
     :END:
 Why is a dependent pair
 type for /A:𝒰/ and
@@ -9075,17 +9350,17 @@ It expresses how an
 eliminator acts on a
 constructor.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-02-09 Sat>
     :PROPERTIES:
     :ID:       5c576202-e425-4fb2-a036-b4ef5349f747
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 7.201
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 19:02]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:00]
     :END:
 What is the computation 
 rule for a function type?
@@ -9256,17 +9531,17 @@ to the proposition that /P/ holds
 for /a/.
 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-04-01 Mon>
     :PROPERTIES:
     :ID:       ad6bf50d-6fd3-4d7a-a1c1-9f636cfd6d4b
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6081
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:21]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:41]
     :END:
 Why can the *0* type not
 be populated in a
@@ -10467,17 +10742,17 @@ that, such as the Casimir operator,
 possibly also employing the relevant
 Lorentz group.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-02-14 Thu>
     :PROPERTIES:
     :ID:       5401b059-307d-4458-9d13-4e1800b3bfad
-    :DRILL_LAST_INTERVAL: 7.2031
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 11.6618
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-26 Sat 12:20]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:01]
     :END:
 What is the relationship
 of the Heisenberg group to
@@ -10910,17 +11185,17 @@ Subspaces that are invariant under the
 representation of the Lorentz group on the 
 Hilbert space.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-04-28 Sun>
     :PROPERTIES:
     :ID:       fba25cb9-6fc1-40bb-a9ef-12d581e5e229
-    :DRILL_LAST_INTERVAL: 73.9469
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 83.7079
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-20 Tue 09:50]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:36]
     :END:
 How is a representation of the Lorentz
 group induced on a Hilbert space?
@@ -11119,17 +11394,17 @@ with an annihilation operator results in a counting
 operator which counts the number of particles of
 a given type in a given state.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-02-14 Thu>
     :PROPERTIES:
     :ID:       b088e6b3-916c-443b-837a-23db646df091
-    :DRILL_LAST_INTERVAL: 9.7835
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 11.0749
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 3
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:18]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:35]
     :END:
 What is the problem with allowing infinitely
 many particles in a field theory?
@@ -11140,7 +11415,8 @@ representations of the creation and annihilation
 operators on the space. As a consequence, 
 counting particles with the density operator
 will give different results in different
-representations.
+representations. (Maybe just what is needed
+for accelerated relativistic observers?)
 *** Hilbert space						      :drill:
     SCHEDULED: <2019-02-17 Sun>
     :PROPERTIES:
@@ -11782,17 +12058,17 @@ individuality through durability. The
 low number of eigenvalues avoids 
 the confusion of multitudes.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-10-16 Wed>
     :PROPERTIES:
     :ID:       4de4a63c-4287-42c1-a424-b2a6d28b1603
-    :DRILL_LAST_INTERVAL: 121.1747
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 256.0421
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-04 Thu 14:41]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:05]
     :END:
 Why does beta decay
 /n → p+e+v̄ₑ/ involve an
@@ -12141,17 +12417,17 @@ happens with observers in
 relativity who all perceive
 the same speed of light.
 *** Quantization                                                      :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       4645d39f-2d93-43b8-bd2b-eac30d9b9bf3
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-14 Mon 12:38]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:39]
     :END:
 How to construct a phase-space
 function from an operator?
@@ -12181,17 +12457,17 @@ but most commonly the operator is
 mapped to phase-space via the
 Wigner transform.
 *** Quantization                                                      :drill:
-    SCHEDULED: <2019-02-03 Sun>
+    SCHEDULED: <2019-02-07 Thu>
     :PROPERTIES:
     :ID:       9739c73f-9491-4d12-ba7d-e9cbfe165912
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-14 Mon 12:40]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:43]
     :END:
 What is the essence of the
 phase-space formulation of
@@ -12206,17 +12482,17 @@ a non-commutative star
 multiplication between 
 these distributions.
 *** Quantization                                                      :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-03-16 Sat>
     :PROPERTIES:
     :ID:       4e5d2215-99b4-425f-a352-f4c0e2d0945d
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:32]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:04]
     :END:
 Why is the Poisson bracket
 difficult to accomodate in
@@ -12656,17 +12932,17 @@ If so, link an entry in =/sys/class/backlight=
 to it, if not then there is no hardware
 support for brightness changes.
 *** configuration                                                     :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-04-24 Wed>
     :PROPERTIES:
     :ID:       d851807b-c2ec-41c5-b3b2-8c93075d73a7
-    :DRILL_LAST_INTERVAL: 42.3244
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.0778
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-22 Sat 16:57]
+    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:38]
     :END:
 How to configure
 input methods in
@@ -13164,17 +13440,17 @@ ubuntu between 16 and 18, where it was
 hard to update this package because the 
 old version couldn't be removed.
 *** xmonad                                                            :drill:
-    SCHEDULED: <2019-02-02 Sat>
+    SCHEDULED: <2019-03-30 Sat>
     :PROPERTIES:
     :ID:       d427d0b3-2784-4a83-bad5-83255d6dc001
-    :DRILL_LAST_INTERVAL: 35.3567
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 55.8282
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.1
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 3.091
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-29 Sat 14:58]
+    :DRILL_LAST_REVIEWED: [2019-02-02 Sat 15:08]
     :END:
 Where should applications
 be auto-started xsession
