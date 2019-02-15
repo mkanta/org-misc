@@ -377,17 +377,17 @@ a computation and the subsequent
 execution of the description.
 ** build tools
 *** cmake                                                             :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-04-11 Thu>
     :PROPERTIES:
     :ID:       5a477795-a274-43a0-ad71-f632de5c466b
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-23 Wed 14:50]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:13]
     :END:
 How does /cmake/ compare
 to /make/?
@@ -1393,17 +1393,17 @@ merely used to extract
 widgets from the builder.
 ** haskell
 *** Debugging                                                         :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-25 Mon>
     :PROPERTIES:
     :ID:       3a79cef8-4e18-4c6e-8676-fe7f26a7d7d6
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:28]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:07]
     :END:
 What to do when :print
 doesn't print out the 
@@ -1419,17 +1419,17 @@ where /name/ is a thunk
 name, usually _tn, or
 a variable name.
 *** Debugging                                                         :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-25 Mon>
     :PROPERTIES:
     :ID:       e1fdf456-653e-4eb8-8f4a-08b00d3ed908
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:32]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:07]
     :END:
 How to inspect what's
 going on when single
@@ -1873,17 +1873,17 @@ parsers and is reported
 as expecting alternatives
 connected with /or/.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-03-07 Thu>
     :PROPERTIES:
     :ID:       194322b1-9060-47dd-bc69-343e43145d29
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-06 Wed 14:58]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:08]
     :END:
 Where is error reporting
 with =failure= superior to
@@ -1924,17 +1924,17 @@ hence its =fromList= method
 can be used as in
 =Tokens $ fromList msg=.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-03-07 Thu>
     :PROPERTIES:
     :ID:       42680ba8-c25e-4617-8ba5-9008c9ef5120
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-06 Wed 15:04]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:06]
     :END:
 How to construct the
 =ErrorItem (Token s)=
@@ -1947,17 +1947,17 @@ Use =Tokens (head msg :| tail msg)=.
 =NonEmpty Char= is an instance of
 =IsList=!)
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-03-08 Fri>
     :PROPERTIES:
     :ID:       5fe137b3-a074-4b25-ad9d-e1f70feb815a
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-06 Wed 15:00]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:05]
     :END:
 What is the =Label= constructor
 for =ErrorItem= for?
@@ -2008,17 +2008,17 @@ report an error message?
 As
 =failure Nothing $ Set.singleton $ Tokens (head msg :| tail msg)=
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-03-10 Sun>
     :PROPERTIES:
     :ID:       48422e10-666c-4eef-ab09-2c52976f9f79
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-02-05 Tue 13:08]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:04]
     :END:
 Why is the use of =failure=
 to report a parse error
@@ -2162,6 +2162,30 @@ If the IO-functionality is
 not required, use STRef
 because its value can be
 accessed in pure functions.
+*** Option Parsing                                                    :drill:
+    SCHEDULED: <2019-02-19 Tue>
+    :PROPERTIES:
+    :ID:       bcb4f42d-36d3-4968-b480-650ae96b7720
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:14]
+    :END:
+How to handle optional
+options in Opts.Applicative?
+**** Answer:
+Put a =Maybe= field in the 
+target data-structure and
+apply =optional=, reexported 
+from =Alternative=, to the 
+parser builer, ie
+=optional $ strOption…= 
+for an optional string
+option. 
 *** Option Parsing                                                    :drill:
     SCHEDULED: <2019-02-16 Sat>
     :PROPERTIES:
@@ -6090,17 +6114,17 @@ content. The only way to edit
 it afterwards is to check it 
 back in.
 *** git in emacs                                                      :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-12-21 Sat>
     :PROPERTIES:
     :ID:       7d88dd8a-b454-4a64-86f5-2dcf28a9f428
-    :DRILL_LAST_INTERVAL: 142.4286
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 308.5003
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-09-26 Wed 14:50]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:15]
     :END:
 What happens when checking in
 a file under git control in
@@ -6136,17 +6160,17 @@ it, ie the current branch
 is already based at HEAD
 of master.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-03-07 Thu>
     :PROPERTIES:
     :ID:       0a09a9d5-3e9c-46ab-b2a5-7926e9c4ace0
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-06 Wed 14:57]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:12]
     :END:
 What's the problem if after
 =git rebase master= the master
@@ -6182,17 +6206,17 @@ Yes, use ~git branch --edit-description~,
 which will add a description to
 configuration ~branch.<branchname>.description~.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-03-07 Thu>
     :PROPERTIES:
     :ID:       d6d9a830-6743-4f8d-b35b-e8a1228aba63
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-06 Wed 14:59]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:09]
     :END:
 How to retrieve a branch
 description?
@@ -7344,17 +7368,17 @@ my
 **** Answer:
 Personal Pronoun first person: I, me, we, us
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-25 Mon>
     :PROPERTIES:
     :ID:       6c12b2b5-554d-4572-82b3-52c0f8c410b7
-    :DRILL_LAST_INTERVAL: 6.1619
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 9.7296
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-09 Sat 13:16]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:09]
     :END:
 一
 **** Answer:
@@ -9227,17 +9251,17 @@ A definition which defines
 by listing everything that
 falls under that definition.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-04-11 Thu>
     :PROPERTIES:
     :ID:       6849db16-390c-45fd-92fe-cac3ff6abd81
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-23 Wed 14:48]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:16]
     :END:
 What is an intensional 
 definition?
@@ -9668,17 +9692,17 @@ in an intensional theory as
 definitional and propositional
 equality are distinguished.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       4dad8346-9d81-495d-8d70-8c85d3e3cb64
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-23 Wed 14:48]
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:18]
     :END:
 What is the determining
 feature of /extensional/
@@ -9692,17 +9716,17 @@ entities are defined extensionally,
 ie. by listing all inhabitants of
 a type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-04-13 Sat>
     :PROPERTIES:
     :ID:       283f3d0e-c06f-458d-8c8a-62e81be59bcd
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6141
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-23 Wed 14:49]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:14]
     :END:
 What is the problem
 with /intensional/ type
@@ -10445,17 +10469,17 @@ separable, second countable
 Hausdorff space with its
 usual ~σ~ algebra.
 *** Quasi Probability                                                 :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-25 Mon>
     :PROPERTIES:
     :ID:       43d44fdc-0cca-4370-bf44-934400a6ee03
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:08]
     :END:
 What does it mean to say
 the a quasi-probability
@@ -11343,17 +11367,17 @@ relations as the position-
 momentum operators in 
 quantum physics.
 *** Density matrix                                                    :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-24 Sun>
     :PROPERTIES:
     :ID:       f459c501-bdc3-46f7-b810-784efb164ef0
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:30]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:10]
     :END:
 How can the expectation
 /⟨σⱼ|A|σⱼ⟩/ be expressed
@@ -11363,17 +11387,17 @@ As /tr(PⱼA)=⟨σⱼ|A|σⱼ⟩/,
 where /Pⱼ/ is the projection
 operator /|σⱼ⟩⟨σⱼ|/.
 *** Density matrix                                                    :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-24 Sun>
     :PROPERTIES:
     :ID:       4806415d-a5ae-4ad5-89d1-ac44b34ab8af
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:24]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:11]
     :END:
 Why is /tr (PⱼA)=⟨σⱼ|A|σⱼ⟩/
 for projection operator
@@ -12534,17 +12558,17 @@ proper wave equation, the solution
 can be as simple as /ρ=|ψ|²/ as in the
 case of the Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-19 Tue>
     :PROPERTIES:
     :ID:       70def94e-b831-4fc2-8a7a-444c65651c83
-    :DRILL_LAST_INTERVAL: 121.591
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-16 Tue 15:37]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:18]
     :END:
 What is the problem with the
 probability current 
@@ -13154,17 +13178,17 @@ By splitting the current /Jᵐ/ into a
 positive and a negative part:
 /Jᵐ=Jₚᵐ-Jₙᵐ/.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-07-10 Wed>
     :PROPERTIES:
     :ID:       7098cf17-ef52-4a72-85db-a62c8ee2ef0c
-    :DRILL_LAST_INTERVAL: 78.666
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 145.2174
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-28 Wed 13:05]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:13]
     :END:
 How does reality creation
 by interaction tie in with
@@ -13423,17 +13447,17 @@ of the Hamiltonian of the
 system.
 ** Signals
 *** Coherence                                                         :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-02-24 Sun>
     :PROPERTIES:
     :ID:       b732912d-1c61-46d1-92ed-0e53abc062fa
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:27]
+    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:06]
     :END:
 What is coherence?
 **** Answer:
@@ -14043,18 +14067,18 @@ ACL is an abbreviation for
 [specify file access in a more fine-grained 
 way than users and groups].
 *** Fact							      :drill:
-    SCHEDULED: <2019-02-15 Fri>
+    SCHEDULED: <2019-05-22 Wed>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       515f3873-fe47-4fc3-8889-dacbfa24c71b
-  :DRILL_LAST_INTERVAL: 50.4668
-  :DRILL_REPEATS_SINCE_FAIL: 6
-  :DRILL_TOTAL_REPEATS: 16
+  :DRILL_LAST_INTERVAL: 95.6851
+  :DRILL_REPEATS_SINCE_FAIL: 7
+  :DRILL_TOTAL_REPEATS: 17
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 3.5
-  :DRILL_EASE: 1.86
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-12-27 Thu 18:08]
+  :DRILL_AVERAGE_QUALITY: 3.471
+  :DRILL_EASE: 1.72
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:17]
   :END:      
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
