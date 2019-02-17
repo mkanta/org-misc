@@ -808,17 +808,17 @@ and
 it to one of the dired hooks run
 when entering a directory.
 *** dired                                                             :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-07-19 Fri>
     :PROPERTIES:
     :ID:       00704dd6-826f-4674-a526-75a989c5dcb5
-    :DRILL_LAST_INTERVAL: 80.2475
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 151.8283
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.3
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-29 Thu 11:32]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:40]
     :END:
 What is ~dired-after-readin-hook~
 for?
@@ -1850,17 +1850,17 @@ of record ~Typename~ and
 part of language extension
 =RecordWildcards=.
 *** MagaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-03-08 Fri>
     :PROPERTIES:
     :ID:       2576b425-e70c-4cbb-9f5a-646dcfc47d19
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-07 Thu 13:50]
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:42]
     :END:
 Why is the second argument
 to =failure= a set of error
@@ -1900,17 +1900,17 @@ a generated value is illegal,
 perhaps out of bounds or
 some such.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       fc293f00-c324-4d45-9a51-bf4858df18be
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-07 Thu 13:50]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:42]
     :END:
 Is there a more natural
 method than 
@@ -1969,17 +1969,17 @@ ErrorItems with stringy
 error messages via
 =Label $ fromList msg=.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       159b5435-4be7-40bd-a941-acf48cd1a67b
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-07 Thu 13:51]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:42]
     :END:
 What's the difference 
 between using an =ErrorItem=
@@ -1990,17 +1990,17 @@ Printed error messages are quoted
 when using =Tokens= and unquoted
 when using Label.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-03-08 Fri>
     :PROPERTIES:
     :ID:       2c186b24-f23d-42ce-a0b6-7fb6c4414fb7
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-07 Thu 13:49]
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:41]
     :END:
 How to use =failure= to
 report an error message?
@@ -2075,17 +2075,17 @@ desired. Use
 ~parseTest <parser> <stringput>~
 instead.
 *** Megaparsec Parsing                                                :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-07-19 Fri>
     :PROPERTIES:
     :ID:       4ec40236-383b-4b61-95d5-ce8c7f3a0e7f
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 152.4375
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:54]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:42]
     :END:
 Why is the description
 of the second argument in
@@ -2187,17 +2187,17 @@ parser builer, ie
 for an optional string
 option. 
 *** Option Parsing                                                    :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       5c427f07-72fa-45a2-9a09-014e5c69c1bf
-    :DRILL_LAST_INTERVAL: 78.666
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.8361
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-29 Thu 11:32]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:43]
     :END:
 What to do when the
 behaviour of ~auto~ in
@@ -4990,17 +4990,17 @@ be passed as in
 when running it from a root
 shell.
 *** macros                                                            :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       3ded5631-7363-4688-94aa-91296a224cfb
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-08 Fri 12:55]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:37]
     :END:
 Is it possible to turn
 root macros into stand-alone
@@ -5020,17 +5020,17 @@ return 0;
 where =StandaloneApplication= calls
 the macro.
 *** macros                                                            :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       21d6e5da-39a5-47eb-b1fc-aa9b8c8c7b7b
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-08 Fri 12:36]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:36]
     :END:
 How to turn a root macro
 into a stand-alone executable?
@@ -5062,17 +5062,17 @@ Only if the macro needs to become
 part of a standalone package is
 the required effort justifiable.
 *** macros                                                            :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       f17326fa-8d56-49e4-ae7f-e28687926378
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-08 Fri 12:55]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:38]
     :END:
 What is the point of compiling
 a macro with =.L filename+=
@@ -5577,17 +5577,17 @@ or in a /*.conf/ file in
 the library is listed in 
 =ldconfig -p=.
 *** installing                                                        :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-04-06 Sat>
     :PROPERTIES:
     :ID:       82bc7440-8d23-4ef8-8abb-08d60bf9e795
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:20]
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:46]
     :END:
 How to install a 
 desktop file as a
@@ -5600,17 +5600,17 @@ using options
 –dir=~/.local/share/applications
 and –update-mime-database.
 *** packaging                                                         :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-04-07 Sun>
     :PROPERTIES:
     :ID:       2bb49554-4787-4e2a-a9cd-a22c590bd98d
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-25 Fri 16:51]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:42]
     :END:
 Is there a way to
 get dependencies
@@ -6135,17 +6135,17 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       da162903-41d2-4089-bd99-3b3be8f05a08
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-07 Thu 13:51]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:41]
     :END:
 What's the problem if
 =git rebase -X theirs master=
@@ -7052,17 +7052,17 @@ aspects of saturn, most notably
 with the native sun.
 ** Meditation
 *** Consciousness                                                     :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-04-08 Mon>
     :PROPERTIES:
     :ID:       cefcab6e-ac6a-417f-ba01-3a3aef7526f3
-    :DRILL_LAST_INTERVAL: 23.2095
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.2718
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-25 Fri 16:50]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:41]
     :END:
 What is the idea behind
 consciousness creation
@@ -7184,17 +7184,17 @@ that can be named is not the
 eternal Tao.
 ** Psychology
 *** Jung                                                              :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-02-26 Tue>
     :PROPERTIES:
     :ID:       6d212348-6015-4a01-8df8-3524661882b1
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-13 Wed 13:24]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:39]
     :END:
 What is fate according
 to Jung?
@@ -7206,70 +7206,6 @@ situation is not made
 conscious, it happens
 outside as fate.
 ** Naq Hammadi
-*** Thomas                                                            :drill:
-    SCHEDULED: <2019-02-19 Tue>
-    :PROPERTIES:
-    :ID:       636f3bcb-45e4-4905-9998-f65829a4e53d
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:09]
-    :END:
-Why the emphasis on
-hating one's relatives?
-**** Answer:
-This is perhaps a bit
-strong but indicates
-the need to become
-independent of the peer
-pressure exerted by relatives,
-which might have prevented
-the mission of Jesus.
-*** The Mustard Seed                                                  :drill:
-    SCHEDULED: <2019-05-26 Sun>
-    :PROPERTIES:
-    :ID:       b8b21574-6eea-4433-8832-1a02ce79213b
-    :DRILL_LAST_INTERVAL: 121.7097
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:32]
-    :END:
-What is it that grows
-from the mustard seed
-in Christian terms?
-**** Answer:
-It is called ~faith~
-and needs to grow into
-a living being.
-*** The Word                                                          :drill:
-    SCHEDULED: <2019-05-22 Wed>
-    :PROPERTIES:
-    :ID:       6fc02f7a-dea4-4668-907e-43f1bb76cbf2
-    :DRILL_LAST_INTERVAL: 125.2158
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:09]
-    :END:
-What is the /Word/?
-**** Answer:
-The inherent purity that
-is corrupted by its 
-environment, an analogy
-to the teachings of Jesus
-residing in a corrupt body,
-the Church.
 *** Adam & Eve                                                        :drill:
     SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
@@ -7317,6 +7253,82 @@ spirit.
 (The Hypostasis of
 the Archeons, The
 Reality of the Rulers)
+*** The Father                                                        :drill:
+How does the /Father/
+compare to the /Tao/ 
+according to the Gospel
+of the Egyptians?
+**** Answer:
+It is the beginning
+(or principle) of what is
+visible, thus an emanation
+of the /tao/ which is comparable
+to what they call the
+/forefather/.
+*** The Mustard Seed                                                  :drill:
+    SCHEDULED: <2019-05-26 Sun>
+    :PROPERTIES:
+    :ID:       b8b21574-6eea-4433-8832-1a02ce79213b
+    :DRILL_LAST_INTERVAL: 121.7097
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:32]
+    :END:
+What is it that grows
+from the mustard seed
+in Christian terms?
+**** Answer:
+It is called ~faith~
+and needs to grow into
+a living being.
+*** The Word                                                          :drill:
+    SCHEDULED: <2019-05-22 Wed>
+    :PROPERTIES:
+    :ID:       6fc02f7a-dea4-4668-907e-43f1bb76cbf2
+    :DRILL_LAST_INTERVAL: 125.2158
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:09]
+    :END:
+What is the /Word/?
+**** Answer:
+The inherent purity that
+is corrupted by its 
+environment, an analogy
+to the teachings of Jesus
+residing in a corrupt body,
+the Church.
+*** Thomas                                                            :drill:
+    SCHEDULED: <2019-02-19 Tue>
+    :PROPERTIES:
+    :ID:       636f3bcb-45e4-4905-9998-f65829a4e53d
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-01-30 Wed 13:09]
+    :END:
+Why the emphasis on
+hating one's relatives?
+**** Answer:
+This is perhaps a bit
+strong but indicates
+the need to become
+independent of the peer
+pressure exerted by relatives,
+which might have prevented
+the mission of Jesus.
 * Language
 ** Chinese
 *** Characters                                                        :drill:
@@ -7855,17 +7867,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-02-23 Sat>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 6.4027
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 7.0686
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.933
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.937
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-10 Sun 15:43]
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:41]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -8022,17 +8034,17 @@ are self adjoint, they behave in a
 sense like positive real numbers, so
 /|T|/ is a bit like a length.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-02 Sat>
     :PROPERTIES:
     :ID:       7468d8bb-a84d-4e9f-8d79-2691a9c754ae
-    :DRILL_LAST_INTERVAL: 7.201
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 13.293
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-10 Sun 15:42]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:36]
     :END:
 What is a partial isometry?
 **** Answer:
@@ -8855,17 +8867,17 @@ tensors according to the position
 of the last index.
 ** Logic
 *** Continuity                                                        :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-02-26 Tue>
     :PROPERTIES:
     :ID:       50348723-2975-4d86-86e4-7510a0865318
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-13 Wed 13:27]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:37]
     :END:
 What kind of entities
 are considered 
@@ -9214,17 +9226,17 @@ Since this means /A⊗B⊦A/, this
 would lead to /⊦A⊗B⊸A/ which is
 known not to hold.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2020-01-19 Sun>
     :PROPERTIES:
     :ID:       1c0e49f3-9259-454f-bc57-070b37fe7c99
-    :DRILL_LAST_INTERVAL: 146.529
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 337.3098
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-22 Sat 13:24]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:46]
     :END:
 How is a proof of sequent
 /A₁,…,Aₙ⊦A/ of linear logic 
@@ -9232,17 +9244,17 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-04-14 Sun>
     :PROPERTIES:
     :ID:       4316a603-18d6-4b53-8ace-fd27cfa1dd7e
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6141
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:16]
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:47]
     :END:
 What is an extensional
 definition?
@@ -9555,17 +9567,17 @@ the inputs to that
 constructor.
 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-31 Sun>
     :PROPERTIES:
     :ID:       888ceb62-0e29-493d-9619-53d921f3e250
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:05]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:40]
     :END:
 Why are inductive types
 /I/ popular?
@@ -9577,17 +9589,17 @@ it for its constructors /Cᵢ/
 using an induction principle
 /ind(I,E,{eᵢ})/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-31 Sun>
     :PROPERTIES:
     :ID:       5936e13c-af2f-424b-a404-58ca712958d4
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 12:57]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:41]
     :END:
 What is an inductive
 type?
@@ -9601,17 +9613,17 @@ applying these constructors
 repeatedly in a nested
 fashion. 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-31 Sun>
     :PROPERTIES:
     :ID:       76f78ccd-a000-4f1a-9c0b-a8f7e47acb32
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 12:57]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:43]
     :END:
 What is an /induction/
 principle /ind(T,E,{eᵢ})/
@@ -12062,17 +12074,17 @@ will give different results in different
 representations. (Maybe just what is needed
 for accelerated relativistic observers?)
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-05-04 Sat>
     :PROPERTIES:
     :ID:       e72964a8-7a57-4802-8c43-b6c739b20b33
-    :DRILL_LAST_INTERVAL: 46.9477
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 76.0083
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.273
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-01 Tue 17:54]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:41]
     :END:
 How does the unitary inequivalence of different
 representations on an infinite-particle Hilbert
@@ -12101,17 +12113,17 @@ The matrix that transforms the basis constructed
 from one-particle states at time /t=-∞/ to 
 that constructed at /t=∞/.
 *** Interference                                                      :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       5ff7b5b1-d3c4-4f93-b84e-60d2415923b4
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-08 Fri 12:54]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:38]
     :END:
 What actually happens when
 two photons interfere?
@@ -12123,17 +12135,17 @@ actually self-interference
 of a two photon state.
 See the /Grangier Experiment/.
 *** Interference                                                      :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-03-09 Sat>
     :PROPERTIES:
     :ID:       44b1e429-5d16-43b4-bd8a-46844ccfcae4
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-08 Fri 12:53]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:36]
     :END:
 How long is a photon
 wave-packet?
@@ -12535,17 +12547,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-02-16 Sat>
+    SCHEDULED: <2019-03-13 Wed>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 21.9366
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_LAST_INTERVAL: 24.8322
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 22
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.905
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.909
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-25 Fri 16:58]
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:45]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -12850,17 +12862,17 @@ eigenstates are also energy eigen-
 states, hence preserved during
 time-evolution.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-02-17 Sun>
+    SCHEDULED: <2019-12-01 Sun>
     :PROPERTIES:
     :ID:       0b87069c-50fd-4078-b7cb-e1d6aa911c1f
-    :DRILL_LAST_INTERVAL: 132.5784
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 287.1648
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-07 Sun 13:58]
+    :DRILL_LAST_REVIEWED: [2019-02-17 Sun 13:39]
     :END:
 How does the identity of particle
 types come about?
@@ -13979,6 +13991,78 @@ by setting ~vm.swappiness~ to a
 natural number, 0 indicating
 a desire not to use swap space
 at all.
+*** desktop configuration                                             :drill:
+    SCHEDULED: <2019-02-20 Wed>
+    :PROPERTIES:
+    :ID:       ae03b422-2f07-4652-a0d4-e5b0c7276238
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:44]
+    :END:
+What's the problem if after
+logging into lubuntu a message 
+"The specified directory
+/home... is not valid" appears?
+**** Answer:
+This message comes from
+=xdg-user-dirs-update= run right
+after login and usually appears
+if one of the entries in
+~/.config/user-dirs.dirs
+is misconfigured.
+*** desktop configuration                                             :drill:
+    SCHEDULED: <2019-02-20 Wed>
+    :PROPERTIES:
+    :ID:       ef31cee5-a3c5-4727-9848-78f559dbd2b1
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:47]
+    :END:
+How to add more options in
+the =Create New…= entry of
+a freedesktop compliant
+file manager?
+**** Answer:
+Put some templates in a
+templates folder, for example
+an =example web.html= or a 
+spreadsheet etc. Then configure
+this folder as an
+=XDG_TEMPLATES_DIR= in 
+~/.config/user-dirs.dirs.
+*** desktop configuration                                             :drill:
+    SCHEDULED: <2019-02-20 Wed>
+    :PROPERTIES:
+    :ID:       a89f10e3-46f2-45fa-b55e-0b4a0ac74315
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:48]
+    :END:
+What to do if desktop
+icons don't appear even after
+updating the mime database
+and restarting the desktop
+manager?
+**** Answer:
+Check if =XDG_DESKTOP_DIR=
+is set to the proper dektop
+file. This is set in 
+~/.config/user-dirs.dirs
 *** dmenu                                                             :drill:
     SCHEDULED: <2019-04-03 Wed>
     :PROPERTIES:
