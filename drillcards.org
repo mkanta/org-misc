@@ -1464,17 +1464,17 @@ from the recipient buffer or with one
 of the functions from the In/Out menu
 in the maxima buffer itself.
 *** maxima and emacs                                                  :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2020-01-03 Fri>
     :PROPERTIES:
     :ID:       b157fc2f-31fa-4511-a941-1d831df508d7
-    :DRILL_LAST_INTERVAL: 142.4286
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 305.0821
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:17]
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:29]
     :END:
 How to interact from a
 file buffer with Maxima?
@@ -1540,17 +1540,17 @@ extract the code and put it
 into =ox-ravel.el= in the same
 directory.
 *** packages                                                          :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2019-06-10 Mon>
     :PROPERTIES:
     :ID:       342171b0-e1da-4aaf-8973-2278d7cbe964
-    :DRILL_LAST_INTERVAL: 45.7498
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 97.9961
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:15]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:25]
     :END:
 How to uninstall packages
 installed with /elpa/?
@@ -4371,17 +4371,17 @@ experimenting?
 In /ghci/ with 
 =kind! <expression>=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2019-06-20 Thu>
     :PROPERTIES:
     :ID:       792dbc9f-2036-493e-82d6-b592d8aeff09
-    :DRILL_LAST_INTERVAL: 50.2628
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 107.6629
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:35]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:26]
     :END:
 How to define a type
 level =IF=?
@@ -6971,17 +6971,17 @@ followed by
 =git submodule update —recursive=
 and see if that helps.
 *** git                                                               :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2019-07-16 Tue>
     :PROPERTIES:
     :ID:       9c2a4598-06de-4ed8-995c-7911333ef557
-    :DRILL_LAST_INTERVAL: 86.9675
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 134.4518
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-07 Fri 12:58]
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:26]
     :END:
 What to do with a file
 that was accidentally
@@ -10727,17 +10727,17 @@ Because its negation
 ¬ *0*: *0* → *0* is inhabited
 by the identity function.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2019-05-23 Thu>
     :PROPERTIES:
     :ID:       e9f9f77c-cebd-4e3b-8f87-014f40f426b7
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 79.5332
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-21 Mon 13:43]
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:28]
     :END:
 In which sense differs
 type theory from first
@@ -11943,17 +11943,17 @@ that, such as the Casimir operator,
 possibly also employing the relevant
 Lorentz group.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2019-03-29 Fri>
     :PROPERTIES:
     :ID:       5401b059-307d-4458-9d13-4e1800b3bfad
-    :DRILL_LAST_INTERVAL: 18.414
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 24.5274
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.38
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-14 Thu 12:55]
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:24]
     :END:
 What is the relationship
 of the Heisenberg group to
@@ -13069,17 +13069,17 @@ amplitude for the particle in the
 spin-down state. So the wave functions
 correspond to conditional probabilities.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2019-12-23 Mon>
     :PROPERTIES:
     :ID:       bc2eb65b-ff53-4438-8207-895836040909
-    :DRILL_LAST_INTERVAL: 137.415
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 294.3429
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-18 Thu 14:27]
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:28]
     :END:
 What is the meaning of the four 
 components in the Dirac spinors?
@@ -13207,17 +13207,17 @@ seems that for free energy solutions
 the distributions /ρ=i(ψ̄∂ₜψ-ψ∂ₜψ̄)=2E/
 are uniform. (Same as Schrödinger?)
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2020-01-03 Fri>
     :PROPERTIES:
     :ID:       06d9b26c-418f-43a6-9321-f29044f27f9b
-    :DRILL_LAST_INTERVAL: 142.4286
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 305.0821
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:27]
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:24]
     :END:
 What is CP violation?
 **** Answer:
@@ -13227,17 +13227,17 @@ preserved in weak interactions,
 even though less often than
 charge or parity by themselves.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2019-03-08 Fri>
     :PROPERTIES:
     :ID:       7f91616b-f7d9-40b3-8adb-dff77cc85a45
-    :DRILL_LAST_INTERVAL: 142.4286
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:18]
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:29]
     :END:
 How does charge behave
 under particle interaction?
@@ -13413,22 +13413,22 @@ particles have the same parity.
 For fermions, particle and anti-
 particle have opposite parity.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-03-04 Mon>
+    SCHEDULED: <2020-01-03 Fri>
     :PROPERTIES:
     :ID:       b18be8dd-1991-434f-876e-330fc5f1bf76
-    :DRILL_LAST_INTERVAL: 142.4286
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 305.0821
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 19:27]
+    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:27]
     :END:
 What is parity violation?
 **** Answer:
 The fact that parity is only
-preserved in electromagenetic
+preserved in electromagnetic
 and in strong interactions but
 not in weak interactions.
 *** Particles                                                         :drill:
