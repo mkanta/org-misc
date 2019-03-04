@@ -585,17 +585,17 @@ by an affine transformation
 sometimes referred to as the
 /kernel/ of the layer.
 *** Neural Network Layers                                             :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       b7791f07-153a-4a72-bdf2-e04dc0f1dad8
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-27 Wed 01:36]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:40]
     :END:
 What is the /bias vector/
 of a network layer?
@@ -1630,17 +1630,17 @@ not activated. Customize the
 =org-babel-load-languages=
 variable.
 *** org-mode babel                                                    :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       d8137de6-750b-4909-bfd6-b0ded51232be
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-27 Wed 01:35]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:40]
     :END:
 Is it possible to
 convert a jupyter
@@ -1677,17 +1677,17 @@ for =ox-ravel= is only
 available if =ox-md= is
 loaded as well.
 *** org-mode                                                          :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       ef7d9776-4b0d-4af0-8814-9435d2f3d931
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-27 Wed 11:45]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:41]
     :END:
 Is it possible to
 export an org-mode
@@ -1758,17 +1758,17 @@ block
 #+END_SRC
 #+END_EXAMPLE
 *** short cuts                                                        :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       50500b5a-2db0-4ce2-8565-e2906f1c485c
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-27 Wed 01:37]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:42]
     :END:
 What to do about
 ~M-TAB~ switching 
@@ -2646,6 +2646,18 @@ general in that white-space
 is handled in addition to
 the /decimal/.
 *** Monads                                                            :drill:
+    SCHEDULED: <2019-03-07 Thu>
+    :PROPERTIES:
+    :ID:       02e1a976-3987-4935-be8f-20a79dbc9f21
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:52]
+    :END:
 Why is the =State= monad
 not ideal for logging?
 **** Answer:
@@ -2958,17 +2970,17 @@ use "ILIKE" instead of "like"
 if case insensitive matching
 is desired.
 *** Projects                                                          :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-07-05 Fri>
     :PROPERTIES:
     :ID:       5bf75dbb-5154-4d5f-aeca-cbb895a30c51
-    :DRILL_LAST_INTERVAL: 57.3815
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 124.2883
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-05 Sat 14:02]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:51]
     :END:
 How to install =H= for
 global access?
@@ -3455,17 +3467,17 @@ can be defined.
 by function-name or
 a code-hash?)
 *** Types                                                             :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-04-29 Mon>
     :PROPERTIES:
     :ID:       ed85579d-3e83-4f48-8241-f1f689acc369
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6141
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-02-08 Fri 12:53]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:49]
     :END:
 Is it possible to
 use phantoms in
@@ -3545,17 +3557,17 @@ Yes, in-built datatypes like
 because they don't have 
 constructors.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-05-22 Wed>
     :PROPERTIES:
     :ID:       ada8ad27-b160-44f2-a34e-f915af3b44b5
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:23]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:53]
     :END:
 How to use row
 polymorphism
@@ -4273,17 +4285,17 @@ functions can be applied to it
 continuation style that don't
 let the existential type escape.
 *** Type arithmetic with TypeLits                                     :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-04-06 Sat>
     :PROPERTIES:
     :ID:       9d9eaf69-5c02-4676-95bf-474eec8ba33e
-    :DRILL_LAST_INTERVAL: 21.5214
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 33.9823
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-09 Sat 13:30]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:44]
     :END:
 How to reify a natural
 number to a type-level =Nat=?
@@ -4831,17 +4843,17 @@ a function of type ~T~ to
 which arguments of type 
 ~T~ can be applied.
 *** Type Rank                                                         :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-08-21 Wed>
     :PROPERTIES:
     :ID:       8b8d671b-fdbf-4402-87fa-577db5dfd90f
-    :DRILL_LAST_INTERVAL: 90.3671
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 170.9746
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-03 Mon 13:27]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:50]
     :END:
 How does type selection
 for rank 2 typed functions
@@ -6605,17 +6617,17 @@ which will push the head
 of the current branch to 
 the master on <remote>.
 *** git in emacs                                                      :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2020-03-18 Wed>
     :PROPERTIES:
     :ID:       ffe7aafc-2116-4e83-8a15-66372e666112
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 381.0938
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-28 Fri 15:33]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:46]
     :END:
 What happens if answering /yes/
 to the checkout question when
@@ -7395,17 +7407,17 @@ Otherwise read the documentation
 of ~qpdf~ re ~qfd~ to see if the edit
 was a legal one.
 *** Encryption                                                        :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-23 Sat>
     :PROPERTIES:
     :ID:       b6bc47a2-3538-41c3-bad3-04670a0d9370
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:17]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:42]
     :END:
 What is the recommendation
 on setting the owner password
@@ -7423,17 +7435,17 @@ show the document without asking
 for the user password if the 
 owner password is empty.
 *** Encryption                                                        :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-24 Sun>
     :PROPERTIES:
     :ID:       4cd0cf90-a73b-445b-8578-d1efc1cefbd3
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:16]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:38]
     :END:
 What needs to be observed
 when encrypting pdf with
@@ -7818,17 +7830,17 @@ spirit.
 the Archeons, The
 Reality of the Rulers)
 *** The Father                                                        :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-23 Sat>
     :PROPERTIES:
     :ID:       dfbadba2-0365-4e35-b35c-c991bd138bd6
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:20]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:43]
     :END:
 How does the /Father/
 compare to the /Tao/ 
@@ -8123,17 +8135,17 @@ in set-theoretic terms?
 A finite disjoint union
 of sets.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-05-22 Wed>
     :PROPERTIES:
     :ID:       b0314792-8af2-4037-920e-c4210128880a
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:23]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:54]
     :END:
 What are the consequences
 of a category having
@@ -8143,17 +8155,17 @@ The presence of initial and
 terminal objects as well as
 equalizers and coequalizer.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-05-24 Fri>
     :PROPERTIES:
     :ID:       e11fc233-0bd1-4065-9f8e-4c096bd4e01e
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 82.4223
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:49]
     :END:
 Why is the presence of
 an initial object
@@ -8162,7 +8174,7 @@ finite limits and colimits not
 surprising?
 **** Answer:
 Because a finite colimit of
-no object would correpond 
+no object would correspond 
 to a disjoint union of no
 sets, hence the empty set
 which is a special case of
@@ -8338,17 +8350,17 @@ to the category of sets:
 a covariant functor
 /σ:Δᵒᵖ→Set/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-05-22 Wed>
     :PROPERTIES:
     :ID:       50d70dcb-b8fb-45b2-968b-571734bf2d04
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:26]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:47]
     :END:
 How to construct a category
 from simplicial sets?
@@ -8360,17 +8372,17 @@ using these functors as objects
 and natural transformations
 between them as morphisms.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-04-22 Mon>
     :PROPERTIES:
     :ID:       d8071346-525c-4870-ae2a-6a5fb0410ba2
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.2628
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-08 Fri 12:37]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:45]
     :END:
 Why does /P²/ generally
 have more eigenvectors
@@ -8443,17 +8455,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-12 Tue>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 8.0017
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 8.8339
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.941
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.944
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-23 Sat 13:38]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:41]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -9739,17 +9751,17 @@ consequent of
 /A₁⊗A₂⊗…⊗Aₙ/, ie.
 /A₁⊗…⊗Aₙ ⊦ B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-15 Fri>
     :PROPERTIES:
     :ID:       f85d5687-848c-4475-bdc3-7367277727f2
-    :DRILL_LAST_INTERVAL: 10.7642
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 11.8406
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.834
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.841
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-20 Wed 12:06]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:53]
     :END:
 What is the /linear constraint/
 imposed by linear logic?
@@ -9861,17 +9873,17 @@ the use of a term, for example
 by listing the properties a 
 noun should have.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-05-22 Wed>
     :PROPERTIES:
     :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:24]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:53]
     :END:
 What is the difference
 between a /Proposition/
@@ -9910,17 +9922,17 @@ disproved, negated etc whereas
 /Theorems/ are /Propositions/
 which have been proven.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-06-05 Wed>
     :PROPERTIES:
     :ID:       cb6fc0af-77da-4e91-98ef-90d1aed3c686
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.3178
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:12]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:46]
     :END:
 What is Gödelization
 all about?
@@ -10742,17 +10754,17 @@ as compared to the one of
 first order logic
 /⊢ A/ "A has a proof".
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-07 Thu>
     :PROPERTIES:
     :ID:       492e384d-9355-491d-812c-b50a75dac1ea
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:23]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:54]
     :END:
 What is /judgemental/
 equality?
@@ -10782,17 +10794,17 @@ a term /t:a=b/ then terms
 /a,b/ are said to be 
 /propositionally/ equal.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-05-22 Wed>
     :PROPERTIES:
     :ID:       f3a4772d-0985-45b2-a83b-cf090019441b
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-20 Sun 18:26]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:54]
     :END:
 What is a /witness/?
 **** Answer:
@@ -11876,17 +11888,17 @@ it is negative somewhere or
 more singular than the /δ/
 function.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-28 Thu>
     :PROPERTIES:
     :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
-    :DRILL_LAST_INTERVAL: 22.0268
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 24.9343
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.928
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.933
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-09 Sat 13:22]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:51]
     :END:
 How to handle particles
 in a relativistic context?
@@ -14347,17 +14359,17 @@ to =xrandr= which can be used.
 Alternatively, =xfce4-power-settings=
 may work if available.
 *** configuration                                                     :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-06-05 Wed>
     :PROPERTIES:
     :ID:       b094041f-dc0f-4e36-a5e1-d380f20cd11e
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.3178
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:02]
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:48]
     :END:
 Why does the 
 =xbacklight= command not
@@ -14370,17 +14382,17 @@ entries in =/sys/class/backlight=.
 It attempts to write a value into
 =/sys/class/backlight/<monitor>/brightness=.
 *** configuration                                                     :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-06-08 Sat>
     :PROPERTIES:
     :ID:       cacaa2dc-9f11-4419-b0dd-f1a88be188bb
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 96.6835
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:03]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:53]
     :END:
 What to do if there is nothing
 in =/sys/class/backlight= to adjust
@@ -15123,17 +15135,17 @@ start-up ~xinit~ style in lubuntu?
 Just add the application in
 ~ ~/.config/lxsession/$DESKTOP_SESSION/autostart~
 *** X Server                                                          :drill:
-    SCHEDULED: <2019-03-03 Sun>
+    SCHEDULED: <2019-03-07 Thu>
     :PROPERTIES:
     :ID:       d2aadf4a-8bde-47c5-a6e9-2e69b69e99c9
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-28 Fri 15:32]
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-03 Sun 13:54]
     :END:
 How to find out what 
 a key does in X?
