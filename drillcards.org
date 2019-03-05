@@ -1514,17 +1514,17 @@ prefix argument to disable it,
 with a positive one to enable 
 it.
 *** packages                                                          :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-03-14 Thu>
     :PROPERTIES:
     :ID:       2cbf3231-d742-4249-a41d-6316534f8940
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.8849
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-01 Fri 12:53]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:10]
     :END:
 How to get the =ox-ravel.el=
 file from the =orgmode-accessories=
@@ -2264,17 +2264,17 @@ project. These projects
 just seem to be regular
 /cabal/ projects.
 *** Homotopy Types                                                    :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-04-22 Mon>
     :PROPERTIES:
     :ID:       f7dff1a2-5494-4775-aae2-75514484a800
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.4968
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-10 Sun 15:41]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:10]
     :END:
 Why is GADT syntax
 necessary for homotopy
@@ -3603,17 +3603,17 @@ fields with every
 record type having 
 these fields matching.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-04-06 Sat>
     :PROPERTIES:
     :ID:       82b78de8-4e30-401e-9245-d694f7405a61
-    :DRILL_LAST_INTERVAL: 21.5214
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 31.5719
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:26]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:21]
     :END:
 Why is the monad 
 =((->) r :: * ->  * )=
@@ -3820,17 +3820,17 @@ language extension
 =ScopedTypeVariables= is in
 effect.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-06-23 Sun>
     :PROPERTIES:
     :ID:       e95c7998-d3a3-4471-bdfe-77028d9a709a
-    :DRILL_LAST_INTERVAL: 51.5251
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 110.3668
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-12 Sat 12:30]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:22]
     :END:
 What is the 
 =LambdaCase= extension
@@ -4522,17 +4522,17 @@ By writing a type-level
 function and using it
 like in skolemization.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-04-06 Sat>
     :PROPERTIES:
     :ID:       82ebc257-597d-4642-ad72-6b13593947d0
-    :DRILL_LAST_INTERVAL: 21.5214
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 31.5719
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:23]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:19]
     :END:
 Why is the logic corresponding
 to the Haskell type system richer
@@ -6712,17 +6712,17 @@ If the =rebase= was successful,
 there will be no merge
 conflicts.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-04-16 Tue>
     :PROPERTIES:
     :ID:       a25a0fb6-6572-4841-8788-daa341c81cd6
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5608
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-13 Wed 13:15]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:13]
     :END:
 Is it possible to add
 comments or descriptions
@@ -6750,17 +6750,17 @@ description?
 With 
 ~git config branch.<branchname>.description~.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-04-16 Tue>
     :PROPERTIES:
     :ID:       077a146f-c283-4f00-9463-9095d9e1c2db
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5608
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-13 Wed 13:16]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:22]
     :END:
 For what kind of branches is
 ~git branch --edit-description~
@@ -6771,17 +6771,17 @@ it will not be pushed and
 the description will be
 deleted with the branch.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-04-16 Tue>
     :PROPERTIES:
     :ID:       1cdd8e23-ce7c-4207-a564-978dad3c7f39
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5608
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-13 Wed 13:15]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:12]
     :END:
 Is it possible to keep a
 branch description after
@@ -8082,17 +8082,17 @@ A collection of arrows
 /D/ indexed by objects /X/
 from category /C/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-06-05 Wed>
     :PROPERTIES:
     :ID:       ebdb23af-95a6-4cdf-b483-73bcc1efdcb1
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.2645
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:38]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:12]
     :END:
 What is a topos?
 **** Answer:
@@ -8100,17 +8100,17 @@ A certain type of category
 abstracting the notion of
 /position/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-06-05 Wed>
     :PROPERTIES:
     :ID:       ca76b2af-e2f1-4040-bdcb-3926278e9319
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.2645
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:39]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:20]
     :END:
 What is a finite limit
 in set-theoretic terms?
@@ -8287,17 +8287,17 @@ of /X/. In general, morphisms
 /f:X→Ω/ correspond to subobjects
 of /X/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-04-06 Sat>
     :PROPERTIES:
     :ID:       14a52f96-0d50-446e-b79f-21ddf33f27c3
-    :DRILL_LAST_INTERVAL: 21.5214
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 31.5719
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:25]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:20]
     :END:
 How to construct a topos
 from finite sets?
@@ -8307,17 +8307,17 @@ sets Δ, a presheaf is a
 simplicial set and the category
 of these presheaves is a topos.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-04-06 Sat>
     :PROPERTIES:
     :ID:       f90d67ec-c9f2-4dfd-8b33-3cd44bfb9bd0
-    :DRILL_LAST_INTERVAL: 21.5214
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 31.5719
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-11 Mon 13:23]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:21]
     :END:
 What is the simplex
 category /Δ/?
@@ -9540,17 +9540,17 @@ type =a -> b= is inhabited,
 ie there is a function
 =f::a -> b=.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-06-11 Tue>
     :PROPERTIES:
     :ID:       fe7ec71f-4892-47e9-a3d1-2526ca9174b5
-    :DRILL_LAST_INTERVAL: 45.7498
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 97.9961
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-18 Fri 17:42]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:14]
     :END:
 What is the problem with
 the /bottom type/ =⊥= from
@@ -12095,17 +12095,17 @@ fields composed of Fermions or in
 fields with Parastatistics when 
 using /qudits/.
 *** Fields                                                            :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-10-05 Sat>
     :PROPERTIES:
     :ID:       8b5816c6-cc54-443a-8a17-eb4ad722daa8
-    :DRILL_LAST_INTERVAL: 133.53
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 213.9151
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:05]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:11]
     :END:
 How does a (proper) Lorentz 
 transformation /Λ/
@@ -12251,17 +12251,17 @@ distribution with parameter /|α|²/, ie
 the probability to measure /n/ particles
 is exp(-|α|²)(|α|²)ⁿ/n!.
 *** Fields                                                            :drill:
-    SCHEDULED: <2019-03-05 Tue>
+    SCHEDULED: <2019-10-05 Sat>
     :PROPERTIES:
     :ID:       ec3c4a08-bc01-4d7e-9571-a3cb41ee717d
-    :DRILL_LAST_INTERVAL: 133.53
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 213.9151
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-22 Mon 15:04]
+    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:21]
     :END:
 How does a proper Lorentz
 transformation /Λ/ affect
