@@ -1107,17 +1107,17 @@ a function /call/ to the
 right.
 ** emacs
 *** dired                                                             :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-03-18 Mon>
     :PROPERTIES:
     :ID:       96f0638e-83e2-4767-9281-29941dbd7f39
-    :DRILL_LAST_INTERVAL: 109.5693
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-24 Sat 12:28]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:38]
     :END:
 How to copy a file name
 from a dired window to the
@@ -1514,17 +1514,17 @@ prefix argument to disable it,
 with a positive one to enable 
 it.
 *** packages                                                          :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-04-02 Tue>
     :PROPERTIES:
     :ID:       2cbf3231-d742-4249-a41d-6316534f8940
-    :DRILL_LAST_INTERVAL: 8.8849
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2447
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-05 Tue 16:10]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:25]
     :END:
 How to get the =ox-ravel.el=
 file from the =orgmode-accessories=
@@ -1677,6 +1677,18 @@ for =ox-ravel= is only
 available if =ox-md= is
 loaded as well.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2019-03-17 Sun>
+    :PROPERTIES:
+    :ID:       ea50d663-8385-4540-a4f8-c04059cc6b52
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:22]
+    :END:
 How to export tables for
 use with other spreadsheets?
 **** Answer:
@@ -1690,7 +1702,19 @@ transform to other XML formats,
 (ie gnumeric)
 using ~xslt~ and style-sheets.
 *** org-mode tables                                                   :drill:
-How to import spraed-sheets
+    SCHEDULED: <2019-03-17 Sun>
+    :PROPERTIES:
+    :ID:       98780d65-ec20-4ba6-8285-da816fbbf96e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:26]
+    :END:
+How to import spread-sheets
 into emacs?
 **** Answer:
 Convert to CSV, select and
@@ -1700,6 +1724,18 @@ for relatively small files
 and will fail if there are
 hundreds of rows or columns.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2019-03-17 Sun>
+    :PROPERTIES:
+    :ID:       2ccee108-ba97-44c7-b65d-d15bac095754
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:21]
+    :END:
 How to put tabular
 data in a file into
 an org-mode table?
@@ -1709,18 +1745,54 @@ representing the data
 and run ~M-x table-capture~ 
 on it.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2019-03-17 Sun>
+    :PROPERTIES:
+    :ID:       ea0140ff-8fca-4eef-93dd-5fe2690f367e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:24]
+    :END:
 How to set a TAB as
 column separator in a
 /table-capture/?
 **** Answer:
 With ~C-q TAB~.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2019-03-17 Sun>
+    :PROPERTIES:
+    :ID:       396b6201-999f-4659-82b1-14c01e758aef
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:24]
+    :END:
 How to set a new-line
 as row separator in a
 /table-capture/?
 **** Answer:
 With ~C-q C-j~.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2019-03-17 Sun>
+    :PROPERTIES:
+    :ID:       a761c384-61f9-43ce-bb91-db14a8e0241b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:23]
+    :END:
 How to get one-line
 rows in a /table-capture/?
 **** Answer:
@@ -4919,17 +4991,17 @@ variables are determined
 by the implementation of 
 the function, not its caller.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-04-25 Thu>
     :PROPERTIES:
     :ID:       4035622c-9019-4e89-b811-02ca36daf54d
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:17]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:36]
     :END:
 How to extract the
 indices of a list
@@ -4940,17 +5012,17 @@ With =findIndices=
 which has signature
 =(a -> Bool) -> [a] -> [Int]=.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-04-25 Thu>
     :PROPERTIES:
     :ID:       c8079acf-4d29-4831-9e25-627917fb4fda
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:18]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:25]
     :END:
 What is =unfoldr= for?
 **** Answer:
@@ -4960,17 +5032,17 @@ producing values once
 the generating function
 returns =Nothing=.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-04-25 Thu>
     :PROPERTIES:
     :ID:       1e4c940c-fe0f-440c-a185-a382e10e2581
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:18]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:35]
     :END:
 How to generate a list
 of values generated by 
@@ -4981,17 +5053,17 @@ generates a list of values
 =[x, f x, f (f x),...]= in
 combination with =take=.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-04-25 Thu>
     :PROPERTIES:
     :ID:       3ecf4abd-49bb-45f3-b2f8-167e463b0967
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:20]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:33]
     :END:
 How to generate a
 constant list?
@@ -5616,17 +5688,17 @@ into a stand-alone executable?
 Add a =main= function and compile with
 =g++ -o ExampleMacro ExampleMacro.C `root-config --cflags --libs`=
 *** macros                                                            :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-05-11 Sat>
     :PROPERTIES:
     :ID:       39438ba6-3d43-44a5-886c-c7d4426592d7
-    :DRILL_LAST_INTERVAL: 23.783
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 57.983
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-02-18 Mon 12:45]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:37]
     :END:
 Should macros normally be 
 compiled when loading them
@@ -5662,17 +5734,17 @@ results in a dynamic library
 dynamically linked into
 the interpreter.
 *** macros                                                            :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-05-01 Wed>
     :PROPERTIES:
     :ID:       4a4665ba-37ae-44b6-b881-56c21330699f
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-18 Mon 12:46]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:26]
     :END:
 How to access functions
 in a macro from the root
@@ -5684,17 +5756,17 @@ functions in the file
 can be accessed in the 
 usual way.
 *** macros                                                            :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-05-01 Wed>
     :PROPERTIES:
     :ID:       b5614343-01f3-4044-bb49-1bc0be6af7a5
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-18 Mon 12:43]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:26]
     :END:
 Is the presence of a
 function with the same name
@@ -5707,17 +5779,17 @@ either on the command line
 or with =.x filename= in the root
 shell. 
 *** macros                                                            :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-05-01 Wed>
     :PROPERTIES:
     :ID:       aa7cee87-098a-43ca-87aa-2273f576b53f
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-18 Mon 12:43]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:20]
     :END:
 What can be done with
 a root macro from inside
@@ -5729,17 +5801,17 @@ the macro can be loaded
 with =.L filename= or compiled
 with =.L filename+=.
 *** macros                                                            :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-05-01 Wed>
     :PROPERTIES:
     :ID:       edb072cc-8f41-4c7c-8b5b-cf4f62097c8f
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-18 Mon 12:44]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:24]
     :END:
 What is a macro in root?
 **** Answer:
@@ -7511,6 +7583,18 @@ contents without asking for
 the user password.
 ** Conversions
 *** XML                                                               :drill:
+    SCHEDULED: <2019-03-17 Sun>
+    :PROPERTIES:
+    :ID:       fee6d9f1-797b-462f-98c4-197b9e703a4f
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:26]
+    :END:
 How to convert between
 different XML formats?
 **** Answer:
@@ -8176,17 +8260,17 @@ in set-theoretic terms?
 **** Answer:
 A finite cartesian product of sets.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-07-01 Mon>
     :PROPERTIES:
     :ID:       7c5e9b07-cf55-4d5a-b4ce-3d96e23c896b
-    :DRILL_LAST_INTERVAL: 50.2628
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 108.8692
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-23 Wed 14:50]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:31]
     :END:
 What is a finite colimit
 in set-theoretic terms?
@@ -8239,17 +8323,17 @@ sets, hence the empty set
 which is a special case of
 an initial object.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-06-25 Tue>
     :PROPERTIES:
     :ID:       821e8936-b5a9-4774-a1a5-e1092df32e2c
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.6219
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-23 Wed 14:51]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:24]
     :END:
 Why is the presence of
 terminal objects in a 
@@ -8263,17 +8347,17 @@ a terminal object should
 be constructible by packing
 the initial object.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-06-25 Tue>
     :PROPERTIES:
     :ID:       ca810609-4bec-48f9-a667-914678224c87
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.6219
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-23 Wed 14:50]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:21]
     :END:
 What is an equalizer
 in a category?
@@ -8302,17 +8386,17 @@ set of /X/ by the relation /(a,b)∈ R/
 iff /a=f(y), b=g(y)/ (or vice versa)
 for morphisms /f,g:Y→X/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-07-01 Mon>
     :PROPERTIES:
     :ID:       4542132e-192b-488a-b6f1-1c3253798523
-    :DRILL_LAST_INTERVAL: 50.2628
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 108.8692
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-23 Wed 15:02]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:34]
     :END:
 What does it mean for
 a category to have
@@ -8430,6 +8514,28 @@ a category can be constructed
 using these functors as objects
 and natural transformations
 between them as morphisms.
+*** Linear Algebra                                                    :drill:
+How to calculate 
+eigenvectors and
+-values for a
+Gram matrix?
+**** Answer:
+For the lowest
+eigenvector minimize 
+/ωᵀXω/ with respect to 
+/∥ω∥=1/. 
+Then the corresponding
+eigenvalue is /∥w∥²/ where
+/w=∑ωᵢxᵢ/.
+*** Linear Algebra                                                    :drill:
+Why is a nonsingular 
+Gram matrix positive 
+definite?
+**** Answer:
+With Gram matrix
+/X=(⟨xᵢ,xⱼ⟩)/,
+/ωᵀXω=∥w∥²/ for
+/w=∑ωᵢxᵢ/.
 *** Linear Algebra                                                    :drill:
     SCHEDULED: <2019-04-22 Mon>
     :PROPERTIES:
@@ -10627,17 +10733,17 @@ no elements beyond those
 constructed by the 
 constructors.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-06-14 Fri>
     :PROPERTIES:
     :ID:       960e1e54-a7bf-4996-84b5-cbbb178a8e35
-    :DRILL_LAST_INTERVAL: 43.5513
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.0239
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-29 Tue 18:57]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:34]
     :END:
 What is a computation
 rule for a type?
@@ -10813,17 +10919,17 @@ as compared to the one of
 first order logic
 /⊢ A/ "A has a proof".
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-03-26 Tue>
     :PROPERTIES:
     :ID:       492e384d-9355-491d-812c-b50a75dac1ea
-    :DRILL_LAST_INTERVAL: 7.2031
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 11.6618
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.857
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-07 Thu 11:50]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:24]
     :END:
 What is /judgemental/
 equality?
@@ -10832,17 +10938,17 @@ This is about equality
 of terms of the same
 type by definition.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-03-18 Mon>
     :PROPERTIES:
     :ID:       261b5fdc-ba59-462a-80b7-229f04edcd49
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:33]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:37]
     :END:
 How is (internal) equality 
 handled with types?
@@ -10876,17 +10982,17 @@ of type /A/ because
 which is witnessed 
 by term /a/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-06-26 Wed>
     :PROPERTIES:
     :ID:       62377aa7-2e68-4d86-8796-4d41f0f507c0
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.6219
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:32]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:35]
     :END:
 In which sense is the
 interpretation of /a:A/
@@ -10898,17 +11004,17 @@ In the sense that
 whereas /a∈A/ is a
 proposition.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-06-26 Wed>
     :PROPERTIES:
     :ID:       a63bdac4-a23a-4586-a90b-b436485f1b77
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.6219
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-24 Thu 19:25]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:34]
     :END:
 In which sense is type
 theory simpler than 
@@ -12528,17 +12634,17 @@ of the Lorentz-group on the space and
 minimal, ie the space of an irreducible
 representation of the Lorentz-group.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-04-29 Mon>
     :PROPERTIES:
     :ID:       0992cf10-9d6b-420b-98fd-4e3215682379
-    :DRILL_LAST_INTERVAL: 41.3223
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 46.7768
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 3.084
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.081
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-31 Thu 13:44]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:24]
     :END:
 How can particles be classified?
 **** Answer:
@@ -12672,17 +12778,17 @@ The Hamiltonian, which is a hermitian
 operator describing the energy of the
 field.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-03-17 Sun>
     :PROPERTIES:
     :ID:       7a2336fa-924a-4c00-8f53-47ef7ba49f22
-    :DRILL_LAST_INTERVAL: 161.7454
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-02 Tue 16:25]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:27]
     :END:
 Why is the description of a quantum field
 theory in terms of creation and annihilation
@@ -12697,17 +12803,17 @@ with an annihilation operator results in a counting
 operator which counts the number of particles of
 a given type in a given state.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-03-28 Thu>
     :PROPERTIES:
     :ID:       b088e6b3-916c-443b-837a-23db646df091
-    :DRILL_LAST_INTERVAL: 13.8406
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 15.2247
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 3
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-27 Wed 01:36]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:21]
     :END:
 What is the problem with allowing infinitely
 many particles in a field theory?
@@ -12759,6 +12865,36 @@ What is he S-matrix?
 The matrix that transforms the basis constructed
 from one-particle states at time /t=-∞/ to 
 that constructed at /t=∞/.
+*** Interaction                                                       :drill:
+Why is a photon /γ/ called
+a vector particle?
+**** Answer:
+Because matrix elements such
+as /⟨μ⁺μ⁻|H|γ⟩/ and /⟨γ|H|e⁺e⁻⟩/
+become contravariant and
+covariant vectors, 
+respectively, ie
+/⟨μ⁺μ⁻|H|γ⟩=(⟨μ⁺μ⁻|H|γ⟩ᵛ)/
+and
+/⟨γ|H|e⁺e⁻⟩=(⟨γ|H|e⁺e⁻⟩ᵥ)./
+*** Interaction                                                       :drill:
+Where does the idea that
+quantum states interact
+via particles come from?
+**** Answer:
+This is from the modelling
+of interaction amplitudes 
+as Taylor series in /⟨a|Hⁿ|b⟩/.
+Writing the second order
+coefficient in terms of matrix
+elements,
+/⟨a|H²|b⟩=∑⟨a|H|γ⟩⟨γ|H|b⟩/
+with intermediary states
+/γ/, these states play the
+role of interaction particles,
+ie /b/ turns into /a/ with amplitude
+/⟨a|H²|b⟩/ via the intermediary
+/γ/.
 *** Interference                                                      :drill:
     SCHEDULED: <2019-04-20 Sat>
     :PROPERTIES:
@@ -12782,17 +12918,17 @@ actually self-interference
 of a two photon state.
 See the /Grangier Experiment/.
 *** Interference                                                      :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-03-20 Wed>
     :PROPERTIES:
     :ID:       44b1e429-5d16-43b4-bd8a-46844ccfcae4
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 7.201
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.4
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-09 Sat 12:55]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:19]
     :END:
 How long is a photon
 wave-packet?
@@ -12945,17 +13081,17 @@ projected back into another
 tangent space resulting in
 a collapse of the ambiguity.
 *** Operators                                                         :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-03-26 Tue>
     :PROPERTIES:
     :ID:       96f1d6cf-46da-419e-8d14-936a1253ee07
-    :DRILL_LAST_INTERVAL: 7.201
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 13.293
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.833
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-06 Wed 20:47]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:19]
     :END:
 How to derive the 
 velocity operator?
@@ -13001,17 +13137,17 @@ entering from the bottom, /|y⟩₃/
 represents transmission whereas
 /|y⟩₄/ represents reflection.
 *** Optics                                                            :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-04-25 Thu>
     :PROPERTIES:
     :ID:       5cb8c9a9-fccc-4be3-83fb-1e22ecee18b1
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:19]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:31]
     :END:
 What is the second
 field entering a beam
@@ -13025,17 +13161,17 @@ to /ρ|1⟩₃|0⟩₄+τ|0⟩₃|1⟩₄/, ie
 a state where the photon is
 entangled with the vacuum.
 *** Optics                                                            :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-04-25 Thu>
     :PROPERTIES:
     :ID:       2be1f150-637d-4470-8fc6-47a7b4646f7e
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:24]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:32]
     :END:
 Where does the imaginary
 /i/ come from when modelling
@@ -13052,17 +13188,17 @@ that /ρ²+τ²=1/ and
 unitary matrices give
 rise to discrete FTs?)
 *** Optics                                                            :drill:
-    SCHEDULED: <2019-03-14 Thu>
+    SCHEDULED: <2019-04-25 Thu>
     :PROPERTIES:
     :ID:       71d0589f-a056-4685-b86d-bb5a537ff7d3
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:19]
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:36]
     :END:
 How does a beam splitter
 give rise to an operator?
@@ -13196,17 +13332,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-04-10 Wed>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 24.8322
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 28.1101
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.909
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.913
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-16 Sat 13:45]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:23]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -14267,17 +14403,17 @@ now obtained from the ~Open~
 function rather than from
 calling ~file~.
 *** booting                                                           :drill:
-    SCHEDULED: <2019-03-13 Wed>
+    SCHEDULED: <2019-10-06 Sun>
     :PROPERTIES:
     :ID:       61f01ffc-4d52-45dd-b694-217e35b553da
-    :DRILL_LAST_INTERVAL: 98.0332
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 207.1442
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-05 Wed 12:57]
+    :DRILL_LAST_REVIEWED: [2019-03-13 Wed 14:22]
     :END:
 How to partition a
 disk to hold a lubuntu
@@ -15053,7 +15189,113 @@ in an lxterminal?
 **** Answer:
 This method requires
 the /IBus/ input method.
-*** services                                                          :drill:
+*** systemd                                                           :drill:
+    SCHEDULED: <2019-03-18 Mon>
+    :PROPERTIES:
+    :ID:       5784ed00-7b83-4bef-a283-5483135aa2c5
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:30]
+    :END:
+How to cancel systemd
+jobs?
+**** Answer:
+With 
+~systemctl cancel <jobnumber>~
+where the /jobnumber/
+can be obtained from
+~systemctl list-jobs~.
+*** systemd                                                           :drill:
+    SCHEDULED: <2019-03-18 Mon>
+    :PROPERTIES:
+    :ID:       282f2cab-cc2a-44d5-8581-6736b022f340
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:30]
+    :END:
+What to do if there
+is no networking after
+awakening a system?
+**** Answer:
+Run
+~systemctl list-jobs~
+and cancelling 
+~systemd-suspend.service~
+and
+~suspend.target~ (if listed)
+things should go back to
+normal.
+*** systemd                                                           :drill:
+    SCHEDULED: <2019-03-18 Mon>
+    :PROPERTIES:
+    :ID:       4acb129e-d9d0-44ad-b703-454c1279a6b5
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:36]
+    :END:
+How to analyse a
+~shutdown~ failure?
+**** Answer:
+Run
+~systemctl status poweroff.target~
+and check its output.
+*** systemd                                                           :drill:
+    SCHEDULED: <2019-03-18 Mon>
+    :PROPERTIES:
+    :ID:       4bbd7519-d182-4827-b54e-729ca153bf4c
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:37]
+    :END:
+What is the proper way
+to shut down a system
+running systemd manually?
+**** Answer:
+~systemctl poweroff~
+*** systemd                                                           :drill:
+    SCHEDULED: <2019-03-18 Mon>
+    :PROPERTIES:
+    :ID:       035a08c2-fd0b-49de-8714-eb11ec0a5254
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:33]
+    :END:
+How to shut a system down
+that erroneously thinks it 
+sleeps or is shutting down 
+already?
+**** Answer:
+Try
+~systemctl poweroff -f~ or
+~systemctl reboot -f~,
+which kills all processes
+and unmounts file-systems.
+*** services
     SCHEDULED: <2019-06-16 Sun>
     :PROPERTIES:
     :ID:       41205474-5e9a-44df-915d-6189c62a785f
