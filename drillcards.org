@@ -320,17 +320,17 @@ there are no vanishing gradients,
 so convergence is fast in the
 network.
 *** Neural Network Weights                                            :drill:
-    SCHEDULED: <2019-04-03 Wed>
+    SCHEDULED: <2019-05-28 Tue>
     :PROPERTIES:
     :ID:       6c87266f-efbb-4057-9e31-9f86ac188820
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.8537
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-03-11 Mon 16:29]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:46]
     :END:
 What happens if the initial
 weights in a network are
@@ -560,17 +560,17 @@ function /f/ to its result /y/.
 This function is called the 
 activation function of the layer.
 *** Neural Network Layers                                             :drill:
-    SCHEDULED: <2019-04-03 Wed>
+    SCHEDULED: <2019-05-23 Thu>
     :PROPERTIES:
     :ID:       60f446c9-8cce-4c7f-aefa-2a3576f2260b
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.4968
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-11 Mon 16:30]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:47]
     :END:
 How should the /bias vector/
 be chosen?
@@ -581,17 +581,17 @@ that the output of the layer
 after activation has a well
 defined mean, often zero.
 *** Neural Network Layers                                             :drill:
-    SCHEDULED: <2019-04-03 Wed>
+    SCHEDULED: <2019-05-23 Thu>
     :PROPERTIES:
     :ID:       9cf71679-125b-4239-ac7c-57d7b37d52f8
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.4968
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-11 Mon 16:30]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:41]
     :END:
 What is the /kernel/ of
 a network layer?
@@ -1720,17 +1720,17 @@ https://orgmode.org/elpa/
 in the =package-archives=
 list.
 *** org-mode babel                                                    :drill:
-    SCHEDULED: <2019-04-04 Thu>
+    SCHEDULED: <2019-05-17 Fri>
     :PROPERTIES:
     :ID:       1df16c60-3082-4106-bd62-1fe701d4bc8c
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5608
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-15 Fri 14:38]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:42]
     :END:
 What to do if exporting
 a file with code from
@@ -3584,17 +3584,17 @@ in the indices, remove
 ~--force~ in the project
 directory.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-04-30 Tue>
     :PROPERTIES:
     :ID:       f2ea2f06-02c2-4b79-82fa-415349c15d66
-    :DRILL_LAST_INTERVAL: 18.414
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 24.5274
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.38
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-18 Mon 13:09]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:45]
     :END:
 What is the best way
 to access documentation
@@ -4443,17 +4443,17 @@ With inductive types the length
 of lists can become part of the
 type of the list.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       a6c2d272-4877-4ca0-be22-91abdd84c689
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 79.5332
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:25]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:44]
     :END:
 What is =Proxy= used for
 in type arithmetic?
@@ -4771,17 +4771,17 @@ are provided as instances:
 ~type instance <Name> <variables>=...~
 wherever the type family is in scope.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       c91c31c6-a4f6-4b7b-8c45-665df12f3239
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 79.5332
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:26]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:41]
     :END:
 How to express =∃ a.f a=
 in Haskell?
@@ -4789,17 +4789,17 @@ in Haskell?
 As  =(forall a.f a -> r) -> r=,
 which is Skolemization, in essence.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       266e1ddb-1273-4ab0-b02e-41902620a296
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 79.5332
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:27]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:44]
     :END:
 How to return an existential
 datatype in Haskell?
@@ -8593,8 +8593,17 @@ It is called ~faith~
 and needs to grow into
 a living being.
 *** The Word                                                          :drill:
+    SCHEDULED: <2019-04-09 Tue>
     :PROPERTIES:
     :ID:       d517c5df-b021-4dae-9d8c-092cd3007d8f
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:44]
     :END:
 What is the /Word/ that
 was in the beginning
@@ -8653,17 +8662,17 @@ the mission of Jesus.
 * Language
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-04-19 Fri>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 12.7017
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 35
+    :DRILL_LAST_INTERVAL: 14.2132
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 36
     :DRILL_FAILURE_COUNT: 8
-    :DRILL_AVERAGE_QUALITY: 2.772
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.778
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-23 Sat 17:29]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:43]
     :END:
 的
 **** Answer:
@@ -10899,17 +10908,17 @@ constructing dependent functions
 out of a type and therefore more
 general eliminators.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-04-03 Wed>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       bdf42f31-2408-41d1-8d54-d54b52c1d2fb
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 79.5332
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-20 Wed 12:19]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:43]
     :END:
 How is the induction
 principle of a type
@@ -11184,17 +11193,17 @@ where /a/ can be interpreted
 as an index and /b/ as value 
 correponding to index /a/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-04-03 Wed>
+    SCHEDULED: <2019-08-01 Thu>
     :PROPERTIES:
     :ID:       59c45430-c18b-44c9-8634-97330af6f80b
-    :DRILL_LAST_INTERVAL: 55.2213
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 118.284
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-07 Thu 13:57]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:41]
     :END:
 What's the point of defining
 the recursor
@@ -11225,17 +11234,17 @@ theoretically?
 As a family of types
 /P:ℕ→𝒰/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-05-20 Mon>
     :PROPERTIES:
     :ID:       628fe854-e0ef-4657-853c-b9dc7d05f346
-    :DRILL_LAST_INTERVAL: 33.9823
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 45.2644
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.801
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.819
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-02 Sat 20:44]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:46]
     :END:
 What are the elimination
 rules for the product
@@ -12926,17 +12935,17 @@ potential energy according
 to time.
 ** Quantum
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-04-17 Wed>
     :PROPERTIES:
     :ID:       e6b06345-f05c-48cf-b681-f05dd6dbd83e
-    :DRILL_LAST_INTERVAL: 7.2031
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 11.5394
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.857
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-29 Fri 14:18]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:40]
     :END:
 Why is normal ordering
 of creation and annihilation
@@ -12954,17 +12963,17 @@ it is negative somewhere or
 more singular than the /δ/
 function.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-04-10 Wed>
     :PROPERTIES:
     :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
-    :DRILL_LAST_INTERVAL: 4.3084
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 4.9762
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.895
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-01 Mon 12:34]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:39]
     :END:
 How to handle particles
 in a relativistic context?
@@ -15799,17 +15808,17 @@ is set to the proper dektop
 file. This is set in 
 ~/.config/user-dirs.dirs
 *** dmenu                                                             :drill:
-    SCHEDULED: <2019-04-03 Wed>
+    SCHEDULED: <2019-12-18 Wed>
     :PROPERTIES:
     :ID:       218d7220-8b75-4169-8331-200ec9fc2e19
-    :DRILL_LAST_INTERVAL: 124.321
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 256.9715
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-11-30 Fri 12:23]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:45]
     :END:
 What to do if running
 ~dmenu~ doesn't do 
@@ -16361,17 +16370,17 @@ start-up ~xinit~ style in lubuntu?
 Just add the application in
 ~ ~/.config/lxsession/$DESKTOP_SESSION/autostart~
 *** X Server                                                          :drill:
-    SCHEDULED: <2019-04-05 Fri>
+    SCHEDULED: <2019-05-17 Fri>
     :PROPERTIES:
     :ID:       d2aadf4a-8bde-47c5-a6e9-2e69b69e99c9
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 41.5608
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.444
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-16 Sat 12:43]
+    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:42]
     :END:
 How to find out what 
 a key does in X?
