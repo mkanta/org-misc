@@ -2845,17 +2845,17 @@ parsers and is reported
 as expecting alternatives
 connected with /or/.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-04-18 Thu>
+    SCHEDULED: <2019-07-07 Sun>
     :PROPERTIES:
     :ID:       194322b1-9060-47dd-bc69-343e43145d29
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-07 Thu 11:56]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:16]
     :END:
 Where is error reporting
 with =failure= superior to
@@ -2896,17 +2896,17 @@ hence its =fromList= method
 can be used as in
 =Tokens $ fromList msg=.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-04-18 Thu>
+    SCHEDULED: <2019-07-07 Sun>
     :PROPERTIES:
     :ID:       42680ba8-c25e-4617-8ba5-9008c9ef5120
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-07 Thu 11:54]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:14]
     :END:
 How to construct the
 =ErrorItem (Token s)=
@@ -6594,17 +6594,17 @@ list of rows?
 With
 ~lapply(seq_len(nrow(frame)), function(i) frame[i,])~.
 *** Data Frames                                                       :drill:
-    SCHEDULED: <2019-04-18 Thu>
+    SCHEDULED: <2019-05-30 Thu>
     :PROPERTIES:
     :ID:       2e26171f-d2eb-477e-95c8-7e7be247c92f
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-29 Fri 14:17]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:17]
     :END:
 How to apply functions
 to the elements of a column
@@ -6738,17 +6738,17 @@ non-atomic values,
 vectorization only works
 on vectors of atomic values.
 *** Functional R                                                      :drill:
-    SCHEDULED: <2019-04-18 Thu>
+    SCHEDULED: <2019-05-30 Thu>
     :PROPERTIES:
     :ID:       090862a2-c4db-4024-a05f-b75d649240a5
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-29 Fri 14:18]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:15]
     :END:
 Is ~ifelse~ the only way
 to have a functional
@@ -6785,17 +6785,17 @@ Because the range operator
 in R is ~:~, not ~..~. So this
 should be ~c(1:4)~.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-04-18 Thu>
+    SCHEDULED: <2019-05-30 Thu>
     :PROPERTIES:
     :ID:       60ddd7c1-3e6a-4446-919a-320cce28d202
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-29 Fri 14:19]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:16]
     :END:
 What is the standard way
 to calculate the dot product
@@ -7568,17 +7568,17 @@ Yes, use ~git branch --edit-description~,
 which will add a description to
 configuration ~branch.<branchname>.description~.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-04-18 Thu>
+    SCHEDULED: <2019-07-07 Sun>
     :PROPERTIES:
     :ID:       d6d9a830-6743-4f8d-b35b-e8a1228aba63
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-07 Thu 11:52]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:18]
     :END:
 How to retrieve a branch
 description?
@@ -8661,6 +8661,18 @@ that can be named is not the
 eternal Tao.
 ** Mythology
 *** Bees                                                              :drill:
+    SCHEDULED: <2019-04-22 Mon>
+    :PROPERTIES:
+    :ID:       064a874d-1c1a-444d-b38c-98cd42344ce1
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:21]
+    :END:
 What is the mythological
 meaning of bees?
 **** Answer:
@@ -8670,6 +8682,18 @@ the natural world to the
 underworld.(Black and Gold,
 Pluto and Sun?)
 *** Bees                                                              :drill:
+    SCHEDULED: <2019-04-22 Mon>
+    :PROPERTIES:
+    :ID:       1037b24f-1cd9-4a32-9da0-843bf89bd265
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:19]
+    :END:
 In which sense is Artemis
 of Ephesus closer to the
 Hindu goddess Parvata than
@@ -8681,6 +8705,18 @@ connection to bees, with
 bees that kill the demon
 Arunasura.
 *** Bees                                                              :drill:
+    SCHEDULED: <2019-04-22 Mon>
+    :PROPERTIES:
+    :ID:       b8f3a17d-bd8e-4664-8ebf-35867cb1c075
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:20]
+    :END:
 What is the connection
 between Bees and the greek
 goddess Artemis?
@@ -8784,17 +8820,17 @@ It is called ~faith~
 and needs to grow into
 a living being.
 *** The Word                                                          :drill:
-    SCHEDULED: <2019-04-18 Thu>
+    SCHEDULED: <2019-05-08 Wed>
     :PROPERTIES:
     :ID:       d517c5df-b021-4dae-9d8c-092cd3007d8f
-    :DRILL_LAST_INTERVAL: 9.1829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.8902
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-09 Tue 12:03]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:13]
     :END:
 What is the /Word/ that
 was in the beginning
@@ -9328,6 +9364,32 @@ using these functors as objects
 and natural transformations
 between them as morphisms.
 *** Linear Algebra                                                    :drill:
+    SCHEDULED: <2019-04-22 Mon>
+    :PROPERTIES:
+    :ID:       6084a8f2-af1d-476e-bedd-5ae88f3a1eea
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:15]
+    :END:
+How to construct the
+vectors for representing
+a positive semidefinite
+matrix /M/ as a Gram matrix?
+**** Answer:
+Write /M=P*DP/ with /D/ diagonal
+and /D=E²/, which is possible
+because of positive real 
+eigenvalues (note /M/ is hermitian).
+Then /M=(EP)*EP/, so the column
+vectors /vᵢ/ (ie multiples of the
+eigenvectors) of /EP/ satisfy
+/M=(⟨vᵢ,vⱼ⟩)/.
+*** Linear Algebra                                                    :drill:
     SCHEDULED: <2019-04-21 Sun>
     :PROPERTIES:
     :ID:       b61fa5c0-b592-481c-adf6-17e1b7f68a90
@@ -9513,17 +9575,17 @@ Then the corresponding
 eigenvalue is /‖w‖²/ where
 /w=∑ωᵢxᵢ/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-04-17 Wed>
+    SCHEDULED: <2019-05-30 Thu>
     :PROPERTIES:
     :ID:       65799d3e-0037-4a9d-a64b-c6c74db0bf85
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-28 Thu 13:12]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:19]
     :END:
 Why is a nonsingular 
 Gram matrix positive 
@@ -9825,17 +9887,17 @@ triangle equality. In addition,
 /‖Zx‖²=‖Xx‖²+‖Yx‖² ∀x∈ℍ/ is
 equivalent to /Z/ being normal.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2019-04-17 Wed>
+    SCHEDULED: <2020-05-03 Sun>
     :PROPERTIES:
     :ID:       138ead87-8967-44d6-b7ae-4915f86db453
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 381.0938
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-12 Mon 15:45]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:19]
     :END:
 Do the /X, Y/ in the cartesian
 decomposition /Z=X+iY/ of a
@@ -11454,17 +11516,17 @@ in an intensional theory as
 definitional and propositional
 equality are distinguished.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-04-18 Thu>
+    SCHEDULED: <2019-06-18 Tue>
     :PROPERTIES:
     :ID:       4dad8346-9d81-495d-8d70-8c85d3e3cb64
-    :DRILL_LAST_INTERVAL: 32.9569
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 60.8384
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-16 Sat 12:43]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:13]
     :END:
 What is the determining
 feature of /extensional/
@@ -13341,17 +13403,17 @@ potential energy according
 to time.
 ** Quantum
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-04-17 Wed>
+    SCHEDULED: <2019-05-06 Mon>
     :PROPERTIES:
     :ID:       e6b06345-f05c-48cf-b681-f05dd6dbd83e
-    :DRILL_LAST_INTERVAL: 11.5394
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 18.2207
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-05 Fri 14:40]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:17]
     :END:
 Why is normal ordering
 of creation and annihilation
@@ -14206,17 +14268,17 @@ respectively, ie
 and
 /⟨γ|H|e⁺e⁻⟩=(⟨γ|H|e⁺e⁻⟩ᵥ)./
 *** Interaction                                                       :drill:
-    SCHEDULED: <2019-04-17 Wed>
+    SCHEDULED: <2019-05-30 Thu>
     :PROPERTIES:
     :ID:       970c75ae-617c-4f58-b924-02eeeb245e67
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-28 Thu 13:09]
+    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:21]
     :END:
 Where does the idea that
 quantum states interact
