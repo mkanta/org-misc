@@ -1,3 +1,14 @@
+* Chemistry                                                       :chemistry:
+** Biochar
+See http://www.holon.se/folke/carbon/simplechar/simplechar.shtml for how to
+make biochar for use in terra preta.
+* Haskell                                                           :haskell:
+** Type Nats Solver                                                 :plugins:
+This is another plugin for haskell, this time about
+type arithmetic.
+https://github.com/yav/type-nat-solver
+** Units library:                                                     :units:
+https://github.com/adamgundry/uom-plugin/
 * Neural Networks                                                    :neural:
 See
 https://towardsdatascience.com/hyper-parameters-in-action-a524bf5bf1c
@@ -7,13 +18,6 @@ https://towardsdatascience.com/hyper-parameters-in-action-part-ii-weight-initial
 See
 http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
 about the geometry behind neural networks.
-* Haskell                                                           :haskell:
-** Type Nats Solver                                                 :plugins:
-This is another plugin for haskell, this time about
-type arithmetic.
-https://github.com/yav/type-nat-solver
-** Units library:                                                     :units:
-https://github.com/adamgundry/uom-plugin/
 * Phoenix                                                   :phoenixwebframe:
 ** sqlite                                                            :sqlite:
 Use sqlite with phoenix as per the descriptions in
