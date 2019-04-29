@@ -243,17 +243,17 @@ meridian. A value of zero
 means the object has reached
 its highest point the sky.
 *** Hour Angle                                                        :drill:
-    SCHEDULED: <2019-04-20 Sat>
+    SCHEDULED: <2019-08-07 Wed>
     :PROPERTIES:
     :ID:       7580b457-3882-48f0-b8bc-8c94eacc1cf2
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.6219
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-02 Sat 20:37]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:56]
     :END:
 What is the /hour angle/
 of an object?
@@ -1529,17 +1529,17 @@ reappear in a dired window?
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
 *** elisp							      :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2020-11-20 Fri>
     :PROPERTIES:
     :ID:       bd0866b9-d814-42f9-8f37-d5352e36c314
-    :DRILL_LAST_INTERVAL: 211.8678
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 572.0431
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.7
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-09-28 Fri 15:33]
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:08]
     :END:
 What is the difference between setting 
 a variable with =set= vs =setq=?
@@ -1630,17 +1630,17 @@ listp argname/?
 **** Answer:
 The last argument of =apply= must be a list.
 *** ess                                                               :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-09-21 Sat>
     :PROPERTIES:
     :ID:       5c29e5fb-166f-4719-b7dc-227e792a87fb
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 147.8236
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-05 Tue 13:14]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:13]
     :END:
 How to prevent the
 underscore to =<-=
@@ -2001,17 +2001,17 @@ table /sqltab/ to reflect the structure
 of the org table and run
 ~.import $orgtab sqltab~. 
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2019-04-24 Wed>
+    SCHEDULED: <2019-06-06 Thu>
     :PROPERTIES:
     :ID:       b99032ad-5c89-4f11-a1b6-f73251051658
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-04 Thu 12:02]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:52]
     :END:
 How to convert an sqlite
 table to an org-mode table?
@@ -2413,17 +2413,17 @@ Inspect the source code
 at step with :list and 
 variables with :print <varname>.
 *** Debugging                                                         :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       8aa9a216-673d-4c2e-8536-62e01e50a04a
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-15 Fri 14:44]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:12]
     :END:
 How to check what's
 going on when a function
@@ -2438,17 +2438,17 @@ step through it with
 successive =:step=
 commands.
 *** Debugging                                                         :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       6f026052-eac4-4428-8ee3-52097283301e
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-15 Fri 14:40]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:15]
     :END:
 What to do if single
 stepping through a
@@ -2461,17 +2461,17 @@ run it with =:trace=. Once
 it stops, the history list
 can be traversed with =:back=.
 *** Debugging                                                         :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       2a5d45fa-a210-467c-859a-b3dddbaf334e
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-15 Fri 14:44]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:14]
     :END:
 What to do when something
 hits an infinite loop?
@@ -2486,17 +2486,17 @@ the resulting history
 with =:back= to see what was
 going on.
 *** Debugging                                                         :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       3a9aa6b4-63be-4335-990f-296306181054
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-15 Fri 14:41]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:13]
     :END:
 What is the most
 convenient way to set
@@ -2508,17 +2508,17 @@ in question and set a
 break-point using the 
 line numbers listed.
 *** Debugging                                                         :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       7ed12c0b-3fd5-4667-85b3-2753da7a90b5
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-15 Fri 14:42]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:12]
     :END:
 What to do if ghci
 complains about a
@@ -2682,17 +2682,17 @@ compile time like database
 content, as well as the
 types of new widgets.
 *** Eta-JVM                                                           :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2019-09-27 Fri>
     :PROPERTIES:
     :ID:       642f8607-14f4-466b-95e7-7c219f8bc85a
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 151.5072
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-07 Thu 13:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:04]
     :END:
 How to configure a haskell
 stack project to be compatible 
@@ -2710,17 +2710,17 @@ dependencies if they are
 newer than those from
 lts 6.35.
 *** Eta-JVM                                                           :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2019-09-23 Mon>
     :PROPERTIES:
     :ID:       cde34e59-1e2f-4fbc-8d40-c5547c98a769
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 147.8236
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-07 Thu 13:54]
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:11]
     :END:
 How to turn a stack project
 into an /etlas/ project?
@@ -2920,17 +2920,17 @@ Use =Tokens (head msg :| tail msg)=.
 =NonEmpty Char= is an instance of
 =IsList=!)
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-08-14 Wed>
     :PROPERTIES:
     :ID:       5fe137b3-a074-4b25-ad9d-e1f70feb815a
-    :DRILL_LAST_INTERVAL: 46.8626
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 110.6895
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.32
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-03-09 Sat 12:42]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:52]
     :END:
 What is the =Label= constructor
 for =ErrorItem= for?
@@ -3293,17 +3293,17 @@ Not at all, this contravenes
 POSIX conventions where an option
 has either none or one argument.
 *** Output                                                            :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       3324b05c-8547-49ea-9bb8-5fed74676ecd
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-15 Fri 14:43]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:15]
     :END:
 What to do about unicode
 being escaped in =show=
@@ -3488,17 +3488,17 @@ would need to be installed with
 if /inline-r/ is installed in the 
 global /stack/ project.
 *** Projects                                                          :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-09-21 Sat>
     :PROPERTIES:
     :ID:       49051250-a767-47b4-b547-48bb1620ae85
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 147.8236
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-05 Tue 13:11]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:14]
     :END:
 What is the /Setup.hs/
 file for in the project
@@ -4361,17 +4361,17 @@ where (phantom) type =s= now
 only can assume values
 ='Open=, ='Closed= and ='Locked=.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-04-27 Sat>
+    SCHEDULED: <2019-06-26 Wed>
     :PROPERTIES:
     :ID:       343b73ab-a01b-4662-a953-7b0d00c12833
-    :DRILL_LAST_INTERVAL: 45.7402
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 60.0569
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.819
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 2.834
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-12 Tue 13:18]
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:22]
     :END:
 How to obtain a singleton door state
 from
@@ -5336,17 +5336,17 @@ variables are determined
 by the implementation of 
 the function, not its caller.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-14 Sun>
     :PROPERTIES:
     :ID:       4035622c-9019-4e89-b811-02ca36daf54d
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:36]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:53]
     :END:
 How to extract the
 indices of a list
@@ -5357,17 +5357,17 @@ With =findIndices=
 which has signature
 =(a -> Bool) -> [a] -> [Int]=.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-14 Sun>
     :PROPERTIES:
     :ID:       c8079acf-4d29-4831-9e25-627917fb4fda
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:25]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:00]
     :END:
 What is =unfoldr= for?
 **** Answer:
@@ -5377,17 +5377,17 @@ producing values once
 the generating function
 returns =Nothing=.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-14 Sun>
     :PROPERTIES:
     :ID:       1e4c940c-fe0f-440c-a185-a382e10e2581
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:35]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:59]
     :END:
 How to generate a list
 of values generated by 
@@ -5398,17 +5398,17 @@ generates a list of values
 =[x, f x, f (f x),...]= in
 combination with =take=.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       3ecf4abd-49bb-45f3-b2f8-167e463b0967
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:33]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:10]
     :END:
 How to generate a
 constant list?
@@ -6637,17 +6637,17 @@ of a data-type. But also
 see ~str~, which displays
 the structure of an R object.
 *** Functional R                                                      :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-06-10 Mon>
     :PROPERTIES:
     :ID:       ae04bb33-455e-43bb-a527-dac8c7cce774
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.7498
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-04 Thu 12:01]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:50]
     :END:
 Can ~Reduce~ be directly
 applied to a data-frame?
@@ -6658,17 +6658,17 @@ applied to the columns,
 since a data frame is
 considered a list of columns.
 *** Functional R                                                      :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-06-10 Mon>
     :PROPERTIES:
     :ID:       875a4076-b957-4fab-b160-0bb05342ef7d
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.7498
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-04 Thu 12:00]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:51]
     :END:
 What does the first step
 in ~Reduce(f,lst,init)~ do?
@@ -6694,17 +6694,17 @@ intermediate steps in
 Set the ~accumulate~ argument
 in ~Reduce~ to ~TRUE~.
 *** Functional R                                                      :drill:
-    SCHEDULED: <2019-04-24 Wed>
+    SCHEDULED: <2019-06-11 Tue>
     :PROPERTIES:
     :ID:       b0dab332-1994-4ee0-957d-88ec75ff04db
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.7498
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-03 Wed 14:49]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:13]
     :END:
 Does the function in ~Reduce~
 need to have both arguments of the
@@ -6716,17 +6716,17 @@ given, because in that case
 ~f(list[1],list[2])~ in the 
 first step.
 *** Functional R                                                      :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-06-10 Mon>
     :PROPERTIES:
     :ID:       a90f336e-4f0c-40f9-95ce-92cc20e67f97
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.7498
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-04 Thu 12:00]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:49]
     :END:
 Why are functions like
 ~apply~ or ~map~ needed when
@@ -7276,17 +7276,17 @@ the date, either in the filename, ie
 metadata under the ~published:~ 
 field.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2019-04-24 Wed>
+    SCHEDULED: <2019-10-05 Sat>
     :PROPERTIES:
     :ID:       11b1b245-5ec1-484f-b93c-86204fff1d26
-    :DRILL_LAST_INTERVAL: 82.1093
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 163.2333
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-02-01 Fri 12:50]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.04
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:56]
     :END:
 What to do if 
 ~mix ecto.create~ comes
@@ -7320,17 +7320,17 @@ The path in
 is relative to the project
 directory.
 *** Phoenix                                                           :drill:
-    SCHEDULED: <2019-04-22 Mon>
+    SCHEDULED: <2019-09-27 Fri>
     :PROPERTIES:
     :ID:       2451beaf-aa9a-4f1b-ad21-2f828c9fe01e
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 155.1908
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-01 Fri 12:50]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:54]
     :END:
 How to use Phoenix
 with sqlite instead of
@@ -7674,17 +7674,17 @@ Stage the changes with
 ~git add ...~ and run
 ~git diff --staged~.
 *** git                                                               :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-09-20 Fri>
     :PROPERTIES:
     :ID:       80d00555-53c8-45bb-97e1-b0f89ae75089
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 147.8236
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-04 Mon 13:37]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:56]
     :END:
 What is a 
 /lightweight/ tag?
@@ -7695,17 +7695,17 @@ to it. Create it with
 =git -tag <version> [commit]=
 with no -a, -m or -s option.
 *** git                                                               :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-09-20 Fri>
     :PROPERTIES:
     :ID:       1911d00c-406f-46b9-96b7-4e5670cdaaff
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 147.8236
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-04 Mon 13:41]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:01]
     :END:
 How to give a commit
 a name?
@@ -7760,17 +7760,17 @@ made will be lost upon
 leaving (ie another checkout) 
 unless a new branch is created.
 *** git                                                               :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-09-20 Fri>
     :PROPERTIES:
     :ID:       5be67af8-56dd-4691-9a3f-6cf36950a906
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 147.8236
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-04 Mon 13:42]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:58]
     :END:
 How to fetch a
 specific tag from 
@@ -7783,17 +7783,17 @@ for the remote /rrefspec/ in
 which fetches the remote to
 the local /lrefspec/.
 *** git                                                               :drill:
-    SCHEDULED: <2019-04-27 Sat>
+    SCHEDULED: <2019-09-29 Sun>
     :PROPERTIES:
     :ID:       0dfb93d4-cbb9-459c-96d5-3557c429f68d
-    :DRILL_LAST_INTERVAL: 82.1093
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 155.3508
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-02-04 Mon 13:38]
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:02]
     :END:
 How to fetch a remote
 tag and put it in a
@@ -7803,17 +7803,17 @@ Use =refs/head/<name>= in
 =git fetch refs/tags/<tagid>:refs/head/<name>=
 to put it in a new branch /name/.
 *** git                                                               :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-09-20 Fri>
     :PROPERTIES:
     :ID:       829023a3-edf5-464e-966f-fc837053311c
-    :DRILL_LAST_INTERVAL: 80.0778
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 147.8236
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-04 Mon 13:41]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:51]
     :END:
 What is the problem
 if after a =git pull=
@@ -8464,6 +8464,18 @@ agent. Although more airy than
 watery due to the lack of direction
 towards a centre of gravity.
 *** primal matter                                                     :drill:
+    SCHEDULED: <2019-04-29 Mon>
+    :PROPERTIES:
+    :ID:       9cd654f2-82d9-44a7-932e-e3ca43b15ec2
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:02]
+    :END:
 What could be the material
 model of primal matter?
 **** Answer:
@@ -8673,6 +8685,18 @@ that can be named is not the
 eternal Tao.
 ** Mythology
 *** Actors                                                            :drill:
+    SCHEDULED: <2019-04-29 Mon>
+    :PROPERTIES:
+    :ID:       29fa81e3-7ccf-49d2-b025-7fb274cc7b1f
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:01]
+    :END:
 What are the /aeons/ in
 gnostic scripture?
 **** Answer:
@@ -8681,6 +8705,18 @@ male-female entities
 emanating from the 
 original Barbelo.
 *** Actors                                                            :drill:
+    SCHEDULED: <2019-04-29 Mon>
+    :PROPERTIES:
+    :ID:       2556692e-f42a-4f64-9109-a1ccece551bd
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:50]
+    :END:
 Who is Sophia?
 **** Answer:
 An entity emerging from
@@ -8690,6 +8726,18 @@ male-female towards the
 female pole. She is called
 the /Heavenly Wisdom/.
 *** Actors                                                            :drill:
+    SCHEDULED: <2019-04-29 Mon>
+    :PROPERTIES:
+    :ID:       bb5c939e-fa32-4c00-a491-cd6785cf7d67
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:56]
+    :END:
 What was the sin of
 Sophia?
 **** Answer:
@@ -8702,6 +8750,18 @@ as the demiurg and is the
 jealous god of the old
 testament.
 *** Actors                                                            :drill:
+    SCHEDULED: <2019-04-29 Mon>
+    :PROPERTIES:
+    :ID:       571b65a1-819f-4e95-929d-899fa6d0d980
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:01]
+    :END:
 What was Jesus' mission 
 according to the Gnostics?
 **** Answer:
@@ -8710,6 +8770,18 @@ incarnation as Mary Magdalene
 with her male aspect and
 re-balance the Universe.
 *** Actors                                                            :drill:
+    SCHEDULED: <2019-04-30 Tue>
+    :PROPERTIES:
+    :ID:       079fe009-c6c0-4d0c-b021-ac0ed61c7d1d
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:11]
+    :END:
 Who was Lilith according
 to Gnostic scripture?
 **** Answer:
@@ -8721,6 +8793,18 @@ was deported from Eden for
 failing to merge with her
 male part.
 *** Actors                                                            :drill:
+    SCHEDULED: <2019-04-29 Mon>
+    :PROPERTIES:
+    :ID:       e4350cbc-7457-4315-9e46-7a71f870d8ff
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:01]
+    :END:
 Who is /Barbelo/ in
 gnostic scripture?
 **** Answer:
@@ -8845,6 +8929,18 @@ spirit.
 the Archeons, The
 Reality of the Rulers)
 *** Man and Woman                                                     :drill:
+    SCHEDULED: <2019-04-29 Mon>
+    :PROPERTIES:
+    :ID:       94147f5a-3a8f-4bf1-981a-25aa4831b38e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:55]
+    :END:
 What is the whole thing
 of "born of woman" all
 about in the gnostic
@@ -8946,6 +9042,17 @@ environment, an analogy
 to the teachings of Jesus
 residing in a corrupt body,
 the Church.
+*** Thomas                                                            :drill:
+What is the Lion that
+eats man all about?
+**** Answer:
+The spiritual force of
+deception behind false
+religion. See 1 Peter 5:8
+where Satan is described
+as a roaring lion roaming
+the earth and looking for
+prey to devour.
 *** Thomas                                                            :drill:
     SCHEDULED: <2019-06-21 Fri>
     :PROPERTIES:
@@ -9493,17 +9600,17 @@ have?
 They are Gram matrices
 of a set of vectors.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-05-16 Thu>
     :PROPERTIES:
     :ID:       49bbe233-2612-4053-bc3a-5863365523be
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-17 Wed 11:07]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:06]
     :END:
 What would a matrix mapping
 eigenbases of a (hermitian)
@@ -9516,17 +9623,17 @@ are non-singular matrices
 transforming degenerate
 eigenspaces.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-05-16 Thu>
     :PROPERTIES:
     :ID:       cd42fe65-482a-4a44-981f-753282136cd2
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-17 Wed 11:08]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:05]
     :END:
 How to construct a common
 eigenbasis of hermitian
@@ -9542,17 +9649,17 @@ diagonalised separately, leading
 to a common eigenbasis for
 both /A/ and /B/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-05-16 Thu>
     :PROPERTIES:
     :ID:       b0e4cfe8-e33f-420e-adff-e10ab839f32e
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-17 Wed 11:12]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:10]
     :END:
 How are eigenbases of
 hermitian /A, B/ related when
@@ -9564,17 +9671,17 @@ only non-degenerate eigenvalues
 then every eigenbasis of /A/ is
 also an eigenbasis of /B/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-05-16 Thu>
     :PROPERTIES:
     :ID:       0947798a-ec04-476e-a0a1-18380b77d054
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-17 Wed 11:09]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:09]
     :END:
 What is the meaning
 of permutation-like 
@@ -9586,17 +9693,17 @@ different eigenbases of
 an operator with only
 non-degenerate values.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-05-16 Thu>
     :PROPERTIES:
     :ID:       a443a464-d5b9-42bf-89f8-401c6350c0db
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-17 Wed 11:10]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:09]
     :END:
 If /V/ is an eigenbasis
 of hermitian operator
@@ -9762,17 +9869,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2019-05-14 Tue>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 13.797
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 15.6182
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.954
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.956
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-14 Sun 12:13]
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:08]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -9859,6 +9966,99 @@ written?
 Since /SO⁺(1,3)/ is generated by spatial
 rotations and Lorentz boosts, it can
 be written as a product of those.
+*** Representations                                                   :drill:
+    SCHEDULED: <2019-05-01 Wed>
+    :PROPERTIES:
+    :ID:       823cc259-3bf7-4c1d-b32a-d608b5650bd2
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:03]
+    :END:
+How to define characters
+in infinite groups?
+**** Answer:
+For infinite groups, characters
+/Χᵣ:G→̱ℂ/ are only defined for
+finite dimensional representations 
+/r/ as /Χᵣ(g)=tr(r(g))/, just like
+for finite groups.
+*** Representations                                                   :drill:
+    SCHEDULED: <2019-05-02 Thu>
+    :PROPERTIES:
+    :ID:       b0ef434a-35b0-43d3-af8c-023b9ed33125
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:05]
+    :END:
+How is finiteness
+expressed in compact
+groups?
+**** Answer:
+Compact groups are finite
+in the sense that every
+*irreducible* representation
+(on a Hilbert or Bannach
+space) is finite dimensional.
+*** Representations                                                   :drill:
+    SCHEDULED: <2019-05-01 Wed>
+    :PROPERTIES:
+    :ID:       75fe2672-7929-4afd-b3e7-6fed442d7833
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:04]
+    :END:
+Does the definition of 
+characters make sense for
+infinite groups?
+**** Answer:
+Not in general since characters
+are defined only on finite
+representations. For example, 
+for compact groups every 
+irreducible representation
+is finite dimensional, so 
+characters are still a useful
+tool for studying them.
+*** Representations                                                   :drill:
+    SCHEDULED: <2019-05-01 Wed>
+    :PROPERTIES:
+    :ID:       f5fbc6e2-6a03-4031-904c-b7a03b039d19
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:05]
+    :END:
+What could be a possible
+extension of the character
+of a finite dimensional
+representation to the 
+infinite case?
+**** Answer:
+This could be extended if
+the representation /r/ consists
+if /trace-class/ operators,
+in which case the characters
+could be still defined as traces
+/Χᵣ(g)=tr(r(g))/.
 *** Quantum Algebras						      :drill:
     SCHEDULED: <2019-08-04 Sun>
     :PROPERTIES:
@@ -9929,17 +10129,17 @@ are self adjoint, they behave in a
 sense like positive real numbers, so
 /|T|/ is a bit like a length.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2019-06-14 Fri>
     :PROPERTIES:
     :ID:       7468d8bb-a84d-4e9f-8d79-2691a9c754ae
-    :DRILL_LAST_INTERVAL: 33.9823
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 46.8956
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.091
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.38
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-25 Mon 18:07]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:11]
     :END:
 What is a partial isometry?
 **** Answer:
@@ -10480,17 +10680,17 @@ These are the unit arrows pointing
 in the direction of constant /y/, ie
 to the right in the normal /x,y/ plane.
 *** Differential						      :drill:
-    SCHEDULED: <2019-04-27 Sat>
+    SCHEDULED: <2019-08-07 Wed>
     :PROPERTIES:
     :ID:       9e335c5e-2c9a-4089-af6c-ff02c2211346
-    :DRILL_LAST_INTERVAL: 89.672
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 101.5087
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.214
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:57]
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:06]
     :END:
 Why are the partial differential 
 operators in the unit directions 
@@ -11754,17 +11954,17 @@ Functions /f:A×B→C/
 out of the product 
 type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-04-22 Mon>
+    SCHEDULED: <2019-07-07 Sun>
     :PROPERTIES:
     :ID:       747e5dee-673e-42e9-9ade-c4d02b68a49e
-    :DRILL_LAST_INTERVAL: 46.47
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 73.3761
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-07 Thu 11:53]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:59]
     :END:
 What are the computation
 rules of the product type
@@ -12555,17 +12755,17 @@ influence of past events
 ~Tᵢ~ on the current value
 of the intensity process ~λ(t)~.
 *** Processes                                                         :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-01 Mon>
     :PROPERTIES:
     :ID:       0801d690-1eea-4409-a568-27a10f11dbf9
-    :DRILL_LAST_INTERVAL: 59.023
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 66.814
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.909
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.917
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-25 Mon 11:57]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:02]
     :END:
 What is a Hawkes process?
 **** Answer:
@@ -12771,17 +12971,17 @@ preimage relation because
 for a permutation matrix
 /xⱼᵢ=1/ means that /xᵢ↦xⱼ/.
 *** Matrices                                                          :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2019-10-18 Fri>
     :PROPERTIES:
     :ID:       2fd846d2-e2c2-4341-99d2-4d839550708f
-    :DRILL_LAST_INTERVAL: 91.3467
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 172.828
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-27 Sun 15:59]
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:11]
     :END:
 If permutation matrices
 permute the indices of
@@ -12824,17 +13024,17 @@ tensor notation.
 * Music
 ** Scales
 *** Blues                                                             :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2020-03-25 Wed>
     :PROPERTIES:
     :ID:       316219ce-42ec-42cf-b89d-6bbcac0c4344
-    :DRILL_LAST_INTERVAL: 139.4713
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 331.8022
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:50]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:08]
     :END:
 What is the full name
 for the blues scale with
@@ -12888,17 +13088,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-20 Sat>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 63.6642
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 85.692
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.091
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 3.083
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-20 Wed 12:23]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:03]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -12906,17 +13106,17 @@ of a pentatonic major scale?
 It is 2 2 3 2 3 in terms of
 semi-tones.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2019-04-27 Sat>
+    SCHEDULED: <2019-05-22 Wed>
     :PROPERTIES:
     :ID:       c65b92dc-a49c-4195-a6cc-5416c1096202
-    :DRILL_LAST_INTERVAL: 18.414
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 24.7852
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.38
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-09 Tue 12:05]
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:05]
     :END:
 What is the relationship
 of pentatonic modes 3 and 4
@@ -13362,17 +13562,17 @@ transport.
 could lead to superluminal
 effects causes decoherence!)
 *** Quantum States                                                    :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-05-16 Thu>
     :PROPERTIES:
     :ID:       cee92fab-d10e-4405-ad6e-6330a1141a8f
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-17 Wed 11:11]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:07]
     :END:
 Why should quantum states
 be described by vector
@@ -13390,17 +13590,17 @@ an irreducible representation
 of the Lorentz group, which is
 a vector space. 
 *** Superposition and Time                                            :drill:
-    SCHEDULED: <2019-04-26 Fri>
+    SCHEDULED: <2019-05-16 Thu>
     :PROPERTIES:
     :ID:       f6b563d8-5ab9-4e2c-8443-4a1650540396
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-17 Wed 11:10]
+    :DRILL_LAST_REVIEWED: [2019-04-26 Fri 13:07]
     :END:
 How could superpositions and 
 time be related?
@@ -13613,17 +13813,17 @@ As /tr(PⱼA)=⟨σⱼ|A|σⱼ⟩/,
 where /Pⱼ/ is the projection
 operator /|σⱼ⟩⟨σⱼ|/.
 *** Density matrix                                                    :drill:
-    SCHEDULED: <2019-04-27 Sat>
+    SCHEDULED: <2019-07-18 Thu>
     :PROPERTIES:
     :ID:       4806415d-a5ae-4ad5-89d1-ac44b34ab8af
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 82.4223
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-16 Sat 12:49]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:21]
     :END:
 Why is /tr (PⱼA)=⟨σⱼ|A|σⱼ⟩/
 for projection operator
@@ -14117,17 +14317,17 @@ Subspaces that are invariant under the
 representation of the Lorentz group on the 
 Hilbert space.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2019-07-29 Mon>
     :PROPERTIES:
     :ID:       fba25cb9-6fc1-40bb-a9ef-12d581e5e229
-    :DRILL_LAST_INTERVAL: 83.7079
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 92.4135
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-03 Sun 13:36]
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:10]
     :END:
 How is a representation of the Lorentz
 group induced on a Hilbert space?
@@ -14655,17 +14855,17 @@ v̂=1/(iℏ)[x̂,H] as velocity
 operator.
 (Relation to group velocity?)
 *** Optics                                                            :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2019-07-29 Mon>
     :PROPERTIES:
     :ID:       c8a7e05b-3116-4682-825b-171d3b7f56e9
-    :DRILL_LAST_INTERVAL: 43.5513
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.0239
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-03-15 Fri 14:41]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:05]
     :END:
 Why can a beam splitter
 be modeled as
@@ -14684,17 +14884,17 @@ entering from the bottom, /|y⟩₃/
 represents transmission whereas
 /|y⟩₄/ represents reflection.
 *** Optics                                                            :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-14 Sun>
     :PROPERTIES:
     :ID:       5cb8c9a9-fccc-4be3-83fb-1e22ecee18b1
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:31]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:54]
     :END:
 What is the second
 field entering a beam
@@ -14708,17 +14908,17 @@ to /ρ|1⟩₃|0⟩₄+τ|0⟩₃|1⟩₄/, ie
 a state where the photon is
 entangled with the vacuum.
 *** Optics                                                            :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-14 Sun>
     :PROPERTIES:
     :ID:       2be1f150-637d-4470-8fc6-47a7b4646f7e
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:32]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:03]
     :END:
 Where does the imaginary
 /i/ come from when modelling
@@ -14735,17 +14935,17 @@ that /ρ²+τ²=1/ and
 unitary matrices give
 rise to discrete FTs?)
 *** Optics                                                            :drill:
-    SCHEDULED: <2019-04-25 Thu>
+    SCHEDULED: <2019-07-14 Sun>
     :PROPERTIES:
     :ID:       71d0589f-a056-4685-b86d-bb5a537ff7d3
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:36]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:57]
     :END:
 How does a beam splitter
 give rise to an operator?
@@ -15617,17 +15817,17 @@ but most commonly the operator is
 mapped to phase-space via the
 Wigner transform.
 *** Quantization                                                      :drill:
-    SCHEDULED: <2019-04-24 Wed>
+    SCHEDULED: <2019-06-10 Mon>
     :PROPERTIES:
     :ID:       9739c73f-9491-4d12-ba7d-e9cbfe165912
-    :DRILL_LAST_INTERVAL: 33.9823
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 45.7402
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.9
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-21 Thu 15:33]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 16:00]
     :END:
 What is the essence of the
 phase-space formulation of
@@ -15716,17 +15916,17 @@ However, due to the uncertainty principle, the
 form of the hamiltonian /H/ is not completetely
 determined by the correspondence principle. 
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2019-04-28 Sun>
+    SCHEDULED: <2019-12-08 Sun>
     :PROPERTIES:
     :ID:       fff93c00-cf83-4ffd-8326-b93ed27af3df
-    :DRILL_LAST_INTERVAL: 138.5172
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 224.2593
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-10 Mon 15:47]
+    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:08]
     :END:
 Is there a way to derive the
 Schrödinger equation without
@@ -15791,17 +15991,17 @@ of the Hamiltonian of the
 system.
 ** Signals
 *** Coherence                                                         :drill:
-    SCHEDULED: <2019-04-27 Sat>
+    SCHEDULED: <2019-07-16 Tue>
     :PROPERTIES:
     :ID:       b732912d-1c61-46d1-92ed-0e53abc062fa
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-16 Sat 12:50]
+    :DRILL_LAST_REVIEWED: [2019-04-27 Sat 13:21]
     :END:
 What is coherence?
 **** Answer:
@@ -16965,17 +17165,17 @@ on Lubuntu?
 In the files located in
 ~ ~/.config/lxsession/$DESKTOP_SESSION~
 *** X Server                                                          :drill:
-    SCHEDULED: <2019-04-24 Wed>
+    SCHEDULED: <2019-12-22 Sun>
     :PROPERTIES:
     :ID:       94e89ecb-39a3-4f6d-aa4c-e077f0abb8a2
-    :DRILL_LAST_INTERVAL: 130.6085
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 241.1033
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.3
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.273
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-14 Fri 14:53]
+    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:58]
     :END:
 How to run applications at
 start-up ~xinit~ style in lubuntu?
