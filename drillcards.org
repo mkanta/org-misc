@@ -288,17 +288,17 @@ right ascension.
 * Cooking
 ** Beverages
 *** French Press                                                      :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2020-07-14 Tue>
     :PROPERTIES:
     :ID:       7dc7c8fa-d0e2-4deb-8e69-996d185e1169
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 390.625
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-14 Mon 12:44]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:49]
     :END:
 What is the problem if
 the press goes down too
@@ -375,17 +375,17 @@ colour when done.
 * Development
 ** ai
 *** Dialog Flow                                                       :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-09-07 Sat>
     :PROPERTIES:
     :ID:       dd45712a-dee0-43e8-a460-9cce94f4b7fb
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-07 Tue 11:13]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:52]
     :END:
 How to build natural
 language interfaces?
@@ -737,17 +737,17 @@ by an affine transformation
 /x↦Ax+b/. The shift vector /b/
 is called the /bias vector/.
 *** Recurrent Neural Networks                                         :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-09-07 Sat>
     :PROPERTIES:
     :ID:       ce203e8c-b57e-4f95-9f5f-831b402aace9
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-07 Tue 11:13]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:50]
     :END:
 What is the redeeming quality
 of a /Long Short Term Memory (LSTM)/
@@ -1211,17 +1211,17 @@ square brackets can be
 dropped and =do:...=
 is the result.
 *** functions                                                         :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2020-03-08 Sun>
     :PROPERTIES:
     :ID:       17411eea-ec02-4f93-a8e2-f3ac5c4a3d68
-    :DRILL_LAST_INTERVAL: 119.1683
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 264.4345
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-19 Tue 12:38]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:23]
     :END:
 In how far do named
 functions behave
@@ -1235,17 +1235,17 @@ environment. In contrast,
 a =def= introduces a clean
 name scope.
 *** functions                                                         :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2020-03-09 Mon>
     :PROPERTIES:
     :ID:       e7f1857b-c908-4031-aeea-1e2d95d452ea
-    :DRILL_LAST_INTERVAL: 119.1683
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 264.4345
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-19 Tue 12:43]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:54]
     :END:
 Why is argument permutation
 important in Elixir?
@@ -1282,17 +1282,17 @@ functions defined by a capture,
 which needs to sort out the
 =&1, &2,...= etc.
 *** functions                                                         :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2020-03-10 Tue>
     :PROPERTIES:
     :ID:       01525ba3-ec3d-4a5b-a61b-b4d2e1d407b1
-    :DRILL_LAST_INTERVAL: 119.1683
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 264.4345
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-20 Wed 12:22]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:11]
     :END:
 What's the problem
 with the elixir
@@ -1356,17 +1356,17 @@ to =4= and then complains
 that it can't apply =5=
 to that result.
 *** piping                                                            :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2020-03-25 Wed>
     :PROPERTIES:
     :ID:       cabba64b-4d57-4e31-b1d9-6637fe788401
-    :DRILL_LAST_INTERVAL: 122.1393
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 277.7448
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-02-19 Tue 12:44]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:36]
     :END:
 Why is piping actually
 not such a great idea
@@ -1427,17 +1427,17 @@ supervision tree. In addition
 it has a standard set of
 interface functions.
 *** piping                                                            :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2020-03-09 Mon>
     :PROPERTIES:
     :ID:       b5c94bd0-24dc-43fb-b267-69391b1b74ee
-    :DRILL_LAST_INTERVAL: 119.1683
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 264.4345
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-19 Tue 12:35]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:51]
     :END:
 What is the mechanism
 of piping in elixir?
@@ -1927,17 +1927,17 @@ in ~/.emacs/elpa. Note
 that restarting emacs
 will clean the =load-path=.
 *** packages                                                          :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2020-01-03 Fri>
     :PROPERTIES:
     :ID:       572cfadf-eabd-4894-adf6-4882fb06f99a
-    :DRILL_LAST_INTERVAL: 103.6219
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 196.0526
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-09 Sat 12:44]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:31]
     :END:
 What to do if there 
 is no package 
@@ -2233,17 +2233,17 @@ a Jupyter notebook?
 **** Answer:
 Yes, install ~ox-ipynb~.
 *** org-mode                                                          :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2020-06-03 Wed>
     :PROPERTIES:
     :ID:       c91ef50b-eb39-46f5-bb7e-f5964fe104ec
-    :DRILL_LAST_INTERVAL: 148.718
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 353.8001
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:16]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:19]
     :END:
 How to escape slashes
 and tildes when writing
@@ -2630,17 +2630,17 @@ right context, the type
 annotations aren't even
 necessary.
 *** Equivalencies                                                     :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2020-07-23 Thu>
     :PROPERTIES:
     :ID:       6cbdd105-1720-4c0d-b90b-f706b4659f05
-    :DRILL_LAST_INTERVAL: 157.3333
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 402.7732
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.2
+    :DRILL_AVERAGE_QUALITY: 4.167
     :DRILL_EASE: 2.56
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-10 Thu 15:26]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:14]
     :END:
 Why are lambdas of the 
 sort ~f=\x -> g x~ normally
@@ -2677,17 +2677,17 @@ haskell-gi-0.21. Just list
 under ~extra-deps~ in the
 stack.yaml file.
 *** Graphical UI                                                      :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2020-06-26 Fri>
     :PROPERTIES:
     :ID:       c10805dc-b69c-417b-956c-a1f3edba53f4
-    :DRILL_LAST_INTERVAL: 152.4375
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 371.7951
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-19 Sat 13:37]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:13]
     :END:
 Should the /OverloadedLabels/
 extension be turned off when
@@ -2700,17 +2700,17 @@ and getting attributes
 only work with enabled
 /OverloadedLabels/.
 *** Graphical UI                                                      :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2020-06-22 Mon>
     :PROPERTIES:
     :ID:       abfed53e-a90c-4b08-afc9-032495b543c9
-    :DRILL_LAST_INTERVAL: 152.4375
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 371.7951
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-14 Mon 12:47]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:23]
     :END:
 What is the /OverloadedLabels/
 in /haskell-gi/ all about?
@@ -3094,17 +3094,17 @@ and ~takeWhile1P~ combinators.
 If possible, these should be
 used first.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2020-03-11 Wed>
     :PROPERTIES:
     :ID:       c0bad81a-fa4c-435a-87b9-158e5ee1228e
-    :DRILL_LAST_INTERVAL: 125.6796
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 265.561
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-13 Wed 13:23]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:52]
     :END:
 Why is ~parse~ not ideal
 for testing Megaparsec
@@ -3140,17 +3140,17 @@ as a description in error messages.
 As such it is more general than
 a source file.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2020-03-11 Wed>
     :PROPERTIES:
     :ID:       bc50b4e1-6941-4793-9b94-3d0c4e00a1d3
-    :DRILL_LAST_INTERVAL: 125.6796
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 265.561
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-12 Tue 13:50]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:51]
     :END:
 How to define a ~noSpace~ parser
 to disallow spaces between a numeral
@@ -3674,17 +3674,17 @@ existing compiler will be used,
 rather than installed by
 ~stack build~.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2020-06-22 Mon>
     :PROPERTIES:
     :ID:       9e4793a7-2806-4128-aac9-54cf167f6794
-    :DRILL_LAST_INTERVAL: 152.4375
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 371.7951
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-13 Sun 15:35]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:18]
     :END:
 What to do if
 ~stack new <projname>~
@@ -4523,17 +4523,17 @@ a function, for example
 to type subexpressions in
 a =where= clause.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-12-29 Sun>
     :PROPERTIES:
     :ID:       c80ade29-4f7a-4a1a-aacb-3bc0d1802403
-    :DRILL_LAST_INTERVAL: 103.6219
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 196.0526
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-02 Sat 20:40]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:15]
     :END:
 How to check if a
 type-level natural number
@@ -4674,17 +4674,17 @@ data-types where the type variables
 can assume not only types but also
 values of the underlying types.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2020-02-04 Tue>
     :PROPERTIES:
     :ID:       5de325cc-735f-4373-90ec-bd6c7f8ade8a
-    :DRILL_LAST_INTERVAL: 108.8692
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 230.0406
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-02 Sat 20:38]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:53]
     :END:
 What is the advantage of having
 inductive types over just having
@@ -4993,17 +4993,17 @@ experimenting?
 In /ghci/ with 
 =kind! <expression>=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2020-02-03 Mon>
     :PROPERTIES:
     :ID:       792dbc9f-2036-493e-82d6-b592d8aeff09
-    :DRILL_LAST_INTERVAL: 107.6629
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 227.4917
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-04 Mon 13:26]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:32]
     :END:
 How to define a type
 level =IF=?
@@ -5184,17 +5184,17 @@ What does =:kind!= in
 **** Answer:
 It evaluates type families.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2020-01-12 Sun>
     :PROPERTIES:
     :ID:       62940337-e9e7-437b-98fe-b1e5a415df36
-    :DRILL_LAST_INTERVAL: 106.2243
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 206.0751
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-06 Wed 20:51]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:12]
     :END:
 Why are data-kinds derived
 from types and =*= treated
@@ -5371,17 +5371,17 @@ applications for the next rank of
 variables then follow these values
 followed by their own values etc.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2020-06-13 Sat>
     :PROPERTIES:
     :ID:       10fe8bfe-8316-4d6c-bd47-653e9e3012d7
-    :DRILL_LAST_INTERVAL: 152.4375
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 362.6488
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-15 Tue 16:25]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:13]
     :END:
 Is it possible to evaluate
 ~Λ~ expressions explicitly in
@@ -6090,17 +6090,17 @@ derived classes?
 In general, the constructor of the superclass 
 has to be called. Use =super= to do that.
 *** typescript classes 	 				      :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2020-03-16 Mon>
     :PROPERTIES:
     :ID:       67da1017-12ef-4f7d-a700-3e054125fbb3
-    :DRILL_LAST_INTERVAL: 169.2724
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 274.052
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.334
-    :DRILL_EASE: 1.58
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-28 Fri 19:54]
+    :DRILL_AVERAGE_QUALITY: 3.462
+    :DRILL_EASE: 1.68
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:15]
     :END:
 What is the problem with defining functions not
 as methods but as members, for example by
@@ -6402,17 +6402,17 @@ code containing normally
 a function going by the 
 same =name= as the file. 
 *** installation                                                      :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       d9d24aba-edf5-44b2-b7f9-f77fbb9ab97d
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 152.0844
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-27 Wed 12:47]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:24]
     :END:
 How to build and install
 /cern-root/?
@@ -6425,17 +6425,17 @@ like systems install with
 =checkinstall -D make install= to
 get a debian package.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-11-10 Sun>
     :PROPERTIES:
     :ID:       5c1d5b93-f4d4-45b1-8d09-d17e7512b435
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-27 Wed 12:49]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:22]
     :END:
 How to install root
 so that the binaries end
@@ -6447,17 +6447,17 @@ to ~ON~, ie by including
 ~-Dgnuinstall=ON~ in the /cmake/
 command line.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-11-16 Sat>
     :PROPERTIES:
     :ID:       3c21ffcf-c5f7-4aa3-922e-e279ebb68758
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 152.0844
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-27 Wed 12:51]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:17]
     :END:
 Is it possible to change the
 install location for /root/?
@@ -6467,17 +6467,17 @@ to the desired install directory,
 ie with ~-DCMAKE_INSTALL_PREFIX=<directory>~
 in the /cmake/ command line.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-11-10 Sun>
     :PROPERTIES:
     :ID:       bf9a3eae-8527-44ae-8e1f-e219c1f047b0
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-27 Wed 12:48]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:23]
     :END:
 Can /root/ be installed in
 ~/usr/local~?
@@ -6508,17 +6508,17 @@ python on the system?
 Yes, use ~-Dpython_version=3~
 in the =cmake= command line.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-11-10 Sun>
     :PROPERTIES:
     :ID:       9449105f-e00c-4dce-af40-4e98519a5c53
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-27 Wed 12:49]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:22]
     :END:
 What to do if =cmake= complains
 about not being able to find
@@ -6530,17 +6530,17 @@ Set ~-DPYTHON_LIBRARY~ and
 =cmake= command line to the
 appropriate directories.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-11-11 Mon>
     :PROPERTIES:
     :ID:       ff44f597-be3b-4189-b333-1079c0ae3d83
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-27 Wed 12:52]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:20]
     :END:
 What needs to be observed
 when installing /root/ with
@@ -6576,27 +6576,9 @@ emacs with
 =M-& root=.
 ** purescript
 *** Async                                                             :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-06-29 Sat>
     :PROPERTIES:
-    :ID:       c1130124-fce3-4794-bec4-b064b6ba0b3a
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-05 Wed 09:03]
-    :END:
-How are promises related
-to purescript ~Aff~?
-**** Answer:
-An ~Effect (Promise a)~ is
-the same as an ~Aff a~.
-*** Async                                                             :drill:
-    SCHEDULED: <2019-06-14 Fri>
-    :PROPERTIES:
-    :ID:       fb5c5def-ab72-446f-9d5e-f10ada409848
+    :ID:       31e3812e-5a2f-4ec0-b023-d48c7d1ad081
     :DRILL_LAST_INTERVAL: 9.2829
     :DRILL_REPEATS_SINCE_FAIL: 3
     :DRILL_TOTAL_REPEATS: 2
@@ -6604,7 +6586,50 @@ the same as an ~Aff a~.
     :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-05 Wed 09:09]
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:10]
+    :END:
+How to construct an
+~Aff~ from a ~Promise~?
+**** Answer:
+Essentially by assigning
+the ~Left~ call of the callback
+function in ~makeAff~ to the 
+failure callback of the ~then~
+function of the promise and the
+~Right~ call to its success 
+callback. See the source
+of ~Control.Promise (toAff)~
+for an example.
+*** Async                                                             :drill:
+    SCHEDULED: <2019-07-10 Wed>
+    :PROPERTIES:
+    :ID:       c1130124-fce3-4794-bec4-b064b6ba0b3a
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:17]
+    :END:
+How are promises related
+to purescript ~Aff~?
+**** Answer:
+An ~Effect (Promise a)~ is
+the same as an ~Aff a~.
+*** Async                                                             :drill:
+    SCHEDULED: <2019-07-05 Fri>
+    :PROPERTIES:
+    :ID:       fb5c5def-ab72-446f-9d5e-f10ada409848
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:08]
     :END:
 How to import javascript
 functions returning a
@@ -6622,17 +6647,17 @@ an ~Aff~ by feeding it into
 purescript-aff-promise for
 an example).
 *** Async                                                             :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-07-10 Wed>
     :PROPERTIES:
     :ID:       32c30d62-2428-4894-b14b-0388d3c5dc80
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-05 Wed 09:07]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:06]
     :END:
 How is asynchronicity
 handled in purescript?
@@ -6666,17 +6691,17 @@ indicate a result or
 ~callback (Left (error msg))~
 to indicate failure.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2019-07-06 Sat>
     :PROPERTIES:
     :ID:       f76c99f3-0a03-4516-9c36-288db5ba250d
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-07 Fri 10:46]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:08]
     :END:
 What does a script running
 in a dedicated worker thread 
@@ -6689,17 +6714,17 @@ are made and then returned
 to the main thread via
 ~postMessage~.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-06-17 Mon>
+    SCHEDULED: <2019-07-10 Wed>
     :PROPERTIES:
     :ID:       bbe80a5d-0655-4c2b-9ab6-d642e3a14934
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-07 Fri 10:48]
+    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:11]
     :END:
 How does a thread
 communicate with a
@@ -6712,17 +6737,17 @@ receives messages through
 the ~onMessage~ function
 set on the worker.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2019-07-06 Sat>
     :PROPERTIES:
     :ID:       1e67b3f2-5e29-4d2c-9ee7-95f9a4425d80
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-07 Fri 10:49]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:09]
     :END:
 How to run a calculation
 in a thread separate from
@@ -6735,17 +6760,17 @@ create a new ~Worker~ with
 with the url where the
 code to be run resides.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-06-17 Mon>
+    SCHEDULED: <2019-07-12 Fri>
     :PROPERTIES:
     :ID:       41ba0883-e8b7-43aa-ae13-e94e1275c0e4
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-07 Fri 10:46]
+    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:12]
     :END:
 What is the ~Worker~
 interface for?
@@ -6756,6 +6781,59 @@ from the Browser UI in order
 to prevent the browser from
 freezing in lengthy 
 calculations.
+*** Async Aff                                                         :drill:
+    SCHEDULED: <2019-06-30 Sun>
+    :PROPERTIES:
+    :ID:       a2b42ed3-c63a-463a-bff3-d2bd871edd4c
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:09]
+    :END:
+What is the blocking
+behaviour when executing an
+~Aff~?
+**** Answer:
+Expect blocking behaviour
+when binding with ~>>=~. All
+the other execution functions
+are derived from ~forkAff~ and
+are non-blocking unless
+something like ~joinFiber~ is
+used. Binding is implemented
+as a foreign function, so it
+is not immediately clear how it
+actually works but it probably
+amounts to a combination of
+~forkAff~ with ~joinFiber~.
+*** Async Aff                                                         :drill:
+    SCHEDULED: <2019-06-30 Sun>
+    :PROPERTIES:
+    :ID:       10b1eb2d-2eed-4f15-9656-04c6a4ea8936
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:08]
+    :END:
+What is the difference
+between using ~launchAff~
+vs ~runAff~?
+**** Answer:
+The way results are handled.
+With ~launchAff~ the result will
+normally obtained via ~joinFiber~
+on the returned ~Fiber a~. On
+the other hand, ~runAff~ takes
+a callback to be run after the
+fiber completes.
 *** Browser                                                           :drill:
     SCHEDULED: <2019-07-23 Tue>
     :PROPERTIES:
@@ -6828,17 +6906,17 @@ code is executed only after
 the DOM is built and not
 when the script tag is loaded.
 *** Browser: Repl                                                     :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-07-13 Sat>
     :PROPERTIES:
     :ID:       008580e8-8c42-4659-85a2-3d438c765ec5
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-08 Sat 10:02]
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:13]
     :END:
 What's the point of running
 the REPL with a port number?
@@ -6984,17 +7062,17 @@ function to the ~FileReader~
 after its ~readyState~ is 
 ~ReadyState DONE~.
 *** Functions                                                         :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2019-08-22 Thu>
     :PROPERTIES:
     :ID:       ef645a50-9a41-49f3-9a93-803c107bd30b
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:49]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:29]
     :END:
 What is ~unwrap~ for?
 **** Answer:
@@ -7004,17 +7082,17 @@ extracts a value wrapped
 in a ~newtype~, the opposite
 of ~wrap~.
 *** Functions                                                         :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-08-15 Thu>
     :PROPERTIES:
     :ID:       8e3f70a9-a8a3-424f-a552-d739aca2bca2
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6141
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:49]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:49]
     :END:
 What is the point
 of ~absurd~?
@@ -7025,17 +7103,17 @@ wherever a function with
 polymorphic return type is 
 needed that takes no arguments.
 *** Functions                                                         :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2019-08-22 Thu>
     :PROPERTIES:
     :ID:       c3d0f7a0-b367-4c90-a21a-41482a4f31e8
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:47]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:37]
     :END:
 What is the point
 of ~const~?
@@ -7049,17 +7127,17 @@ as in
 which always returns the string
 ~"value"~.
 *** Functions: Foreign                                                :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2019-07-14 Sun>
     :PROPERTIES:
     :ID:       9c827cbb-9848-4587-8530-6af3ea6f2573
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-11 Tue 08:22]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:29]
     :END:
 How to wrap js functions
 that throw exceptions?
@@ -7072,17 +7150,17 @@ environment returning a
 exceptions and return a
 ~Left~ or ~Nothing~ there.
 *** Functions: Foreign                                                :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       101a8ba4-31e3-440e-95a6-677110b1ebeb
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:36]
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:06]
     :END:
 Is it necessary to use
 ~runFn{N}~ on an uncurried
@@ -7098,17 +7176,17 @@ to the first argument since
 all functions in purescript
 have only one argument.
 *** Functions: Foreign                                                :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       0ca7c63e-1bd7-46a6-a87d-fe70fb65bc5f
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:37]
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:07]
     :END:
 Why should point-free
 style as in
@@ -7132,17 +7210,17 @@ joinPath start end = runFn2 joinPathImpl start end
 #+END_SRC 
 would be better.
 *** Functions: Foreign                                                :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       21136eae-71d7-4e7f-b510-22f588447780
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.61
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-09 Sun 11:02]
+    :DRILL_AVERAGE_QUALITY: 4.333
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:37]
     :END:
 How to determine whether
 a foreign function returns
@@ -7158,17 +7236,17 @@ an ~Effect a~ where ~a~ is the
 return type of the javascript
 ~function(){...}~.
 *** Functions: Foreign                                                :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-07-14 Sun>
     :PROPERTIES:
     :ID:       a7c39841-da47-4901-8755-49973c32b682
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-09 Sun 10:57]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:40]
     :END:
 How to write a foreign
 javascript function
@@ -7198,17 +7276,17 @@ doSth fn x = runFn4 doSthImpl Just Nothing fn x
 #+END_SRC
 in purescript.
 *** Functions: Foreign                                                :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-07-13 Sat>
     :PROPERTIES:
     :ID:       9b249e58-7b5b-46c5-81c6-85d1cb046dab
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-08 Sat 10:00]
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:20]
     :END:
 Why should the functionality
 from Effect.Uncurried be 
@@ -7224,17 +7302,17 @@ declaring the foreign function,
 which can now be implemented
 directly, at least up to N=10.
 *** DOM                                                               :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-07-12 Fri>
     :PROPERTIES:
     :ID:       fc715d70-7562-4f32-a321-0fbea5a74c68
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.7949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-08 Sat 09:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:12]
     :END:
 How to run a browser
 ~alert~ from purescript?
@@ -7247,17 +7325,17 @@ All the functions like
 ~alert~, ~prompt~ etc are in
 ~Web.HTML.Window~.
 *** DOM                                                               :drill:
-    SCHEDULED: <2019-06-17 Mon>
+    SCHEDULED: <2019-07-12 Fri>
     :PROPERTIES:
     :ID:       f8db1c3c-041d-4038-a1c7-dd086cda1c4d
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-07 Fri 10:50]
+    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:13]
     :END:
 Where should the results
 of a computation go?
@@ -7272,17 +7350,17 @@ not be fully supported in
 IE and Edge, where the ~form~
 attribute is ignored.
 *** DOM                                                               :drill:
-    SCHEDULED: <2019-06-17 Mon>
+    SCHEDULED: <2019-08-17 Sat>
     :PROPERTIES:
     :ID:       41678eb4-dca0-4388-8166-ca81ccc8d0d4
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:34]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:14]
     :END:
 How to check the proper use
 of purescript-web-...
@@ -7421,17 +7499,17 @@ argument
 ~ActionC Event a~
 is a query constructor.
 *** Halogen                                                           :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-08-13 Tue>
     :PROPERTIES:
     :ID:       d8d36ddf-757b-4391-9668-384161291dd1
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 58.0068
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:27]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:23]
     :END:
 What to do about the
 ~eval~ function if
@@ -7439,17 +7517,17 @@ What to do about the
 **** Answer:
 Use ~eval=absurd <<< unwrap~.
 *** Halogen                                                           :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-08-06 Tue>
     :PROPERTIES:
     :ID:       e2f97c96-829d-48eb-84e1-24c1547ae1b2
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 51.4854
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:31]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:17]
     :END:
 Is it possible to forgo
 the definitions of ~Query~,
@@ -7500,17 +7578,17 @@ By feeding the tag to
 Here, ~selectElement~ comes from ~Halogen.Aff~
 and ~selString~ is an html query selector.
 *** Halogen                                                           :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-08-10 Sat>
     :PROPERTIES:
     :ID:       7f555782-9fbf-4794-9713-59e9213aae06
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:30]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:22]
     :END:
 What's the problem if a
 component is not displayed
@@ -7524,17 +7602,17 @@ When using html tags other
 than body, ~awaitLoad~ needs
 to be used.
 *** Imports                                                          :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-07-13 Sat>
     :PROPERTIES:
     :ID:       d25fefe6-41d8-4a70-bec0-cab5b17f7ae1
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-08 Sat 10:02]
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:20]
     :END:
 What to do if the
 compiler complains it
@@ -7550,17 +7628,17 @@ really old. Check the
 subdirectories and look
 at the source there.
 *** Package Management                                                :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-08-12 Mon>
     :PROPERTIES:
     :ID:       b641b3a9-9f0d-41ea-a175-8c80c4561d4c
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 58.0068
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-22 Wed 12:10]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:19]
     :END:
 What to do if a package
 is needed that is not in
@@ -7594,17 +7672,17 @@ Run
 =pulp --psc-package init=
 in the project directory.
 *** Psc-package                                                       :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2020-01-19 Sun>
     :PROPERTIES:
     :ID:       5b06663a-eb99-473c-b545-1793213c643d
-    :DRILL_LAST_INTERVAL: 99.0941
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 214.6378
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-11 Mon 16:34]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:24]
     :END:
 Why is it better to use
 =pulp --psc-package init=
@@ -7751,17 +7829,17 @@ as possible, it is meant
 as a stack-like replacement
 to manage package dependencies.
 *** Spago                                                             :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-08-12 Mon>
     :PROPERTIES:
     :ID:       255606bc-b67d-47e1-95a9-34a83584e09c
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6141
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:25]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:22]
     :END:
 Why should a spago
 project be initiated
@@ -7777,17 +7855,17 @@ by ~pulp –psc-package init~
 and used by
 ~spago init~.
 *** Spago                                                             :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-08-11 Sun>
     :PROPERTIES:
     :ID:       473b399f-4b5d-439b-a766-bdf691e72828
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6141
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-22 Wed 12:13]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:21]
     :END:
 How to build for the
 browser using ~spago~?
@@ -7800,17 +7878,17 @@ everything into one js
 file and perform dead code
 elimination.
 *** Spago                                                             :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-08-04 Sun>
     :PROPERTIES:
     :ID:       8582fc3d-8f10-4d76-b4dd-8fecb174a18f
-    :DRILL_LAST_INTERVAL: 22.6409
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.0402
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-22 Wed 12:09]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:11]
     :END:
 What to do if an added
 dependency fails to
@@ -7848,17 +7926,17 @@ Then add the package name to
 the dependencies list in
 spago.dhall.
 *** Spago                                                             :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2019-08-17 Sat>
     :PROPERTIES:
     :ID:       dd558a91-6466-4519-b6d3-355f1abff695
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-22 Wed 12:10]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:23]
     :END:
 Is it possible to run a
 pulp server in a project
@@ -7897,6 +7975,30 @@ functors =F₁:: * -> *= and
 =f :: F₁ a -> F₂ a=,
 ie the type variable can be 
 omitted.
+*** Types                                                             :drill:
+    SCHEDULED: <2019-06-30 Sun>
+    :PROPERTIES:
+    :ID:       058f9683-4d87-474c-8964-018c65fa0b5a
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:10]
+    :END:
+What is a /variant/ 
+in purescript?
+**** Answer:
+The union-type
+equivalent of an
+extensible record. In
+purescript-variant, the
+same row system as the
+one for records is used
+but with functor ~Variant~
+rather than ~Record~.
 *** Types                                                             :drill:
     SCHEDULED: <2019-07-07 Sun>
     :PROPERTIES:
@@ -7941,17 +8043,17 @@ to designate an extensible record
 with at least fields ~name::String~
 and ~age::Number~ in a type signature.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       d62da494-cc36-4a4a-bb73-b45f071523ef
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:33]
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:10]
     :END:
 In which sense does a
 type-class provide an
@@ -7968,17 +8070,17 @@ would be via the functionality
 provided by a type-class
 restraining the polymorphic type.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       2c5dbe3e-66d3-45c1-b037-6e853af6e946
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.61
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-09 Sun 11:00]
+    :DRILL_AVERAGE_QUALITY: 4.333
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:39]
     :END:
 What's the best way
 to learn about dictionaries
@@ -7991,17 +8093,17 @@ purescript for a function
 of signature involving a
 type constraint.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-08-13 Tue>
     :PROPERTIES:
     :ID:       7fe29cb6-99cd-417b-9620-2f2d3595dcdd
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:45]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:52]
     :END:
 What is ~Const~ for?
 **** Answer:
@@ -8015,17 +8117,17 @@ the second. Thus,
 ~Const Void~ is a functor always
 evaluating to ~Void~.
 *** Types: Classes: Monads                                            :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       fd7eb0f2-39fd-4122-951e-950809f126e6
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:34]
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:06]
     :END:
 What is the purpose of
 the type row argument
@@ -8041,17 +8143,17 @@ an alternative way to monad
 transformers for building 
 monad stacks. 
 *** Types: Foreign                                                    :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       e5c78c57-b4ae-4d1c-b90b-698296d14c6a
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:36]
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:07]
     :END:
 What is the point of
 the ~Foreign~ data-type
@@ -8065,17 +8167,17 @@ javascript can return
 of regular data without
 much hesitation.
 *** Types: Foreign                                                    :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       bdeba40d-f691-4ddd-9b97-a35a8fcce37b
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:39]
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:09]
     :END:
 What is the deal with
 foreign data-types à la
@@ -8093,17 +8195,17 @@ they are useless on the purescript
 side without any access functions
 provided by the javascript side.
 *** Types: Foreign                                                    :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
     :ID:       7dbd8711-3b96-401d-827a-6e99baee2f58
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.61
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-09 Sun 10:58]
+    :DRILL_AVERAGE_QUALITY: 4.333
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:35]
     :END:
 Why should constructors
 like ~Data_Maybe.Just.create()~
@@ -8119,17 +8221,17 @@ In addition, dead-code elimination
 may not realise that ~Data.Maybe~ is
 used here and remove it.
 *** Types: Foreign                                                    :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-07-10 Wed>
     :PROPERTIES:
     :ID:       f6e9dc63-b2f8-4383-a5f7-c6d681c49280
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-05 Wed 09:06]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:09]
     :END:
 How to extract the results
 from one of the
@@ -8189,17 +8291,24 @@ function with signature
 ~forall a.a->a~. 
 
 *** Types: Rank n                                                     :drill:
-    SCHEDULED: <2019-06-21 Fri>
+How to make sure that
+a value can only by
+~Just~?
+**** Answer:
+By giving it the rank 2
+type ~forall a.a->Maybe a~.
+*** Types: Rank n                                                     :drill:
+    SCHEDULED: <2019-07-16 Tue>
     :PROPERTIES:
     :ID:       56201e20-6149-4b00-a4c2-4b62fe05e576
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-11 Tue 08:19]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:26]
     :END:
 How to make sure that
 a value can only be
@@ -8345,17 +8454,17 @@ variable ~v~, simply use
 value stored under ~label~.
 ** R
 *** R Console                                                         :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2019-10-03 Thu>
     :PROPERTIES:
     :ID:       a8149ea9-e08d-4f0d-97f5-a3e30cbdc4f1
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.6219
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-03 Fri 15:15]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:37]
     :END:
 How to remove all variables
 defined in a session with one
@@ -8591,17 +8700,17 @@ which is more efficient.
 It behaves like a function 
 returning ~yes~ or ~no~.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-11-04 Mon>
     :PROPERTIES:
     :ID:       681af686-9206-42a0-9617-8e87bfdefa51
-    :DRILL_LAST_INTERVAL: 56.6141
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.0818
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-23 Tue 16:04]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:53]
     :END:
 Why does the definition
 ~c(1..4)~ for a vector 
@@ -8635,17 +8744,17 @@ with ~as.matrix~. Note that
 columns by default, hence /u/ 
 should be transposed to a row.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2019-11-06 Wed>
     :PROPERTIES:
     :ID:       b5779483-d01a-4758-bb7f-3be82db93d37
-    :DRILL_LAST_INTERVAL: 56.6141
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.0818
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-24 Wed 12:07]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:32]
     :END:
 What is the default
 configuration of a
@@ -8684,17 +8793,17 @@ Note that this can be given
 names.
 ** ubuntu
 *** installing                                                        :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-11-16 Sat>
     :PROPERTIES:
     :ID:       a7bd5708-ade6-4397-8c6a-3f1aeffbb9c8
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 152.0844
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-27 Wed 12:49]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:18]
     :END:
 What is the problem
 with packages created
@@ -8708,17 +8817,17 @@ This is mostly for easy
 removal and installation
 on identical systems.
 *** installing                                                        :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-11-11 Mon>
     :PROPERTIES:
     :ID:       5ac0ad42-e055-40d5-a188-aff37a3e71d9
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-26 Tue 12:41]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:11]
     :END:
 What is the problem
 if a shared library
@@ -9294,17 +9403,17 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2019-10-11 Fri>
     :PROPERTIES:
     :ID:       36c88335-a1d2-489e-8d8a-6e88e9194063
-    :DRILL_LAST_INTERVAL: 50.2628
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 111.5834
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-02 Thu 14:31]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:36]
     :END:
 What to do after forgetting
 to switch from the master
@@ -9905,17 +10014,17 @@ a form field go?
 **** Answer:
 To key =/V= in a dictionary.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2020-05-05 Tue>
     :PROPERTIES:
     :ID:       8b5c316e-7d92-4e39-bda2-6e3b488ceb23
-    :DRILL_LAST_INTERVAL: 136.5718
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 324.9043
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-28 Mon 13:06]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:23]
     :END:
 What do the double pointy
 brackets =<< .. >>= in a 
@@ -10890,17 +10999,17 @@ It is called ~faith~
 and needs to grow into
 a living being.
 *** The Word                                                          :drill:
-    SCHEDULED: <2019-06-20 Thu>
+    SCHEDULED: <2019-09-19 Thu>
     :PROPERTIES:
     :ID:       d517c5df-b021-4dae-9d8c-092cd3007d8f
-    :DRILL_LAST_INTERVAL: 43.0822
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 91.0327
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-08 Wed 11:25]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:14]
     :END:
 What is the /Word/ that
 was in the beginning
@@ -10957,17 +11066,17 @@ as a roaring lion roaming
 the earth and looking for
 prey to devour.
 *** Thomas                                                            :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2019-11-20 Wed>
     :PROPERTIES:
     :ID:       636f3bcb-45e4-4905-9998-f65829a4e53d
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 152.0844
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-02 Tue 12:12]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:29]
     :END:
 Why the emphasis on
 hating one's relatives?
@@ -11005,33 +11114,33 @@ outside as fate.
 * Language
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-06-26 Wed>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 6.8974
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 44
+    :DRILL_LAST_INTERVAL: 8.001
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 45
     :DRILL_FAILURE_COUNT: 9
-    :DRILL_AVERAGE_QUALITY: 2.796
-    :DRILL_EASE: 1.16
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-11 Tue 08:20]
+    :DRILL_AVERAGE_QUALITY: 2.823
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:20]
     :END:
 的
 **** Answer:
 possessive, adjectival suffix
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-06-17 Mon>
+    SCHEDULED: <2019-08-06 Tue>
     :PROPERTIES:
     :ID:       731e55ab-070b-4fd0-846a-69feeae964f8
-    :DRILL_LAST_INTERVAL: 42.7632
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 49.6053
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-05 Sun 16:53]
+    :DRILL_AVERAGE_QUALITY: 3.067
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:14]
     :END:
 我的
 **** Answer:
@@ -11084,17 +11193,17 @@ one, a little
 **** Answers:
 to be; indeed, yes, right; demonstrative pronoun
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-07-02 Tue>
     :PROPERTIES:
     :ID:       813e8718-8c89-46fc-bb21-bec2f9401647
-    :DRILL_LAST_INTERVAL: 15.2354
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 26
+    :DRILL_LAST_INTERVAL: 17.2465
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 27
     :DRILL_FAILURE_COUNT: 3
     :DRILL_AVERAGE_QUALITY: 2.999
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-31 Fri 10:28]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:25]
     :END:
 不
 **** Answer:
@@ -11457,17 +11566,17 @@ using these functors as objects
 and natural transformations
 between them as morphisms.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       470859f7-d2d4-4fef-ba7c-4ce28e757a96
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:47]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-14 Fri 12:28]
     :END:
 How to recognise a
 ladder operator for
@@ -11478,20 +11587,21 @@ rules. If
 /[N,X]=cX/ then /X/ is
 a ladder operator with
 shift value /c/, ie the 
-eigenvalues of /N/ are
-shifted by /c/.
+eigenvalues of /NX/ are
+shifted by /c/ compared
+to those of /N/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-06-25 Tue>
     :PROPERTIES:
     :ID:       1e383fa5-8309-44d0-b15b-7f28bb2e39a0
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:46]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:09]
     :END:
 How does the adjoint /X⁺/
 of a ladder operator act
@@ -11503,17 +11613,17 @@ If /N/ is hermitian then
 eigenvalues of /N/ in the
 opposite direction.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-06-25 Tue>
     :PROPERTIES:
     :ID:       6152a175-51eb-49e0-b33e-51a5b426ddb2
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:41]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:06]
     :END:
 What is a ladder
 operator?
@@ -11694,17 +11804,17 @@ with /nᵢ/ the multiplicity
 of the /i-th/ eigenvalue
 of /A/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-06-13 Thu>
+    SCHEDULED: <2019-09-03 Tue>
     :PROPERTIES:
     :ID:       257553a6-f147-4ab0-9493-34e66db8a5b4
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-02 Thu 14:31]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:20]
     :END:
 What is the orthogonal
 projection of a vector 
@@ -11940,17 +12050,17 @@ Since /SO⁺(1,3)/ is generated by spatial
 rotations and Lorentz boosts, it can
 be written as a product of those.
 *** Representation Theory                                             :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-08-13 Tue>
     :PROPERTIES:
     :ID:       f3fa4cdb-bac1-4898-ac2d-9f5ea95afd40
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:45]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:51]
     :END:
 What is the point of
 finding all the irreducible
@@ -12125,17 +12235,17 @@ are self adjoint, they behave in a
 sense like positive real numbers, so
 /|T|/ is a bit like a length.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-08-18 Sun>
     :PROPERTIES:
     :ID:       7468d8bb-a84d-4e9f-8d79-2691a9c754ae
-    :DRILL_LAST_INTERVAL: 46.8956
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 63.1215
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.38
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-28 Sun 12:11]
+    :DRILL_AVERAGE_QUALITY: 3.154
+    :DRILL_EASE: 1.24
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:14]
     :END:
 What is a partial isometry?
 **** Answer:
@@ -12542,6 +12652,355 @@ is monic as long as the degree
 bounds are observed.
 (Could this be used for
 residuals? Galois?)
+** Analysis
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-25 Tue>
+    :PROPERTIES:
+    :ID:       cb081d94-be89-49fe-85df-90595e9fb2f2
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:33]
+    :END:
+Is it always possible to
+reconstruct a signal from
+only a discrete subset
+/γₙₘ=γ(sₙ,tₘ)/ of a wavelet
+transform /γ(s,t)/?
+**** Answer:
+No, only if the signal /f/
+satisfies
+/A‖f‖²≤∑|⟨f,ψₙₘ⟩|²≤B‖f‖²/
+with /A>0/, /B<∞/, ie the 
+family /ψₙₘ(t)/ of corresponding
+basis functions is a frame with
+bounds /A/ and /B/.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-24 Mon>
+    :PROPERTIES:
+    :ID:       31e32c41-8314-468b-b07b-c8c21fdb52f2
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:11]
+    :END:
+Is it possible to reconstruct
+a signal from a discrete wavelet
+transform even if the wavelets
+are not orthogonal?
+**** Answer: 
+As long as the basis functions
+form a frame, even though a
+dual frame will be needed if
+the frame is not tight.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-24 Mon>
+    :PROPERTIES:
+    :ID:       0ab642ed-5703-4f92-a3dd-f0b82c8ef805
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:14]
+    :END:
+Can a signal always be
+reconstructed from its
+continuous wavelet transform?
+**** Answer:
+Yes, the admissibility
+condition  /∫|Ψ(ω)|²/|ω|²<∞/
+for the mother wavelet
+makes sure of that.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-24 Mon>
+    :PROPERTIES:
+    :ID:       5f07a57c-a550-43db-a26a-3cc130a38b42
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:13]
+    :END:
+Why are conditions in addition
+to admissibility /∫|Ψ(ω)|²/|ω|²<∞/
+imposed on a mother wavelet?
+**** Answer:
+Without additional conditions, the
+product of time and bandwidth of the
+corresponding wavelet transform would
+be the square of the input signal,
+which is undesirable in most
+applications.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-24 Mon>
+    :PROPERTIES:
+    :ID:       76c32829-82a4-4650-bb9a-2482ab75b1f8
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:12]
+    :END:
+Can any function be used
+as a mother wavelet?
+**** Answer:
+No, only functions which
+decrease fast enough both
+in the time and frequency
+domain qualify.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-24 Mon>
+    :PROPERTIES:
+    :ID:       2ea33eda-1e2b-4c42-a65d-1dc94991b9f6
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:13]
+    :END:
+When does a function /ψ(t)/ decrease
+fast enough in the frequency
+spectrum to qualify as a
+wavelet?
+**** Answer:
+When its Fourier transform /Ψ(ω)/
+satisfies /∫|Ψ(ω)|²/|ω|²<∞/.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-25 Tue>
+    :PROPERTIES:
+    :ID:       4f2bb7de-f309-41b2-a8e4-a6d94b4c266a
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:30]
+    :END:
+In which sense is a wavelet
+a wave?
+**** Answer:
+In the sense that /∫ψ(t)dt=0/.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-25 Tue>
+    :PROPERTIES:
+    :ID:       4ebf5845-c671-4c28-830f-8b09257d62b1
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:31]
+    :END:
+Is it absolutely mandatory
+for a wavelet to be a wave?
+**** Answer:
+Yes, this is imposed by the
+admissibility criterion for
+its Fourier transform /Ψ(ω)/,
+which requires that
+/∫|Ψ(ω)|²/|ω|²<∞/. As a 
+consequence, 
+/Ψ(0)=∫ψ(t)dt=0/, which
+implies waviness.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-25 Tue>
+    :PROPERTIES:
+    :ID:       0f3f0bbe-fbaf-4860-b53d-1b4546f605ec
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:34]
+    :END:
+When does a function /ψ(t)/
+decrease fast enough in
+the time domain to 
+qualify as a wavelet?
+**** Answer:
+If its moments /Mₚ=∫tᵖψ(t)dt=0/
+for /p/ big enough.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-24 Mon>
+    :PROPERTIES:
+    :ID:       6ddb1c3f-5709-4653-9abf-3720fb7c0e3b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:38]
+    :END:
+What's the consequence of
+a function /ψ(t)/ having zero
+moments up to order /n/ for its
+usability as a mother wavelet?
+**** Answer:
+Expanding its wavelet transform
+/γ(s,t)=∫f(τ)ψₛₜ(τ)dτ/ for /t=0/ and
+using the Taylor expansion of /f/ at
+0, it turns out that /γ(s,0)=s∑fᵖ(0)/p!Mₚsᵖ/,
+so /Mₚ/ being /0/ up to /n/ makes /γ(s,0)/ disappear
+as fast as /sⁿ⁺²/ for small /s/.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-22 Sat>
+    :PROPERTIES:
+    :ID:       de489e7b-60fc-43f1-87d1-c5d73278f1ef
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:25]
+    :END:
+Where does the scaling
+function come from in
+wavelet analysis?
+**** Answer:
+The scaling function
+is needed to reduce the
+number of wavelet coefficients 
+in a discrete wavelet transform
+to a finite one by covering
+the wavelet parts with scaling
+factors /2ʲ/ for /j≥j₀/ for some
+suitably chosen /j₀/.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-22 Sat>
+    :PROPERTIES:
+    :ID:       674e0ae8-0d0d-4470-894d-1721ac3e71d5
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:22]
+    :END:
+Why is it normally not
+possible to express a finite
+signal with finitely many
+wavelet coefficients without
+a scaling function?
+**** Answer:
+Because the spectrum of a wavelet
+doesn't cover the low frequencies
+in the signal. Wavelets have a
+spectrum like a bandpass which
+becomes narrower around its centre
+with increasing scaling factor
+even though the centre decreases.
+As a consequence, infinitely many
+high scaling coefficients will be needed
+unless they are covered by a lowpass
+scaling function.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-06-25 Tue>
+    :PROPERTIES:
+    :ID:       b9010129-c033-4af8-a737-2cd78b43739f
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:35]
+    :END:
+How to reduce the number of
+wavelet coefficients to a
+finite one in a wavelet
+transform?
+**** Answer:
+By switching to a discrete
+transform /ψₛₜ(x)=ψ(2ˢx-t)/
+for integer /s,t/. When analysing
+a finite signal, only finitely
+many translations /t/ are needed.
+The number of scaling parameters 
+/s/ can be reduced by introducing
+a scaling function /φ(x)=∑γₛₜψₛₜ(x)/
+that covers the scales /s≥s₀/ for
+some suitably chosen cut-off /s₀/.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-07-01 Mon>
+    :PROPERTIES:
+    :ID:       bbd2a403-d585-430b-8c97-87d2c0a7d638
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:28]
+    :END:
+In what sense are
+wavelets and template
+matching related?
+**** Answer:
+The mother wavelet /ψ/
+is like a template whose
+scaled and translated versions
+/wₛₜ=ψ((x-t)/s)/ are matched
+to the data.
+*** Wavelets                                                          :drill:
+    SCHEDULED: <2019-07-01 Mon>
+    :PROPERTIES:
+    :ID:       678d4048-3554-4079-9f95-dc89c4704bf2
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:27]
+    :END:
+How do wavelets differ from
+waves?
+**** Answer:
+Wavelets are localised, as a
+consequence position becomes
+important and two parameters,
+scaling and translation of
+the mother wavelet are
+needed to describe them. For
+waves position is unimportant
+due to their periodicity, so
+only scaling of the mother
+wave is needed for a description.
 ** Geometry
 *** Finite                                                            :drill:
     SCHEDULED: <2019-10-16 Wed>
@@ -12958,6 +13417,18 @@ tensors according to the position
 of the last index.
 ** Logic
 *** Automata                                                          :drill:
+    SCHEDULED: <2019-06-29 Sat>
+    :PROPERTIES:
+    :ID:       32d424a5-7960-40f8-b669-2305f749ef32
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:48]
+    :END:
 What is the difference
 between a finite state
 automaton and a Turing
@@ -13462,17 +13933,17 @@ theorem that has no proof
 and is not false by indexing
 theorems and their proofs.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2020-01-29 Wed>
     :PROPERTIES:
     :ID:       93392f52-8d6d-4eed-a127-2b057e29f77d
-    :DRILL_LAST_INTERVAL: 105.3425
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 228.1719
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-02 Sat 20:42]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:22]
     :END:
 Why the emphasis on
 the fact that there 
@@ -13675,17 +14146,17 @@ the inputs to that
 constructor.
 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
     :ID:       888ceb62-0e29-493d-9619-53d921f3e250
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-31 Sun 12:31]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:51]
     :END:
 Why are inductive types
 /I/ popular?
@@ -13697,17 +14168,17 @@ it for its constructors /Cᵢ/
 using an induction principle
 /ind(I,E,{eᵢ})/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-11-18 Mon>
     :PROPERTIES:
     :ID:       5936e13c-af2f-424b-a404-58ca712958d4
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 152.0844
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-31 Sun 12:28]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:50]
     :END:
 What is an inductive
 type?
@@ -13721,17 +14192,17 @@ applying these constructors
 repeatedly in a nested
 fashion. 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
     :ID:       76f78ccd-a000-4f1a-9c0b-a8f7e47acb32
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-31 Sun 12:33]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:48]
     :END:
 What is an /induction/
 principle /ind(T,E,{eᵢ})/
@@ -13812,17 +14283,17 @@ in an intensional theory as
 definitional and propositional
 equality are distinguished.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-09-25 Wed>
     :PROPERTIES:
     :ID:       4dad8346-9d81-495d-8d70-8c85d3e3cb64
-    :DRILL_LAST_INTERVAL: 60.8384
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 98.4974
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.111
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:13]
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:52]
     :END:
 What is the determining
 feature of /extensional/
@@ -13928,17 +14399,17 @@ function /f:A×B→C/ via currying
 /f:≡rec(A×B,C) g/ with a
 /g:A→B→C/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2019-12-07 Sat>
     :PROPERTIES:
     :ID:       fa29f301-2d77-4313-b38a-af89653769cc
-    :DRILL_LAST_INTERVAL: 92.0239
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 174.1092
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-16 Sat 12:45]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:20]
     :END:
 How to express a property
 of natural numbers type
@@ -14088,17 +14559,17 @@ no elements beyond those
 constructed by the 
 constructors.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-12-07 Sat>
     :PROPERTIES:
     :ID:       960e1e54-a7bf-4996-84b5-cbbb178a8e35
-    :DRILL_LAST_INTERVAL: 92.0239
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 174.1092
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-14 Thu 14:34]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:14]
     :END:
 What is a computation
 rule for a type?
@@ -14453,17 +14924,17 @@ the negative gradient into
 the kernel of /A/ and not along
 that gradient.
 *** Iterations                                                        :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-09-03 Tue>
     :PROPERTIES:
     :ID:       d4d95960-5441-439d-9602-0994d77448f7
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-03 Fri 15:10]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:25]
     :END:
 Why is the reduced cost
 /r=c-Aᵀ(AD²Aᵀ)⁻¹AD²c/ suitable
@@ -14499,17 +14970,17 @@ a component /i/ with /rᵢ<0/, in
 interior point methods using a
 linear transformation of /r/. 
 *** Iterations                                                        :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-09-03 Tue>
     :PROPERTIES:
     :ID:       c7aa317f-0e8b-450b-ae25-66df5cdbc249
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-03 Fri 15:14]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:20]
     :END:
 Where does the expression
 /Aᵀ(AD²Aᵀ)⁻¹AD²c/ in iterative
@@ -14525,17 +14996,17 @@ from the weighted least squares
 solution to the problem of
 minimizing /‖D(c-Aᵀw)‖/.
 *** Simplex Method                                                    :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-09-04 Wed>
     :PROPERTIES:
     :ID:       166e501b-c3d9-4588-98a8-db462bd1993c
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-03 Fri 15:08]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:20]
     :END:
 How are leaving and
 entering variables
@@ -14579,17 +15050,17 @@ variables has to be invoked,
 such as the /Devex Algorithm/.
 
 *** Simplex Method                                                    :drill:
-    SCHEDULED: <2019-06-19 Wed>
+    SCHEDULED: <2019-10-01 Tue>
     :PROPERTIES:
     :ID:       776858ba-96a0-485e-84bd-8b9d366b556e
-    :DRILL_LAST_INTERVAL: 45.7498
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 101.5646
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-04 Sat 18:17]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:34]
     :END:
 What is a leaving
 variable?
@@ -14599,17 +15070,17 @@ current vertex
 /x=(x₁,…,xₙ)/ that becomes
 zero in the next iteration.
 *** Simplex Method                                                    :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-09-26 Thu>
     :PROPERTIES:
     :ID:       08c7e9aa-175a-4c2f-8f50-df303e3f9818
-    :DRILL_LAST_INTERVAL: 45.7498
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 99.0941
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-03 Fri 15:07]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:53]
     :END:
 What is an entering
 variable?
@@ -14623,17 +15094,17 @@ that vertices have /n-m/
 zero coordinates where /m/
 is the number of constraints.
 *** Simplex Method                                                    :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-09-20 Fri>
     :PROPERTIES:
     :ID:       78448f1a-ba49-4e63-88e2-10801611163c
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.3178
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-04 Sat 18:20]
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:21]
     :END:
 In which sense is the 
 simplex method deficient
@@ -15084,17 +15555,17 @@ Also compare to the interpretation
 of 0-1 matrices as paths connecting
 nodes.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-12-28 Sat>
     :PROPERTIES:
     :ID:       bbb37512-6d33-44d1-a020-e72bc54d0859
-    :DRILL_LAST_INTERVAL: 103.6219
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 196.0526
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-02 Sat 20:39]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:23]
     :END:
 How to use tensors
 as algebraic types?
@@ -15347,17 +15818,17 @@ than inherent in the
 subunits.
 ** Electromagnetism
 *** Magnetism                                                         :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-06-25 Tue>
     :PROPERTIES:
     :ID:       e79d725e-f735-4af4-b925-d8fb62d14a0f
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-11 Tue 08:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:19]
     :END:
 What is a magnetic
 (dipole) moment?
@@ -15369,17 +15840,17 @@ the current in the loop
 and /A/ is the area of the
 loop.
 *** Magnetism                                                         :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-06-25 Tue>
     :PROPERTIES:
     :ID:       6a512b9c-367c-4ba9-8995-ac43c4aa333c
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-11 Tue 08:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:10]
     :END:
 What is spin precession?
 **** Answer:
@@ -15895,17 +16366,17 @@ generally resulting in
 superpositions whereas longer
 pulses may just flip the states.
 *** Implementation                                                    :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-06-25 Tue>
     :PROPERTIES:
     :ID:       696f7cae-1923-4073-9cdc-898ceed9ff67
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.244
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:42]
+    :DRILL_AVERAGE_QUALITY: 4.5
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:09]
     :END:
 Why not use electron spin to
 model qbits?
@@ -15916,17 +16387,17 @@ enough. While possible, this works
 only in very low temperatures
 without difficulty.
 *** Implementation: Ion Trap                                          :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       c4fbbbe4-f271-4030-80c5-f9887c582d1a
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-11 Tue 08:23]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:17]
     :END:
 How are qbits realised in an
 ion trap rotated?
@@ -15935,17 +16406,17 @@ By applying external electromagnetic
 fields of a specific frequency a
 specific amount of time.
 *** Implementation: Ion Trap                                          :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       45c2a9e7-61cb-4c8c-a02b-1f0882098533
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:42]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:07]
     :END:
 How is a qbit realised by an
 Ion Trap measured?
@@ -15958,17 +16429,17 @@ photons during decay, which can
 then be measured. Otherwise, no
 signal is received.
 *** Implementation: Ion Trap                                          :drill:
-    SCHEDULED: <2019-06-15 Sat>
+    SCHEDULED: <2019-06-25 Tue>
     :PROPERTIES:
     :ID:       1ebf5fa0-1b17-435f-b8d2-44f8893ed402
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-11 Tue 08:24]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:18]
     :END:
 How are qbits realised in an
 ion-trap initialised to |0⟩?
@@ -15979,17 +16450,17 @@ excites the ion until it decays to
 the zero bit state where it will be
 stable.
 *** Implementation: Ion Trap                                          :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       a0982e35-f11a-499d-ba2e-1a5ee979fcc7
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:43]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-14 Fri 12:29]
     :END:
 What is the difference
 between optical and
@@ -16080,17 +16551,17 @@ it is negative somewhere or
 more singular than the /δ/
 function.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-07-01 Mon>
     :PROPERTIES:
     :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
-    :DRILL_LAST_INTERVAL: 13.0764
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 26
+    :DRILL_LAST_INTERVAL: 15.1686
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 27
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.962
-    :DRILL_EASE: 1.16
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-01 Sat 11:56]
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:08]
     :END:
 How to handle particles
 in a relativistic context?
@@ -16378,17 +16849,17 @@ of the full Lorentz group
 isomorphic to the Klein
 four-group.
 *** Fields                                                            :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2020-05-29 Fri>
     :PROPERTIES:
     :ID:       4e7f4388-7dde-408d-8359-9802db92d21e
-    :DRILL_LAST_INTERVAL: 179.3094
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 347.8602
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_AVERAGE_QUALITY: 3.455
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:49]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:16]
     :END:
 Why are the field particles of
 quantum fields arising from
@@ -16536,17 +17007,17 @@ than superpositions of an
 infinite number of particle
 states /|n⟩, n∈ℕ/.
 *** Fields                                                            :drill:
-    SCHEDULED: <2019-06-18 Tue>
+    SCHEDULED: <2019-08-13 Tue>
     :PROPERTIES:
     :ID:       75275769-f6c1-418c-a88d-11fbdc18bf9e
-    :DRILL_LAST_INTERVAL: 48.566
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 56.3366
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.933
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-30 Tue 15:36]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:34]
     :END:
 What does the coherent state
 /|α⟩/ look like?
@@ -16620,17 +17091,17 @@ which can be written
 sum convention and Dirac
 matrices /D/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-06-13 Thu>
+    SCHEDULED: <2019-11-10 Sun>
     :PROPERTIES:
     :ID:       3e5b26a2-8302-41cc-9e32-4d9025e91127
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-25 Mon 18:04]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:24]
     :END:
 Why are coherent states
 still useful, despite
@@ -17188,17 +17659,17 @@ state /φ/, otherwise
 where /ρ=∑pⱼ|φⱼ⟩⟨φⱼ|/ is
 the density matrix.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-06-17 Mon>
+    SCHEDULED: <2019-06-23 Sun>
     :PROPERTIES:
     :ID:       dce0811d-0dc5-4c99-b79c-5d9365f423c3
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 6.318
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:35]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:12]
     :END:
 How is the density
 matrix used in a 
@@ -17283,6 +17754,81 @@ ambiguity, before being
 projected back into another
 tangent space resulting in
 a collapse of the ambiguity.
+*** Operators: Expectations                                           :drill:
+Is it possible to minimise
+the uncertainty /σₓσₚ/ of
+position and momentum?
+**** Answer:
+Yes, with minimum uncertainty
+gaussian wave-packets satisfying
+a Schrödinger equation. In the 
+quantum harmonic oscillator, they
+correspond to coherent states
+with /σₓσₚ/ assuming its lowest
+theoretical bound.
+*** Operators: Expectations                                           :drill:
+What quantum states would 
+most resemble classical states?
+**** Answer:
+States that minimize the 
+uncertainty relations, ie
+the operator variances
+/⟨ψ|A²|ψ⟩-⟨ψ|A|ψ⟩²/ in state
+/φ/ should be mimised as far
+as possible without spreading
+out any conjugate operators
+unduly. 
+*** Operators: Expectations                                           :drill:
+How is the classical limit
+of quantum physics related
+to the expectations of its
+operators?
+**** Answer:
+For states /φ/ that are close
+to classical states the equations
+between the expectations
+/⟨φ|A|φ⟩/ of the quantum operators
+should be close to those
+between the corresponding 
+classical observables.
+*** Operators: Expectations                                           :drill:
+Why is /⟨∂ₜA⟩=∂ₜ⟨A⟩/?
+**** Answer:
+Because /⟨A⟩=⟨φ|A|φ⟩/ and states
+/φ/ are constant in time in the 
+Heisenberg picture. As a consequence,
+the time derivative distributes over
+the inner product.
+*** Operators: Expectations                                           :drill:
+Do the expectations of operators
+have to satisfy the equations of
+their classical counterparts?
+**** Answer:
+No, they only have to be close
+enough so that the equations hold
+for states that are close to
+classical, ie high energy or
+concentrated wave functions.
+*** Operators: Expectations                                           :drill:
+How does the correspondence
+principle manifest itself
+in Ehrenfest's theorem?
+**** Answer:
+According to Ehrenfest, the
+expected values of position and
+momentum satisfy /m∂ₜ⟨x⟩=⟨p⟩/ and
+/∂ₜ⟨p⟩=-⟨V'(x)⟩/, which are almost
+the classical relations between
+position and momentum. For the 
+classical relations to be satisfied,
+the second equation should read
+/∂ₜ⟨p⟩=-V'(⟨x⟩)/. However, in the
+classical limit of highly concentrated
+wave-functions, both /V'(⟨x⟩)/ and
+/⟨V(x)⟩/ will be very close to /V(x₀)/,
+where /x₀/ is the concentration point
+of the wave-function.
+
 *** Operators                                                         :drill:
     SCHEDULED: <2019-07-08 Mon>
     :PROPERTIES:
@@ -17613,17 +18159,17 @@ this turns out to be
 is particular to the 
 Schrödinger equation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2019-07-26 Fri>
     :PROPERTIES:
     :ID:       e8f1c79e-741b-4658-98b0-869c7ea81eb4
-    :DRILL_LAST_INTERVAL: 35.1299
-    :DRILL_REPEATS_SINCE_FAIL: 17
-    :DRILL_TOTAL_REPEATS: 25
+    :DRILL_LAST_INTERVAL: 39.767
+    :DRILL_REPEATS_SINCE_FAIL: 18
+    :DRILL_TOTAL_REPEATS: 26
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.92
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.923
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-12 Sun 21:58]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:12]
     :END:
 How can wave functions /ψ/
 be associated with probability 
@@ -17703,17 +18249,17 @@ preserved in weak interactions,
 even though less often than
 charge or parity by themselves.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-06-14 Fri>
+    SCHEDULED: <2019-08-27 Tue>
     :PROPERTIES:
     :ID:       7f91616b-f7d9-40b3-8adb-dff77cc85a45
-    :DRILL_LAST_INTERVAL: 46.1196
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 72.8228
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.181
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 3.166
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-29 Mon 13:02]
+    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:24]
     :END:
 How does charge behave
 under particle interaction?
@@ -18001,17 +18547,17 @@ lepton number +1 whereas leptons
 that are anti-particles have
 lepton number -1.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-06-12 Wed>
+    SCHEDULED: <2019-06-24 Mon>
     :PROPERTIES:
     :ID:       e99decab-17da-42de-acba-609651e64c8d
-    :DRILL_LAST_INTERVAL: 23.463
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 18
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.056
+    :DRILL_LAST_INTERVAL: 4.415
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 3.048
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-20 Mon 11:52]
+    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:06]
     :END:
 What are leptons?
 **** Answer:
@@ -18424,17 +18970,17 @@ position and momentum variables are
 quantized by assigning an operator
 /Qₐ/ to function /a/.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2019-06-21 Fri>
+    SCHEDULED: <2019-07-30 Tue>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 34.4019
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 38.943
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.937
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.941
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-18 Sat 12:27]
+    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:42]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
@@ -18972,17 +19518,17 @@ from a terminal or using
 /Preferences -> Default applications for LXSessions/
 should work.
 *** configuration                                                     :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2020-04-03 Fri>
     :PROPERTIES:
     :ID:       d0e6e77d-f655-490c-9f2e-198df739ce7b
-    :DRILL_LAST_INTERVAL: 149.7756
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 291.6131
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.9
+    :DRILL_AVERAGE_QUALITY: 3.571
+    :DRILL_EASE: 2.0
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-01-17 Thu 13:01]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:25]
     :END:
 What is the problem if
 the desktop doesn't show
@@ -19347,17 +19893,17 @@ from the command line?
 With ~nmcli~. Check its
 manpage for details.
 *** package management                                                :drill:
-    SCHEDULED: <2019-06-16 Sun>
+    SCHEDULED: <2020-01-11 Sat>
     :PROPERTIES:
     :ID:       95cce95b-3889-4747-aa1b-5fceaf748c8c
-    :DRILL_LAST_INTERVAL: 99.0941
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 209.3858
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-09 Sat 12:51]
+    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:13]
     :END:
 Why does =apt-get upgrade=
 often not upgrade the kernel?
