@@ -497,17 +497,17 @@ the inputs /xᵢ/ and the
 weights /wᵢⱼ/ are considered
 random variables.
 *** Neural Networks                                                   :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-08-04 Sun>
     :PROPERTIES:
     :ID:       459f0b01-4868-4107-8562-f765134d2b86
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:49]
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:13]
     :END:
 What's wrong with the 
 model of neural networks
@@ -518,17 +518,17 @@ this is not how the brain
 operates where the neurons
 are always on the move.
 *** Neural Networks: Quantum                                          :drill:
-    SCHEDULED: <2019-07-11 Thu>
+    SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
     :ID:       50722b44-f3d6-46d4-bf35-4b2a3b26c202
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:48]
+    :DRILL_LAST_REVIEWED: [2019-07-11 Thu 08:34]
     :END:
 How does the brain behave
 as a neural network?
@@ -844,17 +844,17 @@ as /ŷ=sgn∑ᵢωᵢyᵢK(*xᵢ,x*)/, update
 /ωⱼ→ωⱼ+1/ if /(*xⱼ*,yⱼ)/ is
 misclassified.
 *** Perceptron Training                                               :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-10-15 Tue>
     :PROPERTIES:
     :ID:       5436a084-6e68-4441-b74e-dafc5dddeb71
-    :DRILL_LAST_INTERVAL: 43.5513
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 96.6403
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:41]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:33]
     :END:
 How are the separating boundaries
 for the kernel perceptron obtained?
@@ -869,17 +869,17 @@ eigenvectors /φᵢ/ of /Tₖ/, which
 is essentially diagonalization
 of /K/.
 *** Perceptron Training                                               :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-10-08 Tue>
     :PROPERTIES:
     :ID:       9dae95a1-845e-432a-805e-de7c4add4c1f
-    :DRILL_LAST_INTERVAL: 43.5513
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.3321
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:45]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:25]
     :END:
 What is a positive semidefinite
 kernel?
@@ -892,17 +892,17 @@ of real numbers /c₁,…,cₙ/, ie
 /(K(xᵢ,xⱼ))/ is a positive
 semidefinite matrix.
 *** Perceptron Training                                               :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-10-12 Sat>
     :PROPERTIES:
     :ID:       fd664d6a-42ba-4a7e-9fa0-121d1cd971c1
-    :DRILL_LAST_INTERVAL: 43.5513
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.3321
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:42]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:40]
     :END:
 What is the dual form of
 perceptron learning?
@@ -914,17 +914,17 @@ assuming /yᵢ=±1/, update
 rate if sample /j/
 is misclassified.
 *** Perceptron Learning                                               :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-10-12 Sat>
     :PROPERTIES:
     :ID:       4c76abe2-ae57-4ae6-8627-3d8fd2f9f251
-    :DRILL_LAST_INTERVAL: 43.5513
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.3321
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:44]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:34]
     :END:
 What is the meaning of
 the coefficients /ωᵢ/ when
@@ -2015,17 +2015,17 @@ https://orgmode.org/elpa/
 in the =package-archives=
 list.
 *** org-mode babel                                                    :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-08-04 Sun>
     :PROPERTIES:
     :ID:       95c5c7d7-68ed-4dd5-be9e-9092686142a2
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:51]
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:14]
     :END:
 What would be the best
 way to reuse existing
@@ -2985,17 +2985,17 @@ parsers and is reported
 as expecting alternatives
 connected with /or/.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-12-02 Mon>
     :PROPERTIES:
     :ID:       194322b1-9060-47dd-bc69-343e43145d29
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:16]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:57]
     :END:
 Where is error reporting
 with =failure= superior to
@@ -3036,17 +3036,17 @@ hence its =fromList= method
 can be used as in
 =Tokens $ fromList msg=.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-12-02 Mon>
     :PROPERTIES:
     :ID:       42680ba8-c25e-4617-8ba5-9008c9ef5120
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:14]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 08:00]
     :END:
 How to construct the
 =ErrorItem (Token s)=
@@ -3102,17 +3102,17 @@ Printed error messages are quoted
 when using =Tokens= and unquoted
 when using Label.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-12-07 Sat>
     :PROPERTIES:
     :ID:       2c186b24-f23d-42ce-a0b6-7fb6c4414fb7
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-23 Tue 16:01]
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:27]
     :END:
 How to use =failure= to
 report an error message?
@@ -3906,17 +3906,17 @@ in the indices, remove
 ~--force~ in the project
 directory.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-08-28 Wed>
     :PROPERTIES:
     :ID:       f2ea2f06-02c2-4b79-82fa-415349c15d66
-    :DRILL_LAST_INTERVAL: 41.254
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 46.6995
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-01 Sat 11:53]
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:21]
     :END:
 What is the best way
 to access documentation
@@ -4051,17 +4051,17 @@ like /ghc-mod/ or /intero/,
 which should be sandboxed
 with a project.
 *** Types: Monadic                                                    :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
     :ID:       435f2a72-1d26-4d6e-8053-9642ed79b04b
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-27 Thu 07:32]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:52]
     :END:
 What is a free
 monad?
@@ -4073,17 +4073,17 @@ that the monad /Free f/
 just satisfies the monad
 laws and nothing else.
 *** Types: Monadic                                                    :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-08-01 Thu>
     :PROPERTIES:
     :ID:       65742150-0337-45b9-9410-9500c9c6c135
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-27 Thu 07:32]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:52]
     :END:
 When are free monads used?
 **** Answer:
@@ -4141,17 +4141,17 @@ type. For a /newtype/,
 the constructor must
 have exactly one field.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-07-09 Tue>
+    SCHEDULED: <2020-01-24 Fri>
     :PROPERTIES:
     :ID:       637f3d43-d8d1-4cc7-9c3c-7c12a4d0ebef
-    :DRILL_LAST_INTERVAL: 102.5061
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 198.8618
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-28 Thu 13:15]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-09 Tue 08:41]
     :END:
 What is the main point
 when constructing Gadts?
@@ -4450,17 +4450,17 @@ constraints. For example
 =toInteger= whereas =Num= provides
 no observations at all.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2020-04-07 Tue>
     :PROPERTIES:
     :ID:       7334cd5b-a50d-4ac4-95d2-1b8068923185
-    :DRILL_LAST_INTERVAL: 122.5913
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 272.1527
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-03-09 Sat 12:47]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:36]
     :END:
 Why is =a -> b= not always
 the same as
@@ -4810,17 +4810,17 @@ With inductive types the length
 of lists can become part of the
 type of the list.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-07-08 Mon>
+    SCHEDULED: <2019-09-08 Sun>
     :PROPERTIES:
     :ID:       093f32fc-90a8-4d09-9417-60e51295235d
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:22]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-09 Tue 08:48]
     :END:
 How to get the type
 out of a proxy type
@@ -4979,17 +4979,17 @@ The process of transforming
 a value-level run-time property
 to the type-level.
 *** Type arithmetic with TypeLits                                     :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-12-11 Wed>
     :PROPERTIES:
     :ID:       39ba261a-84e1-4771-bfee-841be0933aef
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 152.0844
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-23 Tue 15:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:19]
     :END:
 Why will constructing a List with
 typed length from input fail?
@@ -5000,17 +5000,17 @@ length exists. Thus, the list
 with typed length needs to hide
 in an existential data-type.
 *** Type arithmetic with TypeLits                                     :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-07-16 Tue>
     :PROPERTIES:
     :ID:       60894486-6552-4417-a968-34f2d0895e79
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.857
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-23 Tue 16:03]
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:28]
     :END:
 What is the best that can be
 done with a list with typed 
@@ -5090,17 +5090,17 @@ and returns the corresponding
 =natVal (Proxy @n)= when using
 =TypeApplications=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-03-16 Mon>
     :PROPERTIES:
     :ID:       4a184073-3ba7-4da3-abe5-112634907061
-    :DRILL_LAST_INTERVAL: 119.6093
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 252.7345
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-09 Sat 12:41]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:59]
     :END:
 How to evaluate type
 level functions for
@@ -5797,17 +5797,17 @@ A /for .. in/ loop loops over
 the property keys of the array object,
 not just the indices.
 *** javascript for loops					      :drill:
-    SCHEDULED: <2019-07-09 Tue>
+    SCHEDULED: <2020-08-29 Sat>
     :PROPERTIES:
     :ID:       83079dcd-f141-4d6e-ab90-8571ac5b23c7
-    :DRILL_LAST_INTERVAL: 257.4684
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 416.8413
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-10-25 Thu 12:42]
+    :DRILL_LAST_REVIEWED: [2019-07-09 Tue 08:49]
     :END:
 Can the /for .. of/ loop be used to
 iterate over objects?
@@ -6338,17 +6338,17 @@ be passed as in
 when running it from a root
 shell.
 *** macros                                                            :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-12-11 Wed>
     :PROPERTIES:
     :ID:       3ded5631-7363-4688-94aa-91296a224cfb
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 152.0844
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-23 Tue 16:04]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:20]
     :END:
 Is it possible to turn
 root macros into stand-alone
@@ -6410,17 +6410,17 @@ Only if the macro needs to become
 part of a standalone package is
 the required effort justifiable.
 *** macros                                                            :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-12-15 Sun>
     :PROPERTIES:
     :ID:       f17326fa-8d56-49e4-ae7f-e28687926378
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 155.7821
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-23 Tue 16:00]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:16]
     :END:
 What is the point of compiling
 a macro with =.L filename+=
@@ -6717,17 +6717,17 @@ callback. See the source
 of ~Control.Promise (toAff)~
 for an example.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-09-10 Tue>
     :PROPERTIES:
     :ID:       c1130124-fce3-4794-bec4-b064b6ba0b3a
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:17]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:39]
     :END:
 How are promises related
 to purescript ~Aff~?
@@ -6763,17 +6763,17 @@ an ~Aff~ by feeding it into
 purescript-aff-promise for
 an example).
 *** Async                                                             :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-09-10 Tue>
     :PROPERTIES:
     :ID:       32c30d62-2428-4894-b14b-0388d3c5dc80
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:06]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:35]
     :END:
 How is asynchronicity
 handled in purescript?
@@ -6807,17 +6807,17 @@ indicate a result or
 ~callback (Left (error msg))~
 to indicate failure.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-08-17 Sat>
     :PROPERTIES:
     :ID:       f76c99f3-0a03-4516-9c36-288db5ba250d
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:08]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:29]
     :END:
 What does a script running
 in a dedicated worker thread 
@@ -6830,17 +6830,17 @@ are made and then returned
 to the main thread via
 ~postMessage~.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-09-03 Tue>
     :PROPERTIES:
     :ID:       bbe80a5d-0655-4c2b-9ab6-d642e3a14934
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:11]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:37]
     :END:
 How does a thread
 communicate with a
@@ -6853,17 +6853,17 @@ receives messages through
 the ~onMessage~ function
 set on the worker.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-08-17 Sat>
     :PROPERTIES:
     :ID:       1e67b3f2-5e29-4d2c-9ee7-95f9a4425d80
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.4857
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:09]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:26]
     :END:
 How to run a calculation
 in a thread separate from
@@ -6876,17 +6876,17 @@ create a new ~Worker~ with
 with the url where the
 code to be run resides.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-09-12 Thu>
     :PROPERTIES:
     :ID:       41ba0883-e8b7-43aa-ae13-e94e1275c0e4
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:12]
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:17]
     :END:
 What is the ~Worker~
 interface for?
@@ -7065,17 +7065,17 @@ is very sensitive to that and
 thinks it is a nesting or
 should be after the /in/.
 *** File Interactions                                                 :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-09-01 Sun>
     :PROPERTIES:
     :ID:       297617ca-c9ec-4acb-8677-297a958305cf
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6141
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:20]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:26]
     :END:
 How to use FileReader
 in an asynchroneous
@@ -7132,17 +7132,17 @@ created but none of the readAs
 functions were called on it
 yet.
 *** File Interactions                                                 :drill:
-    SCHEDULED: <2019-07-09 Tue>
+    SCHEDULED: <2019-09-12 Thu>
     :PROPERTIES:
     :ID:       c68847b6-f186-49ab-b3cf-5dd5438a0198
-    :DRILL_LAST_INTERVAL: 25.61
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 64.947
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.333
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:18]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-09 Tue 08:42]
     :END:
 What's the problem if
 after a read with FileReader
@@ -7418,17 +7418,17 @@ declaring the foreign function,
 which can now be implemented
 directly, at least up to N=10.
 *** DOM                                                               :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-09-07 Sat>
     :PROPERTIES:
     :ID:       fc715d70-7562-4f32-a321-0fbea5a74c68
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.6081
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:12]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:22]
     :END:
 How to run a browser
 ~alert~ from purescript?
@@ -7441,17 +7441,17 @@ All the functions like
 ~alert~, ~prompt~ etc are in
 ~Web.HTML.Window~.
 *** DOM                                                               :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-09-11 Wed>
     :PROPERTIES:
     :ID:       f8db1c3c-041d-4038-a1c7-dd086cda1c4d
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-17 Mon 10:13]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:17]
     :END:
 Where should the results
 of a computation go?
@@ -7537,17 +7537,17 @@ component interactions,
 mainly between a parent
 and a child.
 *** Halogen                                                           :drill:
-    SCHEDULED: <2019-07-09 Tue>
+    SCHEDULED: <2019-09-14 Sat>
     :PROPERTIES:
     :ID:       4d80a7ed-3567-4952-8395-b0447287e14c
-    :DRILL_LAST_INTERVAL: 25.61
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 66.586
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.333
+    :DRILL_AVERAGE_QUALITY: 4.25
     :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:17]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-09 Tue 08:46]
     :END:
 What is the deal with 
 an element property of
@@ -7561,17 +7561,17 @@ event listener of the element
 where any arguments that can
 be passed are discarded.
 *** Halogen                                                           :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-09-03 Tue>
     :PROPERTIES:
     :ID:       9343b5b5-c661-4385-8572-354abe03082b
-    :DRILL_LAST_INTERVAL: 23.783
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 59.4337
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-06-12 Wed 10:05]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:28]
     :END:
 What happens when an event
 occurs on an html element that
@@ -8116,17 +8116,17 @@ one for records is used
 but with functor ~Variant~
 rather than ~Record~.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-09-07 Sat>
     :PROPERTIES:
     :ID:       731a06dd-6c3e-4d69-b8bd-6762526ad194
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-12 Wed 09:51]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:55]
     :END:
 What does something
 like ~(name::String, age::Number)~
@@ -8232,6 +8232,29 @@ first argument and ignoring
 the second. Thus,
 ~Const Void~ is a functor always
 evaluating to ~Void~.
+*** Types: Arrays                                                     :drill:
+    SCHEDULED: <2019-07-22 Mon>
+    :PROPERTIES:
+    :ID:       b7cf3850-b517-431d-8c7e-7120adc40824
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:15]
+    :END:
+What needs to be
+observed when applying
+functions to arrays in
+purescript?
+**** Answer:
+Applying functions with ~map~
+doesn't work well, use the
+functionality provided in
+Data.Array, such as ~mapMaybe~
+~traverse~ or ~foldMap~.
 *** Types: Classes: Monads                                            :drill:
     SCHEDULED: <2019-07-15 Mon>
     :PROPERTIES:
@@ -8337,17 +8360,17 @@ In addition, dead-code elimination
 may not realise that ~Data.Maybe~ is
 used here and remove it.
 *** Types: Foreign                                                    :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-09-09 Mon>
     :PROPERTIES:
     :ID:       f6e9dc63-b2f8-4383-a5f7-c6d681c49280
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:09]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:41]
     :END:
 How to extract the results
 from one of the
@@ -8378,17 +8401,17 @@ An existentially qualified
 type variable, such as ~a~ in
 ~poly:(forall a.a->a)->Boolean~.
 *** Types: Rank n                                                     :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-09-06 Fri>
     :PROPERTIES:
     :ID:       0b909a6e-2a79-4fe3-9f00-55c5cbac6341
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-11 Tue 08:21]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:28]
     :END:
 Why can a function
 ~poly::(forall a.a->a)->Boolean~
@@ -8407,17 +8430,17 @@ function with signature
 ~forall a.a->a~. 
 
 *** Types: Rank n                                                     :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-29 Mon>
     :PROPERTIES:
     :ID:       4e2032ea-328c-404c-bf89-9a08c34e3823
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-26 Wed 10:14]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:18]
     :END:
 How to make sure that
 a value can only be
@@ -8542,17 +8565,17 @@ With something like
 which designates a record type with
 at least fields ~name~ and ~age~.
 *** Types: Records                                                    :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-09-13 Fri>
     :PROPERTIES:
     :ID:       7774c623-0426-4c20-8b08-46562bdee3ea
-    :DRILL_LAST_INTERVAL: 26.8777
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 68.1618
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.333
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-10 Mon 10:46]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:54]
     :END:
 How to construct a value
 of a purescript record type?
@@ -9016,17 +9039,17 @@ Possibly by using =auto-apt=
 as in
 =auto-apt run ./configure=.
 *** packaging                                                         :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2020-07-21 Tue>
     :PROPERTIES:
     :ID:       d65f8c52-6344-411b-93a6-144792165dbb
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 381.0938
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-01-31 Thu 13:47]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:27]
     :END:
 What is a good way
 to package applications
@@ -9631,17 +9654,17 @@ Yes, use ~git branch --edit-description~,
 which will add a description to
 configuration ~branch.<branchname>.description~.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-12-02 Mon>
     :PROPERTIES:
     :ID:       d6d9a830-6743-4f8d-b35b-e8a1228aba63
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-18 Thu 12:18]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:56]
     :END:
 How to retrieve a branch
 description?
@@ -9649,17 +9672,17 @@ description?
 With 
 ~git config branch.<branchname>.description~.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-12-09 Mon>
     :PROPERTIES:
     :ID:       077a146f-c283-4f00-9463-9095d9e1c2db
-    :DRILL_LAST_INTERVAL: 80.628
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 156.4183
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-16 Tue 11:59]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:29]
     :END:
 For what kind of branches is
 ~git branch --edit-description~
@@ -9670,17 +9693,17 @@ it will not be pushed and
 the description will be
 deleted with the branch.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-12-13 Fri>
     :PROPERTIES:
     :ID:       1cdd8e23-ce7c-4207-a564-978dad3c7f39
-    :DRILL_LAST_INTERVAL: 80.628
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 160.2885
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-16 Tue 12:00]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.04
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:23]
     :END:
 Is it possible to keep a
 branch description after
@@ -9693,17 +9716,17 @@ and merge with
 branch description will be part
 of the stock merge message.
 *** git and versions                                                  :drill:
-    SCHEDULED: <2019-07-08 Mon>
+    SCHEDULED: <2020-02-09 Sun>
     :PROPERTIES:
     :ID:       36c234e2-b4d7-4f8e-a16c-0e01eace0119
-    :DRILL_LAST_INTERVAL: 99.0941
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 214.6378
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-31 Sun 12:32]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-09 Tue 08:49]
     :END:
 What to do when installing
 software from a git-repository
@@ -9976,17 +9999,17 @@ With /git describe/, for example
 ~git describe --tags~ will show the
 version of the current HEAD.
 *** git                                                               :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-03-04 Wed>
     :PROPERTIES:
     :ID:       9c4b2f7d-428b-4de0-8ca3-c353ac51de4c
-    :DRILL_LAST_INTERVAL: 145.2174
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 241.0609
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.143
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-12 Tue 13:49]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:59]
     :END:
 How to check if the
 remote was updated?
@@ -10281,17 +10304,17 @@ Convert them to =qdf= format
 with ~qpdf –qdf <infile.pdf> <outfile.pdf>~
 and read them into a text-editor.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-07-13 Mon>
     :PROPERTIES:
     :ID:       fed97cf2-a901-46e6-9b3b-4b98c11d5e15
-    :DRILL_LAST_INTERVAL: 152.4375
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 371.7951
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-05 Tue 13:12]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:56]
     :END:
 What to do if a pdf-qfd file
 becomes unreadable after bringing
@@ -10408,6 +10431,55 @@ Alternatively, use /dvisvgm/ to convert
 dvi to svg because this is part of a
 tex-installation.
 * Finance
+** Theory
+*** Capital-Income                                                    :drill:
+What is the accepted
+average depreciation
+of capital assets?
+**** Answer:
+About 10% of GDP.
+*** Capital-Income                                                    :drill:
+Why should the rate of
+return from capital in
+the stock market be at
+least 5%?
+**** Answer:
+The historical average rate
+of return from capital seems 
+to be about 5%. If savings
+and bonds have considerably
+lower returns, the stock
+market should average that
+out with higher returns.
+*** Capital-Income                                                    :drill:
+How to determine if
+a rent is a bargain?
+**** Answer:
+Real estate typically
+has an annual rate of 
+return on capital of
+about 4-5%, so paying 
+everything below that 
+would be a bargain.
+*** Capital-Income                                                    :drill:
+How to determine the
+share of income from 
+capital?
+**** Answer:
+As /α=rβ/ where /r/ is the 
+rate of return from
+capital and /β/ is the 
+capital/income ratio.
+*** Capital-Income                                                    :drill:
+What does a capital to
+income ratio of β=n
+signify?
+**** Answer:
+It means that the capital
+stock of an entity (such
+as a country or company)
+is equivalent to n years
+of income.
 ** Policies
 *** Migration                                                         :drill:
     SCHEDULED: <2019-09-01 Sun>
@@ -10791,17 +10863,17 @@ male-female entities
 emanating from the 
 original Barbelo.
 *** Actors                                                            :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-09-28 Sat>
     :PROPERTIES:
     :ID:       2556692e-f42a-4f64-9109-a1ccece551bd
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-29 Wed 08:59]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:36]
     :END:
 Who is Sophia?
 **** Answer:
@@ -10812,17 +10884,17 @@ male-female towards the
 female pole. She is called
 the /Heavenly Wisdom/.
 *** Actors                                                            :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-09-28 Sat>
     :PROPERTIES:
     :ID:       bb5c939e-fa32-4c00-a491-cd6785cf7d67
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-29 Wed 09:04]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:35]
     :END:
 What was the sin of
 Sophia?
@@ -10856,17 +10928,17 @@ incarnation as Mary Magdalene
 with her male aspect and
 re-balance the Universe.
 *** Actors                                                            :drill:
-    SCHEDULED: <2019-07-11 Thu>
+    SCHEDULED: <2019-10-01 Tue>
     :PROPERTIES:
     :ID:       079fe009-c6c0-4d0c-b021-ac0ed61c7d1d
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 82.4223
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-30 Thu 08:53]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-11 Thu 08:36]
     :END:
 Who was Lilith according
 to Gnostic scripture?
@@ -10879,17 +10951,17 @@ was deported from Eden for
 failing to merge with her
 male part.
 *** Actors                                                            :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-09-28 Sat>
     :PROPERTIES:
     :ID:       e4350cbc-7457-4315-9e46-7a71f870d8ff
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-29 Wed 09:06]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:38]
     :END:
 Who is /Barbelo/ in
 gnostic scripture?
@@ -10921,17 +10993,17 @@ the natural world to the
 underworld.(Black and Gold,
 Pluto and Sun?)
 *** Bees                                                              :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-10-12 Sat>
     :PROPERTIES:
     :ID:       1037b24f-1cd9-4a32-9da0-843bf89bd265
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 96.6835
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:41]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:55]
     :END:
 In which sense is Artemis
 of Ephesus closer to the
@@ -11015,17 +11087,17 @@ spirit.
 the Archeons, The
 Reality of the Rulers)
 *** Man and Woman                                                     :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-09-28 Sat>
     :PROPERTIES:
     :ID:       94147f5a-3a8f-4bf1-981a-25aa4831b38e
-    :DRILL_LAST_INTERVAL: 42.4857
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 80.3829
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-29 Wed 09:09]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:36]
     :END:
 What is the whole thing
 of "born of woman" all
@@ -11242,17 +11314,17 @@ outside as fate.
 * Language
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-07-21 Sun>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 10.7693
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 46
+    :DRILL_LAST_INTERVAL: 14.1401
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 47
     :DRILL_FAILURE_COUNT: 9
-    :DRILL_AVERAGE_QUALITY: 2.849
+    :DRILL_AVERAGE_QUALITY: 2.873
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-26 Wed 10:11]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:54]
     :END:
 的
 **** Answer:
@@ -11765,17 +11837,17 @@ some value /c/, ie
 is an eigenvector of /N/ with
 eigenvalue /n/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-10-12 Sat>
     :PROPERTIES:
     :ID:       6084a8f2-af1d-476e-bedd-5ae88f3a1eea
-    :DRILL_LAST_INTERVAL: 43.5513
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.3321
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:44]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:32]
     :END:
 How to construct the
 vectors for representing
@@ -11791,17 +11863,17 @@ vectors /vᵢ/ (ie multiples of the
 eigenvectors) of /EP/ satisfy
 /M=(⟨vᵢ,vⱼ⟩)/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2019-07-11 Thu>
+    SCHEDULED: <2019-10-18 Fri>
     :PROPERTIES:
     :ID:       b61fa5c0-b592-481c-adf6-17e1b7f68a90
-    :DRILL_LAST_INTERVAL: 44.617
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 99.0051
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.18
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:44]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-11 Thu 08:37]
     :END:
 What kind of special
 form do positive 
@@ -12209,17 +12281,17 @@ representation can be indexed
 by the set of eigenvalues of
 these Casimir operators.
 *** Representation Theory: Casimir Operators                          :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-16 Tue>
     :PROPERTIES:
     :ID:       52ba7be4-f2e5-4147-b2e3-4ba109f38151
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:58]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:18]
     :END:
 What is a full set of
 Casimir Operators for
@@ -12232,17 +12304,17 @@ Casimir Operators
 /l/ is the rank of the 
 group.
 *** Representation Theory: Casimir Operators                          :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-16 Tue>
     :PROPERTIES:
     :ID:       48d137de-6f5d-4846-90bc-9fb0d01c354d
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:57]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:17]
     :END:
 How do Casimir Operators
 of a semisimple Lie group
@@ -13482,17 +13554,17 @@ over covariant derivatives on a manifold?
 Covariant derivatives depend on the metric of
 the manifold whereas Lie-type derivatives don't.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-04-30 Thu>
     :PROPERTIES:
     :ID:       430cf2d5-9fe9-4146-8906-9729b5db6616
-    :DRILL_LAST_INTERVAL: 134.1882
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 297.8978
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-23 Sat 13:49]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 08:00]
     :END:
 Why can tensors always
 be represented in two
@@ -13509,17 +13581,17 @@ combination of rows or
 columns of rows or
 columns.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-04-30 Thu>
     :PROPERTIES:
     :ID:       9e2a7e79-2ef5-4bd7-88f4-8f27e0940e60
-    :DRILL_LAST_INTERVAL: 134.1882
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 297.8978
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-23 Sat 13:46]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:58]
     :END:
 Where does the name
 /contravariant/ for
@@ -13534,17 +13606,17 @@ of basis in order to
 compensate for the change
 in basis.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-04-30 Thu>
     :PROPERTIES:
     :ID:       51379d18-165a-4cc6-b65f-b099ee1f8410
-    :DRILL_LAST_INTERVAL: 134.1882
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 297.8978
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-23 Sat 13:48]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:58]
     :END:
 What is the tensor
 /aᵢʲ/ in terms of rows
@@ -13554,17 +13626,17 @@ It is a column vector
 of row vectors, in other
 words a matrix.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-04-30 Thu>
     :PROPERTIES:
     :ID:       d82607ec-9d03-4bb3-ba8a-5bb87b7c78f2
-    :DRILL_LAST_INTERVAL: 134.1882
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 297.8978
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-23 Sat 13:48]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 08:01]
     :END:
 Why is /(aᵢⱼ)/ not a
 matrix in tensor terms?
@@ -13574,17 +13646,17 @@ of row vectors and doesn't
 have columns, like a matrix
 would.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-04-30 Thu>
     :PROPERTIES:
     :ID:       f6f54257-424c-4e8a-a81d-e16ef804ba70
-    :DRILL_LAST_INTERVAL: 134.1882
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 297.8978
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-23 Sat 13:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:53]
     :END:
 What does /aᵢʲₖ/ describe in
 terms of rows and columns?
@@ -13593,17 +13665,17 @@ It is a row of columns
 containing rows, in other
 words a row of matrices.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2020-04-30 Thu>
     :PROPERTIES:
     :ID:       9464c4fd-3e96-4728-853e-c2cb8829d548
-    :DRILL_LAST_INTERVAL: 134.1882
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 297.8978
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.428
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-23 Sat 13:48]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 08:01]
     :END:
 How to describe a column
 of matrices in tensor
@@ -14227,17 +14299,17 @@ It is decidable, even
 though the proofs may
 be exponentially long.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-08-26 Mon>
     :PROPERTIES:
     :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 44.4285
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 50.2931
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-24 Fri 11:51]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:58]
     :END:
 What is a /combinator/?
 **** Answer:
@@ -14661,17 +14733,17 @@ Functions /f:A×B→C/
 out of the product 
 type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-07-07 Sun>
+    SCHEDULED: <2019-10-14 Mon>
     :PROPERTIES:
     :ID:       747e5dee-673e-42e9-9ade-c4d02b68a49e
-    :DRILL_LAST_INTERVAL: 73.3761
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 98.7642
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.9
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-25 Thu 15:59]
+    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:59]
     :END:
 What are the computation
 rules of the product type
@@ -14801,17 +14873,17 @@ A rule that describes how
 an eliminator acts on a
 constructor.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2020-03-02 Mon>
     :PROPERTIES:
     :ID:       f91ca1ea-7334-49ea-8ef4-36c2b9193db8
-    :DRILL_LAST_INTERVAL: 108.8692
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 235.8107
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-23 Sat 17:29]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:40]
     :END:
 What are /introduction/
 rules for a type?
@@ -14837,17 +14909,17 @@ of a type?
 These are rules on how to
 use the elements of a type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-07-08 Mon>
+    SCHEDULED: <2019-11-04 Mon>
     :PROPERTIES:
     :ID:       46b0c6b6-592b-4201-aa85-ea4f6416a7fb
-    :DRILL_LAST_INTERVAL: 75.2349
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 118.7959
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-04-24 Wed 12:11]
+    :DRILL_EASE: 1.38
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-08 Mon 10:27]
     :END:
 What are the eliminators of
 the function type?
@@ -16208,6 +16280,50 @@ momenta. If the system
 has a Langrangian then
 the Hamiltonian is its 
 Poisson bracket.
+*** Transformations                                                   :drill:
+    SCHEDULED: <2019-07-16 Tue>
+    :PROPERTIES:
+    :ID:       822d6ac7-e557-474a-8ebf-b983989cb092
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:20]
+    :END:
+How do active and passive
+rotations differ mathematically?
+**** Answer:
+Active rotations are obtained by
+multiplying position vectors by a
+rotation matrix. Passive rotations
+constitute a change of basis 
+vectors as obtained from
+rotating an observer.
+*** Transformations                                                   :drill:
+    SCHEDULED: <2019-07-16 Tue>
+    :PROPERTIES:
+    :ID:       c46717eb-bb55-46a9-bd9c-e89ed9553cbc
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:22]
+    :END:
+What is the difference
+between an active and a
+passive rotation?
+**** Answer:
+A passive rotation is a
+rotation of the observer
+whereas an active rotation
+is a rotation of the 
+observed.
 *** Hamiltonians                                                      :drill:
     SCHEDULED: <2019-10-10 Thu>
     :PROPERTIES:
@@ -17978,17 +18094,17 @@ projected back into another
 tangent space resulting in
 a collapse of the ambiguity.
 *** Operators: Expectations                                           :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-30 Tue>
     :PROPERTIES:
     :ID:       4ec16925-14b4-4b28-898b-b2e89f7d14e6
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-26 Wed 10:09]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:22]
     :END:
 Is it possible to minimise
 the uncertainty /σₓσₚ/ of
@@ -18002,17 +18118,17 @@ correspond to coherent states
 with /σₓσₚ/ assuming its lowest
 theoretical bound.
 *** Operators: Expectations                                           :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
     :ID:       5158d554-f472-4585-b90a-b4cddfdac4b9
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-26 Wed 10:10]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:18]
     :END:
 What quantum states would 
 most resemble classical states?
@@ -18026,17 +18142,17 @@ as possible without spreading
 out any conjugate operators
 unduly. 
 *** Operators: Expectations                                           :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
     :ID:       f9f300d5-68a5-4c23-98aa-05be4a85bcc0
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-26 Wed 10:12]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:20]
     :END:
 How is the classical limit
 of quantum physics related
@@ -18051,17 +18167,17 @@ should be close to those
 between the corresponding 
 classical observables.
 *** Operators: Expectations                                           :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-30 Tue>
     :PROPERTIES:
     :ID:       0cc92076-43d8-4e59-9d95-2ae0d5a0e66e
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-26 Wed 10:14]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:20]
     :END:
 Why is /⟨∂ₜA⟩=∂ₜ⟨A⟩/?
 **** Answer:
@@ -18071,17 +18187,17 @@ Heisenberg picture. As a consequence,
 the time derivative distributes over
 the inner product.
 *** Operators: Expectations                                           :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
     :ID:       d3eb5e2a-5bab-4285-8973-98b45b928e4f
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-26 Wed 10:11]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:19]
     :END:
 Do the expectations of operators
 have to satisfy the equations of
@@ -18093,17 +18209,17 @@ for states that are close to
 classical, ie high energy or
 concentrated wave functions.
 *** Operators: Expectations                                           :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
     :ID:       ba4ba52d-6778-4d31-9190-804837617681
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-26 Wed 10:13]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:21]
     :END:
 How does the correspondence
 principle manifest itself
@@ -18125,17 +18241,17 @@ where /x₀/ is the concentration point
 of the wave-function.
 
 *** Operators: Spin                                                   :drill:
-    SCHEDULED: <2019-07-11 Thu>
+    SCHEDULED: <2019-08-05 Mon>
     :PROPERTIES:
     :ID:       2e60fc78-d97d-408c-8b7b-eb718ff2e43d
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-01 Mon 09:09]
+    :DRILL_LAST_REVIEWED: [2019-07-11 Thu 08:35]
     :END:
 What is the value of spin
 of a particle?
@@ -18150,21 +18266,21 @@ with I the identity matrix.
 The value /S/ is the spin of
 the particle.
 *** Operators: Spin                                                   :drill:
-    SCHEDULED: <2019-07-11 Thu>
+    SCHEDULED: <2019-08-05 Mon>
     :PROPERTIES:
     :ID:       25e461f6-59f4-42b1-9e09-63be6658e578
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-01 Mon 09:12]
+    :DRILL_LAST_REVIEWED: [2019-07-11 Thu 08:34]
     :END:
 Why is the spin part *S* in
 the rotation operator
-*U(φ)* = exp(-i/ℏ i *φ·(L+S)*)
+*U(φ)* = exp(-i/ℏ *φ·(L+S)*)
 considered a rotation?
 **** Answer:
 Because its components /Sᵢ/
@@ -18173,17 +18289,17 @@ as the components /Lᵢ/ of
 *L*, which are the angular
 momentum operators.
 *** Operators: Spin                                                   :drill:
-    SCHEDULED: <2019-07-11 Thu>
+    SCHEDULED: <2019-08-04 Sun>
     :PROPERTIES:
     :ID:       178d4e38-1d3e-432c-b0ca-414a2e9b2c45
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.7949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-01 Mon 09:05]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-11 Thu 08:32]
     :END:
 What is the form of the
 rotation operator
@@ -18196,17 +18312,17 @@ Since *S* is a vector of spin
 matrices, *U(φ)* is a matrix
 of operators.
 *** Operators: Spin                                                   :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2019-07-31 Wed>
     :PROPERTIES:
     :ID:       81c89a5f-aa9d-4b11-a709-a232be9bd1ef
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-01 Mon 09:11]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:32]
     :END:
 How does spin arise in
 a vector particle?
@@ -18227,17 +18343,17 @@ the vector rotation. This
 component is called the /spin/
 of the particle.
 *** Operators                                                         :drill:
-    SCHEDULED: <2019-07-08 Mon>
+    SCHEDULED: <2019-09-08 Sun>
     :PROPERTIES:
     :ID:       dcb90ff1-c93d-439a-abda-c008641131b2
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:23]
+    :DRILL_LAST_REVIEWED: [2019-07-08 Mon 10:28]
     :END:
 Do energy and momentum
 always commute?
@@ -18305,17 +18421,17 @@ function spatially
 by /σ/, ie
 /U(σ)φ(r,t)=φ(r-σ,t)/.
 *** Operators                                                         :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-09-04 Wed>
     :PROPERTIES:
     :ID:       96f1d6cf-46da-419e-8d14-936a1253ee07
-    :DRILL_LAST_INTERVAL: 45.7402
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 60.0569
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.9
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 2.909
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-21 Tue 09:02]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:24]
     :END:
 How to derive the 
 velocity operator?
@@ -18944,17 +19060,17 @@ lepton number +1 whereas leptons
 that are anti-particles have
 lepton number -1.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-07-12 Fri>
+    SCHEDULED: <2019-07-21 Sun>
     :PROPERTIES:
     :ID:       e99decab-17da-42de-acba-609651e64c8d
-    :DRILL_LAST_INTERVAL: 7.4283
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 8.6168
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-05 Fri 07:37]
+    :DRILL_LAST_REVIEWED: [2019-07-12 Fri 09:13]
     :END:
 What are leptons?
 **** Answer:
@@ -18985,17 +19101,17 @@ despite being electrically
 neutral they can have opposite
 lepton numbers.
 *** Path Integral						      :drill:
-    SCHEDULED: <2019-07-09 Tue>
+    SCHEDULED: <2019-10-29 Tue>
     :PROPERTIES:
     :ID:       94342910-30cb-4f2e-a362-6f9660a95aff
-    :DRILL_LAST_INTERVAL: 99.2547
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 112.3563
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.072
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.067
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-01 Mon 12:40]
+    :DRILL_LAST_REVIEWED: [2019-07-09 Tue 08:44]
     :END:
 What does the path-integral describe?
 **** Answer:
@@ -19199,17 +19315,17 @@ By splitting the current /Jᵐ/ into a
 positive and a negative part:
 /Jᵐ=Jₚᵐ-Jₙᵐ/.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2019-07-10 Wed>
+    SCHEDULED: <2020-03-01 Sun>
     :PROPERTIES:
     :ID:       7098cf17-ef52-4a72-85db-a62c8ee2ef0c
-    :DRILL_LAST_INTERVAL: 145.2174
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 235.107
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-15 Fri 13:13]
+    :DRILL_LAST_REVIEWED: [2019-07-10 Wed 09:37]
     :END:
 How does reality creation
 by interaction tie in with
@@ -19423,17 +19539,17 @@ values for /H/ and using the correspondence
 principle shows that the expectation
 of /H/ is the classical energy. 
 *** Symmetries                                                        :drill:
-    SCHEDULED: <2019-07-06 Sat>
+    SCHEDULED: <2019-07-16 Tue>
     :PROPERTIES:
     :ID:       032876d5-77ad-4213-90cd-6c18fde351a1
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:59]
+    :DRILL_LAST_REVIEWED: [2019-07-06 Sat 08:23]
     :END:
 Why are the symmetries
 of a quantum system of
