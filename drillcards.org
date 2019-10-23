@@ -1663,17 +1663,17 @@ reappear in a dired window?
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
 *** editing                                                           :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2019-11-02 Sat>
     :PROPERTIES:
     :ID:       0d809df9-e405-4c92-bf86-d5ba91910e39
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-19 Sat 16:29]
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:05]
     :END:
 How to initiate a
 /redo/ after a messed
@@ -1685,17 +1685,17 @@ command like ~C-f~ after
 the mess-up and then
 do an /undo/.
 *** editing                                                           :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2019-11-02 Sat>
     :PROPERTIES:
     :ID:       5f259e2f-9730-41ff-9aa0-d9187a505bec
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-19 Sat 16:28]
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:14]
     :END:
 How does /undo/
 work in emacs?
@@ -3641,17 +3641,17 @@ By combining parsers
 with ~many~ or ~some~ from
 typeclass ~Applicative~.
 *** Option Parsing                                                    :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-12-29 Sun>
     :PROPERTIES:
     :ID:       b1ae3e7d-166d-4569-99ba-9f1f59151783
-    :DRILL_LAST_INTERVAL: 61.3554
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 67.7364
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.895
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-22 Thu 12:57]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:56]
     :END:
 How to set up Options.Applicative
 to parse a multiple use of a string 
@@ -4062,17 +4062,17 @@ project in question before
 calling ~stack exec~, ~stack ghci~
 et. al.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2020-12-19 Sat>
     :PROPERTIES:
     :ID:       52a765f9-0d8c-4d7e-9d42-75ab0ef833f6
-    :DRILL_LAST_INTERVAL: 207.6528
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 422.9888
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.04
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-29 Fri 14:23]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.14
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:15]
     :END:
 How to install something
 like /H/ globally with stack?
@@ -4158,17 +4158,17 @@ in the indices, remove
 ~--force~ in the project
 directory.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-12-23 Mon>
     :PROPERTIES:
     :ID:       f2ea2f06-02c2-4b79-82fa-415349c15d66
-    :DRILL_LAST_INTERVAL: 55.1054
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 62.3793
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-28 Wed 09:17]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:54]
     :END:
 What is the best way
 to access documentation
@@ -4462,17 +4462,17 @@ Yes, in-built datatypes like
 because they don't have 
 constructors.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2020-08-06 Thu>
     :PROPERTIES:
     :ID:       ada8ad27-b160-44f2-a34e-f915af3b44b5
-    :DRILL_LAST_INTERVAL: 152.0844
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 287.7437
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-24 Fri 11:53]
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:16]
     :END:
 How to use row
 polymorphism
@@ -8157,17 +8157,17 @@ package as a dependency. Install
 with 
 =psc-package install psci-support=
 *** Psc-package installation                                          :drill:
-    SCHEDULED: <2019-10-21 Mon>
+    SCHEDULED: <2020-05-07 Thu>
     :PROPERTIES:
     :ID:       aed5c9d5-d4b4-4197-8393-2841d715f58b
-    :DRILL_LAST_INTERVAL: 94.3321
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 199.3237
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-19 Fri 08:41]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-21 Mon 12:00]
     :END:
 What's the problem if
 ~stack install~ complains
@@ -11275,17 +11275,17 @@ tex-installation.
 * Finance
 ** Instruments
 *** Contracts                                                         :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
     :ID:       3e3bf6ac-6fea-42d1-9bf5-aa083462bbe5
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:41]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:53]
     :END:
 What does it mean to
 close out a long position
@@ -11297,17 +11297,17 @@ same underlying asset
 for the same delivery
 date. 
 *** Contracts                                                         :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
     :ID:       abb3c8f2-98c4-46c4-9da8-309372cd3eba
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:43]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:51]
     :END:
 What is the short
 position in a futures
@@ -11318,17 +11318,17 @@ part of the contract that
 allows selling the underlying
 to the terms of the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
     :ID:       4ac4f547-ed79-4912-89db-7163de2deb68
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:41]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:51]
     :END:
 What is the short
 position in a forward
@@ -11340,17 +11340,17 @@ contract for the agreed
 price at the date specified
 in the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       4df02474-61d7-4bda-a7cb-8727f2ebaffa
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:42]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:53]
     :END:
 What is a long position
 in a forward contract?
@@ -11388,17 +11388,17 @@ buy the underlying and sell
 it immediately at market
 price.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-16 Sat>
     :PROPERTIES:
     :ID:       40c4f3b5-7721-46be-a5b4-e82f4ab0f0fd
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:41]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:51]
     :END:
 What is the difference
 between a forward and
@@ -11515,17 +11515,17 @@ risk-free interest rate used
 for pricing derivative securities
 with the arbitrage argument.
 *** Trading                                                           :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-16 Sat>
     :PROPERTIES:
     :ID:       f2066789-8809-402d-9f9e-d946bfe25af7
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:44]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:52]
     :END:
 What is a margin account?
 **** Answer:
@@ -11536,17 +11536,17 @@ futures contracts. It serves
 as a security against contract
 defaults.
 *** Trading                                                           :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-16 Sat>
     :PROPERTIES:
     :ID:       c7d8f6b9-fb35-400e-8782-b5bccb2a52ef
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:41]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:52]
     :END:
 What is the maintenance
 margin?
@@ -11557,17 +11557,17 @@ margin account to maintain
 his positions given their
 futures prices.
 *** Trading                                                           :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-16 Sat>
     :PROPERTIES:
     :ID:       e2601572-7f3b-4dc4-8dc5-afdf9f84e56e
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:42]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:50]
     :END:
 What is a margin call?
 **** Answer:
@@ -11582,17 +11582,17 @@ so that the amount in his
 margin account falls below
 the maintenance margin.
 *** Trading                                                           :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-16 Sat>
     :PROPERTIES:
     :ID:       13eedfd2-db01-407a-9369-d16a38fd4042
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:43]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:52]
     :END:
 What is meant by
 /Marking to Market/?
@@ -11604,17 +11604,17 @@ each trading day to reflect
 the values of their respective
 positions.
 *** Trading                                                           :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
     :ID:       9c06bc68-ee2f-4351-9115-2c0acfaa5c02
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.6409
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:44]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:53]
     :END:
 How is the amount in the
 margin account calculated
@@ -12052,17 +12052,17 @@ the microtubuli and that
 they interact with the 
 neurons.
 *** Language and Reality                                              :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2020-06-18 Thu>
     :PROPERTIES:
     :ID:       9593e137-26bf-4fa5-9659-216756405a0d
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 240.2382
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:53]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:55]
     :END:
 What happens after language
 and worries stop?
@@ -12897,17 +12897,17 @@ in set-theoretic terms?
 A finite disjoint union
 of sets.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2020-07-30 Thu>
     :PROPERTIES:
     :ID:       b0314792-8af2-4037-920e-c4210128880a
-    :DRILL_LAST_INTERVAL: 152.0844
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 280.7478
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-24 Fri 11:50]
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:15]
     :END:
 What are the consequences
 of a category having
@@ -13971,17 +13971,17 @@ than 1 are roots of unity different
 from 1. Hence their traces add up
 to 0.
 *** Representation Theory: Permutation Representation                 :drill:
-    SCHEDULED: <2019-10-20 Sun>
+    SCHEDULED: <2020-03-06 Fri>
     :PROPERTIES:
     :ID:       594cd4f9-0650-42ec-afab-2e59896c7ee6
-    :DRILL_LAST_INTERVAL: 56.6141
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.0818
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-24 Sat 08:33]
+    :DRILL_LAST_REVIEWED: [2019-10-20 Sun 14:51]
     :END:
 What are the eigenvalues
 of a permutation matrix?
@@ -14183,17 +14183,17 @@ is finite dimensional, so
 characters are still a useful
 tool for studying them.
 *** Representations                                                   :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2020-05-19 Tue>
     :PROPERTIES:
     :ID:       f5fbc6e2-6a03-4031-904c-b7a03b039d19
-    :DRILL_LAST_INTERVAL: 99.0941
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 209.3858
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-16 Tue 10:14]
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:16]
     :END:
 What could be a possible
 extension of the character
@@ -14234,17 +14234,17 @@ isometry and /A/ is a positive
 operator such that 
 /ker T=ker A=ker U/.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2019-10-21 Mon>
+    SCHEDULED: <2021-01-19 Tue>
     :PROPERTIES:
     :ID:       03c6cdba-9412-4ecc-84e8-ca4e032669c4
-    :DRILL_LAST_INTERVAL: 240.9422
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 455.8626
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-22 Fri 13:25]
+    :DRILL_LAST_REVIEWED: [2019-10-21 Mon 11:59]
     :END:
 Is the polar decomposition
 of a bounded operator unique?
@@ -16035,17 +16035,17 @@ if new instances of the function
 can be created at run-time, ie
 in lambda expression style.
 *** Linear                                                            :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2020-10-07 Wed>
     :PROPERTIES:
     :ID:       be051ebc-472a-4588-9a64-2ace8cbce06c
-    :DRILL_LAST_INTERVAL: 216.9934
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 351.3123
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.125
     :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-19 Tue 14:05]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:55]
     :END:
 What is the difference between
 the two conjunctions ⊗ and &
@@ -16097,17 +16097,17 @@ evaluation, which occurs in
 quantum mechanics in the form
 of unitary evolution.
 *** Linear                                                            :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2020-09-29 Tue>
     :PROPERTIES:
     :ID:       ce923632-2b4b-49f8-8f78-b8ee22bb711f
-    :DRILL_LAST_INTERVAL: 216.9934
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 342.6326
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-19 Tue 14:03]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:56]
     :END:
 What is the bang operator
 good for in linear logic?
@@ -16118,17 +16118,17 @@ in functional programming or
 make a measurement in a
 quantum system.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2019-11-02 Sat>
     :PROPERTIES:
     :ID:       8d17b995-7f1c-485d-b3f4-66729d446b88
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-19 Sat 16:28]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:14]
     :END:
 What is the meaning of
 A⊸B in the resource
@@ -16137,17 +16137,17 @@ model of linear logic?
 It means that consuming
 A yields B.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2019-11-01 Fri>
     :PROPERTIES:
     :ID:       9626b9a3-56ac-41a1-9f95-eb63a2e023ba
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-19 Sat 16:30]
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:15]
     :END:
 What seems to be the
 purpose of the new connectives
@@ -16265,6 +16265,31 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
+    SCHEDULED: <2019-10-24 Thu>
+    :PROPERTIES:
+    :ID:       e1adb5d5-f7e2-4458-aac6-a307b3ad732a
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-20 Sun 14:49]
+    :END:
+In which sense are
+constructive logic
+and linear logic not
+about truth?
+**** Answer:
+In the sense that in
+constructive logic formulas
+are considered to have
+a proof or not. In linear
+logic, formulas are considered
+resources rather than truth
+bearers.
+*** Logic                                                             :drill:
     SCHEDULED: <2020-08-01 Sat>
     :PROPERTIES:
     :ID:       4316a603-18d6-4b53-8ace-fd27cfa1dd7e
@@ -16306,17 +16331,17 @@ the use of a term, for example
 by listing the properties a 
 noun should have.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2019-10-26 Sat>
     :PROPERTIES:
     :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-27 Mon 15:50]
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:56]
     :END:
 What is the difference
 between a /Proposition/
@@ -16446,17 +16471,17 @@ It is decidable, even
 though the proofs may
 be exponentially long.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-10-23 Wed>
+    SCHEDULED: <2019-12-28 Sat>
     :PROPERTIES:
     :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 58.34
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 66.0409
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.059
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-26 Mon 20:25]
+    :DRILL_AVERAGE_QUALITY: 3.056
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:16]
     :END:
 What is a /combinator/?
 **** Answer:
@@ -17319,17 +17344,17 @@ a term /t:a=b/ then terms
 /a,b/ are said to be 
 /propositionally/ equal.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-10-22 Tue>
+    SCHEDULED: <2020-07-29 Wed>
     :PROPERTIES:
     :ID:       f3a4772d-0985-45b2-a83b-cf090019441b
-    :DRILL_LAST_INTERVAL: 152.0844
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 280.7478
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:41]
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:55]
     :END:
 What is a /witness/?
 **** Answer:
@@ -18386,17 +18411,17 @@ rewritten to be finite,
 like, for example, algebraic
 numbers.
 *** Quantum Calc                                                      :drill:
-    SCHEDULED: <2019-10-20 Sun>
+    SCHEDULED: <2020-03-06 Fri>
     :PROPERTIES:
     :ID:       efbb0cea-6731-4833-b541-dbcf2f6aa1b9
-    :DRILL_LAST_INTERVAL: 56.6141
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.0818
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-24 Sat 08:33]
+    :DRILL_LAST_REVIEWED: [2019-10-20 Sun 14:50]
     :END:
 In which sense can traces
 be coefficients of vectors?
@@ -20363,17 +20388,17 @@ operator /ρ̂/ can be diagonalised,
 ie. /ρ̂=∫f(α,α*)|α⟩⟨α|d²α/ with
 a quasiprobability /f(α,α*)/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-10-20 Sun>
+    SCHEDULED: <2019-11-09 Sat>
     :PROPERTIES:
     :ID:       9e8e269e-714c-49b0-941b-6adf932dadb8
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-11 Fri 13:19]
+    :DRILL_LAST_REVIEWED: [2019-10-20 Sun 14:49]
     :END:
 What makes the use of coherent
 spaces so attractive in quantum
@@ -20875,17 +20900,17 @@ This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-10-21 Mon>
+    SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
     :ID:       edca5c13-2fcd-4ba7-9e1a-98a4f61788fc
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 24.39
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-11 Fri 13:19]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-21 Mon 11:59]
     :END:
 Where is classical probability
 deficient in the treatment of
@@ -22120,17 +22145,17 @@ to final state /q_f/ during time /T/
 in a quantum system governed by Hamiltonian
 /H/.
 *** Path integral						      :drill:
-    SCHEDULED: <2019-10-21 Mon>
+    SCHEDULED: <2019-11-13 Wed>
     :PROPERTIES:
     :ID:       00b6b68c-f19e-4775-90e9-f7252ddd9c5c
-    :DRILL_LAST_INTERVAL: 20.4955
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 23.2009
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.312
+    :DRILL_AVERAGE_QUALITY: 3.352
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-01 Tue 11:09]
+    :DRILL_LAST_REVIEWED: [2019-10-21 Mon 12:00]
     :END:
 What is the idea of using the path-integral
 to describe 
@@ -22293,17 +22318,17 @@ is a matrix because the electromagnetic
 field is a vector field resulting from
 its vector potential.
 *** Path integral						      :drill:
-    SCHEDULED: <2019-10-20 Sun>
+    SCHEDULED: <2019-12-28 Sat>
     :PROPERTIES:
     :ID:       735e603d-bc9f-4205-a495-d8cd9fae5759
-    :DRILL_LAST_INTERVAL: 62.236
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 68.7085
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.056
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.053
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-19 Mon 08:34]
+    :DRILL_LAST_REVIEWED: [2019-10-20 Sun 14:50]
     :END:
 How are positive and negative charges 
 accomodated when introducing them into
@@ -22408,17 +22433,17 @@ but most commonly the operator is
 mapped to phase-space via the
 Wigner transform.
 *** Quantization                                                      :drill:
-    SCHEDULED: <2019-10-20 Sun>
+    SCHEDULED: <2020-01-05 Sun>
     :PROPERTIES:
     :ID:       9739c73f-9491-4d12-ba7d-e9cbfe165912
-    :DRILL_LAST_INTERVAL: 69.6931
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 76.9412
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.083
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-11 Sun 09:46]
+    :DRILL_AVERAGE_QUALITY: 3.077
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-20 Sun 14:49]
     :END:
 What is the essence of the
 phase-space formulation of
