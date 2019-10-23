@@ -1663,6 +1663,15 @@ reappear in a dired window?
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
 *** editing                                                           :drill:
+How is the emacs undo 
+stack constructed?
+**** Answer:
+Every sequence of editing
+commands is stored and
+pushed on the stack when
+a non-editing command
+occurs.
+*** editing                                                           :drill:
     SCHEDULED: <2019-11-02 Sat>
     :PROPERTIES:
     :ID:       0d809df9-e405-4c92-bf86-d5ba91910e39
@@ -19604,6 +19613,18 @@ Qbits that reside in the
 same degenerate energy
 level are called hyperfine
 qbits.
+*** Programming                                                       :drill:
+How can classical computer
+programs be translated to
+quantum programs?
+**** Answer:
+By noting that a unitary
+matrix can be considered
+as a series of /if/ statements
+relating input states to
+output in the sense of
+~if |s⟩ then ∑aₛₜ|t⟩~ relating
+state ~|s⟩~ to ~∑aₛₜ|t⟩~.
 *** Temperature                                                       :drill:
     SCHEDULED: <2020-01-24 Fri>
     :PROPERTIES:
@@ -20899,6 +20920,40 @@ About 100 femto seconds.
 This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
+*** Measurement                                                       :drill:
+What seems to be going
+on in a cloud chamber
+from a quantum point of
+view?
+**** Answer:
+The particle in the cloud
+chamber is measured every
+so often, its wavefunction
+collapses and unitary 
+evolution resumes governed
+by the same (or minimally
+modified) hamiltonian as
+before.
+*** Measurement                                                       :drill:
+What seems to be the
+essence of non-destructive
+measurements on a quantum
+system?
+**** Answer:
+The fact that the Hamiltonian
+of the system being measured
+is not disturbed, or at least
+only minimally, such as in
+a cloud chamber.
+*** Measurement                                                       :drill:
+What is a non-destructive
+quantum measurement according
+to Bitbol?
+**** Answer:
+A measurement that doesn't
+measure particle number, such
+as the measurement of 
+trajectories in a cloud chamber.
 *** Measurement                                                       :drill:
     SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
