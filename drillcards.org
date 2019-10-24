@@ -17704,6 +17704,41 @@ of the current vertex
 /x=(b|0)/.
 ** Probability
 *** Distributions                                                     :drill:
+What are the marginal
+distributions of a joint
+probability distribution
+/μ/ of two random variables?
+**** Answer:
+They are /μ₁:a ↦ ∑μ(a,b)/, where
+the sum goes over the outcomes
+/b∈B/ of the second variable and
+/μ₂:b ↦ ∑ₐμ(a,b)/ with /a/ over
+the outcomes /a∈A/ of the first
+variable.
+*** Distributions                                                     :drill:
+What distinguishes independent
+random variables /V₁/, /V₂/ in terms 
+of their distribution?
+**** Answer:
+The joint probability distribution
+of independent random variables is
+the (pure) tensor product 
+/μ=μ₁⊗μ₂/ of its marginal distributions
+/μ₁/, /μ₂/.
+*** Distributions                                                     :drill:
+What is the algebraic
+form of probability 
+distributions over a
+product space /A×B/
+in terms of distributions
+over /A/ and /B/, respectively.
+**** Answer:
+They are tensor products
+/∑ᵢⱼcᵢⱼαᵢ⊗βⱼ/ where /αᵢ/,
+/βⱼ/ are probability
+distributions over /A/
+and /B/ respectively.
+*** Distributions                                                     :drill:
     SCHEDULED: <2019-11-08 Fri>
     :PROPERTIES:
     :ID:       2b190a37-9bc7-4f7a-be59-498a92580b42
