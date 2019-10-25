@@ -10093,6 +10093,17 @@ the date, either in the filename, ie
 ~2018-09-05-example.org~ or as
 metadata under the ~published:~ 
 field.
+*** HTML                                                              :drill:
+What seems to be
+the easiest way to
+write a fraction
+a/b in html?
+**** Answer:
+With the fraction slash
+~&frasl;~ the fraction
+<sup>a</sup>&frasl;<sub>b</sub>
+is as good as it gets
+without using CSS.
 *** Phoenix                                                           :drill:
     SCHEDULED: <2020-09-02 Wed>
     :PROPERTIES:
@@ -10575,17 +10586,17 @@ cloning a repo that has
 submodules because cloning
 will not populate them.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2020-03-22 Sun>
     :PROPERTIES:
     :ID:       6dab2d72-b071-4708-9cd0-c29fce215ebb
-    :DRILL_LAST_INTERVAL: 60.975
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 148.718
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-25 Sun 11:15]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:20]
     :END:
 How to clone a git repository
 as a submodule of an existing
@@ -10899,6 +10910,38 @@ changes that need to be added for a commit
 and if things are in sync with remote
 repositories.
 * Documents
+** Conversions
+*** XML                                                               :drill:
+    SCHEDULED: <2020-01-22 Wed>
+    :PROPERTIES:
+    :ID:       fee6d9f1-797b-462f-98c4-197b9e703a4f
+    :DRILL_LAST_INTERVAL: 155.943
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-08-19 Mon 08:30]
+    :END:
+How to convert between
+different XML formats?
+**** Answer:
+Create or find an ~xsl~ file
+that describes the transformation
+and run ~xsltproc~ on it.
+*** How to convert latex to svg? 				      :drill:
+    :PROPERTIES:
+    :ID:       59330d5e-20ac-4fec-b116-9eae36b3979e
+    :END:
+**** Answer
+The most direct method would be
+to install mathjax-node using
+/npm install -g mathjax-node/ and
+then to use its /tex2svg/ command. 
+Alternatively, use /dvisvgm/ to convert
+dvi to svg because this is part of a
+tex-installation.
 ** Pdf
 *** Analysis                                                          :drill:
     SCHEDULED: <2020-05-07 Thu>
@@ -11261,38 +11304,6 @@ user password, otherwise
 many readers display the 
 contents without asking for
 the user password.
-** Conversions
-*** XML                                                               :drill:
-    SCHEDULED: <2020-01-22 Wed>
-    :PROPERTIES:
-    :ID:       fee6d9f1-797b-462f-98c4-197b9e703a4f
-    :DRILL_LAST_INTERVAL: 155.943
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-19 Mon 08:30]
-    :END:
-How to convert between
-different XML formats?
-**** Answer:
-Create or find an ~xsl~ file
-that describes the transformation
-and run ~xsltproc~ on it.
-*** How to convert latex to svg? 				      :drill:
-    :PROPERTIES:
-    :ID:       59330d5e-20ac-4fec-b116-9eae36b3979e
-    :END:
-**** Answer
-The most direct method would be
-to install mathjax-node using
-/npm install -g mathjax-node/ and
-then to use its /tex2svg/ command. 
-Alternatively, use /dvisvgm/ to convert
-dvi to svg because this is part of a
-tex-installation.
 * Finance
 ** Instruments
 *** Contracts                                                         :drill:
@@ -13531,17 +13542,17 @@ entries by appropriately sized
 identity matrices in a base
 permutation matrix /P'/. 
 *** Linear Algebra: Matrices                                          :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2020-03-18 Wed>
     :PROPERTIES:
     :ID:       908ac65c-6a27-4b63-ad50-36fba0dfec3a
-    :DRILL_LAST_INTERVAL: 60.975
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 145.0595
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-25 Sun 11:17]
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:22]
     :END:
 Why is it natural from an algebraic
 point of view to consider
@@ -17704,6 +17715,18 @@ of the current vertex
 /x=(b|0)/.
 ** Probability
 *** Distributions                                                     :drill:
+    SCHEDULED: <2019-10-29 Tue>
+    :PROPERTIES:
+    :ID:       2a8d3272-233e-4e57-854f-26b0a4b32451
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:21]
+    :END:
 What are the marginal
 distributions of a joint
 probability distribution
@@ -17716,6 +17739,18 @@ the sum goes over the outcomes
 the outcomes /a∈A/ of the first
 variable.
 *** Distributions                                                     :drill:
+    SCHEDULED: <2019-10-29 Tue>
+    :PROPERTIES:
+    :ID:       a7259811-6452-47be-90b2-a927ad52aa3b
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:22]
+    :END:
 What distinguishes independent
 random variables /V₁/, /V₂/ in terms 
 of their distribution?
@@ -17726,6 +17761,18 @@ the (pure) tensor product
 /μ=μ₁⊗μ₂/ of its marginal distributions
 /μ₁/, /μ₂/.
 *** Distributions                                                     :drill:
+    SCHEDULED: <2019-10-29 Tue>
+    :PROPERTIES:
+    :ID:       c07564c8-25a6-4627-95ba-6ed9d2c791ce
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:20]
+    :END:
 What is the algebraic
 form of probability 
 distributions over a
@@ -19830,17 +19877,17 @@ it is negative somewhere or
 more singular than the /δ/
 function.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2019-11-27 Wed>
     :PROPERTIES:
     :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
-    :DRILL_LAST_INTERVAL: 28.8751
-    :DRILL_REPEATS_SINCE_FAIL: 17
-    :DRILL_TOTAL_REPEATS: 32
+    :DRILL_LAST_INTERVAL: 32.6866
+    :DRILL_REPEATS_SINCE_FAIL: 18
+    :DRILL_TOTAL_REPEATS: 33
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.062
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-26 Thu 13:44]
+    :DRILL_AVERAGE_QUALITY: 3.06
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:21]
     :END:
 How to handle particles
 in a relativistic context?
@@ -20979,6 +21026,27 @@ About 100 femto seconds.
 This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
+*** Measurement                                                       :drill:
+What is a common
+misconception when
+looking at state
+changes /⟨φ|ψ⟩/?
+**** Answer:
+That the states /φ/,
+/ψ/ are states of the
+measured system. In reality,
+they are states of the 
+instruments involved in the
+measurement: /ψ/ is the state
+of the preparator after
+preparation of the system
+and /φ/ is the state of the
+measurer after the 
+measurement. The states of
+the system can be infinitely
+richer, a fact that may not
+be reflected in the measurement
+device.
 *** Measurement                                                       :drill:
     SCHEDULED: <2019-10-28 Mon>
     :PROPERTIES:
@@ -22896,17 +22964,17 @@ Check the /Load MPV configuration/
 box.
 ** Pulse
 *** Configuration                                                     :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       4453c65d-da92-42a6-8537-543d78b29f65
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:43]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:18]
     :END:
 How to reset the output
 of a running pulseaudio
@@ -22938,17 +23006,17 @@ From the configuration file
 /default.conf/ which is in
 /usr/share/pulseaudio/alsa-mixer/profile-sets.
 *** Configuration                                                     :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       7add6385-5b51-44da-9dcc-4ea202b4b237
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:41]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:18]
     :END:
 How to redirect output
 of a running pulseaudio
@@ -23800,17 +23868,17 @@ access to /cups/?
 That's an interface name,
 such as ~eth0~ or ~wlan0~.
 *** services                                                          :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       b2064a71-5dbe-402e-994b-9c7fa55a638b
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:37]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:19]
     :END:
 How to connect to an
 HDMI monitor when it is
@@ -23847,17 +23915,17 @@ where ~EVENT~ is ~KERNEL~ or ~UDEV~, the
 in a udev rule and ~subsystem~ is the
 subsystem for it.
 *** services                                                          :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       85ea6b90-63a9-44b8-a97c-ad435929824f
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:37]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:18]
     :END:
 How to detect whether
 the system is connected
@@ -23891,17 +23959,17 @@ Run ~udevadm monitor~ in
 a terminal and plug or
 unplug the monitor.
 *** services                                                          :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       616c0d69-c56b-433b-9d7b-f975c9697a6a
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:41]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:19]
     :END:
 How to use ~xrandr~ to detect
 whether the system is connected
@@ -23966,17 +24034,17 @@ This is the character class
 \w consists of all characters
 that can be part of a word.
 *** shell                                                             :drill:
-    SCHEDULED: <2019-10-25 Fri>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       8cc67e20-3e6a-415e-aeec-a81cfe60d5bd
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:39]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:19]
     :END:
 How to get the user name
 of the user at pts/0 with
