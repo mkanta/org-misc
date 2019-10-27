@@ -10094,6 +10094,18 @@ the date, either in the filename, ie
 metadata under the ~published:~ 
 field.
 *** HTML                                                              :drill:
+    SCHEDULED: <2019-10-30 Wed>
+    :PROPERTIES:
+    :ID:       37efcc49-37d4-4160-8a63-3ec9a57d5a1c
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:58]
+    :END:
 What seems to be
 the easiest way to
 write a fraction
@@ -10525,17 +10537,17 @@ Alternatively,
 will list the submodules, but
 only if they are initialised.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-12-27 Fri>
     :PROPERTIES:
     :ID:       ac477091-6519-4666-80cc-2f623a52f00f
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-01 Tue 11:06]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:59]
     :END:
 How to determine whether
 a repository has submodules?
@@ -10612,17 +10624,17 @@ initialised and updated with
 ~git submodule update~ before
 it can be used.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2020-03-30 Mon>
     :PROPERTIES:
     :ID:       07faa63f-7ed6-49a7-85e3-f9879fc38c25
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 156.25
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-25 Sun 11:18]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:56]
     :END:
 How are submodules updated
 when their repositories
@@ -10631,7 +10643,7 @@ change?
 This has to be done manually
 by going into the directory
 of the subdirectory, checking
-out the master branch and pulling.
+out a branch and pulling.
 *** git                                                               :drill:
     SCHEDULED: <2020-05-22 Fri>
     :PROPERTIES:
@@ -11393,17 +11405,17 @@ contract in the future is
 said to hold the long position
 of the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-18 Mon>
     :PROPERTIES:
     :ID:       938da5ae-787d-4b8c-96e7-806c1822e580
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.2095
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:40]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:53]
     :END:
 How to speculate with
 a long futures position?
@@ -11446,34 +11458,34 @@ where the parties deal through
 an exchange rather than directly
 with each other.
 *** Pricing                                                           :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-19 Tue>
     :PROPERTIES:
     :ID:       fcbe645b-079b-4d4c-969c-58c709a31dd6
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.7949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:39]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:50]
     :END:
 What is the repo rate?
 **** Answer:
 The interest rate for
 /repurchase agreements/.
 *** Pricing                                                           :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-20 Wed>
     :PROPERTIES:
     :ID:       56dcd2b8-adc7-4d5d-b6c8-8932eda09eec
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:42]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:51]
     :END:
 What is a /repurchase agreement/?
 **** Answer:
@@ -11483,17 +11495,17 @@ security to a counter-party
 and agrees to buy it back at
 a higher price at a later date.
 *** Pricing                                                           :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-18 Mon>
     :PROPERTIES:
     :ID:       ab289930-9c68-4f70-b1ab-a6b25379ec4f
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:42]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:50]
     :END:
 In which sense is a
 /repurchase agreement/ a
@@ -11506,17 +11518,17 @@ cash. The higher buy-back
 price is the interest for
 that loan.
 *** Pricing                                                           :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-20 Wed>
     :PROPERTIES:
     :ID:       300a27cc-47f6-4a4c-ad31-3d2e976cc140
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:40]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:53]
     :END:
 Why is the repo rate
 considered risk-free?
@@ -11527,17 +11539,17 @@ security that the
 borrower provides as
 collateral.
 *** Pricing                                                           :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-19 Tue>
     :PROPERTIES:
     :ID:       1e8e4d5c-0f27-48c7-a1fd-584681ebe02d
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.7949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:39]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:50]
     :END:
 Why is the repo rate
 important?
@@ -15703,17 +15715,17 @@ Entities whose equality
 is undecidable, such as
 functions.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2020-08-09 Sun>
     :PROPERTIES:
     :ID:       d03c26c3-aab0-4698-b521-e29e6fc4749d
-    :DRILL_LAST_INTERVAL: 155.943
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 287.8708
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:38]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:57]
     :END:
 How to prove theorems
 using the /Curry Howard/
@@ -16363,17 +16375,17 @@ the use of a term, for example
 by listing the properties a 
 noun should have.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-01 Fri>
     :PROPERTIES:
     :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 6.3173
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:56]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:49]
     :END:
 What is the difference
 between a /Proposition/
@@ -17089,17 +17101,17 @@ of function types?
 Lambda expressions
 /λx.Φ/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2020-06-22 Mon>
     :PROPERTIES:
     :ID:       f9817a42-8b33-4c24-aa80-181f63bacb1c
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 240.2382
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-31 Fri 10:38]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:56]
     :END:
 What is a /computation rule/
 for a type?
@@ -17246,17 +17258,17 @@ as functions whose return type
 /B(x)/ depends on its argument 
 type /x/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2020-06-28 Sun>
     :PROPERTIES:
     :ID:       7ff87fff-3fca-45ac-9c07-b4772c148665
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 246.3221
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.143
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-31 Fri 10:29]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:57]
     :END:
 How is the dependent function
 type /∏(x:A),B(x):𝒰/ related to
@@ -17266,17 +17278,17 @@ If /B(x)≡B/ is the constant
 family then
 /∏(x:A),B(x)≡(A→B)/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-10-30 Wed>
     :PROPERTIES:
     :ID:       4f522476-5489-4ecf-b30d-f450793a8ca4
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 0
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-31 Fri 10:33]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 17:01]
     :END:
 How are predicates
 constructed in type theory?
@@ -18064,17 +18076,17 @@ becomes linear with weights
 *wᵢ* = Σ⁻¹ *μᵢ* and bias
 /wᵢ₀=-½ *μᵢᵗ* Σ⁻¹ *μᵢ* + P(ωᵢ)/.
 *** Classification                                                    :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2020-03-12 Thu>
     :PROPERTIES:
     :ID:       8bda3922-cb58-4254-9d30-853e18837e9d
-    :DRILL_LAST_INTERVAL: 56.6141
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.0818
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-30 Fri 09:28]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:59]
     :END:
 Why should classifiers /gᵢ(*x*)/
 be at most quadratic under 
@@ -18114,17 +18126,17 @@ are often chosen as
 /gᵢ(*x*)=p(*x* |ωᵢ)P(ωᵢ)/ or
 /gᵢ(*x*)=log p(*x* |ωᵢ) + log P(ωᵢ)/.
 *** Classification                                                    :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2020-03-12 Thu>
     :PROPERTIES:
     :ID:       61399ec2-1627-43cb-b6c8-aee950cc8438
-    :DRILL_LAST_INTERVAL: 56.6141
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.0818
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-30 Fri 09:27]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:54]
     :END:
 What is the class conditional
 density?
@@ -18135,17 +18147,17 @@ of measuring feature vector
 *x* if the true state of nature
 is given by class /ωᵢ/.
 *** Classification                                                    :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2020-03-12 Thu>
     :PROPERTIES:
     :ID:       70ee4b91-339b-42d8-b0f9-b0437453ed8b
-    :DRILL_LAST_INTERVAL: 56.6141
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.0818
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-30 Fri 09:27]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:58]
     :END:
 Why can the covariance matrix
 /Σᵢ/ of a class conditional density
@@ -18185,17 +18197,17 @@ normal with covariance matrices
 /Σᵢ=σ²/ and equal a priori probabilities
 /P(ωᵢ)/.
 *** Classification: Learning                                          :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2020-03-12 Thu>
     :PROPERTIES:
     :ID:       62f12b78-bfcb-4f8a-8d7c-f2a7c86df5dd
-    :DRILL_LAST_INTERVAL: 56.6141
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.0818
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-30 Fri 09:30]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:57]
     :END:
 What is the goal of learning
 for classification purposes?
@@ -21027,6 +21039,18 @@ This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
 *** Measurement                                                       :drill:
+    SCHEDULED: <2019-10-30 Wed>
+    :PROPERTIES:
+    :ID:       28154337-e2e4-4c22-8d5e-88938999271f
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 17:00]
+    :END:
 What is a common
 misconception when
 looking at state
@@ -22922,17 +22946,17 @@ and record it at the same time, run
 and [arecord with the default device].
 ** Players
 *** gnome-mpv                                                         :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-19 Tue>
     :PROPERTIES:
     :ID:       58bb49b7-c3c9-4efb-9b95-7d4fe610b256
-    :DRILL_LAST_INTERVAL: 9.756
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.7949
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:42]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:49]
     :END:
 How to pass mpv options
 through?
@@ -22941,17 +22965,17 @@ By opening the /Preferences/
 dialog and putting them into
 the /Extra MPV options/ field.
 *** gnome-mpv                                                         :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-18 Mon>
     :PROPERTIES:
     :ID:       d0dd8243-59fb-4fd4-a4de-28003ce4fcdd
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:36]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:51]
     :END:
 How to configure mpv options
 for gnome-mpv?
@@ -22986,17 +23010,17 @@ where ~CARD~ is the number of the
 soundcard and ~PROFILE~ is of the
 form ~output:mapname~.
 *** Configuration                                                     :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-16 Sat>
     :PROPERTIES:
     :ID:       9faaa097-3671-459d-b75f-a11bddeb6e05
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:45]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:52]
     :END:
 How to get the possible ~MAP~ names
 for a command like
@@ -23890,17 +23914,17 @@ Write a udev rule for
 calls a script to toggle
 hdmi, ~RUN+=hdmi_toggle~.
 *** services                                                          :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       72d6df73-6ed9-4039-b21b-21fc789b0ffa
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.1068
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:44]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:53]
     :END:
 How to find the relevant 
 action and subsystem for 
@@ -23938,17 +23962,17 @@ HDMI status file in
 which contains /connected/
 or /disconnected/.
 *** services                                                          :drill:
-    SCHEDULED: <2019-10-26 Sat>
+    SCHEDULED: <2019-11-18 Mon>
     :PROPERTIES:
     :ID:       69907841-2aff-46d0-862f-7fa4acf7ecd1
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:35]
+    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:51]
     :END:
 How to find out what
 happens in udev when
