@@ -8158,17 +8158,17 @@ only installs /Prelude/
 and some of the functionality
 would be missing.
 *** Psc-package                                                       :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2020-08-24 Mon>
     :PROPERTIES:
     :ID:       424913d1-9741-46ad-8bff-f526e6b243fe
-    :DRILL_LAST_INTERVAL: 154.0559
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 299.9468
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.9
+    :DRILL_AVERAGE_QUALITY: 3.571
+    :DRILL_EASE: 2.0
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-05-28 Tue 08:15]
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:51]
     :END:
 What is the problem with
 =psc-package repl=?
@@ -8455,17 +8455,17 @@ it will still listen to
 its configured port on
 localhost.
 *** Syntax                                                            :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2020-08-12 Wed>
     :PROPERTIES:
     :ID:       db6192ec-fcf8-42b5-a7ea-b8f22c7319b9
-    :DRILL_LAST_INTERVAL: 152.0844
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 287.7437
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-30 Thu 08:53]
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:55]
     :END:
 What does the =~>= arrow
 signify in purescript?
@@ -15273,17 +15273,17 @@ of coordinates of /f/ if it
 is small enough and leads to
 a Taylor expansion of /f/.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2019-11-02 Sat>
     :PROPERTIES:
     :ID:       1e9184ca-9752-46c5-ae04-5224b7c8fa7c
-    :DRILL_LAST_INTERVAL: 58.0238
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-01 Sun 08:13]
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:56]
     :END:
 What is an infinitesimal
 transformation induced by
@@ -15296,17 +15296,17 @@ induced by the action
 group. It is given by
 /dₐf=∑ᵢdaᵢ∂/∂aᵢf(*x*;a)|ₐ₌₀/.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2020-03-29 Sun>
     :PROPERTIES:
     :ID:       bd604eec-ce75-4815-8676-506e30e42635
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 152.4375
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-28 Wed 09:14]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:52]
     :END:
 How does an r-parameter 
 Lie group act on an 
@@ -17727,17 +17727,17 @@ of the current vertex
 /x=(b|0)/.
 ** Probability
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2019-11-08 Fri>
     :PROPERTIES:
     :ID:       2a8d3272-233e-4e57-854f-26b0a4b32451
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:21]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:51]
     :END:
 What are the marginal
 distributions of a joint
@@ -17751,17 +17751,17 @@ the sum goes over the outcomes
 the outcomes /a∈A/ of the first
 variable.
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2019-11-07 Thu>
     :PROPERTIES:
     :ID:       a7259811-6452-47be-90b2-a927ad52aa3b
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:22]
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:50]
     :END:
 What distinguishes independent
 random variables /V₁/, /V₂/ in terms 
@@ -17773,17 +17773,17 @@ the (pure) tensor product
 /μ=μ₁⊗μ₂/ of its marginal distributions
 /μ₁/, /μ₂/.
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2019-11-08 Fri>
     :PROPERTIES:
     :ID:       c07564c8-25a6-4627-95ba-6ed9d2c791ce
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:20]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:50]
     :END:
 What is the algebraic
 form of probability 
@@ -20012,17 +20012,17 @@ and that /⟨σᵢ|Pⱼ|σₖ⟩=δᵢⱼδⱼₖ/,
 so that a nonzero term is 
 obtained only for /i=j=k/.
 *** Entanglement                                                      :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2019-11-02 Sat>
     :PROPERTIES:
     :ID:       075a2d6e-9669-49a4-8626-e108571c66ac
-    :DRILL_LAST_INTERVAL: 99.0941
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-22 Mon 11:31]
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:57]
     :END:
 What is the principle
 of quantum teleportation?
@@ -20711,17 +20711,17 @@ of the Lorentz-group on the space and
 minimal, ie the space of an irreducible
 representation of the Lorentz-group.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2020-01-14 Tue>
     :PROPERTIES:
     :ID:       0992cf10-9d6b-420b-98fd-4e3215682379
-    :DRILL_LAST_INTERVAL: 67.8117
-    :DRILL_REPEATS_SINCE_FAIL: 18
-    :DRILL_TOTAL_REPEATS: 28
+    :DRILL_LAST_INTERVAL: 76.7628
+    :DRILL_REPEATS_SINCE_FAIL: 19
+    :DRILL_TOTAL_REPEATS: 29
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 3.144
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.139
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-22 Thu 12:55]
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:51]
     :END:
 How can particles be classified?
 **** Answer:
@@ -21039,6 +21039,18 @@ This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
 *** Measurement                                                       :drill:
+    SCHEDULED: <2019-11-02 Sat>
+    :PROPERTIES:
+    :ID:       db19b00f-8f0a-4184-8ee0-9fbc91096342
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:52]
+    :END:
 What happens at
 attempts to clone an
 unknown quantum state?
@@ -21048,6 +21060,18 @@ to a measurement, hence the
 unknown state collapses before
 it is copied.
 *** Measurement                                                       :drill:
+    SCHEDULED: <2019-11-02 Sat>
+    :PROPERTIES:
+    :ID:       1a8e944a-8660-422c-a76b-f1b47e98c40e
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:53]
+    :END:
 What seems to be the
 practical difficulty
 in cloning states?
@@ -21058,6 +21082,18 @@ rich as it has to answer
 any possible question. This
 richness can not be copied.
 *** Measurement                                                       :drill:
+    SCHEDULED: <2019-11-02 Sat>
+    :PROPERTIES:
+    :ID:       350ae728-c85f-4658-b31d-9734c4a7a083
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:54]
+    :END:
 Why is the no-cloning
 theorem a necessity
 from a measurement point
@@ -22398,17 +22434,17 @@ despite being electrically
 neutral they can have opposite
 lepton numbers.
 *** Path Integral						      :drill:
-    SCHEDULED: <2019-10-29 Tue>
+    SCHEDULED: <2019-11-02 Sat>
     :PROPERTIES:
     :ID:       94342910-30cb-4f2e-a362-6f9660a95aff
-    :DRILL_LAST_INTERVAL: 112.3563
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 15
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.067
-    :DRILL_EASE: 1.3
+    :DRILL_LAST_INTERVAL: 3.806
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-09 Tue 08:44]
+    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:56]
     :END:
 What does the path-integral describe?
 **** Answer:
