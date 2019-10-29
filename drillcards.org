@@ -10576,7 +10576,7 @@ will be lost including those
 that were meant to be committed
 and pushed to its repository.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2020-04-01 Wed>
+    SCHEDULED: <2020-03-31 Tue>
     :PROPERTIES:
     :ID:       345a3f19-21cb-43ff-b185-9d4ab21be687
     :DRILL_LAST_INTERVAL: 156.25
@@ -13993,7 +13993,7 @@ representation of /G/, it
 acts via /heₗ=eₕₗ/ on the
 basis of /KG/.
 *** Representation Theory: Permutation Representation                 :drill:
-    SCHEDULED: <2020-04-01 Wed>
+    SCHEDULED: <2020-03-31 Tue>
     :PROPERTIES:
     :ID:       ff4e182a-dffb-437b-9378-13c7fa27d2f1
     :DRILL_LAST_INTERVAL: 156.25
@@ -14003,7 +14003,7 @@ basis of /KG/.
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-28 Mon 19:42]
+    :DRILL_LAST_REVIEWED: [2019-10-27 Sun 20:05]
     :END:
 How come only the eigenvalues
 of the fixed points show up
@@ -21039,6 +21039,38 @@ This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
 *** Measurement                                                       :drill:
+What happens at
+attempts to clone an
+unknown quantum state?
+**** Answer:
+The cloning attempt amounts
+to a measurement, hence the
+unknown state collapses before
+it is copied.
+*** Measurement                                                       :drill:
+What seems to be the
+practical difficulty
+in cloning states?
+**** Answer:
+Once a quantum state is
+unknown it is infinitely
+rich as it has to answer
+any possible question. This
+richness can not be copied.
+*** Measurement                                                       :drill:
+Why is the no-cloning
+theorem a necessity
+from a measurement point
+of view?
+**** Answer:
+Because the ability to
+clone an unknown quantum
+state would imply the
+possibility to measure
+complementary observables by
+measuring them separately
+on the clones.
+*** Measurement                                                       :drill:
     SCHEDULED: <2019-10-30 Wed>
     :PROPERTIES:
     :ID:       28154337-e2e4-4c22-8d5e-88938999271f
@@ -24097,9 +24129,9 @@ physically present at
 the computer?
 **** Answer:
 With ~who~ or ~w~. The user
-at terminal :0 is the
+at display :0 is the
 user physically present 
-since terminal :0=pts/0
+since display :0=pts/0
 is the screen and keyboard
 physically connected to
 the computer.
