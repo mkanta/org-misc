@@ -1248,17 +1248,17 @@ arity in the Erlang VM, which
 makes Lisp 1 implementations 
 awkward.
 *** expressions                                                       :drill:
-    SCHEDULED: <2019-11-03 Sun>
+    SCHEDULED: <2020-10-13 Tue>
     :PROPERTIES:
     :ID:       40bee627-16e1-4bd6-a018-5389091ce1e9
-    :DRILL_LAST_INTERVAL: 177.7733
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 344.5247
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-09 Thu 12:03]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:55]
     :END:
 What is the rap on
 the =do:...=
@@ -1684,17 +1684,17 @@ pushed on the stack when
 a non-editing command
 occurs.
 *** editing                                                           :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-28 Thu>
     :PROPERTIES:
     :ID:       0d809df9-e405-4c92-bf86-d5ba91910e39
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:05]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:48]
     :END:
 How to initiate a
 /redo/ after a messed
@@ -1706,17 +1706,17 @@ command like ~C-f~ after
 the mess-up and then
 do an /undo/.
 *** editing                                                           :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-28 Thu>
     :PROPERTIES:
     :ID:       5f259e2f-9730-41ff-9aa0-d9187a505bec
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:14]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:50]
     :END:
 How does /undo/
 work in emacs?
@@ -2500,17 +2500,17 @@ emacs. The closest to piping
 /emacs –insert <(echo string)/
 ** general theory
 *** Functional                                                        :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-01-03 Fri>
     :PROPERTIES:
     :ID:       c631ade0-39d4-4ce9-b9eb-ea0886ec9915
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.975
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-08 Tue 13:36]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:54]
     :END:
 How does functional programming
 differ from its imperative
@@ -2523,17 +2523,17 @@ imperative programming goes into
 the details of how things are to
 be done.
 *** Imperative                                                        :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-01-04 Sat>
     :PROPERTIES:
     :ID:       75cb37b1-abad-4a08-891b-520d4c398b7a
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-08 Tue 13:35]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:57]
     :END:
 Is it possible that the higher
 efficiency in imperative
@@ -2548,17 +2548,17 @@ base is reached, its management by
 imperative means may become
 prohibitive.
 *** Imperative                                                        :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-01-04 Sat>
     :PROPERTIES:
     :ID:       4273a098-a138-4f3e-9745-36106ac723f0
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-08 Tue 13:36]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:56]
     :END:
 Why could imperative programming
 be called imperial instead?
@@ -2569,17 +2569,17 @@ detail about resource acquisition
 is planned out instead of letting
 the market provide it.
 *** Imperative                                                        :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-01-04 Sat>
     :PROPERTIES:
     :ID:       ced7128e-5cb1-48c2-aa57-ab056b52e1eb
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-08 Tue 13:36]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:55]
     :END:
 How is imperative programming
 related to management style?
@@ -7236,17 +7236,17 @@ the other hand, ~runAff~ takes
 a callback to be run after the
 fiber completes.
 *** Browser                                                           :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-06-15 Mon>
     :PROPERTIES:
     :ID:       2cb649c0-e947-4d1f-995e-a80b123fff86
-    :DRILL_LAST_INTERVAL: 101.5646
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 225.4734
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-23 Tue 08:56]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:56]
     :END:
 How to determine where
 to put the /script/ tags
@@ -7427,17 +7427,17 @@ In a ~makeAff~ create a
 on it and call one of the
 ~readAs...~ functions on it.
 *** File Interactions                                                 :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-03-30 Mon>
     :PROPERTIES:
     :ID:       52baa44a-377f-4ee4-b39e-ea49f737b1cf
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 148.3868
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-14 Wed 08:48]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:58]
     :END:
 How to get the result
 of a ~FileReader~ in an
@@ -14463,17 +14463,17 @@ Isometric operators are like unitary
 operators except that they may not be
 surjective.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2019-11-03 Sun>
+    SCHEDULED: <2019-12-29 Sun>
     :PROPERTIES:
     :ID:       46ad0d7a-2654-4e47-a6fa-0945e2d7c6a0
-    :DRILL_LAST_INTERVAL: 49.9025
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 56.4896
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.947
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-14 Sat 11:12]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:57]
     :END:
 How are Heisenberg groups
 related to symplectic vector
@@ -15248,17 +15248,17 @@ solution of the heat
 equation according to
 Heaviside.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-04-07 Tue>
     :PROPERTIES:
     :ID:       98d907fb-2dc5-4625-9c93-d89240c16faa
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 156.25
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-01 Sun 08:19]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:57]
     :END:
 How do differential operators /D/
 induce a change of coordinates
@@ -15273,17 +15273,17 @@ of coordinates of /f/ if it
 is small enough and leads to
 a Taylor expansion of /f/.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-11 Mon>
     :PROPERTIES:
     :ID:       1e9184ca-9752-46c5-ae04-5224b7c8fa7c
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 8.4517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:56]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:49]
     :END:
 What is an infinitesimal
 transformation induced by
@@ -16119,17 +16119,17 @@ Because there is no projection
 for ⊗, ie no rules /A⊗B→A/ 
 nor /A⊗B→B/.
 *** Linear                                                            :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-11-05 Thu>
     :PROPERTIES:
     :ID:       707c1469-4d69-4e34-87ab-c2fe6d2b9b29
-    :DRILL_LAST_INTERVAL: 221.8535
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 368.055
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-25 Mon 18:04]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.62
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:53]
     :END:
 Why is linear logic suitable
 for both quantum mechanics and
@@ -16162,17 +16162,17 @@ in functional programming or
 make a measurement in a
 quantum system.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-26 Tue>
     :PROPERTIES:
     :ID:       8d17b995-7f1c-485d-b3f4-66729d446b88
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:14]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:50]
     :END:
 What is the meaning of
 A⊸B in the resource
@@ -16309,17 +16309,17 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-11-03 Sun>
+    SCHEDULED: <2019-11-26 Tue>
     :PROPERTIES:
     :ID:       e1adb5d5-f7e2-4458-aac6-a307b3ad732a
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.212
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-24 Thu 12:19]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:48]
     :END:
 In which sense are
 constructive logic
@@ -17627,17 +17627,17 @@ vertex is calculated as
 This calculation determines
 the leaving variable.
 *** Simplex Method                                                    :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-08-01 Sat>
     :PROPERTIES:
     :ID:       70cc6e5b-9828-4332-ae15-8338465f8780
-    :DRILL_LAST_INTERVAL: 122.5913
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 272.1527
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:56]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:53]
     :END:
 How is the entering variable
 determined at a simplex 
@@ -18480,17 +18480,17 @@ can be interpreted as language,
 these correspond to meaningful
 orbits, ie. in a neural network.
 *** Dynamics: Symbolic                                                :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-12-28 Sat>
     :PROPERTIES:
     :ID:       74795f07-def7-4bef-81fb-4fa5dd195392
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.2213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-10 Thu 14:48]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:55]
     :END:
 What would constitute
 meaningful orbits of
@@ -18628,17 +18628,17 @@ would model the flow of
 quantities /xₖ/ through
 a graph.
 *** Matrices                                                          :drill:
-    SCHEDULED: <2019-11-03 Sun>
+    SCHEDULED: <2020-09-26 Sat>
     :PROPERTIES:
     :ID:       83e90127-e424-468d-8820-f6609ff96765
-    :DRILL_LAST_INTERVAL: 177.7733
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 328.1695
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-09 Thu 12:10]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:58]
     :END:
 How to define a
 relation /R(M)/ for 
@@ -19183,17 +19183,17 @@ and the total is
 /V=½∫dxT(∂ₓψ(x,t))²/, with the integral
 over the whole length of the string.
 *** Waves                                                             :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2020-02-10 Mon>
     :PROPERTIES:
     :ID:       c5b54c57-0d13-4deb-b197-1e2032bfe9a3
-    :DRILL_LAST_INTERVAL: 45.7498
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 99.0941
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-17 Tue 12:30]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:53]
     :END:
 How to derive the wave equation
 for a string?
@@ -20012,17 +20012,17 @@ and that /⟨σᵢ|Pⱼ|σₖ⟩=δᵢⱼδⱼₖ/,
 so that a nonzero term is 
 obtained only for /i=j=k/.
 *** Entanglement                                                      :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-10 Sun>
     :PROPERTIES:
     :ID:       075a2d6e-9669-49a4-8626-e108571c66ac
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 7.3836
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:57]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:51]
     :END:
 What is the principle
 of quantum teleportation?
@@ -21039,17 +21039,17 @@ This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-13 Wed>
     :PROPERTIES:
     :ID:       db19b00f-8f0a-4184-8ee0-9fbc91096342
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.517
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:52]
     :END:
 What happens at
 attempts to clone an
@@ -21060,17 +21060,17 @@ to a measurement, hence the
 unknown state collapses before
 it is copied.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-12 Tue>
     :PROPERTIES:
     :ID:       1a8e944a-8660-422c-a76b-f1b47e98c40e
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.2829
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:53]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:52]
     :END:
 What seems to be the
 practical difficulty
@@ -21082,17 +21082,17 @@ rich as it has to answer
 any possible question. This
 richness can not be copied.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-13 Wed>
     :PROPERTIES:
     :ID:       350ae728-c85f-4658-b31d-9734c4a7a083
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:54]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:52]
     :END:
 Why is the no-cloning
 theorem a necessity
@@ -21839,17 +21839,17 @@ amplitudes /ρ, τ/. If the splitter
 is lossless, this is a unitary
 transformation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-07 Thu>
     :PROPERTIES:
     :ID:       d70728d5-3a97-46bd-b36a-4535149e4af1
-    :DRILL_LAST_INTERVAL: 45.7498
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-17 Tue 12:21]
+    :DRILL_LAST_INTERVAL: 3.902
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:59]
     :END:
 How to check that the particle
 created by
@@ -22434,17 +22434,17 @@ despite being electrically
 neutral they can have opposite
 lepton numbers.
 *** Path Integral						      :drill:
-    SCHEDULED: <2019-11-02 Sat>
+    SCHEDULED: <2019-11-07 Thu>
     :PROPERTIES:
     :ID:       94342910-30cb-4f2e-a362-6f9660a95aff
-    :DRILL_LAST_INTERVAL: 3.806
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 4.415
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:56]
+    :DRILL_AVERAGE_QUALITY: 3.056
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:51]
     :END:
 What does the path-integral describe?
 **** Answer:
@@ -22969,17 +22969,17 @@ of energy eigenstates
 /φ(t)=∑cₖexp(-iλₖt)|λₖ>/
 with ℏ=1.
 *** Time Evolution                                                    :drill:
-    SCHEDULED: <2019-11-03 Sun>
+    SCHEDULED: <2020-08-17 Mon>
     :PROPERTIES:
     :ID:       b2ec5172-fcff-410f-9db3-69310dca0029
-    :DRILL_LAST_INTERVAL: 155.943
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 287.8708
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-31 Fri 10:29]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:56]
     :END:
 How do probabilities
 /|⟨ψ|φ(t)⟩|²/ evolve?
@@ -24324,17 +24324,17 @@ Try
 which kills all processes
 and unmounts file-systems.
 *** terminal                                                          :drill:
-    SCHEDULED: <2019-11-03 Sun>
+    SCHEDULED: <2020-09-26 Sat>
     :PROPERTIES:
     :ID:       77fa807f-8907-43f9-b683-673825d0e1ca
-    :DRILL_LAST_INTERVAL: 177.7733
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 328.1695
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-09 Thu 12:03]
+    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:54]
     :END:
 How to enter unicode in
 an lxterminal?
