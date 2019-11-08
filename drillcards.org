@@ -9101,17 +9101,17 @@ the rows of a data frame?
 With ~apply(frame,1,function)~, ie
 by setting the ~Margin~ argument to 1.
 *** Data Conversions                                                  :drill:
-    SCHEDULED: <2019-11-07 Thu>
+    SCHEDULED: <2019-12-07 Sat>
     :PROPERTIES:
     :ID:       fd6e93ed-845d-4f22-882e-9b4f69c3903b
-    :DRILL_LAST_INTERVAL: 23.7292
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 29.7564
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-14 Mon 13:46]
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:09]
     :END:
 How to convert a data frame to a
 list of rows?
@@ -9356,6 +9356,18 @@ the default implicit
 cast with ~as.matrix~
 results in a column.
 *** Objects                                                           :drill:
+    SCHEDULED: <2019-11-11 Mon>
+    :PROPERTIES:
+    :ID:       bba45e28-8344-49e3-b7cb-e200cb5f7cbf
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:05]
+    :END:
 How are generic functions
 implemented for S3 objects?
 **** Answer:
@@ -9367,6 +9379,18 @@ looking for functions ~fname.xclass~
 where ~xclass~ is one of the class
 names of ~x~.
 *** Syntax                                                            :drill:
+    SCHEDULED: <2019-11-11 Mon>
+    :PROPERTIES:
+    :ID:       14989115-a5bf-4421-8d4b-75ae18d9478c
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:07]
+    :END:
 What does the dot in
 a name mean in the
 context of S3 objects?
@@ -9377,6 +9401,18 @@ of S3 objects have names like
 the implementation of function
 ~funcname~ for class ~classname~.
 *** Syntax                                                            :drill:
+    SCHEDULED: <2019-11-11 Mon>
+    :PROPERTIES:
+    :ID:       78a3e03f-838c-4727-9a81-96ad6bf37c07
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:04]
+    :END:
 What does the dot
 in a name as in
 ~loglik.poisson~
@@ -10180,17 +10216,17 @@ the date, either in the filename, ie
 metadata under the ~published:~ 
 field.
 *** HTML                                                              :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2019-11-30 Sat>
     :PROPERTIES:
     :ID:       37efcc49-37d4-4160-8a63-3ec9a57d5a1c
-    :DRILL_LAST_INTERVAL: 9.4116
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.2114
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-30 Wed 13:03]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:32]
     :END:
 What seems to be
 the easiest way to
@@ -10600,6 +10636,48 @@ were made before committing?
 Stage the changes with
 ~git add ...~ and run
 ~git diff --staged~.
+*** git submodules                                                    :drill:
+    SCHEDULED: <2019-11-11 Mon>
+    :PROPERTIES:
+    :ID:       6b9990fb-7499-4975-a6b7-5accc9399ea4
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:07]
+    :END:
+How to get rid of status
+messages about updates in
+submodules after making
+changes in them?
+**** Answer:
+Commit and push the changes
+from the submodule and then
+run ~git submodule update~
+from the parent.
+*** git submodules                                                    :drill:
+    SCHEDULED: <2019-11-11 Mon>
+    :PROPERTIES:
+    :ID:       37fe5ecd-4b0c-4c29-aa56-eefcad2be563
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:08]
+    :END:
+What to do to incorporate
+upstream changes in submodules
+with local changes?
+**** Answer:
+Run ~git submodule update --remote --rebase~
+or ~--merge~ instead of rebase.
+Then resolve conflicts as usual.
 *** git submodules                                                    :drill:
     SCHEDULED: <2019-12-18 Wed>
     :PROPERTIES:
@@ -11250,17 +11328,17 @@ It is an instruction that
 determines the text position
 as in =175 720 Td=.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2021-01-31 Sun>
     :PROPERTIES:
     :ID:       fe46303f-18c3-4df4-91f0-d90ccba4b526
-    :DRILL_LAST_INTERVAL: 206.3166
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 449.7702
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.715
     :DRILL_EASE: 2.18
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-04-16 Tue 11:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:37]
     :END:
 Why does a pdf-stream always come
 with a dictionary?
@@ -12316,17 +12394,17 @@ that can be named is not the
 eternal Tao.
 ** Mythology
 *** Actors                                                            :drill:
-    SCHEDULED: <2019-11-07 Thu>
+    SCHEDULED: <2020-06-13 Sat>
     :PROPERTIES:
     :ID:       29fa81e3-7ccf-49d2-b025-7fb274cc7b1f
-    :DRILL_LAST_INTERVAL: 108.8692
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 218.5005
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-21 Sun 10:57]
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:06]
     :END:
 What are the /aeons/ in
 gnostic scripture?
@@ -12812,17 +12890,17 @@ or
 http://snowball.tartarus.org/
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2019-12-09 Mon>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 27.383
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 52
+    :DRILL_LAST_INTERVAL: 30.6416
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 53
     :DRILL_FAILURE_COUNT: 9
-    :DRILL_AVERAGE_QUALITY: 2.942
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.943
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:48]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:37]
     :END:
 的
 **** Answer:
@@ -12891,17 +12969,17 @@ one, a little
 **** Answers:
 to be; indeed, yes, right; demonstrative pronoun
 *** Characters                                                        :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2019-12-13 Fri>
     :PROPERTIES:
     :ID:       813e8718-8c89-46fc-bb21-bec2f9401647
-    :DRILL_LAST_INTERVAL: 32.8307
-    :DRILL_REPEATS_SINCE_FAIL: 20
-    :DRILL_TOTAL_REPEATS: 32
+    :DRILL_LAST_INTERVAL: 35.4572
+    :DRILL_REPEATS_SINCE_FAIL: 21
+    :DRILL_TOTAL_REPEATS: 33
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.062
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-06 Sun 11:46]
+    :DRILL_AVERAGE_QUALITY: 3.06
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:36]
     :END:
 不
 **** Answer:
@@ -17434,17 +17512,17 @@ as compared to the one of
 first order logic
 /⊢ A/ "A has a proof".
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2020-01-24 Fri>
     :PROPERTIES:
     :ID:       492e384d-9355-491d-812c-b50a75dac1ea
-    :DRILL_LAST_INTERVAL: 61.4142
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 77.0134
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.071
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-08 Sun 17:07]
+    :DRILL_AVERAGE_QUALITY: 3.066
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:38]
     :END:
 What is /judgemental/
 equality?
@@ -17813,17 +17891,17 @@ of the current vertex
 /x=(b|0)/.
 ** Probability
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2019-11-30 Sat>
     :PROPERTIES:
     :ID:       2a8d3272-233e-4e57-854f-26b0a4b32451
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4601
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:51]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:35]
     :END:
 What are the marginal
 distributions of a joint
@@ -17837,17 +17915,17 @@ the sum goes over the outcomes
 the outcomes /a∈A/ of the first
 variable.
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-11-07 Thu>
+    SCHEDULED: <2019-11-28 Thu>
     :PROPERTIES:
     :ID:       a7259811-6452-47be-90b2-a927ad52aa3b
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.608
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:50]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:04]
     :END:
 What distinguishes independent
 random variables /V₁/, /V₂/ in terms 
@@ -17859,17 +17937,17 @@ the (pure) tensor product
 /μ=μ₁⊗μ₂/ of its marginal distributions
 /μ₁/, /μ₂/.
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2019-11-30 Sat>
     :PROPERTIES:
     :ID:       c07564c8-25a6-4627-95ba-6ed9d2c791ce
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.6702
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:50]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:34]
     :END:
 What is the algebraic
 form of probability 
@@ -17884,17 +17962,17 @@ They are tensor products
 distributions over /A/
 and /B/ respectively.
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2020-07-03 Fri>
     :PROPERTIES:
     :ID:       2b190a37-9bc7-4f7a-be59-498a92580b42
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:33]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:39]
     :END:
 What is the point of
 /quasi-probability distributions/?
@@ -19220,17 +19298,17 @@ a Lagrangian and its
 Hamiltonian is the 
 Poisson bracket of it.
 *** Waves                                                             :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2020-02-14 Fri>
     :PROPERTIES:
     :ID:       e9e869ab-0463-48de-97dd-3fa55cd85df9
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 98.4237
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-20 Fri 08:43]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:39]
     :END:
 What is the kinetic
 energy of a string?
@@ -19473,17 +19551,17 @@ this is for measurements at the
 same time, which is different
 according to viewpoint.)
 *** Overcomplete Bases                                                :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2020-07-03 Fri>
     :PROPERTIES:
     :ID:       edf92b0e-4054-4e04-8335-9418b6d5baa6
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:28]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:36]
     :END:
 In which sense could the 
 set /{Hⁿv|n∈ℕ}/ for Hamiltonian
@@ -20637,17 +20715,17 @@ states that the expectation of an operator
 with a quasiprobability /f/ that depends
 on the ordering /Ω/ of the operators.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2020-07-03 Fri>
     :PROPERTIES:
     :ID:       99779ac6-f329-4e0d-849a-8cb89c37d998
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:31]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:36]
     :END:
 How does the /Wigner/ quasiprobability 
 arise in quantum optics?
@@ -20757,17 +20835,17 @@ Subspaces that are invariant under the
 representation of the Lorentz group on the 
 Hilbert space.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-11-07 Thu>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       fba25cb9-6fc1-40bb-a9ef-12d581e5e229
-    :DRILL_LAST_INTERVAL: 20.4928
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 26
+    :DRILL_LAST_INTERVAL: 26.6406
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 27
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.27
+    :DRILL_AVERAGE_QUALITY: 3.297
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-18 Fri 14:29]
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:06]
     :END:
 How is a representation of the Lorentz
 group induced on a Hilbert space?
@@ -21321,17 +21399,17 @@ necessity for some theory
 of quasi-sets to handle 
 quantum probabilities.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2020-07-03 Fri>
     :PROPERTIES:
     :ID:       2a901102-cd1f-473c-ad6e-ffa82c1cce70
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:24]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:38]
     :END:
 What is the meaning
 of non-diagonal, non-
@@ -21345,17 +21423,17 @@ between the states of
 the system.
 (See Lindblad equation)
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2020-07-03 Fri>
     :PROPERTIES:
     :ID:       b18ebe60-18b0-44a6-b6c2-215c66f14fa7
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:33]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:37]
     :END:
 What is the difference
 between /⟨A⟩/ and /⟨φ|A|φ⟩/
@@ -21925,17 +22003,17 @@ amplitudes /ρ, τ/. If the splitter
 is lossless, this is a unitary
 transformation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-11-07 Thu>
+    SCHEDULED: <2019-11-15 Fri>
     :PROPERTIES:
     :ID:       d70728d5-3a97-46bd-b36a-4535149e4af1
-    :DRILL_LAST_INTERVAL: 3.902
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 8.1162
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:59]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:03]
     :END:
 How to check that the particle
 created by
@@ -21950,17 +22028,17 @@ which is /∑ₚ⟨y|p⟩exp(-ipx)/, and, since
 /⟨y|φ⁺(x)|0⟩=δ(x-y)/, hence nonzero
 only if /x=y/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-11-08 Fri>
+    SCHEDULED: <2019-11-12 Tue>
     :PROPERTIES:
     :ID:       2e154174-c645-470a-8450-cf0b97e44180
-    :DRILL_LAST_INTERVAL: 49.0402
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-20 Fri 08:45]
+    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:40]
     :END:
 How to check that
 /Φ(x)=∑ₚaₚ⁺exp(-ipx)=φ⁺(x)/ creates
@@ -22520,17 +22598,17 @@ despite being electrically
 neutral they can have opposite
 lepton numbers.
 *** Path Integral						      :drill:
-    SCHEDULED: <2019-11-07 Thu>
+    SCHEDULED: <2019-11-12 Tue>
     :PROPERTIES:
     :ID:       94342910-30cb-4f2e-a362-6f9660a95aff
-    :DRILL_LAST_INTERVAL: 4.415
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 5.4746
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.056
+    :DRILL_AVERAGE_QUALITY: 3.106
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:51]
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:02]
     :END:
 What does the path-integral describe?
 **** Answer:
@@ -23411,17 +23489,17 @@ With
 ~efibootmgr -b 0001 -B~ to remove 
 boot entry ~Boot0001~.
 *** boot                                                              :drill:
-    SCHEDULED: <2019-11-07 Thu>
+    SCHEDULED: <2020-12-31 Thu>
     :PROPERTIES:
     :ID:       5dc88cf5-f72b-46c7-968f-37ec2be99bdc
-    :DRILL_LAST_INTERVAL: 224.2244
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 419.7481
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-28 Thu 13:14]
+    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:05]
     :END:
 What does
 ~efibootmgr -v~ actually check?
