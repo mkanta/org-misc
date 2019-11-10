@@ -328,6 +328,88 @@ This is a sign that
 the coffee was ground
 too finely.
 ** Dough
+*** Bread                                                             :drill:
+    SCHEDULED: <2019-11-13 Wed>
+    :PROPERTIES:
+    :ID:       0a958b06-65bd-4e73-9021-5a1a7af5553c
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:40]
+    :END:
+What's the problem
+if bread caves in while
+baking?
+**** Answer:
+That's a sign that the
+second rise was too long.
+*** Bread                                                             :drill:
+    SCHEDULED: <2019-11-13 Wed>
+    :PROPERTIES:
+    :ID:       0c5e6960-76a7-46f7-bd0a-b31a8531c283
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:40]
+    :END:
+Is it possible to freeze
+bread dough for later
+baking?
+**** Answer:
+If it's yeast based, yes.
+Just let it complete the
+first rise, deflate, form and
+freeze. Then thaw the frozen
+dough in a warm place and
+monitor the second rise.
+*** Sourdough                                                         :drill:
+    SCHEDULED: <2019-11-13 Wed>
+    :PROPERTIES:
+    :ID:       fdfdc521-2a9c-4037-9cf6-c60181912cda
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:42]
+    :END:
+What's the problem if
+there is liquid on the
+sourdough starter?
+**** Answer:
+That's an indication
+that the starter needs
+to be fed.
+*** Sourdough                                                         :drill:
+    SCHEDULED: <2019-11-13 Wed>
+    :PROPERTIES:
+    :ID:       e61e0f5b-6dee-4e9d-845b-fbca2135b7ca
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:40]
+    :END:
+What should be the
+consistency of sourdough
+starter?
+**** Answer:
+It should be like plain
+yoghurt or a slightly thick
+pancake batter.
 *** Tortillas                                                         :drill:
     SCHEDULED: <2020-01-27 Mon>
     :PROPERTIES:
@@ -2016,17 +2098,17 @@ prefix argument to disable it,
 with a positive one to enable 
 it.
 *** packages                                                          :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2019-11-20 Wed>
     :PROPERTIES:
     :ID:       af6545e9-f827-40d5-bf93-43b1ee43ca7c
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-06 Wed 13:17]
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:54]
     :END:
 What to do if the
 /Failed to verify signature archive-contents.sig/
@@ -2041,17 +2123,17 @@ check for viruses after which
 the signature is no longer
 correct.
 *** packages                                                          :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2019-11-20 Wed>
     :PROPERTIES:
     :ID:       d9f1c184-3fdc-43c7-b2bf-4ce39b69edf7
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-06 Wed 13:22]
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:56]
     :END:
 What to do about the
 /Failed to verify signature archive-contents.sig/
@@ -3203,17 +3285,17 @@ a multivalued function after
 which all the arguments are
 applied at once.
 *** Iterations                                                        :drill:
-    SCHEDULED: <2019-11-09 Sat>
+    SCHEDULED: <2020-01-01 Wed>
     :PROPERTIES:
     :ID:       8cc8856c-f206-40ac-bc05-eb2ec3f20aee
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.8537
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:45]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:39]
     :END:
 Why would it be more
 natural to have type
@@ -6878,17 +6960,17 @@ like systems install with
 =checkinstall -D make install= to
 get a debian package.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2020-07-13 Mon>
     :PROPERTIES:
     :ID:       5c1d5b93-f4d4-45b1-8d09-d17e7512b435
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 246.3221
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.143
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:22]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:56]
     :END:
 How to install root
 so that the binaries end
@@ -6920,17 +7002,17 @@ to the desired install directory,
 ie with ~-DCMAKE_INSTALL_PREFIX=<directory>~
 in the /cmake/ command line.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2020-07-05 Sun>
     :PROPERTIES:
     :ID:       bf9a3eae-8527-44ae-8e1f-e219c1f047b0
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:23]
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:58]
     :END:
 Can /root/ be installed in
 ~/usr/local~?
@@ -6961,17 +7043,17 @@ python on the system?
 Yes, use ~-Dpython_version=3~
 in the =cmake= command line.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2020-07-13 Mon>
     :PROPERTIES:
     :ID:       9449105f-e00c-4dce-af40-4e98519a5c53
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 246.3221
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.143
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:22]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:57]
     :END:
 What to do if =cmake= complains
 about not being able to find
@@ -7547,17 +7629,17 @@ too early on it. It shouldn't
 be called before the readyState
 is reported as DONE.
 *** File Interactions                                                 :drill:
-    SCHEDULED: <2019-11-09 Sat>
+    SCHEDULED: <2020-04-29 Wed>
     :PROPERTIES:
     :ID:       427e96fc-553e-41ee-8e26-8a90a294cb2b
-    :DRILL_LAST_INTERVAL: 92.0239
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 172.2687
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-09 Fri 11:00]
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:42]
     :END:
 How to use FileReader?
 **** Answer:
@@ -9976,17 +10058,17 @@ incognito window, this will
 bypass certain cached 
 configurations.
 *** Connecting                                                        :drill:
-    SCHEDULED: <2019-11-09 Sat>
+    SCHEDULED: <2020-01-01 Wed>
     :PROPERTIES:
     :ID:       1ede2126-c40c-4277-982d-b7ad7ca2bd93
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.8537
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:43]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:41]
     :END:
 What's the problem if
 chromium doesn't show
@@ -10871,17 +10953,17 @@ it, for example in
 It usually is some kind
 of version name.
 *** git                                                               :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2020-10-16 Fri>
     :PROPERTIES:
     :ID:       3da77a82-6168-4e08-be79-901c241c0be9
-    :DRILL_LAST_INTERVAL: 182.2834
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 341.2345
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-12 Sun 21:56]
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:58]
     :END:
 Is it possible to
 check out a particular
@@ -13320,17 +13402,17 @@ to the category of sets:
 a covariant functor
 /σ:Δᵒᵖ→Set/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2020-01-26 Sun>
     :PROPERTIES:
     :ID:       50d70dcb-b8fb-45b2-968b-571734bf2d04
-    :DRILL_LAST_INTERVAL: 59.9059
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 76.9791
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.154
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:45]
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:58]
     :END:
 How to construct a category
 from simplicial sets?
@@ -17227,17 +17309,17 @@ to a function application
 of /g:A→B→C/ via
 /f((a,b)):≡ g(a)(b)./
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2019-11-21 Thu>
     :PROPERTIES:
     :ID:       6063aab4-098a-460a-a2c5-b80171f99513
-    :DRILL_LAST_INTERVAL: 6.4076
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 10.6366
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-04 Mon 14:32]
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:55]
     :END:
 What are the introduction
 rules for a product type
@@ -18933,17 +19015,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2020-03-30 Mon>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 112.5136
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 141.0921
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.077
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.072
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-20 Sat 11:31]
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:56]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -20176,17 +20258,17 @@ and that /⟨σᵢ|Pⱼ|σₖ⟩=δᵢⱼδⱼₖ/,
 so that a nonzero term is 
 obtained only for /i=j=k/.
 *** Entanglement                                                      :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2019-11-24 Sun>
     :PROPERTIES:
     :ID:       075a2d6e-9669-49a4-8626-e108571c66ac
-    :DRILL_LAST_INTERVAL: 7.3836
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 14.3242
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:51]
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:55]
     :END:
 What is the principle
 of quantum teleportation?
@@ -20670,17 +20752,17 @@ which can be written
 sum convention and Dirac
 matrices /D/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-11-10 Sun>
+    SCHEDULED: <2020-07-05 Sun>
     :PROPERTIES:
     :ID:       3e5b26a2-8302-41cc-9e32-4d9025e91127
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:24]
+    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:57]
     :END:
 Why are coherent states
 still useful, despite
@@ -20691,17 +20773,17 @@ operator /ρ̂/ can be diagonalised,
 ie. /ρ̂=∫f(α,α*)|α⟩⟨α|d²α/ with
 a quasiprobability /f(α,α*)/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-11-09 Sat>
+    SCHEDULED: <2019-12-21 Sat>
     :PROPERTIES:
     :ID:       9e8e269e-714c-49b0-941b-6adf932dadb8
-    :DRILL_LAST_INTERVAL: 20.1068
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.5608
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-20 Sun 14:49]
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:41]
     :END:
 What makes the use of coherent
 spaces so attractive in quantum
@@ -21271,17 +21353,17 @@ complementary observables by
 measuring them separately
 on the clones.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-09 Sat>
+    SCHEDULED: <2019-12-02 Mon>
     :PROPERTIES:
     :ID:       28154337-e2e4-4c22-8d5e-88938999271f
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.7693
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-30 Wed 13:04]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:38]
     :END:
 What is a common
 misconception when
@@ -22980,17 +23062,17 @@ position and momentum variables are
 quantized by assigning an operator
 /Qₐ/ to function /a/.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2019-11-09 Sat>
+    SCHEDULED: <2019-11-14 Thu>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 4.2589
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 5.281
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.909
+    :DRILL_AVERAGE_QUALITY: 2.956
     :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-05 Tue 19:17]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:38]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
