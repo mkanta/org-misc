@@ -2318,6 +2318,34 @@ get an org-file. Alternatively
 convert to /rst/ or /latex/ instead
 of /markdown/ and then to org.
 *** org-mode exports                                                  :drill:
+    SCHEDULED: <2019-11-16 Sat>
+    :PROPERTIES:
+    :ID:       8832b23e-6d53-4ab9-af74-c308c01362a1
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:49]
+    :END:
+What's the problem if
+the html export doesn't
+put the toc into a /nav/
+element?
+**** Answer:
+This is a new html5
+element. In addition to
+configuring html export
+for html5, /html5-fancy/
+needs to be set to non-nil,
+either as an ~#+OPTIONS~
+entry or by setting
+variable 
+~org-html-html5-fancy~ to
+non-nil.
+*** org-mode exports                                                  :drill:
     SCHEDULED: <2020-04-30 Thu>
     :PROPERTIES:
     :ID:       538105d1-ff9d-45d1-8272-ced8d2a5bf1c
@@ -3239,17 +3267,17 @@ Yes, in the first case names from
 =name= and =MN.name=, in the second case
 only =MN.name= would be in scope.
 *** Iterations                                                        :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-01-12 Sun>
     :PROPERTIES:
     :ID:       2c8ca2bc-0e44-4f4b-9b82-b03dd266e89e
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:50]
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:39]
     :END:
 Why are there two
 folds?
@@ -3263,17 +3291,17 @@ can be done in two ways
 if two arguments are
 available.
 *** Iterations                                                        :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-01-10 Fri>
     :PROPERTIES:
     :ID:       c55206d5-2d70-4120-b622-95c70ab6279a
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:43]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:42]
     :END:
 How can a left fold
 be interpreted as a
@@ -7065,17 +7093,17 @@ Set ~-DPYTHON_LIBRARY~ and
 =cmake= command line to the
 appropriate directories.
 *** installation                                                      :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-07-06 Mon>
     :PROPERTIES:
     :ID:       ff44f597-be3b-4189-b333-1079c0ae3d83
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:20]
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:44]
     :END:
 What needs to be observed
 when installing /root/ with
@@ -9438,17 +9466,17 @@ the default implicit
 cast with ~as.matrix~
 results in a column.
 *** Objects                                                           :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2019-11-20 Wed>
     :PROPERTIES:
     :ID:       bba45e28-8344-49e3-b7cb-e200cb5f7cbf
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:05]
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:37]
     :END:
 How are generic functions
 implemented for S3 objects?
@@ -9461,17 +9489,17 @@ looking for functions ~fname.xclass~
 where ~xclass~ is one of the class
 names of ~x~.
 *** Syntax                                                            :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2019-11-21 Thu>
     :PROPERTIES:
     :ID:       14989115-a5bf-4421-8d4b-75ae18d9478c
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:07]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:36]
     :END:
 What does the dot in
 a name mean in the
@@ -9483,17 +9511,17 @@ of S3 objects have names like
 the implementation of function
 ~funcname~ for class ~classname~.
 *** Syntax                                                            :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2019-11-21 Thu>
     :PROPERTIES:
     :ID:       78a3e03f-838c-4727-9a81-96ad6bf37c07
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:04]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:38]
     :END:
 What does the dot
 in a name as in
@@ -9859,17 +9887,17 @@ This is mostly for easy
 removal and installation
 on identical systems.
 *** installing                                                        :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-07-06 Mon>
     :PROPERTIES:
     :ID:       5ac0ad42-e055-40d5-a188-aff37a3e71d9
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:11]
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:43]
     :END:
 What is the problem
 if a shared library
@@ -10035,17 +10063,17 @@ Switch to a terminal with
 
 ** web
 *** Connecting                                                        :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-01-10 Fri>
     :PROPERTIES:
     :ID:       d0e47fea-c215-49c7-abf9-6df2f227eab2
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:47]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:44]
     :END:
 What to do if connecting
 to a public wifi doesn't
@@ -10719,17 +10747,17 @@ Stage the changes with
 ~git add ...~ and run
 ~git diff --staged~.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2019-11-20 Wed>
     :PROPERTIES:
     :ID:       6b9990fb-7499-4975-a6b7-5accc9399ea4
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:07]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:35]
     :END:
 How to get rid of status
 messages about updates in
@@ -10741,17 +10769,17 @@ from the submodule and then
 run ~git submodule update~
 from the parent.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2019-11-20 Wed>
     :PROPERTIES:
     :ID:       37fe5ecd-4b0c-4c29-aa56-eefcad2be563
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:08]
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:36]
     :END:
 What to do to incorporate
 upstream changes in submodules
@@ -10801,17 +10829,17 @@ a repository has submodules?
 A repository with submodules
 has a /.gitmodules/ file in it.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2019-12-03 Tue>
     :PROPERTIES:
     :ID:       61694a15-84ca-4614-b499-1fd11d981fcc
-    :DRILL_LAST_INTERVAL: 9.517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 21.6702
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.571
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-01 Fri 15:27]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:37]
     :END:
 What's the danger
 in running
@@ -11312,17 +11340,17 @@ a (decompressed) Pdf-file?
 **** Answer:
 The =xref zero offset=.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-11-19 Thu>
     :PROPERTIES:
     :ID:       8814cc63-2ec7-40cd-9975-c020feb4cad1
-    :DRILL_LAST_INTERVAL: 193.2366
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 374.4925
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-02 Thu 14:29]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:44]
     :END:
 Where does the value for
 a form field go?
@@ -11349,17 +11377,17 @@ They enclose a =dictionary=, which
 is an object type containing 
 a list of key-value pairs.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-11-19 Thu>
     :PROPERTIES:
     :ID:       6e7352bd-360a-4c4d-8a52-4e0ee9765806
-    :DRILL_LAST_INTERVAL: 193.2366
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 374.4925
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-02 Thu 14:28]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:44]
     :END:
 What are the entities starting
 with =/=, such as =/V=, =/TU=, in a 
@@ -11430,17 +11458,17 @@ least an indication of its
 length, described by a 
 =/Length= mapping in a dictionary.
 *** Analysis                                                          :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-11-19 Thu>
     :PROPERTIES:
     :ID:       81ce7e36-129e-43ac-8ad5-525b07ed705b
-    :DRILL_LAST_INTERVAL: 193.2366
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 374.4925
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-02 Thu 14:35]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:43]
     :END:
 What does =/TU= stand for
 in a (decompressed) Pdf-file?
@@ -13891,17 +13919,17 @@ is the matrix Lie group
 preserving the quadratic form
 /t²-x²-y²-z²/ also called /O(1,3)/.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2021-03-09 Tue>
     :PROPERTIES:
     :ID:       3a955d9b-ffa7-439e-978c-a24fb7c02d72
-    :DRILL_LAST_INTERVAL: 257.9117
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 482.8107
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-27 Wed 01:35]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:49]
     :END:
 What is the topological structure
 of the Lorentz group?
@@ -13986,17 +14014,17 @@ It is the connected component of the
 Lorentz group that contains the 
 identity.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2021-03-09 Tue>
     :PROPERTIES:
     :ID:       bd3d567e-b144-4327-a636-4933015ef2b0
-    :DRILL_LAST_INTERVAL: 257.9117
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 482.8107
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-27 Wed 01:37]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:50]
     :END:
 What is the algebraic structure of
 /O(1,3)/ in terms of the restricted
@@ -14009,17 +14037,17 @@ Lorentz transformation is a semi-direct
 product of an element of /SO⁺(1,3)/ and
 a space-time inversion. 
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2021-03-09 Tue>
     :PROPERTIES:
     :ID:       a46646d7-9068-4eea-8e20-a42747f2b4ba
-    :DRILL_LAST_INTERVAL: 257.9117
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 482.8107
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-27 Wed 01:34]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:50]
     :END:
 How are elements of /SO⁺(1,3)/ usually
 written?
@@ -14567,17 +14595,17 @@ are self adjoint, they behave in a
 sense like positive real numbers, so
 /|T|/ is a bit like a length.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2020-03-01 Sun>
     :PROPERTIES:
     :ID:       7468d8bb-a84d-4e9f-8d79-2691a9c754ae
-    :DRILL_LAST_INTERVAL: 84.9615
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 110.45
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.214
+    :DRILL_AVERAGE_QUALITY: 3.266
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-19 Mon 08:28]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:50]
     :END:
 What is a partial isometry?
 **** Answer:
@@ -15519,17 +15547,17 @@ of coordinates of /f/ if it
 is small enough and leads to
 a Taylor expansion of /f/.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2019-11-28 Thu>
     :PROPERTIES:
     :ID:       1e9184ca-9752-46c5-ae04-5224b7c8fa7c
-    :DRILL_LAST_INTERVAL: 8.4517
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 17.4697
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.286
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:49]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:35]
     :END:
 What is an infinitesimal
 transformation induced by
@@ -16621,17 +16649,17 @@ the use of a term, for example
 by listing the properties a 
 noun should have.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2019-11-27 Wed>
     :PROPERTIES:
     :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
-    :DRILL_LAST_INTERVAL: 10.2277
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 16.3848
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_AVERAGE_QUALITY: 3.182
     :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-01 Fri 15:27]
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:42]
     :END:
 What is the difference
 between a /Proposition/
@@ -18067,17 +18095,17 @@ This makes them useful in quantum theory
 where expectations are required but
 amplitudes can be negative.
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2020-08-23 Sun>
     :PROPERTIES:
     :ID:       4bd38616-73fe-4dd2-818f-7d4787a70f86
-    :DRILL_LAST_INTERVAL: 152.0844
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 284.702
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:29]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:49]
     :END:
 What is the feature that distinguishes
 quasi-probability distributions from
@@ -19783,6 +19811,27 @@ time-like events cannot occur
 at the same time, ie they are
 separated by time.
 ** Quantum Computing
+*** QBit Notation                                                     :drill:
+    SCHEDULED: <2019-11-16 Sat>
+    :PROPERTIES:
+    :ID:       deab0a3f-51b3-4b04-9977-ab39527fb3b5
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:48]
+    :END:
+What is ~|0⟩~ in
+vector notation?
+**** Answer:
+Normally, ~|0⟩~ is
+the two dimensional
+column vector ~e₁~
+with top component ~1~
+and bottom component ~0~.
 *** Function Period                                                   :drill:
     SCHEDULED: <2019-11-24 Sun>
     :PROPERTIES:
@@ -20752,6 +20801,30 @@ which can be written
 sum convention and Dirac
 matrices /D/.
 *** Hilbert Space                                                     :drill:
+    SCHEDULED: <2019-11-16 Sat>
+    :PROPERTIES:
+    :ID:       50a5b073-50f4-476e-a4a1-0103190ab5ea
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:52]
+    :END:
+How is bracket notation
+related to matrix and
+vector notation?
+**** Answer:
+A /bra/ is a row vector
+and a /ket/ a column
+vector. Everything else
+follows from that, ie
+~|x⟩⟨y|~ is the Kronecker
+product of a column and
+a row.
+*** Hilbert Space                                                     :drill:
     SCHEDULED: <2020-07-05 Sun>
     :PROPERTIES:
     :ID:       3e5b26a2-8302-41cc-9e32-4d9025e91127
@@ -20819,17 +20892,17 @@ theorem, with symmetrized operator
 ordering /Ω/.
 
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2020-08-23 Sun>
     :PROPERTIES:
     :ID:       3634f529-b9f2-459a-9fbb-ed4ef6610da4
-    :DRILL_LAST_INTERVAL: 152.0844
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 284.702
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:30]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:48]
     :END:
 Can coherent states
 be used as a basis for
@@ -21101,17 +21174,17 @@ The Hamiltonian, which is a hermitian
 operator describing the energy of the
 field.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2019-11-11 Mon>
+    SCHEDULED: <2020-01-17 Fri>
     :PROPERTIES:
     :ID:       7a2336fa-924a-4c00-8f53-47ef7ba49f22
-    :DRILL_LAST_INTERVAL: 53.2765
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 66.8087
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.236
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-19 Thu 09:30]
+    :DRILL_AVERAGE_QUALITY: 3.223
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:43]
     :END:
 Why is the description of a quantum field
 theory in terms of creation and annihilation
@@ -21306,17 +21379,17 @@ to a measurement, hence the
 unknown state collapses before
 it is copied.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2019-12-02 Mon>
     :PROPERTIES:
     :ID:       1a8e944a-8660-422c-a76b-f1b47e98c40e
-    :DRILL_LAST_INTERVAL: 9.2829
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.884
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:52]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:46]
     :END:
 What seems to be the
 practical difficulty
@@ -22110,17 +22183,17 @@ which is /∑ₚ⟨y|p⟩exp(-ipx)/, and, since
 /⟨y|φ⁺(x)|0⟩=δ(x-y)/, hence nonzero
 only if /x=y/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2019-11-19 Tue>
     :PROPERTIES:
     :ID:       2e154174-c645-470a-8450-cf0b97e44180
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 7.2259
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:40]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:47]
     :END:
 How to check that
 /Φ(x)=∑ₚaₚ⁺exp(-ipx)=φ⁺(x)/ creates
@@ -22680,17 +22753,17 @@ despite being electrically
 neutral they can have opposite
 lepton numbers.
 *** Path Integral						      :drill:
-    SCHEDULED: <2019-11-12 Tue>
+    SCHEDULED: <2019-11-19 Tue>
     :PROPERTIES:
     :ID:       94342910-30cb-4f2e-a362-6f9660a95aff
-    :DRILL_LAST_INTERVAL: 5.4746
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 7.117
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.106
+    :DRILL_AVERAGE_QUALITY: 3.151
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:02]
+    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:48]
     :END:
 What does the path-integral describe?
 **** Answer:
