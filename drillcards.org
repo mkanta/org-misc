@@ -1618,17 +1618,17 @@ file-name at point,
 complete path of the file
 at point.
 *** dired                                                             :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2019-11-26 Tue>
     :PROPERTIES:
     :ID:       00cd7121-5f6d-4114-8949-1668d32c535b
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 6.9712
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-15 Fri 16:52]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:49]
     :END:
 How to open a file with
 the default application
@@ -5219,17 +5219,17 @@ Because it /generalises/
 union types rather than
 algebraic datatypes.
 *** Types                                                             :drill:
-    SCHEDULED: <2019-11-18 Mon>
+    SCHEDULED: <2020-10-18 Sun>
     :PROPERTIES:
     :ID:       ce889601-5b44-478e-83a7-65f80cde3eb7
-    :DRILL_LAST_INTERVAL: 178.5264
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 334.2014
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:36]
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:54]
     :END:
 What is the difference
 between /Algebraic/ and
@@ -5249,17 +5249,17 @@ points of operators on
 sets as well.
 https://cstheory.stackexchange.com/questions/10594/whats-the-difference-between-adts-gadts-and-inductive-types
 *** Types                                                             :drill:
-    SCHEDULED: <2019-11-18 Mon>
+    SCHEDULED: <2020-10-30 Fri>
     :PROPERTIES:
     :ID:       814a9a18-1398-4132-aa17-d6f799b20bfe
-    :DRILL_LAST_INTERVAL: 178.5264
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 346.3412
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.428
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:35]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:52]
     :END:
 What is the difference
 of /Algebraic/ and
@@ -7281,17 +7281,17 @@ to purescript ~Aff~?
 An ~Effect (Promise a)~ is
 the same as an ~Aff a~.
 *** Async                                                             :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2020-05-09 Sat>
     :PROPERTIES:
     :ID:       fb5c5def-ab72-446f-9d5e-f10ada409848
-    :DRILL_LAST_INTERVAL: 92.0239
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 172.2687
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-19 Mon 08:37]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 14:04]
     :END:
 How to import javascript
 functions returning a
@@ -11831,17 +11831,17 @@ where the parties deal through
 an exchange rather than directly
 with each other.
 *** Pricing                                                           :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2020-01-15 Wed>
     :PROPERTIES:
     :ID:       fcbe645b-079b-4d4c-969c-58c709a31dd6
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 57.3933
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:50]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:58]
     :END:
 What is the repo rate?
 **** Answer:
@@ -11912,17 +11912,17 @@ security that the
 borrower provides as
 collateral.
 *** Pricing                                                           :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2020-01-15 Wed>
     :PROPERTIES:
     :ID:       1e8e4d5c-0f27-48c7-a1fd-584681ebe02d
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 57.3933
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:50]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:52]
     :END:
 Why is the repo rate
 important?
@@ -14057,17 +14057,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2019-12-31 Tue>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 37.1555
-    :DRILL_REPEATS_SINCE_FAIL: 20
-    :DRILL_TOTAL_REPEATS: 30
+    :DRILL_LAST_INTERVAL: 41.577
+    :DRILL_REPEATS_SINCE_FAIL: 21
+    :DRILL_TOTAL_REPEATS: 31
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.033
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.032
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-13 Sun 13:04]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 14:04]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -16239,6 +16239,41 @@ function signature but
 essentially it proves that
 a type is populated, possibly
 depending on other types.
+*** Experiments                                                       :drill:
+How are propositions 
+defined on a manual *M*?
+**** Answer:
+By defining an equivalence
+relation on events of *M*
+by /A ↔ B/ iff /A op B/. 
+Propositions on *M* are
+the equivalence classes
+of this relation.
+*** Experiments                                                       :drill:
+How is logical implication
+defined on a manual *M*?
+**** Answer:
+Via logical implication of
+events: /[A]≤[B]/ if the
+representatives satisfy
+/A≤B/, ie there is an event
+/C/ such that /A⊥C/ and
+/A∪C op B/.
+*** Experiments                                                       :drill:
+How is negation defined
+on a manual *M*?
+**** Answer:
+Via orthocomplementation where
+the orthocomplement of /[A]/
+is /[A]'=[E-A]/ where /E/ is
+an experiment with /A⊆E/.
+*** Experiments                                                       :drill:
+When is a proposition /[A]/ on a
+manual *M* considered true?
+**** Answer:
+If there exists an experiment /E/ in
+*M* for which an event equivalent
+to /A/ occurs upon performance /E/.
 *** Homotopic Types                                                   :drill:
     SCHEDULED: <2020-02-08 Sat>
     :PROPERTIES:
@@ -16384,17 +16419,17 @@ scope of an abstraction
 is considered to extend
 as far right as possible.
 *** Lambda Calculus                                                   :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2020-05-04 Mon>
     :PROPERTIES:
     :ID:       a49d2a7d-1ec5-490e-89c2-bb9330df54b3
-    :DRILL_LAST_INTERVAL: 66.586
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 167.0643
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.25
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-13 Fri 08:40]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:51]
     :END:
 Why is the substitution
 /(λx.M)[x:=N]≡λx.M/?
@@ -19249,6 +19284,54 @@ A major pentatonic scale
 is a major scale without
 a fourth and a seventh.
 * Physics
+** Electromagnetism
+*** Magnetism                                                         :drill:
+    SCHEDULED: <2020-01-09 Thu>
+    :PROPERTIES:
+    :ID:       e79d725e-f735-4af4-b925-d8fb62d14a0f
+    :DRILL_LAST_INTERVAL: 119.6093
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:45]
+    :END:
+What is a magnetic
+(dipole) moment?
+**** Answer:
+A vector perpendicular
+to a current loop with
+length /μ=IA/, where /I/ is
+the current in the loop
+and /A/ is the area of the
+loop.
+*** Magnetism                                                         :drill:
+    SCHEDULED: <2020-01-09 Thu>
+    :PROPERTIES:
+    :ID:       6a512b9c-367c-4ba9-8995-ac43c4aa333c
+    :DRILL_LAST_INTERVAL: 119.6093
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:49]
+    :END:
+What is spin precession?
+**** Answer:
+The rotation of magnetic
+moment around the direction
+of a magnetic field. This
+happens when the magnetic
+momentum is due to electrons
+in orbit or spin of charged
+particles. In those cases, the
+magnetic moment doesn't align
+with the field but rather rotates
+around its direction.
 ** Emergence
 *** Emergent Phenomena                                                :drill:
     SCHEDULED: <2020-11-25 Wed>
@@ -19315,54 +19398,77 @@ consequence of the
 agglomeration rather
 than inherent in the
 subunits.
-** Electromagnetism
-*** Magnetism                                                         :drill:
-    SCHEDULED: <2020-01-09 Thu>
-    :PROPERTIES:
-    :ID:       e79d725e-f735-4af4-b925-d8fb62d14a0f
-    :DRILL_LAST_INTERVAL: 119.6093
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:45]
-    :END:
-What is a magnetic
-(dipole) moment?
+** Experiments
+*** Manuals                                                           :drill:
+How are experiments
+described mathematically?
 **** Answer:
-A vector perpendicular
-to a current loop with
-length /μ=IA/, where /I/ is
-the current in the loop
-and /A/ is the area of the
-loop.
-*** Magnetism                                                         :drill:
-    SCHEDULED: <2020-01-09 Thu>
-    :PROPERTIES:
-    :ID:       6a512b9c-367c-4ba9-8995-ac43c4aa333c
-    :DRILL_LAST_INTERVAL: 119.6093
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:49]
-    :END:
-What is spin precession?
+By sets called experiments.
+They are combined in a manual,
+which is a set of experiments
+with certain conditions on them.
+*** Manuals                                                           :drill:
+What is an event of a manual
+*M*?
+**** Answer: 
+A subset of one of the experiments
+in *M*.
+*** Manuals                                                           :drill:
+What does it mean to /test/ for
+an event /A/ of a manual?
 **** Answer:
-The rotation of magnetic
-moment around the direction
-of a magnetic field. This
-happens when the magnetic
-momentum is due to electrons
-in orbit or spin of charged
-particles. In those cases, the
-magnetic moment doesn't align
-with the field but rather rotates
-around its direction.
+It means to perform an experiment
+/E ∈/ *M* for which /A⊆E/.
+*** Manuals                                                           :drill:
+When is an event /A/ of manual
+*M* said to have occurred?
+**** Answer:
+When an experiment of *M*
+containing /A/ results in
+an outcome /x∈A/.
+*** Manuals                                                           :drill:
+When are events /A, B/ of
+a manual said to be orthogonal?
+**** Answer:
+When there is an experiment of
+which they are disjoint subsets
+then they are orthogonal, written
+/A⊥B/.
+*** Manuals                                                           :drill:
+When are events /A, B/ of a 
+manual *M* said to be orthogonal
+complements, /A oc B/?
+**** Answer:
+If they are disjoint and
+/A∪B ∈/ *M*, ie their
+union is an experiment.
+*** Manuals                                                           :drill:
+When are events /A, B/ of
+a manual *M* said to be
+operationally perspective,
+/A op B/?
+**** Answer:
+If there is an event /C/ that
+extends them to experiments, ie
+such that /A oc C/ and /B oc C/.
+*** Manuals                                                           :drill:
+What is the special connection
+between events /A, B/ of a
+manual that satisfy /A op B/?
+**** Answer:
+From a logical point of view
+they represent the same proposition
+because event /A/ occurs when performing
+experiment /A∪C/ if and only if /B/
+occurs when performing /B∪C/.
+*** Manuals                                                           :drill:
+How is implication defined on
+a manual?
+**** Answer:
+Event /A/ of the manual implies
+event /B/ of the manual, written
+/A≤B/, if there is an event /C/
+with /A⊥C/ and /A∪C op B/.
 ** Mechanics
 *** Hamiltonians                                                      :drill:
     SCHEDULED: <2019-11-25 Mon>
@@ -19910,27 +20016,103 @@ time-like events cannot occur
 at the same time, ie they are
 separated by time.
 ** Quantum Computing
-*** QBit Notation                                                     :drill:
-    SCHEDULED: <2019-11-26 Tue>
+*** Communication                                                     :drill:
+    SCHEDULED: <2019-11-23 Sat>
     :PROPERTIES:
-    :ID:       deab0a3f-51b3-4b04-9977-ab39527fb3b5
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :ID:       9ef93b4a-988f-4a35-8372-84ced60b7533
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-16 Sat 14:32]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 14:02]
     :END:
-What is ~|0⟩~ in
-vector notation?
+What is the idea of
+(super) dense coding?
 **** Answer:
-Normally, ~|0⟩~ is
-the two dimensional
-column vector ~e₁~
-with top component ~1~
-and bottom component ~0~.
+Sender and receiver
+share an entangled EPR pair. 
+The sender performs one of four
+unitary transformations depending
+on the bit pair to be transmitted
+on his part of the entangled pair 
+and sends his particle 
+to the receiver through ie a 
+telecoms fiber in the case of
+photons. The receiver applies 
+a controlled negation on the
+pair using the received particle
+as control qbit and after a
+Hadamard transformation on
+the received qbit the intent
+of the sender will be revealed
+as one of the 4 states /|ε₁ε₂⟩/
+with /εᵢ∈{0,1}/.
+*** Communication                                                     :drill:
+    SCHEDULED: <2019-11-23 Sat>
+    :PROPERTIES:
+    :ID:       727223cb-461c-4205-9fb8-d0cf26a1a52a
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 14:03]
+    :END:
+How is the /(super) dense/
+concept in (super) dense
+coding justified?
+**** Answer:
+By the fact that 2 classical
+bits are encoded as one qbit,
+ie only one qbit needs to be
+sent to select between 4
+states on the receiving end.
+*** Communication                                                     :drill:
+    SCHEDULED: <2019-11-23 Sat>
+    :PROPERTIES:
+    :ID:       bd90cc9c-7304-4880-928f-631b825c8221
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:52]
+    :END:
+What are the security
+implications of (super)
+dense coding?
+**** Answer:
+That both qbits are needed
+to decode the message, tampering
+with the sent qbit during transmission
+will cause detectable effects.
+*** Evolution                                                         :drill:
+    SCHEDULED: <2019-11-22 Fri>
+    :PROPERTIES:
+    :ID:       77697b4f-14bf-45af-948f-3a97a766e490
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:37]
+    :END:
+Is it possible to entangle
+states via unitary evolution?
+**** Answer:
+Yes, for example the 
+~Control-Not~ gate entangles
+~(|0⟩+|1⟩)|0⟩~ to
+~|00⟩+|11⟩~.
 *** Function Period                                                   :drill:
     SCHEDULED: <2019-11-24 Sun>
     :PROPERTIES:
@@ -19958,26 +20140,6 @@ n/p, p the period of f, will
 have non-zero amplitudes.
 Measuring /|k⟩/ will provide
 one of these numbers.
-*** Evolution                                                         :drill:
-    SCHEDULED: <2019-11-22 Fri>
-    :PROPERTIES:
-    :ID:       77697b4f-14bf-45af-948f-3a97a766e490
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:37]
-    :END:
-Is it possible to entangle
-states via unitary evolution?
-**** Answer:
-Yes, for example the 
-~Control-Not~ gate entangles
-~(|0⟩+|1⟩)|0⟩~ to
-~|00⟩+|11⟩~.
 *** Gates                                                             :drill:
     SCHEDULED: <2019-11-22 Fri>
     :PROPERTIES:
@@ -19998,7 +20160,19 @@ The transformation
 ~Cₙₒₜ=|0⟩⟨0|⊗I+|1⟩⟨1|⊗X~,
 where ~X~ is classical
 negation.
-*** Gates
+*** Gates                                                             :drill:
+    SCHEDULED: <2019-11-23 Sat>
+    :PROPERTIES:
+    :ID:       a6164c29-df5a-4b09-87fa-02503b18d8dd
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:54]
+    :END:
 What is the Pauli transformation
 ~X~?
 **** Answer:
@@ -20062,17 +20236,38 @@ A single qbit transform
 ~H=1/c(|0⟩⟨0|+|1⟩⟨0|+|0⟩⟨1|-|1⟩⟨1|)~
 with ~c~ the square root
 of 2.
-*** Gates
+*** Gates                                                             :drill:
+    SCHEDULED: <2019-11-23 Sat>
+    :PROPERTIES:
+    :ID:       5de47400-c1b8-4627-9f28-e82056915d40
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:58]
+    :END:
 What are the gates /⋀Q/?
 **** Answer:
-A two-bit transformation that
-applies single-qbit transformation
+Two-bit transformations that
+apply single-qbit transformation
 ~Q~ if the first qbit is ~|1⟩~ and
-does nothing otherwise, ie
+do nothing otherwise, ie
 ~⋀Q=|0⟩⟨0|⊗I+|1⟩⟨1|⊗Q~.
 *** Gates                                                             :drill:
+    SCHEDULED: <2019-11-23 Sat>
     :PROPERTIES:
     :ID:       625c421f-14d8-4625-a4c1-075cc487c527
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 14:03]
     :END:
 How are the gates ~⋀Q~ related
 to quantum negation?
@@ -20080,7 +20275,7 @@ to quantum negation?
 They are generalizations of
 the /Control-Not/ gate, which
 is ~⋀X~ in this notation
-where ~X~ is classical notation.
+where ~X~ is classical negation.
 *** Implementation                                                    :drill:
     SCHEDULED: <2020-02-09 Sun>
     :PROPERTIES:
@@ -20282,17 +20477,47 @@ relating input states to
 output in the sense of
 ~if |s⟩ then ∑aₛₜ|t⟩~ relating
 state ~|s⟩~ to ~∑aₛₜ|t⟩~.
+*** QBit Notation                                                     :drill:
+    SCHEDULED: <2019-11-26 Tue>
+    :PROPERTIES:
+    :ID:       deab0a3f-51b3-4b04-9977-ab39527fb3b5
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-16 Sat 14:32]
+    :END:
+What is ~|0⟩~ in
+vector notation?
+**** Answer:
+Normally, ~|0⟩~ is
+the two dimensional
+column vector ~e₁~
+with top component ~1~
+and bottom component ~0~.
 *** Teleportation                                                     :drill:
+    SCHEDULED: <2019-11-23 Sat>
     :PROPERTIES:
     :ID:       83ff0be4-40e3-41ef-aedf-d0f801765c73
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:56]
     :END:
 What is the mathematical
 description for the teleportation
 of an unknown quantum state
-/|φ₀⟩=a|0⟩+b|1⟩/ for the sender?
+/|φ⟩=a|0⟩+b|1⟩/ for the sender?
 **** Answer:
 Sender and receiver share the
-entangled pair /|φ⟩=c(|00⟩+|11⟩/.
+entangled pair /|φ₀⟩=c(|00⟩+|11⟩/.
 The sender creates /|φ⟩⊗|φ₀⟩/
 and applies /Cₙₒₜ⊗I/ followed
 by /H⊗I⊗I/ and then measures the
@@ -21062,17 +21287,17 @@ which can be written
 sum convention and Dirac
 matrices /D/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2019-11-29 Fri>
     :PROPERTIES:
     :ID:       18ecfcda-505c-4330-b9af-cf9751da34f1
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-15 Fri 16:48]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:49]
     :END:
 What is the tensor
 product /|a⟩⟨b|⊗|c⟩⟨d|/
@@ -21709,17 +21934,17 @@ as /|v⟩=∑ᵢσᵢ|sᵢ⟩/ is projected
 onto subspace /Sᵢ/ with
 probability /|σᵢ|²/. 
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2019-11-29 Fri>
     :PROPERTIES:
     :ID:       5a655d0f-1d06-4326-9523-c7f7075c0842
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-15 Fri 16:46]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:48]
     :END:
 What is a quantum
 measurement mathematically?
@@ -21902,17 +22127,17 @@ measure particle number, such
 as the measurement of 
 trajectories in a cloud chamber.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2019-11-27 Wed>
     :PROPERTIES:
     :ID:       edca5c13-2fcd-4ba7-9e1a-98a4f61788fc
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 8.2695
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-15 Fri 16:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:49]
     :END:
 Where is classical probability
 deficient in the treatment of
@@ -22217,17 +22442,17 @@ where /x₀/ is the concentration point
 of the wave-function.
 
 *** Operators: Projections                                            :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2019-11-29 Fri>
     :PROPERTIES:
     :ID:       43aba786-0696-4844-8d40-5703c5e93ded
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-15 Fri 16:48]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:48]
     :END:
 How to factor projections
 /P/ as /P=Fⁿ/?
@@ -22598,17 +22823,17 @@ which is /∑ₚ⟨y|p⟩exp(-ipx)/, and, since
 /⟨y|φ⁺(x)|0⟩=δ(x-y)/, hence nonzero
 only if /x=y/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2019-12-02 Mon>
     :PROPERTIES:
     :ID:       2e154174-c645-470a-8450-cf0b97e44180
-    :DRILL_LAST_INTERVAL: 7.2259
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 13.0066
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.125
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:47]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:51]
     :END:
 How to check that
 /Φ(x)=∑ₚaₚ⁺exp(-ipx)=φ⁺(x)/ creates
@@ -22995,17 +23220,17 @@ From the fact that parity is
 a multiplicative quantum number,
 ie. /P|a,b⟩=(P|a⟩)P(|b⟩)/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-11-18 Mon>
+    SCHEDULED: <2020-02-07 Fri>
     :PROPERTIES:
     :ID:       3ea55019-0da2-455a-bc8b-e1b360962bbc
-    :DRILL_LAST_INTERVAL: 63.4815
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 20
+    :DRILL_LAST_INTERVAL: 79.6058
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 21
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-16 Mon 08:11]
+    :DRILL_AVERAGE_QUALITY: 3.238
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:53]
     :END:
 How is parity different in bosons
 vs fermions?
@@ -23168,17 +23393,17 @@ despite being electrically
 neutral they can have opposite
 lepton numbers.
 *** Path Integral						      :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2019-11-28 Thu>
     :PROPERTIES:
     :ID:       94342910-30cb-4f2e-a362-6f9660a95aff
-    :DRILL_LAST_INTERVAL: 7.117
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 20
+    :DRILL_LAST_INTERVAL: 9.2521
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 21
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.151
+    :DRILL_AVERAGE_QUALITY: 3.191
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-12 Tue 16:48]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:50]
     :END:
 What does the path-integral describe?
 **** Answer:
@@ -23794,17 +24019,17 @@ and record it at the same time, run
 and [arecord with the default device].
 ** Players
 *** gnome-mpv                                                         :drill:
-    SCHEDULED: <2019-11-19 Tue>
+    SCHEDULED: <2020-01-15 Wed>
     :PROPERTIES:
     :ID:       58bb49b7-c3c9-4efb-9b95-7d4fe610b256
-    :DRILL_LAST_INTERVAL: 23.7949
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 57.3933
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-26 Sat 16:49]
+    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:53]
     :END:
 How to pass mpv options
 through?
