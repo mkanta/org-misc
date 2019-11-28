@@ -217,17 +217,17 @@ device.
 * Astronomy
 ** Coordinates
 *** Hour Angle                                                        :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-07-19 Sun>
     :PROPERTIES:
     :ID:       611fbc04-2520-457b-9a8f-d76b6fc9fcf8
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-29 Sat 09:04]
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:20]
     :END:
 Why is the /hour angle/
 of an object of interest?
@@ -262,17 +262,17 @@ The difference between
 local /sidereal time/ and 
 /right ascension/.
 *** Right Ascension                                                   :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-07-27 Mon>
     :PROPERTIES:
     :ID:       d2048447-d3e1-4919-ab5d-eb0cd8f6e2d8
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 246.3221
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.143
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-29 Sat 09:00]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:29]
     :END:
 Why the choice of
 time as unit instead 
@@ -1618,17 +1618,17 @@ file-name at point,
 complete path of the file
 at point.
 *** dired                                                             :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-08 Sun>
     :PROPERTIES:
     :ID:       00cd7121-5f6d-4114-8949-1668d32c535b
-    :DRILL_LAST_INTERVAL: 6.9712
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 11.5722
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:49]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:02]
     :END:
 How to open a file with
 the default application
@@ -1745,17 +1745,17 @@ reappear in a dired window?
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
 *** editing                                                           :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2020-01-12 Sun>
     :PROPERTIES:
     :ID:       b4181133-5cdd-4e20-8105-4ceaf3de3cdd
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.7498
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-06 Wed 13:14]
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:42]
     :END:
 How is the emacs undo 
 stack constructed?
@@ -2319,17 +2319,81 @@ get an org-file. Alternatively
 convert to /rst/ or /latex/ instead
 of /markdown/ and then to org.
 *** org-mode exports                                                  :drill:
-    SCHEDULED: <2019-11-25 Mon>
+    SCHEDULED: <2019-12-01 Sun>
+    :PROPERTIES:
+    :ID:       dba09d74-bd4f-4bf0-8813-310d8230aa52
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:44]
+    :END:
+Can german umlauts be
+used even if latex export
+is required?
+**** Answer:
+Yes, latex only chokes on
+utf math symbols but can
+handle regular utf-8
+without requiring an
+extension package.
+*** org-mode exports                                                  :drill:
+    SCHEDULED: <2019-12-01 Sun>
+    :PROPERTIES:
+    :ID:       b12a411e-16a8-48f3-849a-fb1de47437ed
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:42]
+    :END:
+What to do if latex
+export complains about
+missing file /ecrm1095/?
+**** Answer:
+This is a missing fonts file.
+Org-mode latex export needs
+package ~texlive-fonts-recommended~
+to properly function.
+*** org-mode exports                                                  :drill:
+    SCHEDULED: <2019-12-01 Sun>
+    :PROPERTIES:
+    :ID:       3058d77d-a745-4597-a68d-a9ff36528004
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:53]
+    :END:
+What to do if latex
+exports fail due to
+missing style files?
+**** Answer:
+Emacs org requires
+packages ~texlive-latex-extras~
+and ~texlive-generic-recommended~
+to properly function.
+*** org-mode exports                                                  :drill:
+    SCHEDULED: <2019-12-17 Tue>
     :PROPERTIES:
     :ID:       8832b23e-6d53-4ab9-af74-c308c01362a1
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.6744
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-16 Sat 14:33]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:21]
     :END:
 What's the problem if
 the html export doesn't
@@ -4961,17 +5025,17 @@ constraints like that in the
 constructor are now obsolete
 and require a compiler extension.)
 *** Types                                                             :drill:
-    SCHEDULED: <2019-11-25 Mon>
+    SCHEDULED: <2020-10-20 Tue>
     :PROPERTIES:
     :ID:       958d7ce6-8ca9-4606-9716-5f3a037e80a6
-    :DRILL_LAST_INTERVAL: 176.527
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 330.4585
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-01 Sat 11:54]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:26]
     :END:
 What does it mean to
 say that an existential
@@ -5724,17 +5788,17 @@ where =NumDict a= is the
 explicit type dictionary
 for =Num=.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-02-26 Wed>
     :PROPERTIES:
     :ID:       1ae3532e-261b-4bb1-9663-0dbe4c125058
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.2645
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:50]
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:12]
     :END:
 What's happening if there
 is a =type= field in a class
@@ -7239,17 +7303,17 @@ emacs with
 =M-& root=.
 ** purescript
 *** Async                                                             :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2019-12-07 Sat>
     :PROPERTIES:
     :ID:       31e3812e-5a2f-4ec0-b023-d48c7d1ad081
-    :DRILL_LAST_INTERVAL: 5.9675
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 8.7543
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-22 Fri 11:48]
+    :DRILL_LAST_REVIEWED: [2019-11-28 Thu 13:07]
     :END:
 How to construct an
 ~Aff~ from a ~Promise~?
@@ -9806,17 +9870,17 @@ haskell like constructors
 and allows pattern matching
 against its constructors.
 *** Haskell Dictionary                                                :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-02-26 Wed>
     :PROPERTIES:
     :ID:       6d5be6b8-8f9d-4608-a78e-1f65585d4c87
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.2645
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:51]
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:11]
     :END:
 What to use instead of
 ~Maybe~ in scala?
@@ -9825,17 +9889,17 @@ The ~Option[T]~ type which can
 take values ~Some(value)~ or
 ~None~.
 *** Haskell Dictionary                                                :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2020-03-04 Wed>
     :PROPERTIES:
     :ID:       45f18320-2143-4fac-8aba-309981ee00dc
-    :DRILL_LAST_INTERVAL: 45.7498
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 97.9961
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:48]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:43]
     :END:
 How to implement a union
 type ~data Typename=Con1|Con2|...~
@@ -9845,17 +9909,17 @@ Use a sealed trait /Typename/ as
 ~sealed trait Typename~ and extend
 it with case classes /Con1, Con2,.../ 
 *** Type Bounds                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-02-26 Wed>
     :PROPERTIES:
     :ID:       b216ae8b-c7c1-4313-a69e-609bf3b21448
-    :DRILL_LAST_INTERVAL: 44.6369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 92.2645
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:50]
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:08]
     :END:
 What are context bounds
 ~[T:C]~ used for?
@@ -10722,17 +10786,17 @@ If the =rebase= was successful,
 there will be no merge
 conflicts.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-07-16 Thu>
     :PROPERTIES:
     :ID:       a25a0fb6-6572-4841-8788-daa341c81cd6
-    :DRILL_LAST_INTERVAL: 145.1565
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 232.5407
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-04 Thu 08:43]
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:07]
     :END:
 Is it possible to add
 comments or descriptions
@@ -11736,17 +11800,17 @@ part of the contract that
 allows selling the underlying
 to the terms of the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-13 Fri>
     :PROPERTIES:
     :ID:       4ac4f547-ed79-4912-89db-7163de2deb68
-    :DRILL_LAST_INTERVAL: 7.979
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 17.091
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:29]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:00]
     :END:
 What is the short
 position in a forward
@@ -12295,17 +12359,17 @@ agent. Although more airy than
 watery due to the lack of direction
 towards a centre of gravity.
 *** primal matter                                                     :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-08-15 Sat>
     :PROPERTIES:
     :ID:       9cd654f2-82d9-44a7-932e-e3ca43b15ec2
-    :DRILL_LAST_INTERVAL: 122.5913
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 262.5906
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-26 Fri 11:28]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:14]
     :END:
 What could be the material
 model of primal matter?
@@ -15085,17 +15149,17 @@ if there exist integers
 /π(xᵢ)<π(xⱼ) ⇔ σ(i)<σ(j)/
 for /1≤i,j≤k/.
 *** Polynomials                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-01-20 Mon>
     :PROPERTIES:
     :ID:       6f1df1a0-41c1-464c-addd-7efd16ebede7
-    :DRILL_LAST_INTERVAL: 41.3982
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 55.1424
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.077
-    :DRILL_EASE: 1.38
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:48]
+    :DRILL_AVERAGE_QUALITY: 3.072
+    :DRILL_EASE: 1.24
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:08]
     :END:
 How to convert multivariate
 polyonmials to univariate
@@ -16241,6 +16305,86 @@ essentially it proves that
 a type is populated, possibly
 depending on other types.
 *** Experiments                                                       :drill:
+    SCHEDULED: <2019-11-30 Sat>
+    :PROPERTIES:
+    :ID:       26996802-5a78-46e3-9911-7d6cdc3d7874
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:13]
+    :END:
+Why is the concept of
+ontological uncertainty
+controversial?
+**** Answer:
+Before the advent of quantum
+mechanics it was believed that
+ontological uncertainty can always
+be dispelled by a refinement to
+a better theory.
+*** Experiments                                                       :drill:
+    SCHEDULED: <2019-11-30 Sat>
+    :PROPERTIES:
+    :ID:       8a5d572a-d68f-4870-8614-ebf1e158184b
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:13]
+    :END:
+What is the difference between
+epistemic and ontological
+uncertainty?
+**** Answer:
+Epistemic uncertainty reflects
+an uncertainty in our knowledge
+about which dispersion free state
+a system is in. Ontological
+uncertainty reflects a fundamental
+uncertainty in nature.
+*** Experiments                                                       :drill:
+    SCHEDULED: <2019-11-30 Sat>
+    :PROPERTIES:
+    :ID:       794e5218-fd7b-4102-9106-5a5959ba5989
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:11]
+    :END:
+How is ontological uncertainty
+expressed in a logic describing
+experiments?
+**** Answer:
+By the presence of pure states
+with dispersion, ie states /s/ for
+which there are propositions /P/
+with /s(P)∉{0,1}/ that can not
+be written as a convex combination
+of dispersion free states.
+*** Experiments                                                       :drill:
+    SCHEDULED: <2019-11-29 Fri>
+    :PROPERTIES:
+    :ID:       548900f9-9a40-41d2-ad89-e35502ed931e
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:25]
+    :END:
 What is a pure state on an
 experimental logic?
 **** Answer:
@@ -16248,16 +16392,40 @@ A state that can not be written
 as a nontrivial convex combination 
 of other states.
 *** Experiments                                                       :drill:
+    SCHEDULED: <2019-12-08 Sun>
+    :PROPERTIES:
+    :ID:       1554c6db-f385-45b6-8ab7-acdced00a921
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-28 Thu 13:11]
+    :END:
 How is epistemic uncertainty
 reflected in an experimental
 logic?
 **** Answer:
 By a mixture of dispersion free
 states expressing that the system
-is in a state represented by the
+is in a state represented by 
 one of the mixing components but 
 it is not known in which one.
 *** Experiments                                                       :drill:
+    SCHEDULED: <2019-12-08 Sun>
+    :PROPERTIES:
+    :ID:       6d0fdbc3-41fa-43d5-b07f-c266692b085e
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-28 Thu 13:10]
+    :END:
 What is a dispersion free
 state on a logic?
 **** Answer:
@@ -16266,8 +16434,20 @@ that assigns 0 or 1 to
 every proposition of the
 logic.
 *** Experiments                                                       :drill:
+    SCHEDULED: <2019-12-08 Sun>
+    :PROPERTIES:
+    :ID:       930d6632-149e-4f9e-99c3-90d6cf1115ac
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-28 Thu 13:10]
+    :END:
 How is probability
-modelled in experimental
+modeled in experimental
 logics?
 **** Answer:
 Via convex combinations
@@ -16277,19 +16457,19 @@ a state again but with
 values between 0 and 1
 even if the component
 states are dispersion free,
-ie between 0 and 1.
+ie in /{0, 1}/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-05 Thu>
     :PROPERTIES:
     :ID:       5f58a4e9-2fe5-40c7-87bc-a53b3ad7517a
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-22 Fri 11:55]
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:02]
     :END:
 What kinds of logics
 are used to describe
@@ -16303,17 +16483,17 @@ is reminiscent of negation,
 /≤/ playing the role of
 implication.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-05 Thu>
     :PROPERTIES:
     :ID:       8765c8aa-5784-4645-823f-dd1498fdee52
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-22 Fri 11:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:04]
     :END:
 When are propositions of a
 logic orthogonal?
@@ -16322,17 +16502,17 @@ Propositions /p,q∈L(,≤,')/
 are orthogonal, /p⊥q/, if
 /p≤q'/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-05 Thu>
     :PROPERTIES:
     :ID:       8e1263af-da37-48f2-be62-e8e8dc174d6d
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-22 Fri 11:54]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:03]
     :END:
 What is a state on a
 logic describing
@@ -16343,17 +16523,17 @@ that /s(𝟏)=1/ and
 /s(p∨q)=s(p)+s(q)/ if
 /p⊥q/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-05 Thu>
     :PROPERTIES:
     :ID:       3ae099a8-d71c-486e-b725-6cae828d3a6f
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-22 Fri 11:56]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:07]
     :END:
 Why does the definition of
 state make sense for logics
@@ -16366,17 +16546,17 @@ certain propositions of its
 describing logic true and so
 induces a state on the logic.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-05 Thu>
     :PROPERTIES:
     :ID:       60d775e8-4f1d-4411-b0e1-6c48aca979a7
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-22 Fri 11:57]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:05]
     :END:
 Why is normal propositional
 logic not suitable to
@@ -16390,17 +16570,17 @@ not be determined at the same
 time due to incompability
 of the underlying experiments.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-05 Thu>
     :PROPERTIES:
     :ID:       39a70dcc-5d75-4b58-bc2d-3e7439716d9b
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-22 Fri 11:56]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:03]
     :END:
 Why may
 /p→(p∧q)∨(p∧¬q)/ not hold
@@ -16416,17 +16596,17 @@ experiments. In this case,
 neither /p∧q/ nor /p∧¬q/ would
 be defined.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-05 Thu>
     :PROPERTIES:
     :ID:       f788563f-ae20-45fc-90ad-1fb89f9a41e6
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-22 Fri 11:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:06]
     :END:
 What is the meaning of
 a proposition /[A]∈Π(*M*)/
@@ -16437,17 +16617,17 @@ is tested for event /A/
 in *M* then event /A/ will
 occur".
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       26886f96-ec59-4049-8c5e-4abeab64a86b
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:51]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:13]
     :END:
 How are propositions 
 defined on a manual *M*?
@@ -16459,17 +16639,17 @@ Propositions on *M* are
 the equivalence classes
 of this relation.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       27839549-1092-4f65-8480-a897666375a0
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:44]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:12]
     :END:
 How is logical implication
 defined on a manual *M*?
@@ -16481,17 +16661,17 @@ representatives satisfy
 /C/ such that /A⊥C/ and
 /A∪C op B/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-03 Tue>
     :PROPERTIES:
     :ID:       a3643d5e-4a8b-4d3d-820d-224a061136a9
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:45]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:17]
     :END:
 How is negation defined
 on a manual *M*?
@@ -16501,17 +16681,17 @@ the orthocomplement of /[A]/
 is /[A]'=[E-A]/ where /E/ is
 an experiment with /A⊆E/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       e755596e-eda7-4b1c-a55f-8127f07625dd
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:48]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:15]
     :END:
 When is a proposition /[A]/ on a
 manual *M* considered true?
@@ -16815,17 +16995,17 @@ in functional programming or
 make a measurement in a
 quantum system.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-01-21 Tue>
     :PROPERTIES:
     :ID:       8d17b995-7f1c-485d-b3f4-66729d446b88
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 55.9873
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:50]
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:14]
     :END:
 What is the meaning of
 A⊸B in the resource
@@ -16962,17 +17142,17 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-01-23 Thu>
     :PROPERTIES:
     :ID:       e1adb5d5-f7e2-4458-aac6-a307b3ad732a
-    :DRILL_LAST_INTERVAL: 23.212
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 57.9372
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:48]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:10]
     :END:
 In which sense are
 constructive logic
@@ -17028,17 +17208,17 @@ the use of a term, for example
 by listing the properties a 
 noun should have.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2019-12-22 Sun>
     :PROPERTIES:
     :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
-    :DRILL_LAST_INTERVAL: 16.3848
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 24.9049
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.182
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:42]
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:52]
     :END:
 What is the difference
 between a /Proposition/
@@ -17931,17 +18111,17 @@ If /B(x)≡B/ is the constant
 family then
 /∏(x:A),B(x)≡(A→B)/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2019-12-12 Thu>
     :PROPERTIES:
     :ID:       4f522476-5489-4ecf-b30d-f450793a8ca4
-    :DRILL_LAST_INTERVAL: 12.5215
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 14.9882
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.24
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-14 Thu 14:23]
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:43]
     :END:
 How are predicates
 constructed in type theory?
@@ -19440,17 +19620,17 @@ of a pentatonic major scale?
 It is 2 2 3 2 3 in terms of
 semi-tones.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2019-11-25 Mon>
+    SCHEDULED: <2020-02-05 Wed>
     :PROPERTIES:
     :ID:       c65b92dc-a49c-4195-a6cc-5416c1096202
-    :DRILL_LAST_INTERVAL: 57.5056
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 72.112
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-28 Sat 08:36]
+    :DRILL_AVERAGE_QUALITY: 3.188
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:26]
     :END:
 What is the relationship
 of pentatonic modes 3 and 4
@@ -19645,17 +19825,17 @@ than inherent in the
 subunits.
 ** Experiments
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       8fa45149-c6ad-4ba0-b567-96cb0ecd72ea
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:46]
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:14]
     :END:
 How are experiments
 described mathematically?
@@ -19665,17 +19845,17 @@ They are combined in a manual,
 which is a set of experiments
 with certain conditions on them.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       6093c5ff-fb18-4eda-80fe-64cdd49f6ae4
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:42]
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:15]
     :END:
 What is an event of a manual
 *M*?
@@ -19683,17 +19863,17 @@ What is an event of a manual
 A subset of one of the experiments
 in *M*.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       a423fdcd-fba3-4dd9-ba11-26a887984b26
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.352
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:49]
+    :DRILL_AVERAGE_QUALITY: 4.5
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:19]
     :END:
 What does it mean to /test/ for
 an event /A/ of a manual?
@@ -19701,17 +19881,17 @@ an event /A/ of a manual?
 It means to perform an experiment
 /E ∈/ *M* for which /A⊆E/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       9522ef81-f985-46a5-8a12-44e017186697
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.352
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:48]
+    :DRILL_AVERAGE_QUALITY: 4.5
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:15]
     :END:
 When is an event /A/ of manual
 *M* said to have occurred?
@@ -19720,17 +19900,17 @@ When an experiment of *M*
 containing /A/ results in
 an outcome /x∈A/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       d7b48c3a-b848-401f-99bd-66b8e7518687
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:45]
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:11]
     :END:
 When are events /A, B/ of
 a manual said to be orthogonal?
@@ -19740,17 +19920,17 @@ which they are disjoint subsets
 then they are orthogonal, written
 /A⊥B/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       9885ffdf-0111-4659-9b07-b803fec77509
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.352
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:52]
+    :DRILL_AVERAGE_QUALITY: 4.5
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:16]
     :END:
 When are events /A, B/ of a 
 manual *M* said to be orthogonal
@@ -19760,17 +19940,17 @@ If they are disjoint and
 /A∪B ∈/ *M*, ie their
 union is an experiment.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-03 Tue>
     :PROPERTIES:
     :ID:       ec874e66-9997-423a-a662-429240270df2
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:50]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:18]
     :END:
 When are events /A, B/ of
 a manual *M* said to be
@@ -19781,17 +19961,17 @@ If there is an event /C/ that
 extends them to experiments, ie
 such that /A oc C/ and /B oc C/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-03 Tue>
     :PROPERTIES:
     :ID:       418ad042-328f-44b8-9919-df2ca4b09700
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:50]
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:17]
     :END:
 What is the special connection
 between events /A, B/ of a
@@ -19803,17 +19983,17 @@ because event /A/ occurs when performing
 experiment /A∪C/ if and only if /B/
 occurs when performing /B∪C/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-04 Wed>
     :PROPERTIES:
     :ID:       0805490e-bc80-4f29-a129-f4f3cc1ff9c4
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:44]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:13]
     :END:
 How is implication defined on
 a manual?
@@ -19824,17 +20004,17 @@ event /B/ of the manual, written
 with /A⊥C/ and /A∪C op B/.
 ** Mechanics
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2019-11-25 Mon>
+    SCHEDULED: <2020-10-20 Tue>
     :PROPERTIES:
     :ID:       38c34d09-4752-4d4f-9fe0-eb49003bbec9
-    :DRILL_LAST_INTERVAL: 176.527
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 330.4585
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-01 Sat 11:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:23]
     :END:
 What is the geometrical
 intuition behind the 
@@ -20087,17 +20267,17 @@ is a rotation of the
 observed.
 ** R&D
 *** Commutation                                                       :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-07-20 Mon>
     :PROPERTIES:
     :ID:       6f296e19-212f-4d37-aac7-6d884f892859
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-29 Sat 09:03]
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:25]
     :END:
 Why should the space-like
 components of a four vector
@@ -20111,17 +20291,17 @@ on it. Thus, a time-like
 operator should change position
 eigenstates.
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-07-19 Sun>
     :PROPERTIES:
     :ID:       4e8ac432-5f69-4bb7-91fa-bbb749a57d15
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-29 Sat 09:02]
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:19]
     :END:
 How does /E²-p²/ give
 rise to creation and 
@@ -20159,17 +20339,17 @@ operator were operating
 on paths to measure a value,
 the contours would be eigenstates.
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-07-19 Sun>
     :PROPERTIES:
     :ID:       5de4cfe4-dcef-4863-9fb3-b52b3b66a78c
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-29 Sat 09:01]
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:21]
     :END:
 What could be the 
 interpretation of
@@ -20247,17 +20427,17 @@ diagonalisable.
 space, so the /Hⁿv/ should probably
 be orthogonalized, as in Lanzcos)
 *** Quantum Internals                                                 :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-07-20 Mon>
     :PROPERTIES:
     :ID:       613adc3f-3cdb-402d-bf87-2bc6055d2552
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-29 Sat 09:05]
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:23]
     :END:
 How to explain superluminal
 effects within quantum systems?
@@ -20467,17 +20647,17 @@ Yes, for example the
 ~(|0⟩+|1⟩)|0⟩~ to
 ~|00⟩+|11⟩~.
 *** Function Period                                                   :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-06-06 Sat>
     :PROPERTIES:
     :ID:       ae00066e-b491-4ea8-b128-ffd98473f33b
-    :DRILL_LAST_INTERVAL: 103.6219
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 193.9802
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-12 Mon 08:08]
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:24]
     :END:
 How to get the period of
 a discrete function over
@@ -20785,17 +20965,17 @@ same degenerate energy
 level are called hyperfine
 qbits.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2019-12-19 Thu>
     :PROPERTIES:
     :ID:       1c8e1ca5-391d-439b-ae1b-5c6d729730a5
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:30]
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:41]
     :END:
 How to measure equality
 of bits in a two qbit
@@ -20807,17 +20987,17 @@ space /V⊗V=S₁⊕S₂/ where
 /{|0⟩|0⟩,|1⟩|1⟩}/ and
 /S₂/ by /{|0⟩|1⟩,|1⟩|0⟩}/.
 *** Programming                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-01-08 Wed>
     :PROPERTIES:
     :ID:       45c4c532-3cc8-4aff-8c1d-ccd8419dcbec
-    :DRILL_LAST_INTERVAL: 19.884
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.5915
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-06 Wed 13:16]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:09]
     :END:
 How can classical computer
 programs be translated to
@@ -20831,17 +21011,17 @@ output in the sense of
 ~if |s⟩ then ∑aₛₜ|t⟩~ relating
 state ~|s⟩~ to ~∑aₛₜ|t⟩~.
 *** QBit Notation                                                     :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2019-12-21 Sat>
     :PROPERTIES:
     :ID:       deab0a3f-51b3-4b04-9977-ab39527fb3b5
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-16 Sat 14:32]
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:04]
     :END:
 What is ~|0⟩~ in
 vector notation?
@@ -20901,17 +21081,17 @@ between the energy levels of the
 bit states /|0⟩/ and /|1⟩./
 ** Quantum Relativity
 *** Klein Gordon                                                      :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2020-07-22 Wed>
     :PROPERTIES:
     :ID:       9cc465db-c8a9-43f0-8257-fbc96c839abd
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:54]
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:54]
     :END:
 How is Klein-Gordon related
 to the quantum harmonic
@@ -21023,17 +21203,17 @@ it is negative somewhere or
 more singular than the /δ/
 function.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2020-01-03 Fri>
     :PROPERTIES:
     :ID:       e04a996c-5549-4c70-a1ae-2ec8e7f8f788
-    :DRILL_LAST_INTERVAL: 32.6866
-    :DRILL_REPEATS_SINCE_FAIL: 18
-    :DRILL_TOTAL_REPEATS: 33
+    :DRILL_LAST_INTERVAL: 36.5763
+    :DRILL_REPEATS_SINCE_FAIL: 19
+    :DRILL_TOTAL_REPEATS: 34
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.06
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.058
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-25 Fri 17:21]
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:52]
     :END:
 How to handle particles
 in a relativistic context?
@@ -21079,17 +21259,17 @@ possibly also employing the relevant
 Lorentz group. (How about the
 energy-momentum operator?)
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-02-12 Wed>
     :PROPERTIES:
     :ID:       5401b059-307d-4458-9d13-4e1800b3bfad
-    :DRILL_LAST_INTERVAL: 63.9223
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 80.1586
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.062
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-21 Sat 08:17]
+    :DRILL_AVERAGE_QUALITY: 3.058
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:20]
     :END:
 What is the relationship
 of the Heisenberg group to
@@ -21146,17 +21326,17 @@ and that /⟨σᵢ|Pⱼ|σₖ⟩=δᵢⱼδⱼₖ/,
 so that a nonzero term is 
 obtained only for /i=j=k/.
 *** Entanglement                                                      :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2019-12-22 Sun>
     :PROPERTIES:
     :ID:       075a2d6e-9669-49a4-8626-e108571c66ac
-    :DRILL_LAST_INTERVAL: 14.3242
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 27.7889
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-10 Sun 13:55]
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:25]
     :END:
 What is the principle
 of quantum teleportation?
@@ -21297,17 +21477,17 @@ a certain spin state. But the
 state can only be measured, not
 set.
 *** Fields                                                            :drill:
-    SCHEDULED: <2019-11-24 Sun>
+    SCHEDULED: <2020-04-10 Fri>
     :PROPERTIES:
     :ID:       83e2c61a-3ccf-4e7d-92bc-045b7c3a7023
-    :DRILL_LAST_INTERVAL: 59.4872
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 138.4862
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-26 Thu 13:46]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:27]
     :END:
 How does the type of
 a classical field
@@ -21659,17 +21839,17 @@ in ketbra notation?
 It is
 /|a⟩⟨b|⊗|c⟩⟨d|=|ac⟩⟨bd|/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-11-25 Mon>
+    SCHEDULED: <2019-12-17 Tue>
     :PROPERTIES:
     :ID:       50a5b073-50f4-476e-a4a1-0103190ab5ea
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-16 Sat 14:33]
+    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:22]
     :END:
 How is bracket notation
 related to matrix and
@@ -22216,17 +22396,17 @@ This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2019-12-20 Fri>
     :PROPERTIES:
     :ID:       e83e7b93-f7c8-48be-b62a-aa5493619206
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 23.2385
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:29]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:41]
     :END:
 How are Hermitian operators
 related to measurements?
@@ -22236,17 +22416,17 @@ describes a measurement by
 decomposing the state space
 into its eigenspaces.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2019-12-23 Mon>
     :PROPERTIES:
     :ID:       ba1ae510-0ac4-4e8d-8808-479bb5f48e93
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:33]
+    :DRILL_LAST_REVIEWED: [2019-11-28 Thu 13:31]
     :END:
 How is a Hermitian operator
 applied to a measurement?
@@ -22254,25 +22434,30 @@ applied to a measurement?
 A hermitian operator /H/ can
 be written as /H=∑ᵢλᵢPᵢ/ 
 where /Pᵢ/ is the projection
-onto the eigenspace of
-/λᵢ/. When measuring a state
-expressed as linear combination
-/|v⟩=∑ᵢσᵢ|i⟩/ of eigenspaces of
-/H/, projection /Pᵢ/ is selected
+onto the eigenspace of 
+eigenvalue /λᵢ/. When 
+measuring a state
+/|v⟩/ the projection /Pᵢ/ 
+is selected with probability
+/‖Pᵢ|v⟩‖²/ and applied to /|v⟩/.
+So if all eigenspaces are 
+one-dimensional then 
+/|v⟩=∑ᵢσᵢ|i⟩/ and 
+projection /Pᵢ/ is selected
 with probability /|σᵢ|²/ and
 applied to /|v⟩/.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2019-12-18 Wed>
     :PROPERTIES:
     :ID:       dfcb3721-2518-4da5-8595-c6ec2f62e3fe
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.6501
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:28]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:39]
     :END:
 What happens when a
 measurement is performed
@@ -22410,17 +22595,17 @@ richer, a fact that may not
 be reflected in the measurement
 device.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2020-01-10 Fri>
     :PROPERTIES:
     :ID:       3d011e1d-d54f-4ebe-bb82-45a88c4217f8
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.1423
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-06 Wed 13:17]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:53]
     :END:
 What seems to be going
 on in a cloud chamber
@@ -22436,17 +22621,17 @@ by the same (or minimally
 modified) hamiltonian as
 before.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2020-01-10 Fri>
     :PROPERTIES:
     :ID:       c149192e-3d45-4344-b7e8-b2d42d4dfa30
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.1423
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-06 Wed 13:15]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:53]
     :END:
 What seems to be the
 essence of non-destructive
@@ -22459,17 +22644,17 @@ is not disturbed, or at least
 only minimally, such as in
 a cloud chamber.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-26 Tue>
+    SCHEDULED: <2020-01-06 Mon>
     :PROPERTIES:
     :ID:       6ee2a1ef-753a-4cae-91e8-c24b7afd35a1
-    :DRILL_LAST_INTERVAL: 19.884
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.1002
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.08
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-06 Wed 13:13]
+    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:12]
     :END:
 What is a non-destructive
 quantum measurement according
@@ -22480,17 +22665,17 @@ measure particle number, such
 as the measurement of 
 trajectories in a cloud chamber.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2019-12-15 Sun>
     :PROPERTIES:
     :ID:       edca5c13-2fcd-4ba7-9e1a-98a4f61788fc
-    :DRILL_LAST_INTERVAL: 8.2695
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 18.3583
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.428
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:49]
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:40]
     :END:
 Where is classical probability
 deficient in the treatment of
@@ -22815,17 +23000,17 @@ can be factored by
 /F=∑ᵢξⁱ|vᵢ⟩⟨vᵢ|/ where /ξ/
 is an n-th root of unity.
 *** Operators: Projections                                            :drill:
-    SCHEDULED: <2019-11-27 Wed>
+    SCHEDULED: <2019-12-19 Thu>
     :PROPERTIES:
     :ID:       76377532-076a-4331-80b9-0f6958cc5dfd
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.6744
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:31]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:38]
     :END:
 What is the general
 form of projection
