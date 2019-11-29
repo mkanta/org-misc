@@ -1,0 +1,91 @@
+# Notes on quantum physics with drill cards. They should be tangled out to
+# ../drills/quantum.org, just run C-c C-v t
+# Note that a  "*TODO" subtree will be exported despite :noexport: if it
+# doesn't have a title beside the TODO. 
+# The option below causes TODO headlines to be exported without "TODO"
+#+OPTIONS: todo:nil
+* Operator Transformations
+  :PROPERTIES:
+  :header-args: :tangle "../drills/operator_drills.org"
+  :END:
+In the Heisenberg picture, operators evolve in time whereas state vectors stay
+constant. From a measurement point of view, this means that the state-space
+decomposition for measuring a certain observable $A$ evolves and the
+probabilities for obtaining certain results on the same state vectors evolve
+accordingly. A Hermitian observable $A$ can be written in terms of the
+projection operators onto its eigenspaces as
+\[A=\sum_i\alpha_iP_i,\]
+where $\alpha_i$ is the eigenvalue on the eigenspace defined by projection 
+$P_i$. Looking at parametrized transformations
+\[A(s,t)=\sum_i\alpha_i(s)P_i(t)\] of $A$, there are three ways things can
+change with parameters $s, t$:
+ 1) If $\alpha_i(s)$ is constant then \[A(s,t)=A(t)=\sum_i\alpha_iP_i(t),\]
+    the usual situation for the time evolution of observable $A$.
+ 2) If $P_i(t)$ is constant then \[A(s,t)=A(s)=\sum_i\alpha_i(s)P_i,\]
+    a situation that occurs for (communicating?) relativistic observers as
+    explained below.
+ 3) The situation where neither of them is constant.
+** Time Evolution
+In the Heisenberg picture, the time evolution of an operator is given by
+\[A(t)=U^\dagger(t) AU(t)\] with unitary matrices $U(t)$ and their adjoints
+$U^\dagger(t)$. As a consequence, \[A=\sum_i\alpha_iP_i\] turns into
+\[A(t)=\sum_i\alpha_iU^\dagger(t)P_iU(t)=\sum_i\alpha_iP_i(t)\] yielding
+situation 1) with constant eigenvalues.
+** TODO Check This                                                 :noexport:
+When are the $P_i(t)$ compatible: Essentially $U(t)$ have to permute 
+eigenspaces.
+*** Drill questions:                                               :noexport:
+ #+BEGIN_SRC org
+   ,* Operator Transformations                                            :drill:
+   Why do time evolutions
+   /A(t)/ of an operator
+   /A/ in general not commute?
+   ,** Answer:
+   Because the projection
+   operators /Pᵢ/ onto the
+   eigenspaces evolve
+   as /Pᵢ(t)=U⁺(t)PᵢU(t)/,
+   hence eigenvectors evolve
+   as /U(t)v/, which result
+   in different eigenspaces
+   unless /U(t)/ merely
+   permutes them.
+   ,* Operator Transformations                                            :drill:
+   Why are continuous paths
+   not observable in quantum
+   mechanics?
+   ,** Answer:
+   Because observables 
+   /A(t)=U⁺(t)AU(t)/
+   can commute only for a
+   countable subset /{tₙ}/
+   corresponding to rational
+   angles for /U(t)/, where
+   eigenspaces may be permuted.
+   (What about continuous
+   spectra?)
+ #+END_SRC
+** Accommodating Relativistic Observers
+Quantum measurement is value agnostic in the sense that the only thing that
+matters is how the measurement procedure decomposes the state space into
+orthogonal subspaces. The actual values are a later interpretation by by the
+measurement team.
+
+In that sense, it should be easy to modify an observable $A=\sum_i\alpha_iP_i$
+to accommodate relativistic observers by simply changing the eigenvalues of
+$A$ to obtain
+\[A(s)=\sum_i\alpha_i(s)P_i,\]
+where $s$ is a parameter characterising a relativistic observer, such as the 
+Lorentz factor $\left(\sqrt{1-\frac{v^2}{c^2}}\right)^{-1}$.
+to the system, their observations differ in value. 
+
+An observer in state $s$ measures a system in state $|v\rangle$ with $A(s)$ 
+and gets a value $\alpha_i(s)$ with probability $\|P_i|v\rangle\|^2$.
+Since all observers look at the same observable, the $A(s)$ should have the 
+same eigenspace decomposition, no matter the value of $s$, so their projection
+operators should be constant. From another point of view, if relativistic,
+spacelike separated observers perform measurements on a system then the order
+of the measurement events is not well defined, hence their $A(s)$ should
+commute to reflect this symmetry.
+
+How to express this transformation on $A$?

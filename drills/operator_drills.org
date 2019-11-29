@@ -1,0 +1,28 @@
+* Operator Transformations                                            :drill:
+Why do time evolutions
+/A(t)/ of an operator
+/A/ in general not commute?
+** Answer:
+Because the projection
+operators /Pᵢ/ onto the
+eigenspaces evolve
+as /Pᵢ(t)=U⁺(t)PᵢU(t)/,
+hence eigenvectors evolve
+as /U(t)v/, which result
+in different eigenspaces
+unless /U(t)/ merely
+permutes them.
+* Operator Transformations                                            :drill:
+Why are continuous paths
+not observable in quantum
+mechanics?
+** Answer:
+Because observables 
+/A(t)=U⁺(t)AU(t)/
+can commute only for a
+countable subset /{tₙ}/
+corresponding to rational
+angles for /U(t)/, where
+eigenspaces may be permuted.
+(What about continuous
+spectra?)
