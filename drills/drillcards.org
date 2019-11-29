@@ -1766,17 +1766,17 @@ pushed on the stack when
 a non-editing command
 occurs.
 *** editing                                                           :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2020-01-30 Thu>
     :PROPERTIES:
     :ID:       0d809df9-e405-4c92-bf86-d5ba91910e39
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:48]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:29]
     :END:
 How to initiate a
 /redo/ after a messed
@@ -1788,17 +1788,17 @@ command like ~C-f~ after
 the mess-up and then
 do an /undo/.
 *** editing                                                           :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2020-01-28 Tue>
     :PROPERTIES:
     :ID:       5f259e2f-9730-41ff-9aa0-d9187a505bec
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:50]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:27]
     :END:
 How does /undo/
 work in emacs?
@@ -1981,17 +1981,17 @@ With the where-is
 feature:
 =f1 w <funcname>=.
 *** input                                                             :drill:
-    SCHEDULED: <2019-11-29 Fri>
+    SCHEDULED: <2020-02-05 Wed>
     :PROPERTIES:
     :ID:       ab0965c5-c385-4ac8-b958-6327b5a28685
-    :DRILL_LAST_INTERVAL: 42.3352
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 67.821
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.308
     :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-18 Fri 14:33]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:28]
     :END:
 What to use for vector
 norms /‖v‖/?
@@ -3722,17 +3722,17 @@ can be done simply with the
 monadic fail function as
 =fail <errorMessage>=.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2020-11-14 Sat>
     :PROPERTIES:
     :ID:       718f72d5-a181-425a-8adc-c8b3d2dee3f2
-    :DRILL_LAST_INTERVAL: 194.6276
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 351.4974
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-17 Fri 12:09]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:25]
     :END:
 Why should megaparsec 
 parsers not be built with
@@ -13326,17 +13326,17 @@ A collection of arrows
 /D/ indexed by objects /X/
 from category /C/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2020-10-21 Wed>
     :PROPERTIES:
     :ID:       ebdb23af-95a6-4cdf-b483-73bcc1efdcb1
-    :DRILL_LAST_INTERVAL: 174.5644
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 326.7846
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_AVERAGE_QUALITY: 3.286
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-06 Thu 10:34]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:28]
     :END:
 What is a topos?
 **** Answer:
@@ -15711,17 +15711,17 @@ of coordinates of /f/ if it
 is small enough and leads to
 a Taylor expansion of /f/.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2020-01-02 Thu>
     :PROPERTIES:
     :ID:       1e9184ca-9752-46c5-ae04-5224b7c8fa7c
-    :DRILL_LAST_INTERVAL: 17.4697
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 33.8912
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:35]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:32]
     :END:
 What is an infinitesimal
 transformation induced by
@@ -16373,17 +16373,17 @@ with /s(P)∉{0,1}/ that can not
 be written as a convex combination
 of dispersion free states.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-11-29 Fri>
+    SCHEDULED: <2019-12-09 Mon>
     :PROPERTIES:
     :ID:       548900f9-9a40-41d2-ad89-e35502ed931e
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-25 Mon 16:25]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:21]
     :END:
 What is a pure state on an
 experimental logic?
@@ -17384,17 +17384,17 @@ It means that /A⊦B/ is
 satisfied for every
 interpretation.
 *** Logic: Structural                                                 :drill:
-    SCHEDULED: <2019-11-29 Fri>
+    SCHEDULED: <2020-03-12 Thu>
     :PROPERTIES:
     :ID:       ece55a4f-f32a-41a9-a01c-be5c57a816e8
-    :DRILL_LAST_INTERVAL: 50.2718
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.9118
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-10 Thu 14:49]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:24]
     :END:
 When is a sequent /A⊦B/
 satisfied?
@@ -18584,17 +18584,17 @@ the sum goes over the outcomes
 the outcomes /a∈A/ of the first
 variable.
 *** Distributions                                                     :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2020-01-12 Sun>
     :PROPERTIES:
     :ID:       a7259811-6452-47be-90b2-a927ad52aa3b
-    :DRILL_LAST_INTERVAL: 20.608
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.1423
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:04]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:26]
     :END:
 What distinguishes independent
 random variables /V₁/, /V₂/ in terms 
@@ -20674,6 +20674,75 @@ have non-zero amplitudes.
 Measuring /|k⟩/ will provide
 one of these numbers.
 *** Gates                                                             :drill:
+How to prove that single
+qbit transformations can be
+written as products of
+phase shifts, phase
+rotations and regular
+rotations?
+**** Answer:
+Because of unitarity, a
+single qbit transformation
+can be written as
+/exp(iφ₀₀)cos(β)|0⟩⟨0|/
+/+exp(iφ₀₁)sin(β)|0⟩⟨1|/
+/-exp(iφ₁₀)sin(β)|1⟩⟨0|/
+/+exp(iφ₁₁)cos(β)|1⟩⟨1|/
+*** Gates                                                             :drill:
+Why the particular interest
+in phase shifts and phase
+rotations?
+**** Answer:
+Because every one-qbit
+unitary transformation can
+be written as a product of
+these combined with regular
+two-dimensional rotations
+/R(α)/.
+*** Gates                                                             :drill:
+What are the phase rotations
+/T(r)/?
+**** Answer:
+They are
+/T(r)=eⁱʳ|0⟩⟨0|+e⁻ⁱʳ|1⟩⟨1|/.
+*** Gates                                                             :drill:
+What are the phase shifts
+/K(s)/?
+**** Answer:
+They are 
+/K(s)=eⁱˢI/.
+*** Gates                                                             :drill:
+Why is /⋀⁰₁₀/ the
+regular control not
+gate?
+**** Answer:
+Because it appplies
+negation /X/ to /|10⟩/ 
+and /XXX=X/ to /|11⟩/
+if the control bit /b₁/
+is /1/.
+*** Gates                                                             :drill:
+What is quantum gate
+/⋀ₓQ/ with /x=xₖ…x₁/?
+**** Answer:
+A gate with /k/ control
+bits that applies /Q/
+to qbit /0/ in state
+ /|xₖ…x₁x₀⟩/ and the
+identity otherwise.
+*** Gates                                                             :drill:
+What is /⋀ⁱₓQ/ for a
+(k+1)-bit string /x/ and
+/i/ an index of that string?
+**** Answer:
+With /x=xₖ₊₁xₖ…x₀/, /Q/ is
+applied to qbit /i/ in
+state /|xₖ₊₁…xᵢ₊₁0xₖ₋₁…x₀⟩/
+and /XQX/ is applied to qbit
+/i/ in state 
+/|xₖ₊₁…xᵢ₊₁1xₖ₋₁…x₀⟩/. Otherwise,
+it's the identity.
+*** Gates                                                             :drill:
     SCHEDULED: <2019-12-01 Sun>
     :PROPERTIES:
     :ID:       510efe11-c6f8-43f3-bb53-9df3d18c7166
@@ -20987,6 +21056,25 @@ space /V⊗V=S₁⊕S₂/ where
 /{|0⟩|0⟩,|1⟩|1⟩}/ and
 /S₂/ by /{|0⟩|1⟩,|1⟩|0⟩}/.
 *** Programming                                                       :drill:
+What is the goal of
+quantum algorithm
+design?
+**** Answer:
+Find useful unitary
+operators with efficient
+implementations, ie in
+terms of simple gates
+or other quantum
+manipulations.
+*** Programming                                                       :drill:
+What is the difficulty in
+quantum programming?
+**** Answer:
+The fact that there are no
+efficient realisations in
+terms of simple gates for
+most unitary transformations.
+*** Programming                                                       :drill:
     SCHEDULED: <2020-01-08 Wed>
     :PROPERTIES:
     :ID:       45c4c532-3cc8-4aff-8c1d-ccd8419dcbec
@@ -21175,17 +21263,17 @@ as /∫dq |q⟩⟨q|/. Then
 with /φ(x)=⟨x|q⟩/, so
 /φ*(x)=⟨q|x⟩/.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2019-11-29 Fri>
+    SCHEDULED: <2020-01-30 Thu>
     :PROPERTIES:
     :ID:       e6b06345-f05c-48cf-b681-f05dd6dbd83e
-    :DRILL_LAST_INTERVAL: 55.541
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 62.1504
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-04 Fri 13:29]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:25]
     :END:
 Why is normal ordering
 of creation and annihilation
@@ -21820,17 +21908,17 @@ which can be written
 sum convention and Dirac
 matrices /D/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2019-11-29 Fri>
+    SCHEDULED: <2019-12-24 Tue>
     :PROPERTIES:
     :ID:       18ecfcda-505c-4330-b9af-cf9751da34f1
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:49]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:21]
     :END:
 What is the tensor
 product /|a⟩⟨b|⊗|c⟩⟨d|/
@@ -22396,6 +22484,18 @@ This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
 *** Measurement                                                       :drill:
+    SCHEDULED: <2019-12-03 Tue>
+    :PROPERTIES:
+    :ID:       6a23b794-ed10-4afd-bd99-52076508341f
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:28]
+    :END:
 How to interpret the
 Heisenberg picture in
 terms of potential
@@ -22484,17 +22584,17 @@ as /|v⟩=∑ᵢσᵢ|sᵢ⟩/ is projected
 onto subspace /Sᵢ/ with
 probability /|σᵢ|²/. 
 *** Measurement                                                       :drill:
-    SCHEDULED: <2019-11-29 Fri>
+    SCHEDULED: <2019-12-24 Tue>
     :PROPERTIES:
     :ID:       5a655d0f-1d06-4326-9523-c7f7075c0842
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:48]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:21]
     :END:
 What is a quantum
 measurement mathematically?
@@ -22992,17 +23092,17 @@ where /x₀/ is the concentration point
 of the wave-function.
 
 *** Operators: Projections                                            :drill:
-    SCHEDULED: <2019-11-29 Fri>
+    SCHEDULED: <2019-12-24 Tue>
     :PROPERTIES:
     :ID:       43aba786-0696-4844-8d40-5703c5e93ded
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:48]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:22]
     :END:
 How to factor projections
 /P/ as /P=Fⁿ/?
@@ -23902,17 +24002,17 @@ lepton number +1 whereas leptons
 that are anti-particles have
 lepton number -1.
 *** Particles                                                         :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2019-12-30 Mon>
     :PROPERTIES:
     :ID:       e99decab-17da-42de-acba-609651e64c8d
-    :DRILL_LAST_INTERVAL: 27.3819
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 32
+    :DRILL_LAST_INTERVAL: 30.6403
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 33
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.375
+    :DRILL_AVERAGE_QUALITY: 3.394
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-01 Fri 15:31]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:28]
     :END:
 What are leptons?
 **** Answer:
@@ -23943,17 +24043,17 @@ despite being electrically
 neutral they can have opposite
 lepton numbers.
 *** Path Integral						      :drill:
-    SCHEDULED: <2019-11-28 Thu>
+    SCHEDULED: <2019-12-11 Wed>
     :PROPERTIES:
     :ID:       94342910-30cb-4f2e-a362-6f9660a95aff
-    :DRILL_LAST_INTERVAL: 9.2521
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_LAST_INTERVAL: 12.0277
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 22
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.191
+    :DRILL_AVERAGE_QUALITY: 3.228
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:50]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:22]
     :END:
 What does the path-integral describe?
 **** Answer:
@@ -24325,17 +24425,17 @@ position and momentum variables are
 quantized by assigning an operator
 /Qₐ/ to function /a/.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2019-11-29 Fri>
+    SCHEDULED: <2019-12-09 Mon>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 7.682
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 25
+    :DRILL_LAST_INTERVAL: 9.9866
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 26
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.038
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-21 Thu 13:03]
+    :DRILL_LAST_REVIEWED: [2019-11-29 Fri 14:23]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
