@@ -1771,17 +1771,17 @@ By the partial sums of the series, which yield
 the elements of the sequence as 
 /aₙ=∑ⁿbₘpᵐ/.
 *** Permutations                                                      :drill:
-    SCHEDULED: <2019-12-04 Wed>
+    SCHEDULED: <2020-12-25 Fri>
     :PROPERTIES:
     :ID:       246283cb-8d0e-49e4-9234-ca98cc53273f
-    :DRILL_LAST_INTERVAL: 199.5653
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 387.1567
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.428
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-05-18 Sat 12:18]
+    :DRILL_LAST_REVIEWED: [2019-12-04 Wed 12:47]
     :END:
 What is the main interest
 when considering containment
@@ -2366,17 +2366,17 @@ factoring out the fractional
 derivative then yields the
 result.
 *** Fractional Calculus                                               :drill:
-    SCHEDULED: <2019-12-04 Wed>
+    SCHEDULED: <2021-02-13 Sat>
     :PROPERTIES:
     :ID:       eb154591-92d3-4a8d-8413-e80fd67e322a
-    :DRILL_LAST_INTERVAL: 233.2686
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 436.6788
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-15 Mon 12:51]
+    :DRILL_LAST_REVIEWED: [2019-12-04 Wed 12:50]
     :END:
 How can fractional derivatives
 be used to approximate functions?
@@ -3065,6 +3065,18 @@ essentially it proves that
 a type is populated, possibly
 depending on other types.
 *** Experiments                                                       :drill:
+    SCHEDULED: <2019-12-08 Sun>
+    :PROPERTIES:
+    :ID:       ed64d9d6-bc5f-48d3-86ec-61fe5fc77ce6
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-12-04 Wed 12:49]
+    :END:
 When is a property of
 a system considered 
 detectable by proposition
@@ -3076,6 +3088,18 @@ is a face /F/ on the states
 of L of the form
 /F={s|s(P)=1}/.
 *** Experiments                                                       :drill:
+    SCHEDULED: <2019-12-08 Sun>
+    :PROPERTIES:
+    :ID:       179cb637-9b69-489e-844e-984a7d5d1dae
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-12-04 Wed 12:46]
+    :END:
 Why is a face on the
 states of an experimental
 logic a good model for a
@@ -3247,17 +3271,17 @@ even if the component
 states are dispersion free,
 ie in /{0, 1}/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-05 Thu>
+    SCHEDULED: <2019-12-24 Tue>
     :PROPERTIES:
     :ID:       5f58a4e9-2fe5-40c7-87bc-a53b3ad7517a
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:02]
+    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:04]
     :END:
 What kinds of logics
 are used to describe
@@ -3271,17 +3295,17 @@ is reminiscent of negation,
 /≤/ playing the role of
 implication.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-05 Thu>
+    SCHEDULED: <2019-12-09 Mon>
     :PROPERTIES:
     :ID:       8765c8aa-5784-4645-823f-dd1498fdee52
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:04]
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:11]
     :END:
 When are propositions of a
 logic orthogonal?
@@ -3290,17 +3314,17 @@ Propositions /p,q∈L(,≤,')/
 are orthogonal, /p⊥q/, if
 /p≤q'/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-05 Thu>
+    SCHEDULED: <2019-12-27 Fri>
     :PROPERTIES:
     :ID:       8e1263af-da37-48f2-be62-e8e8dc174d6d
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:03]
+    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:09]
     :END:
 What is a state on a
 logic describing
@@ -3311,17 +3335,17 @@ that /s(𝟏)=1/ and
 /s(p∨q)=s(p)+s(q)/ if
 /p⊥q/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-05 Thu>
+    SCHEDULED: <2019-12-27 Fri>
     :PROPERTIES:
     :ID:       3ae099a8-d71c-486e-b725-6cae828d3a6f
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:07]
+    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:08]
     :END:
 Why does the definition of
 state make sense for logics
@@ -3334,17 +3358,17 @@ certain propositions of its
 describing logic true and so
 induces a state on the logic.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-05 Thu>
+    SCHEDULED: <2019-12-09 Mon>
     :PROPERTIES:
     :ID:       60d775e8-4f1d-4411-b0e1-6c48aca979a7
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:05]
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:15]
     :END:
 Why is normal propositional
 logic not suitable to
@@ -3354,21 +3378,21 @@ results?
 Because it doesn't take into
 account that the truth of
 propositions /p/, /q/ may
-not be determined at the same
+not be determinable at the same
 time due to incompability
 of the underlying experiments.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-05 Thu>
+    SCHEDULED: <2019-12-27 Fri>
     :PROPERTIES:
     :ID:       39a70dcc-5d75-4b58-bc2d-3e7439716d9b
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:03]
+    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:07]
     :END:
 Why may
 /p→(p∧q)∨(p∧¬q)/ not hold
@@ -3384,17 +3408,17 @@ experiments. In this case,
 neither /p∧q/ nor /p∧¬q/ would
 be defined.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-05 Thu>
+    SCHEDULED: <2019-12-27 Fri>
     :PROPERTIES:
     :ID:       f788563f-ae20-45fc-90ad-1fb89f9a41e6
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:06]
+    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:08]
     :END:
 What is the meaning of
 a proposition /[A]∈Π(*M*)/
@@ -3405,17 +3429,17 @@ is tested for event /A/
 in *M* then event /A/ will
 occur".
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-04 Wed>
+    SCHEDULED: <2019-12-26 Thu>
     :PROPERTIES:
     :ID:       26886f96-ec59-4049-8c5e-4abeab64a86b
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4605
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:13]
+    :DRILL_LAST_REVIEWED: [2019-12-04 Wed 12:33]
     :END:
 How are propositions 
 defined on a manual *M*?
@@ -3427,17 +3451,17 @@ Propositions on *M* are
 the equivalence classes
 of this relation.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-04 Wed>
+    SCHEDULED: <2019-12-26 Thu>
     :PROPERTIES:
     :ID:       27839549-1092-4f65-8480-a897666375a0
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4605
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:12]
+    :DRILL_LAST_REVIEWED: [2019-12-04 Wed 12:41]
     :END:
 How is logical implication
 defined on a manual *M*?
@@ -3469,17 +3493,17 @@ the orthocomplement of /[A]/
 is /[A]'=[E-A]/ where /E/ is
 an experiment with /A⊆E/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-04 Wed>
+    SCHEDULED: <2019-12-26 Thu>
     :PROPERTIES:
     :ID:       e755596e-eda7-4b1c-a55f-8127f07625dd
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4605
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:15]
+    :DRILL_LAST_REVIEWED: [2019-12-04 Wed 12:44]
     :END:
 When is a proposition /[A]/ on a
 manual *M* considered true?
@@ -5462,17 +5486,17 @@ Their lack of /σ-additivity/. Quasi
 probabilities in quantum theory
 also have negative regions.
 *** Nonlocal Fields                                                   :drill:
-    SCHEDULED: <2019-12-04 Wed>
+    SCHEDULED: <2021-02-13 Sat>
     :PROPERTIES:
     :ID:       b7fa847e-c76a-4b6e-9450-e455fa646d3c
-    :DRILL_LAST_INTERVAL: 233.2686
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 436.6788
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-15 Mon 12:49]
+    :DRILL_LAST_REVIEWED: [2019-12-04 Wed 12:51]
     :END:
 How are non-locality
 and boundary conditions
