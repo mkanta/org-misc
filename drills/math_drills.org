@@ -2827,6 +2827,82 @@ tensors according to the position
 of the last index.
 ** Logic
 *** Automata                                                          :drill:
+    SCHEDULED: <2019-12-15 Sun>
+    :PROPERTIES:
+    :ID:       9f261e48-8147-46b8-8da2-3f9d64e294e6
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-11 Wed 13:27]
+    :END:
+Are there Turing machines
+that obviously don't halt?
+**** Answer:
+Yes, if there is an entry
+for every combination /qᵢ/,
+/Sᵢ/ of states and symbols
+then the machine won't halt
+because it only halts if
+it reaches a state and symbol
+for which there is no
+instruction.
+*** Automata                                                          :drill:
+    SCHEDULED: <2019-12-15 Sun>
+    :PROPERTIES:
+    :ID:       331497cb-13ae-4956-a14f-b8bfdcb86b70
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-11 Wed 13:23]
+    :END:
+How to describe the halting
+condition of a Turing machine
+by a first order predicate?
+**** Answer:
+By a disjunction /∨/ of sentences
+/∃t,x (Qᵢ(x,t)&Sᵢ(x,t))/ over
+all /i/ for which there is no
+entry for /qᵢ/, /Sᵢ/ in the
+table for the machine, or
+/False/ if if there are entries
+for all /qᵢ/, /Sᵢ/.
+*** Automata                                                          :drill:
+    SCHEDULED: <2019-12-15 Sun>
+    :PROPERTIES:
+    :ID:       227c24f8-246f-4281-b6e2-c1e4378402bf
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-11 Wed 13:18]
+    :END:
+How to describe a Turing
+machine /T/ by first order
+predicates?
+**** Answer:
+By introducing a predicate
+/Qᵢ(x,t)/ for every state
+/qᵢ/ to be interpreted as
+/T/ is in state /qᵢ/ at time
+/t/ scanning field /x/ and a
+predicate /Sᵢ(x,t)/ for each
+symbol to mean symbol /sᵢ/ is
+in field /x/ at time /t/.
+The transitions particular to
+/T/ can then be expressed in
+terms of these predicates.  
+*** Automata                                                          :drill:
     SCHEDULED: <2019-12-16 Mon>
     :PROPERTIES:
     :ID:       653cd849-1694-4cd9-9127-d043eec0380b
@@ -4176,6 +4252,105 @@ What is a /combinator/?
 **** Answer:
 A name /φ:A→B/ for a proof of
 sequent /A⊦B/.
+*** Logic:First Order                                                 :drill:
+What is a theory in
+first order logic?
+**** Answer:
+A set of propositions closed
+under /⊢/ that contains
+all valid propositions of the
+language.
+*** Logic:First Order                                                 :drill:
+What does /Γ⊢S/ mean if
+/Γ=∅/?
+**** Answer:
+By definition, every
+interpretation is a model
+for the empty set. Thus,
+/Γ⊢S/, also written /⊢S/
+means every interpretation
+is a model for /S/, that is,
+/S/ is valid.
+*** Logic:First Order                                                 :drill:
+What does /Γ⊢S/ for a
+set of propositions /Γ/
+and a proposition /S/
+mean in first order
+logic?
+**** Answer:
+It means that every
+interpretation of the
+underlying language which
+is a model for all the 
+propositions in /Γ/ is
+also a model for /S/.
+*** Logic:First Order                                                 :drill:
+What is a logical consequence
+of a set /Γ of propositions?
+**** Answer:
+A proposition /S/ such that
+/Γ⊢S/?
+*** Logic:First Order                                                 :drill:
+What is the difference
+between an interpretation
+and a model?
+**** Answer:
+A model is a special kind of 
+interpretation related to a
+proposition /P/ (boolean expression)
+in some language. A model
+for /P/ is an interpretation
+for which /P/ is true. 
+*** Logic:First Order                                                 :drill:
+    SCHEDULED: <2019-12-15 Sun>
+    :PROPERTIES:
+    :ID:       519ebba8-fcb5-4f87-8e73-00135a3995f9
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-11 Wed 13:25]
+    :END:
+What does the undecidability
+of first order logic have to
+do with computability?
+**** Answer:
+This undecidability can be
+proven by describing a
+turing machine with input /n/
+by first order predicates /Γ/ 
+and the halting condition by 
+a predicate /H/.
+Then /Γ⊢H/ if and only if the
+Turing machine halts on
+input /n/. Since the halting
+problem is undecidable, so
+is first order logic.
+*** Logic:First Order                                                 :drill:
+    SCHEDULED: <2019-12-15 Sun>
+    :PROPERTIES:
+    :ID:       0e1cb768-031b-4f2a-b18b-796fc09cda54
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-11 Wed 13:19]
+    :END:
+What does it mean to
+say that first order
+logic is undecidable ?
+**** Answer:
+It means that it is
+impossible to prove
+the satisfiability 
+of sequents /Γ⊢H/ 
+in general.
 *** Logic: Structural                                                 :drill:
     SCHEDULED: <2020-04-16 Thu>
     :PROPERTIES:
@@ -5558,17 +5733,17 @@ influence of past events
 ~Tᵢ~ on the current value
 of the intensity process ~λ(t)~.
 *** Processes                                                         :drill:
-    SCHEDULED: <2019-12-11 Wed>
+    SCHEDULED: <2020-03-31 Tue>
     :PROPERTIES:
     :ID:       0801d690-1eea-4409-a568-27a10f11dbf9
-    :DRILL_LAST_INTERVAL: 85.617
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 111.3021
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.067
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-16 Mon 08:09]
+    :DRILL_LAST_REVIEWED: [2019-12-11 Wed 13:25]
     :END:
 What is a Hawkes process?
 **** Answer:
