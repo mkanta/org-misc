@@ -1460,17 +1460,17 @@ If /T=UA=VB/ with partial isometries
 with /ker U=ker A/ and /ker V=ker B/
 then /U=V/ and /A=B/.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2019-12-31 Tue>
+    SCHEDULED: <2020-01-04 Sat>
     :PROPERTIES:
     :ID:       71612fc3-65a0-4dc2-b7de-b6bf73ebb4cc
-    :DRILL_LAST_INTERVAL: 225.8873
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.889
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-19 Sun 10:11]
+    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:57]
     :END:
 In which sense does the positive
 operator /A/ in the polar decomposition
@@ -1625,17 +1625,17 @@ Isometric operators are like unitary
 operators except that they may not be
 surjective.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2019-12-29 Sun>
+    SCHEDULED: <2020-03-09 Mon>
     :PROPERTIES:
     :ID:       46ad0d7a-2654-4e47-a6fa-0945e2d7c6a0
-    :DRILL_LAST_INTERVAL: 56.4896
-    :DRILL_REPEATS_SINCE_FAIL: 15
-    :DRILL_TOTAL_REPEATS: 20
+    :DRILL_LAST_INTERVAL: 70.838
+    :DRILL_REPEATS_SINCE_FAIL: 16
+    :DRILL_TOTAL_REPEATS: 21
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:57]
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:36]
     :END:
 How are Heisenberg groups
 related to symplectic vector
@@ -2166,17 +2166,17 @@ qualify as a wavelet?
 If its moments /Mₚ=∫tᵖψ(t)dt=0/
 for /p/ big enough.
 *** Wavelets                                                          :drill:
-    SCHEDULED: <2019-12-27 Fri>
+    SCHEDULED: <2020-07-08 Wed>
     :PROPERTIES:
     :ID:       6ddb1c3f-5709-4653-9abf-3720fb7c0e3b
-    :DRILL_LAST_INTERVAL: 103.6219
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 193.9802
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-14 Sat 11:15]
+    :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:54]
     :END:
 What's the consequence of
 a function /ψ(t)/ having zero
@@ -2342,17 +2342,17 @@ multigraphs to higher dimensions,
 containing, amongst other things,
 simplexes and their faces.
 *** Fractional Calculus                                               :drill:
-    SCHEDULED: <2019-12-29 Sun>
+    SCHEDULED: <2020-05-02 Sat>
     :PROPERTIES:
     :ID:       52a74e90-6eec-438a-8dc7-f3d68539bf6f
-    :DRILL_LAST_INTERVAL: 93.6415
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 124.7305
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.934
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 2.938
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-26 Thu 13:54]
+    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:39]
     :END:
 How does Heaviside solve
 /∂ₓ²u=a²∂ₜu/?
@@ -3141,6 +3141,36 @@ essentially it proves that
 a type is populated, possibly
 depending on other types.
 *** Experiments                                                       :drill:
+How to construct probabilities
+on an experiment logic?
+**** Answer:
+For /σ/-additive complete logics
+(quasi-?)probability measures can
+be obtained by composing an
+observable /O/ with a /σ/-additive
+state /s/ to obtain /s∘O: *B* → ℝ/
+with /s∘O(ℝ)=1/.
+*** Experiments                                                       :drill:
+How are observables on an
+experiment logic related to
+measurements?
+**** Answer:
+In the sense that /O⁻¹(P)/
+of a proposition /P/ is the
+set of possible results of
+an experiment in which /P/
+is true. (Technically it
+is /O⁻¹(P)-resolv(O)/).
+*** Experiments                                                       :drill:
+How are observables defined
+in experimental logics?
+**** Answer:
+An observable /O/ is a function
+the real Borel sets *B* to
+a /σ/-complete logic /L/ such
+that /O(ℝ)=1/ and /σ/-additivity
+is preserved under /O/.
+*** Experiments                                                       :drill:
     SCHEDULED: <2020-01-17 Fri>
     :PROPERTIES:
     :ID:       d2736c2a-5edd-48d2-9b71-cbdd35eda3f2
@@ -3263,17 +3293,17 @@ the convex hull of these states
 is necessary to define a
 property.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-30 Mon>
+    SCHEDULED: <2020-02-16 Sun>
     :PROPERTIES:
     :ID:       26996802-5a78-46e3-9911-7d6cdc3d7874
-    :DRILL_LAST_INTERVAL: 20.6501
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 47.9082
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.32
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-12-09 Mon 16:38]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2019-12-30 Mon 14:22]
     :END:
 Why is the concept of
 ontological uncertainty
@@ -3285,40 +3315,42 @@ ontological uncertainty can always
 be dispelled by a refinement to
 a better theory.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-31 Tue>
+    SCHEDULED: <2020-02-23 Sun>
     :PROPERTIES:
     :ID:       8a5d572a-d68f-4870-8614-ebf1e158184b
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.1648
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-09 Mon 16:39]
+    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:56]
     :END:
 What is the difference between
 epistemic and ontological
 uncertainty?
 **** Answer:
 Epistemic uncertainty reflects
-an uncertainty in our knowledge
-about which dispersion free state
+a lack of knowledge about which 
+definite (=dispersion free) state
 a system is in. Ontological
 uncertainty reflects a fundamental
-uncertainty in nature.
+uncertainty in nature due to the
+lack of a definite state the system
+is in.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-31 Tue>
+    SCHEDULED: <2020-02-21 Fri>
     :PROPERTIES:
     :ID:       794e5218-fd7b-4102-9106-5a5959ba5989
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.2785
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-09 Mon 16:35]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:50]
     :END:
 How is ontological uncertainty
 expressed in a logic describing
@@ -3460,17 +3492,17 @@ Propositions /p,q∈L(,≤,')/
 are orthogonal, /p⊥q/, if
 /p≤q'/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-27 Fri>
+    SCHEDULED: <2020-02-17 Mon>
     :PROPERTIES:
     :ID:       8e1263af-da37-48f2-be62-e8e8dc174d6d
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.2785
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:09]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:42]
     :END:
 What is a state on a
 logic describing
@@ -3481,17 +3513,17 @@ that /s(𝟏)=1/ and
 /s(p∨q)=s(p)+s(q)/ if
 /p⊥q/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-27 Fri>
+    SCHEDULED: <2020-02-17 Mon>
     :PROPERTIES:
     :ID:       3ae099a8-d71c-486e-b725-6cae828d3a6f
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.2785
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:08]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:48]
     :END:
 Why does the definition of
 state make sense for logics
@@ -3528,17 +3560,17 @@ not be determinable at the same
 time due to incompability
 of the underlying experiments.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-27 Fri>
+    SCHEDULED: <2020-02-17 Mon>
     :PROPERTIES:
     :ID:       39a70dcc-5d75-4b58-bc2d-3e7439716d9b
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.2785
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:07]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:40]
     :END:
 Why may
 /p→(p∧q)∨(p∧¬q)/ not hold
@@ -3554,17 +3586,17 @@ experiments. In this case,
 neither /p∧q/ nor /p∧¬q/ would
 be defined.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2019-12-27 Fri>
+    SCHEDULED: <2020-02-17 Mon>
     :PROPERTIES:
     :ID:       f788563f-ae20-45fc-90ad-1fb89f9a41e6
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.2785
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-05 Thu 12:08]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:44]
     :END:
 What is the meaning of
 a proposition /[A]∈Π(*M*)/
@@ -4306,17 +4338,17 @@ It is decidable, even
 though the proofs may
 be exponentially long.
 *** Logic                                                             :drill:
-    SCHEDULED: <2019-12-28 Sat>
+    SCHEDULED: <2020-03-16 Mon>
     :PROPERTIES:
     :ID:       57be8bcf-64d7-4a76-9ec0-269249e590bc
-    :DRILL_LAST_INTERVAL: 66.0409
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 79.3151
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.056
-    :DRILL_EASE: 1.16
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:16]
+    :DRILL_AVERAGE_QUALITY: 3.158
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2019-12-28 Sat 14:58]
     :END:
 What is a /combinator/?
 **** Answer:
@@ -4811,17 +4843,17 @@ usual difficulties in representing
 and handling common mathematical 
 objects inherent in such theories.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2019-12-27 Fri>
+    SCHEDULED: <2020-11-13 Fri>
     :PROPERTIES:
     :ID:       45a17d44-54b1-4d8e-abf7-054297a79573
-    :DRILL_LAST_INTERVAL: 178.4493
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 322.2794
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-02 Tue 07:57]
+    :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:43]
     :END:
 How does Homotopy Type Theory
 avoid the difficulties in
@@ -6020,17 +6052,17 @@ with values in ~E~ and not just
 in ~ℝ~.
 ** Statistics
 *** Classification                                                    :drill:
-    SCHEDULED: <2019-12-27 Fri>
+    SCHEDULED: <2020-05-20 Wed>
     :PROPERTIES:
     :ID:       c734f2cc-3568-43ef-97e5-af56edf22413
-    :DRILL_LAST_INTERVAL: 80.3829
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 145.1715
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-08 Tue 13:37]
+    :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:42]
     :END:
 How do linear classifiers
 /gᵢ(*x*)= *wᵢᵗx* + wᵢ₀/ arise?
@@ -6473,17 +6505,17 @@ can be interpreted as language,
 these correspond to meaningful
 orbits, ie. in a neural network.
 *** Dynamics: Symbolic                                                :drill:
-    SCHEDULED: <2019-12-28 Sat>
+    SCHEDULED: <2020-04-24 Fri>
     :PROPERTIES:
     :ID:       74795f07-def7-4bef-81fb-4fa5dd195392
-    :DRILL_LAST_INTERVAL: 55.2213
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 118.284
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:55]
+    :DRILL_LAST_REVIEWED: [2019-12-28 Sat 14:59]
     :END:
 What would constitute
 meaningful orbits of
@@ -6674,17 +6706,17 @@ Also compare to the interpretation
 of 0-1 matrices as paths connecting
 nodes.
 *** Tensors                                                           :drill:
-    SCHEDULED: <2019-12-28 Sat>
+    SCHEDULED: <2020-12-16 Wed>
     :PROPERTIES:
     :ID:       bbb37512-6d33-44d1-a020-e72bc54d0859
-    :DRILL_LAST_INTERVAL: 196.0526
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 354.071
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-15 Sat 11:23]
+    :DRILL_LAST_REVIEWED: [2019-12-28 Sat 14:58]
     :END:
 How to use tensors
 as algebraic types?
