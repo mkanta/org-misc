@@ -4391,6 +4391,27 @@ What is a /combinator/?
 A name /φ:A→B/ for a proof of
 sequent /A⊦B/.
 *** Logic:First Order                                                 :drill:
+Why is the language of a
+logic often defined without
+function symbols?
+**** Answer:
+This simplifies the definitions
+because well-formed formulæ can
+simply be built up from relation
+symbols using variables, constants
+and logical connectives.
+*** Logic:First Order                                                 :drill:
+What is the difference between
+a sentence and a proposition?
+**** Answer:
+A proposition is defined as a
+statement that can be true or
+false. A sentence is more
+general and exists in logics
+where thruth is not an issue,
+it is a well-formed formula
+with no free variables.
+*** Logic:First Order                                                 :drill:
     SCHEDULED: <2020-01-14 Tue>
     :PROPERTIES:
     :ID:       b4092f06-2077-4906-abf5-afebfbed261d
@@ -4610,6 +4631,34 @@ If either some formula of
 interpretation or some formula
 of /B/ is satisfied.
 
+*** Models                                                            :drill:
+How is the ultrafilter
+serving as a model for
+sentences /K/ as per the
+compactness theorem 
+constructed from the
+index set?
+**** Answer:
+For /i∈I/ let 
+/dᵢ={j|i⊆j}/ and
+define /D₀={dᵢ|i∈I}/.
+This is a set of subsets
+of /I/ with the finite 
+intersection property and 
+not containing the empty set, 
+thus it can be extended to 
+an ultrafilter by Zorn's lemma. 
+Choose one of them.
+*** Models                                                            :drill:
+How is the index set
+chosen when constructing
+a model for a set /K/ of 
+sentences by means of
+the compactness theorem?
+**** Answer:
+The index set /I/ is the
+set of all finite subsets
+of /K/.
 *** System F                                                          :drill:
     SCHEDULED: <2020-02-12 Wed>
     :PROPERTIES:
