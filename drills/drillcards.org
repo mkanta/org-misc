@@ -668,17 +668,17 @@ dynamical steady states, like
 the state of a quantum field
 corresponding to these cycles.
 *** Neural Networks                                                   :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-11-14 Sat>
     :PROPERTIES:
     :ID:       01c26407-c378-4a58-bc79-c8b02a75ec81
-    :DRILL_LAST_INTERVAL: 159.8993
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 310.2046
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.428
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-02 Fri 09:01]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:39]
     :END:
 What's wrong with neural
 networks that are equivalent
@@ -1899,17 +1899,17 @@ asigned a value. A list of the form
 not a variable name =symbol1= with value 
 =symbol2=.
 *** elisp							      :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2022-03-06 Sun>
     :PROPERTIES:
     :ID:       a274fee8-a3cf-4332-a890-abb36b312e6c
-    :DRILL_LAST_INTERVAL: 368.0113
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 787.1762
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.18
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.04
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-01-06 Sun 18:04]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:36]
     :END:
 What is the difference between =funcall= 
 and =apply=?
@@ -3635,17 +3635,17 @@ can be done in two ways
 if two arguments are
 available.
 *** Iterations                                                        :drill:
-    SCHEDULED: <2020-01-10 Fri>
+    SCHEDULED: <2020-05-29 Fri>
     :PROPERTIES:
     :ID:       c55206d5-2d70-4120-b622-95c70ab6279a
-    :DRILL_LAST_INTERVAL: 60.3
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 140.3784
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:42]
+    :DRILL_LAST_REVIEWED: [2020-01-10 Fri 13:37]
     :END:
 How can a left fold
 be interpreted as a
@@ -9555,17 +9555,17 @@ the rows of a data frame?
 With ~apply(frame,1,function)~, ie
 by setting the ~Margin~ argument to 1.
 *** Data Conversions                                                  :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-02-15 Sat>
     :PROPERTIES:
     :ID:       fd6e93ed-845d-4f22-882e-9b4f69c3903b
-    :DRILL_LAST_INTERVAL: 33.2974
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 37.2598
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-07 Sat 13:31]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:36]
     :END:
 How to convert a data frame to a
 list of rows?
@@ -10435,17 +10435,17 @@ Switch to a terminal with
 
 ** web
 *** Connecting                                                        :drill:
-    SCHEDULED: <2020-01-10 Fri>
+    SCHEDULED: <2020-06-03 Wed>
     :PROPERTIES:
     :ID:       d0e47fea-c215-49c7-abf9-6df2f227eab2
-    :DRILL_LAST_INTERVAL: 60.3
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 145.4436
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-11 Mon 13:44]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-01-10 Fri 13:35]
     :END:
 What to do if connecting
 to a public wifi doesn't
@@ -11965,17 +11965,17 @@ the user password.
 * Finance
 ** Instruments
 *** Contracts                                                         :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-05-23 Sat>
     :PROPERTIES:
     :ID:       3e3bf6ac-6fea-42d1-9bf5-aa083462bbe5
-    :DRILL_LAST_INTERVAL: 55.9873
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 135.0414
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-14 Thu 14:38]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:39]
     :END:
 What does it mean to
 close out a long position
@@ -12614,17 +12614,17 @@ you will be given more.
 Also compare to the /Tao/.
 ** Astrology
 *** Cycles                                                            :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2021-10-08 Fri>
     :PROPERTIES:
     :ID:       ffdeeaa9-0bc4-4c9f-a93d-ee2becb7c031
-    :DRILL_LAST_INTERVAL: 308.5003
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 637.6701
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-06 Wed 20:52]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:36]
     :END:
  What seems to be the most
  prominent seven year cycle?
@@ -13708,17 +13708,17 @@ a fourth and a seventh.
 * Physics
 ** Electromagnetism
 *** Magnetism                                                         :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-09-12 Sat>
     :PROPERTIES:
     :ID:       e79d725e-f735-4af4-b925-d8fb62d14a0f
-    :DRILL_LAST_INTERVAL: 119.6093
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 247.2324
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:45]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:39]
     :END:
 What is a magnetic
 (dipole) moment?
@@ -13730,17 +13730,17 @@ the current in the loop
 and /A/ is the area of the
 loop.
 *** Magnetism                                                         :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-09-12 Sat>
     :PROPERTIES:
     :ID:       6a512b9c-367c-4ba9-8995-ac43c4aa333c
-    :DRILL_LAST_INTERVAL: 119.6093
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 247.2324
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:49]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:35]
     :END:
 What is spin precession?
 **** Answer:
@@ -16812,17 +16812,17 @@ richer, a fact that may not
 be reflected in the measurement
 device.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-01-10 Fri>
+    SCHEDULED: <2020-04-10 Fri>
     :PROPERTIES:
     :ID:       3d011e1d-d54f-4ebe-bb82-45a88c4217f8
-    :DRILL_LAST_INTERVAL: 44.1423
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 91.2421
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:53]
+    :DRILL_LAST_REVIEWED: [2020-01-10 Fri 13:38]
     :END:
 What seems to be going
 on in a cloud chamber
@@ -16838,17 +16838,17 @@ by the same (or minimally
 modified) hamiltonian as
 before.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-01-10 Fri>
+    SCHEDULED: <2020-04-14 Tue>
     :PROPERTIES:
     :ID:       c149192e-3d45-4344-b7e8-b2d42d4dfa30
-    :DRILL_LAST_INTERVAL: 44.1423
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.5528
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-27 Wed 13:53]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-01-10 Fri 13:37]
     :END:
 What seems to be the
 essence of non-destructive
@@ -17050,17 +17050,17 @@ projected back into another
 tangent space resulting in
 a collapse of the ambiguity.
 *** Operators: Bounded                                                :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-01-29 Wed>
     :PROPERTIES:
     :ID:       12f0270f-a59a-409c-a486-a1683be390d9
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:46]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:28]
     :END:
 In which sense can a
 bounded operator /A/
@@ -17075,17 +17075,17 @@ unit vectors such that /‖A⁻¹yₖ‖→∞/
 for /k→∞/. For these, /‖Axₖ‖→0/
 as /k→∞/. 
 *** Operators: Bounded                                                :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-01-31 Fri>
     :PROPERTIES:
     :ID:       ccc8f44f-57cf-4549-b91a-2bdcb74653de
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:47]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:30]
     :END:
 Why can there be no sequence
 /xₖ/ of unit vectors such that
@@ -17286,17 +17286,17 @@ space /V/ with orthogonal
 basis /{vᵢ}/ it is
 /∑ᵢ|vᵢ⟩⟨vᵢ|/.
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-01-29 Wed>
     :PROPERTIES:
     :ID:       a5fec000-0a89-43f8-ab5f-3a6bc1a65bdc
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:44]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:29]
     :END:
 What is the spectral resolution
 of bounded hermitian operators
@@ -17315,17 +17315,17 @@ look more like the sum in the
 resolution of operators on
 finite dimensional spaces.
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-01-31 Fri>
     :PROPERTIES:
     :ID:       4109d968-364e-4dac-83bb-736b5eacff3e
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:50]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:31]
     :END:
 What is the difficulty in
 defining eigenspaces for
@@ -17344,17 +17344,17 @@ of unit vectors with
 (Some sort of infinitesimal
 vectors!)
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-01-31 Fri>
     :PROPERTIES:
     :ID:       83cc04bd-3b8f-407a-8d7e-77fa253ceb13
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.6744
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:48]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:31]
     :END:
 Why are spectral measures 
 /M:B→P(H)/ from the Borel sets
@@ -17371,17 +17371,17 @@ projection operators in a way to
 allow spectral resolutions of
 these operators.
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-01-09 Thu>
+    SCHEDULED: <2020-01-31 Fri>
     :PROPERTIES:
     :ID:       6e651f43-9994-4834-9454-4a1cde93f64a
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-31 Tue 13:46]
+    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:32]
     :END:
 What is /spectral resolution/
 all about?
@@ -20450,17 +20450,17 @@ start-up ~xinit~ style in lubuntu?
 Just add the application in
 ~ ~/.config/lxsession/$DESKTOP_SESSION/autostart~
 *** X Server                                                          :drill:
-    SCHEDULED: <2020-01-10 Fri>
+    SCHEDULED: <2020-11-08 Sun>
     :PROPERTIES:
     :ID:       d2aadf4a-8bde-47c5-a6e9-2e69b69e99c9
-    :DRILL_LAST_INTERVAL: 156.4183
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 303.4515
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.538
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-07 Wed 09:59]
+    :DRILL_LAST_REVIEWED: [2020-01-10 Fri 13:36]
     :END:
 How to find out what 
 a key does in X?
