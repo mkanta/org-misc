@@ -908,17 +908,17 @@ by an affine transformation
 /x↦Ax+b/. The shift vector /b/
 is called the /bias vector/.
 *** Recurrent Neural Networks                                         :drill:
-    SCHEDULED: <2020-02-02 Sun>
+    SCHEDULED: <2020-09-27 Sun>
     :PROPERTIES:
     :ID:       ce203e8c-b57e-4f95-9f5f-831b402aace9
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-07 Sat 08:37]
+    :DRILL_LAST_REVIEWED: [2020-02-02 Sun 17:25]
     :END:
 What is the redeeming quality
 of a /Long Short Term Memory (LSTM)/
@@ -1066,17 +1066,17 @@ number of times the training
 sample /(*xᵢ*,yᵢ)/ was misclassified
 during perceptron training.
 *** Perceptron Learning                                               :drill:
-    SCHEDULED: <2020-02-03 Mon>
+    SCHEDULED: <2020-11-28 Sat>
     :PROPERTIES:
     :ID:       2a536303-083d-413b-b93e-d608af67069d
-    :DRILL_LAST_INTERVAL: 159.8993
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 299.3315
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-27 Tue 09:10]
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-03 Mon 13:58]
     :END:
 What is the effect of the 
 learning rate on the hyperplane
@@ -2453,17 +2453,17 @@ packages ~texlive-latex-extras~
 and ~texlive-generic-recommended~
 to properly function.
 *** org-mode exports                                                  :drill:
-    SCHEDULED: <2020-02-01 Sat>
+    SCHEDULED: <2020-05-08 Fri>
     :PROPERTIES:
     :ID:       8832b23e-6d53-4ab9-af74-c308c01362a1
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 95.9638
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-17 Tue 14:36]
+    :DRILL_LAST_REVIEWED: [2020-02-02 Sun 17:28]
     :END:
 What's the problem if
 the html export doesn't
@@ -5888,17 +5888,17 @@ experimenting?
 In /ghci/ with 
 =kind! <expression>=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2020-02-03 Mon>
+    SCHEDULED: <2021-04-04 Sun>
     :PROPERTIES:
     :ID:       792dbc9f-2036-493e-82d6-b592d8aeff09
-    :DRILL_LAST_INTERVAL: 227.4917
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 425.8645
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-21 Fri 10:32]
+    :DRILL_LAST_REVIEWED: [2020-02-03 Mon 13:59]
     :END:
 How to define a type
 level =IF=?
@@ -8287,17 +8287,17 @@ All the functions like
 ~alert~, ~prompt~ etc are in
 ~Web.HTML.Window~.
 *** DOM                                                               :drill:
-    SCHEDULED: <2020-02-03 Mon>
+    SCHEDULED: <2020-12-10 Thu>
     :PROPERTIES:
     :ID:       f8db1c3c-041d-4038-a1c7-dd086cda1c4d
-    :DRILL_LAST_INTERVAL: 145.0595
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 310.7174
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:46]
+    :DRILL_LAST_REVIEWED: [2020-02-03 Mon 14:00]
     :END:
 Where should the results
 of a computation go?
@@ -9516,17 +9516,17 @@ fell swoop?
 **** Answer:
 With ~rm(list=ls())~.
 *** Data Conversions                                                  :drill:
-    SCHEDULED: <2020-02-02 Sun>
+    SCHEDULED: <2020-11-27 Fri>
     :PROPERTIES:
     :ID:       b178becb-5c83-4443-85fc-d6394d6d104b
-    :DRILL_LAST_INTERVAL: 159.8993
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 299.3315
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-26 Mon 20:25]
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-02 Sun 17:28]
     :END:
 Can ~lapply~ be used on
 a data frame?
@@ -11119,17 +11119,17 @@ Stage the changes with
 ~git add ...~ and run
 ~git diff --staged~.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2020-02-02 Sun>
+    SCHEDULED: <2020-05-28 Thu>
     :PROPERTIES:
     :ID:       6b9990fb-7499-4975-a6b7-5accc9399ea4
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 116.0583
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-12 Thu 14:10]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-02-02 Sun 17:25]
     :END:
 How to get rid of status
 messages about updates in
@@ -12008,17 +12008,17 @@ part of the contract that
 allows selling the underlying
 to the terms of the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2020-02-03 Mon>
+    SCHEDULED: <2020-03-27 Fri>
     :PROPERTIES:
     :ID:       4ac4f547-ed79-4912-89db-7163de2deb68
-    :DRILL_LAST_INTERVAL: 27.1976
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 52.7633
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.334
+    :DRILL_AVERAGE_QUALITY: 3.385
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-07 Tue 13:18]
+    :DRILL_LAST_REVIEWED: [2020-02-03 Mon 13:59]
     :END:
 What is the short
 position in a forward
@@ -13958,17 +13958,17 @@ If there is an event /C/ that
 extends them to experiments, ie
 such that /A oc C/ and /B oc C/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2020-02-01 Sat>
+    SCHEDULED: <2020-04-16 Thu>
     :PROPERTIES:
     :ID:       418ad042-328f-44b8-9919-df2ca4b09700
-    :DRILL_LAST_INTERVAL: 39.786
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 74.4794
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-23 Mon 19:00]
+    :DRILL_LAST_REVIEWED: [2020-02-02 Sun 17:27]
     :END:
 What is the special connection
 between events /A, B/ of a
@@ -14169,17 +14169,17 @@ integral of this over the length
 /l/ of the string:
 /T=½∫dxρ(∂ₜψ(x,t))²/.
 *** Waves                                                             :drill:
-    SCHEDULED: <2020-02-03 Mon>
+    SCHEDULED: <2020-07-29 Wed>
     :PROPERTIES:
     :ID:       9d8a492a-e3cb-44da-8d2e-a3d0e298dd94
-    :DRILL_LAST_INTERVAL: 94.3178
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 176.5629
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-01 Fri 15:31]
+    :DRILL_LAST_REVIEWED: [2020-02-03 Mon 14:00]
     :END:
 What is the potential
 energy of a string?
@@ -16664,17 +16664,17 @@ projection /Pᵢ/ is selected
 with probability /|σᵢ|²/ and
 applied to /|v⟩/.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-02-02 Sun>
+    SCHEDULED: <2020-05-09 Sat>
     :PROPERTIES:
     :ID:       dfcb3721-2518-4da5-8595-c6ec2f62e3fe
-    :DRILL_LAST_INTERVAL: 46.2356
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 97.2797
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.18
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.04
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-18 Wed 11:55]
+    :DRILL_LAST_REVIEWED: [2020-02-02 Sun 17:27]
     :END:
 What happens when a
 measurement is performed
@@ -17264,17 +17264,17 @@ can be factored by
 /F=∑ᵢξⁱ|vᵢ⟩⟨vᵢ|/ where /ξ/
 is an n-th root of unity.
 *** Operators: Projections                                            :drill:
-    SCHEDULED: <2020-02-03 Mon>
+    SCHEDULED: <2020-05-09 Sat>
     :PROPERTIES:
     :ID:       76377532-076a-4331-80b9-0f6958cc5dfd
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 95.9638
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-19 Thu 13:37]
+    :DRILL_LAST_REVIEWED: [2020-02-03 Mon 14:01]
     :END:
 What is the general
 form of projection
@@ -19633,17 +19633,17 @@ natural number, 0 indicating
 a desire not to use swap space
 at all.
 *** desktop configuration                                             :drill:
-    SCHEDULED: <2020-02-03 Mon>
+    SCHEDULED: <2020-12-21 Mon>
     :PROPERTIES:
     :ID:       ae03b422-2f07-4652-a0d4-e5b0c7276238
-    :DRILL_LAST_INTERVAL: 178.4493
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 322.2794
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-09 Fri 10:58]
+    :DRILL_LAST_REVIEWED: [2020-02-03 Mon 13:58]
     :END:
 What's the problem if after
 logging into lubuntu a message 
