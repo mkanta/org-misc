@@ -2295,17 +2295,17 @@ scaled and translated versions
 /wₛₜ=ψ((x-t)/s)/ are matched
 to the data.
 *** Wavelets                                                          :drill:
-    SCHEDULED: <2020-02-04 Tue>
+    SCHEDULED: <2021-01-02 Sat>
     :PROPERTIES:
     :ID:       678d4048-3554-4079-9f95-dc89c4704bf2
-    :DRILL_LAST_INTERVAL: 138.0818
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 333.0533
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-19 Thu 09:26]
+    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:26]
     :END:
 How do wavelets differ from
 waves?
@@ -4168,6 +4168,86 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
+What is the difference
+between a model and a
+valuation in logic?
+**** Answer:
+A valuation is more general,
+for example propositional
+logics don't have models, they
+only have valuations of the
+propositional variables.
+*** Logic                                                             :drill:
+How are models for propositional
+logics constructed?
+**** Answer:
+By taking a set /X/ and extending
+a map /f/ from the propositional
+variables to the powerset /P(X)/
+of /X/ to the formulas by the usual
+set theoretic interpretations of 
+the logical connectives. 
+*** Logic                                                             :drill:
+What is the role of truth
+tables in logic?
+**** Answer:
+They arise as models of 
+propositional logics on 
+the set /X={∅}/ by naming
+/0=∅/ and /1={∅}/.
+*** Logic                                                             :drill:
+Why is even propositional
+logic not necessarily about
+truth?
+**** Answer:
+Because truth is only one
+model of propositional logic,
+namely the model on /X={∅}/
+with interpretation of /∅/
+as /false/ and /{∅}/ as
+/true/.
+*** Logic                                                             :drill:
+What is the difference between
+propositional and first order
+logic?
+**** Answer
+Propositional logic consists of
+propositional variables that can
+be assigned truth values, combined
+by logical connectors, there are
+no quantifiers. In this sense,
+propositional logic is 0-th
+order logic.
+*** Logic                                                             :drill:
+What is the difference
+between /⊢/ and /⊨/?
+**** Answer:
+/⊢/ is about syntactic derivability
+of a sentence from other sentences
+whereas /⊨/ is about the existence of
+a model or valuation for a set of
+sentences. Thus, for
+sentences /K/ and sentence /X/,
+/K⊢X/ means that /X/ can be derived
+from /K/ by syntactical manipulations
+whereas /K ⊨ X/ means that /K∪{X}/
+has a model whenever /K/ has one.
+*** Logic                                                             :drill:
+When is a logic considered
+sound?
+**** Answer:
+Whenever syntactic derivability
+/⊢/ implies semantic derivability
+/⊨/.
+*** Logic                                                             :drill:
+When is a logic considered
+complete?
+**** Answer:
+Whenever semantic derivability
+/K⊨X/ of a sentence /X/ implies
+syntactic derivability /K⊢X/ of
+/X/ from /K/.
+*** Logic                                                             :drill:
     SCHEDULED: <2020-02-15 Sat>
     :PROPERTIES:
     :ID:       ad19d05b-eb59-4fee-98f1-fd0d8cd210c8
@@ -4412,6 +4492,18 @@ What is a /combinator/?
 A name /φ:A→B/ for a proof of
 sequent /A⊦B/.
 *** Logic:Enlargements                                                :drill:
+    SCHEDULED: <2020-02-08 Sat>
+    :PROPERTIES:
+    :ID:       d7df8ba4-1f7d-44b7-bdbc-4cf1af05c89e
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:12]
+    :END:
 What is a concurrent
 relation?
 **** Answer:
@@ -4424,6 +4516,18 @@ every finite subset /{gᵢ}/
 of elements in the domain
 of /b/, /K ⊢ (∃y)[⋀ᵢΦₜ(b,gᵢ,y)]/.
 *** Logic:Enlargements                                                :drill:
+    SCHEDULED: <2020-02-08 Sat>
+    :PROPERTIES:
+    :ID:       f903ca7e-5ddb-4cce-9a55-a99c15e7be80
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:26]
+    :END:
 What is the point of enlargements
 of a set of sentences with concurrent
 relations?
@@ -4438,6 +4542,18 @@ where /g/ranges over the domain of
 with /F/ ranging over
 finite sets of the domain of /r/.
 *** Logic:Enlargements                                                :drill:
+    SCHEDULED: <2020-02-08 Sat>
+    :PROPERTIES:
+    :ID:       03135cfd-1292-4d58-9464-86c0ef33167d
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:17]
+    :END:
 What does it mean for
 a relation in a model
 for an enlargement to
@@ -4450,6 +4566,18 @@ of sentences /K/, the
 relation already has a
 name in /K/.
 *** Logic:Enlargements                                                :drill:
+    SCHEDULED: <2020-02-08 Sat>
+    :PROPERTIES:
+    :ID:       58edbc26-ade2-42ed-9b2e-337333544263
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:16]
+    :END:
 What is an enlargement
 in logic?
 **** Answer:
@@ -4457,9 +4585,9 @@ This is a procedure whereby
 a set of (admissible) sentences 
 in a higher order logic is
 extended by sentences
-/Φₜ(b,g,a)/ over all /g/
-iin the domain of /b/, where 
-/b/ is a concurrent relation 
+/Φₜ(r,g,aᵣ)/ over all /g/
+in the domain of /r/, where 
+/r/ is a concurrent relation 
 of type /t=(t₁,t₂)/.
 *** Logic:First Order                                                 :drill:
     SCHEDULED: <2020-02-12 Wed>
@@ -5049,6 +5177,18 @@ Inductively by defining
 /τ=(τ₁,…,τₙ)/ to be a type
 if all the /τᵢ/ are types.
 *** Logic:Higher Order                                                :drill:
+    SCHEDULED: <2020-02-08 Sat>
+    :PROPERTIES:
+    :ID:       4cacd3c0-0ce5-40e8-9984-fd4a482bec4d
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:18]
+    :END:
 Is it always possible to
 talk about the deductibility
 of a sentence /X/ from a
@@ -5064,6 +5204,18 @@ higher order languages,
 stratification of /K∪{X}/
 is needed as well.
 *** Logic:Higher Order                                                :drill:
+    SCHEDULED: <2020-02-08 Sat>
+    :PROPERTIES:
+    :ID:       1651e8cf-7744-46b3-90d6-30e5fc12cfa3
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:13]
+    :END:
 What does /K⊢X/ for a 
 set of sentences /K and 
 a sentence /X/ mean in
