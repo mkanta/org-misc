@@ -8564,17 +8564,17 @@ When using html tags other
 than body, ~awaitLoad~ needs
 to be used.
 *** Imports                                                          :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2021-02-01 Mon>
     :PROPERTIES:
     :ID:       d25fefe6-41d8-4a70-bec0-cab5b17f7ae1
-    :DRILL_LAST_INTERVAL: 152.4375
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 354.8745
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-13 Fri 08:38]
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:19]
     :END:
 What to do if the
 compiler complains it
@@ -9253,17 +9253,17 @@ In addition, dead-code elimination
 may not realise that ~Data.Maybe~ is
 used here and remove it.
 *** Types: Foreign                                                    :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2020-07-18 Sat>
     :PROPERTIES:
     :ID:       f6e9dc63-b2f8-4383-a5f7-c6d681c49280
-    :DRILL_LAST_INTERVAL: 83.9791
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 157.2089
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.364
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:46]
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:21]
     :END:
 How to extract the results
 from one of the
@@ -9419,17 +9419,17 @@ a ~# Type~ in order to
 construct a type containing
 a record.
 *** Types: Records                                                    :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2021-03-20 Sat>
     :PROPERTIES:
     :ID:       1537ecbc-0394-44dd-b005-06b34931234a
-    :DRILL_LAST_INTERVAL: 160.0625
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 401.5968
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.2
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-09-05 Thu 07:56]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:25]
     :END:
 How are record types defined
 in purescript?
@@ -13277,17 +13277,17 @@ as the /Living Logos/ in the
 gnostic texts.
 (Naq Hammadi, The Thought of Norea)
 *** The Word                                                          :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2021-06-21 Mon>
     :PROPERTIES:
     :ID:       6fc02f7a-dea4-4668-907e-43f1bb76cbf2
-    :DRILL_LAST_INTERVAL: 264.581
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 495.2956
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-23 Thu 09:40]
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:25]
     :END:
 What is the /Word/?
 **** Answer:
@@ -14002,17 +14002,17 @@ because event /A/ occurs when performing
 experiment /A∪C/ if and only if /B/
 occurs when performing /B∪C/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2020-05-21 Thu>
     :PROPERTIES:
     :ID:       0805490e-bc80-4f29-a129-f4f3cc1ff9c4
-    :DRILL_LAST_INTERVAL: 48.1104
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 99.4442
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-26 Thu 14:18]
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:25]
     :END:
 How is implication defined on
 a manual?
@@ -14646,17 +14646,17 @@ to decode the message, tampering
 with the sent qbit during transmission
 will cause detectable effects.
 *** Evolution                                                         :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2020-05-29 Fri>
     :PROPERTIES:
     :ID:       77697b4f-14bf-45af-948f-3a97a766e490
-    :DRILL_LAST_INTERVAL: 49.8623
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 106.805
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-24 Tue 16:16]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:27]
     :END:
 Is it possible to entangle
 states via unitary evolution?
@@ -15474,17 +15474,17 @@ possibly also employing the relevant
 Lorentz group. (How about the
 energy-momentum operator?)
 *** Algebra                                                           :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2020-05-12 Tue>
     :PROPERTIES:
     :ID:       5401b059-307d-4458-9d13-4e1800b3bfad
-    :DRILL_LAST_INTERVAL: 80.1586
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 89.6975
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.058
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.055
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:20]
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:29]
     :END:
 What is the relationship
 of the Heisenberg group to
@@ -17393,17 +17393,17 @@ projection operators in a way to
 allow spectral resolutions of
 these operators.
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2020-03-01 Sun>
     :PROPERTIES:
     :ID:       6e651f43-9994-4834-9454-4a1cde93f64a
-    :DRILL_LAST_INTERVAL: 8.2695
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 18.3583
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.428
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:11]
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:18]
     :END:
 What is /spectral resolution/
 all about?
@@ -19567,17 +19567,17 @@ desktop files. Run
 ~update-mime-database /usr/share/mime~
 and see if that helps.
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-02-12 Wed>
+    SCHEDULED: <2022-01-17 Mon>
     :PROPERTIES:
     :ID:       fb6be726-fbd6-4810-9bac-def0b4251700
-    :DRILL_LAST_INTERVAL: 317.7897
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 705.4931
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.715
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-31 Sun 12:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:19]
     :END:
 What is the problem with
 the systemd-shim configuration
