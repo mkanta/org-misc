@@ -578,17 +578,17 @@ The signal will not propagate
 deep enough into the network
 to allow meaningful learning.
 *** Neural Network Weights                                            :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2020-12-31 Thu>
     :PROPERTIES:
     :ID:       7001c334-e647-4285-a87d-6462578a10fa
-    :DRILL_LAST_INTERVAL: 178.4493
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 322.2794
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-19 Mon 08:30]
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:42]
     :END:
 How to pick the initial
 weights for a network 
@@ -6633,17 +6633,17 @@ respond to events that happened
 before they were attached to
 the promise.
 *** promises                                                          :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2021-01-24 Sun>
     :PROPERTIES:
     :ID:       db705756-7ad2-4bc8-84bd-ae0e062780c4
-    :DRILL_LAST_INTERVAL: 148.718
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 346.2155
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-17 Tue 12:25]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:38]
     :END:
 In which way are javascript
 promises comparable to DOM
@@ -7508,17 +7508,17 @@ callback. See the source
 of ~Control.Promise (toAff)~
 for an example.
 *** Async                                                             :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2021-02-24 Wed>
     :PROPERTIES:
     :ID:       c1130124-fce3-4794-bec4-b064b6ba0b3a
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 376.875
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-10 Tue 08:34]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:40]
     :END:
 How are promises related
 to purescript ~Aff~?
@@ -7554,17 +7554,17 @@ an ~Aff~ by feeding it into
 purescript-aff-promise for
 an example).
 *** Async                                                             :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2021-02-24 Wed>
     :PROPERTIES:
     :ID:       32c30d62-2428-4894-b14b-0388d3c5dc80
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 376.875
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-10 Tue 08:38]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:42]
     :END:
 How is asynchronicity
 handled in purescript?
@@ -12388,17 +12388,17 @@ of capital assets?
 **** Answer:
 About 10% of GDP.
 *** Capital-Income                                                    :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2020-11-11 Wed>
     :PROPERTIES:
     :ID:       643205a7-c2b8-48d2-b854-08d7a737c29d
-    :DRILL_LAST_INTERVAL: 122.5913
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 272.1527
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-13 Sun 13:01]
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:39]
     :END:
 Why should the rate of
 return from capital in
@@ -13234,17 +13234,17 @@ of the /tao/ which is comparable
 to what they call the
 /forefather/.
 *** The Mustard Seed                                                  :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2020-02-20 Thu>
     :PROPERTIES:
     :ID:       b8b21574-6eea-4433-8832-1a02ce79213b
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 7.2259
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_AVERAGE_QUALITY: 3.222
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-09 Sun 15:50]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:37]
     :END:
 What is it that grows
 from the mustard seed
@@ -14922,17 +14922,17 @@ What is Pauli transformation
 A relative phase change,
 ~Z=|0⟩⟨0|-|1⟩⟨1|~.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2020-06-04 Thu>
     :PROPERTIES:
     :ID:       8d80d94d-5fb3-469d-a2aa-20e1b51418d5
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 111.9805
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-23 Mon 19:06]
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:40]
     :END:
 What is the Hadamard
 transform?

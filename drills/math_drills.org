@@ -1546,17 +1546,17 @@ If /T=UA=VB/ with partial isometries
 with /ker U=ker A/ and /ker V=ker B/
 then /U=V/ and /A=B/.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2020-02-25 Tue>
     :PROPERTIES:
     :ID:       71612fc3-65a0-4dc2-b7de-b6bf73ebb4cc
-    :DRILL_LAST_INTERVAL: 10.9158
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 12.2148
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.077
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.072
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-02 Sun 17:21]
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:38]
     :END:
 In which sense does the positive
 operator /A/ in the polar decomposition
@@ -2151,17 +2151,17 @@ be the square of the input signal,
 which is undesirable in most
 applications.
 *** Wavelets                                                          :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2021-01-19 Tue>
     :PROPERTIES:
     :ID:       76c32829-82a4-4650-bb9a-2482ab75b1f8
-    :DRILL_LAST_INTERVAL: 141.5493
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 341.4169
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-24 Tue 09:46]
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:41]
     :END:
 Can any function be used
 as a mother wavelet?
@@ -5344,17 +5344,17 @@ is admissible under an interpretation
 /r,b₁,̣…,bₙ∈Λ/ denote relations or
 individuals in /M/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2020-03-27 Fri>
     :PROPERTIES:
     :ID:       a84ebd75-bf6c-4ea3-b502-409535b47018
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.731
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-24 Fri 14:22]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:41]
     :END:
 How are types used in
 higher order logic?
@@ -5411,17 +5411,17 @@ themselves?
 **** Answer:
 Yes, /Aₜ/ has type /(t)/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2020-03-28 Sat>
     :PROPERTIES:
     :ID:       0ef6ea42-db41-4ec7-b71b-c74ffdc5291e
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.287
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-24 Fri 14:23]
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:39]
     :END:
 How are types defined
 in higher order logic?
@@ -7471,17 +7471,17 @@ It indicates whether sample
 edge-length /h/ and centered at
 /𝐱/.
 *** Density Estimation                                                :drill:
-    SCHEDULED: <2020-02-13 Thu>
+    SCHEDULED: <2021-02-06 Sat>
     :PROPERTIES:
     :ID:       1c24465f-dd43-4f11-b0ee-abbb14840329
-    :DRILL_LAST_INTERVAL: 148.718
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 358.7078
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-17 Tue 12:27]
+    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:40]
     :END:
 How to count the number of
 samples lying near a location
@@ -7605,6 +7605,66 @@ the middle term
 /-2R(m,n)=-2∑ᵢⱼg(i,j)t(i-m,j-n)/,
 which involves the cross-correlation
 /R(m,n)/.
+*** Learning:Q                                                        :drill:
+What is Q-learning
+all about?
+**** Answer:
+Learning a function
+/Q:S×A→ℝ/ indicating
+the quality of a
+state-action combination.
+*** Learning:Q                                                        :drill:
+How is the /Q/ function
+in /Q/-learning used?
+**** Answer:
+It is used to find a path
+from a given state /s/ to
+a goal state by finding an
+action /aₛ/ such that
+/Q(s,aₛ)=max{Q(s,a)|a∈A}/.
+The action will result in
+a new state /s'/ where the
+procedure is repeated until
+a goal state is reached.
+*** Learning:Q                                                        :drill:
+How is the /Q/ function
+learned in /Q/-learning?
+**** Answer:
+The /Q/ function is initialised
+to all zeroes. An initial
+state /s₀/ is chosen together
+with an action /a₀/ and /Q(s₀,a₀)/ is
+updated via
+/Q(s₀,a₀)←Q(s₀,a₀)+α(r(s₀,a₀)+γ*max{Q(s₁,a)|a∈A}-Q(s₀,a₀))/
+where /r:S×A→ℝ/ is the reward function
+for taking action /a/ in state /s/.
+*** Learning:Q                                                        :drill:
+Why is the update of the /Q?
+function often given as
+/Q(s₀,a₀)←r(s₀,a₀)+γ*max{Q(s₁,a)|a∈A}/
+rather than the full
+/Q(s₀,a₀)←Q(s₀,a₀)+α(r(s₀,a₀)+γ*max{Q(s₁,a)|a∈A}-Q(s₀,a₀))/?
+**** Answer:
+The shorter expression arises from
+setting the learning rate /α/ to
+1, which is optimal in deterministic
+environments.
+*** Learning:Q                                                        :drill:
+What is the role of /γ/
+in
+/Q(s₀,a₀)←Q(s₀,a₀)+α(r(s₀,a₀)+γ*max{Q(s₁,a)|a∈A}-Q(s₀,a₀))/?
+**** Answer:
+The discount factor /γ/ balances
+the importance of next-step
+rewards vs current rewards from
+the reward function /r/.
+Usually, /0<γ<1/.
+*** Learning:Q                                                        :drill:
+Why is /0<γ<1/ in
+/Q(s₀,a₀)←Q(s₀,a₀)+α(r(s₀,a₀)+γ*max{Q(s₁,a)|a∈A}-Q(s₀,a₀))/?
+**** Answer:
+Because larger values lead
+to problems with convergence.
 *** Regression                                                        :drill:
     SCHEDULED: <2020-09-15 Tue>
     :PROPERTIES:
