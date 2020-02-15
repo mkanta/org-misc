@@ -602,17 +602,17 @@ the inputs /xᵢ/ and the
 weights /wᵢⱼ/ are considered
 random variables.
 *** Neural Networks                                                   :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2021-01-13 Wed>
     :PROPERTIES:
     :ID:       459f0b01-4868-4107-8562-f765134d2b86
-    :DRILL_LAST_INTERVAL: 138.0818
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 333.0533
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-30 Mon 08:58]
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:38]
     :END:
 What's wrong with the 
 model of neural networks
@@ -2143,17 +2143,17 @@ prefix argument to disable it,
 with a positive one to enable 
 it.
 *** packages                                                          :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2020-07-09 Thu>
     :PROPERTIES:
     :ID:       af6545e9-f827-40d5-bf93-43b1ee43ca7c
-    :DRILL_LAST_INTERVAL: 60.3
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 145.4436
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-17 Tue 14:37]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:43]
     :END:
 What to do if the
 /Failed to verify signature archive-contents.sig/
@@ -2312,17 +2312,17 @@ original org file. In that
 case, run ~M-x org-babel-detangle~
 from the tangled source file.
 *** org-mode babel                                                    :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2021-01-01 Fri>
     :PROPERTIES:
     :ID:       95c5c7d7-68ed-4dd5-be9e-9092686142a2
-    :DRILL_LAST_INTERVAL: 138.0818
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 321.4544
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-30 Mon 08:57]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:40]
     :END:
 What would be the best
 way to reuse existing
@@ -2937,17 +2937,17 @@ factaccu = \fact accu n = if n==0 then 1 else fact (n*accu) (n-1)
 and tail end factorial becomes
 ~factorialTE = fix factaccu 1~
 *** Fixed Point Recursion                                             :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2020-06-05 Fri>
     :PROPERTIES:
     :ID:       d64be055-6af4-419b-8c7e-e8b44551e13e
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 111.9805
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-24 Tue 16:16]
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:27]
     :END:
 What happens when running
 #+BEGIN_SRC haskell
@@ -3721,17 +3721,17 @@ of record ~Typename~ and
 part of language extension
 =RecordWildcards=.
 *** MagaParsec Parsing                                                :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2021-04-12 Mon>
     :PROPERTIES:
     :ID:       2576b425-e70c-4cbb-9f5a-646dcfc47d19
-    :DRILL_LAST_INTERVAL: 204.3233
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 422.3363
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-26 Fri 11:26]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:44]
     :END:
 Why is the second argument
 to =failure= a set of error
@@ -5720,17 +5720,17 @@ to get the length types right.
 The tools for that are all in
 the library.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2020-08-07 Fri>
     :PROPERTIES:
     :ID:       ade9ce49-60fa-4151-9b47-444ff1e2a238
-    :DRILL_LAST_INTERVAL: 136.2946
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 175.1386
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.24
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-01 Tue 11:18]
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:24]
     :END:
 How to check two =Nat= types
 for equality?
@@ -7667,17 +7667,17 @@ create a new ~Worker~ with
 with the url where the
 code to be run resides.
 *** Async                                                             :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2021-03-12 Fri>
     :PROPERTIES:
     :ID:       41ba0883-e8b7-43aa-ae13-e94e1275c0e4
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 390.625
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-12 Thu 09:33]
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:42]
     :END:
 What is the ~Worker~
 interface for?
@@ -9009,17 +9009,17 @@ one for records is used
 but with functor ~Variant~
 rather than ~Record~.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2021-03-22 Mon>
     :PROPERTIES:
     :ID:       731a06dd-6c3e-4d69-b8bd-6762526ad194
-    :DRILL_LAST_INTERVAL: 160.0625
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 401.5968
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.2
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-09-07 Sat 08:37]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:33]
     :END:
 What does something
 like ~(name::String, age::Number)~
@@ -9052,17 +9052,17 @@ to designate an extensible record
 with at least fields ~name::String~
 and ~age::Number~ in a type signature.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2021-02-04 Thu>
     :PROPERTIES:
     :ID:       d62da494-cc36-4a4a-bb73-b45f071523ef
-    :DRILL_LAST_INTERVAL: 152.4375
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 354.8745
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-16 Mon 08:05]
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:39]
     :END:
 In which sense does a
 type-class provide an
@@ -9577,17 +9577,17 @@ the rows of a data frame?
 With ~apply(frame,1,function)~, ie
 by setting the ~Margin~ argument to 1.
 *** Data Conversions                                                  :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2020-03-28 Sat>
     :PROPERTIES:
     :ID:       fd6e93ed-845d-4f22-882e-9b4f69c3903b
-    :DRILL_LAST_INTERVAL: 37.2598
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 41.6937
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:36]
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:39]
     :END:
 How to convert a data frame to a
 list of rows?
@@ -10990,17 +10990,17 @@ it, ie the current branch
 is already based at HEAD
 of master.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2021-04-12 Mon>
     :PROPERTIES:
     :ID:       0a09a9d5-3e9c-46ab-b2a5-7926e9c4ace0
-    :DRILL_LAST_INTERVAL: 204.3233
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 422.3363
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-26 Fri 11:27]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:41]
     :END:
 What's the problem if after
 =git rebase master= the master
@@ -12742,17 +12742,17 @@ on the AC,MC, IC, or DC at
 the same time.
 ** Meditation
 *** Consciousness                                                     :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2021-03-06 Sat>
     :PROPERTIES:
     :ID:       cefcab6e-ac6a-417f-ba01-3a3aef7526f3
-    :DRILL_LAST_INTERVAL: 206.0751
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 385.7726
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-23 Tue 09:07]
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:22]
     :END:
 What is the idea behind
 consciousness creation
@@ -14165,17 +14165,17 @@ a Lagrangian and its
 Hamiltonian is the 
 Poisson bracket of it.
 *** Waves                                                             :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2020-08-16 Sun>
     :PROPERTIES:
     :ID:       e9e869ab-0463-48de-97dd-3fa55cd85df9
-    :DRILL_LAST_INTERVAL: 98.4237
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 184.2492
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-08 Fri 14:39]
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:32]
     :END:
 What is the kinetic
 energy of a string?
@@ -14743,17 +14743,17 @@ these combined with regular
 two-dimensional rotations
 /R(α)/.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2020-05-12 Tue>
     :PROPERTIES:
     :ID:       625431c4-aeb2-4608-b5de-c4701504f848
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 88.325
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-02 Thu 13:55]
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:27]
     :END:
 What are the phase rotations
 /T(r)/?
@@ -14779,17 +14779,17 @@ What are the phase shifts
 They are 
 /K(s)=eⁱˢI/.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2020-05-20 Wed>
     :PROPERTIES:
     :ID:       f28aaefa-14e2-4930-86bf-bca33ec7e6a2
-    :DRILL_LAST_INTERVAL: 44.287
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.8628
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-02 Thu 14:09]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:42]
     :END:
 Why is /⋀⁰₁₀X/ the
 regular control not
@@ -14822,17 +14822,17 @@ to qbit /0/ in state
  /|xₖ…x₁x₀⟩/ and the
 identity otherwise.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2020-05-12 Tue>
     :PROPERTIES:
     :ID:       1e82bfab-87f2-4f54-8922-413b5d35e23f
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 88.325
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-02 Thu 14:03]
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:31]
     :END:
 What is /⋀ⁱₓQ/ for a
 (k+1)-bit string /x/ and
@@ -14866,17 +14866,17 @@ The transformation
 where ~X~ is classical
 negation.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2020-06-09 Tue>
     :PROPERTIES:
     :ID:       a6164c29-df5a-4b09-87fa-02503b18d8dd
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 116.0583
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-24 Tue 16:13]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:20]
     :END:
 What is the Pauli transformation
 ~X~?
@@ -15182,17 +15182,17 @@ terms of simple gates
 or other quantum
 manipulations.
 *** Programming                                                       :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2020-05-12 Tue>
     :PROPERTIES:
     :ID:       3845e84c-b70d-4c82-941f-da0bc44f13de
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 88.325
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-02 Thu 14:06]
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:31]
     :END:
 What is the difficulty in
 quantum programming?
@@ -15541,17 +15541,17 @@ and that /⟨σᵢ|Pⱼ|σₖ⟩=δᵢⱼδⱼₖ/,
 so that a nonzero term is 
 obtained only for /i=j=k/.
 *** Entanglement                                                      :drill:
-    SCHEDULED: <2020-02-15 Sat>
+    SCHEDULED: <2020-05-26 Tue>
     :PROPERTIES:
     :ID:       075a2d6e-9669-49a4-8626-e108571c66ac
-    :DRILL_LAST_INTERVAL: 53.9105
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 100.9205
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.455
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-23 Mon 19:03]
+    :DRILL_AVERAGE_QUALITY: 3.417
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:35]
     :END:
 What is the principle
 of quantum teleportation?
@@ -16476,17 +16476,17 @@ will give different results in different
 representations. (Maybe just what is needed
 for accelerated relativistic observers?)
 *** Hilbert space						      :drill:
-    SCHEDULED: <2020-02-14 Fri>
+    SCHEDULED: <2020-09-22 Tue>
     :PROPERTIES:
     :ID:       e72964a8-7a57-4802-8c43-b6c739b20b33
-    :DRILL_LAST_INTERVAL: 165.6236
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 220.6106
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.286
-    :DRILL_EASE: 1.38
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-01 Sun 08:17]
+    :DRILL_AVERAGE_QUALITY: 3.267
+    :DRILL_EASE: 1.24
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:28]
     :END:
 How does the unitary inequivalence of different
 representations on an infinite-particle Hilbert
