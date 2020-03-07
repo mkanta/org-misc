@@ -7312,17 +7312,17 @@ the macro can be loaded
 with =.L filename= or compiled
 with =.L filename+=.
 *** macros                                                            :drill:
-    SCHEDULED: <2020-03-06 Fri>
+    SCHEDULED: <2021-05-05 Wed>
     :PROPERTIES:
     :ID:       edb072cc-8f41-4c7c-8b5b-cf4f62097c8f
-    :DRILL_LAST_INTERVAL: 206.0003
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 425.1846
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.04
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-08-13 Tue 09:33]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-06 Fri 13:59]
     :END:
 What is a macro in root?
 **** Answer:
@@ -8194,17 +8194,17 @@ joinPath start end = runFn2 joinPathImpl start end
 #+END_SRC 
 would be better.
 *** Functions: Foreign                                                :drill:
-    SCHEDULED: <2020-03-07 Sat>
+    SCHEDULED: <2021-04-14 Wed>
     :PROPERTIES:
     :ID:       21136eae-71d7-4e7f-b510-22f588447780
-    :DRILL_LAST_INTERVAL: 166.3318
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 402.6893
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.32
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-23 Mon 09:40]
+    :DRILL_LAST_REVIEWED: [2020-03-07 Sat 15:08]
     :END:
 How to determine whether
 a foreign function returns
@@ -8523,17 +8523,17 @@ Yes, Query can be ~Const Void~,
 Input can be ~Unit~ and Message
 can be ~Void~.
 *** Halogen                                                           :drill:
-    SCHEDULED: <2020-03-07 Sat>
+    SCHEDULED: <2020-10-31 Sat>
     :PROPERTIES:
     :ID:       69115d17-ee48-487c-80d3-2413db746dfa
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-11 Fri 13:19]
+    :DRILL_LAST_REVIEWED: [2020-03-07 Sat 15:09]
     :END:
 How to access html elements
 in halogen?
@@ -8934,17 +8934,17 @@ clone the repository,
 fix the problem and use
 the local clone instead.
 *** Spago                                                             :drill:
-    SCHEDULED: <2020-03-06 Fri>
+    SCHEDULED: <2020-10-30 Fri>
     :PROPERTIES:
     :ID:       ea321b6d-c9a9-4a45-9105-b465d85880a6
-    :DRILL_LAST_INTERVAL: 148.3868
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 237.7157
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-10 Thu 14:50]
+    :DRILL_LAST_REVIEWED: [2020-03-06 Fri 13:55]
     :END:
 How to add a package
 to the package set?
@@ -12786,6 +12786,18 @@ the microtubuli and that
 they interact with the 
 neurons.
 *** Ego                                                               :drill:
+    SCHEDULED: <2020-03-10 Tue>
+    :PROPERTIES:
+    :ID:       e0c02403-a5f6-4dba-b1ee-66f1c1c6149d
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-06 Fri 13:55]
+    :END:
 Why does the mind
 spend the energy to
 constantly create an
@@ -16088,17 +16100,17 @@ in ketbra notation?
 It is
 /|a⟩⟨b|⊗|c⟩⟨d|=|ac⟩⟨bd|/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2020-03-06 Fri>
+    SCHEDULED: <2020-04-05 Sun>
     :PROPERTIES:
     :ID:       50a5b073-50f4-476e-a4a1-0103190ab5ea
-    :DRILL_LAST_INTERVAL: 15.4785
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 30.0283
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-20 Thu 14:16]
+    :DRILL_LAST_REVIEWED: [2020-03-06 Fri 13:56]
     :END:
 How is bracket notation
 related to matrix and
@@ -17010,17 +17022,17 @@ state /φ/, otherwise
 where /ρ=∑pⱼ|φⱼ⟩⟨φⱼ|/ is
 the density matrix.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-03-07 Sat>
+    SCHEDULED: <2020-05-16 Sat>
     :PROPERTIES:
     :ID:       dce0811d-0dc5-4c99-b79c-5d9365f423c3
-    :DRILL_LAST_INTERVAL: 64.8472
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 70.035
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.067
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.063
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-02 Thu 13:55]
+    :DRILL_LAST_REVIEWED: [2020-03-07 Sat 15:08]
     :END:
 How is the density
 matrix used in a 
