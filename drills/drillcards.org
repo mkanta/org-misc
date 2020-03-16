@@ -515,17 +515,17 @@ there are no vanishing gradients,
 so convergence is fast in the
 network.
 *** Neural Networks: Description                                      :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2020-06-26 Fri>
     :PROPERTIES:
     :ID:       da6f3766-9c2d-4a4b-9ea7-2ab399c5cba3
-    :DRILL_LAST_INTERVAL: 48.1172
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 106.8202
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-23 Thu 14:18]
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:40]
     :END:
 How to describe the logic
 of a neural net?
@@ -623,17 +623,17 @@ this is not how the brain
 operates where the neurons
 are always on the move.
 *** Neural Networks: Quantum                                          :drill:
-    SCHEDULED: <2020-03-13 Fri>
+    SCHEDULED: <2020-08-31 Mon>
     :PROPERTIES:
     :ID:       542182cf-60d8-4aca-8115-f9b5cde2ecc1
-    :DRILL_LAST_INTERVAL: 91.2421
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 170.8052
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-13 Fri 13:00]
+    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:21]
     :END:
 How could neural networks
 interact with a quantum
@@ -1382,22 +1382,22 @@ square brackets can be
 dropped and =do:...=
 is the result.
 *** functions                                                         :drill:
-    SCHEDULED: <2020-03-08 Sun>
+    SCHEDULED: <2021-11-05 Fri>
     :PROPERTIES:
     :ID:       17411eea-ec02-4f93-a8e2-f3ac5c4a3d68
-    :DRILL_LAST_INTERVAL: 264.4345
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 606.8772
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.18
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.28
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-06-18 Tue 07:23]
+    :DRILL_LAST_REVIEWED: [2020-03-08 Sun 16:21]
     :END:
 In how far do named
-functions behave
-differently from
-anonymous ones?
+functions in elixir
+behave differently 
+from anonymous ones?
 **** Answer:
 Anonymous functions
 are closures, ie they
@@ -1406,17 +1406,17 @@ environment. In contrast,
 a =def= introduces a clean
 name scope.
 *** functions                                                         :drill:
-    SCHEDULED: <2020-03-09 Mon>
+    SCHEDULED: <2021-10-16 Sat>
     :PROPERTIES:
     :ID:       e7f1857b-c908-4031-aeea-1e2d95d452ea
-    :DRILL_LAST_INTERVAL: 264.4345
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 586.2513
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.715
     :DRILL_EASE: 2.18
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:54]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:08]
     :END:
 Why is argument permutation
 important in Elixir?
@@ -1453,17 +1453,17 @@ functions defined by a capture,
 which needs to sort out the
 =&1, &2,...= etc.
 *** functions                                                         :drill:
-    SCHEDULED: <2020-03-10 Tue>
+    SCHEDULED: <2021-11-07 Sun>
     :PROPERTIES:
     :ID:       01525ba3-ec3d-4a5b-a61b-b4d2e1d407b1
-    :DRILL_LAST_INTERVAL: 264.4345
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 606.8772
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.18
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.28
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-06-20 Thu 08:11]
+    :DRILL_LAST_REVIEWED: [2020-03-10 Tue 18:24]
     :END:
 What's the problem
 with the elixir
@@ -1598,17 +1598,17 @@ supervision tree. In addition
 it has a standard set of
 interface functions.
 *** piping                                                            :drill:
-    SCHEDULED: <2020-03-09 Mon>
+    SCHEDULED: <2021-10-16 Sat>
     :PROPERTIES:
     :ID:       b5c94bd0-24dc-43fb-b267-69391b1b74ee
-    :DRILL_LAST_INTERVAL: 264.4345
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 586.2513
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.715
     :DRILL_EASE: 2.18
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:51]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:10]
     :END:
 What is the mechanism
 of piping in elixir?
@@ -1641,17 +1641,17 @@ file-name at point,
 complete path of the file
 at point.
 *** dired                                                             :drill:
-    SCHEDULED: <2020-03-15 Sun>
+    SCHEDULED: <2020-05-26 Tue>
     :PROPERTIES:
     :ID:       00cd7121-5f6d-4114-8949-1668d32c535b
-    :DRILL_LAST_INTERVAL: 46.7769
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 72.3171
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.308
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-28 Tue 11:46]
+    :DRILL_AVERAGE_QUALITY: 3.286
+    :DRILL_EASE: 1.38
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 13:59]
     :END:
 How to open a file with
 the default application
@@ -3188,17 +3188,17 @@ Check if there is
 a trailing newline
 and remove it.
 *** Glade                                                             :drill:
-    SCHEDULED: <2020-03-08 Sun>
+    SCHEDULED: <2021-03-06 Sat>
     :PROPERTIES:
     :ID:       81aeee3a-8d0b-4e6b-a777-316f1cc22d42
-    :DRILL_LAST_INTERVAL: 235.107
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 363.4754
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-17 Wed 09:35]
+    :DRILL_LAST_REVIEWED: [2020-03-08 Sun 16:19]
     :END:
 What is the point
 to have a widget
@@ -3793,17 +3793,17 @@ a generated value is illegal,
 perhaps out of bounds or
 some such.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2020-03-16 Mon>
+    SCHEDULED: <2021-07-12 Mon>
     :PROPERTIES:
     :ID:       fc293f00-c324-4d45-9a51-bf4858df18be
-    :DRILL_LAST_INTERVAL: 225.4734
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 482.964
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-04 Sun 11:27]
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-16 Mon 15:17]
     :END:
 Is there a more natural
 method than 
@@ -3946,17 +3946,17 @@ and ~takeWhile1P~ combinators.
 If possible, these should be
 used first.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2021-07-21 Wed>
     :PROPERTIES:
     :ID:       c0bad81a-fa4c-435a-87b9-158e5ee1228e
-    :DRILL_LAST_INTERVAL: 265.561
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 497.1302
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:52]
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:34]
     :END:
 Why is ~parse~ not ideal
 for testing Megaparsec
@@ -3992,17 +3992,17 @@ as a description in error messages.
 As such it is more general than
 a source file.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2021-07-21 Wed>
     :PROPERTIES:
     :ID:       bc50b4e1-6941-4793-9b94-3d0c4e00a1d3
-    :DRILL_LAST_INTERVAL: 265.561
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 497.1302
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:51]
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:36]
     :END:
 How to define a ~noSpace~ parser
 to disallow spaces between a numeral
@@ -4190,17 +4190,17 @@ By combining parsers
 with ~many~ or ~some~ from
 typeclass ~Applicative~.
 *** Option Parsing                                                    :drill:
-    SCHEDULED: <2020-03-14 Sat>
+    SCHEDULED: <2020-06-18 Thu>
     :PROPERTIES:
     :ID:       b1ae3e7d-166d-4569-99ba-9f1f59151783
-    :DRILL_LAST_INTERVAL: 75.797
-    :DRILL_REPEATS_SINCE_FAIL: 15
-    :DRILL_TOTAL_REPEATS: 20
+    :DRILL_LAST_INTERVAL: 95.0494
+    :DRILL_REPEATS_SINCE_FAIL: 16
+    :DRILL_TOTAL_REPEATS: 21
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.9
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.905
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:36]
+    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 13:58]
     :END:
 How to set up Options.Applicative
 to parse a multiple use of a string 
@@ -4452,17 +4452,17 @@ with the
 =runhaskell install=
 sequence.
 *** Records                                                           :drill:
-    SCHEDULED: <2020-03-12 Thu>
+    SCHEDULED: <2022-02-01 Tue>
     :PROPERTIES:
     :ID:       af990957-7f50-4f0b-b373-4f3af8188d58
-    :DRILL_LAST_INTERVAL: 322.511
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 690.8186
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-04-24 Wed 12:01]
+    :DRILL_LAST_REVIEWED: [2020-03-12 Thu 15:01]
     :END:
 How to define a default
 for a record data-type?
@@ -4780,17 +4780,17 @@ a local hoogle search page via
 which can be accessed at
 http://localhost:8080.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-03-08 Sun>
+    SCHEDULED: <2021-03-06 Sat>
     :PROPERTIES:
     :ID:       d41f5b91-7f65-4a8e-8128-74e742e1b5f4
-    :DRILL_LAST_INTERVAL: 235.107
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 363.4754
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-17 Wed 09:33]
+    :DRILL_LAST_REVIEWED: [2020-03-08 Sun 16:23]
     :END:
 How should tools like ghc-mod,
 hlint, hoogle or intero be
@@ -5346,17 +5346,17 @@ where (phantom) type =s= now
 only can assume values
 ='Open=, ='Closed= and ='Locked=.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-03-13 Fri>
+    SCHEDULED: <2020-06-30 Tue>
     :PROPERTIES:
     :ID:       343b73ab-a01b-4662-a953-7b0d00c12833
-    :DRILL_LAST_INTERVAL: 97.4515
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 109.0482
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.934
+    :DRILL_AVERAGE_QUALITY: 3.001
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-07 Sat 13:30]
+    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:20]
     :END:
 How to obtain a singleton door state
 from
@@ -5891,17 +5891,17 @@ and returns the corresponding
 =natVal (Proxy @n)= when using
 =TypeApplications=.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2020-03-16 Mon>
+    SCHEDULED: <2021-07-02 Fri>
     :PROPERTIES:
     :ID:       4a184073-3ba7-4da3-abe5-112634907061
-    :DRILL_LAST_INTERVAL: 252.7345
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 473.119
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-07 Sun 07:59]
+    :DRILL_LAST_REVIEWED: [2020-03-16 Mon 15:16]
     :END:
 How to evaluate type
 level functions for
@@ -6736,17 +6736,17 @@ This means that typescript considers types with
 the same internal structure the same, even though
 they may have different names.
 *** typescript enum						      :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2023-07-24 Mon>
     :PROPERTIES:
     :ID:       06796314-185f-48ae-8c9a-8a35d8d0ef46
-    :DRILL_LAST_INTERVAL: 463.0903
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 1230.4309
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.167
-    :DRILL_EASE: 2.52
+    :DRILL_AVERAGE_QUALITY: 4.286
+    :DRILL_EASE: 2.62
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-12-04 Tue 14:14]
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:42]
     :END:
 Why is there no string based enum type?
 **** Answer
@@ -7019,17 +7019,17 @@ derived classes?
 In general, the constructor of the superclass 
 has to be called. Use =super= to do that.
 *** typescript classes 	 				      :drill:
-    SCHEDULED: <2020-03-16 Mon>
+    SCHEDULED: <2021-06-03 Thu>
     :PROPERTIES:
     :ID:       67da1017-12ef-4f7d-a700-3e054125fbb3
-    :DRILL_LAST_INTERVAL: 274.052
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 444.2383
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.462
-    :DRILL_EASE: 1.68
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:15]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.54
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-16 Mon 15:16]
     :END:
 What is the problem with defining functions not
 as methods but as members, for example by
@@ -9249,17 +9249,17 @@ they are useless on the purescript
 side without any access functions
 provided by the javascript side.
 *** Types: Foreign                                                    :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2021-05-13 Thu>
     :PROPERTIES:
     :ID:       7dbd8711-3b96-401d-827a-6e99baee2f58
-    :DRILL_LAST_INTERVAL: 170.5267
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 427.8515
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.2
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-22 Sun 11:13]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:42]
     :END:
 Why should constructors
 like ~Data_Maybe.Just.create()~
@@ -10621,17 +10621,17 @@ calls. They will be applied
 to the template file indicated
 in the first argument.
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2020-03-15 Sun>
+    SCHEDULED: <2022-02-04 Fri>
     :PROPERTIES:
     :ID:       7634049d-859c-4504-bf02-3762da3da527
-    :DRILL_LAST_INTERVAL: 311.8553
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 691.3832
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-08 Wed 11:27]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 14:04]
     :END:
 Is it absolutely necessary
 to include the date in the
@@ -10671,17 +10671,17 @@ script running dvipng or
 dvisvgm on the input
 (like in Mnemosyne).
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2020-03-16 Mon>
+    SCHEDULED: <2021-12-21 Tue>
     :PROPERTIES:
     :ID:       4760ec29-df5d-4e67-8ff7-7a63941b835c
-    :DRILL_LAST_INTERVAL: 311.8553
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 644.6049
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-09 Thu 12:04]
+    :DRILL_LAST_REVIEWED: [2020-03-16 Mon 15:16]
     :END:
 How to get the ~ReaderOptions~ and
 ~WriterOptions~ when using 
@@ -12095,17 +12095,17 @@ contract in the future is
 said to hold the long position
 of the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2020-03-09 Mon>
+    SCHEDULED: <2020-06-15 Mon>
     :PROPERTIES:
     :ID:       938da5ae-787d-4b8c-96e7-806c1822e580
-    :DRILL_LAST_INTERVAL: 54.2427
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 97.9623
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.222
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-15 Wed 15:10]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:10]
     :END:
 How to speculate with
 a long futures position?
@@ -12656,6 +12656,25 @@ that grows from a small
 seed, if you have it,
 you will be given more.
 Also compare to the /Tao/.
+*** trinity                                                           :drill:
+What is the role of
+the soul in the trinity
+of body, spirit and soul?
+**** Answer:
+It is the glue that keeps
+body and spirit together,
+without it they would
+blow apart as opposites.
+*** trinity                                                           :drill:
+Whence the sexual imagery
+in Alchemy?
+**** Answer:
+Sexuality is a symbol of
+the soul, it holds together
+the opposites of male and
+female just as the soul
+holds together the opposites
+of spirit and body.
 ** Astrology
 *** Cycles                                                            :drill:
     SCHEDULED: <2021-10-08 Fri>
@@ -12786,17 +12805,17 @@ the microtubuli and that
 they interact with the 
 neurons.
 *** Ego                                                               :drill:
-    SCHEDULED: <2020-03-10 Tue>
+    SCHEDULED: <2020-03-20 Fri>
     :PROPERTIES:
     :ID:       e0c02403-a5f6-4dba-b1ee-66f1c1c6149d
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-06 Fri 13:55]
+    :DRILL_LAST_REVIEWED: [2020-03-10 Tue 18:19]
     :END:
 Why does the mind
 spend the energy to
@@ -13300,17 +13319,17 @@ It is called ~faith~
 and needs to grow into
 a living being.
 *** The Word                                                          :drill:
-    SCHEDULED: <2020-03-09 Mon>
+    SCHEDULED: <2021-01-14 Thu>
     :PROPERTIES:
     :ID:       d517c5df-b021-4dae-9d8c-092cd3007d8f
-    :DRILL_LAST_INTERVAL: 172.2339
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 311.0544
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-19 Thu 09:29]
+    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:08]
     :END:
 What is the /Word/ that
 was in the beginning
@@ -13391,17 +13410,17 @@ which might have prevented
 the mission of Jesus.
 ** Psychology
 *** Evolutionary                                                      :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2020-07-15 Wed>
     :PROPERTIES:
     :ID:       56c9146b-0da4-46e5-9913-1857096ddc98
-    :DRILL_LAST_INTERVAL: 54.1648
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 126.0957
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-17 Fri 13:13]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:39]
     :END:
 Why is the development of
 language an evolutionary
@@ -13419,17 +13438,17 @@ dangerous experiments unnecessary,
 thus providing an evolutionary
 advantage.
 *** Evolutionary                                                      :drill:
-    SCHEDULED: <2020-03-09 Mon>
+    SCHEDULED: <2020-07-03 Fri>
     :PROPERTIES:
     :ID:       caf83b2e-61ef-4ab4-a1e9-413b79ce611a
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 116.0583
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-17 Fri 13:25]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:12]
     :END:
 What is the difference
 between human and animal
@@ -13569,17 +13588,17 @@ one, a little
 **** Answers:
 to be; indeed, yes, right; demonstrative pronoun
 *** Characters                                                        :drill:
-    SCHEDULED: <2020-03-13 Fri>
+    SCHEDULED: <2020-05-08 Fri>
     :PROPERTIES:
     :ID:       813e8718-8c89-46fc-bb21-bec2f9401647
-    :DRILL_LAST_INTERVAL: 49.7545
-    :DRILL_REPEATS_SINCE_FAIL: 23
-    :DRILL_TOTAL_REPEATS: 35
+    :DRILL_LAST_INTERVAL: 55.6753
+    :DRILL_REPEATS_SINCE_FAIL: 24
+    :DRILL_TOTAL_REPEATS: 36
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.056
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.054
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-23 Thu 14:26]
+    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:17]
     :END:
 不
 **** Answer:
@@ -13928,17 +13947,17 @@ What is an event of a manual
 A subset of one of the experiments
 in *M*.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2020-09-08 Tue>
     :PROPERTIES:
     :ID:       a423fdcd-fba3-4dd9-ba11-26a887984b26
-    :DRILL_LAST_INTERVAL: 69.6565
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 181.1069
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.25
+    :DRILL_AVERAGE_QUALITY: 4.2
     :DRILL_EASE: 2.6
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-01 Wed 16:17]
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:35]
     :END:
 What does it mean to /test/ for
 an event /A/ of a manual?
@@ -13946,17 +13965,17 @@ an event /A/ of a manual?
 It means to perform an experiment
 /E ∈/ *M* for which /A⊆E/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2020-03-08 Sun>
+    SCHEDULED: <2020-08-24 Mon>
     :PROPERTIES:
     :ID:       9522ef81-f985-46a5-8a12-44e017186697
-    :DRILL_LAST_INTERVAL: 67.2073
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 168.6231
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-01 Wed 16:09]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-08 Sun 16:22]
     :END:
 When is an event /A/ of manual
 *M* said to have occurred?
@@ -13985,17 +14004,17 @@ which they are disjoint subsets
 then they are orthogonal, written
 /A⊥B/.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2020-03-08 Sun>
+    SCHEDULED: <2020-08-18 Tue>
     :PROPERTIES:
     :ID:       9885ffdf-0111-4659-9b07-b803fec77509
-    :DRILL_LAST_INTERVAL: 67.2073
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 162.7089
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.32
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-01 Wed 16:08]
+    :DRILL_LAST_REVIEWED: [2020-03-08 Sun 16:19]
     :END:
 When are events /A, B/ of a 
 manual *M* said to be orthogonal
@@ -16145,17 +16164,17 @@ operator /ρ̂/ can be diagonalised,
 ie. /ρ̂=∫f(α,α*)|α⟩⟨α|d²α/ with
 a quasiprobability /f(α,α*)/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2020-03-08 Sun>
+    SCHEDULED: <2020-08-01 Sat>
     :PROPERTIES:
     :ID:       9e8e269e-714c-49b0-941b-6adf932dadb8
-    :DRILL_LAST_INTERVAL: 77.8018
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 145.645
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-21 Sat 16:05]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-08 Sun 16:13]
     :END:
 What makes the use of coherent
 spaces so attractive in quantum
@@ -16498,17 +16517,17 @@ with an annihilation operator results in a counting
 operator which counts the number of particles of
 a given type in a given state.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2020-05-22 Fri>
     :PROPERTIES:
     :ID:       b088e6b3-916c-443b-837a-23db646df091
-    :DRILL_LAST_INTERVAL: 64.2162
-    :DRILL_REPEATS_SINCE_FAIL: 21
-    :DRILL_TOTAL_REPEATS: 33
+    :DRILL_LAST_INTERVAL: 71.8579
+    :DRILL_REPEATS_SINCE_FAIL: 22
+    :DRILL_TOTAL_REPEATS: 34
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.152
+    :DRILL_AVERAGE_QUALITY: 3.177
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-07 Tue 13:18]
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:38]
     :END:
 What is the problem with allowing infinitely
 many particles in a field theory?
@@ -17118,17 +17137,17 @@ projected back into another
 tangent space resulting in
 a collapse of the ambiguity.
 *** Operators: Bounded                                                :drill:
-    SCHEDULED: <2020-03-13 Fri>
+    SCHEDULED: <2020-06-09 Tue>
     :PROPERTIES:
     :ID:       12f0270f-a59a-409c-a486-a1683be390d9
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 88.325
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-30 Thu 11:52]
+    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:22]
     :END:
 In which sense can a
 bounded operator /A/
@@ -17354,17 +17373,17 @@ space /V/ with orthogonal
 basis /{vᵢ}/ it is
 /∑ᵢ|vᵢ⟩⟨vᵢ|/.
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-03-13 Fri>
+    SCHEDULED: <2020-06-09 Tue>
     :PROPERTIES:
     :ID:       a5fec000-0a89-43f8-ab5f-3a6bc1a65bdc
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 88.325
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-30 Thu 11:53]
+    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:17]
     :END:
 What is the spectral resolution
 of bounded hermitian operators
@@ -17486,17 +17505,17 @@ with I the identity matrix.
 The value /S/ is the spin of
 the particle.
 *** Operators: Spin                                                   :drill:
-    SCHEDULED: <2020-03-10 Tue>
+    SCHEDULED: <2021-03-22 Mon>
     :PROPERTIES:
     :ID:       25e461f6-59f4-42b1-9e09-63be6658e578
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 376.875
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-06 Sun 11:46]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-10 Tue 18:20]
     :END:
 Why is the spin part *S* in
 the rotation operator
@@ -17563,17 +17582,17 @@ the vector rotation. This
 component is called the /spin/
 of the particle.
 *** Operators                                                         :drill:
-    SCHEDULED: <2020-03-09 Mon>
+    SCHEDULED: <2020-06-13 Sat>
     :PROPERTIES:
     :ID:       f1b0e4d8-10d5-4e03-8f4d-8702509d3b3b
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 95.9638
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-23 Thu 14:24]
+    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:09]
     :END:
 How is the dense subset
 /D(T)/ of definition for an
@@ -17590,17 +17609,17 @@ their action being defined as
 only for certain /f/ making
 up the domain /D(T)/ for /T/.
 *** Operators                                                         :drill:
-    SCHEDULED: <2020-03-15 Sun>
+    SCHEDULED: <2020-07-09 Thu>
     :PROPERTIES:
     :ID:       90e938f1-bb73-4113-b98a-e4884d3ae6d7
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 116.0583
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-23 Thu 14:19]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 14:04]
     :END:
 Why do Hermitian operators /T/
 in quantum mechanics only
@@ -18343,17 +18362,17 @@ preserved in electromagnetic
 and in strong interactions but
 not in weak interactions.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-03-11 Wed>
+    SCHEDULED: <2022-04-24 Sun>
     :PROPERTIES:
     :ID:       d2e6b77c-ac33-4f26-b3ac-61d472a84907
-    :DRILL_LAST_INTERVAL: 361.3106
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 773.9273
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-03-16 Sat 12:47]
+    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:41]
     :END:
 How can particles change their
 parity?
@@ -18671,17 +18690,17 @@ is a matrix because the electromagnetic
 field is a vector field resulting from
 its vector potential.
 *** Path integral						      :drill:
-    SCHEDULED: <2020-03-14 Sat>
+    SCHEDULED: <2020-06-19 Fri>
     :PROPERTIES:
     :ID:       735e603d-bc9f-4205-a495-d8cd9fae5759
-    :DRILL_LAST_INTERVAL: 76.8848
-    :DRILL_REPEATS_SINCE_FAIL: 15
-    :DRILL_TOTAL_REPEATS: 20
+    :DRILL_LAST_INTERVAL: 96.4135
+    :DRILL_REPEATS_SINCE_FAIL: 16
+    :DRILL_TOTAL_REPEATS: 21
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.05
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.048
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-28 Sat 15:00]
+    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 14:04]
     :END:
 How are positive and negative charges 
 accomodated when introducing them into
@@ -18915,17 +18934,17 @@ values for /H/ and using the correspondence
 principle shows that the expectation
 of /H/ is the classical energy. 
 *** Symmetries                                                        :drill:
-    SCHEDULED: <2020-03-15 Sun>
+    SCHEDULED: <2021-03-27 Sat>
     :PROPERTIES:
     :ID:       032876d5-77ad-4213-90cd-6c18fde351a1
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 376.875
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-11 Fri 13:21]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 14:03]
     :END:
 Why are the symmetries
 of a quantum system of
