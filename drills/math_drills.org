@@ -2433,6 +2433,18 @@ only scaling of the mother
 wave is needed for a description.
 ** Computer Algebra
 *** Maxima                                                            :drill:
+    SCHEDULED: <2020-04-01 Wed>
+    :PROPERTIES:
+    :ID:       5ed96404-64a0-4773-87f5-a7fdb12a13bb
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-28 Sat 15:14]
+    :END:
 How to access the directory
 structure from Maxima?
 **** Answer:
@@ -2441,17 +2453,17 @@ which makes functions like
 ~getcurrentdirectory()~
 available.
 *** Maxima:Polynomials                                                :drill:
-    SCHEDULED: <2020-03-28 Sat>
+    SCHEDULED: <2020-05-15 Fri>
     :PROPERTIES:
     :ID:       2e76b4f2-a65a-4928-a076-30aecfb77d22
-    :DRILL_LAST_INTERVAL: 21.6744
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.1172
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-06 Fri 13:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-28 Sat 15:13]
     :END:
 How to turn an expression
 into a polynomial?
@@ -5516,17 +5528,17 @@ themselves?
 **** Answer:
 Yes, /Aₜ/ has type /(t)/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-03-28 Sat>
+    SCHEDULED: <2020-07-04 Sat>
     :PROPERTIES:
     :ID:       0ef6ea42-db41-4ec7-b71b-c74ffdc5291e
-    :DRILL_LAST_INTERVAL: 44.287
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 98.3171
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-13 Thu 14:39]
+    :DRILL_LAST_REVIEWED: [2020-03-28 Sat 15:12]
     :END:
 How are types defined
 in higher order logic?
@@ -7172,6 +7184,48 @@ the non-vanishing components
 of the current vertex
 /x=(b|0)/.
 ** Probability
+*** Bayes                                                             :drill:
+How can likelihood functions
+be approximated by exponentials?
+**** Answer:
+Locally by Taylor expanding the 
+log likelihood near a suitable
+parameter such as the maximum
+likelihood parameter /θ̂/. The 
+likelihood itself becomes a 
+product of exponentials of
+/1⁄n!(θ-θ̂)ⁿ/. 
+*** Bayes                                                             :drill:
+How to approximate a posterior
+density with a maximum
+likelihood parameter?
+**** Answer:
+By Taylor expanding the the
+log likelihood /L(θ,x)/ around
+the log-likelihood parameter
+/θ̂/. Since /L'(θ̂)=0/, this is
+dominated by the quadratic term
+/½(θ-θ̂)²L"(θ̂)/. The likelihood
+/l(θ,x)/ is the exponential of
+that, hence locally a normal
+distribution. In cases where
+the likelihood dominates the
+prior, the posterior is close
+to the likelihood.
+*** Bayes                                                             :drill:
+What's the point of
+maximum-likelihood
+techniques in Bayesian
+inference?
+**** Answer:
+In situations where the
+prior is dominated by
+the likelihood, the maximum
+of the posterior /p(θ|x)/ is 
+near /θ̂/ where the maximum
+of the likelihood occurs. This
+can be used to approximate the
+posterior density near /θ̂/. 
 *** Bayes                                                             :drill:
     SCHEDULED: <2020-03-30 Mon>
     :PROPERTIES:
