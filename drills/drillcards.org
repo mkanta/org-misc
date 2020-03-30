@@ -14720,6 +14720,26 @@ interpretation is needed when
 linearly scanning language
 input.
 ** Relativity
+*** Coordinates                                                       :drill:
+Why are the time and
+space axes symmetric
+about the signal line
+for every observer?
+**** Answer:
+Because for an observer
+at rest events on the
+signal line have coordinates
+/(e,e)/ hence /e^2-e^2=0/.
+In any other coordinate
+system, the event has coordinate
+/(eₜ,eₓ)/. By relativistic
+invariance, /eₜ²-eₓ²=0/, so
+/eₓ=eₜ/, unless coordinate
+directions are changed. This
+is only possible if the 
+space axis is symmetric to
+the time axis with respect
+to the signal line.
 *** Lorentz                                                           :drill:
     SCHEDULED: <2021-05-05 Wed>
     :PROPERTIES:
