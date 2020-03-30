@@ -2637,17 +2637,17 @@ induced by the action
 group. It is given by
 /dₐf=∑ᵢdaᵢ∂/∂aᵢf(*x*;a)|ₐ₌₀/.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2021-03-19 Fri>
     :PROPERTIES:
     :ID:       bd604eec-ce75-4815-8676-506e30e42635
-    :DRILL_LAST_INTERVAL: 152.4375
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 354.8745
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-29 Tue 12:52]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:28]
     :END:
 How does an r-parameter 
 Lie group act on an 
@@ -3342,17 +3342,17 @@ observable /O/ with a /σ/-additive
 state /s/ to obtain /s∘O: *B* → ℝ/
 with /s∘O(ℝ)=1/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-07-06 Mon>
     :PROPERTIES:
     :ID:       40e24806-0d5e-4ce7-ad39-93d806d92498
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 99.4458
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-12 Wed 13:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:30]
     :END:
 How are observables on an
 experiment logic related to
@@ -5316,17 +5316,17 @@ where different elements of
 /Bₜ/ possibly denote the same
 relation /a∈Aₜ/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-06-14 Sun>
     :PROPERTIES:
     :ID:       cb5ef649-d2bd-4603-94ef-8629147b7fb1
-    :DRILL_LAST_INTERVAL: 39.786
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 77.1848
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.2
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-18 Tue 17:52]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:32]
     :END:
 What is a higher order
 structure built on a set
@@ -5439,17 +5439,17 @@ constants but also in the second
 argument denoting a constant. Thus,
 /x/ is mistyped.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-06-11 Thu>
     :PROPERTIES:
     :ID:       ce7a9c50-0396-4b30-b4ba-646e851033f1
-    :DRILL_LAST_INTERVAL: 39.786
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 74.4794
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-18 Tue 14:14]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:29]
     :END:
 When is a higher order formula
 said to be admissible in a structure
@@ -7185,6 +7185,18 @@ of the current vertex
 /x=(b|0)/.
 ** Probability
 *** Bayes                                                             :drill:
+    SCHEDULED: <2020-04-02 Thu>
+    :PROPERTIES:
+    :ID:       c1526be5-29f0-4d66-b2a6-03d20f7a3a41
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:22]
+    :END:
 How can likelihood functions
 be approximated by exponentials?
 **** Answer:
@@ -7196,8 +7208,20 @@ likelihood itself becomes a
 product of exponentials of
 /1⁄n!(θ-θ̂)ⁿ/. 
 *** Bayes                                                             :drill:
+    SCHEDULED: <2020-04-02 Thu>
+    :PROPERTIES:
+    :ID:       a2f894ef-e000-43ac-b4c9-c332c03be1ce
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:25]
+    :END:
 How to approximate a posterior
-density with a maximum
+density using a maximum
 likelihood parameter?
 **** Answer:
 By Taylor expanding the the
@@ -7213,6 +7237,18 @@ the likelihood dominates the
 prior, the posterior is close
 to the likelihood.
 *** Bayes                                                             :drill:
+    SCHEDULED: <2020-04-02 Thu>
+    :PROPERTIES:
+    :ID:       211663bc-0150-436d-914b-ae444102b5b7
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:27]
+    :END:
 What's the point of
 maximum-likelihood
 techniques in Bayesian

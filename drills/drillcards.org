@@ -6908,17 +6908,17 @@ What is an /intersection/ of types?
 A type =type1&type2= which has a member of
 /type1/ as well as a member of /type2/.
 *** typescript types						      :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2023-11-09 Thu>
     :PROPERTIES:
     :ID:       5d7e94f4-bebd-4ee4-833c-48e0b495beb4
-    :DRILL_LAST_INTERVAL: 488.8944
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 1320.0149
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.333
+    :DRILL_AVERAGE_QUALITY: 4.285
     :DRILL_EASE: 2.7
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-11-26 Mon 12:01]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:33]
     :END:
 What is the point of =!!varname= for a variable
 with name /varname/?
@@ -7644,17 +7644,17 @@ indicate a result or
 ~callback (Left (error msg))~
 to indicate failure.
 *** Async                                                             :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-11-17 Tue>
     :PROPERTIES:
     :ID:       f76c99f3-0a03-4516-9c36-288db5ba250d
-    :DRILL_LAST_INTERVAL: 145.1715
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 232.5647
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-05 Tue 19:19]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:32]
     :END:
 What does a script running
 in a dedicated worker thread 
@@ -7690,17 +7690,17 @@ receives messages through
 the ~onMessage~ function
 set on the worker.
 *** Async                                                             :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-11-17 Tue>
     :PROPERTIES:
     :ID:       1e67b3f2-5e29-4d2c-9ee7-95f9a4425d80
-    :DRILL_LAST_INTERVAL: 145.1715
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 232.5647
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-05 Tue 19:19]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:28]
     :END:
 How to run a calculation
 in a thread separate from
@@ -14765,6 +14765,60 @@ As a consequence, different
 time-like events cannot occur
 at the same time, ie they are
 separated by time.
+*** Time                                                              :drill:
+Why is the twin paradox
+not really a paradox?
+**** Answer:
+Because it is like people
+viewing each other from a
+distance, they both appear
+smaller to the other party.
+According to relativity,
+time is just a kind of distance,
+so this is a similar situation.
+*** Time                                                              :drill:
+Why can uniform movement 
+through space not slow down
+time?
+**** Answer:
+Because uniform movement
+is relative to something.
+For it to slow time, there
+would have to be some
+universal reference.
+*** Time                                                              :drill:
+Why is it wrong to
+say that (uniform) movement 
+through space slows down 
+time?
+**** Answer:
+Because only the perception
+of time in a coordinate system
+moving relative to an observer
+slows down for the observer
+considering himself at rest.
+For observers stationary with
+respect to the moving system,
+nothing changes. 
+*** Time                                                              :drill:
+What is /proper/ time?
+**** Answer:
+Proper time, also called
+process time, is a measure
+of change for a physical
+system, such as radioactive
+decay or the count of a
+clock.
+*** Time
+What is the unit of
+measurement for /proper/
+time?
+**** Answer:
+Proper time is usually
+measured in absolute
+numbers, such as a
+percentage in radioactive
+decay or a clock count.
 ** Quantum Computing
 *** Communication                                                     :drill:
     SCHEDULED: <2020-06-19 Fri>
@@ -16952,17 +17006,17 @@ to a measurement, hence the
 unknown state collapses before
 it is copied.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-08-15 Sat>
     :PROPERTIES:
     :ID:       1a8e944a-8660-422c-a76b-f1b47e98c40e
-    :DRILL_LAST_INTERVAL: 76.9396
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 138.9529
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-12 Sun 15:03]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:23]
     :END:
 What seems to be the
 practical difficulty
@@ -19297,17 +19351,17 @@ Check the /Load MPV configuration/
 box.
 ** Pulse
 *** Configuration                                                     :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-09-22 Tue>
     :PROPERTIES:
     :ID:       4453c65d-da92-42a6-8537-543d78b29f65
-    :DRILL_LAST_INTERVAL: 91.2421
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 177.0097
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:32]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:32]
     :END:
 How to reset the output
 of a running pulseaudio
@@ -19339,17 +19393,17 @@ From the configuration file
 /default.conf/ which is in
 /usr/share/pulseaudio/alsa-mixer/profile-sets.
 *** Configuration                                                     :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-09-16 Wed>
     :PROPERTIES:
     :ID:       7add6385-5b51-44da-9dcc-4ea202b4b237
-    :DRILL_LAST_INTERVAL: 91.2421
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 170.8052
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:37]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:23]
     :END:
 How to redirect output
 of a running pulseaudio
@@ -20201,17 +20255,17 @@ access to /cups/?
 That's an interface name,
 such as ~eth0~ or ~wlan0~.
 *** services                                                          :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-09-16 Wed>
     :PROPERTIES:
     :ID:       b2064a71-5dbe-402e-994b-9c7fa55a638b
-    :DRILL_LAST_INTERVAL: 91.2421
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 170.8052
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:36]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:30]
     :END:
 How to connect to an
 HDMI monitor when it is
@@ -20223,17 +20277,17 @@ Write a udev rule for
 calls a script to toggle
 hdmi, ~RUN+=hdmi_toggle~.
 *** services                                                          :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-10-06 Tue>
     :PROPERTIES:
     :ID:       72d6df73-6ed9-4039-b21b-21fc789b0ffa
-    :DRILL_LAST_INTERVAL: 92.2534
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 190.6878
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-28 Sat 14:59]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:31]
     :END:
 How to find the relevant 
 action and subsystem for 
@@ -20248,17 +20302,17 @@ where ~EVENT~ is ~KERNEL~ or ~UDEV~, the
 in a udev rule and ~subsystem~ is the
 subsystem for it.
 *** services                                                          :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-09-16 Wed>
     :PROPERTIES:
     :ID:       85ea6b90-63a9-44b8-a97c-ad435929824f
-    :DRILL_LAST_INTERVAL: 91.2421
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 170.8052
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:33]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:23]
     :END:
 How to detect whether
 the system is connected
@@ -20292,17 +20346,17 @@ Run ~udevadm monitor~ in
 a terminal and plug or
 unplug the monitor.
 *** services                                                          :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-09-16 Wed>
     :PROPERTIES:
     :ID:       616c0d69-c56b-433b-9d7b-f975c9697a6a
-    :DRILL_LAST_INTERVAL: 91.2421
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 170.8052
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:34]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:30]
     :END:
 How to use ~xrandr~ to detect
 whether the system is connected
@@ -20367,17 +20421,17 @@ This is the character class
 \w consists of all characters
 that can be part of a word.
 *** shell                                                             :drill:
-    SCHEDULED: <2020-03-29 Sun>
+    SCHEDULED: <2020-09-16 Wed>
     :PROPERTIES:
     :ID:       8cc67e20-3e6a-415e-aeec-a81cfe60d5bd
-    :DRILL_LAST_INTERVAL: 91.2421
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 170.8052
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-29 Sun 16:38]
+    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:27]
     :END:
 How to get the user name
 of the user at pts/0 with
