@@ -11444,6 +11444,28 @@ by going into the directory
 of the subdirectory, checking
 out a branch and pulling.
 *** git                                                               :drill:
+What to do in order to
+stay clear of the dangers
+of ~git stash pop~?
+**** Answer:
+Always use ~git stash apply~
+followed by ~git stash drop~
+in order to avoid stray stash
+stack entries when conflict
+resolution is necessary.
+*** git                                                               :drill:
+Why may ~git stash pop~
+be a dangerous thing to
+do?
+**** Answer:
+Because it doesn't pop
+the stash stack if it
+has to go into conflict
+resolution mode. As a
+result, the wrong changes
+may be popped the next
+time.
+*** git                                                               :drill:
     SCHEDULED: <2020-05-22 Fri>
     :PROPERTIES:
     :ID:       80d00555-53c8-45bb-97e1-b0f89ae75089
