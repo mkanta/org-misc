@@ -11444,6 +11444,13 @@ by going into the directory
 of the subdirectory, checking
 out a branch and pulling.
 *** git                                                               :drill:
+How to resolve ~git stash pop~
+conflicts?
+**** Answer:
+Change the conflicting files
+and run ~git reset~ followed
+by ~git stash drop~.
+*** git                                                               :drill:
 What to do in order to
 stay clear of the dangers
 of ~git stash pop~?
