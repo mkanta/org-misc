@@ -645,17 +645,17 @@ a measurement of the quantum
 field then they would lead
 to well defined field states.
 *** Neural Networks: Quantum                                          :drill:
-    SCHEDULED: <2020-04-23 Thu>
+    SCHEDULED: <2020-12-12 Sat>
     :PROPERTIES:
     :ID:       50722b44-f3d6-46d4-bf35-4b2a3b26c202
-    :DRILL_LAST_INTERVAL: 145.1715
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 232.5647
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-30 Sat 13:52]
+    :DRILL_LAST_REVIEWED: [2020-04-23 Thu 13:55]
     :END:
 How does the brain behave
 as a neural network?
@@ -1768,17 +1768,17 @@ reappear in a dired window?
 With ~revert-buffer~, which is
 bound to ~g~ in a dired buffer.
 *** editing                                                           :drill:
-    SCHEDULED: <2020-04-23 Thu>
+    SCHEDULED: <2020-11-27 Fri>
     :PROPERTIES:
     :ID:       b4181133-5cdd-4e20-8105-4ceaf3de3cdd
-    :DRILL_LAST_INTERVAL: 101.5646
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 217.5514
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-12 Sun 15:00]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-23 Thu 13:56]
     :END:
 How is the emacs undo 
 stack constructed?
@@ -2454,17 +2454,17 @@ Org-mode latex export needs
 package ~texlive-fonts-recommended~
 to properly function.
 *** org-mode exports                                                  :drill:
-    SCHEDULED: <2020-04-21 Tue>
+    SCHEDULED: <2020-09-03 Thu>
     :PROPERTIES:
     :ID:       3058d77d-a745-4597-a68d-a9ff36528004
-    :DRILL_LAST_INTERVAL: 74.4794
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 134.5098
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-07 Fri 15:16]
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:37]
     :END:
 What to do if latex
 exports fail due to
@@ -4780,17 +4780,17 @@ anyway. Use
 just generate local 
 documentation of dependencies.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-04-22 Wed>
+    SCHEDULED: <2020-04-27 Mon>
     :PROPERTIES:
     :ID:       4f99d1ae-8a15-4be1-908b-c57fcd3f588f
-    :DRILL_LAST_INTERVAL: 4.3193
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 4.8333
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.867
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.875
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-18 Sat 15:25]
+    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:49]
     :END:
 How to generate searchable
 documentation for a project?
@@ -6615,17 +6615,17 @@ for(var item of arr){
 }
 #+END_SRC
 *** javascript for loops					      :drill:
-    SCHEDULED: <2020-04-21 Tue>
+    SCHEDULED: <2023-02-03 Fri>
     :PROPERTIES:
     :ID:       3326e9e1-54ea-4d61-aee7-8b0e6c3feafe
-    :DRILL_LAST_INTERVAL: 425.5638
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 1018.3742
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.909
-    :DRILL_EASE: 2.48
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.34
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-02-20 Wed 12:25]
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:37]
     :END:
 What is the problem with /for .. in/
 loops over arrays?
@@ -10207,17 +10207,17 @@ Arguments needing this type variable
 need to use a type variable ~B~ instead
 which has lower bound ~A~, ie ~[B >: A]~.
 *** Type Bounds                                                       :drill:
-    SCHEDULED: <2020-04-23 Thu>
+    SCHEDULED: <2021-01-30 Sat>
     :PROPERTIES:
     :ID:       b39458cf-e192-47a5-8ccb-159ae7fd9a88
-    :DRILL_LAST_INTERVAL: 131.7976
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 282.3105
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-13 Fri 12:59]
+    :DRILL_LAST_REVIEWED: [2020-04-23 Thu 13:54]
     :END:
 Why is ~<%~ often used instead
 of ~<:~ for indicating type bounds?
@@ -11354,17 +11354,17 @@ a repository has submodules?
 A repository with submodules
 has a /.gitmodules/ file in it.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2020-04-23 Thu>
+    SCHEDULED: <2020-10-20 Tue>
     :PROPERTIES:
     :ID:       61694a15-84ca-4614-b499-1fd11d981fcc
-    :DRILL_LAST_INTERVAL: 95.9452
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 179.6094
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.364
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-18 Sat 14:19]
+    :DRILL_LAST_REVIEWED: [2020-04-23 Thu 13:56]
     :END:
 What's the danger
 in running
@@ -11397,17 +11397,17 @@ cloning a repo that has
 submodules because cloning
 will not populate them.
 *** git submodules                                                    :drill:
-    SCHEDULED: <2020-04-22 Wed>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       6dab2d72-b071-4708-9cd0-c29fce215ebb
-    :DRILL_LAST_INTERVAL: 17.091
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 35.3271
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.444
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-05 Sun 14:12]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:51]
     :END:
 How to clone a git repository
 as a submodule of an existing
@@ -12370,17 +12370,17 @@ part of the contract that
 allows selling the underlying
 to the terms of the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2020-04-22 Wed>
+    SCHEDULED: <2020-05-16 Sat>
     :PROPERTIES:
     :ID:       4ac4f547-ed79-4912-89db-7163de2deb68
-    :DRILL_LAST_INTERVAL: 13.5269
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 24.4296
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.353
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-08 Wed 13:27]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:53]
     :END:
 What is the short
 position in a forward
@@ -12866,17 +12866,17 @@ suggest that matter (below)
 follows the same laws as
 the quantum vacuum (above).
 *** mercury                                                           :drill:
-    SCHEDULED: <2020-04-22 Wed>
+    SCHEDULED: <2020-12-22 Tue>
     :PROPERTIES:
     :ID:       15d27377-7eb2-4882-99e9-83822cef36af
-    :DRILL_LAST_INTERVAL: 118.284
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 244.493
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-26 Thu 14:07]
+    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:51]
     :END:
 How is mercury related
 to the green lion?
@@ -12929,6 +12929,18 @@ agent. Although more airy than
 watery due to the lack of direction
 towards a centre of gravity.
 *** primal matter                                                     :drill:
+    SCHEDULED: <2020-04-25 Sat>
+    :PROPERTIES:
+    :ID:       64805d52-4a42-4ae0-a42e-9db328e28025
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:36]
+    :END:
 What is the prime matter
 of the Alchemists that
 children play with?
@@ -12961,6 +12973,15 @@ It has a rich
 microbiological spectrum 
 beneficial for plant life,
 ie the Green Lion.
+*** symbolism                                                         :drill:
+What does the little
+white cloud above the
+tree symbolize?
+**** Answer:
+This could refer to the
+Virgin Mary. Her appearances,
+such as at Fatima, are often
+proceded by such a cloud.
 *** the stone                                                         :drill:
     SCHEDULED: <2020-09-26 Sat>
     :PROPERTIES:
@@ -12985,17 +13006,17 @@ seed, if you have it,
 you will be given more.
 Also compare to the /Tao/.
 *** trinity                                                           :drill:
-    SCHEDULED: <2020-04-21 Tue>
+    SCHEDULED: <2020-06-12 Fri>
     :PROPERTIES:
     :ID:       5ef1c52b-ffaf-4114-a87e-22bebdff8ffc
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.2785
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-30 Mon 15:30]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:35]
     :END:
 What is the role of
 the soul in the trinity
@@ -13006,17 +13027,17 @@ body and spirit together,
 without it they would
 blow apart as opposites.
 *** trinity                                                           :drill:
-    SCHEDULED: <2020-04-21 Tue>
+    SCHEDULED: <2020-06-12 Fri>
     :PROPERTIES:
     :ID:       1bff97e9-1e0c-4704-a9f4-47022655752b
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.2785
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-30 Mon 15:31]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:37]
     :END:
 Whence the sexual imagery
 in Alchemy?
@@ -13466,6 +13487,13 @@ the perfect spirit who
 precedes everything that
 exists.
 *** Bees                                                              :drill:
+What is the supernatural
+aspect of bees?
+**** Answer:
+A buzzing sound like that
+of bees often precedes
+shamanistic trance states.
+*** Bees                                                              :drill:
     SCHEDULED: <2020-12-02 Wed>
     :PROPERTIES:
     :ID:       064a874d-1c1a-444d-b38c-98cd42344ce1
@@ -13560,17 +13588,17 @@ prevents devotion to the
 the Archeons, The
 Reality of the Rulers)
 *** Adam & Eve                                                        :drill:
-    SCHEDULED: <2020-04-22 Wed>
+    SCHEDULED: <2022-01-31 Mon>
     :PROPERTIES:
     :ID:       31dd4770-cf89-4bf6-a6a6-0aff486446d5
-    :DRILL_LAST_INTERVAL: 314.1989
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 649.4491
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-13 Thu 09:31]
+    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:53]
     :END:
 Why did Adam die?
 **** Answer:
@@ -13858,6 +13886,18 @@ outside as fate.
 * Language
 ** Origin
 *** Biology                                                           :drill:
+    SCHEDULED: <2020-04-25 Sat>
+    :PROPERTIES:
+    :ID:       500fc784-8776-4e15-808c-6ab1938e78fd
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:35]
+    :END:
 How to test whether junk
 DNA could be relevant for
 the development of language?
@@ -13871,6 +13911,18 @@ law and has the appropriate
 redundancy, then this may be
 a valid model.
 *** Biology                                                           :drill:
+    SCHEDULED: <2020-04-25 Sat>
+    :PROPERTIES:
+    :ID:       8b543731-e657-42bd-a5f5-d8e82a23cd6e
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:38]
+    :END:
 How could language have
 evolved on the molecular
 level?
@@ -13884,6 +13936,18 @@ caused by environmental
 developments rendering
 certain traits unnecessary.
 *** Biology                                                           :drill:
+    SCHEDULED: <2020-04-25 Sat>
+    :PROPERTIES:
+    :ID:       1e383706-4c65-4aa5-b89c-1826a0e5f7fa
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:36]
+    :END:
  What could be the biological
  origin of language?
 **** Answer:
@@ -13918,17 +13982,17 @@ or
 http://snowball.tartarus.org/
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2020-04-22 Wed>
+    SCHEDULED: <2020-06-21 Sun>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 53.9184
-    :DRILL_REPEATS_SINCE_FAIL: 18
-    :DRILL_TOTAL_REPEATS: 56
+    :DRILL_LAST_INTERVAL: 60.3347
+    :DRILL_REPEATS_SINCE_FAIL: 19
+    :DRILL_TOTAL_REPEATS: 57
     :DRILL_FAILURE_COUNT: 9
-    :DRILL_AVERAGE_QUALITY: 2.946
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.947
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-28 Fri 13:54]
+    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:51]
     :END:
 的
 **** Answer:
@@ -18700,17 +18764,17 @@ preserved in weak interactions,
 even though less often than
 charge or parity by themselves.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-04-22 Wed>
+    SCHEDULED: <2020-04-28 Tue>
     :PROPERTIES:
     :ID:       7f91616b-f7d9-40b3-8adb-dff77cc85a45
-    :DRILL_LAST_INTERVAL: 5.0124
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 5.8144
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.166
+    :DRILL_AVERAGE_QUALITY: 3.21
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-17 Fri 17:21]
+    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:49]
     :END:
 How does charge behave
 under particle interaction?
@@ -19173,17 +19237,17 @@ from the equations of motion of the
 Lagrangian of the field, ie it is the 
 inverse of that operator.
 *** Path integral						      :drill:
-    SCHEDULED: <2020-04-22 Wed>
+    SCHEDULED: <2021-09-08 Wed>
     :PROPERTIES:
     :ID:       1a50e2b9-5168-4c0c-979d-107e409a4e7f
-    :DRILL_LAST_INTERVAL: 303.7672
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 504.2536
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.286
+    :DRILL_AVERAGE_QUALITY: 3.334
     :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-23 Sun 11:41]
+    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:52]
     :END:
 How are particles introduced to a
 (scalar) field mathematically?
@@ -19421,17 +19485,17 @@ position and momentum variables are
 quantized by assigning an operator
 /Qₐ/ to function /a/.
 *** Schrödinger                                                       :drill:
-    SCHEDULED: <2020-04-23 Thu>
+    SCHEDULED: <2020-05-24 Sun>
     :PROPERTIES:
     :ID:       e674df66-a2ee-413b-82d3-6335ca4c59c7
-    :DRILL_LAST_INTERVAL: 27.3807
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 33
+    :DRILL_LAST_INTERVAL: 30.639
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 34
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.181
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.176
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-27 Fri 14:30]
+    :DRILL_LAST_REVIEWED: [2020-04-23 Thu 13:55]
     :END:
 Is there any leeway in the form of
 the quantum hamiltonian /H/ in the 
@@ -19974,17 +20038,17 @@ Do a
 as root and try to
 shut it down again.
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-04-21 Tue>
+    SCHEDULED: <2021-11-05 Fri>
     :PROPERTIES:
     :ID:       4524fef6-d8fc-4611-b2d6-be87f3eaf07d
-    :DRILL_LAST_INTERVAL: 272.222
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 562.6829
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-24 Wed 12:35]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:36]
     :END:
 How to set up monitors
 from the command line?
@@ -21038,6 +21102,18 @@ in an lxterminal?
 **** Answer:
 This method requires
 the /IBus/ input method.
+*** video                                                             :drill:
+How to test inbuilt
+video on a laptop?
+**** Answer:
+Video goes through
+~/dev/video*~. Try
+~guvcview~ on the
+command line, it should
+work out of the box. A
+slower alternative is
+~ffplay~ from the ffmpeg
+package.
 *** xmonad                                                            :drill:
     SCHEDULED: <2020-05-16 Sat>
     :PROPERTIES:
