@@ -7529,17 +7529,17 @@ emacs with
 =M-& root=.
 ** purescript
 *** Async                                                             :drill:
-    SCHEDULED: <2020-04-25 Sat>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       31e3812e-5a2f-4ec0-b023-d48c7d1ad081
-    :DRILL_LAST_INTERVAL: 28.4501
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 31.8357
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-28 Sat 15:09]
+    :DRILL_AVERAGE_QUALITY: 3.118
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-25 Sat 15:49]
     :END:
 How to construct an
 ~Aff~ from a ~Promise~?
@@ -11335,7 +11335,7 @@ Alternatively,
 ~git submodule status [--recursive]~
 will list the submodules, but
 only if they are initialised.
-*** git submodules                                                    :drill:
+
     SCHEDULED: <2020-05-26 Tue>
     :PROPERTIES:
     :ID:       ac477091-6519-4666-80cc-2f623a52f00f
@@ -11517,6 +11517,35 @@ then popping. Note
 that this situation
 is better handled with
 temporary branches.
+*** git                                                               :drill:
+Why is ~git pull --rebase~
+recommended despite its
+dangers?
+**** Answer:
+The danger depends on the
+workflow. If everybody pulls
+from the same central master 
+and pushes there, then
+there is no danger in 
+~git pull --rebase~, even
+if run from a local copy
+of the master branch.
+*** git                                                               :drill:
+When does running
+~git pull --rebase~
+from a master branch
+become a problem?
+**** Answer:
+Whenever in a group
+effort the participants
+do not only push and
+pull to a central
+repository but also
+pull from, or push to,
+public branches of other
+participants. In that case,
+rebasing should only be
+done from private branches.
 *** git                                                               :drill:
     SCHEDULED: <2020-05-06 Wed>
     :PROPERTIES:
@@ -11851,17 +11880,17 @@ untracked and pushing the
 change to a repo will cause
 every puller to lose it.
 *** git                                                               :drill:
-    SCHEDULED: <2020-04-25 Sat>
+    SCHEDULED: <2020-10-27 Tue>
     :PROPERTIES:
     :ID:       67fb07ba-8a68-4525-974b-fd216b99a697
-    :DRILL_LAST_INTERVAL: 159.7611
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 185.3229
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.072
-    :DRILL_EASE: 1.16
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-17 Sun 20:27]
+    :DRILL_AVERAGE_QUALITY: 3.134
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-25 Sat 15:51]
     :END:
 How to undo a 
 ~git add~ before 
@@ -12819,6 +12848,18 @@ is equivalent to n years
 of income.
 * Gnosis
 ** Alchemy
+*** drugs                                                             :drill:
+Is there any indication
+that Alchemy could be
+about drug recipies?
+**** Answer:
+The fact that ergot was
+widely available. Its
+psycho-active compounds are
+water soluble, hence easy to
+extract without getting the
+toxic parts, which are not
+water soluble.
 *** elements                                                          :drill:
     SCHEDULED: <2022-09-06 Tue>
     :PROPERTIES:
@@ -12929,17 +12970,17 @@ agent. Although more airy than
 watery due to the lack of direction
 towards a centre of gravity.
 *** primal matter                                                     :drill:
-    SCHEDULED: <2020-04-25 Sat>
+    SCHEDULED: <2020-05-04 Mon>
     :PROPERTIES:
     :ID:       64805d52-4a42-4ae0-a42e-9db328e28025
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:36]
+    :DRILL_LAST_REVIEWED: [2020-04-25 Sat 15:48]
     :END:
 What is the prime matter
 of the Alchemists that
@@ -13584,6 +13625,18 @@ version of Artemis local
 to Ephesus. In general,
 Artemis is the goddess
 of wild animals.
+*** Church                                                            :drill:
+What is the royal
+purple as worn by
+high church dignitaries
+all about?
+**** Answer:
+This may be a claim to
+shamanistic skills. Purple
+is the colour of ergot,
+a drug used in eg. the
+Eleusian mysteries to
+induce states of trance.
 ** Naq Hammadi
 *** Adam & Eve                                                        :drill:
     SCHEDULED: <2020-06-08 Mon>
@@ -13910,17 +13963,17 @@ outside as fate.
 * Language
 ** Origin
 *** Biology                                                           :drill:
-    SCHEDULED: <2020-04-25 Sat>
+    SCHEDULED: <2020-05-04 Mon>
     :PROPERTIES:
     :ID:       500fc784-8776-4e15-808c-6ab1938e78fd
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:35]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-25 Sat 15:47]
     :END:
 How to test whether junk
 DNA could be relevant for
@@ -13935,17 +13988,17 @@ law and has the appropriate
 redundancy, then this may be
 a valid model.
 *** Biology                                                           :drill:
-    SCHEDULED: <2020-04-25 Sat>
+    SCHEDULED: <2020-05-04 Mon>
     :PROPERTIES:
     :ID:       8b543731-e657-42bd-a5f5-d8e82a23cd6e
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:38]
+    :DRILL_LAST_REVIEWED: [2020-04-25 Sat 15:48]
     :END:
 How could language have
 evolved on the molecular
@@ -13960,17 +14013,17 @@ caused by environmental
 developments rendering
 certain traits unnecessary.
 *** Biology                                                           :drill:
-    SCHEDULED: <2020-04-25 Sat>
+    SCHEDULED: <2020-05-04 Mon>
     :PROPERTIES:
     :ID:       1e383706-4c65-4aa5-b89c-1826a0e5f7fa
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:36]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-25 Sat 15:47]
     :END:
  What could be the biological
  origin of language?
