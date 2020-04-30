@@ -844,17 +844,17 @@ function /f/ to its result /y/.
 This function is called the 
 activation function of the layer.
 *** Neural Network Layers                                             :drill:
-    SCHEDULED: <2020-04-26 Sun>
+    SCHEDULED: <2021-08-26 Thu>
     :PROPERTIES:
     :ID:       60f446c9-8cce-4c7f-aefa-2a3576f2260b
-    :DRILL_LAST_INTERVAL: 227.5255
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 487.3596
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.571
     :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-11 Wed 08:31]
+    :DRILL_LAST_REVIEWED: [2020-04-26 Sun 17:08]
     :END:
 How should the /bias vector/
 be chosen?
@@ -1019,17 +1019,17 @@ of real numbers /c₁,…,cₙ/, ie
 /(K(xᵢ,xⱼ))/ is a positive
 semidefinite matrix.
 *** Perceptron Training                                               :drill:
-    SCHEDULED: <2020-04-28 Tue>
+    SCHEDULED: <2021-05-06 Thu>
     :PROPERTIES:
     :ID:       fd664d6a-42ba-4a7e-9fa0-121d1cd971c1
-    :DRILL_LAST_INTERVAL: 199.3237
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 373.134
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:49]
+    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:06]
     :END:
 What is the dual form of
 perceptron learning?
@@ -1041,17 +1041,17 @@ assuming /yᵢ=±1/, update
 rate if sample /j/
 is misclassified.
 *** Perceptron Learning                                               :drill:
-    SCHEDULED: <2020-04-28 Tue>
+    SCHEDULED: <2021-05-06 Thu>
     :PROPERTIES:
     :ID:       4c76abe2-ae57-4ae6-8627-3d8fd2f9f251
-    :DRILL_LAST_INTERVAL: 199.3237
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 373.134
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:46]
+    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:05]
     :END:
 What is the meaning of
 the coefficients /ωᵢ/ when
@@ -1212,17 +1212,17 @@ on them as a graph that describes
 a computation and the subsequent
 execution of the description.
 *** Tensor Flow Installation                                          :drill:
-    SCHEDULED: <2020-04-30 Thu>
+    SCHEDULED: <2021-09-05 Sun>
     :PROPERTIES:
     :ID:       13ac2d6e-d386-4f82-b1c6-e3cb03244873
-    :DRILL_LAST_INTERVAL: 230.0749
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 492.8204
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.571
     :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-13 Fri 08:31]
+    :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:43]
     :END:
 What to do about the 
 /illegal instruction/ error
@@ -2503,17 +2503,17 @@ variable
 ~org-html-html5-fancy~ to
 non-nil.
 *** org-mode exports                                                  :drill:
-    SCHEDULED: <2020-04-30 Thu>
+    SCHEDULED: <2021-08-19 Thu>
     :PROPERTIES:
     :ID:       538105d1-ff9d-45d1-8272-ced8d2a5bf1c
-    :DRILL_LAST_INTERVAL: 230.0749
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 475.5648
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-09-13 Fri 08:32]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:44]
     :END:
 What's the problem if
 no markdown option is
@@ -4059,17 +4059,17 @@ general in that white-space
 is handled in addition to
 the /decimal/.
 *** Monads                                                            :drill:
-    SCHEDULED: <2020-04-27 Mon>
+    SCHEDULED: <2021-03-22 Mon>
     :PROPERTIES:
     :ID:       b2baec64-4f68-41ca-b2c4-0d650820002e
-    :DRILL_LAST_INTERVAL: 136.5532
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 329.3663
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-12 Thu 14:00]
+    :DRILL_LAST_REVIEWED: [2020-04-27 Mon 13:56]
     :END:
 What does it mean for
 an object, like a monadic
@@ -4780,17 +4780,17 @@ anyway. Use
 just generate local 
 documentation of dependencies.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-04-27 Mon>
+    SCHEDULED: <2020-05-02 Sat>
     :PROPERTIES:
     :ID:       4f99d1ae-8a15-4be1-908b-c57fcd3f588f
-    :DRILL_LAST_INTERVAL: 4.8333
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 5.4085
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.882
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:49]
+    :DRILL_LAST_REVIEWED: [2020-04-27 Mon 13:52]
     :END:
 How to generate searchable
 documentation for a project?
@@ -8047,17 +8047,17 @@ too early on it. It shouldn't
 be called before the readyState
 is reported as DONE.
 *** File Interactions                                                 :drill:
-    SCHEDULED: <2020-04-29 Wed>
+    SCHEDULED: <2021-03-06 Sat>
     :PROPERTIES:
     :ID:       427e96fc-553e-41ee-8e26-8a90a294cb2b
-    :DRILL_LAST_INTERVAL: 172.2687
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 311.1173
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-09 Sat 20:42]
+    :DRILL_LAST_REVIEWED: [2020-04-29 Wed 13:39]
     :END:
 How to use FileReader?
 **** Answer:
@@ -9975,17 +9975,17 @@ Note that this can be given
 names.
 ** scala
 *** Haskell Dictionary                                                :drill:
-    SCHEDULED: <2020-04-27 Mon>
+    SCHEDULED: <2021-03-22 Mon>
     :PROPERTIES:
     :ID:       0c397411-2cdb-4806-8f32-405003e93e74
-    :DRILL_LAST_INTERVAL: 136.5532
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 329.3663
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-12 Thu 14:15]
+    :DRILL_LAST_REVIEWED: [2020-04-27 Mon 13:54]
     :END:
 What is the Haskell equivalent
 for variance annotation in
@@ -10526,17 +10526,17 @@ incognito window, this will
 bypass certain cached 
 configurations.
 *** Connecting                                                        :drill:
-    SCHEDULED: <2020-04-27 Mon>
+    SCHEDULED: <2021-01-03 Sun>
     :PROPERTIES:
     :ID:       1ede2126-c40c-4277-982d-b7ad7ca2bd93
-    :DRILL_LAST_INTERVAL: 117.3352
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 251.332
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-01 Wed 16:19]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-27 Mon 13:56]
     :END:
 What's the problem if
 chromium doesn't show
@@ -11518,6 +11518,18 @@ that this situation
 is better handled with
 temporary branches.
 *** git                                                               :drill:
+    SCHEDULED: <2020-05-09 Sat>
+    :PROPERTIES:
+    :ID:       69527408-45de-44d3-9fd9-4e6603fd652e
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:37]
+    :END:
 Why is ~git pull --rebase~
 recommended despite its
 dangers?
@@ -11531,6 +11543,18 @@ there is no danger in
 if run from a local copy
 of the master branch.
 *** git                                                               :drill:
+    SCHEDULED: <2020-05-09 Sat>
+    :PROPERTIES:
+    :ID:       4d407d47-0a8f-4870-b71f-9892b5828943
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:41]
+    :END:
 When does running
 ~git pull --rebase~
 from a master branch
@@ -12849,6 +12873,37 @@ of income.
 * Gnosis
 ** Alchemy
 *** drugs                                                             :drill:
+Why is water extraction
+from ergot not the way
+to the Eulysian Fields?
+**** Answer:
+Because the yield would be
+too low. The way to go
+would be via saponification
+with wood-ash solutions.
+*** drugs                                                             :drill:
+Why the secrecy in
+alchemical drug
+recipes?
+**** Answer:
+Because it seems to be
+about extractions from
+ergot using saponification,
+ie boiling ergot in a
+wood-ash potion.
+*** drugs                                                             :drill:
+    SCHEDULED: <2020-05-09 Sat>
+    :PROPERTIES:
+    :ID:       657489b6-bdeb-4e71-bae0-dbebd87c8c85
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:39]
+    :END:
 Is there any indication
 that Alchemy could be
 about drug recipies?
@@ -13015,17 +13070,17 @@ microbiological spectrum
 beneficial for plant life,
 ie the Green Lion.
 *** symbolism                                                         :drill:
-    SCHEDULED: <2020-04-28 Tue>
+    SCHEDULED: <2020-05-07 Thu>
     :PROPERTIES:
     :ID:       509fc502-d474-481d-8411-29bf28083f7a
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-24 Fri 14:31]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:02]
     :END:
 What does the little
 white cloud above the
@@ -13035,6 +13090,15 @@ This could refer to the
 Virgin Mary. Her appearances,
 such as at Fatima, are often
 proceded by such a cloud.
+*** the stone                                                         :drill:
+How could alchemists
+realistically make gold
+from lead?
+**** Answer:
+By creating a drug (our stone)
+that transforms the physical
+body (lead) to the dream body
+(gold).
 *** the stone                                                         :drill:
     SCHEDULED: <2020-09-26 Sat>
     :PROPERTIES:
@@ -13540,17 +13604,17 @@ the perfect spirit who
 precedes everything that
 exists.
 *** Bees                                                              :drill:
-    SCHEDULED: <2020-04-28 Tue>
+    SCHEDULED: <2020-05-07 Thu>
     :PROPERTIES:
     :ID:       d86be353-7ab1-4ca5-b369-650c93d4928f
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-24 Fri 14:31]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:03]
     :END:
 What is the supernatural
 aspect of bees?
@@ -13626,6 +13690,18 @@ to Ephesus. In general,
 Artemis is the goddess
 of wild animals.
 *** Church                                                            :drill:
+    SCHEDULED: <2020-05-10 Sun>
+    :PROPERTIES:
+    :ID:       93cd6ba7-7428-4c28-b3d9-065df0133c69
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:41]
+    :END:
 What is the royal
 purple as worn by
 high church dignitaries
@@ -14236,17 +14312,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2020-04-27 Mon>
+    SCHEDULED: <2020-05-05 Tue>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 7.4685
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 20
+    :DRILL_LAST_INTERVAL: 8.3573
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 21
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_AVERAGE_QUALITY: 3.143
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-20 Mon 12:50]
+    :DRILL_LAST_REVIEWED: [2020-04-27 Mon 13:53]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -14254,17 +14330,17 @@ of a pentatonic major scale?
 It is 2 2 3 2 3 in terms of
 semi-tones.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2020-04-26 Sun>
+    SCHEDULED: <2020-07-22 Wed>
     :PROPERTIES:
     :ID:       c65b92dc-a49c-4195-a6cc-5416c1096202
-    :DRILL_LAST_INTERVAL: 80.6933
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 87.1488
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.177
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-05 Wed 13:38]
+    :DRILL_LAST_REVIEWED: [2020-04-26 Sun 17:11]
     :END:
 What is the relationship
 of pentatonic modes 3 and 4
@@ -17653,17 +17729,17 @@ measure particle number, such
 as the measurement of 
 trajectories in a cloud chamber.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-04-27 Mon>
+    SCHEDULED: <2020-11-14 Sat>
     :PROPERTIES:
     :ID:       edca5c13-2fcd-4ba7-9e1a-98a4f61788fc
-    :DRILL_LAST_INTERVAL: 90.477
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 200.8589
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.556
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-28 Tue 11:55]
+    :DRILL_LAST_REVIEWED: [2020-04-27 Mon 13:53]
     :END:
 Where is classical probability
 deficient in the treatment of
@@ -18841,17 +18917,17 @@ preserved in weak interactions,
 even though less often than
 charge or parity by themselves.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-04-28 Tue>
+    SCHEDULED: <2020-05-05 Tue>
     :PROPERTIES:
     :ID:       7f91616b-f7d9-40b3-8adb-dff77cc85a45
-    :DRILL_LAST_INTERVAL: 5.8144
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 6.7447
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.21
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:49]
+    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:03]
     :END:
 How does charge behave
 under particle interaction?
@@ -19769,6 +19845,18 @@ crosscorrelation of signals
 * Science
 ** Neuro
 *** Genes in Nervecells                                               :drill:
+    SCHEDULED: <2020-05-09 Sat>
+    :PROPERTIES:
+    :ID:       f11a0e81-520a-458c-83d2-c36079c5a6d1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:41]
+    :END:
 How do genes affect the
 function of neural networks
 in the brain?
@@ -19923,6 +20011,35 @@ With something like
 where ~PROFILE~ is something like
 ~output:hdmi-stereo~ or
 ~output:hdmi-stereo-extra1~.
+*** Microphone                                                        :drill:
+How to configure the
+internal microphone
+of a laptop for use
+with pulseaudio?
+**** Answer:
+Run ~pavucontrol~ and go
+to the /Input Devices/ tab.
+Set the internal microphone
+as fallback. If there is only 
+one microphone, unlock the 
+channels and mute the right one,
+set the left one to between
+50% and 100%. Then relock the
+channels.
+*** Microphone                                                        :drill:
+What's the problem when
+an internal laptop
+microphone doesn't work
+with pulseaudio?
+**** Answer:
+Pulseaudio locks two
+microphone channels at
+the same level by
+default, which leads to
+problems when there is
+only one microphone. In
+that case, the right channel
+has to be muted.
 * Unix
 *** applications                                                      :drill:
     SCHEDULED: <2021-12-06 Mon>
@@ -20101,17 +20218,17 @@ The boot entries in the EFI
 NVRAM, which is part of the
 system's boot loader hardware.
 *** boot                                                              :drill:
-    SCHEDULED: <2020-04-28 Tue>
+    SCHEDULED: <2021-11-13 Sat>
     :PROPERTIES:
     :ID:       d7a02617-55fd-4bce-8584-3b80508aea38
-    :DRILL_LAST_INTERVAL: 245.3214
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 563.5033
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.38
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-08-27 Tue 09:06]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.24
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:04]
     :END:
 What to do if
 the system refuses
@@ -20125,6 +20242,24 @@ Do a
 =killall systemd-sleep=
 as root and try to
 shut it down again.
+*** configuration                                                     :drill:
+How to configure an internal
+microphone in lubuntu using
+pulseaudio?
+**** Answer:
+With ~pavucontrol~. Go to the
+/Input Devices/ tab and configure
+the /Internal Microphone/ port as
+/fallback/. Unlock the channels
+and mute the right one if there
+is only one microphone. Relock
+them after setting the proper
+volume on the left channel.
+*** configuration                                                     :drill:
+How to configure sound on
+lubuntu if it uses pulseaudio?
+**** Answer:
+With ~pavucontrol~.
 *** configuration                                                     :drill:
     SCHEDULED: <2021-11-05 Fri>
     :PROPERTIES:
@@ -20590,34 +20725,34 @@ way than users and groups].
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
 *** Fact							      :drill:
-    SCHEDULED: <2020-04-30 Thu>
+    SCHEDULED: <2023-07-05 Wed>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       62434f12-63db-42db-8da1-e6dd4059fe50
-  :DRILL_LAST_INTERVAL: 501.0825
-  :DRILL_REPEATS_SINCE_FAIL: 7
-  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_LAST_INTERVAL: 1161.0082
+  :DRILL_REPEATS_SINCE_FAIL: 8
+  :DRILL_TOTAL_REPEATS: 7
   :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 4.0
-  :DRILL_EASE: 2.42
+  :DRILL_AVERAGE_QUALITY: 3.857
+  :DRILL_EASE: 2.28
   :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:49]
+  :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:46]
   :END:      
 An [Access Control List] for a file can be 
 created with [setfacl||the command].
 *** Fact							      :drill:
-    SCHEDULED: <2020-04-30 Thu>
+    SCHEDULED: <2023-08-16 Wed>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       719f81ef-0428-47fe-bd36-130e5b808b5c
-  :DRILL_LAST_INTERVAL: 501.0825
-  :DRILL_REPEATS_SINCE_FAIL: 7
-  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_LAST_INTERVAL: 1203.0991
+  :DRILL_REPEATS_SINCE_FAIL: 8
+  :DRILL_TOTAL_REPEATS: 7
   :DRILL_FAILURE_COUNT: 0
   :DRILL_AVERAGE_QUALITY: 4.0
   :DRILL_EASE: 2.42
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 17:47]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-04-30 Thu 13:46]
   :END:      
 The [Access Control List entries] for a file 
 can be checked with [getfacl||the command].
@@ -21191,17 +21326,17 @@ in an lxterminal?
 This method requires
 the /IBus/ input method.
 *** video                                                             :drill:
-    SCHEDULED: <2020-04-28 Tue>
+    SCHEDULED: <2020-05-07 Thu>
     :PROPERTIES:
     :ID:       63b4cc8c-b6bb-4132-afb2-5c3076351ba9
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-24 Fri 14:32]
+    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:03]
     :END:
 How to test inbuilt
 video on a laptop?
