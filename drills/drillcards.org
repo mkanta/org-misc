@@ -1838,6 +1838,16 @@ so that the top of the
 stack now contains the
 /undo/ operation.
 *** elisp							      :drill:
+What is the difference
+in using ~elt~ vs ~seq-elt~
+to access elements of a
+sequence?
+**** Answer:
+The result of ~seq-elt~ can
+be modified using ~setf~
+whereas ~elt~ returns a
+constant.
+*** elisp							      :drill:
     SCHEDULED: <2020-11-20 Fri>
     :PROPERTIES:
     :ID:       bd0866b9-d814-42f9-8f37-d5352e36c314
@@ -2609,6 +2619,38 @@ into the file, select it and run
 ~C-c = r~ to evaluate it or use
 ~C-c = m~ to be prompted for it
 in the minibuffer.
+*** org-mode tables                                                   :drill:
+What happens to a table if
+it is referenced with ~:var~
+and used in an emacs-lisp
+source block?
+**** Answer:
+It becomes a list of table
+rows, each of which is,
+in turn, a list of strings
+representing the row
+entries.
+*** org-mode tables                                                   :drill:
+How to access table elements
+from emacs-lisp source blocks
+for tables referenced with 
+the ~:var~ mechanism?
+**** Answer:
+With ~sequence~ or ~list~ functions
+such as ~nth~, ~elt~ or ~seq-elt n~, 
+which would return the list 
+representing the /n/-th row. Note 
+that indices are zero based.
+*** org-mode tables                                                   :drill:
+What is the difference
+between naming tables with
+~#+NAME:~ vs ~#+TBLNAME~?
+**** Answer:
+Using ~#+TBLNAME~ is obsolete
+and should not be used, hence
+the differences are irrelevant.
+It's mostly that it doesn't
+create a navigable link.
 *** org-mode tables                                                   :drill:
     SCHEDULED: <2020-07-06 Mon>
     :PROPERTIES:
