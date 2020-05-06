@@ -318,17 +318,17 @@ to the category of sets:
 a covariant functor
 /σ:Δᵒᵖ→Set/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2020-05-04 Mon>
+    SCHEDULED: <2020-09-02 Wed>
     :PROPERTIES:
     :ID:       50d70dcb-b8fb-45b2-968b-571734bf2d04
-    :DRILL_LAST_INTERVAL: 98.9181
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 118.8006
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.133
-    :DRILL_EASE: 1.16
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-26 Sun 15:27]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.3
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-05-06 Wed 14:05]
     :END:
 How to construct a category
 from simplicial sets?
@@ -405,17 +405,17 @@ this would be the interior of
 the set theoretic complement
 of an open set.
 *** Heyting Algebra                                                   :drill:
-    SCHEDULED: <2020-05-04 Mon>
+    SCHEDULED: <2020-08-10 Mon>
     :PROPERTIES:
     :ID:       79c6672b-8120-4fe9-8c1b-e948b4a9eb1c
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 95.9638
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-19 Thu 16:13]
+    :DRILL_LAST_REVIEWED: [2020-05-06 Wed 14:03]
     :END:
 What is a Heyting Algebra?
 **** Answer:
@@ -4073,17 +4073,17 @@ scope of an abstraction
 is considered to extend
 as far right as possible.
 *** Lambda Calculus                                                   :drill:
-    SCHEDULED: <2020-05-04 Mon>
+    SCHEDULED: <2021-06-14 Mon>
     :PROPERTIES:
     :ID:       a49d2a7d-1ec5-490e-89c2-bb9330df54b3
-    :DRILL_LAST_INTERVAL: 167.0643
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 404.4627
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.32
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-19 Tue 13:51]
+    :DRILL_LAST_REVIEWED: [2020-05-06 Wed 14:05]
     :END:
 Why is the substitution
 /(λx.M)[x:=N]≡λx.M/?
@@ -4441,17 +4441,17 @@ logics don't have models, they
 only have valuations of the
 propositional variables.
 *** Logic                                                             :drill:
-    SCHEDULED: <2020-05-06 Wed>
+    SCHEDULED: <2020-09-14 Mon>
     :PROPERTIES:
     :ID:       123f2923-2cca-4564-a7f2-d2a5a33444b1
-    :DRILL_LAST_INTERVAL: 54.1648
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 130.6455
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:20]
+    :DRILL_LAST_REVIEWED: [2020-05-06 Wed 14:07]
     :END:
 How are models for propositional
 logics constructed?
@@ -4556,17 +4556,17 @@ from /K/ by syntactical manipulations
 whereas /K ⊨ X/ means that /K∪{X}/
 has a model whenever /K/ has one.
 *** Logic                                                             :drill:
-    SCHEDULED: <2020-05-06 Wed>
+    SCHEDULED: <2020-09-09 Wed>
     :PROPERTIES:
     :ID:       707c6751-dd64-4b71-b1cd-5db2173b5344
-    :DRILL_LAST_INTERVAL: 54.1648
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 126.0957
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:19]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-06 Wed 14:06]
     :END:
 When is a logic considered
 sound?
@@ -8223,17 +8223,17 @@ the middle term
 which involves the cross-correlation
 /R(m,n)/.
 *** Learning:Q                                                        :drill:
-    SCHEDULED: <2020-05-05 Tue>
+    SCHEDULED: <2020-08-13 Thu>
     :PROPERTIES:
     :ID:       cb9b72d6-81e6-4f3f-a68c-b67e993f20ec
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 99.4458
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-20 Fri 16:12]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-06 Wed 14:05]
     :END:
 What is Q-learning
 all about?
