@@ -1838,6 +1838,18 @@ so that the top of the
 stack now contains the
 /undo/ operation.
 *** elisp							      :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       30ec03c3-defd-4341-bc6c-c9549b511b9f
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:08]
+    :END:
 What is the difference
 in using ~elt~ vs ~seq-elt~
 to access elements of a
@@ -2620,6 +2632,18 @@ into the file, select it and run
 ~C-c = m~ to be prompted for it
 in the minibuffer.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       1b32e105-cb04-4e49-9ef3-8e30fac7387c
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:02]
+    :END:
 What is the effect of
 a name and a caption for
 a table with latex attribute
@@ -2633,6 +2657,18 @@ rather than between ~\begin{equation}~,
 not be displayed, though, and no
 link target will be created.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       8ce5ca42-f867-42b5-9a3c-4b127c2374d2
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:07]
+    :END:
 How to solve the problem with
 the references to tables that
 have a label assigned with
@@ -2648,6 +2684,18 @@ name and the label name are the
 same, the org references should
 work as expected.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       5a737dc6-eba7-468a-afef-cb9034bcb4f2
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:06]
+    :END:
 What's the problem with adding a
 label to a table with the latex
 attribute mechanism?
@@ -2657,6 +2705,18 @@ org-mode links to the name of the
 table won't work, it has to be a
 latex ~\ref{...}~ reference.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       1da0b22b-bec1-4453-878e-4682202263c6
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:08]
+    :END:
 When does a table put
 into a math environment
 with latex attributes
@@ -2669,6 +2729,18 @@ This is because a full equation
 environment is needed for the label
 to become active.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       19c4d0d6-8816-4505-b0fc-1ce01d2c0aa9
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:04]
+    :END:
 How to set up an org
 table so that it becomes
 a numbered equation when 
@@ -2684,6 +2756,18 @@ needs a caption and a name,
 even though neither is
 displayed.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       d9dbf2a5-6be8-4237-a19d-5738a0ea2bc6
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:13]
+    :END:
 What happens to a table if
 it is referenced with ~:var~
 and used in an emacs-lisp
@@ -2695,6 +2779,18 @@ in turn, a list of strings
 representing the row
 entries.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       42cd1c83-9e72-4f78-9331-9baf70ed308b
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:10]
+    :END:
 How to access table elements
 from emacs-lisp source blocks
 for tables referenced with 
@@ -2706,6 +2802,18 @@ which would return the list
 representing the /n/-th row. Note 
 that indices are zero based.
 *** org-mode tables                                                   :drill:
+    SCHEDULED: <2020-05-11 Mon>
+    :PROPERTIES:
+    :ID:       3b00a4ae-8f41-46f6-9054-9d515a62f389
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:11]
+    :END:
 What is the difference
 between naming tables with
 ~#+NAME:~ vs ~#+TBLNAME~?
@@ -8836,17 +8944,17 @@ package as a dependency. Install
 with 
 =psc-package install psci-support=
 *** Psc-package installation                                          :drill:
-    SCHEDULED: <2020-05-07 Thu>
+    SCHEDULED: <2021-05-15 Sat>
     :PROPERTIES:
     :ID:       aed5c9d5-d4b4-4197-8393-2841d715f58b
-    :DRILL_LAST_INTERVAL: 199.3237
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 373.134
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-21 Mon 12:00]
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:12]
     :END:
 What's the problem if
 ~stack install~ complains
@@ -11314,17 +11422,17 @@ check for differences with
 the upstream content before
 pulling or merging.
 *** git merge                                                         :drill:
-    SCHEDULED: <2020-05-07 Thu>
+    SCHEDULED: <2020-07-06 Mon>
     :PROPERTIES:
     :ID:       3d584519-bbc2-42d0-b311-b87145f93663
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.3
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-12 Sun 15:25]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:09]
     :END:
 How to integrate a normal
 commit with a merge commit?
@@ -11766,17 +11874,17 @@ Change the conflicting files
 and run ~git reset~ followed
 by ~git stash drop~.
 *** git                                                               :drill:
-    SCHEDULED: <2020-05-07 Thu>
+    SCHEDULED: <2020-07-08 Wed>
     :PROPERTIES:
     :ID:       3650a0ba-9b23-43eb-9e32-ed7b344a8bca
-    :DRILL_LAST_INTERVAL: 24.048
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.116
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-13 Mon 13:48]
+    :DRILL_AVERAGE_QUALITY: 4.25
+    :DRILL_EASE: 2.56
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:01]
     :END:
 What to do in order to
 stay clear of the dangers
@@ -12123,17 +12231,17 @@ dvi to svg because this is part of a
 tex-installation.
 ** Pdf
 *** Analysis                                                          :drill:
-    SCHEDULED: <2020-05-07 Thu>
+    SCHEDULED: <2021-05-19 Wed>
     :PROPERTIES:
     :ID:       6cd39566-3b13-46f1-be9c-285b21059372
-    :DRILL_LAST_INTERVAL: 211.6351
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 376.7105
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.417
-    :DRILL_EASE: 1.72
+    :DRILL_AVERAGE_QUALITY: 3.539
+    :DRILL_EASE: 1.82
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-10-08 Tue 13:46]
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:10]
     :END:
 How are indirect objects
 defined?
@@ -13224,17 +13332,17 @@ states (cited by Hancock),
 and how it overcomes the old
 king.
 *** symbolism                                                         :drill:
-    SCHEDULED: <2020-05-07 Thu>
+    SCHEDULED: <2020-05-29 Fri>
     :PROPERTIES:
     :ID:       509fc502-d474-481d-8411-29bf28083f7a
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:02]
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:01]
     :END:
 What does the little
 white cloud above the
@@ -13770,17 +13878,17 @@ the perfect spirit who
 precedes everything that
 exists.
 *** Bees                                                              :drill:
-    SCHEDULED: <2020-05-07 Thu>
+    SCHEDULED: <2020-05-29 Fri>
     :PROPERTIES:
     :ID:       d86be353-7ab1-4ca5-b369-650c93d4928f
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:03]
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 13:58]
     :END:
 What is the supernatural
 aspect of bees?
@@ -14202,6 +14310,17 @@ Quote: When an inner
 situation is not made
 conscious, it happens
 outside as fate.
+*** Reality and Mind                                                  :drill:
+How can Mathematics be
+viewed as a model for
+the relationship between
+mind and matter?
+**** Answer:
+Like Mathematics, matter
+may be created as a construct
+of mind but once created it
+has an independent life and
+is not arbitrary.
 * Language
 ** Origin
 *** Biology                                                           :drill:
@@ -15457,6 +15576,18 @@ time-like events cannot occur
 at the same time, ie they are
 separated by time.
 *** Time                                                              :drill:
+In which sense does
+acceleration provide a
+measurement for time
+differneces?
+**** Answer:
+In the sense that it
+freezes the apparent
+slowing of time of a
+moving observer once 
+it arrives and comes
+to a standstill.
+*** Time                                                              :drill:
     SCHEDULED: <2020-06-26 Fri>
     :PROPERTIES:
     :ID:       f22311c3-b9b6-440b-b1b4-3d0c8325372e
@@ -15480,17 +15611,17 @@ According to relativity,
 time is just a kind of distance,
 so this is a similar situation.
 *** Time                                                              :drill:
-    SCHEDULED: <2020-05-07 Thu>
+    SCHEDULED: <2020-07-06 Mon>
     :PROPERTIES:
     :ID:       f5b5b760-fd23-4c38-9d05-b3910c184d56
-    :DRILL_LAST_INTERVAL: 24.048
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 60.0238
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.46
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-13 Mon 13:47]
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 14:04]
     :END:
 Why can uniform movement 
 through space not slow down
@@ -21564,17 +21695,17 @@ in an lxterminal?
 This method requires
 the /IBus/ input method.
 *** video                                                             :drill:
-    SCHEDULED: <2020-05-07 Thu>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       63b4cc8c-b6bb-4132-afb2-5c3076351ba9
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:03]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-07 Thu 13:58]
     :END:
 How to test inbuilt
 video on a laptop?
