@@ -2620,6 +2620,70 @@ into the file, select it and run
 ~C-c = m~ to be prompted for it
 in the minibuffer.
 *** org-mode tables                                                   :drill:
+What is the effect of
+a name and a caption for
+a table with latex attribute
+~:mode math~?
+**** Answer:
+If either one of them is
+missing, the table will be
+put in a ~\[ ... \]~ environment
+rather than between ~\begin{equation}~,
+~\end{equation}~. The caption will 
+not be displayed, though, and no
+link target will be created.
+*** org-mode tables                                                   :drill:
+How to solve the problem with
+the references to tables that
+have a label assigned with
+the latex attribute mechanism?
+**** Answer:
+For files where this mechanism
+is used, the variable
+~org-latex-prefer-user-labels~
+or the property
+~:latex-prefer-user-labels~ has
+to be set to true. If the table
+name and the label name are the
+same, the org references should
+work as expected.
+*** org-mode tables                                                   :drill:
+What's the problem with adding a
+label to a table with the latex
+attribute mechanism?
+**** Answer:
+Referencing becomes tricky because
+org-mode links to the name of the
+table won't work, it has to be a
+latex ~\ref{...}~ reference.
+*** org-mode tables                                                   :drill:
+When does a table put
+into a math environment
+with latex attributes
+~:mode math~ still need
+a name and a caption?
+**** Answer:
+Whenever a label is added
+with ~:math-prefix \label{<name>}~.
+This is because a full equation
+environment is needed for the label
+to become active.
+*** org-mode tables                                                   :drill:
+How to set up an org
+table so that it becomes
+a numbered equation when 
+exported to latex?
+**** Answer:
+Precede it with a #+ATTR_LATEX
+line and set ~:mode math~,
+~:environment array~, or some
+such and
+~:math-prefix \label{<name>}~.
+Note that the table still
+needs a caption and a name,
+even though neither is
+displayed.
+*** org-mode tables                                                   :drill:
 What happens to a table if
 it is referenced with ~:var~
 and used in an emacs-lisp
