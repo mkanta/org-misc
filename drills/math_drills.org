@@ -2501,17 +2501,17 @@ In addition, ~facsum~ can have
 additional elements which are then
 interpreted as variables.
 *** Maxima:Variable Management                                        :drill:
-    SCHEDULED: <2020-05-08 Fri>
+    SCHEDULED: <2020-08-06 Thu>
     :PROPERTIES:
     :ID:       56fc1c27-7d9d-40be-ae98-dab9cd7a09d1
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 88.325
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-26 Thu 14:41]
+    :DRILL_LAST_REVIEWED: [2020-05-10 Sun 17:30]
     :END:
 How to undefine a variable?
 **** Answer:
@@ -4395,17 +4395,17 @@ that logic is provable
 using its axioms and rules
 of inference.
 *** Logic                                                             :drill:
-    SCHEDULED: <2020-05-08 Fri>
+    SCHEDULED: <2020-09-03 Thu>
     :PROPERTIES:
     :ID:       abe7d999-82be-41bb-93af-5acd6d492955
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 116.0583
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-17 Tue 14:13]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-10 Sun 17:29]
     :END:
 Why is it a bad idea
 to introduce logic
@@ -5030,17 +5030,17 @@ where thruth is not an issue,
 it is a well-formed formula
 with no free variables.
 *** Logic:First Order                                                 :drill:
-    SCHEDULED: <2020-05-08 Fri>
+    SCHEDULED: <2020-09-22 Tue>
     :PROPERTIES:
     :ID:       b4092f06-2077-4906-abf5-afebfbed261d
-    :DRILL_LAST_INTERVAL: 74.4794
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 134.5098
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-24 Mon 14:35]
+    :DRILL_LAST_REVIEWED: [2020-05-10 Sun 17:26]
     :END:
 What is the language
 of Arithmetic?
@@ -5670,17 +5670,17 @@ of rules of inference, it
 has axioms that define the
 logical connectives.
 *** Logic:Propositional                                               :drill:
-    SCHEDULED: <2020-05-08 Fri>
+    SCHEDULED: <2020-08-14 Fri>
     :PROPERTIES:
     :ID:       92d9e45c-0003-4494-b438-81fd9cc47c3a
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 95.9638
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-23 Mon 19:37]
+    :DRILL_LAST_REVIEWED: [2020-05-10 Sun 17:29]
     :END:
 How are sequents treated
 in models of propositional
@@ -5725,17 +5725,17 @@ and
 |-------|
 | Γ⊢Ψ   |
 *** Logic:Propositional                                               :drill:
-    SCHEDULED: <2020-05-10 Sun>
+    SCHEDULED: <2020-09-18 Fri>
     :PROPERTIES:
     :ID:       4eb67402-703e-4aac-9cf7-5a9ab052fd7b
-    :DRILL_LAST_INTERVAL: 54.1648
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 130.6455
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-17 Tue 14:12]
+    :DRILL_LAST_REVIEWED: [2020-05-10 Sun 17:27]
     :END:
 What does it mean for
 two formulas of propositional
@@ -5774,17 +5774,17 @@ relations, ie predicate symbols,
 that would map to singleton
 sets in any algebraic interpretation.
 *** Logic:Predicate                                                   :drill:
-    SCHEDULED: <2020-05-08 Fri>
+    SCHEDULED: <2020-06-18 Thu>
     :PROPERTIES:
     :ID:       2bde67a8-ae02-4d32-af50-5304665373e2
-    :DRILL_LAST_INTERVAL: 18.3583
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 39.3235
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.428
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-20 Mon 12:49]
+    :DRILL_AVERAGE_QUALITY: 3.374
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-10 Sun 17:27]
     :END:
 What's the difference in the
 definition of formulas for
