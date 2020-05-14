@@ -2051,6 +2051,18 @@ PARALLEL TO but is too short
 and too close:
 ∥v∥.
 *** installing                                                        :drill:
+    SCHEDULED: <2020-05-18 Mon>
+    :PROPERTIES:
+    :ID:       57649b5e-9b9a-41c0-88f9-15b14f37a8ba
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:28]
+    :END:
 What is the problem if
 after installing emacs26
 emacsclient26 still runs
@@ -2066,6 +2078,18 @@ Uninstall the previous version
 either before or after installing
 26.
 *** installing                                                        :drill:
+    SCHEDULED: <2020-05-18 Mon>
+    :PROPERTIES:
+    :ID:       58224213-90ca-4bb0-ae0b-77823eef64c3
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:27]
+    :END:
 What is the problem when
 removing ~emacs25~ results
 in the installation of
@@ -2077,6 +2101,18 @@ still installed. Remove
 it before removing
 ~emacs25~.
 *** installing                                                        :drill:
+    SCHEDULED: <2020-05-18 Mon>
+    :PROPERTIES:
+    :ID:       3f69744e-9ffb-49dd-951c-20214e3a0375
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:27]
+    :END:
 How to remove emacs
 packages from ubuntu
 style systems?
@@ -21356,6 +21392,18 @@ from the command line?
 With ~nmcli~. Check its
 manpage for details.
 *** package management                                                :drill:
+    SCHEDULED: <2020-05-18 Mon>
+    :PROPERTIES:
+    :ID:       0108681f-9907-4856-a6d2-ef7d8c1bbe7e
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:27]
+    :END:
 Why is ~apt remove --autoremove~
 dangerous?
 **** Answer:
@@ -21367,6 +21415,18 @@ way may result in the removal
 of a number of ~tex-live~
 packages.
 *** package management                                                :drill:
+    SCHEDULED: <2020-05-18 Mon>
+    :PROPERTIES:
+    :ID:       1926acb3-3e8d-41de-a560-46a3d24e2524
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:27]
+    :END:
 What is the problem if an
 attempt to remove a package
 results in the installation
