@@ -2477,17 +2477,17 @@ which makes functions like
 ~getcurrentdirectory()~
 available.
 *** Maxima:Polynomials                                                :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-08-27 Thu>
     :PROPERTIES:
     :ID:       2e76b4f2-a65a-4928-a076-30aecfb77d22
-    :DRILL_LAST_INTERVAL: 48.1172
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 103.067
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-28 Sat 15:13]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:13]
     :END:
 How to turn an expression
 into a polynomial?
@@ -3712,17 +3712,17 @@ is reminiscent of negation,
 /≤/ playing the role of
 implication.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-11-07 Sat>
     :PROPERTIES:
     :ID:       8765c8aa-5784-4645-823f-dd1498fdee52
-    :DRILL_LAST_INTERVAL: 87.2981
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 175.2073
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.374
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.332
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-18 Tue 14:15]
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:12]
     :END:
 When are propositions of a
 logic orthogonal?
@@ -3890,17 +3890,17 @@ representatives satisfy
 /C/ such that /A⊥C/ and
 /A∪C op B/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-11-18 Wed>
     :PROPERTIES:
     :ID:       a3643d5e-4a8b-4d3d-820d-224a061136a9
-    :DRILL_LAST_INTERVAL: 95.9638
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 186.1698
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-09 Sun 15:46]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:14]
     :END:
 How is negation defined
 on a manual *M*?
@@ -5883,17 +5883,17 @@ of the hypothesis, which makes
 it easier to analyse certain
 properties of proofs.
 *** Logic:Predicate                                                   :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-07-29 Wed>
     :PROPERTIES:
     :ID:       480e69e4-18dd-440f-a233-c35dbf3c34e4
-    :DRILL_LAST_INTERVAL: 39.786
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 74.4794
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-05 Sun 14:15]
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:13]
     :END:
 What does it mean for a
 set /X/ of formulas in
@@ -8292,17 +8292,17 @@ updated via
 where /r:S×A→ℝ/ is the reward function
 for taking action /a/ in state /s/.
 *** Learning:Q                                                        :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-09-26 Sat>
     :PROPERTIES:
     :ID:       5c91173d-411d-4bac-a648-384d8612d08d
-    :DRILL_LAST_INTERVAL: 56.0512
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 133.0655
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-03-20 Fri 16:09]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:12]
     :END:
 Why is the update of the /Q/
 function often given as

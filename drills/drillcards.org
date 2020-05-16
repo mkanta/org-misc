@@ -5140,17 +5140,17 @@ anyway. Use
 just generate local 
 documentation of dependencies.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2020-05-26 Tue>
     :PROPERTIES:
     :ID:       4f99d1ae-8a15-4be1-908b-c57fcd3f588f
-    :DRILL_LAST_INTERVAL: 7.9464
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 9.9648
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.947
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-08 Fri 11:40]
+    :DRILL_AVERAGE_QUALITY: 2.95
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:06]
     :END:
 How to generate searchable
 documentation for a project?
@@ -7980,17 +7980,17 @@ is created with the ~makeAff~
 function and can then be run
 to result in an ~a~ or an error.
 *** Async                                                             :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2021-03-19 Fri>
     :PROPERTIES:
     :ID:       77ff626d-dffe-4fa7-84f9-a72e6e0c093e
-    :DRILL_LAST_INTERVAL: 176.5629
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 306.6898
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-21 Thu 13:12]
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:06]
     :END:
 How to generate a result in
 an ~Aff a~?
@@ -12087,17 +12087,17 @@ to it. Create it with
 =git -tag <version> [commit]=
 with no -a, -m or -s option.
 *** git                                                               :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2021-05-21 Fri>
     :PROPERTIES:
     :ID:       1911d00c-406f-46b9-96b7-4e5670cdaaff
-    :DRILL_LAST_INTERVAL: 239.3264
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 369.9986
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-20 Fri 08:41]
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:10]
     :END:
 How to give a commit
 a name?
@@ -12152,17 +12152,17 @@ made will be lost upon
 leaving (ie another checkout) 
 unless a new branch is created.
 *** git                                                               :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2021-05-21 Fri>
     :PROPERTIES:
     :ID:       5be67af8-56dd-4691-9a3f-6cf36950a906
-    :DRILL_LAST_INTERVAL: 239.3264
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 369.9986
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-20 Fri 08:41]
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:10]
     :END:
 How to fetch a
 specific tag from 
@@ -12783,17 +12783,17 @@ part of the contract that
 allows selling the underlying
 to the terms of the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2020-06-26 Fri>
     :PROPERTIES:
     :ID:       4ac4f547-ed79-4912-89db-7163de2deb68
-    :DRILL_LAST_INTERVAL: 24.4296
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 40.5531
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.368
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:53]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:10]
     :END:
 What is the short
 position in a forward
@@ -14755,17 +14755,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-05-28 Thu>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 9.6945
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 12.6028
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.182
+    :DRILL_AVERAGE_QUALITY: 3.218
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-05 Tue 13:23]
+    :DRILL_LAST_REVIEWED: [2020-05-15 Fri 18:59]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -15093,17 +15093,17 @@ If they are disjoint and
 /A∪B ∈/ *M*, ie their
 union is an experiment.
 *** Manuals                                                           :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-11-11 Wed>
     :PROPERTIES:
     :ID:       ec874e66-9997-423a-a662-429240270df2
-    :DRILL_LAST_INTERVAL: 95.9638
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 179.6442
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-09 Sun 15:50]
+    :DRILL_LAST_REVIEWED: [2020-05-15 Fri 19:01]
     :END:
 When are events /A, B/ of
 a manual *M* said to be
@@ -18268,17 +18268,17 @@ state /φ/, otherwise
 where /ρ=∑pⱼ|φⱼ⟩⟨φⱼ|/ is
 the density matrix.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2020-08-02 Sun>
     :PROPERTIES:
     :ID:       dce0811d-0dc5-4c99-b79c-5d9365f423c3
-    :DRILL_LAST_INTERVAL: 70.035
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 78.3692
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.063
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.059
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-07 Sat 15:08]
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:09]
     :END:
 How is the density
 matrix used in a 
@@ -19153,17 +19153,17 @@ which is /∑ₚ⟨y|p⟩exp(-ipx)/, and, since
 /⟨y|φ⁺(x)|0⟩=δ(x-y)/, hence nonzero
 only if /x=y/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2020-06-01 Mon>
     :PROPERTIES:
     :ID:       2e154174-c645-470a-8450-cf0b97e44180
-    :DRILL_LAST_INTERVAL: 11.4844
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 16.0782
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.316
+    :DRILL_AVERAGE_QUALITY: 3.35
     :DRILL_EASE: 1.4
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-05-05 Tue 13:13]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:08]
     :END:
 How to check that
 /Φ(x)=∑ₚaₚ⁺exp(-ipx)=φ⁺(x)/ creates
@@ -19493,17 +19493,17 @@ charge operator. But this means
 their electrical charge must
 be 0.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2021-08-21 Sat>
     :PROPERTIES:
     :ID:       45cc9ccf-4da5-4927-86f8-10390c222521
-    :DRILL_LAST_INTERVAL: 288.359
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 461.9511
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.286
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.267
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-02 Fri 09:01]
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:07]
     :END:
 What is /charge/?
 **** Answer:
@@ -20533,17 +20533,17 @@ that case, the right channel
 has to be muted.
 ** Windows
 *** Chromecasting                                                     :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2020-06-06 Sat>
     :PROPERTIES:
     :ID:       ba2393c0-2b4d-4e2d-850f-4dd3afb154c0
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.9723
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-06 Wed 14:02]
+    :DRILL_LAST_REVIEWED: [2020-05-15 Fri 18:59]
     :END:
 What's the problem if there
 is no sound when chromecasting
@@ -20887,17 +20887,17 @@ If so, link an entry in =/sys/class/backlight=
 to it, if not then there is no hardware
 support for brightness changes.
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-05-15 Fri>
+    SCHEDULED: <2021-05-01 Sat>
     :PROPERTIES:
     :ID:       d851807b-c2ec-41c5-b3b2-8c93075d73a7
-    :DRILL_LAST_INTERVAL: 239.3264
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 351.0918
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-19 Thu 09:28]
+    :DRILL_LAST_REVIEWED: [2020-05-15 Fri 19:01]
     :END:
 How to configure
 input methods in
@@ -21978,17 +21978,17 @@ slower alternative is
 ~ffplay~ from the ffmpeg
 package.
 *** xmonad                                                            :drill:
-    SCHEDULED: <2020-05-16 Sat>
+    SCHEDULED: <2020-10-27 Tue>
     :PROPERTIES:
     :ID:       d427d0b3-2784-4a83-bad5-83255d6dc001
-    :DRILL_LAST_INTERVAL: 126.0839
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 163.9091
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.067
+    :DRILL_AVERAGE_QUALITY: 3.125
     :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-11 Sat 13:32]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:06]
     :END:
 Where should applications
 be auto-started xsession
