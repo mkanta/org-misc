@@ -971,17 +971,17 @@ as /ŷ=sgn∑ᵢωᵢyᵢK(*xᵢ,x*)/, update
 /ωⱼ→ωⱼ+1/ if /(*xⱼ*,yⱼ)/ is
 misclassified.
 *** Perceptron Training                                               :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2021-08-12 Thu>
     :PROPERTIES:
     :ID:       5436a084-6e68-4441-b74e-dafc5dddeb71
-    :DRILL_LAST_INTERVAL: 214.4448
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 451.1919
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.18
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:51]
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.04
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:14]
     :END:
 How are the separating boundaries
 for the kernel perceptron obtained?
@@ -1618,6 +1618,31 @@ the first argument of
 a function /call/ to the
 right.
 ** emacs
+*** configuration                                                     :drill:
+    SCHEDULED: <2020-05-22 Fri>
+    :PROPERTIES:
+    :ID:       daf8a3f8-bd97-4f16-9eaf-a4d7aca9623b
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:17]
+    :END:
+What is the problem
+if ~org-drill~ is not 
+autoloading with ~M-x~?
+**** Answer:
+The optional argument of
+~autoload~ refering to 
+interactivity has to be 
+set to ~t~, ie
+~(autoload 'org-drill "org-drill" nil t)~
+should work. The ~nil~ causes
+the default documentation
+string to be used.
 *** dired                                                             :drill:
     SCHEDULED: <2020-06-13 Sat>
     :PROPERTIES:
@@ -1838,6 +1863,50 @@ so that the top of the
 stack now contains the
 /undo/ operation.
 *** elisp							      :drill:
+    SCHEDULED: <2020-05-22 Fri>
+    :PROPERTIES:
+    :ID:       bc032dfe-8a0e-4c4e-bd0e-94860f3ed4c0
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:12]
+    :END:
+What is the ~&rest~ in
+elisp function arguments
+all about?
+**** Answer:
+This is about an argument
+list. Arguments in the
+~&rest e~ are concatenated
+into a list nd bound to
+~e~.
+*** elisp							      :drill:
+    SCHEDULED: <2020-05-22 Fri>
+    :PROPERTIES:
+    :ID:       75b71600-0db3-42bf-b965-3c3f7702c919
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:13]
+    :END:
+What to do if the second
+optional argument of a
+function needs to be set
+but not the first one?
+**** Answer:
+Set the first one to =nil=
+which will result in the
+default value being used
+for it.
+*** elisp							      :drill:
     SCHEDULED: <2020-05-21 Thu>
     :PROPERTIES:
     :ID:       30ec03c3-defd-4341-bc6c-c9549b511b9f
@@ -1961,17 +2030,17 @@ listp argname/?
 **** Answer:
 The last argument of =apply= must be a list.
 *** ess                                                               :drill:
-    SCHEDULED: <2020-05-17 Sun>
+    SCHEDULED: <2021-06-05 Sat>
     :PROPERTIES:
     :ID:       5c29e5fb-166f-4719-b7dc-227e792a87fb
-    :DRILL_LAST_INTERVAL: 239.3264
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 383.4009
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.125
     :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-21 Sat 08:20]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:14]
     :END:
 How to prevent the
 underscore to =<-=
@@ -2051,17 +2120,17 @@ PARALLEL TO but is too short
 and too close:
 ∥v∥.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       57649b5e-9b9a-41c0-88f9-15b14f37a8ba
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:28]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:11]
     :END:
 What is the problem if
 after installing emacs26
@@ -2078,17 +2147,17 @@ Uninstall the previous version
 either before or after installing
 26.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       58224213-90ca-4bb0-ae0b-77823eef64c3
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:08]
     :END:
 What is the problem when
 removing ~emacs25~ results
@@ -2101,17 +2170,17 @@ still installed. Remove
 it before removing
 ~emacs25~.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       3f69744e-9ffb-49dd-951c-20214e3a0375
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:12]
     :END:
 How to remove emacs
 packages from ubuntu
@@ -2125,17 +2194,17 @@ dependent packages that have
 become obsolete due to the
 previous removals.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-05-28 Thu>
     :PROPERTIES:
     :ID:       9be75ce2-605e-4d92-a1da-f7f420af07db
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 15:54]
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:11]
     :END:
 What to do if emacs
 won't launch after an
@@ -2146,17 +2215,17 @@ is complete and the
 ~emacs-common~ files are
 properly installed.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       a483a1b0-8691-4dfa-90a0-bb974d1e8206
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 15:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:09]
     :END:
 How to recompile bytecode
 for installed packages,
@@ -2550,17 +2619,17 @@ get an org-file. Alternatively
 convert to /rst/ or /latex/ instead
 of /markdown/ and then to org.
 *** org-mode exports                                                  :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       1c1fbc30-b7b2-4d75-b074-9e78db6c6430
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 15:55]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:10]
     :END:
 What is the problem if
 latex-pdf export complains
@@ -3944,17 +4013,17 @@ dependencies if they are
 newer than those from
 lts 6.35.
 *** Eta-JVM                                                           :drill:
-    SCHEDULED: <2020-05-19 Tue>
+    SCHEDULED: <2021-06-06 Sun>
     :PROPERTIES:
     :ID:       cde34e59-1e2f-4fbc-8d40-c5547c98a769
-    :DRILL_LAST_INTERVAL: 239.3264
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 383.4009
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.125
     :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-23 Mon 09:39]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-19 Tue 13:33]
     :END:
 How to turn a stack project
 into an /etlas/ project?
@@ -4812,17 +4881,17 @@ would need to be installed with
 if /inline-r/ is installed in the 
 global /stack/ project.
 *** Projects                                                          :drill:
-    SCHEDULED: <2020-05-17 Sun>
+    SCHEDULED: <2021-05-23 Sun>
     :PROPERTIES:
     :ID:       49051250-a767-47b4-b547-48bb1620ae85
-    :DRILL_LAST_INTERVAL: 239.3264
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 369.9986
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-21 Sat 08:18]
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:15]
     :END:
 What is the /Setup.hs/
 file for in the project
@@ -5043,17 +5112,17 @@ listed in /package.yaml/ that
 couldn't be found in the 
 resolver.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-05-17 Sun>
+    SCHEDULED: <2021-08-12 Thu>
     :PROPERTIES:
     :ID:       8b02051c-fc96-4886-b8ab-b3d5fe413c81
-    :DRILL_LAST_INTERVAL: 281.7216
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 451.318
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-09 Fri 11:01]
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:14]
     :END:
 What to do if the
 ~stack new projname~ 
@@ -10021,17 +10090,17 @@ Usually with ~lapply~:
 ~frame$colname <- lapply(frame$colname, func)~,
 where ~frame~ is the name of the data frame.
 *** Data Types                                                        :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-07-05 Sun>
     :PROPERTIES:
     :ID:       4a2b1754-ab8a-4353-9b19-b8d394090c09
-    :DRILL_LAST_INTERVAL: 42.8679
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 47.9692
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.11
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.104
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-05 Sun 14:16]
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:16]
     :END:
 How to analyse the 
 structure of data-types
@@ -10981,17 +11050,17 @@ well as template names
 defined in meta-data in
 associated template files.
 *** Hakyll                                                            :drill:
-    SCHEDULED: <2020-05-17 Sun>
+    SCHEDULED: <2022-08-29 Mon>
     :PROPERTIES:
     :ID:       67c31465-fdc2-4fd5-b0d8-d7e83b476b57
-    :DRILL_LAST_INTERVAL: 362.6488
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 833.3669
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-20 Mon 11:50]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:12]
     :END:
 How are the variables
 enclosed in ~$<varname>$~
@@ -11272,17 +11341,17 @@ files to the main directory
 and then deleted after pushing
 the changes.
 *** github                                                            :drill:
-    SCHEDULED: <2020-05-17 Sun>
+    SCHEDULED: <2021-08-12 Thu>
     :PROPERTIES:
     :ID:       9e7899d6-b0d9-4f09-a29d-830cfcbba1c4
-    :DRILL_LAST_INTERVAL: 281.7216
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 451.318
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-09 Fri 10:59]
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:16]
     :END:
 Is it always necessary
 to push a private development
@@ -13454,17 +13523,17 @@ microbiological spectrum
 beneficial for plant life,
 ie the Green Lion.
 *** symbolism                                                         :drill:
-    SCHEDULED: <2020-05-19 Tue>
+    SCHEDULED: <2020-06-08 Mon>
     :PROPERTIES:
     :ID:       e1bb1c7b-ee70-4d55-b331-25142d85fb23
-    :DRILL_LAST_INTERVAL: 8.7892
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.512
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-10 Sun 17:21]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-19 Tue 13:33]
     :END:
 What is the story of
 the philosopher's son
@@ -18093,17 +18162,17 @@ complementary observables by
 measuring them separately
 on the clones.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-05-17 Sun>
+    SCHEDULED: <2020-05-22 Fri>
     :PROPERTIES:
     :ID:       28154337-e2e4-4c22-8d5e-88938999271f
-    :DRILL_LAST_INTERVAL: 113.5408
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-24 Fri 14:25]
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:17]
     :END:
 What is a common
 misconception when
@@ -19744,17 +19813,17 @@ to final state /q_f/ during time /T/
 in a quantum system governed by Hamiltonian
 /H/.
 *** Path integral						      :drill:
-    SCHEDULED: <2020-05-19 Tue>
+    SCHEDULED: <2020-07-19 Sun>
     :PROPERTIES:
     :ID:       00b6b68c-f19e-4775-90e9-f7252ddd9c5c
-    :DRILL_LAST_INTERVAL: 47.253
-    :DRILL_REPEATS_SINCE_FAIL: 15
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 61.4289
+    :DRILL_REPEATS_SINCE_FAIL: 16
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.408
+    :DRILL_AVERAGE_QUALITY: 3.434
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-02 Thu 14:09]
+    :DRILL_LAST_REVIEWED: [2020-05-19 Tue 13:34]
     :END:
 What is the idea of using the path-integral
 to describe 
@@ -20624,17 +20693,17 @@ handling. Removing
 ~.config/mnemosyne~ helps in
 this situation.
 *** applications                                                      :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2022-11-03 Thu>
     :PROPERTIES:
     :ID:       ade31ce5-3d57-46ee-9569-4ced06835210
-    :DRILL_LAST_INTERVAL: 381.0938
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 899.3814
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_AVERAGE_QUALITY: 3.857
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-03 Fri 15:15]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:15]
     :END:
 What is the problem when
 Python based applications
@@ -20908,17 +20977,17 @@ Select the keyboard input method
 system, then log out and back
 in.
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2022-10-03 Mon>
     :PROPERTIES:
     :ID:       7d25333b-1ed2-412e-ab7d-9133e8ea1ed3
-    :DRILL_LAST_INTERVAL: 381.0938
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 867.7506
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-03 Fri 15:07]
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:13]
     :END:
 Why is it not a good
 idea to copy system directories
@@ -21392,17 +21461,17 @@ from the command line?
 With ~nmcli~. Check its
 manpage for details.
 *** package management                                                :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       0108681f-9907-4856-a6d2-ef7d8c1bbe7e
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:11]
     :END:
 Why is ~apt remove --autoremove~
 dangerous?
@@ -21415,17 +21484,17 @@ way may result in the removal
 of a number of ~tex-live~
 packages.
 *** package management                                                :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2020-05-27 Wed>
     :PROPERTIES:
     :ID:       1926acb3-3e8d-41de-a560-46a3d24e2524
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-14 Thu 16:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:09]
     :END:
 What is the problem if an
 attempt to remove a package
@@ -21466,17 +21535,17 @@ until the meta-package is upgraded,
 it needs =apt-get dist-upgrade=
 to be run.
 *** package management                                                :drill:
-    SCHEDULED: <2020-05-18 Mon>
+    SCHEDULED: <2022-11-03 Thu>
     :PROPERTIES:
     :ID:       d78972d1-c7dc-4c59-9968-1a614e05d142
-    :DRILL_LAST_INTERVAL: 381.0938
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 899.3814
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_AVERAGE_QUALITY: 3.857
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-03 Fri 15:11]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-05-18 Mon 13:17]
     :END:
 What needs to be done after
 a release upgrade?
