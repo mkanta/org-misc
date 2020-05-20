@@ -1882,7 +1882,7 @@ all about?
 This is about an argument
 list. Arguments in the
 ~&rest e~ are concatenated
-into a list nd bound to
+into a list and bound to
 ~e~.
 *** elisp							      :drill:
     SCHEDULED: <2020-05-22 Fri>
@@ -2095,17 +2095,17 @@ With the where-is
 feature:
 =f1 w <funcname>=.
 *** input                                                             :drill:
-    SCHEDULED: <2020-05-20 Wed>
+    SCHEDULED: <2020-10-07 Wed>
     :PROPERTIES:
     :ID:       ab0965c5-c385-4ac8-b958-6327b5a28685
-    :DRILL_LAST_INTERVAL: 104.8513
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 139.6619
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.286
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 3.267
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-05 Wed 13:38]
+    :DRILL_LAST_REVIEWED: [2020-05-20 Wed 14:01]
     :END:
 What to use for vector
 norms /‖v‖/?
@@ -16140,17 +16140,17 @@ What are the phase shifts
 They are 
 /K(s)=eⁱˢI/.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-05-20 Wed>
+    SCHEDULED: <2020-11-26 Thu>
     :PROPERTIES:
     :ID:       f28aaefa-14e2-4930-86bf-bca33ec7e6a2
-    :DRILL_LAST_INTERVAL: 94.8628
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 190.3896
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-15 Sat 15:42]
+    :DRILL_LAST_REVIEWED: [2020-05-20 Wed 14:01]
     :END:
 Why is /⋀⁰₁₀X/ the
 regular control not

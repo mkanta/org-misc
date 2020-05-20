@@ -1,3 +1,4 @@
+#+STARTUP: nolatexpreview
 * Mathematics
 ** Algebra
 *** Categories                                                        :drill:
@@ -5799,17 +5800,17 @@ symbols, expressions
 of terms have to be added as
 formulas.
 *** Logic:Predicate                                                   :drill:
-    SCHEDULED: <2020-05-20 Wed>
+    SCHEDULED: <2020-08-26 Wed>
     :PROPERTIES:
     :ID:       3a5abf71-73a5-46f9-8b0c-9bd45ed712ec
-    :DRILL_LAST_INTERVAL: 44.287
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 98.3171
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-06 Mon 13:46]
+    :DRILL_LAST_REVIEWED: [2020-05-20 Wed 14:03]
     :END:
 Where do /terms/ come from
 in predicate logic?
@@ -7839,17 +7840,17 @@ unnormalized Bayesian
 posterior.
 ** Statistics
 *** Classification                                                    :drill:
-    SCHEDULED: <2020-05-20 Wed>
+    SCHEDULED: <2021-01-08 Fri>
     :PROPERTIES:
     :ID:       c734f2cc-3568-43ef-97e5-af56edf22413
-    :DRILL_LAST_INTERVAL: 145.1715
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 232.5647
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:42]
+    :DRILL_LAST_REVIEWED: [2020-05-20 Wed 14:02]
     :END:
 How do linear classifiers
 /gᵢ(*x*)= *wᵢᵗx* + wᵢ₀/ arise?
@@ -8337,17 +8338,17 @@ rewards vs current rewards from
 the reward function /r/.
 Usually, /0<γ<1/.
 *** Learning:Q                                                        :drill:
-    SCHEDULED: <2020-05-20 Wed>
+    SCHEDULED: <2020-10-05 Mon>
     :PROPERTIES:
     :ID:       e25ce32c-316f-4641-8d75-65f7f06ff67b
-    :DRILL_LAST_INTERVAL: 58.0033
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 137.6998
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-23 Mon 19:32]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-05-20 Wed 14:02]
     :END:
 What is an /episode/
 in Q-learning?
