@@ -329,17 +329,17 @@ the coffee was ground
 too finely.
 ** Dough
 *** Bread                                                             :drill:
-    SCHEDULED: <2020-06-18 Thu>
+    SCHEDULED: <2021-04-29 Thu>
     :PROPERTIES:
     :ID:       0a958b06-65bd-4e73-9021-5a1a7af5553c
-    :DRILL_LAST_INTERVAL: 130.6455
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 315.1169
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-08 Sat 15:32]
+    :DRILL_LAST_REVIEWED: [2020-06-18 Thu 14:58]
     :END:
 What's the problem
 if bread caves in while
@@ -391,17 +391,17 @@ That's an indication
 that the starter needs
 to be fed.
 *** Sourdough                                                         :drill:
-    SCHEDULED: <2020-06-19 Fri>
+    SCHEDULED: <2021-04-30 Fri>
     :PROPERTIES:
     :ID:       e61e0f5b-6dee-4e9d-845b-fbca2135b7ca
-    :DRILL_LAST_INTERVAL: 130.6455
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 315.1169
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-09 Sun 15:45]
+    :DRILL_LAST_REVIEWED: [2020-06-19 Fri 14:42]
     :END:
 What should be the
 consistency of sourdough
@@ -1619,17 +1619,17 @@ a function /call/ to the
 right.
 ** emacs
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-06-21 Sun>
+    SCHEDULED: <2020-08-09 Sun>
     :PROPERTIES:
     :ID:       daf8a3f8-bd97-4f16-9eaf-a4d7aca9623b
-    :DRILL_LAST_INTERVAL: 21.4987
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.9525
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-31 Sun 14:40]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:28]
     :END:
 What is the problem
 if ~org-drill~ is not 
@@ -1644,6 +1644,18 @@ should work. The ~nil~ causes
 the default documentation
 string to be used.
 *** dired                                                             :drill:
+    SCHEDULED: <2020-07-11 Sat>
+    :PROPERTIES:
+    :ID:       0febf4ec-4858-4248-8158-df121a6c8844
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:26]
+    :END:
 How to run /xdg-open/ from
 a dired buffer?
 **** Answer:
@@ -1657,17 +1669,17 @@ operation will freeze other buffers
 until the application started by
 /xdg-open/ exits.
 *** dired                                                             :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2020-07-09 Thu>
     :PROPERTIES:
     :ID:       093a2ff2-1b69-46c9-ad43-ccd7ca344a93
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.7693
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-06 Sat 16:04]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-16 Tue 15:16]
     :END:
 Why does running an
 asynchronuous /xdg-open/
@@ -1682,17 +1694,17 @@ to the /xdg-open/ process
 through a pipe rather than
 a pty.
 *** dired                                                             :drill:
-    SCHEDULED: <2020-06-13 Sat>
+    SCHEDULED: <2020-12-05 Sat>
     :PROPERTIES:
     :ID:       96f0638e-83e2-4767-9281-29941dbd7f39
-    :DRILL_LAST_INTERVAL: 134.6442
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 175.0375
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-30 Thu 11:49]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-13 Sat 15:35]
     :END:
 How to copy a file name
 from a dired window to the
@@ -1874,17 +1886,17 @@ command like ~C-f~ after
 the mess-up and then
 do an /undo/.
 *** editing                                                           :drill:
-    SCHEDULED: <2020-06-21 Sun>
+    SCHEDULED: <2021-06-07 Mon>
     :PROPERTIES:
     :ID:       5f259e2f-9730-41ff-9aa0-d9187a505bec
-    :DRILL_LAST_INTERVAL: 145.4436
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 350.81
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-28 Tue 11:49]
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:27]
     :END:
 How does /undo/
 work in emacs?
@@ -1945,17 +1957,17 @@ which will result in the
 default value being used
 for it.
 *** elisp							      :drill:
-    SCHEDULED: <2020-06-10 Wed>
+    SCHEDULED: <2020-07-22 Wed>
     :PROPERTIES:
     :ID:       30ec03c3-defd-4341-bc6c-c9549b511b9f
-    :DRILL_LAST_INTERVAL: 19.512
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.7947
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:40]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:49]
     :END:
 What is the difference
 in using ~elt~ vs ~seq-elt~
@@ -2158,17 +2170,17 @@ PARALLEL TO but is too short
 and too close:
 ∥v∥.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2020-08-07 Fri>
     :PROPERTIES:
     :ID:       57649b5e-9b9a-41c0-88f9-15b14f37a8ba
-    :DRILL_LAST_INTERVAL: 21.4987
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.7369
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-27 Wed 13:03]
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:38]
     :END:
 What is the problem if
 after installing emacs26
@@ -2185,17 +2197,17 @@ Uninstall the previous version
 either before or after installing
 26.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2020-08-07 Fri>
     :PROPERTIES:
     :ID:       58224213-90ca-4bb0-ae0b-77823eef64c3
-    :DRILL_LAST_INTERVAL: 21.4987
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.7369
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-27 Wed 13:04]
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:38]
     :END:
 What is the problem when
 removing ~emacs25~ results
@@ -2208,17 +2220,17 @@ still installed. Remove
 it before removing
 ~emacs25~.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2020-07-31 Fri>
     :PROPERTIES:
     :ID:       3f69744e-9ffb-49dd-951c-20214e3a0375
-    :DRILL_LAST_INTERVAL: 20.7426
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.4306
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-27 Wed 13:03]
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:36]
     :END:
 How to remove emacs
 packages from ubuntu
@@ -2232,17 +2244,17 @@ dependent packages that have
 become obsolete due to the
 previous removals.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-06-22 Mon>
+    SCHEDULED: <2020-08-23 Sun>
     :PROPERTIES:
     :ID:       9be75ce2-605e-4d92-a1da-f7f420af07db
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 62.5
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-28 Thu 12:04]
+    :DRILL_LAST_REVIEWED: [2020-06-22 Mon 15:03]
     :END:
 What to do if emacs
 won't launch after an
@@ -2253,17 +2265,17 @@ is complete and the
 ~emacs-common~ files are
 properly installed.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2020-07-31 Fri>
     :PROPERTIES:
     :ID:       a483a1b0-8691-4dfa-90a0-bb974d1e8206
-    :DRILL_LAST_INTERVAL: 20.7426
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 44.4306
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-27 Wed 13:05]
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:40]
     :END:
 How to recompile bytecode
 for installed packages,
@@ -2341,17 +2353,17 @@ mode just adds some conveniences
 like syntax highlighting, identation,
 access to the help system etc.
 *** maxima and emacs                                                  :drill:
-    SCHEDULED: <2020-06-08 Mon>
+    SCHEDULED: <2021-12-05 Sun>
     :PROPERTIES:
     :ID:       589df8d5-0af8-4526-ac3c-8a026c814a6a
-    :DRILL_LAST_INTERVAL: 340.1929
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 544.989
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-04 Thu 08:42]
+    :DRILL_LAST_REVIEWED: [2020-06-08 Mon 13:52]
     :END:
 How to send maxima output
 to other buffers?
@@ -2436,17 +2448,17 @@ check for viruses after which
 the signature is no longer
 correct.
 *** packages                                                          :drill:
-    SCHEDULED: <2020-06-10 Wed>
+    SCHEDULED: <2021-02-14 Sun>
     :PROPERTIES:
     :ID:       d9f1c184-3fdc-43c7-b2bf-4ce39b69edf7
-    :DRILL_LAST_INTERVAL: 120.2763
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 248.6111
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-11 Tue 13:31]
+    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:50]
     :END:
 What to do about the
 /Failed to verify signature archive-contents.sig/
@@ -2533,17 +2545,17 @@ to the =package-archives=
 list in the configuration
 file for emacs.
 *** packages                                                          :drill:
-    SCHEDULED: <2020-06-09 Tue>
+    SCHEDULED: <2021-07-12 Mon>
     :PROPERTIES:
     :ID:       e4d4e6ba-4f18-4f2e-8f8c-1a4dcb1770f0
-    :DRILL_LAST_INTERVAL: 240.2382
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 398.3149
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-13 Sun 13:06]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.62
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-06-09 Tue 14:32]
     :END:
 What to do if there is
 no =org-drill= command
@@ -2657,17 +2669,17 @@ get an org-file. Alternatively
 convert to /rst/ or /latex/ instead
 of /markdown/ and then to org.
 *** org-mode exports                                                  :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2020-08-09 Sun>
     :PROPERTIES:
     :ID:       1c1fbc30-b7b2-4d75-b074-9e78db6c6430
-    :DRILL_LAST_INTERVAL: 21.4987
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.5213
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-27 Wed 13:04]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:40]
     :END:
 What is the problem if
 latex-pdf export complains
@@ -2708,17 +2720,17 @@ handle regular utf-8
 without requiring an
 extension package.
 *** org-mode exports                                                  :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2021-02-21 Sun>
     :PROPERTIES:
     :ID:       b12a411e-16a8-48f3-849a-fb1de47437ed
-    :DRILL_LAST_INTERVAL: 116.0583
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 248.5969
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-22 Sat 15:37]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:37]
     :END:
 What to do if latex
 export complains about
@@ -2820,17 +2832,17 @@ meant to be used in latex
 files together with
 auctex.
 *** org-mode maxima                                                   :drill:
-    SCHEDULED: <2020-06-11 Thu>
+    SCHEDULED: <2021-02-03 Wed>
     :PROPERTIES:
     :ID:       417ee484-6b57-4316-b65f-fe64c46d642a
-    :DRILL_LAST_INTERVAL: 106.8202
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 237.1408
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-25 Tue 13:51]
+    :DRILL_LAST_REVIEWED: [2020-06-11 Thu 12:01]
     :END:
 How to use maxima in
 org mode?
@@ -2841,17 +2853,17 @@ send expressions to maxima
 and insert the results into
 the file.
 *** org-mode maxima                                                   :drill:
-    SCHEDULED: <2020-06-19 Fri>
+    SCHEDULED: <2021-02-05 Fri>
     :PROPERTIES:
     :ID:       dd3f5059-a9a5-4a30-b024-120d04106166
-    :DRILL_LAST_INTERVAL: 111.9805
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 231.4637
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-28 Fri 13:53]
+    :DRILL_LAST_REVIEWED: [2020-06-19 Fri 14:43]
     :END:
 How to insert the result
 of maxima calculations
@@ -2885,17 +2897,17 @@ into the file, select it and run
 ~C-c = m~ to be prompted for it
 in the minibuffer.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-08-03 Mon>
     :PROPERTIES:
     :ID:       1b32e105-cb04-4e49-9ef3-8e30fac7387c
-    :DRILL_LAST_INTERVAL: 22.2548
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 52.4546
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:42]
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 14:06]
     :END:
 What is the effect of
 a name and a caption for
@@ -2910,17 +2922,17 @@ rather than between ~\begin{equation}~,
 not be displayed, though, and no
 link target will be created.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-06-10 Wed>
+    SCHEDULED: <2020-07-28 Tue>
     :PROPERTIES:
     :ID:       8ce5ca42-f867-42b5-9a3c-4b127c2374d2
-    :DRILL_LAST_INTERVAL: 20.1976
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.4944
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.32
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.42
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:39]
+    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:51]
     :END:
 How to solve the problem with
 the references to tables that
@@ -2937,17 +2949,17 @@ name and the label name are the
 same, the org references should
 work as expected.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-08-05 Wed>
     :PROPERTIES:
     :ID:       5a737dc6-eba7-468a-afef-cb9034bcb4f2
-    :DRILL_LAST_INTERVAL: 22.2548
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.3685
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:36]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 14:05]
     :END:
 What's the problem with adding a
 label to a table with the latex
@@ -2958,17 +2970,17 @@ org-mode links to the name of the
 table won't work, it has to be a
 latex ~\ref{...}~ reference.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-06-10 Wed>
+    SCHEDULED: <2020-07-28 Tue>
     :PROPERTIES:
     :ID:       1da0b22b-bec1-4453-878e-4682202263c6
-    :DRILL_LAST_INTERVAL: 20.1976
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.4944
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.32
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.42
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:40]
+    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:52]
     :END:
 When does a table put
 into a math environment
@@ -2982,17 +2994,17 @@ This is because a full equation
 environment is needed for the label
 to become active.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-08-05 Wed>
     :PROPERTIES:
     :ID:       19c4d0d6-8816-4505-b0fc-1ce01d2c0aa9
-    :DRILL_LAST_INTERVAL: 22.2548
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.3685
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:43]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 13:59]
     :END:
 How to set up an org
 table so that it becomes
@@ -3009,17 +3021,17 @@ needs a caption and a name,
 even though neither is
 displayed.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-06-11 Thu>
+    SCHEDULED: <2020-08-01 Sat>
     :PROPERTIES:
     :ID:       d9dbf2a5-6be8-4237-a19d-5738a0ea2bc6
-    :DRILL_LAST_INTERVAL: 21.4987
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.7369
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:38]
+    :DRILL_LAST_REVIEWED: [2020-06-11 Thu 11:58]
     :END:
 What happens to a table if
 it is referenced with ~:var~
@@ -3032,17 +3044,17 @@ in turn, a list of strings
 representing the row
 entries.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-06-10 Wed>
+    SCHEDULED: <2020-07-23 Thu>
     :PROPERTIES:
     :ID:       42cd1c83-9e72-4f78-9331-9baf70ed308b
-    :DRILL_LAST_INTERVAL: 19.512
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 43.3166
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:37]
+    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:53]
     :END:
 How to access table elements
 from emacs-lisp source blocks
@@ -3055,17 +3067,17 @@ which would return the list
 representing the /n/-th row. Note 
 that indices are zero based.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2020-08-20 Thu>
     :PROPERTIES:
     :ID:       3b00a4ae-8f41-46f6-9054-9d515a62f389
-    :DRILL_LAST_INTERVAL: 25.0
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 64.7
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-22 Fri 14:47]
+    :DRILL_AVERAGE_QUALITY: 4.25
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-06-16 Tue 15:17]
     :END:
 What is the difference
 between naming tables with
@@ -3567,17 +3579,17 @@ base is reached, its management by
 imperative means may become
 prohibitive.
 *** Imperative                                                        :drill:
-    SCHEDULED: <2020-06-08 Mon>
+    SCHEDULED: <2021-07-04 Sun>
     :PROPERTIES:
     :ID:       4273a098-a138-4f3e-9745-36106ac723f0
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 390.625
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-04 Sat 14:14]
+    :DRILL_LAST_REVIEWED: [2020-06-08 Mon 13:51]
     :END:
 Why could imperative programming
 be called imperial instead?
@@ -3588,17 +3600,17 @@ detail about resource acquisition
 is planned out instead of letting
 the market provide it.
 *** Imperative                                                        :drill:
-    SCHEDULED: <2020-06-08 Mon>
+    SCHEDULED: <2021-07-04 Sun>
     :PROPERTIES:
     :ID:       ced7128e-5cb1-48c2-aa57-ab056b52e1eb
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 390.625
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-04 Sat 14:15]
+    :DRILL_LAST_REVIEWED: [2020-06-08 Mon 13:52]
     :END:
 How is imperative programming
 related to management style?
@@ -3973,17 +3985,17 @@ and getting attributes
 only work with enabled
 /OverloadedLabels/.
 *** Graphical UI                                                      :drill:
-    SCHEDULED: <2020-06-22 Mon>
+    SCHEDULED: <2022-10-17 Mon>
     :PROPERTIES:
     :ID:       abfed53e-a90c-4b08-afc9-032495b543c9
-    :DRILL_LAST_INTERVAL: 371.7951
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 846.5774
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:23]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-22 Mon 15:04]
     :END:
 What is the /OverloadedLabels/
 in /haskell-gi/ all about?
@@ -4124,17 +4136,17 @@ Yes, in the first case names from
 =name= and =MN.name=, in the second case
 only =MN.name= would be in scope.
 *** Iterations                                                        :drill:
-    SCHEDULED: <2020-06-11 Thu>
+    SCHEDULED: <2021-05-20 Thu>
     :PROPERTIES:
     :ID:       2c8ca2bc-0e44-4f4b-9b82-b03dd266e89e
-    :DRILL_LAST_INTERVAL: 150.75
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 343.2578
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-12 Sun 15:02]
+    :DRILL_LAST_REVIEWED: [2020-06-11 Thu 11:59]
     :END:
 Why are there two
 folds?
@@ -4681,17 +4693,17 @@ By combining parsers
 with ~many~ or ~some~ from
 typeclass ~Applicative~.
 *** Option Parsing                                                    :drill:
-    SCHEDULED: <2020-06-18 Thu>
+    SCHEDULED: <2020-10-02 Fri>
     :PROPERTIES:
     :ID:       b1ae3e7d-166d-4569-99ba-9f1f59151783
-    :DRILL_LAST_INTERVAL: 95.0494
-    :DRILL_REPEATS_SINCE_FAIL: 16
-    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_LAST_INTERVAL: 106.3603
+    :DRILL_REPEATS_SINCE_FAIL: 17
+    :DRILL_TOTAL_REPEATS: 22
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.905
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.909
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 13:58]
+    :DRILL_LAST_REVIEWED: [2020-06-18 Thu 14:59]
     :END:
 How to set up Options.Applicative
 to parse a multiple use of a string 
@@ -4842,17 +4854,17 @@ because the compiler can not
 infer the sql backend type
 without a migration.
 *** Persistent Database                                               :drill:
-    SCHEDULED: <2020-06-18 Thu>
+    SCHEDULED: <2020-09-11 Fri>
     :PROPERTIES:
     :ID:       24ce2105-3e0a-4d09-9eab-4fb1a8483583
-    :DRILL_LAST_INTERVAL: 75.585
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 84.5796
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.112
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.106
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-03 Fri 13:55]
+    :DRILL_LAST_REVIEWED: [2020-06-18 Thu 14:58]
     :END:
 How to do a /LIKE/
 query with 
@@ -5037,17 +5049,17 @@ existing compiler will be used,
 rather than installed by
 ~stack build~.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-06-22 Mon>
+    SCHEDULED: <2022-11-16 Wed>
     :PROPERTIES:
     :ID:       9e4793a7-2806-4128-aac9-54cf167f6794
-    :DRILL_LAST_INTERVAL: 371.7951
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 877.4364
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_AVERAGE_QUALITY: 3.857
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:18]
+    :DRILL_LAST_REVIEWED: [2020-06-22 Mon 15:02]
     :END:
 What to do if
 ~stack new <projname>~
@@ -5247,17 +5259,17 @@ anyway. Use
 just generate local 
 documentation of dependencies.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-06-21 Sun>
+    SCHEDULED: <2020-07-07 Tue>
     :PROPERTIES:
     :ID:       4f99d1ae-8a15-4be1-908b-c57fcd3f588f
-    :DRILL_LAST_INTERVAL: 14.4952
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 16.2201
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-07 Sun 15:51]
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:30]
     :END:
 How to generate searchable
 documentation for a project?
@@ -5570,17 +5582,17 @@ a =newtype= around =(r -> a)=,
 even though it is nowadays defined as the
 identity version of =ReaderT=.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-06-13 Sat>
+    SCHEDULED: <2021-06-19 Sat>
     :PROPERTIES:
     :ID:       fd6f0979-7aaa-4f1a-9d13-19e908461cc5
-    :DRILL_LAST_INTERVAL: 240.2382
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 371.4083
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 14:54]
+    :DRILL_LAST_REVIEWED: [2020-06-13 Sat 15:34]
     :END:
 Why is =fmap . fmap= the same as
 =fmap fmap fmap=?
@@ -5663,17 +5675,17 @@ It means that the function
 requires a proof that =s= is
 /Knockable/ and a /Door/.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-06-10 Wed>
+    SCHEDULED: <2021-06-30 Wed>
     :PROPERTIES:
     :ID:       7e581857-0446-4108-b094-a32242863369
-    :DRILL_LAST_INTERVAL: 240.2382
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 384.8616
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.125
     :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-14 Mon 13:44]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:51]
     :END:
 Why are existential data-types
 with singleton types =Sing s=
@@ -6206,20 +6218,20 @@ It is used like a
 variable that stores 
 a type.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2020-06-14 Sun>
+    SCHEDULED: <2021-06-20 Sun>
     :PROPERTIES:
     :ID:       03d23de7-95f5-44fa-86b3-5bbbd8fd8ab9
-    :DRILL_LAST_INTERVAL: 240.2382
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 371.4083
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-18 Fri 14:42]
+    :DRILL_LAST_REVIEWED: [2020-06-14 Sun 14:43]
     :END:
 What is the point of =Nat=
-in GHC.TyeLits if it is not
+in GHC.TypeLits if it is not
 recursively defined?
 **** Answer:
 It is meant to be used more
@@ -6315,17 +6327,17 @@ functions can be applied to it
 continuation style that don't
 let the existential type escape.
 *** Type arithmetic with TypeLits                                     :drill:
-    SCHEDULED: <2020-06-23 Tue>
+    SCHEDULED: <2020-10-06 Tue>
     :PROPERTIES:
     :ID:       9d9eaf69-5c02-4676-95bf-474eec8ba33e
-    :DRILL_LAST_INTERVAL: 97.6636
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 105.4767
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.067
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.063
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-17 Tue 14:13]
+    :DRILL_LAST_REVIEWED: [2020-06-23 Tue 15:27]
     :END:
 How to reify a natural
 number to a type-level =Nat=?
@@ -6340,17 +6352,17 @@ type =m= (using extension
 =TypeApplications= for the =@m=
 syntax). 
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2021-07-16 Fri>
     :PROPERTIES:
     :ID:       48279d09-8b9d-4c24-8c28-945529b2fc2b
-    :DRILL_LAST_INTERVAL: 246.3221
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 394.608
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-14 Mon 13:44]
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-16 Tue 15:18]
     :END:
 What is reflection?
 **** Answer:
@@ -6791,17 +6803,17 @@ applications for the next rank of
 variables then follow these values
 followed by their own values etc.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2020-06-13 Sat>
+    SCHEDULED: <2022-07-30 Sat>
     :PROPERTIES:
     :ID:       10fe8bfe-8316-4d6c-bd47-653e9e3012d7
-    :DRILL_LAST_INTERVAL: 362.6488
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 776.7937
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-06-16 Sun 11:13]
+    :DRILL_LAST_REVIEWED: [2020-06-13 Sat 15:34]
     :END:
 Is it possible to evaluate
 ~Λ~ expressions explicitly in
@@ -8255,17 +8267,17 @@ the other hand, ~runAff~ takes
 a callback to be run after the
 fiber completes.
 *** Browser                                                           :drill:
-    SCHEDULED: <2020-06-15 Mon>
+    SCHEDULED: <2021-10-11 Mon>
     :PROPERTIES:
     :ID:       2cb649c0-e947-4d1f-995e-a80b123fff86
-    :DRILL_LAST_INTERVAL: 225.4734
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 482.964
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:56]
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-15 Mon 14:22]
     :END:
 How to determine where
 to put the /script/ tags
@@ -8846,17 +8858,17 @@ source code, for example
 Halogen.Aff.Util.purs is a
 good starting point.
 *** Halogen                                                           :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2021-05-28 Fri>
     :PROPERTIES:
     :ID:       e2bbe6f6-27c3-49c3-b7d9-8fdc7d9f0a37
-    :DRILL_LAST_INTERVAL: 193.9802
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 350.3282
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-01 Sun 17:11]
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 13:57]
     :END:
 How to download browser
 generated data to the
@@ -10464,17 +10476,17 @@ The problem of variance appears only
 through the introduction of mutable
 data, especially containers.
 *** Haskell Dictionary                                                :drill:
-    SCHEDULED: <2020-06-10 Wed>
+    SCHEDULED: <2021-08-06 Fri>
     :PROPERTIES:
     :ID:       fa12def4-7f73-46a9-8e6d-bd54909827ee
-    :DRILL_LAST_INTERVAL: 168.5292
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 422.1656
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.2
+    :DRILL_AVERAGE_QUALITY: 4.167
     :DRILL_EASE: 2.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-24 Tue 16:15]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:54]
     :END:
 How to define a datatype
 as an instance of a typeclass
@@ -11449,17 +11461,17 @@ pops up. After writing it,
 hit ~C-c C-c~ and the file will
 be added and committed.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2020-06-09 Tue>
+    SCHEDULED: <2021-10-22 Fri>
     :PROPERTIES:
     :ID:       36c88335-a1d2-489e-8d8a-6e88e9194063
-    :DRILL_LAST_INTERVAL: 241.6896
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 499.5724
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-11 Fri 13:21]
+    :DRILL_LAST_REVIEWED: [2020-06-09 Tue 14:35]
     :END:
 What to do after forgetting
 to switch from the master
@@ -11695,17 +11707,17 @@ Run the merge with the
 add the local changes and
 commit the whole thing.
 *** git merge                                                         :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2020-09-28 Mon>
     :PROPERTIES:
     :ID:       8cbdf1ab-3e61-4e10-8fef-ec7ffd0197eb
-    :DRILL_LAST_INTERVAL: 46.2356
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 104.3075
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.18
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-01 Fri 15:04]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.28
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-06-16 Tue 15:16]
     :END:
 How to make git forget
 a merge commit?
@@ -11717,17 +11729,17 @@ look like local changes.
 (Perhaps the rebase thing
 would be better here, though)
 *** git merge                                                         :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2020-09-28 Mon>
     :PROPERTIES:
     :ID:       2c5f430a-121b-4896-b59a-9473e2406326
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 102.9278
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-02 Sat 14:46]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:40]
     :END:
 What to do if there
 may be upstream changes
@@ -11961,17 +11973,17 @@ then everything can be staged
 together with ~git add~ and
 committed once done.
 *** git                                                               :drill:
-    SCHEDULED: <2020-06-21 Sun>
+    SCHEDULED: <2020-09-25 Fri>
     :PROPERTIES:
     :ID:       8410d5a1-74a9-470c-bfaf-b4958a77c111
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 95.9638
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-06 Wed 14:09]
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:31]
     :END:
 How do conflicts with
 ~git stash pop~ arise?
@@ -12108,17 +12120,17 @@ while doing something
 else, most notably
 a ~git pull~
 *** git                                                               :drill:
-    SCHEDULED: <2020-06-20 Sat>
+    SCHEDULED: <2020-09-24 Thu>
     :PROPERTIES:
     :ID:       5d89b9d2-5a65-4d79-a4a2-60e298427cf5
-    :DRILL_LAST_INTERVAL: 46.4266
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 95.9638
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-05 Tue 13:25]
+    :DRILL_LAST_REVIEWED: [2020-06-20 Sat 16:05]
     :END:
 How to resolve ~git stash pop~
 conflicts?
@@ -12933,17 +12945,17 @@ contract in the future is
 said to hold the long position
 of the contract.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2020-06-15 Mon>
+    SCHEDULED: <2020-11-19 Thu>
     :PROPERTIES:
     :ID:       938da5ae-787d-4b8c-96e7-806c1822e580
-    :DRILL_LAST_INTERVAL: 97.9623
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 156.9356
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.182
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:10]
+    :DRILL_LAST_REVIEWED: [2020-06-15 Mon 14:21]
     :END:
 How to speculate with
 a long futures position?
@@ -12960,17 +12972,17 @@ buy the underlying and sell
 it immediately at market
 price.
 *** Contracts                                                         :drill:
-    SCHEDULED: <2020-06-21 Sun>
+    SCHEDULED: <2021-07-03 Sat>
     :PROPERTIES:
     :ID:       40c4f3b5-7721-46be-a5b4-e82f4ab0f0fd
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 376.875
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-17 Fri 13:24]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:29]
     :END:
 What is the difference
 between a forward and
@@ -13108,17 +13120,17 @@ futures contracts. It serves
 as a security against contract
 defaults.
 *** Trading                                                           :drill:
-    SCHEDULED: <2020-06-21 Sun>
+    SCHEDULED: <2021-07-03 Sat>
     :PROPERTIES:
     :ID:       c7d8f6b9-fb35-400e-8782-b5bccb2a52ef
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 376.875
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-17 Fri 13:18]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:28]
     :END:
 What is the maintenance
 margin?
@@ -13129,17 +13141,17 @@ margin account to maintain
 his positions given their
 futures prices.
 *** Trading                                                           :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2021-06-15 Tue>
     :PROPERTIES:
     :ID:       e2601572-7f3b-4dc4-8dc5-afdf9f84e56e
-    :DRILL_LAST_INTERVAL: 150.75
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 363.609
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-17 Fri 13:13]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-16 Tue 15:19]
     :END:
 What is a margin call?
 **** Answer:
@@ -13154,17 +13166,17 @@ so that the amount in his
 margin account falls below
 the maintenance margin.
 *** Trading                                                           :drill:
-    SCHEDULED: <2020-06-09 Tue>
+    SCHEDULED: <2021-05-06 Thu>
     :PROPERTIES:
     :ID:       13eedfd2-db01-407a-9369-d16a38fd4042
-    :DRILL_LAST_INTERVAL: 145.4436
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 331.1751
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-16 Thu 15:01]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-09 Tue 14:29]
     :END:
 What is meant by
 /Marking to Market/?
@@ -13561,17 +13573,17 @@ microbiological spectrum
 beneficial for plant life,
 ie the Green Lion.
 *** symbolism                                                         :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-07-01 Wed>
     :PROPERTIES:
     :ID:       61eed2e4-bfbe-4d08-81ba-e405047c9628
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-03 Wed 14:40]
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 13:55]
     :END:
 What is the astrological
 interpretation of the
@@ -13584,17 +13596,17 @@ mars in a malefic aspect,
 most likely saturn
 square mars.
 *** symbolism                                                         :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-07-03 Fri>
     :PROPERTIES:
     :ID:       afad67ad-e561-4158-a9f7-01eae98b1176
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.1996
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-03 Wed 14:41]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 13:54]
     :END:
 What is the astrological
 interpretation of the
@@ -13606,17 +13618,17 @@ Saturn who acts as a
 restraining agent, just
 like a vessel.
 *** symbolism                                                         :drill:
-    SCHEDULED: <2020-06-08 Mon>
+    SCHEDULED: <2020-07-20 Mon>
     :PROPERTIES:
     :ID:       e1bb1c7b-ee70-4d55-b331-25142d85fb23
-    :DRILL_LAST_INTERVAL: 19.512
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.7947
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-19 Tue 13:33]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-08 Mon 13:53]
     :END:
 What is the story of
 the philosopher's son
@@ -13695,17 +13707,17 @@ seed, if you have it,
 you will be given more.
 Also compare to the /Tao/.
 *** trinity                                                           :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-10-02 Fri>
     :PROPERTIES:
     :ID:       5ef1c52b-ffaf-4114-a87e-22bebdff8ffc
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 111.9805
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:35]
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 13:55]
     :END:
 What is the role of
 the soul in the trinity
@@ -13716,17 +13728,17 @@ body and spirit together,
 without it they would
 blow apart as opposites.
 *** trinity                                                           :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-10-02 Fri>
     :PROPERTIES:
     :ID:       1bff97e9-1e0c-4704-a9f4-47022655752b
-    :DRILL_LAST_INTERVAL: 52.2785
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 111.9805
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-21 Tue 13:37]
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 13:56]
     :END:
 Whence the sexual imagery
 in Alchemy?
@@ -13867,17 +13879,17 @@ the microtubuli and that
 they interact with the 
 neurons.
 *** Ego                                                               :drill:
-    SCHEDULED: <2020-06-15 Mon>
+    SCHEDULED: <2020-11-13 Fri>
     :PROPERTIES:
     :ID:       e0c02403-a5f6-4dba-b1ee-66f1c1c6149d
-    :DRILL_LAST_INTERVAL: 62.5
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 150.75
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-14 Tue 13:50]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-15 Mon 14:20]
     :END:
 Why does the mind
 spend the energy to
@@ -13891,17 +13903,17 @@ without one would be deselected.
 (Maybe still there in some
 recessive Jesus-gene!Story)
 *** Language and Reality                                              :drill:
-    SCHEDULED: <2020-06-18 Thu>
+    SCHEDULED: <2021-06-24 Thu>
     :PROPERTIES:
     :ID:       9593e137-26bf-4fa5-9659-216756405a0d
-    :DRILL_LAST_INTERVAL: 240.2382
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 371.4083
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-22 Tue 12:55]
+    :DRILL_LAST_REVIEWED: [2020-06-18 Thu 14:58]
     :END:
 What happens after language
 and worries stop?
@@ -14047,17 +14059,17 @@ that can be named is not the
 eternal Tao.
 ** Mythology
 *** Actors                                                            :drill:
-    SCHEDULED: <2020-06-13 Sat>
+    SCHEDULED: <2021-07-27 Tue>
     :PROPERTIES:
     :ID:       29fa81e3-7ccf-49d2-b025-7fb274cc7b1f
-    :DRILL_LAST_INTERVAL: 218.5005
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 409.0329
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-07 Thu 14:06]
+    :DRILL_LAST_REVIEWED: [2020-06-13 Sat 15:33]
     :END:
 What are the /aeons/ in
 gnostic scripture?
@@ -14287,17 +14299,17 @@ Eleusian mysteries to
 induce states of trance.
 ** Naq Hammadi
 *** Adam & Eve                                                        :drill:
-    SCHEDULED: <2020-06-08 Mon>
+    SCHEDULED: <2021-06-14 Mon>
     :PROPERTIES:
     :ID:       a09c24da-6487-4c2c-935e-5f622f69fe3d
-    :DRILL_LAST_INTERVAL: 240.2382
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 371.4083
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:49]
+    :DRILL_LAST_REVIEWED: [2020-06-08 Mon 13:49]
     :END:
 In which sense did the
 expulsion from paradise
@@ -14609,17 +14621,17 @@ situation is not made
 conscious, it happens
 outside as fate.
 *** Reality and Mind                                                  :drill:
-    SCHEDULED: <2020-06-09 Tue>
+    SCHEDULED: <2020-07-20 Mon>
     :PROPERTIES:
     :ID:       ddcb789a-c345-46a1-a034-b5dbd4d84660
-    :DRILL_LAST_INTERVAL: 19.0315
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 40.7655
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:44]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-09 Tue 14:27]
     :END:
 How can Mathematics be
 viewed as a model for
@@ -14730,17 +14742,17 @@ or
 http://snowball.tartarus.org/
 ** Chinese
 *** Characters                                                        :drill:
-    SCHEDULED: <2020-06-21 Sun>
+    SCHEDULED: <2020-09-05 Sat>
     :PROPERTIES:
     :ID:       8248419e-ec16-408b-a1a6-e700b5b16d48
-    :DRILL_LAST_INTERVAL: 60.3347
-    :DRILL_REPEATS_SINCE_FAIL: 19
-    :DRILL_TOTAL_REPEATS: 57
+    :DRILL_LAST_INTERVAL: 75.6597
+    :DRILL_REPEATS_SINCE_FAIL: 20
+    :DRILL_TOTAL_REPEATS: 58
     :DRILL_FAILURE_COUNT: 9
-    :DRILL_AVERAGE_QUALITY: 2.947
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 2.948
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-22 Wed 14:51]
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:29]
     :END:
 的
 **** Answer:
@@ -14907,17 +14919,17 @@ This way, every note can be
 played without resolution
 to a chord-tone.
 *** Pentatonic                                                        :drill:
-    SCHEDULED: <2020-06-13 Sat>
+    SCHEDULED: <2020-07-04 Sat>
     :PROPERTIES:
     :ID:       a5536e65-6659-42a2-90db-0cebe770f9e2
-    :DRILL_LAST_INTERVAL: 16.3836
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 21.2987
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.251
+    :DRILL_AVERAGE_QUALITY: 3.281
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-28 Thu 12:07]
+    :DRILL_LAST_REVIEWED: [2020-06-13 Sat 15:32]
     :END:
 What is the interval structure
 of a pentatonic major scale?
@@ -15809,17 +15821,17 @@ linearly scanning language
 input.
 ** Relativity
 *** Coordinates                                                       :drill:
-    SCHEDULED: <2020-06-11 Thu>
+    SCHEDULED: <2020-09-04 Fri>
     :PROPERTIES:
     :ID:       1247a654-960a-4fca-923f-571937698457
-    :DRILL_LAST_INTERVAL: 41.2296
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 85.2216
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-01 Fri 15:09]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-11 Thu 12:01]
     :END:
 Why are the time and
 space axes symmetric
@@ -15886,17 +15898,17 @@ time-like events cannot occur
 at the same time, ie they are
 separated by time.
 *** Time                                                              :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-07-31 Fri>
     :PROPERTIES:
     :ID:       ba6a8add-ca82-43e0-b8d2-c68df684a613
-    :DRILL_LAST_INTERVAL: 21.7325
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 49.4849
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-21 Thu 13:41]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 13:58]
     :END:
 In which sense does
 acceleration provide a
@@ -15955,17 +15967,17 @@ For it to slow time, there
 would have to be some
 universal reference.
 *** Time                                                              :drill:
-    SCHEDULED: <2020-06-14 Sun>
+    SCHEDULED: <2020-09-14 Mon>
     :PROPERTIES:
     :ID:       460d6ca6-fc10-499d-9eb8-986072f1fc85
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 91.5298
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-02 Sat 14:47]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-14 Sun 14:41]
     :END:
 Why is it wrong to
 say that (uniform) movement 
@@ -16013,17 +16025,17 @@ percentage in radioactive
 decay or a clock count.
 ** Quantum Computing
 *** Communication                                                     :drill:
-    SCHEDULED: <2020-06-19 Fri>
+    SCHEDULED: <2021-03-04 Thu>
     :PROPERTIES:
     :ID:       9ef93b4a-988f-4a35-8372-84ced60b7533
-    :DRILL_LAST_INTERVAL: 120.2683
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 257.6147
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-20 Thu 14:21]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-19 Fri 14:41]
     :END:
 What is the idea of
 (super) dense coding?
@@ -16069,17 +16081,17 @@ ie only one qbit needs to be
 sent to select between 4
 states on the receiving end.
 *** Communication                                                     :drill:
-    SCHEDULED: <2020-06-20 Sat>
+    SCHEDULED: <2021-02-24 Wed>
     :PROPERTIES:
     :ID:       bd90cc9c-7304-4880-928f-631b825c8221
-    :DRILL_LAST_INTERVAL: 120.2763
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 248.6111
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-21 Fri 13:40]
+    :DRILL_LAST_REVIEWED: [2020-06-20 Sat 16:05]
     :END:
 What are the security
 implications of (super)
@@ -16164,17 +16176,17 @@ can be written as
 /-exp(iφ₁₀)sin(β)|1⟩⟨0|/
 /+exp(iφ₁₁)cos(β)|1⟩⟨1|/
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2021-02-02 Tue>
     :PROPERTIES:
     :ID:       fde867ea-12d7-4c76-b54d-d88135ed085a
-    :DRILL_LAST_INTERVAL: 111.9805
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 231.4637
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-25 Tue 13:51]
+    :DRILL_LAST_REVIEWED: [2020-06-16 Tue 15:18]
     :END:
 Why the particular interest
 in phase shifts and phase
@@ -16205,17 +16217,17 @@ What are the phase rotations
 They are
 /T(r)=eⁱʳ|0⟩⟨0|+e⁻ⁱʳ|1⟩⟨1|/.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2021-02-02 Tue>
     :PROPERTIES:
     :ID:       fb59baa5-c880-4481-8a86-6e3130857384
-    :DRILL_LAST_INTERVAL: 111.9805
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 231.4637
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-25 Tue 13:54]
+    :DRILL_LAST_REVIEWED: [2020-06-16 Tue 15:18]
     :END:
 What are the phase shifts
 /K(s)/?
@@ -16310,17 +16322,17 @@ The transformation
 where ~X~ is classical
 negation.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-06-09 Tue>
+    SCHEDULED: <2021-02-13 Sat>
     :PROPERTIES:
     :ID:       a6164c29-df5a-4b09-87fa-02503b18d8dd
-    :DRILL_LAST_INTERVAL: 116.0583
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 248.5969
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:20]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-09 Tue 14:26]
     :END:
 What is the Pauli transformation
 ~X~?
@@ -16348,17 +16360,17 @@ negation with a sign
 change,
 ~Y=-|1⟩⟨0|+|0⟩⟨1|~.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-06-19 Fri>
+    SCHEDULED: <2021-02-23 Tue>
     :PROPERTIES:
     :ID:       32fa454b-bca7-451e-98d7-410fd8195ff2
-    :DRILL_LAST_INTERVAL: 120.2763
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 248.6111
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-20 Thu 14:27]
+    :DRILL_LAST_REVIEWED: [2020-06-19 Fri 14:42]
     :END:
 What is Pauli transformation
 ~Z~?
@@ -16581,17 +16593,17 @@ same degenerate energy
 level are called hyperfine
 qbits.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2020-06-28 Sun>
     :PROPERTIES:
     :ID:       1c8e1ca5-391d-439b-ae1b-5c6d729730a5
-    :DRILL_LAST_INTERVAL: 126.0957
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 7.747
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.249
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-11 Tue 13:34]
+    :DRILL_LAST_REVIEWED: [2020-06-20 Sat 16:04]
     :END:
 How to measure equality
 of bits in a two qbit
@@ -16834,17 +16846,17 @@ as /∫dq |q⟩⟨q|/. Then
 with /φ(x)=⟨x|q⟩/, so
 /φ*(x)=⟨q|x⟩/.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2020-06-20 Sat>
+    SCHEDULED: <2020-09-09 Wed>
     :PROPERTIES:
     :ID:       e6b06345-f05c-48cf-b681-f05dd6dbd83e
-    :DRILL_LAST_INTERVAL: 75.11
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 81.1188
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-06 Mon 13:42]
+    :DRILL_LAST_REVIEWED: [2020-06-20 Sat 16:06]
     :END:
 Why is normal ordering
 of creation and annihilation
@@ -17014,17 +17026,17 @@ to the receiver's part of the
 system to recover the quantum
 state of the sender.
 *** Entanglement                                                      :drill:
-    SCHEDULED: <2020-06-09 Tue>
+    SCHEDULED: <2021-10-23 Sat>
     :PROPERTIES:
     :ID:       6a2e4264-cf30-4f97-a2e7-46146f48faf7
-    :DRILL_LAST_INTERVAL: 225.4734
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 500.5509
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.715
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-28 Mon 19:42]
+    :DRILL_LAST_REVIEWED: [2020-06-09 Tue 14:32]
     :END:
 Why is the example of
 the glove pair sent to
@@ -17413,17 +17425,17 @@ What does the coherent state
 /|α⟩=exp(-|α|²/2)exp(αa⁺)|0⟩/ where
 /a⁺/ is a creation operator.
 *** Fields                                                            :drill:
-    SCHEDULED: <2020-06-16 Tue>
+    SCHEDULED: <2020-11-17 Tue>
     :PROPERTIES:
     :ID:       ea7e9015-840f-467a-b380-cbeb470b93c9
-    :DRILL_LAST_INTERVAL: 142.2516
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 153.6317
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.067
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.063
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-26 Sun 15:29]
+    :DRILL_LAST_REVIEWED: [2020-06-16 Tue 15:17]
     :END:
 What does the parameter /α/ in
 coherent state /|α⟩/ describe?
@@ -17687,17 +17699,17 @@ Subspaces that are invariant under the
 representation of the Lorentz group on the 
 Hilbert space.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2020-06-08 Mon>
+    SCHEDULED: <2020-08-23 Sun>
     :PROPERTIES:
     :ID:       fba25cb9-6fc1-40bb-a9ef-12d581e5e229
-    :DRILL_LAST_INTERVAL: 60.5068
-    :DRILL_REPEATS_SINCE_FAIL: 16
-    :DRILL_TOTAL_REPEATS: 31
+    :DRILL_LAST_INTERVAL: 75.8755
+    :DRILL_REPEATS_SINCE_FAIL: 17
+    :DRILL_TOTAL_REPEATS: 32
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.387
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-08 Wed 13:34]
+    :DRILL_AVERAGE_QUALITY: 3.375
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-08 Mon 13:50]
     :END:
 How is a representation of the Lorentz
 group induced on a Hilbert space?
@@ -18035,17 +18047,17 @@ actually self-interference
 of a two photon state.
 See the /Grangier Experiment/.
 *** Interference                                                      :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-10-03 Sat>
     :PROPERTIES:
     :ID:       44b1e429-5d16-43b4-bd8a-46844ccfcae4
-    :DRILL_LAST_INTERVAL: 101.2205
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 113.2657
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.071
+    :DRILL_AVERAGE_QUALITY: 3.133
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-03 Tue 13:51]
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 14:07]
     :END:
 How long is a photon
 wave-packet?
@@ -18245,17 +18257,17 @@ complementary observables by
 measuring them separately
 on the clones.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-06-14 Sun>
+    SCHEDULED: <2020-07-12 Sun>
     :PROPERTIES:
     :ID:       28154337-e2e4-4c22-8d5e-88938999271f
-    :DRILL_LAST_INTERVAL: 14.5275
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 28.1834
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-30 Sat 15:04]
+    :DRILL_LAST_REVIEWED: [2020-06-14 Sun 14:37]
     :END:
 What is a common
 misconception when
@@ -18468,17 +18480,17 @@ overcomplete, in that case,
 distribution. The only guarantee
 is /tr(ρ)=∫dx f(x)=1/.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-06-15 Mon>
+    SCHEDULED: <2022-10-31 Mon>
     :PROPERTIES:
     :ID:       a41161ff-6859-4ae0-8e14-8691bfd55b31
-    :DRILL_LAST_INTERVAL: 381.0938
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 867.7506
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-05-31 Fri 10:30]
+    :DRILL_LAST_REVIEWED: [2020-06-15 Mon 14:23]
     :END:
 In which sense is
 measurement a special
@@ -18516,17 +18528,17 @@ projected back into another
 tangent space resulting in
 a collapse of the ambiguity.
 *** Operators: Bounded                                                :drill:
-    SCHEDULED: <2020-06-09 Tue>
+    SCHEDULED: <2020-11-21 Sat>
     :PROPERTIES:
     :ID:       12f0270f-a59a-409c-a486-a1683be390d9
-    :DRILL_LAST_INTERVAL: 88.325
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 165.3444
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:22]
+    :DRILL_LAST_REVIEWED: [2020-06-09 Tue 14:36]
     :END:
 In which sense can a
 bounded operator /A/
@@ -18752,17 +18764,17 @@ space /V/ with orthogonal
 basis /{vᵢ}/ it is
 /∑ᵢ|vᵢ⟩⟨vᵢ|/.
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-06-09 Tue>
+    SCHEDULED: <2020-07-01 Wed>
     :PROPERTIES:
     :ID:       a5fec000-0a89-43f8-ab5f-3a6bc1a65bdc
-    :DRILL_LAST_INTERVAL: 88.325
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-13 Fri 15:17]
+    :DRILL_LAST_INTERVAL: 11.13
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-20 Sat 16:05]
     :END:
 What is the spectral resolution
 of bounded hermitian operators
@@ -18810,17 +18822,17 @@ of unit vectors with
 (Some sort of infinitesimal
 vectors!)
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-06-21 Sun>
+    SCHEDULED: <2020-06-25 Thu>
     :PROPERTIES:
     :ID:       83cc04bd-3b8f-407a-8d7e-77fa253ceb13
-    :DRILL_LAST_INTERVAL: 95.9638
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-17 Tue 14:15]
+    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:32]
     :END:
 Why are spectral measures 
 /M:B→P(H)/ from the Borel sets
@@ -18930,17 +18942,17 @@ Since *S* is a vector of spin
 matrices, *U(φ)* is a matrix
 of operators.
 *** Operators: Spin                                                   :drill:
-    SCHEDULED: <2020-06-11 Thu>
+    SCHEDULED: <2021-04-26 Mon>
     :PROPERTIES:
     :ID:       81c89a5f-aa9d-4b11-a709-a232be9bd1ef
-    :DRILL_LAST_INTERVAL: 176.5629
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 318.8726
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-17 Tue 14:33]
+    :DRILL_LAST_REVIEWED: [2020-06-11 Thu 11:59]
     :END:
 How does spin arise in
 a vector particle?
@@ -18961,17 +18973,17 @@ the vector rotation. This
 component is called the /spin/
 of the particle.
 *** Operators                                                         :drill:
-    SCHEDULED: <2020-06-13 Sat>
+    SCHEDULED: <2020-12-10 Thu>
     :PROPERTIES:
     :ID:       f1b0e4d8-10d5-4e03-8f4d-8702509d3b3b
-    :DRILL_LAST_INTERVAL: 95.9638
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 179.6442
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:09]
+    :DRILL_LAST_REVIEWED: [2020-06-13 Sat 15:32]
     :END:
 How is the dense subset
 /D(T)/ of definition for an
@@ -19125,17 +19137,17 @@ rewritten as
 where /P/ is the momentum
 operator.
 *** Operators                                                         :drill:
-    SCHEDULED: <2020-06-22 Mon>
+    SCHEDULED: <2021-06-16 Wed>
     :PROPERTIES:
     :ID:       e738766f-b73c-4fff-b1d7-63954a81eb6f
-    :DRILL_LAST_INTERVAL: 198.8519
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 359.1265
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-06 Fri 15:48]
+    :DRILL_LAST_REVIEWED: [2020-06-22 Mon 15:02]
     :END:
 What is the translation
 operator?
@@ -19280,17 +19292,17 @@ amplitudes /ρ, τ/. If the splitter
 is lossless, this is a unitary
 transformation.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-06-23 Tue>
+    SCHEDULED: <2020-12-16 Wed>
     :PROPERTIES:
     :ID:       d70728d5-3a97-46bd-b36a-4535149e4af1
-    :DRILL_LAST_INTERVAL: 110.0318
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 176.2709
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.273
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-05 Thu 13:41]
+    :DRILL_LAST_REVIEWED: [2020-06-23 Tue 15:29]
     :END:
 How to check that the particle
 created by
@@ -19305,17 +19317,17 @@ which is /∑ₚ⟨y|p⟩exp(-ipx)/, and, since
 /⟨y|φ⁺(x)|0⟩=δ(x-y)/, hence nonzero
 only if /x=y/.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-06-23 Tue>
+    SCHEDULED: <2020-07-19 Sun>
     :PROPERTIES:
     :ID:       2e154174-c645-470a-8450-cf0b97e44180
-    :DRILL_LAST_INTERVAL: 21.7216
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_LAST_INTERVAL: 26.4135
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 22
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.26
+    :DRILL_AVERAGE_QUALITY: 3.318
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-01 Mon 14:17]
+    :DRILL_LAST_REVIEWED: [2020-06-23 Tue 15:31]
     :END:
 How to check that
 /Φ(x)=∑ₚaₚ⁺exp(-ipx)=φ⁺(x)/ creates
@@ -19536,17 +19548,17 @@ preserved in weak interactions,
 even though less often than
 charge or parity by themselves.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-06-22 Mon>
+    SCHEDULED: <2020-07-11 Sat>
     :PROPERTIES:
     :ID:       7f91616b-f7d9-40b3-8adb-dff77cc85a45
-    :DRILL_LAST_INTERVAL: 16.5815
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 18.5547
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.375
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-05 Fri 15:49]
+    :DRILL_LAST_REVIEWED: [2020-06-22 Mon 15:04]
     :END:
 How does charge behave
 under particle interaction?
@@ -20069,17 +20081,17 @@ is a matrix because the electromagnetic
 field is a vector field resulting from
 its vector potential.
 *** Path integral						      :drill:
-    SCHEDULED: <2020-06-19 Fri>
+    SCHEDULED: <2020-10-05 Mon>
     :PROPERTIES:
     :ID:       735e603d-bc9f-4205-a495-d8cd9fae5759
-    :DRILL_LAST_INTERVAL: 96.4135
-    :DRILL_REPEATS_SINCE_FAIL: 16
-    :DRILL_TOTAL_REPEATS: 21
+    :DRILL_LAST_INTERVAL: 107.8867
+    :DRILL_REPEATS_SINCE_FAIL: 17
+    :DRILL_TOTAL_REPEATS: 22
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.048
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.046
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 14:04]
+    :DRILL_LAST_REVIEWED: [2020-06-19 Fri 14:43]
     :END:
 How are positive and negative charges 
 accomodated when introducing them into
@@ -21201,17 +21213,17 @@ swap only in emergencies, to
 10 in order to prevent excessive
 swapping.
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2021-07-02 Fri>
     :PROPERTIES:
     :ID:       f8d6dca9-f308-49e6-9563-989f84336620
-    :DRILL_LAST_INTERVAL: 240.2382
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 384.8616
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.125
     :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-16 Wed 12:43]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 14:07]
     :END:
 How to configure 
 key-bindings in =lxde=?
@@ -21241,17 +21253,17 @@ natural number, 0 indicating
 a desire not to use swap space
 at all.
 *** desktop                                                           :drill:
-    SCHEDULED: <2020-06-15 Mon>
+    SCHEDULED: <2020-07-07 Tue>
     :PROPERTIES:
     :ID:       089d590b-d05e-49bb-b4c9-61b3feff1f3e
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.9723
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-06 Sat 16:04]
+    :DRILL_LAST_REVIEWED: [2020-06-15 Mon 14:20]
     :END:
 Why is the use of
 /gtk-launch/ not recommended
@@ -21263,17 +21275,17 @@ cases where the .desktop file
 is located in /usr/share/applications
 or ~/.local/share/applications.
 *** desktop                                                           :drill:
-    SCHEDULED: <2020-06-15 Mon>
+    SCHEDULED: <2020-07-07 Tue>
     :PROPERTIES:
     :ID:       552a4026-ccfc-4bea-b0a4-394075c35e71
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.9723
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-06 Sat 15:55]
+    :DRILL_LAST_REVIEWED: [2020-06-15 Mon 14:20]
     :END:
 How to launch an application
 in a desktop file?
@@ -21354,17 +21366,17 @@ is set to the proper dektop
 file. This is set in 
 ~/.config/user-dirs.dirs
 *** dmenu                                                             :drill:
-    SCHEDULED: <2020-06-15 Mon>
+    SCHEDULED: <2020-07-04 Sat>
     :PROPERTIES:
     :ID:       35998ce2-cca3-4203-9c1b-42b039558771
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-06 Sat 16:05]
+    :DRILL_LAST_REVIEWED: [2020-06-15 Mon 14:19]
     :END:
 Why is it not possible to
 launch .desktop files from
@@ -21511,17 +21523,17 @@ created with [setfacl||the command].
 The [Access Control List entries] for a file 
 can be checked with [getfacl||the command].
 *** Network                                                           :drill:
-    SCHEDULED: <2020-06-12 Fri>
+    SCHEDULED: <2020-07-24 Fri>
     :PROPERTIES:
     :ID:       ea9c1dcc-9a1c-4827-a772-143b3c198aa3
-    :DRILL_LAST_INTERVAL: 19.512
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 41.7947
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-23 Sat 14:31]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 14:06]
     :END:
 What to do if the
 system doesn't resolve
@@ -21560,17 +21572,17 @@ network manager loses contact
 with the card. Simply restart it:
 =service network-manager restart=.
 *** Network                                                           :drill:
-    SCHEDULED: <2020-06-11 Thu>
+    SCHEDULED: <2020-07-21 Tue>
     :PROPERTIES:
     :ID:       61969c1c-741b-40d8-8a58-401f95cb6c41
-    :DRILL_LAST_INTERVAL: 18.8265
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 40.3264
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-23 Sat 14:30]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-11 Thu 12:01]
     :END:
 How to restart the network
 manager automatically after
@@ -21607,17 +21619,17 @@ from the command line?
 With ~nmcli~. Check its
 manpage for details.
 *** package management                                                :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2020-08-05 Wed>
     :PROPERTIES:
     :ID:       0108681f-9907-4856-a6d2-ef7d8c1bbe7e
-    :DRILL_LAST_INTERVAL: 21.4987
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 48.9525
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-27 Wed 13:02]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:39]
     :END:
 Why is ~apt remove --autoremove~
 dangerous?
@@ -21630,17 +21642,17 @@ way may result in the removal
 of a number of ~tex-live~
 packages.
 *** package management                                                :drill:
-    SCHEDULED: <2020-06-17 Wed>
+    SCHEDULED: <2020-08-07 Fri>
     :PROPERTIES:
     :ID:       1926acb3-3e8d-41de-a560-46a3d24e2524
-    :DRILL_LAST_INTERVAL: 21.4987
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.7369
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-27 Wed 13:02]
+    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:37]
     :END:
 What is the problem if an
 attempt to remove a package
@@ -21887,6 +21899,16 @@ ubuntu between 16 and 18, where it was
 hard to update this package because the 
 old version couldn't be removed.
 *** shell                                                             :drill:
+What to do when running a
+text-based programme that
+isn't linked to ~readline~,
+such as coqtop?
+**** Answer:
+Install a readline wrapper
+such as ~rlwrap~ and run
+commands like that as
+~rlwrap <command>~.
+*** shell                                                             :drill:
     SCHEDULED: <2020-07-04 Sat>
     :PROPERTIES:
     :ID:       1dcea1b3-7185-43d6-9b89-b8e6419cbd94
@@ -21912,17 +21934,17 @@ removing this prefix is
 suitable for use with
 ~--object-path~.
 *** shell                                                             :drill:
-    SCHEDULED: <2020-06-22 Mon>
+    SCHEDULED: <2020-09-22 Tue>
     :PROPERTIES:
     :ID:       f618b58a-4754-4476-a8bf-18a1904f177c
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 91.5298
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-10 Sun 17:24]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-06-22 Mon 15:03]
     :END:
 What to use as block
 device when mounting a
