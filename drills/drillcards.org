@@ -1279,6 +1279,62 @@ for different systems. Thus
 when used on unix-like
 systems it is more comparable
 to /automake/ than /make/.
+** coq 
+*** coq λ-expressions                                                 :drill:
+What is the notation for
+λ-terms in /coq/?
+**** Answer:
+Abstractions ~λx:A.M~ are written
+as ~fun x:A => M.~.
+*** coq λ-expressions                                                 :drill:
+How are multi-argument λ abstractions
+such as ~λx:A .λx':A .λy:B .M~ usually
+written in /coq/?
+**** Answer:
+The arguments can be put in parentheses
+separately as in
+~fun (x:A) (x':A) (y:B) => M.~,
+where consecutive arguments of the
+same type can be grouped in a list,
+as in
+~fun (x x': A) (y:B) => M.~
+*** declarations                                                      :drill:
+What is the purpose of ~Hypothesis~?
+**** Answer:
+To locally declare the existence of a proof
+as in ~Hypothesis p:A~, which declares
+~p~ as an (unknown) proof of (local)
+variable ~A~.
+*** declarations                                                      :drill:
+What is the difference between
+~Variable A B C:Prop.~ and
+~Variables A B C:Prop.~?
+**** Answer:
+There is no difference in
+functional terms, they are
+synonyms (variants) in that they
+both declare the names as local
+variables of type ~Prop~.
+*** declarations                                                      :drill:
+What is the difference between
+~Variable A B C:Prop.~ and
+~Parameter A B C:Prop.~?
+**** Answer:
+The former is a /local/ definition
+to be used in a /section/ whereas
+the latter is a global declaration.
+*** expressions                                                       :drill:
+How to obtain the type of coq
+expressions?
+**** Answer:
+With ~Check <expression>.~
+*** expressions                                                       :drill:
+How to get the λ-expression for a
+proof in /coq/?
+**** Answer:
+With ~Print id.~ where ~id~ is the
+identifier of the proof as given
+in ~Save id.~ or ~Qed.~.
 ** elixir 
 *** expressions                                                       :drill:
     SCHEDULED: <2020-07-28 Tue>
