@@ -3344,6 +3344,45 @@ function signature but
 essentially it proves that
 a type is populated, possibly
 depending on other types.
+*** Deduction                                                         :drill:
+How is right introduction
+in sequent rules related
+to natural deduction rules?
+**** Answer:
+Right introduction is usually
+identical to introduction
+in natural deduction.
+*** Deduction                                                         :drill:
+How are left introduction
+sequent rules related to
+natural deduction rules?
+**** Answer:
+They correspond to the elimination
+rules of natural deduction.
+*** Deduction                                                         :drill:
+Why are Gentzen style deduction
+rules with sequences to the right
+of ⊢ rather uncommon?
+**** Answer:
+Because they are mostly of interest
+in mathematical proof analysis, with
+the computational view of logic rules
+having only one proposition to the
+right of ⊢ correspond more directly
+to functions.
+*** Deduction                                                         :drill:
+What is the difference
+between /Sequent Rules/
+and /Natural Deduction Rules/?
+**** Answer:
+In natural deduction, logical
+operators are defined with
+introduction and elimination
+rules, with sequent rules
+they are defined with left
+and right introduction, ie
+introduction to the left
+and right of ⊢, instead.
 *** Experiments                                                       :drill:
     SCHEDULED: <2020-08-15 Sat>
     :PROPERTIES:
@@ -4224,6 +4263,16 @@ ie evaluate a lazy expression
 in functional programming or
 make a measurement in a
 quantum system.
+*** Linear Logic                                                      :drill:
+What is the difference in
+the conjunctions & and
+⊗?
+**** Answer:
+/A&B/ is the conjunction
+where only one of /A, B/
+is used, /A⊗B/ is the 
+conjunction where both
+/A/ and /B/ are used.
 *** Linear Logic                                                      :drill:
     SCHEDULED: <2021-04-19 Mon>
     :PROPERTIES:
