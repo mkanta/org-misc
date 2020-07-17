@@ -755,17 +755,17 @@ linear combinations of vectors
 from /|-λ⟩/ and /|λ⟩/ is an
 eigenvector of /P²/.
 *** Linear Algebra: Matrices                                          :drill:
-    SCHEDULED: <2020-07-14 Tue>
+    SCHEDULED: <2020-10-29 Thu>
     :PROPERTIES:
     :ID:       31a695cf-7f35-4ffe-8800-bd57d96862bd
-    :DRILL_LAST_INTERVAL: 48.1172
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 106.8202
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-27 Wed 13:07]
+    :DRILL_LAST_REVIEWED: [2020-07-14 Tue 14:52]
     :END:
 How to turn a vector space
 into an algebra?
@@ -4312,6 +4312,33 @@ in functional programming or
 make a measurement in a
 quantum system.
 *** Linear Logic                                                      :drill:
+Why does the equivalence of
+/!A→B/ and /A⊸B/ makes sense
+from a resource point of
+view?
+**** Answer:
+Because /!A/ describes the
+consumption of resource /A/,
+so the consumption of /A/
+yields a /B/, which is
+precisely the meaning of
+/A⊸B/.
+*** Linear Logic                                                      :drill:
+What is the meaning of /A⊗B⊸C/
+in terms of resources?
+**** Answer:
+Resources /A/ and /B/ are both
+consumed to obtain resource /C/.
+*** Linear Logic                                                      :drill:
+In which sense is linear logic
+the logic of resource theories?
+**** Answer:
+Resource theories are about the
+transformation and consumption
+of resources. Linear logic is
+the language to discuss these
+things.
+*** Linear Logic                                                      :drill:
     SCHEDULED: <2020-08-03 Mon>
     :PROPERTIES:
     :ID:       f559f8ce-7734-4a64-8e9f-a8fe040675b4
@@ -4481,17 +4508,17 @@ translated to a combinator?
 **** Answer:
 As /φ:A₁⊗…⊗Aₙ→A/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2020-12-06 Sun>
     :PROPERTIES:
     :ID:       bf71386b-5ff3-4d5e-8b14-163257e14de8
-    :DRILL_LAST_INTERVAL: 77.1848
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 144.4899
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-29 Wed 13:38]
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:38]
     :END:
 What does it mean
 for a logic to be
@@ -4792,17 +4819,17 @@ the use of a term, for example
 by listing the properties a 
 noun should have.
 *** Logic                                                             :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2020-12-25 Fri>
     :PROPERTIES:
     :ID:       c9db5a0c-6a96-4fcb-88d1-75384c9b5f73
-    :DRILL_LAST_INTERVAL: 104.0632
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 162.6508
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.467
-    :DRILL_EASE: 1.62
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-02 Thu 14:13]
+    :DRILL_AVERAGE_QUALITY: 3.438
+    :DRILL_EASE: 1.48
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:40]
     :END:
 What is the difference
 between a /Proposition/
@@ -5021,17 +5048,17 @@ every finite subset /{gᵢ}/
 of elements in the domain
 of /b/, /K ⊢ (∃y)[⋀ᵢΦₜ(b,gᵢ,y)]/.
 *** Logic:Enlargements                                                :drill:
-    SCHEDULED: <2020-07-17 Fri>
+    SCHEDULED: <2020-12-29 Tue>
     :PROPERTIES:
     :ID:       f903ca7e-5ddb-4cce-9a55-a99c15e7be80
-    :DRILL_LAST_INTERVAL: 88.325
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 165.3444
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-20 Mon 12:55]
+    :DRILL_LAST_REVIEWED: [2020-07-17 Fri 16:53]
     :END:
 What is the point of enlargements
 of a set of sentences with concurrent
@@ -5345,17 +5372,17 @@ for every type /t/ and
 /F(y,x₁,…,xₙ)/ for every
 nonzero type /t∈T-{0}/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2021-01-11 Mon>
     :PROPERTIES:
     :ID:       864e7e75-03b5-499c-92b1-a77713faff70
-    :DRILL_LAST_INTERVAL: 95.9638
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 179.6442
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-10 Fri 15:18]
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:36]
     :END:
 What is the type transform
 /λ/ of a language?
@@ -5475,17 +5502,17 @@ that /R∈Bₜ/ coincides with
 its restriction to
 /B₁×⋯×Bₙ/ if /t=(t₁,…,tₙ)/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-07-16 Thu>
+    SCHEDULED: <2021-02-07 Sun>
     :PROPERTIES:
     :ID:       2130372c-06b0-4711-9694-aed6d3433e9c
-    :DRILL_LAST_INTERVAL: 99.4458
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 205.5545
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-08 Wed 13:37]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-16 Thu 14:18]
     :END:
 What is the difference
 between languages describing
@@ -5622,17 +5649,17 @@ of the /Aᵢ/, where /Aᵢ/
 is the set of entities having
 type /tᵢ/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2021-02-07 Sun>
     :PROPERTIES:
     :ID:       11362cd5-c9f3-4aee-acfc-834a8c7b0a45
-    :DRILL_LAST_INTERVAL: 103.067
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 206.8555
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-03 Fri 13:54]
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:35]
     :END:
 What entities in higher
 order logic do have type
@@ -6163,6 +6190,25 @@ the compactness theorem?
 The index set /I/ is the
 set of all finite subsets
 of /K/.
+*** Resources                                                         :drill:
+What can be done with
+resources in a resource
+theory?
+**** Answer:
+They can be transformed using
+the free operators of the
+theory or consumed. They can
+not be created with the free
+operators of the theory.
+*** Resources                                                         :drill:
+What is a resource in
+a resource theory?
+**** Answer:
+That is an object that
+can not be obtained by
+applying the rules
+(free operators) of the
+theory.
 *** System F                                                          :drill:
     SCHEDULED: <2021-09-28 Tue>
     :PROPERTIES:
@@ -6341,17 +6387,17 @@ the inputs to that
 constructor.
 
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2020-07-17 Fri>
+    SCHEDULED: <2021-08-16 Mon>
     :PROPERTIES:
     :ID:       888ceb62-0e29-493d-9619-53d921f3e250
-    :DRILL_LAST_INTERVAL: 246.3221
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 394.608
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-14 Thu 14:37]
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-17 Fri 16:54]
     :END:
 Why are inductive types
 /I/ popular?

@@ -288,17 +288,17 @@ right ascension.
 * Cooking
 ** Beverages
 *** French Press                                                      :drill:
-    SCHEDULED: <2020-07-14 Tue>
+    SCHEDULED: <2023-03-18 Sat>
     :PROPERTIES:
     :ID:       7dc7c8fa-d0e2-4deb-8e69-996d185e1169
-    :DRILL_LAST_INTERVAL: 390.625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 976.5625
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-06-19 Wed 07:49]
+    :DRILL_LAST_REVIEWED: [2020-07-14 Tue 14:48]
     :END:
 What is the problem if
 the press goes down too
@@ -6037,17 +6037,17 @@ there is now also a /kind/ =DoorState=
 with type constructors ='Open=,
 ='Closed= and ='Locked=.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-07-16 Thu>
+    SCHEDULED: <2021-10-25 Mon>
     :PROPERTIES:
     :ID:       26f439b1-8084-41d0-b7f1-7489d979269e
-    :DRILL_LAST_INTERVAL: 280.7478
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 466.0413
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_AVERAGE_QUALITY: 3.25
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-09 Wed 13:15]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-16 Thu 14:18]
     :END:
 Why does the
 =ScopedTypeVariables=
@@ -6061,17 +6061,17 @@ obtained from the type
 variable, but only if it
 is in scope.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-07-16 Thu>
+    SCHEDULED: <2021-10-09 Sat>
     :PROPERTIES:
     :ID:       55571d9e-d579-4afe-a8a0-780c28bc02ca
-    :DRILL_LAST_INTERVAL: 280.7478
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 449.758
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-09 Wed 13:16]
+    :DRILL_LAST_REVIEWED: [2020-07-16 Thu 14:19]
     :END:
 What is the effect of the
 =ScopedTypeVariables=
@@ -6652,17 +6652,17 @@ declaration?
 That an open type-family
 is part of the type class.
 *** Type manipulations                                                :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2021-06-29 Tue>
     :PROPERTIES:
     :ID:       f956250d-a06a-439c-851f-aff0ed9d6504
-    :DRILL_LAST_INTERVAL: 237.7157
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 348.7289
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-20 Wed 11:51]
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:37]
     :END:
 What is the difference
 between a closed and
@@ -7682,17 +7682,17 @@ They cannot be overridden in a derived class
 with the same name because they are not part
 of the prototype chain.
 *** typescript classes 	 				      :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2025-04-09 Wed>
     :PROPERTIES:
     :ID:       3601bed3-0b17-45ab-a681-e6dd6ef083ed
-    :DRILL_LAST_INTERVAL: 576.0479
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 1729.2958
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.667
-    :DRILL_EASE: 2.9
+    :DRILL_AVERAGE_QUALITY: 4.715
+    :DRILL_EASE: 3.0
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-12-17 Mon 12:53]
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:41]
     :END:
 How to call a function defined in a super class
 as a member rather than a method?
@@ -8505,17 +8505,17 @@ then using the fetch API to
 pull in html from its url
 might be the way to go.
 *** Browser: Repl                                                     :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2022-06-12 Sun>
     :PROPERTIES:
     :ID:       e18137df-510e-4c74-9e96-eac09769070d
-    :DRILL_LAST_INTERVAL: 240.4892
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 697.4187
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.8
+    :DRILL_AVERAGE_QUALITY: 4.667
     :DRILL_EASE: 2.9
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-18 Mon 13:41]
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:38]
     :END:
 How to load an html document
 into a browser tab connected
@@ -11681,17 +11681,17 @@ If the =rebase= was successful,
 there will be no merge
 conflicts.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2020-07-16 Thu>
+    SCHEDULED: <2021-06-22 Tue>
     :PROPERTIES:
     :ID:       a25a0fb6-6572-4841-8788-daa341c81cd6
-    :DRILL_LAST_INTERVAL: 232.5407
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 341.1372
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-26 Tue 15:07]
+    :DRILL_LAST_REVIEWED: [2020-07-16 Thu 14:19]
     :END:
 Is it possible to add
 comments or descriptions
@@ -11806,17 +11806,17 @@ Stage the changes with
 ~git add ...~ and run
 ~git diff --staged~.
 *** git merge                                                         :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2021-01-02 Sat>
     :PROPERTIES:
     :ID:       b24e69d4-8ba6-4bd6-aa98-ac83e43d3e74
-    :DRILL_LAST_INTERVAL: 67.2186
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 171.1386
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-09 Sat 17:30]
+    :DRILL_AVERAGE_QUALITY: 4.2
+    :DRILL_EASE: 2.56
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:36]
     :END:
 Why should a ~git pull~
 always be preceded by
@@ -13513,17 +13513,17 @@ too low. The way to go
 would be via saponification
 with wood-ash solutions.
 *** drugs                                                             :drill:
-    SCHEDULED: <2020-07-17 Fri>
+    SCHEDULED: <2020-10-20 Tue>
     :PROPERTIES:
     :ID:       641fd6f2-7d8b-4855-8ca8-220ca3847c3f
-    :DRILL_LAST_INTERVAL: 44.287
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 94.8628
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-03 Wed 14:41]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-17 Fri 16:57]
     :END:
 Why the secrecy in
 alchemical drug
@@ -13803,17 +13803,17 @@ Virgin Mary. Her appearances,
 such as at Fatima, are often
 proceded by such a cloud.
 *** the stone                                                         :drill:
-    SCHEDULED: <2020-07-16 Thu>
+    SCHEDULED: <2020-10-10 Sat>
     :PROPERTIES:
     :ID:       5653a4b9-a6ec-417a-8325-1e32783434bf
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 85.7611
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-03 Wed 14:43]
+    :DRILL_LAST_REVIEWED: [2020-07-16 Thu 14:18]
     :END:
 How could alchemists
 realistically make gold
@@ -14689,17 +14689,17 @@ which might have prevented
 the mission of Jesus.
 ** Psychology
 *** Evolutionary                                                      :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2021-04-11 Sun>
     :PROPERTIES:
     :ID:       56c9146b-0da4-46e5-9913-1857096ddc98
-    :DRILL_LAST_INTERVAL: 126.0957
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 270.097
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-11 Wed 16:39]
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:40]
     :END:
 Why is the development of
 language an evolutionary
@@ -15961,6 +15961,18 @@ linearly scanning language
 input.
 ** Relativity
 *** Coordinates                                                       :drill:
+    SCHEDULED: <2020-07-18 Sat>
+    :PROPERTIES:
+    :ID:       de929b7c-97bc-4844-84bb-b2e8e814db47
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-14 Tue 14:51]
+    :END:
 Why is the separation of
 events whose connecting
 line has an angle of more
@@ -15974,6 +15986,18 @@ observers, the events are
 simultaneous, thus not
 separated by time.
 *** Coordinates                                                       :drill:
+    SCHEDULED: <2020-07-18 Sat>
+    :PROPERTIES:
+    :ID:       e8e6736e-83e6-4d8d-8380-931ee3138d4a
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-14 Tue 14:49]
+    :END:
 What is the separation of
 events whose connection line
 has an angle of less than
@@ -15986,6 +16010,18 @@ to the connection. Thus, no
 observer perceives the events
 as simultaneous.
 *** Coordinates                                                       :drill:
+    SCHEDULED: <2020-07-18 Sat>
+    :PROPERTIES:
+    :ID:       18b5d679-60e4-4dfc-9976-7c16c67903ab
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-14 Tue 14:48]
+    :END:
 What is the geometrical
 difference between timelike
 and spacelike separation
@@ -15999,6 +16035,18 @@ separated events have an angle
 of more than 45°C with the time
 axis.
 *** Coordinates                                                       :drill:
+    SCHEDULED: <2020-07-18 Sat>
+    :PROPERTIES:
+    :ID:       4f5e3368-5d62-4574-a20b-83c044115aa4
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-14 Tue 14:50]
+    :END:
 How are the coordinate ticks
 on the systems of different
 observers related in special
@@ -16201,6 +16249,18 @@ system, such as radioactive
 decay or the count of a
 clock.
 *** Time                                                              :drill:
+    SCHEDULED: <2020-07-18 Sat>
+    :PROPERTIES:
+    :ID:       521dc7be-06fb-444d-802c-55ee61dd5ce8
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-14 Tue 14:51]
+    :END:
 What is the unit of
 measurement for /proper/
 time?
@@ -16246,17 +16306,17 @@ of the sender will be revealed
 as one of the 4 states /|ε₁ε₂⟩/
 with /εᵢ∈{0,1}/.
 *** Communication                                                     :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2021-05-12 Wed>
     :PROPERTIES:
     :ID:       727223cb-461c-4205-9fb8-d0cf26a1a52a
-    :DRILL_LAST_INTERVAL: 140.3784
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 300.6905
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-26 Wed 13:54]
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:39]
     :END:
 How is the /(super) dense/
 concept in (super) dense
@@ -16585,17 +16645,17 @@ A single qbit transform
 with ~c~ the square root
 of 2.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2021-05-12 Wed>
     :PROPERTIES:
     :ID:       5de47400-c1b8-4627-9f28-e82056915d40
-    :DRILL_LAST_INTERVAL: 140.3784
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 300.6905
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-26 Wed 13:56]
+    :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:37]
     :END:
 What are the gates /⋀Q/?
 **** Answer:
@@ -17678,6 +17738,50 @@ which can be written
 sum convention and Dirac
 matrices /D/.
 *** Hilbert Space                                                     :drill:
+    SCHEDULED: <2020-07-21 Tue>
+    :PROPERTIES:
+    :ID:       43216a75-a8d1-440f-b670-f9c465df9543
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-17 Fri 16:55]
+    :END:
+How to turn a quantum state
+/|ϕ⟩/ into an operator?
+**** Answer
+By assigning the density
+matrix /|ϕ⟩⟨ϕ|/ to it.
+*** Hilbert Space                                                     :drill:
+    SCHEDULED: <2020-07-21 Tue>
+    :PROPERTIES:
+    :ID:       4de9dcc0-bbc8-42c5-a75f-f8c35aff5448
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-17 Fri 16:52]
+    :END:
+In which sense provide
+/density matrices/ a
+generalisation of quantum
+states?
+**** Answer
+In the sense that quantum
+states can be embedded into
+the set of density matrices.
+Density matrices are convex
+combinations of the pure
+density matrices /|ϕ⟩⟨ϕ|/
+arising from quantum states
+/|ϕ⟩/.
+*** Hilbert Space                                                     :drill:
     SCHEDULED: <2020-07-25 Sat>
     :PROPERTIES:
     :ID:       18ecfcda-505c-4330-b9af-cf9751da34f1
@@ -18740,17 +18844,17 @@ unit vectors such that /‖A⁻¹yₖ‖→∞/
 for /k→∞/. For these, /‖Axₖ‖→0/
 as /k→∞/. 
 *** Operators: Bounded                                                :drill:
-    SCHEDULED: <2020-07-17 Fri>
+    SCHEDULED: <2021-04-01 Thu>
     :PROPERTIES:
     :ID:       ccc8f44f-57cf-4549-b91a-2bdcb74653de
-    :DRILL_LAST_INTERVAL: 116.0583
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 257.6494
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-23 Mon 19:34]
+    :DRILL_LAST_REVIEWED: [2020-07-17 Fri 16:54]
     :END:
 Why can there be no sequence
 /xₖ/ of unit vectors such that
@@ -20052,17 +20156,17 @@ the electromagnetic and weak
 force but are not subject to
 the strong force.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-07-17 Fri>
+    SCHEDULED: <2020-11-21 Sat>
     :PROPERTIES:
     :ID:       01daca23-11a9-4736-8f46-1ccfc08cd919
-    :DRILL_LAST_INTERVAL: 101.5562
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 127.3515
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.227
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-06 Mon 13:43]
+    :DRILL_AVERAGE_QUALITY: 3.217
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-17 Fri 16:58]
     :END:
 Why can a neutral particle
 like the neutrino have an 
@@ -21662,18 +21766,18 @@ ACL is an abbreviation for
 [specify file access in a more fine-grained 
 way than users and groups].
 *** Fact							      :drill:
-    SCHEDULED: <2020-07-15 Wed>
+    SCHEDULED: <2021-09-03 Fri>
   :Properties:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       515f3873-fe47-4fc3-8889-dacbfa24c71b
-  :DRILL_LAST_INTERVAL: 253.6842
-  :DRILL_REPEATS_SINCE_FAIL: 9
-  :DRILL_TOTAL_REPEATS: 19
+  :DRILL_LAST_INTERVAL: 414.7737
+  :DRILL_REPEATS_SINCE_FAIL: 10
+  :DRILL_TOTAL_REPEATS: 20
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 3.474
-  :DRILL_EASE: 1.58
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2019-11-04 Mon 14:33]
+  :DRILL_AVERAGE_QUALITY: 3.55
+  :DRILL_EASE: 1.68
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-07-15 Wed 15:36]
   :END:      
 A [+ sign at the end of the permissions list of a file obtained from ls -l] 
 indicates [the presence of an Access Control List] for that file.
