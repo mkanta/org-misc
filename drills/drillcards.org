@@ -262,17 +262,17 @@ The difference between
 local /sidereal time/ and 
 /right ascension/.
 *** Right Ascension                                                   :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2021-08-26 Thu>
     :PROPERTIES:
     :ID:       d2048447-d3e1-4919-ab5d-eb0cd8f6e2d8
-    :DRILL_LAST_INTERVAL: 246.3221
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 394.608
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-11-24 Sun 19:29]
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:10]
     :END:
 Why the choice of
 time as unit instead 
@@ -928,17 +928,17 @@ This is a recurrent network that
 can learn context sensitive 
 languages.
 *** Perceptron Boundaries                                             :drill:
-    SCHEDULED: <2020-07-24 Fri>
+    SCHEDULED: <2022-01-09 Sun>
     :PROPERTIES:
     :ID:       bf51cfe2-f334-4389-98d9-3a60d53f0dc0
-    :DRILL_LAST_INTERVAL: 254.0244
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 534.4673
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.18
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.04
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-11-13 Wed 16:33]
+    :DRILL_LAST_REVIEWED: [2020-07-24 Fri 17:05]
     :END:
 What is the classification
 boundary of a Kernel 
@@ -1281,17 +1281,17 @@ systems it is more comparable
 to /automake/ than /make/.
 ** coq
 *** coq λ-expressions                                                 :drill:
-    SCHEDULED: <2020-07-28 Tue>
+    SCHEDULED: <2020-09-12 Sat>
     :PROPERTIES:
     :ID:       fce381f0-d9bb-41d0-8481-1305a4593849
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.731
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-08 Wed 14:33]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:46]
     :END:
 What is the notation for
 λ-terms in /coq/?
@@ -1299,17 +1299,17 @@ What is the notation for
 Abstractions ~λx:A.M~ are written
 as ~fun x:A => M.~.
 *** coq λ-expressions                                                 :drill:
-    SCHEDULED: <2020-07-28 Tue>
+    SCHEDULED: <2020-09-12 Sat>
     :PROPERTIES:
     :ID:       721440b3-a201-422a-8f8e-bff2be794160
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 42.731
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-08 Wed 14:33]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:46]
     :END:
 How are multi-argument λ abstractions
 such as ~λx:A .λx':A .λy:B .M~ usually
@@ -1323,17 +1323,17 @@ same type can be grouped in a list,
 as in
 ~fun (x x': A) (y:B) => M.~
 *** declarations                                                      :drill:
-    SCHEDULED: <2020-07-30 Thu>
+    SCHEDULED: <2020-09-19 Sat>
     :PROPERTIES:
     :ID:       6e30434e-4572-47d1-948c-9725ade2ac8e
-    :DRILL_LAST_INTERVAL: 21.9723
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.0309
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-08 Wed 14:34]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:49]
     :END:
 What is the purpose of ~Hypothesis~?
 **** Answer:
@@ -1364,17 +1364,17 @@ synonyms (variants) in that they
 both declare the names as local
 variables of type ~Prop~.
 *** declarations                                                      :drill:
-    SCHEDULED: <2020-07-30 Thu>
+    SCHEDULED: <2020-09-19 Sat>
     :PROPERTIES:
     :ID:       f72e5d8b-c4b1-40ad-ad1c-cae8df234727
-    :DRILL_LAST_INTERVAL: 21.9723
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 50.0309
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-08 Wed 14:32]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:49]
     :END:
 What is the difference between
 ~Variable A B C:Prop.~ and
@@ -1401,17 +1401,17 @@ expressions?
 **** Answer:
 With ~Check <expression>.~
 *** expressions                                                       :drill:
-    SCHEDULED: <2020-07-29 Wed>
+    SCHEDULED: <2020-09-14 Mon>
     :PROPERTIES:
     :ID:       1929a9ce-6410-4b98-9d76-89a08f6ce5f1
-    :DRILL_LAST_INTERVAL: 21.1996
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 45.4095
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-08 Wed 14:32]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:53]
     :END:
 How to get the λ-expression for a
 proof in /coq/?
@@ -1783,6 +1783,45 @@ set to ~t~, ie
 should work. The ~nil~ causes
 the default documentation
 string to be used.
+*** debugging                                                         :drill:
+What's the problem if an
+emacs error persists even after
+killing emacsclient?
+**** Answer:
+If there is a byte-compiled file
+it has to be recompiled before
+killing and restarting emacsclient.
+*** debugging                                                         :drill:
+How to step through elisp code?
+**** Answer:
+With command ~d~ at the debugger
+command line.
+*** debugging                                                         :drill:
+How to debug an elisp function?
+**** Answer:
+By running ~debug-on-entry~
+interactively with ~M-x~ and
+providing the function name.
+Emacs will enter the debugger
+upon entry in this function.
+*** debugging                                                         :drill:
+What to do when emacs
+displays an error-message?
+**** Answer:
+Set ~debug-on-error~ to
+~t~ and run the function
+again, it will show where
+the error occurred.
+*** debugging                                                         :drill:
+How to find the reason for
+a message in the emacs display 
+area?
+**** Answer:
+By setting ~debug-on-message~
+to a regular expression which is
+matched by the message. It will
+bring up the debugger when the
+message occurs.
 *** dired                                                             :drill:
     SCHEDULED: <2020-08-24 Mon>
     :PROPERTIES:
@@ -2360,17 +2399,17 @@ still installed. Remove
 it before removing
 ~emacs25~.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-07-31 Fri>
+    SCHEDULED: <2020-10-31 Sat>
     :PROPERTIES:
     :ID:       3f69744e-9ffb-49dd-951c-20214e3a0375
-    :DRILL_LAST_INTERVAL: 44.4306
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 91.8381
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:36]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:51]
     :END:
 How to remove emacs
 packages from ubuntu
@@ -2808,6 +2847,17 @@ to create ~file.md~ and then use
 get an org-file. Alternatively
 convert to /rst/ or /latex/ instead
 of /markdown/ and then to org.
+*** org-mode drill                                                    :drill:
+What's the problem of
+org-drill complains about
+an undefined function
+~first~?
+**** Answer:
+This is a bug in 2.7.0 where
+~org-drill-order-overdue-entries~
+calls an undefined function
+~first~, probably due to a typo.
+It (probably) should call ~cl-first~.
 *** org-mode exports                                                  :drill:
     SCHEDULED: <2020-08-09 Sun>
     :PROPERTIES:
@@ -3062,17 +3112,17 @@ rather than between ~\begin{equation}~,
 not be displayed, though, and no
 link target will be created.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-07-28 Tue>
+    SCHEDULED: <2020-11-29 Sun>
     :PROPERTIES:
     :ID:       8ce5ca42-f867-42b5-9a3c-4b127c2374d2
-    :DRILL_LAST_INTERVAL: 48.4944
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 121.4785
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.42
+    :DRILL_AVERAGE_QUALITY: 4.2
+    :DRILL_EASE: 2.52
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:51]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:51]
     :END:
 How to solve the problem with
 the references to tables that
@@ -3110,17 +3160,17 @@ org-mode links to the name of the
 table won't work, it has to be a
 latex ~\ref{...}~ reference.
 *** org-mode tables                                                   :drill:
-    SCHEDULED: <2020-07-28 Tue>
+    SCHEDULED: <2020-11-29 Sun>
     :PROPERTIES:
     :ID:       1da0b22b-bec1-4453-878e-4682202263c6
-    :DRILL_LAST_INTERVAL: 48.4944
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 121.4785
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.42
+    :DRILL_AVERAGE_QUALITY: 4.2
+    :DRILL_EASE: 2.52
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-06-10 Wed 13:52]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:54]
     :END:
 When does a table put
 into a math environment
@@ -4411,17 +4461,17 @@ parsers and is reported
 as expecting alternatives
 connected with /or/.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2021-07-30 Fri>
     :PROPERTIES:
     :ID:       194322b1-9060-47dd-bc69-343e43145d29
-    :DRILL_LAST_INTERVAL: 237.7157
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 367.5085
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-02 Mon 14:57]
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:09]
     :END:
 Where is error reporting
 with =failure= superior to
@@ -4462,17 +4512,17 @@ hence its =fromList= method
 can be used as in
 =Tokens $ fromList msg=.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2021-07-30 Fri>
     :PROPERTIES:
     :ID:       42680ba8-c25e-4617-8ba5-9008c9ef5120
-    :DRILL_LAST_INTERVAL: 237.7157
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 367.5085
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-02 Mon 14:56]
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:08]
     :END:
 How to construct the
 =ErrorItem (Token s)=
@@ -4613,17 +4663,17 @@ desired. Use
 ~parseTest <parser> <stringput>~
 instead.
 *** MegaParsec Parsing                                                :drill:
-    SCHEDULED: <2020-07-25 Sat>
+    SCHEDULED: <2022-11-19 Sat>
     :PROPERTIES:
     :ID:       4ec40236-383b-4b61-95d5-ce8c7f3a0e7f
-    :DRILL_LAST_INTERVAL: 371.7951
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 846.5774
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-07-19 Fri 08:43]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-25 Sat 18:00]
     :END:
 Why is the description
 of the second argument in
@@ -5401,17 +5451,17 @@ anyway. Use
 just generate local 
 documentation of dependencies.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-07-25 Sat>
+    SCHEDULED: <2020-08-05 Wed>
     :PROPERTIES:
     :ID:       4f99d1ae-8a15-4be1-908b-c57fcd3f588f
-    :DRILL_LAST_INTERVAL: 17.5177
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 24
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_LAST_INTERVAL: 4.8404
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 27
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.963
     :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-07 Tue 16:02]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:47]
     :END:
 How to generate searchable
 documentation for a project?
@@ -5966,17 +6016,17 @@ parametrized type with
 a type with one inhabitant
 for each parameter value.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-07-25 Sat>
+    SCHEDULED: <2021-12-07 Tue>
     :PROPERTIES:
     :ID:       86001f28-5ea1-40d2-ac0a-c6c53f29a587
-    :DRILL_LAST_INTERVAL: 287.7437
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 499.8108
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.286
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-11 Fri 13:25]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-25 Sat 17:54]
     :END:
 What is the point of
 getting a /kind/ in addition
@@ -9280,17 +9330,17 @@ additional capability to
 add packages, either local
 or from github.
 *** Psc-package                                                       :drill:
-    SCHEDULED: <2020-07-28 Tue>
+    SCHEDULED: <2021-10-19 Tue>
     :PROPERTIES:
     :ID:       598e21d3-4f68-46ce-8562-552f2ae17994
-    :DRILL_LAST_INTERVAL: 277.6369
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 444.7743
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-10-24 Thu 12:22]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:52]
     :END:
 How to create a purescript
 project meant to work with 
@@ -11703,17 +11753,17 @@ Yes, use ~git branch --edit-description~,
 which will add a description to
 configuration ~branch.<branchname>.description~.
 *** git and branches                                                  :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2021-07-30 Fri>
     :PROPERTIES:
     :ID:       d6d9a830-6743-4f8d-b35b-e8a1228aba63
-    :DRILL_LAST_INTERVAL: 237.7157
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 367.5085
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-02 Mon 14:53]
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:08]
     :END:
 How to retrieve a branch
 description?
@@ -13494,6 +13544,47 @@ of income.
 * Gnosis
 ** Alchemy
 *** drugs                                                             :drill:
+    SCHEDULED: <2020-08-09 Sun>
+    :PROPERTIES:
+    :ID:       45b44fd4-4c10-49dc-9728-7f718c167c9d
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:45]
+    :END:
+Why could Thujone be
+psychoactive?
+**** Answer:
+Its molecular structure is
+similar to THC, so it could
+act like cannabis after
+the proper preparation. It
+is also connected with wisdom
+through the herb sage.
+*** drugs                                                             :drill:
+    SCHEDULED: <2020-08-10 Mon>
+    :PROPERTIES:
+    :ID:       459c27b6-7d1e-4cd8-b739-7c9a4d21404e
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:46]
+    :END:
+What could be the reason
+for the presence of minth
+in the eulysian kykeon?
+**** Answer:
+The presence of Thujone
+in some of its varieties.
+*** drugs                                                             :drill:
     SCHEDULED: <2020-10-21 Wed>
     :PROPERTIES:
     :ID:       6c295085-da1c-4e8e-b2c6-4157306112db
@@ -14156,13 +14247,25 @@ planetary positions according
 to your own character traits
 as perceived by yourself.
 *** Zen                                                               :drill:
+    SCHEDULED: <2020-08-09 Sun>
+    :PROPERTIES:
+    :ID:       40c1bdc8-7824-403a-9043-fe5a1b167e47
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:45]
+    :END:
 What is the stone that God
 can not lift?
 **** Answer:
 God is the stone that God
 can not lift. Since it is
-universal, there is background
-to move or accelerate God 
+universal, there is no background
+to move or accelerate God
 against, so God is the immovable
 object.
 *** Zen                                                               :drill:
@@ -14426,17 +14529,17 @@ to Ephesus. In general,
 Artemis is the goddess
 of wild animals.
 *** Church                                                            :drill:
-    SCHEDULED: <2020-07-28 Tue>
+    SCHEDULED: <2020-11-26 Thu>
     :PROPERTIES:
     :ID:       93cd6ba7-7428-4c28-b3d9-065df0133c69
-    :DRILL_LAST_INTERVAL: 54.9212
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 117.6412
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-03 Wed 14:45]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:50]
     :END:
 What is the royal
 purple as worn by
@@ -15526,17 +15629,17 @@ the Hamiltonian in the /θᵢ, τᵢ/
 will yield the paths as contour-
 lines of the Hamiltonian.
 *** Hamiltonians                                                      :drill:
-    SCHEDULED: <2020-07-28 Tue>
+    SCHEDULED: <2021-12-25 Sat>
     :PROPERTIES:
     :ID:       238795d9-aa1c-4a39-a95d-5cbcbafc6dbc
-    :DRILL_LAST_INTERVAL: 284.6442
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 512.3596
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.286
+    :DRILL_AVERAGE_QUALITY: 3.375
     :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-17 Thu 15:00]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:48]
     :END:
 What is the conjugate momentum
 to the angle /θ/ in polar coordinates?
@@ -15641,17 +15744,17 @@ integral of this over the length
 /l/ of the string:
 /T=½∫dxρ(∂ₜψ(x,t))²/.
 *** Waves                                                             :drill:
-    SCHEDULED: <2020-07-29 Wed>
+    SCHEDULED: <2021-06-03 Thu>
     :PROPERTIES:
     :ID:       9d8a492a-e3cb-44da-8d2e-a3d0e298dd94
-    :DRILL_LAST_INTERVAL: 176.5629
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 306.6898
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-03 Mon 14:00]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:48]
     :END:
 What is the potential
 energy of a string?
@@ -15973,17 +16076,17 @@ linearly scanning language
 input.
 ** Relativity
 *** Coordinates                                                       :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2020-08-17 Mon>
     :PROPERTIES:
     :ID:       de929b7c-97bc-4844-84bb-b2e8e814db47
-    :DRILL_LAST_INTERVAL: 9.1096
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.4987
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:30]
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:07]
     :END:
 Why is the separation of
 events whose connecting
@@ -15998,17 +16101,17 @@ observers, the events are
 simultaneous, thus not
 separated by time.
 *** Coordinates                                                       :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2020-08-16 Sun>
     :PROPERTIES:
     :ID:       e8e6736e-83e6-4d8d-8380-931ee3138d4a
-    :DRILL_LAST_INTERVAL: 8.7892
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.512
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:29]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:03]
     :END:
 What is the separation of
 events whose connection line
@@ -16022,17 +16125,17 @@ to the connection. Thus, no
 observer perceives the events
 as simultaneous.
 *** Coordinates                                                       :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2020-08-17 Mon>
     :PROPERTIES:
     :ID:       18b5d679-60e4-4dfc-9976-7c16c67903ab
-    :DRILL_LAST_INTERVAL: 9.1096
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.4987
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:30]
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:05]
     :END:
 What is the geometrical
 difference between timelike
@@ -16047,17 +16150,17 @@ separated events have an angle
 of more than 45°C with the time
 axis.
 *** Coordinates                                                       :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2020-08-16 Sun>
     :PROPERTIES:
     :ID:       4f5e3368-5d62-4574-a20b-83c044115aa4
-    :DRILL_LAST_INTERVAL: 8.7892
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.512
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:28]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:06]
     :END:
 How are the coordinate ticks
 on the systems of different
@@ -16145,6 +16248,18 @@ time-like events cannot occur
 at the same time, ie they are
 separated by time.
 *** Philosophy                                                        :drill:
+    SCHEDULED: <2020-08-09 Sun>
+    :PROPERTIES:
+    :ID:       b356fb82-1807-4b31-8ba4-8e7a7aa756a4
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:44]
+    :END:
 What would be the stone
 that God can not lift in
 a physical sense?
@@ -16154,6 +16269,18 @@ of a gravitational field, a better
 definition would be the object
 that God can not accelerate.
 *** Philosophy                                                        :drill:
+    SCHEDULED: <2020-08-09 Sun>
+    :PROPERTIES:
+    :ID:       8bbb63fa-5f4b-434d-a340-7d149c3d0aa2
+    :DRILL_LAST_INTERVAL: 9.1096
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:46]
+    :END:
 How could an /immovable object/
 be defined?
 **** Answer:
@@ -16161,8 +16288,20 @@ Motion is relative, move the
 observer and you move the
 object. It would have to
 be something that can not
-be accelerated it any direction.
+be accelerated in any direction.
 *** Philosophy                                                        :drill:
+    SCHEDULED: <2020-08-09 Sun>
+    :PROPERTIES:
+    :ID:       f60aca18-cb17-4730-9d1e-ab50c96ca27e
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:44]
+    :END:
 Are there any candidates for the
 concept of /immovable object/?
 **** Answer:
@@ -16176,6 +16315,18 @@ other direction would remove its
 identity as a free photon in a
 vacuum.
 *** Philosophy                                                        :drill:
+    SCHEDULED: <2020-08-09 Sun>
+    :PROPERTIES:
+    :ID:       2e2052cb-301c-4df8-8749-481a629bb928
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:44]
+    :END:
 How could the concept
 of an /irresistible force/
 defined?
@@ -16185,6 +16336,18 @@ A force would be irresistible
 if an object could not be
 accelerated against its direction.
 *** Philosophy                                                        :drill:
+    SCHEDULED: <2020-08-09 Sun>
+    :PROPERTIES:
+    :ID:       c0fcd825-fb19-40b3-9a21-fd0b86c42482
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:45]
+    :END:
 Is there something that
 could qualify as an
 /irresistible force/?
@@ -16311,17 +16474,17 @@ system, such as radioactive
 decay or the count of a
 clock.
 *** Time                                                              :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2020-08-17 Mon>
     :PROPERTIES:
     :ID:       521dc7be-06fb-444d-802c-55ee61dd5ce8
-    :DRILL_LAST_INTERVAL: 9.1096
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.4987
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-18 Sat 15:31]
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:04]
     :END:
 What is the unit of
 measurement for /proper/
@@ -16458,17 +16621,17 @@ have non-zero amplitudes.
 Measuring /|k⟩/ will provide
 one of these numbers.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2021-07-08 Thu>
     :PROPERTIES:
     :ID:       7c272a48-a071-4100-9af5-95f0e422731a
-    :DRILL_LAST_INTERVAL: 145.5885
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 345.6271
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-03 Tue 13:53]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:09]
     :END:
 How to prove that single
 qbit transformations can be
@@ -16727,17 +16890,17 @@ apply single-qbit transformation
 do nothing otherwise, ie
 ~⋀Q=|0⟩⟨0|⊗I+|1⟩⟨1|⊗Q~.
 *** Gates                                                             :drill:
-    SCHEDULED: <2020-07-28 Tue>
+    SCHEDULED: <2021-07-17 Sat>
     :PROPERTIES:
     :ID:       625c421f-14d8-4625-a4c1-075cc487c527
-    :DRILL_LAST_INTERVAL: 150.75
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 350.946
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-28 Fri 13:52]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:49]
     :END:
 How are the gates ~⋀Q~ related
 to quantum negation?
@@ -16991,17 +17154,17 @@ output in the sense of
 ~if |s⟩ then ∑aₛₜ|t⟩~ relating
 state ~|s⟩~ to ~∑aₛₜ|t⟩~.
 *** QBit Notation                                                     :drill:
-    SCHEDULED: <2020-07-26 Sun>
+    SCHEDULED: <2021-08-07 Sat>
     :PROPERTIES:
     :ID:       deab0a3f-51b3-4b04-9977-ab39527fb3b5
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 376.875
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-21 Fri 13:37]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-26 Sun 17:12]
     :END:
 What is ~|0⟩~ in
 vector notation?
@@ -17133,17 +17296,17 @@ is discrete. But the constant
 function has the dirac function
 as Fourier transform.
 *** Algebra                                                           :drill:
-    SCHEDULED: <2020-07-29 Wed>
+    SCHEDULED: <2020-10-08 Thu>
     :PROPERTIES:
     :ID:       d69958e3-9f88-4822-9754-c0dbf04d93fc
-    :DRILL_LAST_INTERVAL: 51.7763
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 68.966
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 3.154
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-07 Sun 15:52]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:53]
     :END:
 How to change between
 different representations
@@ -17641,17 +17804,17 @@ representing /Λ/ on the
 Hilbert space on which /Φ(x)/ 
 is defined.
 *** Fields                                                            :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2022-06-06 Mon>
     :PROPERTIES:
     :ID:       c1e79410-385d-4a39-bd21-f2409a5f31cb
-    :DRILL_LAST_INTERVAL: 370.1002
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 678.7638
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.429
-    :DRILL_EASE: 1.9
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-07-23 Tue 09:11]
+    :DRILL_AVERAGE_QUALITY: 3.375
+    :DRILL_EASE: 1.76
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:10]
     :END:
 Why do PDE's like the
 Gordon-Klein equation
@@ -17800,17 +17963,17 @@ which can be written
 sum convention and Dirac
 matrices /D/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2020-07-30 Thu>
+    SCHEDULED: <2020-08-21 Fri>
     :PROPERTIES:
     :ID:       43216a75-a8d1-440f-b670-f9c465df9543
-    :DRILL_LAST_INTERVAL: 9.1096
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.4987
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-21 Tue 14:41]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:48]
     :END:
 How to turn a quantum state
 /|ϕ⟩/ into an operator?
@@ -17818,17 +17981,17 @@ How to turn a quantum state
 By assigning the density
 matrix /|ϕ⟩⟨ϕ|/ to it.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2020-07-30 Thu>
+    SCHEDULED: <2020-08-21 Fri>
     :PROPERTIES:
     :ID:       4de9dcc0-bbc8-42c5-a75f-f8c35aff5448
-    :DRILL_LAST_INTERVAL: 9.1096
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 20.7426
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-21 Tue 14:41]
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:47]
     :END:
 In which sense provide
 /density matrices/ a
@@ -17844,17 +18007,17 @@ density matrices /|ϕ⟩⟨ϕ|/
 arising from quantum states
 /|ϕ⟩/.
 *** Hilbert Space                                                     :drill:
-    SCHEDULED: <2020-07-25 Sat>
+    SCHEDULED: <2021-07-03 Sat>
     :PROPERTIES:
     :ID:       18ecfcda-505c-4330-b9af-cf9751da34f1
-    :DRILL_LAST_INTERVAL: 150.75
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 343.2578
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-25 Tue 13:52]
+    :DRILL_LAST_REVIEWED: [2020-07-25 Sat 18:01]
     :END:
 What is the tensor
 product /|a⟩⟨b|⊗|c⟩⟨d|/
@@ -18420,17 +18583,17 @@ This is the result of
 Hong-Ou-Mandel.
 https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-07-26 Sun>
+    SCHEDULED: <2021-07-07 Wed>
     :PROPERTIES:
     :ID:       6a23b794-ed10-4afd-bd99-52076508341f
-    :DRILL_LAST_INTERVAL: 145.5885
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 345.6271
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-02 Mon 14:58]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-26 Sun 17:12]
     :END:
 How to interpret the
 Heisenberg picture in
@@ -18464,17 +18627,17 @@ describes a measurement by
 decomposing the state space
 into its eigenspaces.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-07-24 Fri>
+    SCHEDULED: <2021-07-15 Thu>
     :PROPERTIES:
     :ID:       ba1ae510-0ac4-4e8d-8808-479bb5f48e93
-    :DRILL_LAST_INTERVAL: 150.75
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 355.77
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_AVERAGE_QUALITY: 3.833
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-24 Mon 14:31]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-24 Fri 17:08]
     :END:
 How is a Hermitian operator
 applied to a measurement?
@@ -18520,17 +18683,17 @@ as /|v⟩=∑ᵢσᵢ|sᵢ⟩/ is projected
 onto subspace /Sᵢ/ with
 probability /|σᵢ|²/. 
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-07-29 Wed>
+    SCHEDULED: <2021-08-26 Thu>
     :PROPERTIES:
     :ID:       5a655d0f-1d06-4326-9523-c7f7075c0842
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 390.625
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-24 Mon 14:31]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:48]
     :END:
 What is a quantum
 measurement mathematically?
@@ -19075,17 +19238,17 @@ where /x₀/ is the concentration point
 of the wave-function.
 
 *** Operators: Projections                                            :drill:
-    SCHEDULED: <2020-07-24 Fri>
+    SCHEDULED: <2021-07-02 Fri>
     :PROPERTIES:
     :ID:       43aba786-0696-4844-8d40-5703c5e93ded
-    :DRILL_LAST_INTERVAL: 150.75
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 343.2578
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-24 Mon 14:28]
+    :DRILL_LAST_REVIEWED: [2020-07-24 Fri 17:04]
     :END:
 How to factor projections
 /P/ as /P=Fⁿ/?
@@ -19146,17 +19309,17 @@ look more like the sum in the
 resolution of operators on
 finite dimensional spaces.
 *** Operators: Resolutions                                            :drill:
-    SCHEDULED: <2020-07-29 Wed>
+    SCHEDULED: <2021-04-27 Tue>
     :PROPERTIES:
     :ID:       4109d968-364e-4dac-83bb-736b5eacff3e
-    :DRILL_LAST_INTERVAL: 126.0957
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 270.097
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-25 Wed 15:01]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:54]
     :END:
 What is the difficulty in
 defining eigenspaces for
@@ -19408,17 +19571,17 @@ it Hermitian, it has to
 be multiplied by the
 imaginary unit /i/.
 *** Operators                                                         :drill:
-    SCHEDULED: <2020-07-26 Sun>
+    SCHEDULED: <2021-05-26 Wed>
     :PROPERTIES:
     :ID:       47992417-dbe4-4358-859a-1b1cc19a4cde
-    :DRILL_LAST_INTERVAL: 130.6455
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 304.1427
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-17 Tue 14:14]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-26 Sun 17:13]
     :END:
 Why do the brackets of
 operators receive more
@@ -19922,17 +20085,17 @@ strong and electromagnetic
 interactions but is not preserved
 in weak interactions.
 *** Particles                                                         :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2022-05-02 Mon>
     :PROPERTIES:
     :ID:       e737b08d-6195-4ff6-9aad-48c893933eec
-    :DRILL_LAST_INTERVAL: 370.4822
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 643.5276
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.285
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.249
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-23 Tue 09:05]
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:07]
     :END:
 What seems to be the
 standard way to classify
@@ -20333,17 +20496,17 @@ constant /C/ and a quadratic form
 /W(J)=-1/2∫∫ dx dy J(x)D(x-y)J(y)/
 where /D/ is the propagator.
 *** Path integral						      :drill:
-    SCHEDULED: <2020-07-30 Thu>
+    SCHEDULED: <2021-01-12 Tue>
     :PROPERTIES:
     :ID:       76ca26cb-267e-4178-8ced-2a3adfe330fa
-    :DRILL_LAST_INTERVAL: 131.5761
-    :DRILL_REPEATS_SINCE_FAIL: 16
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 164.9964
+    :DRILL_REPEATS_SINCE_FAIL: 17
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.053
-    :DRILL_EASE: 1.3
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-20 Fri 16:11]
+    :DRILL_AVERAGE_QUALITY: 3.05
+    :DRILL_EASE: 1.16
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:51]
     :END:
 What is the physical meaning of the 
 propagator?
@@ -20996,17 +21159,17 @@ where ~PROFILE~ is something like
 ~output:hdmi-stereo~ or
 ~output:hdmi-stereo-extra1~.
 *** Microphone                                                        :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       e5e9f8f3-2c8e-4d46-ad12-eeecfa2aa5c3
-    :DRILL_LAST_INTERVAL: 51.8546
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 118.0729
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-05 Fri 15:51]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:11]
     :END:
 How to configure the
 internal microphone
@@ -21023,17 +21186,17 @@ set the left one to between
 50% and 100%. Then relock the
 channels.
 *** Microphone                                                        :drill:
-    SCHEDULED: <2020-07-27 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       e3d277fb-2e4d-46f1-acc8-da68d4663d90
-    :DRILL_LAST_INTERVAL: 51.8546
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 118.0729
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-05 Fri 15:45]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-27 Mon 20:10]
     :END:
 What's the problem when
 an internal laptop
@@ -21050,17 +21213,17 @@ that case, the right channel
 has to be muted.
 ** Windows
 *** Chromecasting                                                     :drill:
-    SCHEDULED: <2020-07-26 Sun>
+    SCHEDULED: <2020-11-10 Tue>
     :PROPERTIES:
     :ID:       ba2393c0-2b4d-4e2d-850f-4dd3afb154c0
-    :DRILL_LAST_INTERVAL: 50.0309
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 107.1662
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-06 Sat 16:06]
+    :DRILL_LAST_REVIEWED: [2020-07-26 Sun 17:13]
     :END:
 What's the problem if there
 is no sound when chromecasting
@@ -21275,17 +21438,17 @@ Do a
 as root and try to
 shut it down again.
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-07-25 Sat>
+    SCHEDULED: <2020-11-13 Fri>
     :PROPERTIES:
     :ID:       c597ed94-7335-41a9-b8a2-dd73d94889c4
-    :DRILL_LAST_INTERVAL: 50.0309
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 111.0686
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-05 Fri 15:54]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-07-25 Sat 17:54]
     :END:
 How to configure an internal
 microphone in lubuntu using
@@ -21300,17 +21463,17 @@ is only one microphone. Relock
 them after setting the proper
 volume on the left channel.
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-07-29 Wed>
+    SCHEDULED: <2020-12-15 Tue>
     :PROPERTIES:
     :ID:       259b8d74-0845-4239-bfe3-0cafa73517fc
-    :DRILL_LAST_INTERVAL: 53.6783
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 136.665
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 4.2
+    :DRILL_EASE: 2.56
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-06-05 Fri 15:51]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:54]
     :END:
 How to configure sound on
 lubuntu if it uses pulseaudio?
@@ -21337,17 +21500,17 @@ totally on the command-line or,
 if available, =lxrandr= which
 provides a gui.
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-07-25 Sat>
+    SCHEDULED: <2021-04-26 Mon>
     :PROPERTIES:
     :ID:       afa293a0-9c3c-4a22-a15c-4aec79770d7c
-    :DRILL_LAST_INTERVAL: 171.7841
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 275.1981
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.429
-    :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-04 Tue 12:11]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 1.52
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-07-25 Sat 18:00]
     :END:
 How to manipulate monitor
 brightness from the command
@@ -21876,17 +22039,17 @@ created with [setfacl||the command].
 The [Access Control List entries] for a file 
 can be checked with [getfacl||the command].
 *** Network                                                           :drill:
-    SCHEDULED: <2020-07-24 Fri>
+    SCHEDULED: <2020-10-18 Sun>
     :PROPERTIES:
     :ID:       ea9c1dcc-9a1c-4827-a772-143b3c198aa3
-    :DRILL_LAST_INTERVAL: 41.7947
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 86.3896
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-12 Fri 14:06]
+    :DRILL_LAST_REVIEWED: [2020-07-24 Fri 17:11]
     :END:
 What to do if the
 system doesn't resolve
@@ -22223,17 +22386,17 @@ can be tested with ~! -z "$RESULT"~ which
 returns true if the string in ~$RESULT~
 is non-empty.
 *** services                                                          :drill:
-    SCHEDULED: <2020-07-30 Thu>
+    SCHEDULED: <2022-03-27 Sun>
     :PROPERTIES:
     :ID:       41205474-5e9a-44df-915d-6189c62a785f
-    :DRILL_LAST_INTERVAL: 291.6131
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 603.6391
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.571
-    :DRILL_EASE: 2.0
+    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_EASE: 2.1
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-10-12 Sat 13:40]
+    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:54]
     :END:
 How to fool a package
 such as android-tools-adb
