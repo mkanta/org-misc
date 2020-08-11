@@ -1757,19 +1757,19 @@ It pipes a value into
 the first argument of
 a function /call/ to the
 right.
-** emacs
+** Emacs
 *** configuration                                                     :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-11-23 Mon>
     :PROPERTIES:
     :ID:       daf8a3f8-bd97-4f16-9eaf-a4d7aca9623b
-    :DRILL_LAST_INTERVAL: 48.9525
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 104.8563
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:28]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:41]
     :END:
 What is the problem
 if ~org-drill~ is not 
@@ -1976,17 +1976,17 @@ Type ~!~ or ~&~ (for asynchronous
 operations) and type ~xdg-open~
 at the prompt.
 *** dired                                                             :drill:
-    SCHEDULED: <2020-08-08 Sat>
+    SCHEDULED: <2022-04-17 Sun>
     :PROPERTIES:
     :ID:       8bac2d7a-f499-4ce9-b01c-d5fe2567f23a
-    :DRILL_LAST_INTERVAL: 353.7993
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 614.5494
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.286
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-08-20 Tue 10:16]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:42]
     :END:
 How to make hidden files
 disappear automatically in
@@ -2125,6 +2125,12 @@ command like ~C-f~ after
 the mess-up and then
 do an /undo/.
 *** editing                                                           :drill:
+  How to check for
+  matching parentheses?
+**** Answer:
+  Enable ~show-paren-mode~ with
+  ~M-x show-paren-mode~.
+*** editing                                                           :drill:
     SCHEDULED: <2021-06-07 Mon>
     :PROPERTIES:
     :ID:       5f259e2f-9730-41ff-9aa0-d9187a505bec
@@ -2151,7 +2157,22 @@ with the /undo/ operation
 so that the top of the
 stack now contains the
 /undo/ operation.
-*** elisp							      :drill:
+*** editing                                                           :drill:
+  How to put a newline in the minibuffer?
+**** Answer:
+  With ~C-q C-j~.
+
+*** Emacs Lisp                                                        :drill:
+  What's the meaning of
+  a comma in an elisp list?
+**** Answer:
+  This makes sense only in
+  back-quoted lists where
+  a comma unquotes the
+  following list element,
+  which is consequently
+  evaluated.
+*** Emacs Lisp							      :drill:
     SCHEDULED: <2020-08-27 Thu>
     :PROPERTIES:
     :ID:       bc032dfe-8a0e-4c4e-bd0e-94860f3ed4c0
@@ -2173,7 +2194,7 @@ list. Arguments in the
 ~&rest e~ are concatenated
 into a list and bound to
 ~e~.
-*** elisp							      :drill:
+*** Emacs Lisp							      :drill:
     SCHEDULED: <2020-08-25 Tue>
     :PROPERTIES:
     :ID:       75b71600-0db3-42bf-b965-3c3f7702c919
@@ -2195,7 +2216,7 @@ Set the first one to =nil=
 which will result in the
 default value being used
 for it.
-*** elisp							      :drill:
+*** Emacs Lisp							      :drill:
     SCHEDULED: <2020-10-16 Fri>
     :PROPERTIES:
     :ID:       30ec03c3-defd-4341-bc6c-c9549b511b9f
@@ -2217,7 +2238,7 @@ The result of ~seq-elt~ can
 be modified using ~setf~
 whereas ~elt~ returns a
 constant.
-*** elisp							      :drill:
+*** Emacs Lisp							      :drill:
     SCHEDULED: <2020-11-20 Fri>
     :PROPERTIES:
     :ID:       bd0866b9-d814-42f9-8f37-d5352e36c314
@@ -2235,7 +2256,7 @@ a variable with =set= vs =setq=?
 **** Answer:
 In =setq= there is no attempt to evaluate
 the first argument, it is assumed quoted.
-*** elisp							      :drill:
+*** Emacs Lisp							      :drill:
     SCHEDULED: <2020-08-23 Sun>
     :PROPERTIES:
     :ID:       85d6aa60-e332-4b78-8237-f498b08c5748
@@ -2253,7 +2274,7 @@ setting a variable with /set/ vs /let/?
 **** Answer:
 Variables set with =let varlist body=
 are only visible within /body/.
-*** elisp							      :drill:
+*** Emacs Lisp							      :drill:
     SCHEDULED: <2021-03-17 Wed>
     :PROPERTIES:
     :ID:       454a9228-a12f-4b0a-95b8-bdb511d7c400
@@ -2278,7 +2299,7 @@ asigned a value. A list of the form
 =symbol1= and =symbol2= with values =nil=, 
 not a variable name =symbol1= with value 
 =symbol2=.
-*** elisp							      :drill:
+*** Emacs Lisp							      :drill:
     SCHEDULED: <2022-03-06 Sun>
     :PROPERTIES:
     :ID:       a274fee8-a3cf-4332-a890-abb36b312e6c
@@ -2300,7 +2321,7 @@ Whilst =funcall= treats the arguments after the
 function as arguments of the function, =apply=
 inserts them into the list given by the last 
 argument.
-*** elisp							      :drill:
+*** Emacs Lisp							      :drill:
     SCHEDULED: <2020-12-11 Fri>
     :PROPERTIES:
     :ID:       ea6336b3-1a9a-41c1-8bc8-0243842e4b9c
@@ -2318,6 +2339,22 @@ results in a lisp error: /wrong-type-argument
 listp argname/?
 **** Answer:
 The last argument of =apply= must be a list.
+*** Emacs Lisp                                                        :drill:
+  Why use =(format "%s" stringvar)= 
+  rather than just string variable 
+  =(stringvar)= itself?
+**** Answer:
+  Because there may be escape sequences in the
+  string itself, which are properly handled 
+  by =format=.
+*** Emacs Lisp                                                        :drill:
+  How to prevent ~void-variable~
+  errors?
+**** Answer:
+  Ideally by checking with ~(boundp 'varname)~
+  before using ~varname~.
+  It will return ~t~ if ~varname~ is
+  defined, ~nil~ otherwise.
 *** ess                                                               :drill:
     SCHEDULED: <2021-06-05 Sat>
     :PROPERTIES:
@@ -2409,17 +2446,17 @@ PARALLEL TO but is too short
 and too close:
 ∥v∥.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-08-07 Fri>
+    SCHEDULED: <2020-12-01 Tue>
     :PROPERTIES:
     :ID:       57649b5e-9b9a-41c0-88f9-15b14f37a8ba
-    :DRILL_LAST_INTERVAL: 50.7369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 115.5279
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:38]
+    :DRILL_AVERAGE_QUALITY: 3.6
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-08-07 Fri 20:40]
     :END:
 What is the problem if
 after installing emacs26
@@ -2436,17 +2473,17 @@ Uninstall the previous version
 either before or after installing
 26.
 *** installing                                                        :drill:
-    SCHEDULED: <2020-08-07 Fri>
+    SCHEDULED: <2020-12-05 Sat>
     :PROPERTIES:
     :ID:       58224213-90ca-4bb0-ae0b-77823eef64c3
-    :DRILL_LAST_INTERVAL: 50.7369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 119.7391
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:38]
+    :DRILL_LAST_REVIEWED: [2020-08-07 Fri 20:40]
     :END:
 What is the problem when
 removing ~emacs25~ results
@@ -2907,6 +2944,35 @@ to create ~file.md~ and then use
 get an org-file. Alternatively
 convert to /rst/ or /latex/ instead
 of /markdown/ and then to org.
+*** org-mode capture                                                  :drill:
+  How is the link for the ~%a~ escape constructed?
+**** Answer:
+  If the capture was initiated from an org-mode 
+  buffer and no region there is active, the link 
+  is of the form =file:<path>::*<nearest headline>= 
+  and the jump goes to that headline. Otherwise it 
+  is =file:<path>::<region text>= .
+*** org-mode capture                                                 :drill:
+  What is the point of ~%a~
+  in a capture template?
+**** Answer:
+  The ~%a~-escape leaves a link to the file from where the capture was
+  initiated and allows to jump there from a capture entry, for example
+  from a TODO entry in the capture file to the file where the work needs
+  to be done.
+*** org-mode capture                                                  :drill:
+  What is the recommended way
+  to handle a capture that
+  creates a link with ~%a~?
+**** Answer:
+  If ~org-capture~ is called
+  from an org-mode buffer,
+  create a temporary target
+  with ~<< ... >>~ and select
+  the text in it before calling
+  ~org-capture~. Remove the
+  target markers once the TODO
+  is DONE.
 *** org-mode drill                                                    :drill:
     SCHEDULED: <2020-08-14 Fri>
     :PROPERTIES:
@@ -2931,17 +2997,17 @@ calls an undefined function
 ~first~, probably due to a typo.
 It (probably) should call ~cl-first~.
 *** org-mode exports                                                  :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-12-13 Sun>
     :PROPERTIES:
     :ID:       1c1fbc30-b7b2-4d75-b074-9e78db6c6430
-    :DRILL_LAST_INTERVAL: 52.5213
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 124.6856
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:40]
+    :DRILL_AVERAGE_QUALITY: 3.8
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:40]
     :END:
 What is the problem if
 latex-pdf export complains
@@ -3073,6 +3139,28 @@ The markdown option
 for =ox-ravel= is only
 available if =ox-md= is
 loaded as well.
+*** org-mode links                                                    :drill:
+  What happens with a
+  =file:<path>::<text>=
+  if there is no ~<<text>>~
+  in <path>?
+**** Answer:
+  Emacs searches for an element 
+  named ~<text>~, then a headline 
+  of that name, possibly with 
+  TODOs and tags and finally 
+  initiates a text search, 
+  possibly after asking whether 
+  a header should be created.
+*** org-mode links                                                    :drill:
+  When does a link of
+  of the form
+  =file:<path>::<text>=
+  work best?
+**** Answer:
+   When there is a 
+   ~<<text>>~ in the
+   target file.
 *** org-mode maxima                                                   :drill:
     SCHEDULED: <2021-05-10 Mon>
     :PROPERTIES:
@@ -3158,6 +3246,62 @@ into the file, select it and run
 ~C-c = r~ to evaluate it or use
 ~C-c = m~ to be prompted for it
 in the minibuffer.
+*** org-mode publishing                                               :drill:
+  How to get default options
+  for exporting an org file
+  to latex?
+**** Answer:
+  Press ~C-c C-e~ in the org-mode file and 
+  select option ~#~. Then scroll with the
+  down-arrow until ~latex~ shows up in the
+  minibuffer. Hit enter.
+*** org-mode publishing                                               :drill:
+  How to configure publishing
+  for an org file that
+  includes other files?
+**** Answer:
+  This may need a 
+  ~:preparation-function~
+  that causes an org-export
+  of that file so that all
+  the include files are in.
+  In any case, the included
+  files should be listed in
+  ~:exclude~.
+*** org-mode publishing                                               :drill:
+  What to do with undocumented
+  properties of 
+  ~org-publish-project-alist~ ?
+**** Answer:
+  Properties not documented in the
+  ~org-publish-project-alist~ are
+  usually back-end specific. The
+  documentation can then be found
+  in the respective back-end.
+*** org-mode publishing                                               :drill:
+  Why should the ~html_container~
+  normally not be changed from
+  its default ~div~?
+**** Answer:
+  Because it will conflict with
+  =org-info.js=, rendering it
+  inoperable.
+*** org-mode publishing                                               :drill:
+  How to use indices
+  for latex export?
+**** Answer:
+  The org-mode index mechanism
+  can be used, however the
+  project will have to be
+  compiled with ~texi2dvi~.
+*** org-mode publishing                                               :drill:
+  How to configure org-mode
+  so that indices are published
+  properly to pdf?
+**** Answer:
+  Set ~org-export-pdf~ to
+  "texi2dvi" using
+  ~M-x customize-group~.
 *** org-mode tables                                                   :drill:
     SCHEDULED: <2020-11-28 Sat>
     :PROPERTIES:
@@ -4053,17 +4197,17 @@ step through it with
 successive =:step=
 commands.
 *** Debugging Haskell                                                 :drill:
-    SCHEDULED: <2020-08-07 Fri>
+    SCHEDULED: <2021-08-10 Tue>
     :PROPERTIES:
     :ID:       6f026052-eac4-4428-8ee3-52097283301e
-    :DRILL_LAST_INTERVAL: 237.7157
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 367.5085
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-13 Fri 12:55]
+    :DRILL_LAST_REVIEWED: [2020-08-07 Fri 20:39]
     :END:
 What to do if single
 stepping through a
@@ -4101,17 +4245,17 @@ the resulting history
 with =:back= to see what was
 going on.
 *** Debugging Haskell                                                 :drill:
-    SCHEDULED: <2020-08-07 Fri>
+    SCHEDULED: <2020-08-16 Sun>
     :PROPERTIES:
     :ID:       3a9aa6b4-63be-4335-990f-296306181054
-    :DRILL_LAST_INTERVAL: 237.7157
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_LAST_INTERVAL: 5.1415
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.9
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-13 Fri 12:56]
+    :DRILL_LAST_REVIEWED: [2020-08-11 Tue 15:00]
     :END:
 What is the most
 convenient way to set
@@ -5523,17 +5667,17 @@ anyway. Use
 just generate local 
 documentation of dependencies.
 *** Stack use                                                         :drill:
-    SCHEDULED: <2020-08-11 Tue>
+    SCHEDULED: <2020-08-18 Tue>
     :PROPERTIES:
     :ID:       4f99d1ae-8a15-4be1-908b-c57fcd3f588f
-    :DRILL_LAST_INTERVAL: 5.6149
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 28
+    :DRILL_LAST_INTERVAL: 7.2994
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 29
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.034
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-08-05 Wed 16:30]
+    :DRILL_LAST_REVIEWED: [2020-08-11 Tue 14:59]
     :END:
 How to generate searchable
 documentation for a project?
@@ -5778,17 +5922,17 @@ Yes, in-built datatypes like
 because they don't have 
 constructors.
 *** Types                                                             :drill:
-    SCHEDULED: <2020-08-06 Thu>
+    SCHEDULED: <2021-12-19 Sun>
     :PROPERTIES:
     :ID:       ada8ad27-b160-44f2-a34e-f915af3b44b5
-    :DRILL_LAST_INTERVAL: 287.7437
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 499.8108
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.286
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-10-23 Wed 17:16]
+    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-08-06 Thu 15:59]
     :END:
 How to use row
 polymorphism
@@ -6509,17 +6653,17 @@ to get the length types right.
 The tools for that are all in
 the library.
 *** Type arithmetic                                                   :drill:
-    SCHEDULED: <2020-08-07 Fri>
+    SCHEDULED: <2021-02-12 Fri>
     :PROPERTIES:
     :ID:       ade9ce49-60fa-4151-9b47-444ff1e2a238
-    :DRILL_LAST_INTERVAL: 175.1386
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 189.1497
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-14 Fri 15:24]
+    :DRILL_LAST_REVIEWED: [2020-08-07 Fri 20:40]
     :END:
 How to check two =Nat= types
 for equality?
@@ -7247,17 +7391,17 @@ generates a list of values
 =[x, f x, f (f x),...]= in
 combination with =take=.
 *** Utilities                                                         :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-08-16 Sun>
     :PROPERTIES:
     :ID:       3ecf4abd-49bb-45f3-b2f8-167e463b0967
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 6.08
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.1
     :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-08-05 Wed 16:42]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:34]
     :END:
 How to generate a
 constant list in
@@ -11183,17 +11327,17 @@ character into an lxterminal?
 Use something like
 =echo -e '\u<unicode>'=.
 *** user interface                                                    :drill:
-    SCHEDULED: <2020-08-08 Sat>
+    SCHEDULED: <2021-12-30 Thu>
     :PROPERTIES:
     :ID:       367911e5-2556-4fab-9e73-6796ddde7398
-    :DRILL_LAST_INTERVAL: 316.7895
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 507.4968
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-09-26 Thu 13:46]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:35]
     :END:
 How to switch to a terminal
 and back from the graphical 
@@ -13617,17 +13761,17 @@ of income.
 * Gnosis
 ** Alchemy
 *** drugs                                                             :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-08-29 Sat>
     :PROPERTIES:
     :ID:       45b44fd4-4c10-49dc-9728-7f718c167c9d
-    :DRILL_LAST_INTERVAL: 8.7892
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 18.8265
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:45]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:31]
     :END:
 Why could Thujone be
 psychoactive?
@@ -13639,17 +13783,17 @@ the proper preparation. It
 is also connected with wisdom
 through the herb sage.
 *** drugs                                                             :drill:
-    SCHEDULED: <2020-08-10 Mon>
+    SCHEDULED: <2020-09-04 Fri>
     :PROPERTIES:
     :ID:       459c27b6-7d1e-4cd8-b739-7c9a4d21404e
-    :DRILL_LAST_INTERVAL: 10.0
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 25.0
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:46]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:33]
     :END:
 What could be the reason
 for the presence of minth
@@ -13879,17 +14023,17 @@ microbiological spectrum
 beneficial for plant life,
 ie the Green Lion.
 *** symbolism                                                         :drill:
-    SCHEDULED: <2020-08-11 Tue>
+    SCHEDULED: <2020-11-04 Wed>
     :PROPERTIES:
     :ID:       61eed2e4-bfbe-4d08-81ba-e405047c9628
-    :DRILL_LAST_INTERVAL: 41.2296
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 85.2216
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-01 Wed 11:01]
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-08-11 Tue 15:00]
     :END:
 What is the astrological
 interpretation of the
@@ -14320,17 +14464,17 @@ planetary positions according
 to your own character traits
 as perceived by yourself.
 *** Zen                                                               :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-08-29 Sat>
     :PROPERTIES:
     :ID:       40c1bdc8-7824-403a-9043-fe5a1b167e47
-    :DRILL_LAST_INTERVAL: 8.7892
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 18.8265
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:45]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:31]
     :END:
 What is the stone that God
 can not lift?
@@ -16321,17 +16465,17 @@ time-like events cannot occur
 at the same time, ie they are
 separated by time.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-08-31 Mon>
     :PROPERTIES:
     :ID:       b356fb82-1807-4b31-8ba4-8e7a7aa756a4
-    :DRILL_LAST_INTERVAL: 9.1096
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.4987
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:44]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:33]
     :END:
 What would be the stone
 that God can not lift in
@@ -16342,17 +16486,17 @@ of a gravitational field, a better
 definition would be the object
 that God can not accelerate.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-08-31 Mon>
     :PROPERTIES:
     :ID:       8bbb63fa-5f4b-434d-a340-7d149c3d0aa2
-    :DRILL_LAST_INTERVAL: 9.1096
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 21.4987
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:46]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:31]
     :END:
 How could an /immovable object/
 be defined?
@@ -16363,17 +16507,17 @@ object. It would have to
 be something that can not
 be accelerated in any direction.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-08-30 Sun>
     :PROPERTIES:
     :ID:       f60aca18-cb17-4730-9d1e-ab50c96ca27e
-    :DRILL_LAST_INTERVAL: 8.7892
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.512
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:44]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:34]
     :END:
 Are there any candidates for the
 concept of /immovable object/?
@@ -16388,17 +16532,17 @@ other direction would remove its
 identity as a free photon in a
 vacuum.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-08-29 Sat>
     :PROPERTIES:
     :ID:       2e2052cb-301c-4df8-8749-481a629bb928
-    :DRILL_LAST_INTERVAL: 8.7892
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 18.8265
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:44]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:32]
     :END:
 How could the concept
 of an /irresistible force/
@@ -16409,17 +16553,17 @@ A force would be irresistible
 if an object could not be
 accelerated against its direction.
 *** Philosophy                                                        :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2020-08-29 Sat>
     :PROPERTIES:
     :ID:       c0fcd825-fb19-40b3-9a21-fd0b86c42482
-    :DRILL_LAST_INTERVAL: 8.7892
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 18.8265
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 20:45]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:31]
     :END:
 Is there something that
 could qualify as an
@@ -17138,17 +17282,17 @@ same degenerate energy
 level are called hyperfine
 qbits.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-08-11 Tue>
+    SCHEDULED: <2020-10-07 Wed>
     :PROPERTIES:
     :ID:       1c8e1ca5-391d-439b-ae1b-5c6d729730a5
-    :DRILL_LAST_INTERVAL: 29.1566
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 56.5638
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.399
+    :DRILL_AVERAGE_QUALITY: 3.454
     :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-13 Mon 16:49]
+    :DRILL_LAST_REVIEWED: [2020-08-11 Tue 15:00]
     :END:
 How to measure equality
 of bits in a two qbit
@@ -18328,17 +18472,17 @@ of the Lorentz-group on the space and
 minimal, ie the space of an irreducible
 representation of the Lorentz-group.
 *** Hilbert space						      :drill:
-    SCHEDULED: <2020-08-06 Thu>
+    SCHEDULED: <2020-12-19 Sat>
     :PROPERTIES:
     :ID:       0992cf10-9d6b-420b-98fd-4e3215682379
-    :DRILL_LAST_INTERVAL: 107.7156
-    :DRILL_REPEATS_SINCE_FAIL: 21
-    :DRILL_TOTAL_REPEATS: 31
+    :DRILL_LAST_INTERVAL: 135.0754
+    :DRILL_REPEATS_SINCE_FAIL: 22
+    :DRILL_TOTAL_REPEATS: 32
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 3.13
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.126
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-20 Mon 12:54]
+    :DRILL_LAST_REVIEWED: [2020-08-06 Thu 15:58]
     :END:
 How can particles be classified?
 **** Answer:
@@ -18928,17 +19072,17 @@ is not disturbed, or at least
 only minimally, such as in
 a cloud chamber.
 *** Measurement                                                       :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2021-03-21 Sun>
     :PROPERTIES:
     :ID:       6ee2a1ef-753a-4cae-91e8-c24b7afd35a1
-    :DRILL_LAST_INTERVAL: 138.9529
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 222.6025
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-23 Mon 19:37]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:38]
     :END:
 What is a non-destructive
 quantum measurement according
@@ -19854,17 +19998,17 @@ that /ρ²+τ²=1/ and
 unitary matrices give
 rise to discrete FTs?)
 *** Optics                                                            :drill:
-    SCHEDULED: <2020-08-06 Thu>
+    SCHEDULED: <2021-08-09 Mon>
     :PROPERTIES:
     :ID:       71d0589f-a056-4685-b86d-bb5a537ff7d3
-    :DRILL_LAST_INTERVAL: 237.7157
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 367.5085
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-12-12 Thu 14:01]
+    :DRILL_LAST_REVIEWED: [2020-08-06 Thu 15:56]
     :END:
 How does a beam splitter
 give rise to an operator?
@@ -22231,17 +22375,17 @@ way may result in the removal
 of a number of ~tex-live~
 packages.
 *** package management                                                :drill:
-    SCHEDULED: <2020-08-07 Fri>
+    SCHEDULED: <2020-12-05 Sat>
     :PROPERTIES:
     :ID:       1926acb3-3e8d-41de-a560-46a3d24e2524
-    :DRILL_LAST_INTERVAL: 50.7369
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 119.7391
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.75
+    :DRILL_AVERAGE_QUALITY: 3.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-17 Wed 14:37]
+    :DRILL_LAST_REVIEWED: [2020-08-07 Fri 20:36]
     :END:
 What is the problem if an
 attempt to remove a package
@@ -22923,17 +23067,17 @@ xmonad should be spawned
 in the ~startupHook~ in
 xmonad.hs.
 *** xmonad                                                            :drill:
-    SCHEDULED: <2020-08-09 Sun>
+    SCHEDULED: <2022-02-18 Fri>
     :PROPERTIES:
     :ID:       5cf34575-120a-4bbf-b42b-b9af55d0640a
-    :DRILL_LAST_INTERVAL: 347.784
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 557.15
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-08-27 Tue 09:07]
+    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:39]
     :END:
 How to configure xmonad
 to exhibit the network
