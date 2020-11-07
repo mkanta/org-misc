@@ -684,17 +684,17 @@ matrix /B/?
 **** Answer:
 /vₚ=(I-Bᵀ(BBᵀ)⁻¹B)v/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2020-10-31 Sat>
+    SCHEDULED: <2022-01-28 Fri>
     :PROPERTIES:
     :ID:       b00412c8-2fa8-42e0-987b-7ae7cf22ba6d
-    :DRILL_LAST_INTERVAL: 281.6331
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 451.1762
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-23 Thu 14:21]
+    :DRILL_LAST_REVIEWED: [2020-11-03 Tue 21:31]
     :END:
 How to calculate 
 eigenvectors and
@@ -755,17 +755,17 @@ linear combinations of vectors
 from /|-λ⟩/ and /|λ⟩/ is an
 eigenvector of /P²/.
 *** Linear Algebra: Matrices                                          :drill:
-    SCHEDULED: <2020-10-29 Thu>
+    SCHEDULED: <2021-06-15 Tue>
     :PROPERTIES:
     :ID:       31a695cf-7f35-4ffe-8800-bd57d96862bd
-    :DRILL_LAST_INTERVAL: 106.8202
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 228.8089
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-14 Tue 14:52]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-10-29 Thu 18:59]
     :END:
 How to turn a vector space
 into an algebra?
@@ -1456,17 +1456,17 @@ expressed as an integer linear
 combination /V=⊕ᵢaᵢVᵢ/ of 
 irreducible representations.
 *** Representations                                                   :drill:
-    SCHEDULED: <2020-11-06 Fri>
+    SCHEDULED: <2022-11-18 Fri>
     :PROPERTIES:
     :ID:       823cc259-3bf7-4c1d-b32a-d608b5650bd2
-    :DRILL_LAST_INTERVAL: 325.873
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 742.0128
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-16 Mon 18:22]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-11-06 Fri 19:49]
     :END:
 How to define characters
 in infinite groups?
@@ -1477,17 +1477,17 @@ finite dimensional representations
 /r/ as /Χᵣ(g)=tr(r(g))/, just like
 for finite groups.
 *** Representations                                                   :drill:
-    SCHEDULED: <2020-11-07 Sat>
+    SCHEDULED: <2022-12-16 Fri>
     :PROPERTIES:
     :ID:       b0ef434a-35b0-43d3-af8c-023b9ed33125
-    :DRILL_LAST_INTERVAL: 325.873
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 769.0603
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_AVERAGE_QUALITY: 3.857
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2019-12-17 Tue 14:38]
+    :DRILL_LAST_REVIEWED: [2020-11-07 Sat 18:10]
     :END:
 How is finiteness
 expressed in compact
@@ -1830,17 +1830,17 @@ mapping the canonical variables
 to the differential operators and
 coordinates.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       c633a3b9-8029-4857-a436-b6c54e1c2bee
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:31]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:50]
     :END:
   What does /Ψ≥0/ mean
   for a linear operator
@@ -1852,17 +1852,17 @@ coordinates.
   to positive bounded
   operators.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       6be122d9-8d52-41d5-bc7a-85ae8c98123b
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:29]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:48]
     :END:
   What is a
   /quantum channel/?
@@ -1873,17 +1873,17 @@ coordinates.
   completely positive
   and trace preserving.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       af7c7487-ee07-4b1b-b67d-919a1224f33f
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:29]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:52]
     :END:
   When is a map /Ψ/
   between bounded operator
@@ -1896,17 +1896,17 @@ coordinates.
   on which the identity
   /id/ operates.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       27db1221-9192-43c1-95e6-33179806212a
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:33]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:49]
     :END:
   What is the
   significance of
@@ -1922,17 +1922,17 @@ coordinates.
   quantum states to
   quantum states. 
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       1bccc145-8b81-487f-a4ae-d5ede06a8cc9
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:30]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:49]
     :END:
   What does /ρ≥0/ mean
   for a bounded operator /ρ/?
@@ -3010,17 +3010,17 @@ well defined. The vectors are transported in
 the ambient space and projected onto the tangent
 spaces of the manifold.
 *** Differential						      :drill:
-    SCHEDULED: <2020-11-03 Tue>
+    SCHEDULED: <2023-02-27 Mon>
     :PROPERTIES:
     :ID:       a61437ca-4da8-4081-833f-bed25acc53ea
-    :DRILL_LAST_INTERVAL: 468.5249
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 846.156
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.285
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.249
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2019-07-23 Tue 09:08]
+    :DRILL_LAST_REVIEWED: [2020-11-03 Tue 21:26]
     :END:
 What is the advantage of the Lie derivative
 over covariant derivatives on a manifold? 
@@ -3210,17 +3210,17 @@ it reaches a state and symbol
 for which there is no
 instruction.
 *** Automata                                                          :drill:
-    SCHEDULED: <2020-11-07 Sat>
+    SCHEDULED: <2021-09-02 Thu>
     :PROPERTIES:
     :ID:       331497cb-13ae-4956-a14f-b8bfdcb86b70
-    :DRILL_LAST_INTERVAL: 165.3444
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 298.612
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-26 Tue 14:27]
+    :DRILL_LAST_REVIEWED: [2020-11-07 Sat 18:10]
     :END:
 How to describe the halting
 condition of a Turing machine
@@ -3955,17 +3955,17 @@ is reminiscent of negation,
 /≤/ playing the role of
 implication.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2020-11-07 Sat>
+    SCHEDULED: <2021-10-01 Fri>
     :PROPERTIES:
     :ID:       8765c8aa-5784-4645-823f-dd1498fdee52
-    :DRILL_LAST_INTERVAL: 175.2073
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 327.9881
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.332
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.299
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-16 Sat 15:12]
+    :DRILL_LAST_REVIEWED: [2020-11-07 Sat 18:10]
     :END:
 When are propositions of a
 logic orthogonal?
@@ -4450,17 +4450,17 @@ Because there is no projection
 for ⊗, ie no rules /A⊗B→A/ 
 nor /A⊗B→B/.
 *** Linear                                                            :drill:
-    SCHEDULED: <2020-11-05 Thu>
+    SCHEDULED: <2022-06-04 Sat>
     :PROPERTIES:
     :ID:       707c1469-4d69-4e34-87ab-c2fe6d2b9b29
-    :DRILL_LAST_INTERVAL: 368.055
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 575.27
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 1.62
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2019-11-03 Sun 22:53]
+    :DRILL_AVERAGE_QUALITY: 3.222
+    :DRILL_EASE: 1.48
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-11-06 Fri 19:46]
     :END:
 Why is linear logic suitable
 for both quantum mechanics and
@@ -4597,17 +4597,17 @@ model of linear logic?
 It means that consuming
 A yields B.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2020-11-01 Sun>
+    SCHEDULED: <2021-12-27 Mon>
     :PROPERTIES:
     :ID:       9626b9a3-56ac-41a1-9f95-eb63a2e023ba
-    :DRILL_LAST_INTERVAL: 202.5321
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 418.6339
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-12 Sun 15:30]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-11-03 Tue 21:28]
     :END:
 What seems to be the
 purpose of the new connectives
@@ -5508,17 +5508,17 @@ in the domain of /r/, where
 /r/ is a concurrent relation 
 of type /t=(t₁,t₂)/.
 *** Logic:First Order                                                 :drill:
-    SCHEDULED: <2020-10-30 Fri>
+    SCHEDULED: <2021-08-10 Tue>
     :PROPERTIES:
     :ID:       2144a707-f55c-47b4-a47f-f9083cc998cb
-    :DRILL_LAST_INTERVAL: 144.4899
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 280.0214
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-08 Mon 13:52]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.9
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:57]
     :END:
 Why is the language of a
 logic often defined without
@@ -5863,17 +5863,17 @@ where different elements of
 /Bₜ/ possibly denote the same
 relation /a∈Aₜ/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2020-11-05 Thu>
+    SCHEDULED: <2020-11-10 Tue>
     :PROPERTIES:
     :ID:       cb5ef649-d2bd-4603-94ef-8629147b7fb1
-    :DRILL_LAST_INTERVAL: 144.4899
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-14 Sun 14:40]
+    :DRILL_LAST_REVIEWED: [2020-11-06 Fri 19:50]
     :END:
 What is a higher order
 structure built on a set
@@ -6167,17 +6167,17 @@ individuals but also about
 relations between individuals
 and their relations etc.
 *** Logic:Propositional                                               :drill:
-    SCHEDULED: <2020-10-31 Sat>
+    SCHEDULED: <2021-11-28 Sun>
     :PROPERTIES:
     :ID:       0faf7dfb-928d-4ba8-bd44-5c50e6e5b34d
-    :DRILL_LAST_INTERVAL: 156.25
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 390.625
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-28 Thu 12:07]
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:59]
     :END:
 What is the difference
 between regular propositional
@@ -6515,17 +6515,17 @@ rings. This would be more specific
 than using a logic that has all rings
 as possible structures.
 *** Logic: Syntax                                                     :drill:
-    SCHEDULED: <2020-11-05 Thu>
+    SCHEDULED: <2021-02-02 Tue>
     :PROPERTIES:
     :ID:       19053411-55da-4e36-91d7-d117c8890a40
-    :DRILL_LAST_INTERVAL: 42.731
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 88.325
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-09-23 Wed 19:29]
+    :DRILL_LAST_REVIEWED: [2020-11-06 Fri 19:47]
     :END:
 Why the reluctance to
 add constant symbols
@@ -6689,17 +6689,17 @@ applying the rules
 (free operators) of the
 theory.
 *** Resources: Quantum                                                :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       2ea2bded-78eb-4ae3-af93-15282ac14a36
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:34]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:53]
     :END:
   What are the
   resources in a
@@ -6711,17 +6711,17 @@ theory.
   an allowable physical
   process.
 *** Resources: Quantum                                                :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       2007551f-74ca-4180-8cc0-5e40d6cbc6f5
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:32]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:52]
     :END:
   Why is entanglement
   often considered a
@@ -6736,17 +6736,17 @@ theory.
   location, so they can't
   create entanglement.
 *** Resources: Quantum                                                :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-22 Sun>
     :PROPERTIES:
     :ID:       4e31f6a9-e2e4-4089-ac7e-035c68ceb312
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:28]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:54]
     :END:
   What is the
   significance of
@@ -6760,17 +6760,17 @@ theory.
   free operations are a
   subset thereof.
 *** Resources: Quantum                                                :drill:
-    SCHEDULED: <2020-11-02 Mon>
+    SCHEDULED: <2020-11-21 Sat>
     :PROPERTIES:
     :ID:       24a65e1c-d332-4506-ae61-78912ba50716
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.2482
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:30]
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:50]
     :END:
   What are the free
   operations of a
@@ -7468,17 +7468,17 @@ of a type?
 These are rules on how to
 use the elements of a type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2020-11-07 Sat>
+    SCHEDULED: <2021-07-17 Sat>
     :PROPERTIES:
     :ID:       46b0c6b6-592b-4201-aa85-ea4f6416a7fb
-    :DRILL_LAST_INTERVAL: 210.7705
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 252.2923
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.083
+    :DRILL_AVERAGE_QUALITY: 3.154
     :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-10 Fri 15:18]
+    :DRILL_LAST_REVIEWED: [2020-11-07 Sat 18:07]
     :END:
 What are the eliminators of
 the function type?
@@ -7709,6 +7709,18 @@ logic. Type theory only has
 identified with particular 
 types.
 *** Experiments                                                       :drill:
+    SCHEDULED: <2020-11-11 Wed>
+    :PROPERTIES:
+    :ID:       8a817f89-30e2-49ee-8fae-d3dad4d3bbc9
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:54]
+    :END:
   In which way are
   intuitionist and
   experimental logic
@@ -7718,6 +7730,18 @@ types.
   outcome or measurement is
   like obtaining a proof.
 *** Experiments                                                       :drill:
+    SCHEDULED: <2020-11-11 Wed>
+    :PROPERTIES:
+    :ID:       b3ced9e5-e5ed-4c2c-bd26-9d006011b067
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:51]
+    :END:
   What is the difference
   between experimental and
   intuitionist logic?
@@ -7820,17 +7844,17 @@ Because /r ∈/ Ker /AD²/, thus
 direction in a problem with
 equality constraints. 
 *** Iterations                                                        :drill:
-    SCHEDULED: <2020-11-01 Sun>
+    SCHEDULED: <2022-01-17 Mon>
     :PROPERTIES:
     :ID:       5517fdae-f13f-4fc3-b0fe-25601bf877be
-    :DRILL_LAST_INTERVAL: 274.6644
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 440.0124
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-01-31 Fri 15:16]
+    :DRILL_LAST_REVIEWED: [2020-11-03 Tue 21:23]
     :END:
 What is the reduced cost
 /r=c-Aᵀ(AD²Aᵀ)⁻¹AD²c/ used
@@ -7998,17 +8022,17 @@ of the current vertex
 /x=(b|0)/.
 ** Probability
 *** Bayes                                                             :drill:
-    SCHEDULED: <2020-11-06 Fri>
+    SCHEDULED: <2021-09-06 Mon>
     :PROPERTIES:
     :ID:       c1526be5-29f0-4d66-b2a6-03d20f7a3a41
-    :DRILL_LAST_INTERVAL: 130.6455
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 304.1427
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-28 Sun 14:35]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2020-11-06 Fri 19:44]
     :END:
 How can likelihood functions
 be approximated by exponentials?
@@ -8050,17 +8074,17 @@ the likelihood dominates the
 prior, the posterior is close
 to the likelihood.
 *** Bayes                                                             :drill:
-    SCHEDULED: <2020-10-31 Sat>
+    SCHEDULED: <2020-11-14 Sat>
     :PROPERTIES:
     :ID:       211663bc-0150-436d-914b-ae444102b5b7
-    :DRILL_LAST_INTERVAL: 6.9712
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 11.5722
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.091
     :DRILL_EASE: 1.66
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-24 Sat 13:33]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2020-11-02 Mon 23:48]
     :END:
 What's the point of
 maximum-likelihood
@@ -8217,17 +8241,17 @@ distribution is
 Fₙ(x)=number of sample values <x
 divided by sample size. 
 *** Distributions                                                     :drill:
-    SCHEDULED: <2020-11-03 Tue>
+    SCHEDULED: <2021-06-06 Sun>
     :PROPERTIES:
     :ID:       02770c7b-dc72-44d2-86ca-72392fab66a6
-    :DRILL_LAST_INTERVAL: 134.5098
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 215.4847
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-21 Sun 14:29]
+    :DRILL_LAST_REVIEWED: [2020-11-03 Tue 21:30]
     :END:
 How does the empirical distribution
 compare to the true underlying 
