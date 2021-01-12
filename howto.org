@@ -3,6 +3,62 @@
 See http://www.holon.se/folke/carbon/simplechar/simplechar.shtml for how to
 make biochar for use in terra preta.
 * Haskell                                                           :haskell:
+** xmonad xubuntu
+   A standard xmonad configuration with xmobar
+   and stalonetray will not work with xubuntu unless
+   xfdesktop and xfce4-panel are disabled or replaced
+   by something more compatible with them.
+   As of xfce 4.14, this has to be done with ~xfconf-query~.
+   First, set the window manager to ~xmonad~.
+   #+begin_src bash
+     xfconf-query -c xfce4-session \
+                  -p /sessions/Failsafe/Client0_Command \
+                  -t string -s "xmonad" -a
+   #+end_src
+   Then replace ~xfce4-panel~ with ~stalonetray~:
+   #+begin_src bash
+     xfconf-query -c xfce4-session \
+                  -p /sessions/Failsafe/Client2_Command \
+                  -t string -s "stalonetray" -a
+   #+end_src
+   Instead of ~xfdesktop~ simply run ~/usr/bin/true~:
+   #+begin_src bash
+     xfconf-query -c xfce4-session \
+                  -p /sessions/Failsafe/Client4_Command \
+                  -t string -s "true" -a
+   #+end_src
+   Make sure no sessions are safed on logout. Reconfigure the
+   keyboard shortcuts by deleting the ones using the ~Super~ key.
+   This can be done with the regular ~xubuntu~ settings UI.
+
+   On the Haskell side, xfceConfig can be used but some of the
+   usual ~xmonad~ keybindings have to be restored since, for example,
+   terminals are now started with ~C-M-t~ rather than
+   ~<Super>-<Shift>-<Return>~. Also ~<Super>-p~ now runs ~xfrun~ rather
+   than ~dmenu~. So ~xmonad.hs~ is something like
+   #+begin_src haskell
+import XMonad
+import XMonad.Actions.SpawnOn
+import XMonad.Config.Xfce    -- for xfceConfig
+import XMonad.Hooks.DynamicLog -- allows xmobar
+import XMonad.Util.EZConfig --for additionalKeysP
+
+main = xmonad =<< xmobar ( xfceConfig
+        { modMask = mod4Mask
+        , startupHook = do
+            spawnOn "1" "x-terminal-emulator"
+            -- spawn "stalonetray"
+        }
+        `additionalKeysP`
+         [ ("M-e", spawn "emacsclient -a '' -c -q -n -e '(dired \"~/\")'")
+         , ("M-S-<Return>", spawn "x-terminal-emulator") --overwritten by xfceConfig
+         , ("M-p", spawn "dmenu_run") ] -- also changed by xfceConfig, restore
+                         )
+   #+end_src
+   The nice thing about this set-up is that the ~XFCE~ session manager
+   runs and all the ~xfce4~ utilities will work, as well as ~autostart~.
+   The ~xfceConfig~ defaults also set things up for ~Ewmh~ compliance
+   of ~xmonad~, hence things like ~wmctrl~ work out of the box.
 ** Type Nats Solver                                                 :plugins:
 This is another plugin for haskell, this time about
 type arithmetic.
