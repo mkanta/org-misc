@@ -27,10 +27,20 @@ make biochar for use in terra preta.
                   -p /sessions/Failsafe/Client4_Command \
                   -t string -s "true" -a
    #+end_src
+   Or even better, start nm-applet here? This way it will show up quicker.
+   The only problem is that it becomes part of a failsafe session, so
+   if nm-applet is the cause for failure then the faisafe session would fail?
+   
    Make sure no sessions are safed on logout. Reconfigure the
    keyboard shortcuts by deleting the ones using the ~Super~ key.
    This can be done with the regular ~xubuntu~ settings UI.
 
+   Also, the icon theme may have to be reset using xfce
+   Settings->Appearance
+
+   To get the loud-speaker icon for a system using pulseaudio, install
+   pasystray.
+   
    On the Haskell side, xfceConfig can be used but some of the
    usual ~xmonad~ keybindings have to be restored since, for example,
    terminals are now started with ~C-M-t~ rather than
