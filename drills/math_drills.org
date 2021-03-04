@@ -276,17 +276,17 @@ sets Δ, a presheaf is a
 simplicial set and the category
 of these presheaves is a topos.
 *** Categories                                                        :drill:
-    SCHEDULED: <2021-02-05 Fri>
+    SCHEDULED: <2021-07-12 Mon>
     :PROPERTIES:
     :ID:       f90d67ec-c9f2-4dfd-8b33-3cd44bfb9bd0
-    :DRILL_LAST_INTERVAL: 118.1279
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 133.7208
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-10 Sat 20:46]
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:09]
     :END:
 What is the simplex
 category /Δ/?
@@ -1246,17 +1246,17 @@ By identifying a function
 element /∑ₕφ(h)eₕ/ with /h/
 traversing the group.
 *** Representation Theory: Group Algebra                              :drill:
-    SCHEDULED: <2021-03-03 Wed>
+    SCHEDULED: <2023-04-27 Thu>
     :PROPERTIES:
     :ID:       ce991ee5-023d-4bc3-835b-f5832ccd4046
-    :DRILL_LAST_INTERVAL: 329.3663
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 783.5624
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-08 Wed 13:30]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:55]
     :END:
 What is the group
 algebra /KG/ of a (finite)
@@ -2219,17 +2219,17 @@ The limit of
 as /ε→0/, where /δ/ is the Dirac
 function.
 *** Functional                                                        :drill:
-    SCHEDULED: <2021-02-24 Wed>
+    SCHEDULED: <2023-04-27 Thu>
     :PROPERTIES:
     :ID:       833fa28d-a254-4d75-8a40-9cc56fc9767a
-    :DRILL_LAST_INTERVAL: 329.3663
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 783.5624
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-01 Wed 15:01]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 11:03]
     :END:
 What is a functional
 in analysis?
@@ -3520,17 +3520,17 @@ Right introduction is usually
 identical to introduction
 in natural deduction.
 *** Deduction                                                         :drill:
-    SCHEDULED: <2021-02-17 Wed>
+    SCHEDULED: <2022-02-09 Wed>
     :PROPERTIES:
     :ID:       4d135676-a9e7-4e3a-ae08-ee71c4f79e15
-    :DRILL_LAST_INTERVAL: 139.6584
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 345.5149
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-09-30 Wed 15:28]
+    :DRILL_AVERAGE_QUALITY: 3.833
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:18]
     :END:
 How are left introduction
 sequent rules related to
@@ -3609,17 +3609,17 @@ observable /O/ with a /σ/-additive
 state /s/ to obtain /s∘O: *B* → ℝ/
 with /s∘O(ℝ)=1/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-03-01 Mon>
+    SCHEDULED: <2021-03-23 Tue>
     :PROPERTIES:
     :ID:       40e24806-0d5e-4ce7-ad39-93d806d92498
-    :DRILL_LAST_INTERVAL: 11.6618
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 18.8805
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_AVERAGE_QUALITY: 3.182
     :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-02-17 Wed 21:53]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:52]
     :END:
 How are observables on an
 experiment logic related to
@@ -3632,17 +3632,17 @@ an experiment in which /P/
 is true. (Technically it
 is /O⁻¹(P)-resolv(O)/).
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-02-10 Wed>
+    SCHEDULED: <2022-04-07 Thu>
     :PROPERTIES:
     :ID:       2756890c-1c72-4185-8982-1493f515fa5d
-    :DRILL_LAST_INTERVAL: 213.0395
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 403.0707
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-12 Sun 15:42]
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:19]
     :END:
 How are observables defined
 in experiment logics?
@@ -3702,17 +3702,17 @@ logic because they are related
 to the truth of certain
 propositions.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-02-15 Mon>
+    SCHEDULED: <2022-05-12 Thu>
     :PROPERTIES:
     :ID:       c135bca0-f617-4ddf-aa3d-22d165774cd2
-    :DRILL_LAST_INTERVAL: 231.4637
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 437.9293
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-29 Mon 13:51]
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:15]
     :END:
 How can a logic describing
 experiments be related to 
@@ -3723,17 +3723,17 @@ experiments whose sentences
 are propositions in the
 logic of the experiments.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-03-04 Thu>
+    SCHEDULED: <2022-08-11 Thu>
     :PROPERTIES:
     :ID:       ed64d9d6-bc5f-48d3-86ec-61fe5fc77ce6
-    :DRILL_LAST_INTERVAL: 248.5632
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 525.214
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-28 Sun 14:35]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:57]
     :END:
 When is a property of
 a system considered 
@@ -3822,17 +3822,17 @@ uncertainty in nature due to the
 lack of a definite state the system
 is in.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-03-01 Mon>
+    SCHEDULED: <2021-03-22 Mon>
     :PROPERTIES:
     :ID:       794e5218-fd7b-4102-9106-5a5959ba5989
-    :DRILL_LAST_INTERVAL: 11.6618
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 18.414
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.1
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 3.091
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-02-17 Wed 21:53]
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:51]
     :END:
 How is ontological uncertainty
 expressed in a logic describing
@@ -4817,17 +4817,17 @@ of /X/ to the formulas by the usual
 set theoretic interpretations of 
 the logical connectives. 
 *** Logic                                                             :drill:
-    SCHEDULED: <2021-02-27 Sat>
+    SCHEDULED: <2022-05-19 Thu>
     :PROPERTIES:
     :ID:       9ff21490-07eb-4c96-a24a-a66aa739e535
-    :DRILL_LAST_INTERVAL: 210.5952
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 444.9877
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 16:53]
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:15]
     :END:
 What is the role of truth
 tables in logic?
@@ -5216,17 +5216,17 @@ sequent /A⊦B/.
   of /B/ from assumption /A/,
   ie a proof of /A⊢B/.
 *** Logic: Category                                                   :drill:
-    SCHEDULED: <2021-02-14 Sun>
+    SCHEDULED: <2021-07-17 Sat>
     :PROPERTIES:
     :ID:       ba06b7d2-184f-49db-994d-0f4396208784
-    :DRILL_LAST_INTERVAL: 75.2751
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 138.9578
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-01 Tue 20:36]
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:16]
     :END:
   Why is cartesianness
   required for a category modelling
@@ -5265,17 +5265,17 @@ sequent /A⊦B/.
   guarantees the existence of
   these objects.
 *** Logic: Category                                                   :drill:
-    SCHEDULED: <2021-02-14 Sun>
+    SCHEDULED: <2021-07-17 Sat>
     :PROPERTIES:
     :ID:       329ada53-9984-4ca8-b3c3-b0f53a7fae07
-    :DRILL_LAST_INTERVAL: 75.2751
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 138.9578
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-01 Tue 20:39]
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:16]
     :END:
   How is implication
   introduction expressed
@@ -5291,17 +5291,17 @@ sequent /A⊦B/.
   the natural morphism
   /Λ:Hom(Γ×A,B)→Hom(Γ,[A,B])/.
 *** Logic: Category                                                   :drill:
-    SCHEDULED: <2021-02-14 Sun>
+    SCHEDULED: <2021-07-21 Wed>
     :PROPERTIES:
     :ID:       00254697-f19a-44fc-913f-42d3f44115c2
-    :DRILL_LAST_INTERVAL: 75.2751
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 138.9578
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-01 Tue 20:34]
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:49]
     :END:
   What is the meaning of the
   natural isomorphism
@@ -5316,17 +5316,17 @@ sequent /A⊦B/.
   morphism with an extra variable
   on the right.
 *** Logic: Category                                                   :drill:
-    SCHEDULED: <2021-02-14 Sun>
+    SCHEDULED: <2021-07-17 Sat>
     :PROPERTIES:
     :ID:       f5b40b53-cbe1-42db-a2ba-41527e18d2aa
-    :DRILL_LAST_INTERVAL: 75.2751
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 138.9578
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-01 Tue 20:38]
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:19]
     :END:
   What is the evaluation map
   /ev(A,B)/ in closed monoidal
@@ -5337,17 +5337,17 @@ sequent /A⊦B/.
   how to evaluate an internal
   morphism /f/ from /[A,B]/.
 *** Logic: Category                                                   :drill:
-    SCHEDULED: <2021-02-16 Tue>
+    SCHEDULED: <2021-07-21 Wed>
     :PROPERTIES:
     :ID:       fa58244d-4719-458c-8e5a-54031c7a972e
-    :DRILL_LAST_INTERVAL: 75.2751
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 138.9578
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-03 Thu 20:45]
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:50]
     :END:
   How is Modus Ponens expressed
   in a cartesian closed category?
@@ -5617,17 +5617,17 @@ means every interpretation
 is a model for /S/, that is,
 /S/ is valid.
 *** Logic:First Order                                                 :drill:
-    SCHEDULED: <2021-02-23 Tue>
+    SCHEDULED: <2022-07-20 Wed>
     :PROPERTIES:
     :ID:       28e1c853-8922-4878-aede-32fcd0018a03
-    :DRILL_LAST_INTERVAL: 239.8622
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 506.8288
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-28 Sun 14:35]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:12]
     :END:
 What does /Γ⊢S/ for a
 set of propositions /Γ/
@@ -7618,17 +7618,17 @@ This is about equality
 of terms of the same
 type by definition.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-02-15 Mon>
+    SCHEDULED: <2021-08-29 Sun>
     :PROPERTIES:
     :ID:       261b5fdc-ba59-462a-80b7-229f04edcd49
-    :DRILL_LAST_INTERVAL: 157.5865
-    :DRILL_REPEATS_SINCE_FAIL: 12
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 178.3879
+    :DRILL_REPEATS_SINCE_FAIL: 13
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.063
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.059
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-09-10 Thu 18:28]
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:56]
     :END:
 How is (internal) equality 
 handled with types?
@@ -8045,17 +8045,17 @@ likelihood itself becomes a
 product of exponentials of
 /1⁄n!(θ-θ̂)ⁿ/. 
 *** Bayes                                                             :drill:
-    SCHEDULED: <2021-02-22 Mon>
+    SCHEDULED: <2022-01-03 Mon>
     :PROPERTIES:
     :ID:       a2f894ef-e000-43ac-b4c9-c332c03be1ce
-    :DRILL_LAST_INTERVAL: 165.3444
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 305.2258
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-09-10 Thu 18:27]
+    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 11:01]
     :END:
 How to approximate a posterior
 density using a maximum
@@ -8963,17 +8963,17 @@ overfits the data will
 be bad at predicting
 new observations.
 *** Image Recognition: Matching                                       :drill:
-    SCHEDULED: <2021-02-08 Mon>
+    SCHEDULED: <2022-12-02 Fri>
     :PROPERTIES:
     :ID:       a37c5b22-a69f-4f9f-8b76-bea1c85bc97b
-    :DRILL_LAST_INTERVAL: 304.0565
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 642.4714
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-10 Fri 15:19]
+    :DRILL_LAST_REVIEWED: [2021-02-28 Sun 20:17]
     :END:
 How does the cross-correlation
 /Rₚₜ(m,n)=∑ᵢⱼp(i,j)t(i-m,j-n)/ between
