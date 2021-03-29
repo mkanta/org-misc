@@ -1372,17 +1372,17 @@ by a root of unity /ξ/:
 from 0 to l-1, where l
 is the cycle length.
 *** Representation Theory                                             :drill:
-    SCHEDULED: <2021-03-15 Mon>
+    SCHEDULED: <2021-04-13 Tue>
     :PROPERTIES:
     :ID:       a803c039-47fa-4314-8cd7-c5f30ecae874
-    :DRILL_LAST_INTERVAL: 317.8958
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 15.5994
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.3
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-01 Fri 15:06]
+    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:14]
     :END:
 What does /∑a(g)g/ for /g∈G/, /G/ a
 finite group, mean?
@@ -1393,17 +1393,17 @@ representation /V/ of /G/, the
 /g/ are treated as elements of
 End(V) in the sum.
 *** Representation Theory                                             :drill:
-    SCHEDULED: <2021-03-15 Mon>
+    SCHEDULED: <2023-02-02 Thu>
     :PROPERTIES:
     :ID:       919ff54c-a4ed-4152-a4ba-0dfb8d96744a
-    :DRILL_LAST_INTERVAL: 317.8958
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 688.5623
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-05-01 Fri 15:05]
+    :DRILL_LAST_REVIEWED: [2021-03-15 Mon 11:55]
     :END:
 Does /∑a(g)g=0/ for /g∈G/, /G/ a finite
 group, imply that /a(g)=0/.
@@ -1595,17 +1595,17 @@ If /T=UA=VB/ with partial isometries
 with /ker U=ker A/ and /ker V=ker B/
 then /U=V/ and /A=B/.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2021-03-21 Sun>
+    SCHEDULED: <2021-05-26 Wed>
     :PROPERTIES:
     :ID:       71612fc3-65a0-4dc2-b7de-b6bf73ebb4cc
-    :DRILL_LAST_INTERVAL: 59.8221
-    :DRILL_REPEATS_SINCE_FAIL: 19
-    :DRILL_TOTAL_REPEATS: 26
+    :DRILL_LAST_INTERVAL: 66.0436
+    :DRILL_REPEATS_SINCE_FAIL: 20
+    :DRILL_TOTAL_REPEATS: 27
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.231
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.222
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-20 Wed 17:55]
+    :DRILL_LAST_REVIEWED: [2021-03-21 Sun 13:28]
     :END:
 In which sense does the positive
 operator /A/ in the polar decomposition
@@ -2511,17 +2511,17 @@ high scaling coefficients will be needed
 unless they are covered by a lowpass
 scaling function.
 *** Wavelets                                                          :drill:
-    SCHEDULED: <2021-03-16 Tue>
+    SCHEDULED: <2023-08-31 Thu>
     :PROPERTIES:
     :ID:       b9010129-c033-4af8-a737-2cd78b43739f
-    :DRILL_LAST_INTERVAL: 376.875
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 896.5856
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-04 Wed 14:01]
+    :DRILL_LAST_REVIEWED: [2021-03-17 Wed 11:47]
     :END:
 How to reduce the number of
 wavelet coefficients to a
@@ -2633,17 +2633,17 @@ which makes functions like
 ~getcurrentdirectory()~
 available.
 *** Maxima:Polynomials                                                :drill:
-    SCHEDULED: <2021-03-28 Sun>
+    SCHEDULED: <2022-05-05 Thu>
     :PROPERTIES:
     :ID:       2e76b4f2-a65a-4928-a076-30aecfb77d22
-    :DRILL_LAST_INTERVAL: 213.0395
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 403.0707
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-27 Thu 15:44]
+    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:17]
     :END:
 How to turn an expression
 into a polynomial?
@@ -2817,17 +2817,17 @@ induced by the action
 group. It is given by
 /dₐf=∑ᵢdaᵢ∂/∂aᵢf(*x*;a)|ₐ₌₀/.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2021-03-19 Fri>
+    SCHEDULED: <2023-04-27 Thu>
     :PROPERTIES:
     :ID:       bd604eec-ce75-4815-8676-506e30e42635
-    :DRILL_LAST_INTERVAL: 354.8745
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 768.6582
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-29 Sun 15:28]
+    :DRILL_LAST_REVIEWED: [2021-03-19 Fri 18:37]
     :END:
 How does an r-parameter 
 Lie group act on an 
@@ -3609,17 +3609,17 @@ observable /O/ with a /σ/-additive
 state /s/ to obtain /s∘O: *B* → ℝ/
 with /s∘O(ℝ)=1/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-03-23 Tue>
+    SCHEDULED: <2021-04-22 Thu>
     :PROPERTIES:
     :ID:       40e24806-0d5e-4ce7-ad39-93d806d92498
-    :DRILL_LAST_INTERVAL: 18.8805
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 29.8123
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.182
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:52]
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.38
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-23 Tue 13:36]
     :END:
 How are observables on an
 experiment logic related to
@@ -3822,17 +3822,17 @@ uncertainty in nature due to the
 lack of a definite state the system
 is in.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-03-22 Mon>
+    SCHEDULED: <2021-04-16 Fri>
     :PROPERTIES:
     :ID:       794e5218-fd7b-4102-9106-5a5959ba5989
-    :DRILL_LAST_INTERVAL: 18.414
-    :DRILL_REPEATS_SINCE_FAIL: 5
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 24.7852
+    :DRILL_REPEATS_SINCE_FAIL: 6
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.091
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 3.083
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-03-04 Thu 10:51]
+    :DRILL_LAST_REVIEWED: [2021-03-22 Mon 08:31]
     :END:
 How is ontological uncertainty
 expressed in a logic describing
@@ -4949,17 +4949,17 @@ Whenever semantic derivability
 syntactic derivability /K⊢X/ of
 /X/ from /K/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2021-03-28 Sun>
+    SCHEDULED: <2022-08-17 Wed>
     :PROPERTIES:
     :ID:       ad19d05b-eb59-4fee-98f1-fd0d8cd210c8
-    :DRILL_LAST_INTERVAL: 239.8622
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 506.8288
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 16:55]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:20]
     :END:
 Where are types used
 in logic?
@@ -6538,17 +6538,17 @@ a meaning for these symbols
 are allowable structures for
 the logic.
 *** Logic: Types                                                      :drill:
-    SCHEDULED: <2021-03-26 Fri>
+    SCHEDULED: <2022-06-09 Thu>
     :PROPERTIES:
     :ID:       1ecf72c2-8645-45b0-87f2-976fce6a1041
-    :DRILL_LAST_INTERVAL: 231.4637
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 437.9293
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-07 Fri 20:38]
+    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:16]
     :END:
 How do types on higher order
 structures induce types on
@@ -6566,17 +6566,17 @@ constant or variable, with type
 constants and variables not in
 any considered sentence.
 *** Logic: Types                                                      :drill:
-    SCHEDULED: <2021-03-26 Fri>
+    SCHEDULED: <2022-06-09 Thu>
     :PROPERTIES:
     :ID:       9b27d56a-7c6b-4e83-94f7-2475457b431e
-    :DRILL_LAST_INTERVAL: 231.4637
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 437.9293
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-07 Fri 20:38]
+    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:18]
     :END:
 How do types in logic
 take care of Russel's
@@ -6594,17 +6594,17 @@ described by this formula
 has no type so it cannot be
 used to define a set. 
 *** Models                                                            :drill:
-    SCHEDULED: <2021-03-19 Fri>
+    SCHEDULED: <2022-05-31 Tue>
     :PROPERTIES:
     :ID:       dbbb5d07-0459-4244-8641-7e62ad453f38
-    :DRILL_LAST_INTERVAL: 231.4637
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 437.9293
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-07-31 Fri 16:52]
+    :DRILL_LAST_REVIEWED: [2021-03-19 Fri 18:36]
     :END:
 How is the ultrafilter
 serving as a model for
@@ -6760,17 +6760,17 @@ theory.
   free operations are a
   subset thereof.
 *** Resources: Quantum                                                :drill:
-    SCHEDULED: <2021-03-23 Tue>
+    SCHEDULED: <2021-08-12 Thu>
     :PROPERTIES:
     :ID:       24a65e1c-d332-4506-ae61-78912ba50716
-    :DRILL_LAST_INTERVAL: 76.9503
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 142.0503
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.8
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:51]
+    :DRILL_LAST_REVIEWED: [2021-03-23 Tue 13:37]
     :END:
   What are the free
   operations of a
@@ -6847,17 +6847,17 @@ what that function does, the
 identity should pass the result
 on.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-03-24 Wed>
+    SCHEDULED: <2022-01-04 Tue>
     :PROPERTIES:
     :ID:       c107b2be-d44a-4237-8117-777c4c733dba
-    :DRILL_LAST_INTERVAL: 122.3769
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 281.7116
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-11-22 Sun 14:34]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:15]
     :END:
 What does a return type
 of /Void/ indicate for
@@ -7116,17 +7116,17 @@ and equality datatypes of
 equality datatypes ad
 infinitum.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-03-25 Thu>
+    SCHEDULED: <2021-12-30 Thu>
     :PROPERTIES:
     :ID:       824bb053-8130-47ed-a712-c09abef4c409
-    :DRILL_LAST_INTERVAL: 202.8105
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 277.0391
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.154
-    :DRILL_EASE: 1.4
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-09-03 Thu 17:38]
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.26
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:14]
     :END:
 Why is an intensional type
 theory desirable as underpinning
@@ -8467,17 +8467,17 @@ only on the value at /p/
 but also on values at
 other points /p+π/.
 *** Processes                                                         :drill:
-    SCHEDULED: <2021-03-21 Sun>
+    SCHEDULED: <2022-11-06 Sun>
     :PROPERTIES:
     :ID:       6d3c54b4-eb0c-4b06-8f0f-ff0add0f1c58
-    :DRILL_LAST_INTERVAL: 376.6414
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 594.7168
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:11]
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.38
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-21 Sun 13:28]
     :END:
 What are the functions of
 ~μ, ν~ in a Hawkes process
@@ -8512,17 +8512,17 @@ expressable as
 ~λ(t)=μ(t)+∫ᵗν(t-s)dNₛ~
 with ~ν:ℝ⁺→ℝ⁺~.
 *** Processes                                                         :drill:
-    SCHEDULED: <2021-03-21 Sun>
+    SCHEDULED: <2022-11-06 Sun>
     :PROPERTIES:
     :ID:       908b6ef8-55b8-430c-8fcd-17e59d4c5bf4
-    :DRILL_LAST_INTERVAL: 376.6414
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 594.7168
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:11]
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.38
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-21 Sun 13:26]
     :END:
 What is the /intensity/ of
 a point-process?
@@ -8537,17 +8537,17 @@ on ~ℝᵈ~. The factor ~λ~ is called
 the intensity of the point
 process.
 *** Processes                                                         :drill:
-    SCHEDULED: <2021-03-21 Sun>
+    SCHEDULED: <2022-11-06 Sun>
     :PROPERTIES:
     :ID:       7770e41f-2ba1-41de-9484-992ed962726c
-    :DRILL_LAST_INTERVAL: 376.6414
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 594.7168
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-09 Mon 16:10]
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.38
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-21 Sun 13:27]
     :END:
 What is the σ-Algebra on
 the set of counting measures
@@ -9081,17 +9081,17 @@ a new state /s'/ where the
 procedure is repeated until
 a goal state is reached.
 *** Learning:Q                                                        :drill:
-    SCHEDULED: <2021-03-27 Sat>
+    SCHEDULED: <2022-07-07 Thu>
     :PROPERTIES:
     :ID:       d921272a-66ea-4b44-ae77-671a4341c67e
-    :DRILL_LAST_INTERVAL: 220.7695
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 466.486
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-08-18 Tue 16:08]
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:19]
     :END:
 How is the /Q/ function
 learned in /Q/-learning?
