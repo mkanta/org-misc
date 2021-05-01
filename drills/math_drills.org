@@ -2,17 +2,17 @@
 * Mathematics
 ** Algebra
 *** Categories                                                        :drill:
-    SCHEDULED: <2021-04-28 Wed>
+    SCHEDULED: <2022-09-08 Thu>
     :PROPERTIES:
     :ID:       b46a3f0a-f3d1-4722-a424-9ed5672a520e
-    :DRILL_LAST_INTERVAL: 367.431
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 494.5621
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.38
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-26 Sun 17:11]
+    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:34]
     :END:
 What distinguishes natural
 from unnatural transformations
@@ -212,17 +212,17 @@ set of /X/ by the relation /(a,b)∈ R/
 iff /a=f(y), b=g(y)/ (or vice versa)
 for morphisms /f,g:Y→X/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2021-04-23 Fri>
+    SCHEDULED: <2023-07-01 Sat>
     :PROPERTIES:
     :ID:       4542132e-192b-488a-b6f1-1c3253798523
-    :DRILL_LAST_INTERVAL: 430.636
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 794.9541
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.285
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.249
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-02-17 Mon 15:30]
+    :DRILL_LAST_REVIEWED: [2021-04-27 Tue 15:56]
     :END:
 What does it mean for
 a category to have
@@ -957,17 +957,17 @@ These are the elements of the
 Lorentz group that preserve the
 direction of time.
 *** Relativity                                                        :drill:
-    SCHEDULED: <2021-04-28 Wed>
+    SCHEDULED: <2021-09-14 Tue>
     :PROPERTIES:
     :ID:       35442c44-395a-4284-b286-5c7c9ecf0649
-    :DRILL_LAST_INTERVAL: 120.4215
-    :DRILL_REPEATS_SINCE_FAIL: 27
-    :DRILL_TOTAL_REPEATS: 37
+    :DRILL_LAST_INTERVAL: 136.3171
+    :DRILL_REPEATS_SINCE_FAIL: 28
+    :DRILL_TOTAL_REPEATS: 38
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.108
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.105
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-29 Tue 14:05]
+    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:34]
     :END:
 What are proper Lorentz transformations?
 **** Answer:
@@ -1133,17 +1133,17 @@ Casimir Operators
 /l/ is the rank of the 
 group.
 *** Representation Theory: Casimir Operators                          :drill:
-    SCHEDULED: <2021-04-10 Sat>
+    SCHEDULED: <2023-11-22 Wed>
     :PROPERTIES:
     :ID:       48d137de-6f5d-4846-90bc-9fb0d01c354d
-    :DRILL_LAST_INTERVAL: 390.625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 952.7344
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 13:59]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:23]
     :END:
 How do Casimir Operators
 of a semisimple Lie group
@@ -1181,17 +1181,17 @@ note that characters are
 linear functions when applied
 in End(V).
 *** Representation Theory: Characters                                 :drill:
-    SCHEDULED: <2021-04-25 Sun>
+    SCHEDULED: <2023-08-01 Tue>
     :PROPERTIES:
     :ID:       273ca278-71b9-4795-a7fe-228f720b970d
-    :DRILL_LAST_INTERVAL: 347.0892
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 825.7252
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-05-13 Wed 16:28]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-27 Tue 15:52]
     :END:
 What's the character of
 a G-module morphism φ on
@@ -1290,17 +1290,17 @@ representation of /G/, it
 acts via /heₗ=eₕₗ/ on the
 basis of /KG/.
 *** Representation Theory: Permutation Representation                 :drill:
-    SCHEDULED: <2021-04-26 Mon>
+    SCHEDULED: <2023-12-06 Wed>
     :PROPERTIES:
     :ID:       ff4e182a-dffb-437b-9378-13c7fa27d2f1
-    :DRILL_LAST_INTERVAL: 390.625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 952.7344
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-31 Tue 15:44]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-27 Tue 15:55]
     :END:
 How come only the eigenvalues
 of the fixed points show up
@@ -1372,17 +1372,17 @@ by a root of unity /ξ/:
 from 0 to l-1, where l
 is the cycle length.
 *** Representation Theory                                             :drill:
-    SCHEDULED: <2021-04-13 Tue>
+    SCHEDULED: <2021-05-11 Tue>
     :PROPERTIES:
     :ID:       a803c039-47fa-4314-8cd7-c5f30ecae874
-    :DRILL_LAST_INTERVAL: 15.5994
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_LAST_INTERVAL: 27.3925
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 11
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.3
-    :DRILL_EASE: 1.8
+    :DRILL_AVERAGE_QUALITY: 3.273
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-03-28 Sun 13:14]
+    :DRILL_LAST_REVIEWED: [2021-04-14 Wed 14:04]
     :END:
 What does /∑a(g)g/ for /g∈G/, /G/ a
 finite group, mean?
@@ -1618,17 +1618,17 @@ are self adjoint, they behave in a
 sense like positive real numbers, so
 /|A|/ is a bit like a length.
 *** Quantum Algebras						      :drill:
-    SCHEDULED: <2021-04-22 Thu>
+    SCHEDULED: <2021-10-17 Sun>
     :PROPERTIES:
     :ID:       7468d8bb-a84d-4e9f-8d79-2691a9c754ae
-    :DRILL_LAST_INTERVAL: 152.6845
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 172.8389
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.332
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.315
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-11-20 Fri 12:44]
+    :DRILL_LAST_REVIEWED: [2021-04-27 Tue 15:53]
     :END:
 What is a partial isometry?
 **** Answer:
@@ -1830,17 +1830,17 @@ mapping the canonical variables
 to the differential operators and
 coordinates.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2021-04-11 Sun>
+    SCHEDULED: <2021-11-02 Tue>
     :PROPERTIES:
     :ID:       c633a3b9-8029-4857-a436-b6c54e1c2bee
-    :DRILL_LAST_INTERVAL: 95.9256
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 202.6908
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:53]
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:22]
     :END:
   What does /Ψ≥0/ mean
   for a linear operator
@@ -1852,17 +1852,17 @@ coordinates.
   to positive bounded
   operators.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2021-04-06 Tue>
+    SCHEDULED: <2021-09-27 Mon>
     :PROPERTIES:
     :ID:       6be122d9-8d52-41d5-bc7a-85ae8c98123b
-    :DRILL_LAST_INTERVAL: 91.3023
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 172.744
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:51]
+    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:03]
     :END:
   What is a
   /quantum channel/?
@@ -1873,17 +1873,17 @@ coordinates.
   completely positive
   and trace preserving.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2021-04-11 Sun>
+    SCHEDULED: <2021-11-02 Tue>
     :PROPERTIES:
     :ID:       af7c7487-ee07-4b1b-b67d-919a1224f33f
-    :DRILL_LAST_INTERVAL: 95.9256
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 202.6908
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:56]
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:22]
     :END:
   When is a map /Ψ/
   between bounded operator
@@ -1896,17 +1896,17 @@ coordinates.
   on which the identity
   /id/ operates.
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2021-04-11 Sun>
+    SCHEDULED: <2021-11-02 Tue>
     :PROPERTIES:
     :ID:       27db1221-9192-43c1-95e6-33179806212a
-    :DRILL_LAST_INTERVAL: 95.9256
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 202.6908
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:56]
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:25]
     :END:
   What is the
   significance of
@@ -1922,17 +1922,17 @@ coordinates.
   quantum states to
   quantum states. 
 *** Quantum Algebras                                                  :drill:
-    SCHEDULED: <2021-04-13 Tue>
+    SCHEDULED: <2021-11-12 Fri>
     :PROPERTIES:
     :ID:       1bccc145-8b81-487f-a4ae-d5ede06a8cc9
-    :DRILL_LAST_INTERVAL: 98.3171
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 212.9548
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.6
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:53]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:23]
     :END:
   What does /ρ≥0/ mean
   for a bounded operator /ρ/?
@@ -2118,17 +2118,17 @@ if there exist integers
 /π(xᵢ)<π(xⱼ) ⇔ σ(i)<σ(j)/
 for /1≤i,j≤k/.
 *** Polynomials                                                       :drill:
-    SCHEDULED: <2021-04-09 Fri>
+    SCHEDULED: <2021-08-07 Sat>
     :PROPERTIES:
     :ID:       6f1df1a0-41c1-464c-addd-7efd16ebede7
-    :DRILL_LAST_INTERVAL: 108.4206
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 119.6963
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.211
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-22 Tue 08:48]
+    :DRILL_LAST_REVIEWED: [2021-04-09 Fri 17:52]
     :END:
 How to convert multivariate
 polyonmials to univariate
@@ -2371,34 +2371,34 @@ wavelet?
 When its Fourier transform /Ψ(ω)/
 satisfies /∫|Ψ(ω)|²/|ω|²<∞/.
 *** Wavelets                                                          :drill:
-    SCHEDULED: <2021-04-28 Wed>
+    SCHEDULED: <2024-03-21 Thu>
     :PROPERTIES:
     :ID:       4f2bb7de-f309-41b2-a8e4-a6d94b4c266a
-    :DRILL_LAST_INTERVAL: 416.1625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 1055.3881
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.167
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-08 Sun 16:13]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:33]
     :END:
 In which sense is a wavelet
 a wave?
 **** Answer:
 In the sense that /∫ψ(t)dt=0/.
 *** Wavelets                                                          :drill:
-    SCHEDULED: <2021-03-30 Tue>
+    SCHEDULED: <2023-11-08 Wed>
     :PROPERTIES:
     :ID:       4ebf5845-c671-4c28-830f-8b09257d62b1
-    :DRILL_LAST_INTERVAL: 390.625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 952.7344
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-03-04 Wed 13:58]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-03-30 Tue 10:51]
     :END:
 Is it absolutely mandatory
 for a wavelet to be a wave?
@@ -2701,17 +2701,17 @@ multigraphs to higher dimensions,
 containing, amongst other things,
 simplexes and their faces.
 *** Fractional Calculus                                               :drill:
-    SCHEDULED: <2021-04-12 Mon>
+    SCHEDULED: <2021-11-09 Tue>
     :PROPERTIES:
     :ID:       52a74e90-6eec-438a-8dc7-f3d68539bf6f
-    :DRILL_LAST_INTERVAL: 185.1219
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 209.558
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.945
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 2.948
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-09 Fri 17:33]
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:15]
     :END:
 How does Heaviside solve
 /∂ₓ²u=a²∂ₜu/?
@@ -2769,17 +2769,17 @@ solution of the heat
 equation according to
 Heaviside.
 *** Differential: Lie                                                 :drill:
-    SCHEDULED: <2021-04-20 Tue>
+    SCHEDULED: <2023-10-04 Wed>
     :PROPERTIES:
     :ID:       98d907fb-2dc5-4625-9c93-d89240c16faa
-    :DRILL_LAST_INTERVAL: 376.875
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 896.5856
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-08 Wed 13:29]
+    :DRILL_LAST_REVIEWED: [2021-04-20 Tue 13:43]
     :END:
 How do differential operators /D/
 induce a change of coordinates
@@ -2904,17 +2904,17 @@ These are the unit arrows pointing
 in the direction of constant /y/, ie
 to the right in the normal /x,y/ plane.
 *** Differential						      :drill:
-    SCHEDULED: <2021-04-07 Wed>
+    SCHEDULED: <2021-10-26 Tue>
     :PROPERTIES:
     :ID:       9e335c5e-2c9a-4089-af6c-ff02c2211346
-    :DRILL_LAST_INTERVAL: 178.4484
-    :DRILL_REPEATS_SINCE_FAIL: 15
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 202.0036
+    :DRILL_REPEATS_SINCE_FAIL: 16
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.21
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.2
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-11 Sun 15:55]
+    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:03]
     :END:
 Why are the partial differential 
 operators in the unit directions 
@@ -3412,17 +3412,17 @@ type =a -> b= is inhabited,
 ie there is a function
 =f::a -> b=.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2021-04-08 Thu>
+    SCHEDULED: <2023-10-18 Wed>
     :PROPERTIES:
     :ID:       fe7ec71f-4892-47e9-a3d1-2526ca9174b5
-    :DRILL_LAST_INTERVAL: 454.6601
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 922.5053
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.571
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-09 Thu 13:35]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-08 Thu 15:34]
     :END:
 What is the problem with
 the /bottom type/ =⊥= from
@@ -3609,17 +3609,17 @@ observable /O/ with a /σ/-additive
 state /s/ to obtain /s∘O: *B* → ℝ/
 with /s∘O(ℝ)=1/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-04-22 Thu>
+    SCHEDULED: <2021-06-06 Sun>
     :PROPERTIES:
     :ID:       40e24806-0d5e-4ce7-ad39-93d806d92498
-    :DRILL_LAST_INTERVAL: 29.8123
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 40.1274
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.38
+    :DRILL_AVERAGE_QUALITY: 3.154
+    :DRILL_EASE: 1.24
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-03-23 Tue 13:36]
+    :DRILL_LAST_REVIEWED: [2021-04-27 Tue 15:50]
     :END:
 How are observables on an
 experiment logic related to
@@ -3797,17 +3797,17 @@ ontological uncertainty can always
 be dispelled by a refinement to
 a better theory.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-04-05 Mon>
+    SCHEDULED: <2022-12-04 Sun>
     :PROPERTIES:
     :ID:       8a5d572a-d68f-4870-8614-ebf1e158184b
-    :DRILL_LAST_INTERVAL: 279.9325
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 606.3338
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-29 Mon 13:50]
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:04]
     :END:
 What is the difference between
 epistemic and ontological
@@ -3822,17 +3822,17 @@ uncertainty in nature due to the
 lack of a definite state the system
 is in.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-04-16 Fri>
+    SCHEDULED: <2021-05-23 Sun>
     :PROPERTIES:
     :ID:       794e5218-fd7b-4102-9106-5a5959ba5989
-    :DRILL_LAST_INTERVAL: 24.7852
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_LAST_INTERVAL: 32.543
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 13
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.083
-    :DRILL_EASE: 1.24
+    :DRILL_AVERAGE_QUALITY: 3.077
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-03-22 Mon 08:31]
+    :DRILL_LAST_REVIEWED: [2021-04-20 Tue 13:34]
     :END:
 How is ontological uncertainty
 expressed in a logic describing
@@ -3931,17 +3931,17 @@ even if the component
 states are dispersion free,
 ie in /{0, 1}/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-04-02 Fri>
+    SCHEDULED: <2022-03-08 Tue>
     :PROPERTIES:
     :ID:       5f58a4e9-2fe5-40c7-87bc-a53b3ad7517a
-    :DRILL_LAST_INTERVAL: 215.4847
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 340.2503
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-30 Sun 16:53]
+    :DRILL_LAST_REVIEWED: [2021-04-02 Fri 18:44]
     :END:
 What kinds of logics
 are used to describe
@@ -4111,17 +4111,17 @@ Propositions on *M* are
 the equivalence classes
 of this relation.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-04-04 Sun>
+    SCHEDULED: <2021-07-30 Fri>
     :PROPERTIES:
     :ID:       27839549-1092-4f65-8480-a897666375a0
-    :DRILL_LAST_INTERVAL: 101.0676
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 114.4085
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.072
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.067
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-24 Thu 08:33]
+    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:05]
     :END:
 How is logical implication
 defined on a manual *M*?
@@ -4172,17 +4172,17 @@ If there exists an experiment /E/ in
 *M* for which an event equivalent
 to /A/ occurs upon performance of /E/.
 *** Homotopic Types                                                   :drill:
-    SCHEDULED: <2021-04-21 Wed>
+    SCHEDULED: <2023-10-02 Mon>
     :PROPERTIES:
     :ID:       db4a5604-8b0b-47ea-8419-cbdce8f1af2b
-    :DRILL_LAST_INTERVAL: 437.6605
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 888.0132
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.571
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-02-08 Sat 15:30]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-27 Tue 15:56]
     :END:
 What is special in
 a homotopic type?
@@ -4232,17 +4232,17 @@ Because it evaluates to
 /G (FIX G)/, ie
 /FIX G = G (FIX G)/.
 *** Lambda Calculus                                                   :drill:
-    SCHEDULED: <2021-03-30 Tue>
+    SCHEDULED: <2023-04-29 Sat>
     :PROPERTIES:
     :ID:       33678e69-a2de-40fc-8c82-95421694694c
-    :DRILL_LAST_INTERVAL: 350.946
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 760.149
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-13 Mon 13:54]
+    :DRILL_LAST_REVIEWED: [2021-03-30 Tue 10:47]
     :END:
 How to achieve recursion
 of nameless lambda expressions?
@@ -4337,17 +4337,17 @@ substitutions /E[v:=R]/ only
 affect free occurences of
 variable /v/ in expression /E/.
 *** Lambda Calculus                                                   :drill:
-    SCHEDULED: <2021-03-30 Tue>
+    SCHEDULED: <2023-04-29 Sat>
     :PROPERTIES:
     :ID:       bd987ab8-5623-42d1-9640-36be883320b5
-    :DRILL_LAST_INTERVAL: 350.946
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 760.149
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-13 Mon 13:54]
+    :DRILL_LAST_REVIEWED: [2021-03-30 Tue 10:52]
     :END:
 What is the danger in the
 substitution /(λy.M)[x:=N]/
@@ -4384,17 +4384,17 @@ if new instances of the function
 can be created at run-time, ie
 in lambda expression style.
 *** Linear                                                            :drill:
-    SCHEDULED: <2021-04-28 Wed>
+    SCHEDULED: <2021-12-05 Sun>
     :PROPERTIES:
     :ID:       7c8b230d-cce3-4730-ad36-c71c6fd6e427
-    :DRILL_LAST_INTERVAL: 134.477
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 217.7183
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-15 Tue 20:55]
+    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:32]
     :END:
 How is one sided sequent
 calculus related to two
@@ -4517,17 +4517,17 @@ yields a /B/, which is
 precisely the meaning of
 /A⊸B/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2021-04-26 Mon>
+    SCHEDULED: <2022-01-10 Mon>
     :PROPERTIES:
     :ID:       69f23bbf-4dbd-4076-ad08-6ceb41b2e4ff
-    :DRILL_LAST_INTERVAL: 137.828
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 254.4305
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.167
-    :DRILL_EASE: 1.8
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-12-09 Wed 08:16]
+    :DRILL_AVERAGE_QUALITY: 3.143
+    :DRILL_EASE: 1.66
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:35]
     :END:
 What is the meaning of /A⊗B⊸C/
 in terms of resources?
@@ -4535,17 +4535,17 @@ in terms of resources?
 Resources /A/ and /B/ are both
 consumed to obtain resource /C/.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2021-04-22 Thu>
+    SCHEDULED: <2021-12-01 Wed>
     :PROPERTIES:
     :ID:       c5256523-0c26-40c4-88ae-2388be159f35
-    :DRILL_LAST_INTERVAL: 134.477
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 217.7183
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.66
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-09 Wed 08:15]
+    :DRILL_LAST_REVIEWED: [2021-04-27 Tue 15:56]
     :END:
 In which sense is linear logic
 the logic of resource theories?
@@ -4578,17 +4578,17 @@ is used, /A⊗B/ is the
 conjunction where both
 /A/ and /B/ are used.
 *** Linear Logic                                                      :drill:
-    SCHEDULED: <2021-04-19 Mon>
+    SCHEDULED: <2023-05-18 Thu>
     :PROPERTIES:
     :ID:       8d17b995-7f1c-485d-b3f4-66729d446b88
-    :DRILL_LAST_INTERVAL: 318.6977
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 758.1818
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-04 Thu 16:03]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-20 Tue 13:36]
     :END:
 What is the meaning of
 A⊸B in the resource
@@ -4837,17 +4837,17 @@ propositional logics on
 the set /X={∅}/ by naming
 /0=∅/ and /1={∅}/.
 *** Logic                                                             :drill:
-    SCHEDULED: <2021-04-13 Tue>
+    SCHEDULED: <2022-06-25 Sat>
     :PROPERTIES:
     :ID:       16e0560a-41d3-45d0-a991-7403e51f13dc
-    :DRILL_LAST_INTERVAL: 231.4637
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 437.9293
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-25 Tue 20:29]
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:16]
     :END:
 Why is even propositional
 logic not necessarily about
@@ -4860,17 +4860,17 @@ with interpretation of /∅/
 as /false/ and /{∅}/ as
 /true/.
 *** Logic                                                            :drill:
-    SCHEDULED: <2021-04-10 Sat>
+    SCHEDULED: <2022-09-09 Fri>
     :PROPERTIES:
     :ID:       358e2acf-9025-4e56-915d-737c61da1342
-    :DRILL_LAST_INTERVAL: 237.1408
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 513.647
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-08-16 Sun 18:31]
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:21]
     :END:
 What is the difference between
 propositional and first order
@@ -5553,17 +5553,17 @@ where thruth is not an issue,
 it is a well-formed formula
 with no free variables.
 *** Logic:First Order                                                 :drill:
-    SCHEDULED: <2021-04-25 Sun>
+    SCHEDULED: <2022-04-06 Wed>
     :PROPERTIES:
     :ID:       b4092f06-2077-4906-abf5-afebfbed261d
-    :DRILL_LAST_INTERVAL: 215.4847
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 340.2503
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.52
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-09-22 Tue 17:05]
+    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:31]
     :END:
 What is the language
 of Arithmetic?
@@ -5863,17 +5863,17 @@ where different elements of
 /Bₜ/ possibly denote the same
 relation /a∈Aₜ/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2021-04-09 Fri>
+    SCHEDULED: <2021-05-08 Sat>
     :PROPERTIES:
     :ID:       cb5ef649-d2bd-4603-94ef-8629147b7fb1
-    :DRILL_LAST_INTERVAL: 26.3859
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_LAST_INTERVAL: 29.13
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 17
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.3
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-03-14 Sun 11:58]
+    :DRILL_LAST_REVIEWED: [2021-04-09 Fri 17:52]
     :END:
 What is a higher order
 structure built on a set
@@ -6057,17 +6057,17 @@ over entities of type /t/.
 Thus, entities of type
 /(t)/ are subsets of /Aₜ/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2021-04-17 Sat>
+    SCHEDULED: <2022-10-30 Sun>
     :PROPERTIES:
     :ID:       567c37db-da72-409a-9e98-4dc79c644d4b
-    :DRILL_LAST_INTERVAL: 257.6494
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 558.0686
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-08-02 Sun 15:03]
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-20 Tue 13:39]
     :END:
 Do the sets /Aₜ/ indexed
 by a type /t/ have a type
@@ -6122,17 +6122,17 @@ higher order languages,
 stratification of /K∪{X}/
 is needed as well.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2021-05-01 Sat>
+    SCHEDULED: <2022-10-08 Sat>
     :PROPERTIES:
     :ID:       1651e8cf-7744-46b3-90d6-30e5fc12cfa3
-    :DRILL_LAST_INTERVAL: 248.5969
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 525.2852
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.429
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-25 Tue 20:30]
+    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:31]
     :END:
 What does /K⊢X/ for a 
 set of sentences /K/ and 
@@ -6322,17 +6322,17 @@ symbols, expressions
 of terms have to be added as
 formulas.
 *** Logic:Predicate                                                   :drill:
-    SCHEDULED: <2021-04-01 Thu>
+    SCHEDULED: <2022-07-19 Tue>
     :PROPERTIES:
     :ID:       3a5abf71-73a5-46f9-8b0c-9bd45ed712ec
-    :DRILL_LAST_INTERVAL: 218.264
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 472.7598
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-08-26 Wed 14:30]
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-02 Fri 18:47]
     :END:
 Where do /terms/ come from
 in predicate logic?
@@ -6469,17 +6469,17 @@ If either some formula of
 interpretation or some formula
 of /B/ is satisfied.
 *** Logic: Syntax                                                     :drill:
-    SCHEDULED: <2021-04-15 Thu>
+    SCHEDULED: <2022-02-25 Fri>
     :PROPERTIES:
     :ID:       65882d7c-014f-4ccc-99a1-fb54ae6042b1
-    :DRILL_LAST_INTERVAL: 128.8869
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 311.0041
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.8
-    :DRILL_EASE: 2.32
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-12-07 Mon 09:32]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-20 Tue 13:44]
     :END:
 When are variables absolutely
 needed in a logic?
@@ -6689,17 +6689,17 @@ applying the rules
 (free operators) of the
 theory.
 *** Resources: Quantum                                                :drill:
-    SCHEDULED: <2021-04-06 Tue>
+    SCHEDULED: <2021-09-27 Mon>
     :PROPERTIES:
     :ID:       2ea2bded-78eb-4ae3-af93-15282ac14a36
-    :DRILL_LAST_INTERVAL: 91.3023
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 172.744
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:54]
+    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:01]
     :END:
   What are the
   resources in a
@@ -6711,17 +6711,17 @@ theory.
   an allowable physical
   process.
 *** Resources: Quantum                                                :drill:
-    SCHEDULED: <2021-04-11 Sun>
+    SCHEDULED: <2021-11-02 Tue>
     :PROPERTIES:
     :ID:       2007551f-74ca-4180-8cc0-5e40d6cbc6f5
-    :DRILL_LAST_INTERVAL: 95.9256
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 202.6908
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:53]
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:18]
     :END:
   Why is entanglement
   often considered a
@@ -6736,17 +6736,17 @@ theory.
   location, so they can't
   create entanglement.
 *** Resources: Quantum                                                :drill:
-    SCHEDULED: <2021-04-06 Tue>
+    SCHEDULED: <2021-09-27 Mon>
     :PROPERTIES:
     :ID:       4e31f6a9-e2e4-4089-ac7e-035c68ceb312
-    :DRILL_LAST_INTERVAL: 91.3023
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 172.744
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-05 Tue 09:52]
+    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:00]
     :END:
   What is the
   significance of
@@ -7529,17 +7529,17 @@ If /B(x)≡B/ is the constant
 family then
 /∏(x:A),B(x)≡(A→B)/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-04-21 Wed>
+    SCHEDULED: <2021-08-03 Tue>
     :PROPERTIES:
     :ID:       4f522476-5489-4ecf-b30d-f450793a8ca4
-    :DRILL_LAST_INTERVAL: 85.377
-    :DRILL_REPEATS_SINCE_FAIL: 17
-    :DRILL_TOTAL_REPEATS: 23
+    :DRILL_LAST_INTERVAL: 94.2562
+    :DRILL_REPEATS_SINCE_FAIL: 18
+    :DRILL_TOTAL_REPEATS: 24
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.086
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.082
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-26 Tue 11:25]
+    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:31]
     :END:
 How are predicates
 constructed in type theory?
@@ -7599,17 +7599,17 @@ as compared to the one of
 first order logic
 /⊢ A/ "A has a proof".
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-03-31 Wed>
+    SCHEDULED: <2021-09-04 Sat>
     :PROPERTIES:
     :ID:       492e384d-9355-491d-812c-b50a75dac1ea
-    :DRILL_LAST_INTERVAL: 136.898
-    :DRILL_REPEATS_SINCE_FAIL: 15
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 154.9685
+    :DRILL_REPEATS_SINCE_FAIL: 16
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.104
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.099
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-11-14 Sat 16:39]
+    :DRILL_LAST_REVIEWED: [2021-04-02 Fri 18:46]
     :END:
 What is /judgemental/
 equality?
@@ -8074,17 +8074,17 @@ the likelihood dominates the
 prior, the posterior is close
 to the likelihood.
 *** Bayes                                                             :drill:
-    SCHEDULED: <2021-04-07 Wed>
+    SCHEDULED: <2021-05-31 Mon>
     :PROPERTIES:
     :ID:       211663bc-0150-436d-914b-ae444102b5b7
-    :DRILL_LAST_INTERVAL: 49.1037
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 54.2105
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.067
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.063
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-02-17 Wed 21:50]
+    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:01]
     :END:
 What's the point of
 maximum-likelihood
@@ -8123,17 +8123,17 @@ of someone who has no strong
 opinions on the unknown
 parameters.
 *** Bayes                                                             :drill:
-    SCHEDULED: <2021-04-16 Fri>
+    SCHEDULED: <2022-05-14 Sat>
     :PROPERTIES:
     :ID:       3f80b667-30d9-4267-90f8-09fc421cfa67
-    :DRILL_LAST_INTERVAL: 205.5545
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 388.9091
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.285
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-09-22 Tue 17:08]
+    :DRILL_LAST_REVIEWED: [2021-04-20 Tue 13:37]
     :END:
  Where to get the
  likelihood function
@@ -8560,17 +8560,17 @@ on ~N~ for which all
 ~B~ a Borel set of the under-
 lying space become measurable.
 *** Processes                                                         :drill:
-    SCHEDULED: <2021-04-05 Mon>
+    SCHEDULED: <2022-12-08 Thu>
     :PROPERTIES:
     :ID:       d85e0e70-e2b5-4949-a398-bd2124cebe16
-    :DRILL_LAST_INTERVAL: 386.1796
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 609.7776
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-03-15 Sun 14:01]
+    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:01]
     :END:
 What is a point process?
 **** Answer:
@@ -9377,17 +9377,17 @@ This works only if multiplication
 is defined as /a⊗b=a+b/ and 
 summation as /a⊕b=min{a,b}/.
 *** Matrices                                                          :drill:
-    SCHEDULED: <2021-04-12 Mon>
+    SCHEDULED: <2023-08-02 Wed>
     :PROPERTIES:
     :ID:       2f6c2036-aca0-49db-9e7b-cc9a10ed5d35
-    :DRILL_LAST_INTERVAL: 444.6325
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 841.2447
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.428
-    :DRILL_EASE: 1.94
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-01-23 Thu 14:34]
+    :DRILL_AVERAGE_QUALITY: 3.374
+    :DRILL_EASE: 1.8
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-04-13 Tue 13:17]
     :END:
 What is the most natural
 interpretation of matrix
