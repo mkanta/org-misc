@@ -779,17 +779,17 @@ Note that the inner product
 /⟨a,b⟩/ would be mapped to 
 /tr(AB)/.
 *** Linear Algebra: Matrices                                          :drill:
-    SCHEDULED: <2021-05-16 Sun>
+    SCHEDULED: <2023-12-15 Fri>
     :PROPERTIES:
     :ID:       6f7778a0-8c86-4e0c-8eec-c72a9d8cbd08
-    :DRILL_LAST_INTERVAL: 390.625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 942.1875
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-20 Mon 12:53]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-05-17 Mon 22:25]
     :END:
 How does the idea of
 using the trace of a
@@ -1940,17 +1940,17 @@ coordinates.
   It means that all its eigenvalues
   are non-negative.
 *** p-adic numbers						      :drill:
-    SCHEDULED: <2021-05-23 Sun>
+    SCHEDULED: <2021-11-08 Mon>
     :PROPERTIES:
     :ID:       6b76eb5b-5272-43cc-bc15-ca08c97ca9a5
-    :DRILL_LAST_INTERVAL: 150.3171
-    :DRILL_REPEATS_SINCE_FAIL: 17
-    :DRILL_TOTAL_REPEATS: 22
+    :DRILL_LAST_INTERVAL: 168.2048
+    :DRILL_REPEATS_SINCE_FAIL: 18
+    :DRILL_TOTAL_REPEATS: 23
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.047
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.045
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-24 Thu 08:32]
+    :DRILL_LAST_REVIEWED: [2021-05-24 Mon 20:30]
     :END:
 What is the ring of /p/-adic integers?
 **** Answer:
@@ -3822,17 +3822,17 @@ uncertainty in nature due to the
 lack of a definite state the system
 is in.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-05-23 Sun>
+    SCHEDULED: <2021-07-04 Sun>
     :PROPERTIES:
     :ID:       794e5218-fd7b-4102-9106-5a5959ba5989
-    :DRILL_LAST_INTERVAL: 32.543
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_LAST_INTERVAL: 40.8089
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 14
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.077
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.072
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-04-20 Tue 13:34]
+    :DRILL_LAST_REVIEWED: [2021-05-24 Mon 20:31]
     :END:
 How is ontological uncertainty
 expressed in a logic describing
@@ -4191,17 +4191,17 @@ Not only the type itself
 is of importance but also
 its equality types.
 *** Lambda Calculus                                                   :drill:
-    SCHEDULED: <2021-05-16 Sun>
+    SCHEDULED: <2023-12-15 Fri>
     :PROPERTIES:
     :ID:       66e86f2a-ba6a-43fd-bdad-252965f5e94d
-    :DRILL_LAST_INTERVAL: 390.625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 942.1875
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-20 Mon 12:54]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-05-17 Mon 22:25]
     :END:
 In what sense is recursion
 of a function by calling itself
@@ -4749,17 +4749,17 @@ that logic is provable
 using its axioms and rules
 of inference.
 *** Logic                                                             :drill:
-    SCHEDULED: <2021-05-19 Wed>
+    SCHEDULED: <2022-11-22 Tue>
     :PROPERTIES:
     :ID:       abe7d999-82be-41bb-93af-5acd6d492955
-    :DRILL_LAST_INTERVAL: 257.6494
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 551.885
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-09-03 Thu 17:37]
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-05-19 Wed 09:25]
     :END:
 Why is it a bad idea
 to introduce logic
@@ -5193,17 +5193,17 @@ What is a /combinator/?
 A name /φ:A→B/ for a proof of
 sequent /A⊦B/.
 *** Logic: Category                                                   :drill:
-    SCHEDULED: <2021-05-24 Mon>
+    SCHEDULED: <2021-09-12 Sun>
     :PROPERTIES:
     :ID:       ec6069e1-f4fb-4b42-be0f-013251bfad8a
-    :DRILL_LAST_INTERVAL: 71.4882
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_LAST_INTERVAL: 110.5208
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 12
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.182
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-03-14 Sun 12:15]
+    :DRILL_LAST_REVIEWED: [2021-05-24 Mon 20:29]
     :END:
   How are logics
   related to categories?
@@ -7272,17 +7272,17 @@ theoretically?
 As a family of types
 /P:ℕ→𝒰/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-05-23 Sun>
+    SCHEDULED: <2021-11-02 Tue>
     :PROPERTIES:
     :ID:       628fe854-e0ef-4657-853c-b9dc7d05f346
-    :DRILL_LAST_INTERVAL: 145.1549
-    :DRILL_REPEATS_SINCE_FAIL: 14
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 162.4283
+    :DRILL_REPEATS_SINCE_FAIL: 15
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.057
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.054
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-12-29 Tue 14:06]
+    :DRILL_LAST_REVIEWED: [2021-05-24 Mon 20:30]
     :END:
 What are the elimination
 rules for the product
@@ -7709,17 +7709,17 @@ logic. Type theory only has
 identified with particular 
 types.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-05-16 Sun>
+    SCHEDULED: <2021-12-23 Thu>
     :PROPERTIES:
     :ID:       8a817f89-30e2-49ee-8fae-d3dad4d3bbc9
-    :DRILL_LAST_INTERVAL: 109.5567
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 219.8803
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-26 Tue 11:25]
+    :DRILL_LAST_REVIEWED: [2021-05-17 Mon 22:24]
     :END:
   In which way are
   intuitionist and
@@ -7730,17 +7730,17 @@ types.
   outcome or measurement is
   like obtaining a proof.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-05-16 Sun>
+    SCHEDULED: <2021-12-23 Thu>
     :PROPERTIES:
     :ID:       b3ced9e5-e5ed-4c2c-bd26-9d006011b067
-    :DRILL_LAST_INTERVAL: 109.5567
-    :DRILL_REPEATS_SINCE_FAIL: 6
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 219.8803
+    :DRILL_REPEATS_SINCE_FAIL: 7
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.4
-    :DRILL_EASE: 2.08
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-01-26 Tue 18:07]
+    :DRILL_LAST_REVIEWED: [2021-05-17 Mon 22:24]
     :END:
   What is the difference
   between experimental and
@@ -8986,17 +8986,17 @@ indicates a good match. Think of
 /Rₚₜ/ as another picture describing
 the template match.
 *** Image Recognition: Matching                                       :drill:
-    SCHEDULED: <2021-05-21 Fri>
+    SCHEDULED: <2023-12-19 Tue>
     :PROPERTIES:
     :ID:       4f7633c4-37ad-4bef-a09f-ae015fca72f3
-    :DRILL_LAST_INTERVAL: 390.625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 942.1875
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-25 Sat 15:49]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-05-21 Fri 11:57]
     :END:
 Why can the term /∑ᵢⱼg²(i,j)/ in
 the expanded square of
@@ -9011,17 +9011,17 @@ with regards to the template
 /t(i-m,j-n)/ having to be inside 
 the picture.
 *** Image Recognition: Matching                                       :drill:
-    SCHEDULED: <2021-05-21 Fri>
+    SCHEDULED: <2023-12-19 Tue>
     :PROPERTIES:
     :ID:       9dec4862-96d0-441f-be07-57f9d4903918
-    :DRILL_LAST_INTERVAL: 390.625
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 942.1875
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-25 Sat 15:51]
+    :DRILL_AVERAGE_QUALITY: 3.857
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-05-21 Fri 11:56]
     :END:
 Why is the cross-correlation
 between an image and a template
