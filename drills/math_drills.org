@@ -319,17 +319,17 @@ to the category of sets:
 a covariant functor
 /σ:Δᵒᵖ→Set/.
 *** Categories                                                        :drill:
-    SCHEDULED: <2021-07-25 Sun>
+    SCHEDULED: <2022-02-01 Tue>
     :PROPERTIES:
     :ID:       50d70dcb-b8fb-45b2-968b-571734bf2d04
-    :DRILL_LAST_INTERVAL: 170.5026
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 18
+    :DRILL_LAST_INTERVAL: 190.7924
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 19
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.278
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.263
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-02-04 Thu 13:40]
+    :DRILL_LAST_REVIEWED: [2021-07-25 Sun 09:09]
     :END:
 How to construct a category
 from simplicial sets?
@@ -362,17 +362,17 @@ topological space form
 a (complete) Heyting
 algebra.
 *** Heyting Algebra                                                   :drill:
-    SCHEDULED: <2021-08-01 Sun>
+    SCHEDULED: <2023-08-09 Wed>
     :PROPERTIES:
     :ID:       b2e22552-6db7-4b2e-bd4f-07efad2f6622
-    :DRILL_LAST_INTERVAL: 315.1169
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 733.5921
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-09-20 Sun 22:27]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:17]
     :END:
 Why are Heyting Algebras
 of interest in logic?
@@ -615,17 +615,17 @@ only non-degenerate eigenvalues
 then every eigenbasis of /A/ is
 also an eigenbasis of /B/.
 *** Linear Algebra                                                    :drill:
-    SCHEDULED: <2021-07-06 Tue>
+    SCHEDULED: <2024-01-16 Tue>
     :PROPERTIES:
     :ID:       0947798a-ec04-476e-a0a1-18380b77d054
-    :DRILL_LAST_INTERVAL: 437.6605
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 904.6443
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.571
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-04-24 Fri 14:31]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-07-25 Sun 09:07]
     :END:
 What is the meaning
 of permutation-like 
@@ -2539,17 +2539,17 @@ a scaling function /φ(x)=∑γₛₜψₛₜ(x)/
 that covers the scales /s≥s₀/ for
 some suitably chosen cut-off /s₀/.
 *** Wavelets                                                          :drill:
-    SCHEDULED: <2021-08-01 Sun>
+    SCHEDULED: <2023-05-28 Sun>
     :PROPERTIES:
     :ID:       38842b93-bd5c-4d8c-8d72-13badc8103b8
-    :DRILL_LAST_INTERVAL: 297.5857
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 660.6403
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.715
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-07 Wed 16:12]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:17]
     :END:
 Why is a wavelet not
 directly useable as a
@@ -3368,17 +3368,17 @@ Construct the type corresponding
 to the theorem and find a value
 that has that type.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2021-08-02 Mon>
+    SCHEDULED: <2023-06-15 Thu>
     :PROPERTIES:
     :ID:       7c3adb87-fa54-4399-aff1-23f35aca4797
-    :DRILL_LAST_INTERVAL: 408.8947
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 678.7652
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-19 Fri 14:43]
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:18]
     :END:
 Why is there no function
 =f::a->b= in Haskell?
@@ -3455,17 +3455,17 @@ Haskell syntax where =Void= is an
 empty data-type, ie. one 
 without a constructor.
 *** Curry Howard                                                      :drill:
-    SCHEDULED: <2021-07-03 Sat>
+    SCHEDULED: <2023-03-12 Sun>
     :PROPERTIES:
     :ID:       beaeb7c9-f556-49dc-9d26-e9f2844b032b
-    :DRILL_LAST_INTERVAL: 384.8616
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 594.996
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.52
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-06-13 Sat 15:36]
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.38
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-07-25 Sun 09:08]
     :END:
 Why is the logic corresponding 
 to the standard /λ/ calculus
@@ -3609,17 +3609,17 @@ observable /O/ with a /σ/-additive
 state /s/ to obtain /s∘O: *B* → ℝ/
 with /s∘O(ℝ)=1/.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-07-28 Wed>
+    SCHEDULED: <2021-09-21 Tue>
     :PROPERTIES:
     :ID:       40e24806-0d5e-4ce7-ad39-93d806d92498
-    :DRILL_LAST_INTERVAL: 48.0325
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_LAST_INTERVAL: 55.4775
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 15
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.133
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-06-10 Thu 11:08]
+    :DRILL_LAST_REVIEWED: [2021-07-28 Wed 18:12]
     :END:
 How are observables on an
 experiment logic related to
@@ -3886,17 +3886,17 @@ is in a state represented by
 one of the mixing components but 
 it is not known in which one.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-07-27 Tue>
+    SCHEDULED: <2023-08-19 Sat>
     :PROPERTIES:
     :ID:       6d0fdbc3-41fa-43d5-b07f-c266692b085e
-    :DRILL_LAST_INTERVAL: 350.946
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 751.7263
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:36]
+    :DRILL_LAST_REVIEWED: [2021-07-28 Wed 18:10]
     :END:
 What is a dispersion free
 state on a logic?
@@ -3906,17 +3906,17 @@ that assigns 0 or 1 to
 every proposition of the
 logic.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-07-27 Tue>
+    SCHEDULED: <2023-08-19 Sat>
     :PROPERTIES:
     :ID:       930d6632-149e-4f9e-99c3-90d6cf1115ac
-    :DRILL_LAST_INTERVAL: 350.946
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 751.7263
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-10 Mon 16:38]
+    :DRILL_LAST_REVIEWED: [2021-07-28 Wed 18:12]
     :END:
 How is probability
 modeled in experimental
@@ -4111,17 +4111,17 @@ Propositions on *M* are
 the equivalence classes
 of this relation.
 *** Experiments                                                       :drill:
-    SCHEDULED: <2021-07-30 Fri>
+    SCHEDULED: <2021-12-07 Tue>
     :PROPERTIES:
     :ID:       27839549-1092-4f65-8480-a897666375a0
-    :DRILL_LAST_INTERVAL: 114.4085
-    :DRILL_REPEATS_SINCE_FAIL: 11
-    :DRILL_TOTAL_REPEATS: 15
+    :DRILL_LAST_INTERVAL: 123.5612
+    :DRILL_REPEATS_SINCE_FAIL: 12
+    :DRILL_TOTAL_REPEATS: 16
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.067
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.063
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-04-07 Wed 10:05]
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:17]
     :END:
 How is logical implication
 defined on a manual *M*?
@@ -4795,17 +4795,17 @@ logics don't have models, they
 only have valuations of the
 propositional variables.
 *** Logic                                                             :drill:
-    SCHEDULED: <2021-07-26 Mon>
+    SCHEDULED: <2023-08-01 Tue>
     :PROPERTIES:
     :ID:       123f2923-2cca-4564-a7f2-d2a5a33444b1
-    :DRILL_LAST_INTERVAL: 315.1169
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 733.5921
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-09-14 Mon 19:37]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-07-28 Wed 18:10]
     :END:
 How are models for propositional
 logics constructed?
@@ -5863,17 +5863,17 @@ where different elements of
 /Bₜ/ possibly denote the same
 relation /a∈Aₜ/.
 *** Logic:Higher Order                                                :drill:
-    SCHEDULED: <2021-07-25 Sun>
+    SCHEDULED: <2021-09-09 Thu>
     :PROPERTIES:
     :ID:       cb5ef649-d2bd-4603-94ef-8629147b7fb1
-    :DRILL_LAST_INTERVAL: 41.3509
-    :DRILL_REPEATS_SINCE_FAIL: 13
-    :DRILL_TOTAL_REPEATS: 19
+    :DRILL_LAST_INTERVAL: 46.2717
+    :DRILL_REPEATS_SINCE_FAIL: 14
+    :DRILL_TOTAL_REPEATS: 20
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 1.16
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-06-14 Mon 12:33]
+    :DRILL_LAST_REVIEWED: [2021-07-25 Sun 09:09]
     :END:
 What is a higher order
 structure built on a set
@@ -6248,17 +6248,17 @@ and
 |-------|
 | Γ⊢Ψ   |
 *** Logic:Propositional                                               :drill:
-    SCHEDULED: <2021-07-30 Fri>
+    SCHEDULED: <2023-08-09 Wed>
     :PROPERTIES:
     :ID:       4eb67402-703e-4aac-9cf7-5a9ab052fd7b
-    :DRILL_LAST_INTERVAL: 315.1169
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 733.5921
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.833
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2020-09-18 Fri 20:05]
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:16]
     :END:
 What does it mean for
 two formulas of propositional
@@ -7450,17 +7450,17 @@ rules for a type?
 These are the constructors
 of a type.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-07-27 Tue>
+    SCHEDULED: <2023-04-12 Wed>
     :PROPERTIES:
     :ID:       27ccbe6d-3929-49de-9335-f64a8e5258af
-    :DRILL_LAST_INTERVAL: 398.3149
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 622.5662
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.25
-    :DRILL_EASE: 1.62
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2020-06-24 Wed 14:54]
+    :DRILL_AVERAGE_QUALITY: 3.222
+    :DRILL_EASE: 1.48
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2021-07-28 Wed 18:12]
     :END:
 What are the eliminators
 of a type?
@@ -7509,17 +7509,17 @@ as functions whose return type
 /B(x)/ depends on its argument 
 type /x/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-07-28 Wed>
+    SCHEDULED: <2023-03-30 Thu>
     :PROPERTIES:
     :ID:       7ff87fff-3fca-45ac-9c07-b4772c148665
-    :DRILL_LAST_INTERVAL: 394.608
-    :DRILL_REPEATS_SINCE_FAIL: 9
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 610.064
+    :DRILL_REPEATS_SINCE_FAIL: 10
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.125
-    :DRILL_EASE: 1.52
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 1.38
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-06-28 Sun 14:36]
+    :DRILL_LAST_REVIEWED: [2021-07-28 Wed 18:12]
     :END:
 How is the dependent function
 type /∏(x:A),B(x):𝒰/ related to
@@ -7529,17 +7529,17 @@ If /B(x)≡B/ is the constant
 family then
 /∏(x:A),B(x)≡(A→B)/.
 *** Type Theory                                                       :drill:
-    SCHEDULED: <2021-08-03 Tue>
+    SCHEDULED: <2021-11-18 Thu>
     :PROPERTIES:
     :ID:       4f522476-5489-4ecf-b30d-f450793a8ca4
-    :DRILL_LAST_INTERVAL: 94.2562
-    :DRILL_REPEATS_SINCE_FAIL: 18
-    :DRILL_TOTAL_REPEATS: 24
+    :DRILL_LAST_INTERVAL: 105.4727
+    :DRILL_REPEATS_SINCE_FAIL: 19
+    :DRILL_TOTAL_REPEATS: 25
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.082
-    :DRILL_EASE: 1.16
+    :DRILL_AVERAGE_QUALITY: 3.079
+    :DRILL_EASE: 1.3
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-05-01 Sat 16:31]
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:18]
     :END:
 How are predicates
 constructed in type theory?
@@ -7968,17 +7968,17 @@ current vertex
 /x=(x₁,…,xₙ)/ that becomes
 zero in the next iteration.
 *** Simplex Method                                                    :drill:
-    SCHEDULED: <2021-07-16 Fri>
+    SCHEDULED: <2023-11-03 Fri>
     :PROPERTIES:
     :ID:       08c7e9aa-175a-4c2f-8f50-df303e3f9818
-    :DRILL_LAST_INTERVAL: 443.6563
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 830.5246
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.429
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 3.375
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-04-28 Tue 14:04]
+    :DRILL_LAST_REVIEWED: [2021-07-25 Sun 09:08]
     :END:
 What is an entering
 variable?
@@ -8074,17 +8074,17 @@ the likelihood dominates the
 prior, the posterior is close
 to the likelihood.
 *** Bayes                                                             :drill:
-    SCHEDULED: <2021-08-02 Mon>
+    SCHEDULED: <2021-10-10 Sun>
     :PROPERTIES:
     :ID:       211663bc-0150-436d-914b-ae444102b5b7
-    :DRILL_LAST_INTERVAL: 60.6615
-    :DRILL_REPEATS_SINCE_FAIL: 10
-    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_LAST_INTERVAL: 65.5144
+    :DRILL_REPEATS_SINCE_FAIL: 11
+    :DRILL_TOTAL_REPEATS: 18
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.059
-    :DRILL_EASE: 1.3
+    :DRILL_AVERAGE_QUALITY: 3.056
+    :DRILL_EASE: 1.16
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2021-06-02 Wed 11:12]
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:19]
     :END:
 What's the point of
 maximum-likelihood
@@ -8144,17 +8144,17 @@ is determined by the
 distribution of the
 data.
 *** Bayes                                                             :drill:
-    SCHEDULED: <2021-08-05 Thu>
+    SCHEDULED: <2023-05-04 Thu>
     :PROPERTIES:
     :ID:       86583197-f755-463d-b7ec-b34424ff842d
-    :DRILL_LAST_INTERVAL: 297.5857
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 637.4286
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-11 Sun 15:56]
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:20]
     :END:
 What is the interpretation
 of /p(X|θ)/ in /p(θ|X)∝p(X|θ)p(θ)/?
@@ -8398,17 +8398,17 @@ random variable whose outcome is
 the expectation /E(X|Y=y₀)/
 when /Y/ has outcome /y₀/.
 *** Distributions:Conditional                                         :drill:
-    SCHEDULED: <2021-08-05 Thu>
+    SCHEDULED: <2023-05-04 Thu>
     :PROPERTIES:
     :ID:       b9b58ee2-4576-4e83-a3c6-15f114d1634e
-    :DRILL_LAST_INTERVAL: 297.5857
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 637.4286
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-11 Sun 15:57]
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:19]
     :END:
 What are the meanings of
 /p(X|θ)/?
@@ -8627,17 +8627,17 @@ essentially a random variable
 with values in ~E~ and not just
 in ~ℝ~.
 *** Random Generation                                                 :drill:
-    SCHEDULED: <2021-08-05 Thu>
+    SCHEDULED: <2023-05-04 Thu>
     :PROPERTIES:
     :ID:       9ae62407-ff33-4423-b983-993e9a9f8d52
-    :DRILL_LAST_INTERVAL: 297.5857
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 637.4286
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-10-11 Sun 15:55]
+    :DRILL_LAST_REVIEWED: [2021-08-05 Thu 08:18]
     :END:
 What is Markov Chain
 Monte Carlo (MCMC) all
@@ -8774,17 +8774,17 @@ that components are identical or
 linearly related, a feature indicating
 poor design.
 *** Classification                                                    :drill:
-    SCHEDULED: <2021-07-27 Tue>
+    SCHEDULED: <2023-02-09 Thu>
     :PROPERTIES:
     :ID:       6485dccd-023c-4a17-9ce3-1c7098eabdd3
-    :DRILL_LAST_INTERVAL: 350.3282
-    :DRILL_REPEATS_SINCE_FAIL: 8
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 561.2258
+    :DRILL_REPEATS_SINCE_FAIL: 9
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.143
-    :DRILL_EASE: 1.66
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 1.52
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-08-11 Tue 15:01]
+    :DRILL_LAST_REVIEWED: [2021-07-28 Wed 18:11]
     :END:
 Why is the classification of
 a feature vector *x* as belonging
@@ -9105,17 +9105,17 @@ updated via
 where /r:S×A→ℝ/ is the reward function
 for taking action /a/ in state /s/.
 *** Learning:Q                                                        :drill:
-    SCHEDULED: <2021-07-28 Wed>
+    SCHEDULED: <2023-04-30 Sun>
     :PROPERTIES:
     :ID:       5c91173d-411d-4bac-a648-384d8612d08d
-    :DRILL_LAST_INTERVAL: 304.8531
-    :DRILL_REPEATS_SINCE_FAIL: 7
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 641.4109
+    :DRILL_REPEATS_SINCE_FAIL: 8
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.18
+    :DRILL_AVERAGE_QUALITY: 3.572
+    :DRILL_EASE: 2.04
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2020-09-26 Sat 15:32]
+    :DRILL_LAST_REVIEWED: [2021-07-28 Wed 18:12]
     :END:
 Why is the update of the /Q/
 function often given as
